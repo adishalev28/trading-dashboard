@@ -9,12 +9,13 @@ import { fmtUsd, fmtPct } from "@/lib/formatters";
 import { sortTickers } from "@/lib/screener";
 
 const columns = [
-  { key: "ticker",           label: "Ticker",     align: "left" },
-  { key: "price",            label: "Price",      align: "right" },
-  { key: "trend",            label: "Trend",      align: "center", sortable: false },
-  { key: "rsScore",          label: "RS Score",   align: "left" },
-  { key: "vcpStatus",        label: "VCP",        align: "center", sortable: false },
-  { key: "weekHighDistance", label: "From 52W",   align: "right" },
+  { key: "ticker",           label: "Ticker",    align: "left" },
+  { key: "price",            label: "Price",     align: "right" },
+  { key: "trend",            label: "Trend",     align: "center", sortable: false },
+  { key: "rsScore",          label: "RS Score",  align: "left" },
+  { key: "volumePctAvg",     label: "Vol %",     align: "right" },
+  { key: "vcpStatus",        label: "VCP",       align: "center", sortable: false },
+  { key: "weekHighDistance", label: "Dist 52W",  align: "right" },
 ];
 
 /**
@@ -84,6 +85,16 @@ export default function Stage2Table({ tickers, limit }) {
               </td>
               <td className="px-4 py-3">
                 <RSBar score={t.rsScore} compact />
+              </td>
+              <td className={`px-4 py-3 text-right font-mono-nums ${
+                // Volume color coding:
+                // >120% = breakout volume (emerald)
+                // 80-120% = normal/healthy (slate)
+                // <80% = contraction (amber — good for VCP, neutral signal)
+                (t.volumePctAvg ?? 100) > 120 ? "text-emerald-400" :
+                (t.volumePctAvg ?? 100) < 80 ? "text-amber-400" : "text-slate-300"
+              }`}>
+                {Math.round(t.volumePctAvg ?? 100)}%
               </td>
               <td className="px-4 py-3 text-center">
                 <VCPBadge status={t.vcpStatus} />
