@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "generatedAt": "2026-04-11",
+    "source": "mock",
+    "note": "Replace with /api/screener output when live data is wired"
+  },
+  "fxRate": 3.7,
+  "commissionRoundTripUsd": 14,
+  "sectors": [
+    { "symbol": "XLK",  "name": "Technology",             "changePct":  1.82, "strengthScore": 92, "marketCap": 18400 },
+    { "symbol": "XLV",  "name": "Healthcare",             "changePct": -0.34, "strengthScore": 58, "marketCap":  7200 },
+    { "symbol": "XLF",  "name": "Financials",             "changePct":  0.71, "strengthScore": 74, "marketCap":  8900 },
+    { "symbol": "XLE",  "name": "Energy",                 "changePct":  2.15, "strengthScore": 81, "marketCap":  2100 },
+    { "symbol": "XLI",  "name": "Industrials",            "changePct":  0.42, "strengthScore": 66, "marketCap":  4800 },
+    { "symbol": "XLY",  "name": "Consumer Discretionary", "changePct":  1.10, "strengthScore": 77, "marketCap":  6300 },
+    { "symbol": "XLP",  "name": "Consumer Staples",       "changePct": -0.18, "strengthScore": 44, "marketCap":  3700 },
+    { "symbol": "XLB",  "name": "Materials",              "changePct":  0.55, "strengthScore": 61, "marketCap":  1500 },
+    { "symbol": "XLU",  "name": "Utilities",              "changePct": -0.67, "strengthScore": 31, "marketCap":  1600 },
+    { "symbol": "XLRE", "name": "Real Estate",            "changePct": -1.02, "strengthScore": 28, "marketCap":  1300 },
+    { "symbol": "XLC",  "name": "Communication Services", "changePct":  1.48, "strengthScore": 85, "marketCap":  5400 }
+  ],
+  "tickers": [
+    { "ticker": "NVDA", "companyName": "NVIDIA",              "price": 142.50, "sma150": 120.80, "sma200": 112.40, "rsScore": 98, "vcpStatus": "tight", "weekHighDistance":  1.2, "marketCap": 3500, "sector": "Technology" },
+    { "ticker": "META", "companyName": "Meta Platforms",      "price": 612.30, "sma150": 560.10, "sma200": 534.80, "rsScore": 89, "vcpStatus": "tight", "weekHighDistance":  2.8, "marketCap": 1550, "sector": "Communication Services" },
+    { "ticker": "AVGO", "companyName": "Broadcom",            "price": 180.45, "sma150": 164.20, "sma200": 155.70, "rsScore": 92, "vcpStatus": "tight", "weekHighDistance":  0.8, "marketCap":  840, "sector": "Technology" },
+    { "ticker": "TSM",  "companyName": "Taiwan Semiconductor", "price": 205.10, "sma150": 188.40, "sma200": 178.90, "rsScore": 91, "vcpStatus": "loose", "weekHighDistance":  3.5, "marketCap":  900, "sector": "Technology" },
+    { "ticker": "CRM",  "companyName": "Salesforce",          "price": 348.90, "sma150": 310.20, "sma200": 295.60, "rsScore": 82, "vcpStatus": "tight", "weekHighDistance":  1.9, "marketCap":  330, "sector": "Technology" },
+    { "ticker": "ANET", "companyName": "Arista Networks",     "price": 422.60, "sma150": 390.10, "sma200": 371.40, "rsScore": 87, "vcpStatus": "tight", "weekHighDistance":  2.1, "marketCap":  130, "sector": "Technology" },
+    { "ticker": "PLTR", "companyName": "Palantir",            "price":  78.20, "sma150":  62.40, "sma200":  54.10, "rsScore": 99, "vcpStatus": "loose", "weekHighDistance":  4.2, "marketCap":  180, "sector": "Technology" },
+    { "ticker": "NFLX", "companyName": "Netflix",             "price": 920.40, "sma150": 840.20, "sma200": 795.60, "rsScore": 88, "vcpStatus": "tight", "weekHighDistance":  0.5, "marketCap":  395, "sector": "Communication Services" },
+    { "ticker": "COST", "companyName": "Costco",              "price": 980.10, "sma150": 920.40, "sma200": 885.20, "rsScore": 76, "vcpStatus": "tight", "weekHighDistance":  1.8, "marketCap":  435, "sector": "Consumer Staples" },
+    { "ticker": "LLY",  "companyName": "Eli Lilly",           "price": 845.30, "sma150": 820.10, "sma200": 795.50, "rsScore": 72, "vcpStatus": "loose", "weekHighDistance":  6.1, "marketCap":  780, "sector": "Healthcare" },
+    { "ticker": "AXON", "companyName": "Axon Enterprise",     "price": 612.40, "sma150": 560.80, "sma200": 520.10, "rsScore": 90, "vcpStatus": "tight", "weekHighDistance":  1.1, "marketCap":   45, "sector": "Industrials" },
+    { "ticker": "CEG",  "companyName": "Constellation Energy", "price": 285.70, "sma150": 258.30, "sma200": 240.40, "rsScore": 84, "vcpStatus": "loose", "weekHighDistance":  4.8, "marketCap":   90, "sector": "Utilities" },
+    { "ticker": "VST",  "companyName": "Vistra",              "price": 168.50, "sma150": 148.20, "sma200": 135.70, "rsScore": 86, "vcpStatus": "tight", "weekHighDistance":  2.2, "marketCap":   57, "sector": "Utilities" },
+    { "ticker": "SHOP", "companyName": "Shopify",             "price":  98.40, "sma150":  92.10, "sma200":  88.30, "rsScore": 79, "vcpStatus": "tight", "weekHighDistance":  3.8, "marketCap":  125, "sector": "Technology" },
+    { "ticker": "AMD",  "companyName": "AMD",                 "price": 148.30, "sma150": 152.10, "sma200": 149.80, "rsScore": 48, "vcpStatus": "none",  "weekHighDistance": 18.5, "marketCap":  240, "sector": "Technology" },
+    { "ticker": "IBKR", "companyName": "Interactive Brokers", "price": 195.80, "sma150": 172.40, "sma200": 158.90, "rsScore": 88, "vcpStatus": "tight", "weekHighDistance":  1.6, "marketCap":   84, "sector": "Financials" },
+    { "ticker": "SMCI", "companyName": "Super Micro Computer", "price":  68.20, "sma150":  52.30, "sma200":  48.70, "rsScore": 94, "vcpStatus": "tight", "weekHighDistance":  2.4, "marketCap":   40, "sector": "Technology" },
+    { "ticker": "HIMS", "companyName": "Hims & Hers Health",  "price":  38.50, "sma150":  32.10, "sma200":  28.60, "rsScore": 91, "vcpStatus": "loose", "weekHighDistance":  5.3, "marketCap":    8, "sector": "Healthcare" },
+    { "ticker": "MSTR", "companyName": "MicroStrategy",       "price": 385.40, "sma150": 320.80, "sma200": 285.20, "rsScore": 96, "vcpStatus": "loose", "weekHighDistance":  3.1, "marketCap":   75, "sector": "Technology" }
+  ]
+}
