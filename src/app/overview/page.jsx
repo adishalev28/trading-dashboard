@@ -2,8 +2,9 @@ import PageShell from "@/components/PageShell";
 import SectorHeatmap from "@/components/SectorHeatmap";
 import Stage2Table from "@/components/Stage2Table";
 import SystemHealth from "@/components/SystemHealth";
+import PotentialBreakouts from "@/components/PotentialBreakouts";
 import mockData from "@/lib/mockData.json";
-import { isStage2, sortSectors, sortTickers } from "@/lib/screener";
+import { isStage2, sortSectors, sortTickers, findPotentialBreakouts } from "@/lib/screener";
 import { Trophy, Target, Flame, Activity, Crown, TrendingUp } from "lucide-react";
 
 function StatCard({ label, value, sub, Icon, tone = "emerald", badge }) {
@@ -50,6 +51,9 @@ export default function OverviewPage() {
 
   // NEW: SPY market context
   const spyBullish = benchmark?.aboveSma200 ?? false;
+
+  // NEW: Potential breakouts (Stage 2 + RS > 80 + within 2% of Pivot)
+  const breakoutCandidates = findPotentialBreakouts(tickers);
 
   const now = new Date().toLocaleDateString("en-US", {
     weekday: "short",
@@ -133,8 +137,9 @@ export default function OverviewPage() {
         />
       </div>
 
-      {/* System Health Checklist */}
-      <div className="mb-8">
+      {/* Potential Breakouts + System Health side by side */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-8">
+        <PotentialBreakouts candidates={breakoutCandidates} />
         <SystemHealth benchmark={benchmark} sectors={sectors} tickers={tickers} />
       </div>
 

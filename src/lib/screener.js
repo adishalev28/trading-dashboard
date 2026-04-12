@@ -145,6 +145,27 @@ export function sortSectors(sectors, key = "strengthScore", dir = "desc") {
 
 // ─── Ticker Sorting ──────────────────────────────────────────────────────
 
+// ─── Potential Breakout Detection ─────────────────────────────────────────
+
+/**
+ * Find tickers that are:
+ *   1. In Stage 2 (price > sma150 > sma200, RS ≥ 70, within 25% of 52W high)
+ *   2. RS Score > 80 (strong momentum)
+ *   3. Within 2% below their Pivot Price (actionable buy zone)
+ *
+ * Returns sorted by distToPivotPct ascending (closest to breakout first)
+ */
+export function findPotentialBreakouts(tickers, maxDistPct = 2) {
+  return tickers
+    .filter(t => {
+      if (!isStage2(t)) return false;
+      if (t.rsScore < 80) return false;
+      const dist = t.distToPivotPct ?? 100;
+      return dist <= maxDistPct;
+    })
+    .sort((a, b) => (a.distToPivotPct ?? 100) - (b.distToPivotPct ?? 100));
+}
+
 // VCP sort priority: tight (3) > loose (2) > none (1)
 const VCP_SORT_ORDER = { tight: 3, loose: 2, none: 1 };
 

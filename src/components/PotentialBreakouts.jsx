@@ -1,0 +1,116 @@
+"use client";
+
+import { Crosshair, Zap } from "lucide-react";
+import { fmtUsd } from "@/lib/formatters";
+
+/**
+ * Potential Breakouts — tickers in Stage 2, RS > 80, within 2% of Pivot
+ * The "money zone" — these are the actionable buy candidates RIGHT NOW
+ */
+export default function PotentialBreakouts({ candidates }) {
+  if (!candidates || candidates.length === 0) {
+    return (
+      <div className="bg-slate-800 border border-slate-700 rounded-xl p-5">
+        <div className="flex items-center gap-2 mb-2">
+          <Crosshair className="w-5 h-5 text-slate-500" />
+          <h2 className="text-sm font-bold text-slate-400 uppercase tracking-wide">
+            Potential Breakouts
+          </h2>
+        </div>
+        <div className="text-xs text-slate-500 italic">
+          No tickers within 2% of their Pivot right now. Check back after data refresh.
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="bg-slate-800 border border-emerald-800 rounded-xl p-5">
+      {/* Header */}
+      <div className="flex items-center justify-between mb-4">
+        <div className="flex items-center gap-2">
+          <Crosshair className="w-5 h-5 text-emerald-400" />
+          <h2 className="text-sm font-bold text-emerald-400 uppercase tracking-wide">
+            Potential Breakouts
+          </h2>
+        </div>
+        <span className="text-[10px] font-bold px-2.5 py-1 rounded-full bg-emerald-950 text-emerald-400 border border-emerald-800">
+          {candidates.length} setup{candidates.length !== 1 ? "s" : ""}
+        </span>
+      </div>
+
+      <div className="text-[10px] text-slate-500 mb-3">
+        Stage 2 + RS &gt; 80 + within 2% of Pivot Price
+      </div>
+
+      {/* Candidate cards */}
+      <div className="space-y-2">
+        {candidates.slice(0, 3).map((t) => {
+          const dist = t.distToPivotPct ?? 0;
+          const isImminent = dist <= 0.5;
+          const isBreakout = dist <= 0;
+
+          return (
+            <div
+              key={t.ticker}
+              className={`flex items-center gap-4 p-3.5 rounded-lg border transition-all ${
+                isBreakout
+                  ? "bg-emerald-950/50 border-emerald-500 shadow-[0_0_12px_rgba(16,185,129,0.3)]"
+                  : isImminent
+                  ? "bg-emerald-950/30 border-emerald-600 animate-pulse-border"
+                  : "bg-slate-900 border-slate-700"
+              }`}
+            >
+              {/* Ticker + Company */}
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center gap-2">
+                  <span className="font-bold font-mono-nums text-lg text-slate-100">
+                    {t.ticker}
+                  </span>
+                  {isBreakout && (
+                    <span className="flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-500 text-white">
+                      <Zap className="w-3 h-3" /> BREAKOUT
+                    </span>
+                  )}
+                  {isImminent && !isBreakout && (
+                    <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-700">
+                      IMMINENT
+                    </span>
+                  )}
+                </div>
+                <div className="text-[10px] text-slate-500 truncate">{t.companyName}</div>
+              </div>
+
+              {/* Price → Pivot */}
+              <div className="text-right shrink-0">
+                <div className="text-sm font-mono-nums text-slate-200">
+                  {fmtUsd(t.price)}
+                </div>
+                <div className="text-[10px] text-slate-500 font-mono-nums">
+                  Pivot {fmtUsd(t.pivotPrice)}
+                </div>
+              </div>
+
+              {/* Distance badge */}
+              <div className={`shrink-0 text-right font-mono-nums font-bold text-sm min-w-[4rem] ${
+                isBreakout ? "text-emerald-400" :
+                isImminent ? "text-emerald-400" :
+                "text-amber-400"
+              }`}>
+                {isBreakout
+                  ? "AT PIVOT"
+                  : `${dist.toFixed(1)}%`
+                }
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* Action hint */}
+      <div className="mt-3 pt-3 border-t border-slate-700 text-[10px] text-slate-500">
+        <span className="text-emerald-400 font-bold">Action:</span> Cross-reference with Vol % &gt; 120% for confirmation. Place limit order at Pivot price in Meitav Trade.
+      </div>
+    </div>
+  );
+}
