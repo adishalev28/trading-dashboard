@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { fmtPct, fmtMarketCap } from "@/lib/formatters";
 import RSBar from "./RSBar";
+import Sparkline from "./Sparkline";
 
 /**
  * Single sector tile — symbol pill, % change, strength score, market cap
@@ -33,13 +34,16 @@ export default function SectorCard({ sector, index = 0 }) {
         </span>
       </div>
 
-      {/* Middle: % change (big) */}
-      <div
-        className={`text-3xl font-bold font-mono-nums mb-3 ${
-          isGain ? "text-emerald-400" : "text-rose-400"
-        }`}
-      >
-        {fmtPct(sector.changePct)}
+      {/* Middle: % change + sparkline */}
+      <div className="flex items-end justify-between mb-3 gap-3">
+        <div
+          className={`text-3xl font-bold font-mono-nums ${
+            isGain ? "text-emerald-400" : "text-rose-400"
+          }`}
+        >
+          {fmtPct(sector.changePct)}
+        </div>
+        <Sparkline data={sector.priceHistory30d} width={80} height={28} />
       </div>
 
       {/* Bottom: strength bar */}

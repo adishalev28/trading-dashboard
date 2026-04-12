@@ -5,11 +5,13 @@ import { ArrowUp, ArrowDown } from "lucide-react";
 import TrendBadge from "./TrendBadge";
 import VCPBadge from "./VCPBadge";
 import RSBar from "./RSBar";
+import Sparkline from "./Sparkline";
 import { fmtUsd, fmtPct } from "@/lib/formatters";
 import { sortTickers } from "@/lib/screener";
 
 const columns = [
   { key: "ticker",           label: "Ticker",    align: "left" },
+  { key: "chart",            label: "30D",       align: "center", sortable: false },
   { key: "price",            label: "Price",     align: "right" },
   { key: "trend",            label: "Trend",     align: "center", sortable: false },
   { key: "rsScore",          label: "RS Score",  align: "left" },
@@ -76,6 +78,9 @@ export default function Stage2Table({ tickers, limit }) {
               <td className="px-4 py-3">
                 <div className="font-bold font-mono-nums text-slate-100">{t.ticker}</div>
                 <div className="text-[10px] text-slate-500">{t.companyName}</div>
+              </td>
+              <td className="px-2 py-3">
+                <Sparkline data={t.priceHistory30d} width={90} height={28} />
               </td>
               <td className="px-4 py-3 text-right font-mono-nums text-slate-200">
                 {fmtUsd(t.price)}

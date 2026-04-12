@@ -266,6 +266,13 @@ def detect_vcp(df):
         return "none"
 
 
+def extract_price_history(df, days=30):
+    """Extract last N days of close prices as a list of rounded floats (for sparklines)."""
+    if len(df) < days:
+        return [round(float(x), 2) for x in df["Close"].tolist()]
+    return [round(float(x), 2) for x in df["Close"].tail(days).tolist()]
+
+
 def calculate_today_change_pct(df):
     """Today's % change (latest close vs previous close)."""
     if len(df) < 2:
@@ -334,19 +341,21 @@ def main():
         rs_raw          = calculate_rs_raw(df, spy_df)
         vcp_status      = detect_vcp(df)
         market_cap      = get_market_cap(symbol)
+        history_30d     = extract_price_history(df, 30)
 
         ticker_rs_raws.append(rs_raw)
 
         ticker_data.append({
             "ticker": symbol,
-            "companyName": t.get("name", symbol),  # Will be filled from info below
+            "companyName": t.get("name", symbol),
             "price": round(price, 2),
             "sma150": round(sma150, 2) if sma150 else price,
             "sma200": round(sma200, 2) if sma200 else price,
-            "rsScore": None,  # Set after normalization step
+            "rsScore": None,
             "vcpStatus": vcp_status,
             "weekHighDistance": week_high_dist if week_high_dist is not None else 0.0,
             "volumePctAvg": volume_pct_avg if volume_pct_avg is not None else 100.0,
+            "priceHistory30d": history_30d,
             "marketCap": market_cap if market_cap is not None else 0,
             "sector": t["sector"],
         })
@@ -391,6 +400,7 @@ def main():
 
         change_pct  = calculate_today_change_pct(df)
         market_cap  = get_market_cap(symbol)
+        history_30d = extract_price_history(df, 30)
 
         # Strength Score = 63-day outperformance vs SPY, mapped to 1-99
         sector_63d = weighted_return(df, periods=[63], weights=[1.0])
@@ -406,6 +416,7 @@ def main():
             "name": s["name"],
             "changePct": change_pct if change_pct is not None else 0.0,
             "strengthScore": strength_score,
+            "priceHistory30d": history_30d,
             "marketCap": market_cap if market_cap is not None else 0,
         })
         print(f"✓ strength={strength_score}")
