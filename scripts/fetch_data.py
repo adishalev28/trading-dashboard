@@ -266,6 +266,17 @@ def detect_vcp(df):
         return "none"
 
 
+def calculate_pivot_price(df, lookback=20):
+    """
+    Find the Pivot / Buy Point — highest close in the last N trading days.
+    This is the resistance level at the top of the VCP contraction.
+    When price breaks above this on volume, it's a Minervini buy signal.
+    """
+    if len(df) < lookback:
+        return None
+    return round(float(df["Close"].tail(lookback).max()), 2)
+
+
 def extract_price_history(df, days=30):
     """Extract last N days of close prices as a list of rounded floats (for sparklines)."""
     if len(df) < days:
@@ -342,6 +353,8 @@ def main():
         vcp_status      = detect_vcp(df)
         market_cap      = get_market_cap(symbol)
         history_30d     = extract_price_history(df, 30)
+        pivot_price     = calculate_pivot_price(df, 20)
+        dist_to_pivot   = round(((pivot_price - price) / pivot_price) * 100, 2) if pivot_price and pivot_price > 0 else 0.0
 
         ticker_rs_raws.append(rs_raw)
 
@@ -355,6 +368,8 @@ def main():
             "vcpStatus": vcp_status,
             "weekHighDistance": week_high_dist if week_high_dist is not None else 0.0,
             "volumePctAvg": volume_pct_avg if volume_pct_avg is not None else 100.0,
+            "pivotPrice": pivot_price if pivot_price else price,
+            "distToPivotPct": dist_to_pivot,
             "priceHistory30d": history_30d,
             "marketCap": market_cap if market_cap is not None else 0,
             "sector": t["sector"],

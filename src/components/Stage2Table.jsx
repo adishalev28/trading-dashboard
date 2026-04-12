@@ -13,6 +13,7 @@ const columns = [
   { key: "ticker",           label: "Ticker",    align: "left" },
   { key: "chart",            label: "30D",       align: "center", sortable: false },
   { key: "price",            label: "Price",     align: "right" },
+  { key: "distToPivotPct",   label: "Pivot",     align: "right" },
   { key: "trend",            label: "Trend",     align: "center", sortable: false },
   { key: "rsScore",          label: "RS Score",  align: "left" },
   { key: "volumePctAvg",     label: "Vol %",     align: "right" },
@@ -84,6 +85,29 @@ export default function Stage2Table({ tickers, limit }) {
               </td>
               <td className="px-4 py-3 text-right font-mono-nums text-slate-200">
                 {fmtUsd(t.price)}
+              </td>
+              <td className="px-3 py-3 text-right">
+                {(() => {
+                  const dist = t.distToPivotPct ?? 0;
+                  const pivot = t.pivotPrice ?? t.price;
+                  // Color: ≤0% = at/above pivot (breakout!), ≤2% = near pivot, ≤5% = approaching, >5% = far
+                  const colorClass = dist <= 0
+                    ? "text-emerald-400"
+                    : dist <= 2
+                    ? "text-emerald-400"
+                    : dist <= 5
+                    ? "text-amber-400"
+                    : "text-slate-400";
+                  const label = dist <= 0 ? "BREAKOUT" : null;
+                  return (
+                    <div>
+                      <div className="text-[10px] text-slate-500 font-mono-nums">{fmtUsd(pivot)}</div>
+                      <div className={`text-xs font-bold font-mono-nums ${colorClass}`}>
+                        {label || `${dist.toFixed(1)}% away`}
+                      </div>
+                    </div>
+                  );
+                })()}
               </td>
               <td className="px-4 py-3 text-center">
                 <TrendBadge price={t.price} sma150={t.sma150} sma200={t.sma200} />

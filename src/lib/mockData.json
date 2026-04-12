@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-04-12 19:00:11",
+    "generatedAt": "2026-04-12 19:25:14",
     "source": "yfinance (live)",
     "fxSource": "frankfurter.dev",
     "note": "Fresh data from yfinance. Benchmark: SPY."
@@ -457,6 +457,8 @@
       "vcpStatus": "loose",
       "weekHighDistance": 8.88,
       "volumePctAvg": 88.0,
+      "pivotPrice": 188.63,
+      "distToPivotPct": -0.0,
       "priceHistory30d": [
         177.18,
         182.47,
@@ -502,6 +504,8 @@
       "vcpStatus": "none",
       "weekHighDistance": 20.08,
       "volumePctAvg": 81.8,
+      "pivotPrice": 629.86,
+      "distToPivotPct": 0.0,
       "priceHistory30d": [
         647.63,
         653.0,
@@ -547,6 +551,8 @@
       "vcpStatus": "loose",
       "weekHighDistance": 9.67,
       "volumePctAvg": 112.5,
+      "pivotPrice": 371.55,
+      "distToPivotPct": 0.0,
       "priceHistory30d": [
         318.88,
         318.15,
@@ -592,6 +598,8 @@
       "vcpStatus": "loose",
       "weekHighDistance": 4.15,
       "volumePctAvg": 99.3,
+      "pivotPrice": 370.6,
+      "distToPivotPct": -0.0,
       "priceHistory30d": [
         373.53,
         368.07,
@@ -637,6 +645,8 @@
       "vcpStatus": "none",
       "weekHighDistance": 42.92,
       "volumePctAvg": 125.3,
+      "pivotPrice": 197.85,
+      "distToPivotPct": 16.62,
       "priceHistory30d": [
         194.3,
         192.47,
@@ -682,6 +692,8 @@
       "vcpStatus": "loose",
       "weekHighDistance": 9.06,
       "volumePctAvg": 91.6,
+      "pivotPrice": 147.35,
+      "distToPivotPct": -0.0,
       "priceHistory30d": [
         133.5,
         129.3,
@@ -727,6 +739,8 @@
       "vcpStatus": "none",
       "weekHighDistance": 38.19,
       "volumePctAvg": 210.5,
+      "pivotPrice": 160.84,
+      "distToPivotPct": 20.38,
       "priceHistory30d": [
         137.19,
         145.17,
@@ -772,6 +786,8 @@
       "vcpStatus": "none",
       "weekHighDistance": 23.08,
       "volumePctAvg": 55.9,
+      "pivotPrice": 103.01,
+      "distToPivotPct": -0.0,
       "priceHistory30d": [
         96.24,
         97.09,
@@ -817,6 +833,8 @@
       "vcpStatus": "none",
       "weekHighDistance": 5.13,
       "volumePctAvg": 119.2,
+      "pivotPrice": 1032.03,
+      "distToPivotPct": 3.25,
       "priceHistory30d": [
         1010.79,
         1002.77,
@@ -862,6 +880,8 @@
       "vcpStatus": "none",
       "weekHighDistance": 15.22,
       "volumePctAvg": 61.2,
+      "pivotPrice": 989.12,
+      "distToPivotPct": 5.02,
       "priceHistory30d": [
         1051.99,
         1017.97,
@@ -907,6 +927,8 @@
       "vcpStatus": "none",
       "weekHighDistance": 60.28,
       "volumePctAvg": 145.2,
+      "pivotPrice": 508.41,
+      "distToPivotPct": 31.96,
       "priceHistory30d": [
         542.4,
         572.02,
@@ -952,6 +974,8 @@
       "vcpStatus": "none",
       "weekHighDistance": 28.9,
       "volumePctAvg": 75.7,
+      "pivotPrice": 317.22,
+      "distToPivotPct": 9.68,
       "priceHistory30d": [
         329.44,
         326.72,
@@ -997,6 +1021,8 @@
       "vcpStatus": "none",
       "weekHighDistance": 28.8,
       "volumePctAvg": 58.8,
+      "pivotPrice": 169.89,
+      "distToPivotPct": 8.92,
       "priceHistory30d": [
         173.65,
         165.76,
@@ -1042,6 +1068,8 @@
       "vcpStatus": "none",
       "weekHighDistance": 38.11,
       "volumePctAvg": 71.0,
+      "pivotPrice": 127.8,
+      "distToPivotPct": 13.31,
       "priceHistory30d": [
         120.73,
         119.38,
@@ -1087,6 +1115,8 @@
       "vcpStatus": "none",
       "weekHighDistance": 7.3,
       "volumePctAvg": 96.8,
+      "pivotPrice": 245.04,
+      "distToPivotPct": 0.0,
       "priceHistory30d": [
         200.21,
         198.62,
@@ -1132,6 +1162,8 @@
       "vcpStatus": "loose",
       "weekHighDistance": 9.1,
       "volumePctAvg": 77.1,
+      "pivotPrice": 72.31,
+      "distToPivotPct": 1.52,
       "priceHistory30d": [
         71.19,
         71.67,
@@ -1177,6 +1209,8 @@
       "vcpStatus": "none",
       "weekHighDistance": 58.39,
       "volumePctAvg": 113.3,
+      "pivotPrice": 31.86,
+      "distToPivotPct": 20.72,
       "priceHistory30d": [
         32.39,
         31.83,
@@ -1222,6 +1256,8 @@
       "vcpStatus": "none",
       "weekHighDistance": 70.64,
       "volumePctAvg": 41.4,
+      "pivotPrice": 24.98,
+      "distToPivotPct": 22.22,
       "priceHistory30d": [
         14.52,
         16.48,
@@ -1267,6 +1303,8 @@
       "vcpStatus": "none",
       "weekHighDistance": 71.78,
       "volumePctAvg": 58.6,
+      "pivotPrice": 150.28,
+      "distToPivotPct": 14.4,
       "priceHistory30d": [
         129.5,
         137.65,
