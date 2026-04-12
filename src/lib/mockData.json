@@ -1,11 +1,20 @@
 {
   "meta": {
-    "generatedAt": "2026-04-12 18:16:41",
+    "generatedAt": "2026-04-12 18:33:44",
     "source": "yfinance (live)",
+    "fxSource": "frankfurter.dev",
     "note": "Fresh data from yfinance. Benchmark: SPY."
   },
-  "fxRate": 3.7,
+  "fxRate": 3.0384,
   "commissionRoundTripUsd": 14,
+  "benchmark": {
+    "symbol": "SPY",
+    "price": 679.46,
+    "sma200": 660.97,
+    "sma50": 672.99,
+    "changePct": -0.07,
+    "aboveSma200": true
+  },
   "sectors": [
     {
       "symbol": "XLK",

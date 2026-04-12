@@ -14,7 +14,7 @@ const columns = [
   { key: "trend",            label: "Trend",     align: "center", sortable: false },
   { key: "rsScore",          label: "RS Score",  align: "left" },
   { key: "volumePctAvg",     label: "Vol %",     align: "right" },
-  { key: "vcpStatus",        label: "VCP",       align: "center", sortable: false },
+  { key: "vcpStatus",        label: "VCP",       align: "center" },
   { key: "weekHighDistance", label: "Dist 52W",  align: "right" },
 ];
 

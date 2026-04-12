@@ -90,11 +90,34 @@ BENCHMARK = "SPY"  # Used for Relative Strength calculation
 # Amount of history to fetch (need ≥252 days for 52-week high + SMA 200)
 HISTORY_PERIOD = "18mo"
 
-# USD/ILS exchange rate — Bank of Israel (updated manually until we wire a feed)
-FX_RATE_USD_ILS = 3.7
+FX_RATE_USD_ILS_FALLBACK = 3.7  # Fallback if live FX fetch fails
 COMMISSION_ROUND_TRIP_USD = 14  # Meitav Trade: $7 buy + $7 sell
 
 # ─── Helpers ───────────────────────────────────────────────────────────────
+
+def fetch_live_fx_rate():
+    """Fetch live USD/ILS exchange rate via yfinance (USDILS=X ticker)."""
+    try:
+        fx = yf.Ticker("USDILS=X").history(period="5d")
+        if not fx.empty:
+            rate = float(fx["Close"].iloc[-1])
+            if rate > 0:
+                return round(rate, 4)
+    except Exception as e:
+        print(f"  ⚠️  FX fetch via yfinance failed: {e}")
+    # Fallback: try frankfurter.dev
+    import urllib.request
+    try:
+        url = "https://api.frankfurter.dev/v1/latest?base=USD&symbols=ILS"
+        with urllib.request.urlopen(url, timeout=10) as resp:
+            data = json.loads(resp.read())
+            rate = data.get("rates", {}).get("ILS")
+            if rate and rate > 0:
+                return round(rate, 4)
+    except Exception:
+        pass
+    return None
+
 
 def download_history(symbol, period=HISTORY_PERIOD):
     """Download historical OHLCV for a symbol. Returns DataFrame or None on failure."""
@@ -263,13 +286,32 @@ def main():
     print(f"Fetching {len(TICKERS)} tickers + {len(SECTORS)} sectors + {BENCHMARK} benchmark")
     print(f"Output: {OUTPUT_FILE}\n")
 
+    # ─── Step 0: Fetch live FX rate ──
+    print("💱 Fetching live USD/ILS exchange rate...")
+    live_fx = fetch_live_fx_rate()
+    if live_fx:
+        fx_rate = live_fx
+        print(f"   ✓ Live FX rate: {fx_rate} ILS/USD (from frankfurter.dev)")
+    else:
+        fx_rate = FX_RATE_USD_ILS_FALLBACK
+        print(f"   ⚠️  Using fallback FX rate: {fx_rate} ILS/USD")
+    print()
+
     # ─── Step 1: Fetch benchmark ──
     print(f"📊 Downloading {BENCHMARK} (benchmark)...")
     spy_df = download_history(BENCHMARK)
     if spy_df is None or spy_df.empty:
         print("❌ Failed to fetch SPY — aborting")
         sys.exit(1)
-    print(f"   ✓ {len(spy_df)} days of {BENCHMARK} data\n")
+    print(f"   ✓ {len(spy_df)} days of {BENCHMARK} data")
+
+    # Extract SPY benchmark data for System Health checks
+    spy_price       = round(float(spy_df["Close"].iloc[-1]), 2)
+    spy_sma200      = calculate_sma(spy_df, 200)
+    spy_change_pct  = calculate_today_change_pct(spy_df)
+    spy_sma50       = calculate_sma(spy_df, 50)
+    spy_above_200   = spy_price > spy_sma200 if spy_sma200 else None
+    print(f"   SPY: ${spy_price} | SMA200: ${round(spy_sma200, 2) if spy_sma200 else '?'} | Above 200: {'✓' if spy_above_200 else '✗'}\n")
 
     # ─── Step 2: Fetch tickers ──
     print(f"📊 Downloading {len(TICKERS)} tickers...")
@@ -373,10 +415,19 @@ def main():
         "meta": {
             "generatedAt": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "source": "yfinance (live)",
+            "fxSource": "frankfurter.dev" if live_fx else "fallback",
             "note": f"Fresh data from yfinance. Benchmark: {BENCHMARK}.",
         },
-        "fxRate": FX_RATE_USD_ILS,
+        "fxRate": fx_rate,
         "commissionRoundTripUsd": COMMISSION_ROUND_TRIP_USD,
+        "benchmark": {
+            "symbol": BENCHMARK,
+            "price": spy_price,
+            "sma200": round(spy_sma200, 2) if spy_sma200 else None,
+            "sma50": round(spy_sma50, 2) if spy_sma50 else None,
+            "changePct": spy_change_pct if spy_change_pct is not None else 0.0,
+            "aboveSma200": spy_above_200,
+        },
         "sectors": sector_data,
         "tickers": ticker_data,
     }
@@ -393,7 +444,8 @@ def main():
     print(f"📂 Wrote:     {OUTPUT_FILE}")
     print(f"🌐 Sectors:   {len(sector_data)}/{len(SECTORS)}")
     print(f"📊 Tickers:   {len(ticker_data)}/{len(TICKERS)}")
-    print(f"💵 FX rate:   {FX_RATE_USD_ILS} ILS/USD")
+    print(f"💵 FX rate:   {fx_rate} ILS/USD {'(live)' if live_fx else '(fallback)'}")
+    print(f"📈 SPY:       ${spy_price} | {'Above' if spy_above_200 else 'Below'} SMA200")
 
     # Top 3 by RS
     if ticker_data:

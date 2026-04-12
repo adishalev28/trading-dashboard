@@ -145,11 +145,20 @@ export function sortSectors(sectors, key = "strengthScore", dir = "desc") {
 
 // ─── Ticker Sorting ──────────────────────────────────────────────────────
 
+// VCP sort priority: tight (3) > loose (2) > none (1)
+const VCP_SORT_ORDER = { tight: 3, loose: 2, none: 1 };
+
 export function sortTickers(tickers, key = "rsScore", dir = "desc") {
   const arr = [...tickers];
   arr.sort((a, b) => {
-    const av = a[key];
-    const bv = b[key];
+    let av = a[key];
+    let bv = b[key];
+    // Special handling for VCP status — sort by priority, not alphabetically
+    if (key === "vcpStatus") {
+      av = VCP_SORT_ORDER[av] ?? 0;
+      bv = VCP_SORT_ORDER[bv] ?? 0;
+      return dir === "asc" ? av - bv : bv - av;
+    }
     if (typeof av === "string") {
       return dir === "asc" ? av.localeCompare(bv) : bv.localeCompare(av);
     }

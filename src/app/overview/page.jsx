@@ -1,6 +1,7 @@
 import PageShell from "@/components/PageShell";
 import SectorHeatmap from "@/components/SectorHeatmap";
 import Stage2Table from "@/components/Stage2Table";
+import SystemHealth from "@/components/SystemHealth";
 import mockData from "@/lib/mockData.json";
 import { isStage2, sortSectors, sortTickers } from "@/lib/screener";
 import { Trophy, Target, Flame, Activity } from "lucide-react";
@@ -27,7 +28,7 @@ function StatCard({ label, value, sub, Icon, tone = "emerald" }) {
 }
 
 export default function OverviewPage() {
-  const { sectors, tickers } = mockData;
+  const { sectors, tickers, benchmark } = mockData;
 
   // Compute summary stats
   const topSector = sortSectors(sectors, "strengthScore", "desc")[0];
@@ -78,6 +79,11 @@ export default function OverviewPage() {
           Icon={Activity}
           tone={avgBreadth >= 0 ? "emerald" : "rose"}
         />
+      </div>
+
+      {/* System Health Checklist */}
+      <div className="mb-8">
+        <SystemHealth benchmark={benchmark} sectors={sectors} tickers={tickers} />
       </div>
 
       {/* Top sectors */}
