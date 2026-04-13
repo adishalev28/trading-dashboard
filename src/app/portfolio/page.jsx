@@ -5,6 +5,8 @@ import PageShell from "@/components/PageShell";
 import PortfolioTable from "@/components/PortfolioTable";
 import TradeStats from "@/components/TradeStats";
 import EquityCurve from "@/components/EquityCurve";
+import SectorExposure from "@/components/SectorExposure";
+import ExportCSV from "@/components/ExportCSV";
 import usePortfolio from "@/hooks/usePortfolio";
 import mockData from "@/lib/mockData.json";
 import { fmtUsd } from "@/lib/formatters";
@@ -76,16 +78,23 @@ export default function PortfolioPage() {
       subtitle={`${activePositions.length} ${tab === "sim" ? "simulated" : "active"} position${activePositions.length !== 1 ? "s" : ""}`}
       actions={
         activePositions.length > 0 && (
-          <button
-            onClick={() => {
-              const msg = tab === "sim" ? "Reset all simulations?" : "Clear all positions?";
-              if (window.confirm(msg)) activeClear();
-            }}
-            className="text-xs text-slate-500 hover:text-rose-400 flex items-center gap-1 transition-colors"
-          >
-            <Trash2 className="w-3 h-3" />
-            {tab === "sim" ? "Reset Simulations" : "Clear All"}
-          </button>
+          <div className="flex items-center gap-2">
+            <ExportCSV
+              positions={activePositions}
+              tickers={tickers}
+              label={tab === "sim" ? "Export Sims" : "Export CSV"}
+            />
+            <button
+              onClick={() => {
+                const msg = tab === "sim" ? "Reset all simulations?" : "Clear all positions?";
+                if (window.confirm(msg)) activeClear();
+              }}
+              className="text-xs text-slate-500 hover:text-rose-400 flex items-center gap-1 transition-colors"
+            >
+              <Trash2 className="w-3 h-3" />
+              {tab === "sim" ? "Reset" : "Clear"}
+            </button>
+          </div>
         )
       }
     >
@@ -137,11 +146,18 @@ export default function PortfolioPage() {
         <SummaryCards positions={activePositions} tickers={tickers} />
       )}
 
-      {/* Equity Curve + Strategy Statistics side by side */}
+      {/* Equity Curve + Strategy Statistics */}
       {activePositions.length >= 2 && (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-6">
           <EquityCurve positions={activePositions} tickers={tickers} />
           <TradeStats positions={activePositions} tickers={tickers} />
+        </div>
+      )}
+
+      {/* Sector Exposure */}
+      {activePositions.length >= 1 && (
+        <div className="mb-6">
+          <SectorExposure positions={activePositions} tickers={tickers} />
         </div>
       )}
 
