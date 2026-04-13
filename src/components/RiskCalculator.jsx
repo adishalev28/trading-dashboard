@@ -22,10 +22,12 @@ function InputField({ label, value, onChange, prefix, suffix, type = "number", s
         <input
           type={type}
           step={step}
-          value={Number.isFinite(value) ? value : ""}
+          value={value === 0 || value === null || value === undefined ? "" : value}
           onChange={(e) => {
             const v = e.target.value;
-            onChange(v === "" ? 0 : parseFloat(v));
+            if (v === "") { onChange(0); return; }
+            const num = parseFloat(v);
+            onChange(Number.isFinite(num) ? num : 0);
           }}
           className={`w-full bg-slate-800 border border-slate-700 rounded-lg py-2.5 ${
             prefix ? "pl-8" : "pl-3"
