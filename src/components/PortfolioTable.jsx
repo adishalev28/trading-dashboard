@@ -109,6 +109,11 @@ export default function PortfolioTable({ positions, tickers, onRemove, isSimulat
                   <div className="text-[10px] text-slate-500">
                     {pos.shares} shares - {pos.entryDate}
                   </div>
+                  {pos.reason && (
+                    <div className="text-[10px] text-amber-400/70 mt-0.5 italic truncate max-w-[140px]" title={pos.reason}>
+                      "{pos.reason}"
+                    </div>
+                  )}
                 </td>
 
                 {/* Sparkline */}

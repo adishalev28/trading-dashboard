@@ -56,6 +56,7 @@ export default function RiskCalculator() {
   const { state, result, setField, reset } = useRiskCalc();
   const { addPosition, addSimulation } = usePortfolio();
   const [ticker, setTicker] = useState("");
+  const [tradeNotes, setTradeNotes] = useState("");
   const [saved, setSaved] = useState(false);    // "real" | "sim" | false
 
   const buildPosition = () => ({
@@ -63,7 +64,8 @@ export default function RiskCalculator() {
     entryPrice: state.entryUsd,
     shares: result.shares,
     stopLoss: state.stopUsd,
-    notes: `Risk ${state.riskPct}% | FX ${state.fxRate}`,
+    notes: tradeNotes.trim() || `Risk ${state.riskPct}% | FX ${state.fxRate}`,
+    reason: tradeNotes.trim(),
   });
 
   const handleSaveToPortfolio = () => {
@@ -96,17 +98,29 @@ export default function RiskCalculator() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {/* Ticker input for portfolio save */}
-          <div className="md:col-span-2">
+          {/* Ticker + Notes for portfolio save */}
+          <div>
             <label className="block text-xs font-medium text-slate-400 mb-1.5 uppercase tracking-wide">
-              Ticker Symbol (for portfolio)
+              Ticker Symbol
             </label>
             <input
               type="text"
               value={ticker}
               onChange={(e) => setTicker(e.target.value.toUpperCase())}
-              placeholder="e.g. NVDA, META, AAPL..."
+              placeholder="e.g. NVDA, META..."
               className="w-full bg-slate-800 border border-slate-700 rounded-lg py-2.5 pl-3 pr-3 text-slate-100 font-mono-nums uppercase focus:outline-none focus:border-emerald-600 transition-colors"
+            />
+          </div>
+          <div>
+            <label className="block text-xs font-medium text-slate-400 mb-1.5 uppercase tracking-wide">
+              Why am I entering? (notes)
+            </label>
+            <input
+              type="text"
+              value={tradeNotes}
+              onChange={(e) => setTradeNotes(e.target.value)}
+              placeholder="e.g. VCP breakout, volume surge, RS leader..."
+              className="w-full bg-slate-800 border border-slate-700 rounded-lg py-2.5 pl-3 pr-3 text-slate-100 text-sm focus:outline-none focus:border-emerald-600 transition-colors"
             />
           </div>
 
