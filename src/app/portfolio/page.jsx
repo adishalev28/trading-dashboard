@@ -3,6 +3,7 @@
 import { useState } from "react";
 import PageShell from "@/components/PageShell";
 import PortfolioTable from "@/components/PortfolioTable";
+import TradeStats from "@/components/TradeStats";
 import usePortfolio from "@/hooks/usePortfolio";
 import mockData from "@/lib/mockData.json";
 import { fmtUsd } from "@/lib/formatters";
@@ -133,6 +134,13 @@ export default function PortfolioPage() {
       {/* Summary cards */}
       {activePositions.length > 0 && (
         <SummaryCards positions={activePositions} tickers={tickers} />
+      )}
+
+      {/* Strategy Statistics */}
+      {activePositions.length >= 2 && (
+        <div className="mb-6">
+          <TradeStats positions={activePositions} tickers={tickers} />
+        </div>
       )}
 
       {/* Positions table */}
