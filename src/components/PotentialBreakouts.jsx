@@ -35,7 +35,7 @@ export default function PotentialBreakouts({ candidates }) {
           </h2>
         </div>
         <span className="text-[10px] font-bold px-2.5 py-1 rounded-full bg-emerald-950 text-emerald-400 border border-emerald-800">
-          {candidates.length} setup{candidates.length !== 1 ? "s" : ""}
+          {Math.min(candidates.length, 3)} of {candidates.length} setup{candidates.length !== 1 ? "s" : ""}
         </span>
       </div>
 

@@ -4,11 +4,12 @@ import Stage2Table from "@/components/Stage2Table";
 import SystemHealth from "@/components/SystemHealth";
 import PotentialBreakouts from "@/components/PotentialBreakouts";
 import RefreshButton from "@/components/RefreshButton";
+import Explainer from "@/components/Explainer";
 import mockData from "@/lib/mockData.json";
 import { isStage2, sortSectors, sortTickers, findPotentialBreakouts } from "@/lib/screener";
 import { Trophy, Target, Flame, Activity, Crown, TrendingUp } from "lucide-react";
 
-function StatCard({ label, value, sub, Icon, tone = "emerald", badge }) {
+function StatCard({ label, value, sub, Icon, tone = "emerald", badge, explainId }) {
   const toneClasses = {
     emerald: "text-emerald-400 bg-emerald-950/40 border-emerald-900",
     amber:   "text-amber-400 bg-amber-950/40 border-amber-900",
@@ -18,7 +19,11 @@ function StatCard({ label, value, sub, Icon, tone = "emerald", badge }) {
   return (
     <div className="bg-slate-800 border border-slate-700 rounded-xl p-4">
       <div className="flex items-center justify-between mb-2">
-        <span className="text-[10px] text-slate-500 uppercase tracking-wide">{label}</span>
+        {explainId ? (
+          <Explainer id={explainId} className="text-[10px] text-slate-500 uppercase tracking-wide">{label}</Explainer>
+        ) : (
+          <span className="text-[10px] text-slate-500 uppercase tracking-wide">{label}</span>
+        )}
         <div className={`w-7 h-7 rounded-lg flex items-center justify-center border ${toneClasses[tone]}`}>
           <Icon className="w-4 h-4" />
         </div>
@@ -77,6 +82,7 @@ export default function OverviewPage() {
           sub={`${topSector.name} - Strength ${topSector.strengthScore}`}
           Icon={Trophy}
           tone="emerald"
+          explainId="topSector"
         />
         <StatCard
           label="Stage 2 Count"
@@ -84,6 +90,7 @@ export default function OverviewPage() {
           sub="Tickers meeting all criteria"
           Icon={Target}
           tone="emerald"
+          explainId="stage2count"
         />
         <StatCard
           label="Strongest Ticker (Overall)"
@@ -91,6 +98,7 @@ export default function OverviewPage() {
           sub={`RS ${strongest.rsScore} - ${strongest.sector}`}
           Icon={Flame}
           tone="emerald"
+          explainId="strongestTicker"
         />
       </div>
 
@@ -103,6 +111,7 @@ export default function OverviewPage() {
             sub={`RS ${sectorLeader.rsScore} - Pivot ${sectorLeader.distToPivotPct != null ? sectorLeader.distToPivotPct.toFixed(1) + '% away' : '?'}`}
             Icon={Crown}
             tone="amber"
+            explainId="sectorLeader"
           />
         )}
 
@@ -113,6 +122,7 @@ export default function OverviewPage() {
           sub="Avg sector change"
           Icon={Activity}
           tone={avgBreadth >= 0 ? "emerald" : "rose"}
+          explainId="marketBreadth"
           badge={{
             text: spyBullish
               ? `SPY $${benchmark?.price ?? '?'} - BULLISH (above SMA200)`
@@ -130,6 +140,7 @@ export default function OverviewPage() {
           sub={`SMA200: $${benchmark?.sma200 ?? '?'} - SMA50: $${benchmark?.sma50 ?? '?'}`}
           Icon={TrendingUp}
           tone={spyBullish ? "emerald" : "rose"}
+          explainId="spyContext"
           badge={{
             text: spyBullish ? "BULLISH TREND" : "BEARISH TREND",
             classes: spyBullish
