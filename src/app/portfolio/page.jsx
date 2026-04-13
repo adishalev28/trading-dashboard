@@ -4,6 +4,7 @@ import { useState } from "react";
 import PageShell from "@/components/PageShell";
 import PortfolioTable from "@/components/PortfolioTable";
 import TradeStats from "@/components/TradeStats";
+import EquityCurve from "@/components/EquityCurve";
 import usePortfolio from "@/hooks/usePortfolio";
 import mockData from "@/lib/mockData.json";
 import { fmtUsd } from "@/lib/formatters";
@@ -136,9 +137,10 @@ export default function PortfolioPage() {
         <SummaryCards positions={activePositions} tickers={tickers} />
       )}
 
-      {/* Strategy Statistics */}
+      {/* Equity Curve + Strategy Statistics side by side */}
       {activePositions.length >= 2 && (
-        <div className="mb-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-6">
+          <EquityCurve positions={activePositions} tickers={tickers} />
           <TradeStats positions={activePositions} tickers={tickers} />
         </div>
       )}
