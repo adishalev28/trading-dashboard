@@ -3,6 +3,7 @@ import SectorHeatmap from "@/components/SectorHeatmap";
 import Stage2Table from "@/components/Stage2Table";
 import SystemHealth from "@/components/SystemHealth";
 import PotentialBreakouts from "@/components/PotentialBreakouts";
+import RefreshButton from "@/components/RefreshButton";
 import mockData from "@/lib/mockData.json";
 import { isStage2, sortSectors, sortTickers, findPotentialBreakouts } from "@/lib/screener";
 import { Trophy, Target, Flame, Activity, Crown, TrendingUp } from "lucide-react";
@@ -66,6 +67,7 @@ export default function OverviewPage() {
     <PageShell
       title="Overview"
       subtitle={`Market snapshot - ${now}`}
+      actions={<RefreshButton />}
     >
       {/* 5 summary cards (was 4) */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
