@@ -1,28 +1,27 @@
 {
   "meta": {
-    "generatedAt": "2026-04-13 09:12:25",
+    "generatedAt": "2026-04-13 16:45:18",
     "source": "yfinance (live)",
     "fxSource": "frankfurter.dev",
     "note": "Fresh data from yfinance. Benchmark: SPY."
   },
-  "fxRate": 3.0559,
+  "fxRate": 3.04,
   "commissionRoundTripUsd": 14,
   "benchmark": {
     "symbol": "SPY",
-    "price": 679.46,
-    "sma200": 660.97,
-    "sma50": 672.99,
-    "changePct": -0.07,
+    "price": 681.57,
+    "sma200": 661.37,
+    "sma50": 672.78,
+    "changePct": 0.31,
     "aboveSma200": true
   },
   "sectors": [
     {
       "symbol": "XLK",
       "name": "Technology",
-      "changePct": 0.39,
-      "strengthScore": 49,
+      "changePct": 1.19,
+      "strengthScore": 50,
       "priceHistory30d": [
-        138.59,
         139.37,
         137.33,
         139.67,
@@ -51,17 +50,17 @@
         137.43,
         141.69,
         142.07,
-        142.62
+        142.62,
+        144.32
       ],
-      "marketCap": 38.8
+      "marketCap": 39.3
     },
     {
       "symbol": "XLV",
       "name": "Healthcare",
-      "changePct": -1.35,
-      "strengthScore": 38,
+      "changePct": -0.38,
+      "strengthScore": 36,
       "priceHistory30d": [
-        159.54,
         157.88,
         156.1,
         156.41,
@@ -90,17 +89,17 @@
         146.57,
         149.67,
         149.33,
-        147.31
+        147.31,
+        146.76
       ],
-      "marketCap": 29.1
+      "marketCap": 29.0
     },
     {
       "symbol": "XLF",
       "name": "Financials",
-      "changePct": -1.09,
-      "strengthScore": 30,
+      "changePct": 0.85,
+      "strengthScore": 34,
       "priceHistory30d": [
-        51.17,
         51.04,
         50.95,
         51.24,
@@ -129,17 +128,17 @@
         49.88,
         51.2,
         51.33,
-        50.77
+        50.77,
+        51.2
       ],
-      "marketCap": 44.9
+      "marketCap": 45.2
     },
     {
       "symbol": "XLE",
       "name": "Energy",
-      "changePct": -0.68,
+      "changePct": 0.49,
       "strengthScore": 99,
       "priceHistory30d": [
-        55.56,
         56.67,
         56.15,
         55.83,
@@ -168,17 +167,17 @@
         60.16,
         58.05,
         57.33,
-        56.94
+        56.94,
+        57.22
       ],
-      "marketCap": 10.6
+      "marketCap": 10.7
     },
     {
       "symbol": "XLI",
       "name": "Industrials",
-      "changePct": -0.39,
-      "strengthScore": 74,
+      "changePct": 0.08,
+      "strengthScore": 72,
       "priceHistory30d": [
-        176.64,
         178.4,
         174.95,
         175.48,
@@ -207,17 +206,17 @@
         164.28,
         170.44,
         172.19,
-        171.52
+        171.52,
+        171.66
       ],
-      "marketCap": 23.4
+      "marketCap": 23.5
     },
     {
       "symbol": "XLY",
       "name": "Consumer Discretionary",
-      "changePct": 0.13,
+      "changePct": 0.23,
       "strengthScore": 28,
       "priceHistory30d": [
-        116.63,
         115.19,
         114.13,
         116.16,
@@ -246,17 +245,17 @@
         107.77,
         110.82,
         112.74,
-        112.89
+        112.89,
+        113.15
       ],
       "marketCap": 13.6
     },
     {
       "symbol": "XLP",
       "name": "Consumer Staples",
-      "changePct": -1.29,
-      "strengthScore": 69,
+      "changePct": -1.26,
+      "strengthScore": 61,
       "priceHistory30d": [
-        89.51,
         88.21,
         87.25,
         86.67,
@@ -285,17 +284,17 @@
         81.26,
         82.78,
         83.45,
-        82.37
+        82.37,
+        81.33
       ],
-      "marketCap": 17.3
+      "marketCap": 17.1
     },
     {
       "symbol": "XLB",
       "name": "Materials",
-      "changePct": 0.56,
-      "strengthScore": 80,
+      "changePct": 0.14,
+      "strengthScore": 78,
       "priceHistory30d": [
-        53.17,
         53.01,
         51.71,
         51.69,
@@ -324,17 +323,17 @@
         50.08,
         51.75,
         51.67,
-        51.96
+        51.96,
+        52.03
       ],
       "marketCap": 3.7
     },
     {
       "symbol": "XLU",
       "name": "Utilities",
-      "changePct": -0.4,
-      "strengthScore": 89,
+      "changePct": -1.44,
+      "strengthScore": 83,
       "priceHistory30d": [
-        47.4,
         47.04,
         46.74,
         46.94,
@@ -363,17 +362,17 @@
         46.27,
         46.78,
         47.15,
-        46.96
+        46.96,
+        46.28
       ],
-      "marketCap": 7.7
+      "marketCap": 7.6
     },
     {
       "symbol": "XLRE",
       "name": "Real Estate",
-      "changePct": 0.21,
-      "strengthScore": 75,
+      "changePct": -0.27,
+      "strengthScore": 73,
       "priceHistory30d": [
-        43.55,
         43.63,
         43.41,
         43.47,
@@ -402,17 +401,17 @@
         41.72,
         42.44,
         42.73,
-        42.82
+        42.82,
+        42.71
       ],
       "marketCap": 0
     },
     {
       "symbol": "XLC",
       "name": "Communication Services",
-      "changePct": -0.28,
-      "strengthScore": 46,
+      "changePct": 0.52,
+      "strengthScore": 48,
       "priceHistory30d": [
-        117.67,
         117.5,
         117.58,
         118.41,
@@ -441,7 +440,8 @@
         111.82,
         113.81,
         114.27,
-        113.95
+        113.95,
+        114.54
       ],
       "marketCap": 0
     }
@@ -450,18 +450,17 @@
     {
       "ticker": "NVDA",
       "companyName": "NVIDIA Corporation",
-      "price": 188.63,
-      "sma150": 183.62,
-      "sma200": 180.72,
+      "price": 188.2,
+      "sma150": 183.76,
+      "sma200": 180.89,
       "rsScore": 72,
       "vcpStatus": "loose",
-      "weekHighDistance": 8.88,
-      "volumePctAvg": 88.0,
-      "sma20": 177.42,
+      "weekHighDistance": 9.09,
+      "volumePctAvg": 40.0,
+      "sma20": 177.82,
       "pivotPrice": 188.63,
-      "distToPivotPct": -0.0,
+      "distToPivotPct": 0.23,
       "priceHistory30d": [
-        177.18,
         182.47,
         180.04,
         183.03,
@@ -490,26 +489,26 @@
         178.1,
         182.08,
         183.91,
-        188.63
+        188.63,
+        188.2
       ],
-      "marketCap": 4584.7,
+      "marketCap": 4574.0,
       "sector": "Technology"
     },
     {
       "ticker": "META",
       "companyName": "Meta Platforms",
-      "price": 629.86,
-      "sma150": 663.6,
-      "sma200": 681.68,
-      "rsScore": 50,
+      "price": 629.64,
+      "sma150": 662.79,
+      "sma200": 681.29,
+      "rsScore": 45,
       "vcpStatus": "none",
-      "weekHighDistance": 20.08,
-      "volumePctAvg": 81.8,
-      "sma20": 591.27,
+      "weekHighDistance": 20.11,
+      "volumePctAvg": 30.6,
+      "sma20": 592.09,
       "pivotPrice": 629.86,
-      "distToPivotPct": 0.0,
+      "distToPivotPct": 0.03,
       "priceHistory30d": [
-        647.63,
         653.0,
         654.52,
         667.16,
@@ -538,26 +537,26 @@
         575.05,
         612.42,
         628.39,
-        629.86
+        629.86,
+        629.64
       ],
-      "marketCap": 1593.3,
+      "marketCap": 1592.7,
       "sector": "Communication Services"
     },
     {
       "ticker": "AVGO",
       "companyName": "Broadcom Inc.",
-      "price": 371.55,
-      "sma150": 342.46,
-      "sma200": 328.94,
-      "rsScore": 83,
+      "price": 375.68,
+      "sma150": 342.75,
+      "sma200": 329.5,
+      "rsScore": 88,
       "vcpStatus": "loose",
-      "weekHighDistance": 9.67,
-      "volumePctAvg": 112.5,
-      "sma20": 321.84,
-      "pivotPrice": 371.55,
+      "weekHighDistance": 8.66,
+      "volumePctAvg": 38.3,
+      "sma20": 324.55,
+      "pivotPrice": 375.68,
       "distToPivotPct": 0.0,
       "priceHistory30d": [
-        318.88,
         318.15,
         313.18,
         316.87,
@@ -586,26 +585,26 @@
         333.97,
         350.63,
         354.91,
-        371.55
+        371.55,
+        375.68
       ],
-      "marketCap": 1761.6,
+      "marketCap": 1780.9,
       "sector": "Technology"
     },
     {
       "ticker": "TSM",
       "companyName": "Taiwan Semiconductor Manufactu",
-      "price": 370.6,
-      "sma150": 312.31,
-      "sma200": 292.59,
+      "price": 370.65,
+      "sma150": 313.17,
+      "sma200": 293.34,
       "rsScore": 94,
       "vcpStatus": "loose",
-      "weekHighDistance": 4.15,
-      "volumePctAvg": 99.3,
-      "sma20": 341.83,
-      "pivotPrice": 370.6,
-      "distToPivotPct": -0.0,
+      "weekHighDistance": 4.14,
+      "volumePctAvg": 38.5,
+      "sma20": 343.49,
+      "pivotPrice": 370.65,
+      "distToPivotPct": 0.0,
       "priceHistory30d": [
-        373.53,
         368.07,
         352.14,
         356.44,
@@ -634,26 +633,26 @@
         345.32,
         365.9,
         365.49,
-        370.6
+        370.6,
+        370.65
       ],
-      "marketCap": 1922.1,
+      "marketCap": 1922.4,
       "sector": "Technology"
     },
     {
       "ticker": "CRM",
       "companyName": "Salesforce",
-      "price": 164.96,
-      "sma150": 227.26,
-      "sma200": 234.15,
+      "price": 172.82,
+      "sma150": 226.75,
+      "sma200": 233.69,
       "rsScore": 17,
       "vcpStatus": "none",
-      "weekHighDistance": 42.92,
-      "volumePctAvg": 125.3,
-      "sma20": 185.66,
+      "weekHighDistance": 40.2,
+      "volumePctAvg": 48.6,
+      "sma20": 184.68,
       "pivotPrice": 197.85,
-      "distToPivotPct": 16.62,
+      "distToPivotPct": 12.65,
       "priceHistory30d": [
-        194.3,
         192.47,
         195.56,
         192.6,
@@ -682,26 +681,26 @@
         182.5,
         175.93,
         170.85,
-        164.96
+        164.96,
+        172.82
       ],
-      "marketCap": 154.6,
+      "marketCap": 161.9,
       "sector": "Technology"
     },
     {
       "ticker": "ANET",
       "companyName": "Arista Networks",
-      "price": 147.35,
-      "sma150": 136.81,
-      "sma200": 132.81,
-      "rsScore": 88,
+      "price": 150.29,
+      "sma150": 136.86,
+      "sma200": 133.08,
+      "rsScore": 83,
       "vcpStatus": "loose",
-      "weekHighDistance": 9.06,
-      "volumePctAvg": 91.6,
-      "sma20": 131.97,
-      "pivotPrice": 147.35,
+      "weekHighDistance": 7.24,
+      "volumePctAvg": 36.5,
+      "sma20": 132.8,
+      "pivotPrice": 150.29,
       "distToPivotPct": -0.0,
       "priceHistory30d": [
-        133.5,
         129.3,
         124.6,
         134.83,
@@ -730,26 +729,26 @@
         133.64,
         145.07,
         146.05,
-        147.35
+        147.35,
+        150.29
       ],
-      "marketCap": 185.6,
+      "marketCap": 189.3,
       "sector": "Technology"
     },
     {
       "ticker": "PLTR",
       "companyName": "Palantir Technologies Inc.",
-      "price": 128.06,
-      "sma150": 166.72,
-      "sma200": 164.16,
+      "price": 132.88,
+      "sma150": 166.58,
+      "sma200": 164.11,
       "rsScore": 34,
       "vcpStatus": "none",
-      "weekHighDistance": 38.19,
-      "volumePctAvg": 210.5,
-      "sma20": 147.76,
+      "weekHighDistance": 35.86,
+      "volumePctAvg": 70.7,
+      "sma20": 146.86,
       "pivotPrice": 160.84,
-      "distToPivotPct": 20.38,
+      "distToPivotPct": 17.38,
       "priceHistory30d": [
-        137.19,
         145.17,
         147.22,
         153.19,
@@ -778,26 +777,26 @@
         150.07,
         140.76,
         130.49,
-        128.06
+        128.06,
+        132.88
       ],
-      "marketCap": 306.3,
+      "marketCap": 317.8,
       "sector": "Technology"
     },
     {
       "ticker": "NFLX",
       "companyName": "Netflix",
-      "price": 103.01,
-      "sma150": 101.1,
-      "sma200": 106.54,
+      "price": 103.46,
+      "sma150": 100.96,
+      "sma200": 106.41,
       "rsScore": 55,
       "vcpStatus": "none",
-      "weekHighDistance": 23.08,
-      "volumePctAvg": 55.9,
-      "sma20": 95.6,
-      "pivotPrice": 103.01,
+      "weekHighDistance": 22.74,
+      "volumePctAvg": 25.4,
+      "sma20": 96.01,
+      "pivotPrice": 103.46,
       "distToPivotPct": -0.0,
       "priceHistory30d": [
-        96.24,
         97.09,
         97.7,
         98.66,
@@ -826,26 +825,26 @@
         98.82,
         99.39,
         102.05,
-        103.01
+        103.01,
+        103.46
       ],
-      "marketCap": 437.0,
+      "marketCap": 438.9,
       "sector": "Communication Services"
     },
     {
       "ticker": "COST",
       "companyName": "Costco Wholesale Corporation",
-      "price": 998.47,
-      "sma150": 943.2,
+      "price": 983.49,
+      "sma150": 943.35,
       "sma200": 947.43,
       "rsScore": 61,
       "vcpStatus": "none",
-      "weekHighDistance": 5.13,
-      "volumePctAvg": 119.2,
-      "sma20": 995.42,
+      "weekHighDistance": 6.55,
+      "volumePctAvg": 34.3,
+      "sma20": 994.17,
       "pivotPrice": 1032.03,
-      "distToPivotPct": 3.25,
+      "distToPivotPct": 4.7,
       "priceHistory30d": [
-        1010.79,
         1002.77,
         1007.77,
         1006.74,
@@ -874,26 +873,26 @@
         1013.21,
         1030.27,
         1032.03,
-        998.47
+        998.47,
+        983.49
       ],
-      "marketCap": 443.2,
+      "marketCap": 436.5,
       "sector": "Consumer Staples"
     },
     {
       "ticker": "LLY",
       "companyName": "Eli Lilly and Company",
-      "price": 939.47,
-      "sma150": 952.28,
-      "sma200": 899.95,
+      "price": 930.86,
+      "sma150": 953.65,
+      "sma200": 900.67,
       "rsScore": 66,
       "vcpStatus": "none",
-      "weekHighDistance": 15.22,
-      "volumePctAvg": 61.2,
-      "sma20": 927.73,
+      "weekHighDistance": 15.99,
+      "volumePctAvg": 24.7,
+      "sma20": 925.02,
       "pivotPrice": 989.12,
-      "distToPivotPct": 5.02,
+      "distToPivotPct": 5.89,
       "priceHistory30d": [
-        1051.99,
         1017.97,
         1007.73,
         1003.57,
@@ -922,26 +921,26 @@
         931.09,
         953.3,
         955.19,
-        939.47
+        939.47,
+        930.86
       ],
-      "marketCap": 840.8,
+      "marketCap": 833.1,
       "sector": "Healthcare"
     },
     {
       "ticker": "AXON",
       "companyName": "Axon Enterprise",
-      "price": 345.94,
-      "sma150": 583.27,
-      "sma200": 629.61,
-      "rsScore": 6,
+      "price": 360.5,
+      "sma150": 580.81,
+      "sma200": 627.49,
+      "rsScore": 1,
       "vcpStatus": "none",
-      "weekHighDistance": 60.28,
-      "volumePctAvg": 145.2,
-      "sma20": 442.73,
+      "weekHighDistance": 58.61,
+      "volumePctAvg": 66.1,
+      "sma20": 435.94,
       "pivotPrice": 508.41,
-      "distToPivotPct": 31.96,
+      "distToPivotPct": 29.09,
       "priceHistory30d": [
-        542.4,
         572.02,
         579.09,
         569.81,
@@ -970,26 +969,26 @@
         372.87,
         391.53,
         351.33,
-        345.94
+        345.94,
+        360.5
       ],
-      "marketCap": 27.8,
+      "marketCap": 29.0,
       "sector": "Industrials"
     },
     {
       "ticker": "CEG",
       "companyName": "Constellation Energy Corporati",
-      "price": 286.5,
-      "sma150": 330.04,
-      "sma200": 327.76,
+      "price": 288.56,
+      "sma150": 329.95,
+      "sma200": 327.63,
       "rsScore": 39,
       "vcpStatus": "none",
-      "weekHighDistance": 28.9,
-      "volumePctAvg": 75.7,
-      "sma20": 292.21,
+      "weekHighDistance": 28.39,
+      "volumePctAvg": 29.7,
+      "sma20": 291.55,
       "pivotPrice": 317.22,
-      "distToPivotPct": 9.68,
+      "distToPivotPct": 9.03,
       "priceHistory30d": [
-        329.44,
         326.72,
         324.44,
         322.42,
@@ -1018,26 +1017,26 @@
         272.58,
         284.27,
         280.25,
-        286.5
+        286.5,
+        288.56
       ],
-      "marketCap": 103.8,
+      "marketCap": 104.5,
       "sector": "Utilities"
     },
     {
       "ticker": "VST",
       "companyName": "Vistra Corp.",
-      "price": 154.73,
-      "sma150": 174.82,
-      "sma200": 179.8,
-      "rsScore": 45,
+      "price": 159.38,
+      "sma150": 174.63,
+      "sma200": 179.66,
+      "rsScore": 50,
       "vcpStatus": "none",
-      "weekHighDistance": 28.8,
-      "volumePctAvg": 58.8,
-      "sma20": 155.13,
+      "weekHighDistance": 26.66,
+      "volumePctAvg": 33.2,
+      "sma20": 155.16,
       "pivotPrice": 169.89,
-      "distToPivotPct": 8.92,
+      "distToPivotPct": 6.19,
       "priceHistory30d": [
-        173.65,
         165.76,
         161.48,
         163.14,
@@ -1066,26 +1065,26 @@
         153.68,
         155.89,
         152.75,
-        154.73
+        154.73,
+        159.38
       ],
-      "marketCap": 52.4,
+      "marketCap": 54.0,
       "sector": "Utilities"
     },
     {
       "ticker": "SHOP",
       "companyName": "Shopify Inc.",
-      "price": 110.79,
-      "sma150": 145.06,
+      "price": 114.7,
+      "sma150": 144.85,
       "sma200": 141.2,
       "rsScore": 28,
       "vcpStatus": "none",
-      "weekHighDistance": 38.11,
-      "volumePctAvg": 71.0,
-      "sma20": 118.47,
+      "weekHighDistance": 35.93,
+      "volumePctAvg": 47.0,
+      "sma20": 118.06,
       "pivotPrice": 127.8,
-      "distToPivotPct": 13.31,
+      "distToPivotPct": 10.25,
       "priceHistory30d": [
-        120.73,
         119.38,
         121.87,
         129.65,
@@ -1114,26 +1113,26 @@
         117.06,
         120.1,
         112.38,
-        110.79
+        110.79,
+        114.7
       ],
-      "marketCap": 144.1,
+      "marketCap": 149.2,
       "sector": "Technology"
     },
     {
       "ticker": "AMD",
       "companyName": "Advanced Micro Devices",
-      "price": 245.04,
-      "sma150": 212.24,
-      "sma200": 199.41,
+      "price": 245.42,
+      "sma150": 212.86,
+      "sma200": 199.92,
       "rsScore": 99,
-      "vcpStatus": "none",
-      "weekHighDistance": 7.3,
-      "volumePctAvg": 96.8,
-      "sma20": 210.44,
-      "pivotPrice": 245.04,
+      "vcpStatus": "loose",
+      "weekHighDistance": 7.15,
+      "volumePctAvg": 32.5,
+      "sma20": 213.04,
+      "pivotPrice": 245.42,
       "distToPivotPct": 0.0,
       "priceHistory30d": [
-        200.21,
         198.62,
         190.95,
         202.07,
@@ -1162,26 +1161,26 @@
         221.53,
         231.82,
         236.64,
-        245.04
+        245.04,
+        245.42
       ],
-      "marketCap": 399.5,
+      "marketCap": 400.2,
       "sector": "Technology"
     },
     {
       "ticker": "IBKR",
       "companyName": "Interactive Brokers Group",
-      "price": 71.21,
-      "sma150": 68.44,
-      "sma200": 66.72,
+      "price": 73.59,
+      "sma150": 68.53,
+      "sma200": 66.82,
       "rsScore": 77,
       "vcpStatus": "loose",
-      "weekHighDistance": 9.1,
-      "volumePctAvg": 77.1,
-      "sma20": 67.82,
-      "pivotPrice": 72.31,
-      "distToPivotPct": 1.52,
+      "weekHighDistance": 6.06,
+      "volumePctAvg": 31.5,
+      "sma20": 68.19,
+      "pivotPrice": 73.59,
+      "distToPivotPct": 0.0,
       "priceHistory30d": [
-        71.19,
         71.67,
         69.4,
         69.15,
@@ -1210,26 +1209,26 @@
         68.11,
         72.31,
         71.93,
-        71.21
+        71.21,
+        73.59
       ],
-      "marketCap": 121.1,
+      "marketCap": 125.1,
       "sector": "Financials"
     },
     {
       "ticker": "SMCI",
       "companyName": "Super Micro Computer",
-      "price": 25.26,
-      "sma150": 36.25,
-      "sma200": 39.38,
+      "price": 25.88,
+      "sma150": 36.15,
+      "sma200": 39.28,
       "rsScore": 23,
       "vcpStatus": "none",
-      "weekHighDistance": 58.39,
-      "volumePctAvg": 113.3,
-      "sma20": 24.7,
+      "weekHighDistance": 57.38,
+      "volumePctAvg": 46.1,
+      "sma20": 24.45,
       "pivotPrice": 31.86,
-      "distToPivotPct": 20.72,
+      "distToPivotPct": 18.79,
       "priceHistory30d": [
-        32.39,
         31.83,
         30.68,
         32.65,
@@ -1258,26 +1257,26 @@
         22.67,
         23.37,
         23.22,
-        25.26
+        25.26,
+        25.88
       ],
-      "marketCap": 15.2,
+      "marketCap": 15.5,
       "sector": "Technology"
     },
     {
       "ticker": "HIMS",
       "companyName": "Hims & Hers Health",
-      "price": 19.43,
-      "sma150": 35.24,
-      "sma200": 38.93,
-      "rsScore": 1,
+      "price": 21.21,
+      "sma150": 35.06,
+      "sma200": 38.83,
+      "rsScore": 12,
       "vcpStatus": "none",
-      "weekHighDistance": 70.64,
-      "volumePctAvg": 41.4,
-      "sma20": 21.29,
+      "weekHighDistance": 67.95,
+      "volumePctAvg": 29.3,
+      "sma20": 21.11,
       "pivotPrice": 24.98,
-      "distToPivotPct": 22.22,
+      "distToPivotPct": 15.09,
       "priceHistory30d": [
-        14.52,
         16.48,
         15.82,
         16.45,
@@ -1306,26 +1305,26 @@
         19.5,
         19.39,
         19.75,
-        19.43
+        19.43,
+        21.21
       ],
-      "marketCap": 4.4,
+      "marketCap": 4.8,
       "sector": "Healthcare"
     },
     {
       "ticker": "MSTR",
       "companyName": "Strategy Inc",
-      "price": 128.64,
-      "sma150": 201.63,
-      "sma200": 248.21,
-      "rsScore": 12,
+      "price": 130.07,
+      "sma150": 200.26,
+      "sma200": 246.92,
+      "rsScore": 6,
       "vcpStatus": "none",
-      "weekHighDistance": 71.78,
-      "volumePctAvg": 58.6,
-      "sma20": 132.53,
+      "weekHighDistance": 71.47,
+      "volumePctAvg": 34.0,
+      "sma20": 132.05,
       "pivotPrice": 150.28,
-      "distToPivotPct": 14.4,
+      "distToPivotPct": 13.45,
       "priceHistory30d": [
-        129.5,
         137.65,
         132.68,
         146.44,
@@ -1354,9 +1353,10 @@
         123.72,
         128.3,
         128.86,
-        128.64
+        128.64,
+        130.07
       ],
-      "marketCap": 44.6,
+      "marketCap": 45.1,
       "sector": "Technology"
     }
   ]
