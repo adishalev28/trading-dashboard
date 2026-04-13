@@ -355,6 +355,7 @@ def main():
         history_30d     = extract_price_history(df, 30)
         pivot_price     = calculate_pivot_price(df, 20)
         dist_to_pivot   = round(((pivot_price - price) / pivot_price) * 100, 2) if pivot_price and pivot_price > 0 else 0.0
+        sma20           = calculate_sma(df, 20)
 
         ticker_rs_raws.append(rs_raw)
 
@@ -368,6 +369,7 @@ def main():
             "vcpStatus": vcp_status,
             "weekHighDistance": week_high_dist if week_high_dist is not None else 0.0,
             "volumePctAvg": volume_pct_avg if volume_pct_avg is not None else 100.0,
+            "sma20": round(sma20, 2) if sma20 else price,
             "pivotPrice": pivot_price if pivot_price else price,
             "distToPivotPct": dist_to_pivot,
             "priceHistory30d": history_30d,

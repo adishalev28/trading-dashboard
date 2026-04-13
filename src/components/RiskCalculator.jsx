@@ -1,7 +1,9 @@
 "use client";
 
-import { RotateCcw } from "lucide-react";
+import { useState } from "react";
+import { RotateCcw, Save, Check } from "lucide-react";
 import useRiskCalc from "@/hooks/useRiskCalc";
+import usePortfolio from "@/hooks/usePortfolio";
 import CommissionWarning from "./CommissionWarning";
 import { fmtUsd, fmtIls, fmtPct, fmtNum } from "@/lib/formatters";
 
@@ -52,6 +54,22 @@ function ResultRow({ label, value, highlight = false }) {
 
 export default function RiskCalculator() {
   const { state, result, setField, reset } = useRiskCalc();
+  const { addPosition } = usePortfolio();
+  const [ticker, setTicker] = useState("");
+  const [saved, setSaved] = useState(false);
+
+  const handleSaveToPortfolio = () => {
+    if (!ticker.trim() || result.level === "INVALID" || result.shares <= 0) return;
+    addPosition({
+      ticker: ticker.trim().toUpperCase(),
+      entryPrice: state.entryUsd,
+      shares: result.shares,
+      stopLoss: state.stopUsd,
+      notes: `Risk ${state.riskPct}% | FX ${state.fxRate}`,
+    });
+    setSaved(true);
+    setTimeout(() => setSaved(false), 3000);
+  };
 
   return (
     <div className="max-w-3xl">
@@ -69,6 +87,20 @@ export default function RiskCalculator() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {/* Ticker input for portfolio save */}
+          <div className="md:col-span-2">
+            <label className="block text-xs font-medium text-slate-400 mb-1.5 uppercase tracking-wide">
+              Ticker Symbol (for portfolio)
+            </label>
+            <input
+              type="text"
+              value={ticker}
+              onChange={(e) => setTicker(e.target.value.toUpperCase())}
+              placeholder="e.g. NVDA, META, AAPL..."
+              className="w-full bg-slate-800 border border-slate-700 rounded-lg py-2.5 pl-3 pr-3 text-slate-100 font-mono-nums uppercase focus:outline-none focus:border-emerald-600 transition-colors"
+            />
+          </div>
+
           <InputField
             label="Account Equity (ILS)"
             value={state.equityIls}
@@ -162,11 +194,32 @@ export default function RiskCalculator() {
             </div>
           </div>
 
+          {/* Save to Portfolio button */}
+          <div className="mt-6 pt-4 border-t border-slate-800 flex items-center gap-3">
+            <button
+              onClick={handleSaveToPortfolio}
+              disabled={!ticker.trim() || result.shares <= 0 || saved}
+              className={`flex items-center gap-2 px-5 py-2.5 rounded-lg font-bold text-sm transition-all ${
+                saved
+                  ? "bg-emerald-600 text-white"
+                  : !ticker.trim() || result.shares <= 0
+                  ? "bg-slate-700 text-slate-500 cursor-not-allowed"
+                  : "bg-emerald-600 hover:bg-emerald-500 text-white"
+              }`}
+            >
+              {saved ? <Check className="w-4 h-4" /> : <Save className="w-4 h-4" />}
+              {saved ? "Saved to Portfolio!" : "Save to Portfolio"}
+            </button>
+            {!ticker.trim() && result.shares > 0 && (
+              <span className="text-[10px] text-amber-400">Enter ticker symbol above to save</span>
+            )}
+          </div>
+
           {/* Formula explainer */}
-          <div className="mt-6 pt-4 border-t border-slate-800">
+          <div className="mt-4 pt-4 border-t border-slate-800">
             <div className="text-[10px] text-slate-500 leading-relaxed">
-              <span className="font-semibold text-slate-400">Formula:</span> shares = floor( (equity × risk%) ÷ FX ÷ (entry − stop) ) &nbsp;·&nbsp;
-              commission % = (${fmtNum(state.commissionRoundTripUsd)} round-trip) ÷ position value × 100
+              <span className="font-semibold text-slate-400">Formula:</span> shares = floor( (equity x risk%) / FX / (entry - stop) ) |
+              commission % = (${fmtNum(state.commissionRoundTripUsd)} round-trip) / position value x 100
             </div>
           </div>
         </div>

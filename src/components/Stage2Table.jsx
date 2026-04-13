@@ -6,6 +6,7 @@ import TrendBadge from "./TrendBadge";
 import VCPBadge from "./VCPBadge";
 import RSBar from "./RSBar";
 import Sparkline from "./Sparkline";
+import Tooltip from "./Tooltip";
 import { fmtUsd, fmtPct } from "@/lib/formatters";
 import { sortTickers } from "@/lib/screener";
 
@@ -13,11 +14,11 @@ const columns = [
   { key: "ticker",           label: "Ticker",    align: "left" },
   { key: "chart",            label: "30D",       align: "center", sortable: false },
   { key: "price",            label: "Price",     align: "right" },
-  { key: "distToPivotPct",   label: "Pivot",     align: "right" },
-  { key: "trend",            label: "Trend",     align: "center", sortable: false },
-  { key: "rsScore",          label: "RS Score",  align: "left" },
+  { key: "distToPivotPct",   label: "Pivot",     align: "right",  tooltip: "pivot" },
+  { key: "trend",            label: "Trend",     align: "center", sortable: false, tooltip: "stage2" },
+  { key: "rsScore",          label: "RS Score",  align: "left",   tooltip: "rs" },
   { key: "volumePctAvg",     label: "Vol %",     align: "right" },
-  { key: "vcpStatus",        label: "VCP",       align: "center" },
+  { key: "vcpStatus",        label: "VCP",       align: "center", tooltip: "vcp" },
   { key: "weekHighDistance", label: "Dist 52W",  align: "right" },
 ];
 
@@ -62,6 +63,7 @@ export default function Stage2Table({ tickers, limit }) {
               >
                 <span className="inline-flex items-center gap-1">
                   {col.label}
+                  {col.tooltip && <Tooltip id={col.tooltip} inline />}
                   {sortKey === col.key && (
                     sortDir === "desc" ? <ArrowDown className="w-3 h-3" /> : <ArrowUp className="w-3 h-3" />
                   )}
