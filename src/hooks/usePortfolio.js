@@ -2,14 +2,15 @@
 
 import { useState, useEffect, useCallback } from "react";
 
-const STORAGE_KEY = "tcc_portfolio";
+const REAL_KEY = "tcc_portfolio";
+const SIM_KEY  = "tcc_simulated_trades";
 
 /**
- * Portfolio state — persisted to localStorage
+ * Portfolio + Simulation state — persisted to localStorage
  *
- * Each position:
+ * Each position (real or simulated):
  * {
- *   id:           string (unique, timestamp-based)
+ *   id:           string (unique)
  *   ticker:       string
  *   entryPrice:   number (USD)
  *   shares:       number
@@ -18,52 +19,65 @@ const STORAGE_KEY = "tcc_portfolio";
  *   notes:        string (optional)
  * }
  */
-export default function usePortfolio() {
+function useStoredPositions(storageKey) {
   const [positions, setPositions] = useState([]);
   const [loaded, setLoaded] = useState(false);
 
-  // Load from localStorage on mount
   useEffect(() => {
     try {
-      const raw = localStorage.getItem(STORAGE_KEY);
-      if (raw) {
-        setPositions(JSON.parse(raw));
-      }
+      const raw = localStorage.getItem(storageKey);
+      if (raw) setPositions(JSON.parse(raw));
     } catch {}
     setLoaded(true);
-  }, []);
+  }, [storageKey]);
 
-  // Persist to localStorage on every change (after initial load)
   useEffect(() => {
     if (!loaded) return;
     try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(positions));
+      localStorage.setItem(storageKey, JSON.stringify(positions));
     } catch {}
-  }, [positions, loaded]);
+  }, [positions, loaded, storageKey]);
 
-  const addPosition = useCallback((position) => {
+  const add = useCallback((position) => {
     const newPos = {
       ...position,
-      id: `pos_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
+      id: `${storageKey}_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
       entryDate: new Date().toISOString().slice(0, 10),
     };
     setPositions((prev) => [...prev, newPos]);
     return newPos;
-  }, []);
+  }, [storageKey]);
 
-  const removePosition = useCallback((id) => {
+  const remove = useCallback((id) => {
     setPositions((prev) => prev.filter((p) => p.id !== id));
   }, []);
 
-  const updatePosition = useCallback((id, updates) => {
-    setPositions((prev) =>
-      prev.map((p) => (p.id === id ? { ...p, ...updates } : p))
-    );
+  const update = useCallback((id, updates) => {
+    setPositions((prev) => prev.map((p) => (p.id === id ? { ...p, ...updates } : p)));
   }, []);
 
-  const clearAll = useCallback(() => {
-    setPositions([]);
-  }, []);
+  const clearAll = useCallback(() => setPositions([]), []);
 
-  return { positions, loaded, addPosition, removePosition, updatePosition, clearAll };
+  return { positions, loaded, add, remove, update, clearAll };
+}
+
+export default function usePortfolio() {
+  const real = useStoredPositions(REAL_KEY);
+  const sim  = useStoredPositions(SIM_KEY);
+
+  return {
+    // Real trades
+    positions:      real.positions,
+    loaded:         real.loaded && sim.loaded,
+    addPosition:    real.add,
+    removePosition: real.remove,
+    updatePosition: real.update,
+    clearAll:       real.clearAll,
+
+    // Simulated trades
+    simPositions:      sim.positions,
+    addSimulation:     sim.add,
+    removeSimulation:  sim.remove,
+    clearSimulations:  sim.clearAll,
+  };
 }

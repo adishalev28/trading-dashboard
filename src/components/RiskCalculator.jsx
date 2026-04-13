@@ -54,20 +54,29 @@ function ResultRow({ label, value, highlight = false }) {
 
 export default function RiskCalculator() {
   const { state, result, setField, reset } = useRiskCalc();
-  const { addPosition } = usePortfolio();
+  const { addPosition, addSimulation } = usePortfolio();
   const [ticker, setTicker] = useState("");
-  const [saved, setSaved] = useState(false);
+  const [saved, setSaved] = useState(false);    // "real" | "sim" | false
+
+  const buildPosition = () => ({
+    ticker: ticker.trim().toUpperCase(),
+    entryPrice: state.entryUsd,
+    shares: result.shares,
+    stopLoss: state.stopUsd,
+    notes: `Risk ${state.riskPct}% | FX ${state.fxRate}`,
+  });
 
   const handleSaveToPortfolio = () => {
     if (!ticker.trim() || result.level === "INVALID" || result.shares <= 0) return;
-    addPosition({
-      ticker: ticker.trim().toUpperCase(),
-      entryPrice: state.entryUsd,
-      shares: result.shares,
-      stopLoss: state.stopUsd,
-      notes: `Risk ${state.riskPct}% | FX ${state.fxRate}`,
-    });
-    setSaved(true);
+    addPosition(buildPosition());
+    setSaved("real");
+    setTimeout(() => setSaved(false), 3000);
+  };
+
+  const handleSimulate = () => {
+    if (!ticker.trim() || result.level === "INVALID" || result.shares <= 0) return;
+    addSimulation(buildPosition());
+    setSaved("sim");
     setTimeout(() => setSaved(false), 3000);
   };
 
@@ -194,24 +203,40 @@ export default function RiskCalculator() {
             </div>
           </div>
 
-          {/* Save to Portfolio button */}
-          <div className="mt-6 pt-4 border-t border-slate-800 flex items-center gap-3">
+          {/* Save / Simulate buttons */}
+          <div className="mt-6 pt-4 border-t border-slate-800 flex flex-wrap items-center gap-3">
             <button
               onClick={handleSaveToPortfolio}
               disabled={!ticker.trim() || result.shares <= 0 || saved}
               className={`flex items-center gap-2 px-5 py-2.5 rounded-lg font-bold text-sm transition-all ${
-                saved
+                saved === "real"
                   ? "bg-emerald-600 text-white"
                   : !ticker.trim() || result.shares <= 0
                   ? "bg-slate-700 text-slate-500 cursor-not-allowed"
                   : "bg-emerald-600 hover:bg-emerald-500 text-white"
               }`}
             >
-              {saved ? <Check className="w-4 h-4" /> : <Save className="w-4 h-4" />}
-              {saved ? "Saved to Portfolio!" : "Save to Portfolio"}
+              {saved === "real" ? <Check className="w-4 h-4" /> : <Save className="w-4 h-4" />}
+              {saved === "real" ? "Saved!" : "Save to Portfolio"}
             </button>
+
+            <button
+              onClick={handleSimulate}
+              disabled={!ticker.trim() || result.shares <= 0 || saved}
+              className={`flex items-center gap-2 px-4 py-2.5 rounded-lg font-bold text-sm transition-all border ${
+                saved === "sim"
+                  ? "bg-amber-600 border-amber-500 text-white"
+                  : !ticker.trim() || result.shares <= 0
+                  ? "bg-slate-800 border-slate-700 text-slate-500 cursor-not-allowed"
+                  : "bg-slate-800 border-amber-600 text-amber-400 hover:bg-amber-950"
+              }`}
+            >
+              {saved === "sim" ? <Check className="w-4 h-4" /> : "🧪"}
+              {saved === "sim" ? "Simulated!" : "Simulate Trade"}
+            </button>
+
             {!ticker.trim() && result.shares > 0 && (
-              <span className="text-[10px] text-amber-400">Enter ticker symbol above to save</span>
+              <span className="text-[10px] text-amber-400">Enter ticker symbol above</span>
             )}
           </div>
 

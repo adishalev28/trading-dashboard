@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Trash2, AlertTriangle, TrendingDown, ShieldCheck } from "lucide-react";
+import { Trash2, AlertTriangle, TrendingDown, ShieldCheck, Trophy, XOctagon } from "lucide-react";
 import { fmtUsd, fmtPct } from "@/lib/formatters";
 import { isStage2 } from "@/lib/screener";
 import Sparkline from "./Sparkline";
@@ -14,7 +14,7 @@ import Sparkline from "./Sparkline";
  * - Trailing Stop (SMA 20)
  * - Sell Signals: drops out of Stage 2 or RS < 70
  */
-export default function PortfolioTable({ positions, tickers, onRemove }) {
+export default function PortfolioTable({ positions, tickers, onRemove, isSimulation = false }) {
   const [confirmDelete, setConfirmDelete] = useState(null);
 
   if (!positions || positions.length === 0) {
@@ -62,23 +62,39 @@ export default function PortfolioTable({ positions, tickers, onRemove }) {
             const trailingStop = live?.sma20 ?? pos.stopLoss;
             const stopDistPct = currentPrice > 0 ? ((currentPrice - trailingStop) / currentPrice) * 100 : 0;
 
-            // Sell signals
+            // Risk calculation for 3R target
+            const riskPerShare = pos.entryPrice - pos.stopLoss;
+            const profitPerShare = currentPrice - pos.entryPrice;
+            const rMultiple = riskPerShare > 0 ? profitPerShare / riskPerShare : 0;
+
+            // Sell signals + achievement badges
             const signals = [];
+
+            // STOP HIT — price at or below original stop loss
+            if (currentPrice <= pos.stopLoss) {
+              signals.push({ label: "STOP HIT", severity: "stop", Icon: XOctagon });
+            }
+
+            // TARGET HIT — profit ≥ 3R (triple the risk)
+            if (rMultiple >= 3) {
+              signals.push({ label: `${rMultiple.toFixed(1)}R TARGET`, severity: "target", Icon: Trophy });
+            }
+
             if (live) {
               if (!isStage2(live)) {
-                signals.push({ label: "Left Stage 2", severity: "danger" });
+                signals.push({ label: "Left Stage 2", severity: "danger", Icon: TrendingDown });
               }
               if (live.rsScore < 70) {
-                signals.push({ label: `RS ${live.rsScore}`, severity: "danger" });
+                signals.push({ label: `RS ${live.rsScore}`, severity: "danger", Icon: TrendingDown });
               }
-              if (currentPrice < trailingStop) {
-                signals.push({ label: "Below Stop", severity: "danger" });
+              if (currentPrice < trailingStop && currentPrice > pos.stopLoss) {
+                signals.push({ label: "Below SMA20", severity: "danger", Icon: TrendingDown });
               }
-              if (live.rsScore >= 70 && live.rsScore < 80) {
-                signals.push({ label: `RS ${live.rsScore}`, severity: "warn" });
+              if (live.rsScore >= 70 && live.rsScore < 80 && signals.length === 0) {
+                signals.push({ label: `RS ${live.rsScore}`, severity: "warn", Icon: AlertTriangle });
               }
             }
-            const hasDanger = signals.some((s) => s.severity === "danger");
+            const hasDanger = signals.some((s) => s.severity === "danger" || s.severity === "stop");
 
             return (
               <tr
@@ -137,23 +153,23 @@ export default function PortfolioTable({ positions, tickers, onRemove }) {
                     </span>
                   ) : (
                     <div className="flex flex-col gap-1 items-center">
-                      {signals.map((s, si) => (
-                        <span
-                          key={si}
-                          className={`inline-flex items-center gap-1 text-[10px] px-2 py-0.5 rounded border font-bold ${
-                            s.severity === "danger"
-                              ? "bg-rose-950 text-rose-400 border-rose-800"
-                              : "bg-amber-950 text-amber-400 border-amber-800"
-                          }`}
-                        >
-                          {s.severity === "danger" ? (
-                            <TrendingDown className="w-3 h-3" />
-                          ) : (
-                            <AlertTriangle className="w-3 h-3" />
-                          )}
-                          {s.label}
-                        </span>
-                      ))}
+                      {signals.map((s, si) => {
+                        const SIcon = s.Icon || AlertTriangle;
+                        const colorClass =
+                          s.severity === "stop"   ? "bg-rose-900 text-white border-rose-600 animate-pulse" :
+                          s.severity === "target"  ? "bg-emerald-900 text-emerald-300 border-emerald-600" :
+                          s.severity === "danger" ? "bg-rose-950 text-rose-400 border-rose-800" :
+                          "bg-amber-950 text-amber-400 border-amber-800";
+                        return (
+                          <span
+                            key={si}
+                            className={`inline-flex items-center gap-1 text-[10px] px-2 py-0.5 rounded border font-bold ${colorClass}`}
+                          >
+                            <SIcon className="w-3 h-3" />
+                            {s.label}
+                          </span>
+                        );
+                      })}
                     </div>
                   )}
                 </td>
