@@ -60,6 +60,17 @@ ALWAYS_INCLUDE = {
     "SMCI", "HIMS", "MSTR",
 }
 
+# Hardcoded sector mapping for ALWAYS_INCLUDE tickers (fallback when missing from Finviz)
+ALWAYS_INCLUDE_SECTORS = {
+    "NVDA": "Technology", "META": "Communication Services", "AVGO": "Technology",
+    "TSM": "Technology", "CRM": "Technology", "ANET": "Technology",
+    "PLTR": "Technology", "NFLX": "Communication Services",
+    "COST": "Consumer Staples", "LLY": "Healthcare", "AXON": "Industrials",
+    "CEG": "Utilities", "VST": "Utilities", "SHOP": "Technology",
+    "AMD": "Technology", "IBKR": "Financials", "SMCI": "Technology",
+    "HIMS": "Healthcare", "MSTR": "Technology",
+}
+
 BENCHMARK = "SPY"
 HISTORY_PERIOD = "18mo"
 BATCH_SIZE = 50  # Download this many tickers at once
@@ -81,12 +92,13 @@ def load_candidates():
     print(f"Loaded {len(candidates)} candidates from Finviz pre-screen")
     print(f"  Generated at: {data.get('generatedAt', '?')}")
 
-    # Ensure ALWAYS_INCLUDE tickers are present
+    # Ensure ALWAYS_INCLUDE tickers are present with correct sectors
     existing_symbols = {c["symbol"] for c in candidates}
     for sym in ALWAYS_INCLUDE:
         if sym not in existing_symbols:
-            candidates.append({"symbol": sym, "sector": ""})
-            print(f"  + Added {sym} (ALWAYS_INCLUDE)")
+            sector = ALWAYS_INCLUDE_SECTORS.get(sym, "")
+            candidates.append({"symbol": sym, "sector": sector})
+            print(f"  + Added {sym} ({sector}) (ALWAYS_INCLUDE)")
 
     return candidates
 
@@ -426,7 +438,7 @@ def main():
 
             ticker_entries.append({
                 "symbol": sym,
-                "sector": sector_map.get(sym, ""),
+                "sector": sector_map.get(sym, "") or ALWAYS_INCLUDE_SECTORS.get(sym, ""),
                 "data": {
                     "ticker": sym,
                     "companyName": sym,
@@ -443,7 +455,7 @@ def main():
                     "distToPivotPct": dist_to_pivot,
                     "priceHistory30d": history_30d,
                     "marketCap": 0,  # filled later
-                    "sector": sector_map.get(sym, ""),
+                    "sector": sector_map.get(sym, "") or ALWAYS_INCLUDE_SECTORS.get(sym, ""),
                 },
                 "_rs_index": len(rs_raws) - 1,
                 "_sma150": sma150,

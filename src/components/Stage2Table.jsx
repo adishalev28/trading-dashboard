@@ -9,7 +9,7 @@ import RSBar from "./RSBar";
 import Sparkline from "./Sparkline";
 import Tooltip from "./Tooltip";
 import { fmtUsd, fmtPct } from "@/lib/formatters";
-import { sortTickers } from "@/lib/screener";
+import { sortTickers, isStage2 } from "@/lib/screener";
 
 const columns = [
   { key: "ticker",           label: "Ticker",    align: "left" },
@@ -39,11 +39,23 @@ export default function Stage2Table({ tickers, limit }) {
   const [sortDir, setSortDir] = useState("desc");
   const [search, setSearch] = useState("");
   const [sectorFilter, setSectorFilter] = useState("all");
+  const [quickFilter, setQuickFilter] = useState("all"); // "all" | "vcp_tight" | "breakouts"
 
   const sectors = useMemo(() => getUniqueSectors(tickers), [tickers]);
 
   const filtered = useMemo(() => {
     let arr = tickers;
+
+    // Quick filter
+    if (quickFilter === "vcp_tight") {
+      arr = arr.filter(t => t.vcpStatus === "tight");
+    } else if (quickFilter === "breakouts") {
+      arr = arr.filter(t =>
+        isStage2(t) &&
+        t.rsScore >= 80 &&
+        (t.distToPivotPct ?? 100) <= 2
+      );
+    }
 
     // Search filter (ticker or company name)
     if (search.trim()) {
@@ -60,7 +72,7 @@ export default function Stage2Table({ tickers, limit }) {
     }
 
     return arr;
-  }, [tickers, search, sectorFilter]);
+  }, [tickers, search, sectorFilter, quickFilter]);
 
   const sorted = useMemo(() => {
     const arr = sortTickers(filtered, sortKey, sortDir);
@@ -83,34 +95,62 @@ export default function Stage2Table({ tickers, limit }) {
 
   return (
     <div>
-      {/* Search + Sector filter bar */}
+      {/* Quick filters + Search + Sector filter bar */}
       {showFilters && (
-        <div className="flex flex-wrap gap-3 mb-4">
-          <div className="relative flex-1 min-w-[200px]">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500" />
-            <input
-              type="text"
-              placeholder="Search ticker or company..."
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              className="w-full pl-9 pr-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-emerald-500"
-            />
-          </div>
-          <select
-            value={sectorFilter}
-            onChange={(e) => setSectorFilter(e.target.value)}
-            className="px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-sm text-slate-200 focus:outline-none focus:border-emerald-500"
-          >
-            <option value="all">All Sectors ({filtered.length})</option>
-            {sectors.map(s => (
-              <option key={s} value={s}>{s}</option>
+        <div className="space-y-3 mb-4">
+          {/* Quick filter buttons */}
+          <div className="flex gap-2">
+            {[
+              { key: "all", label: "Show All", count: tickers.length },
+              { key: "vcp_tight", label: "VCP Tight Only", count: tickers.filter(t => t.vcpStatus === "tight").length },
+              { key: "breakouts", label: "Breakouts Only", count: tickers.filter(t => isStage2(t) && t.rsScore >= 80 && (t.distToPivotPct ?? 100) <= 2).length },
+            ].map(({ key, label, count }) => (
+              <button
+                key={key}
+                onClick={() => setQuickFilter(key)}
+                className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                  quickFilter === key
+                    ? key === "vcp_tight"
+                      ? "bg-emerald-600 text-white"
+                      : key === "breakouts"
+                      ? "bg-amber-600 text-white"
+                      : "bg-slate-600 text-white"
+                    : "bg-slate-800 text-slate-400 border border-slate-700 hover:text-slate-200 hover:border-slate-500"
+                }`}
+              >
+                {label} ({count})
+              </button>
             ))}
-          </select>
-          {(search || sectorFilter !== "all") && (
-            <div className="flex items-center text-xs text-slate-400">
-              {sorted.length} / {tickers.length} shown
+          </div>
+
+          {/* Search + Sector dropdown */}
+          <div className="flex flex-wrap gap-3">
+            <div className="relative flex-1 min-w-[200px]">
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500" />
+              <input
+                type="text"
+                placeholder="Search ticker or company..."
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                className="w-full pl-9 pr-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-emerald-500"
+              />
             </div>
-          )}
+            <select
+              value={sectorFilter}
+              onChange={(e) => setSectorFilter(e.target.value)}
+              className="px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-sm text-slate-200 focus:outline-none focus:border-emerald-500"
+            >
+              <option value="all">All Sectors</option>
+              {sectors.map(s => (
+                <option key={s} value={s}>{s}</option>
+              ))}
+            </select>
+            {(search || sectorFilter !== "all" || quickFilter !== "all") && (
+              <div className="flex items-center text-xs text-slate-400">
+                {sorted.length} / {tickers.length} shown
+              </div>
+            )}
+          </div>
         </div>
       )}
 
