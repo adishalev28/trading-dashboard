@@ -40,7 +40,7 @@ function StatCard({ label, value, sub, Icon, tone = "emerald", badge, explainId 
 }
 
 export default function OverviewPage() {
-  const { sectors, tickers, benchmark } = mockData;
+  const { sectors, tickers, benchmark, meta } = mockData;
 
   // Compute summary stats
   const topSector = sortSectors(sectors, "strengthScore", "desc")[0];
@@ -68,10 +68,14 @@ export default function OverviewPage() {
     day: "numeric",
   });
 
+  const scannedLabel = meta?.totalScanned
+    ? `${meta.totalScanned} stocks scanned · ${tickers.length} passed`
+    : `${tickers.length} tickers tracked`;
+
   return (
     <PageShell
       title="Overview"
-      subtitle={`Market snapshot - ${now}`}
+      subtitle={`${scannedLabel} - ${now}`}
       actions={<RefreshButton />}
     >
       {/* 5 summary cards (was 4) */}

@@ -4,13 +4,16 @@ import mockData from "@/lib/mockData.json";
 import { isStage2 } from "@/lib/screener";
 
 export default function WatchlistPage() {
-  const { tickers } = mockData;
+  const { tickers, meta } = mockData;
   const stage2Count = tickers.filter(isStage2).length;
+  const scannedText = meta?.totalScanned
+    ? `Scanned ${meta.totalScanned} stocks · `
+    : "";
 
   return (
     <PageShell
       title="Watchlist"
-      subtitle={`${tickers.length} tickers tracked · ${stage2Count} meeting Stage 2 criteria`}
+      subtitle={`${scannedText}${tickers.length} passed filters · ${stage2Count} in Stage 2`}
     >
       <Stage2Table tickers={tickers} />
 

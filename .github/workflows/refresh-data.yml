@@ -10,6 +10,7 @@ on:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 25      # Screener can take 10-15 min
     permissions:
       contents: write        # Needed to push updated mockData.json
 
@@ -25,7 +26,10 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Run Data Agent
+      - name: Stage 1 — Finviz Pre-Screen
+        run: python scripts/finviz_screen.py
+
+      - name: Stage 2 — Deep Analysis (yfinance)
         run: python scripts/fetch_data.py
         env:
           PYTHONIOENCODING: utf-8
@@ -47,5 +51,5 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           git add src/lib/mockData.json
-          git commit -m "data: auto-refresh from yfinance ($(date -u +%Y-%m-%d))"
+          git commit -m "data: auto-refresh from screener ($(date -u +%Y-%m-%d))"
           git push
