@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-04-14 06:15:16",
+    "generatedAt": "2026-04-14 08:48:02",
     "source": "yfinance (live)",
     "fxSource": "frankfurter.dev",
     "note": "Fresh data from yfinance. Benchmark: SPY."
   },
-  "fxRate": 3.0384,
+  "fxRate": 3.0173,
   "commissionRoundTripUsd": 14,
   "benchmark": {
     "symbol": "SPY",
