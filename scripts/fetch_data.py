@@ -266,6 +266,28 @@ def detect_vcp(df):
         return "none"
 
 
+def detect_volume_surge(df):
+    """
+    Detect abnormal volume increase on a green (up) day.
+      - surge:  vol > 150% of 50-day avg AND close > open (green candle)
+      - rising: vol > 120% of 50-day avg AND close > open
+      - none:   normal volume or red day
+    """
+    if len(df) < 51:
+        return "none"
+    vol_today = float(df["Volume"].iloc[-1])
+    vol_avg_50 = float(df["Volume"].tail(51).iloc[:-1].mean())  # 50 days before today
+    if vol_avg_50 <= 0:
+        return "none"
+    vol_pct = (vol_today / vol_avg_50) * 100
+    green_day = float(df["Close"].iloc[-1]) > float(df["Open"].iloc[-1])
+    if vol_pct >= 150 and green_day:
+        return "surge"
+    elif vol_pct >= 120 and green_day:
+        return "rising"
+    return "none"
+
+
 def calculate_pivot_price(df, lookback=20):
     """
     Find the Pivot / Buy Point — highest close in the last N trading days.
@@ -351,6 +373,7 @@ def main():
         volume_pct_avg  = calculate_volume_pct(df, 50)
         rs_raw          = calculate_rs_raw(df, spy_df)
         vcp_status      = detect_vcp(df)
+        vol_surge       = detect_volume_surge(df)
         market_cap      = get_market_cap(symbol)
         history_30d     = extract_price_history(df, 30)
         pivot_price     = calculate_pivot_price(df, 20)
@@ -367,6 +390,7 @@ def main():
             "sma200": round(sma200, 2) if sma200 else price,
             "rsScore": None,
             "vcpStatus": vcp_status,
+            "volumeSurge": vol_surge,
             "weekHighDistance": week_high_dist if week_high_dist is not None else 0.0,
             "volumePctAvg": volume_pct_avg if volume_pct_avg is not None else 100.0,
             "sma20": round(sma20, 2) if sma20 else price,

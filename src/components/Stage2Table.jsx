@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import { ArrowUp, ArrowDown } from "lucide-react";
 import TrendBadge from "./TrendBadge";
 import VCPBadge from "./VCPBadge";
+import VolSurgeBadge from "./VolSurgeBadge";
 import RSBar from "./RSBar";
 import Sparkline from "./Sparkline";
 import Tooltip from "./Tooltip";
@@ -18,6 +19,7 @@ const columns = [
   { key: "trend",            label: "Trend",     align: "center", sortable: false, tooltip: "stage2" },
   { key: "rsScore",          label: "RS Score",  align: "left",   tooltip: "rs" },
   { key: "volumePctAvg",     label: "Vol %",     align: "right" },
+  { key: "volumeSurge",      label: "Surge",     align: "center", sortable: false },
   { key: "vcpStatus",        label: "VCP",       align: "center", tooltip: "vcp" },
   { key: "weekHighDistance", label: "Dist 52W",  align: "right" },
 ];
@@ -126,6 +128,9 @@ export default function Stage2Table({ tickers, limit }) {
                 (t.volumePctAvg ?? 100) < 80 ? "text-amber-400" : "text-slate-300"
               }`}>
                 {Math.round(t.volumePctAvg ?? 100)}%
+              </td>
+              <td className="px-4 py-3 text-center">
+                <VolSurgeBadge status={t.volumeSurge} />
               </td>
               <td className="px-4 py-3 text-center">
                 <VCPBadge status={t.vcpStatus} />
