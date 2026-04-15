@@ -1,8 +1,12 @@
 name: Refresh Market Data
 
-# Manual trigger only — press "Refresh Data" in the dashboard when needed
+# Twice-daily scheduled runs + manual trigger from dashboard
 on:
   workflow_dispatch:         # Manual trigger button
+  schedule:
+    # Times in UTC. Israel is UTC+3 (DST) or UTC+2 (winter).
+    - cron: '43 21 * * *'    # 21:43 UTC = 00:43 Israel — after US market close (full day's data)
+    - cron: '43 9 * * *'     # 09:43 UTC = 12:43 Israel — before US market opens (morning check)
 
 jobs:
   refresh:
