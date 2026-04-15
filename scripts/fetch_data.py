@@ -9,7 +9,7 @@ Pipeline:
   1. Read candidates from scripts/candidates.json (output of finviz_screen.py)
   2. Download 18 months OHLCV in batches via yf.download()
   3. Calculate Stage 2, RS Score, VCP, Volume Surge, Pivot for each
-  4. Filter: keep only Stage 2 + Warning + ALWAYS_INCLUDE tickers
+  4. Filter: keep only Stage 2 + Warning (RS70+) tickers
   5. Write final results to src/lib/mockData.json
 
 Usage:
@@ -53,24 +53,6 @@ SECTORS = [
     {"symbol": "XLC",  "name": "Communication Services"},
 ]
 
-# These tickers are ALWAYS included in the output, even if they fail Stage 2
-ALWAYS_INCLUDE = {
-    "NVDA", "META", "AVGO", "TSM", "CRM", "ANET", "PLTR", "NFLX",
-    "COST", "LLY", "AXON", "CEG", "VST", "SHOP", "AMD", "IBKR",
-    "SMCI", "HIMS", "MSTR",
-}
-
-# Hardcoded sector mapping for ALWAYS_INCLUDE tickers (fallback when missing from Finviz)
-ALWAYS_INCLUDE_SECTORS = {
-    "NVDA": "Technology", "META": "Communication Services", "AVGO": "Technology",
-    "TSM": "Technology", "CRM": "Technology", "ANET": "Technology",
-    "PLTR": "Technology", "NFLX": "Communication Services",
-    "COST": "Consumer Staples", "LLY": "Healthcare", "AXON": "Industrials",
-    "CEG": "Utilities", "VST": "Utilities", "SHOP": "Technology",
-    "AMD": "Technology", "IBKR": "Financials", "SMCI": "Technology",
-    "HIMS": "Healthcare", "MSTR": "Technology",
-}
-
 BENCHMARK = "SPY"
 HISTORY_PERIOD = "18mo"
 BATCH_SIZE = 50  # Download this many tickers at once
@@ -82,8 +64,8 @@ COMMISSION_ROUND_TRIP_USD = 14
 def load_candidates():
     """Load candidate tickers from Finviz pre-screen output."""
     if not CANDIDATES_FILE.exists():
-        print(f"WARNING: {CANDIDATES_FILE} not found. Using ALWAYS_INCLUDE only.")
-        return [{"symbol": s, "sector": ""} for s in sorted(ALWAYS_INCLUDE)]
+        print(f"ERROR: {CANDIDATES_FILE} not found. Run finviz_screen.py first.")
+        sys.exit(1)
 
     with open(CANDIDATES_FILE, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -91,14 +73,6 @@ def load_candidates():
     candidates = data.get("candidates", [])
     print(f"Loaded {len(candidates)} candidates from Finviz pre-screen")
     print(f"  Generated at: {data.get('generatedAt', '?')}")
-
-    # Ensure ALWAYS_INCLUDE tickers are present with correct sectors
-    existing_symbols = {c["symbol"] for c in candidates}
-    for sym in ALWAYS_INCLUDE:
-        if sym not in existing_symbols:
-            sector = ALWAYS_INCLUDE_SECTORS.get(sym, "")
-            candidates.append({"symbol": sym, "sector": sector})
-            print(f"  + Added {sym} ({sector}) (ALWAYS_INCLUDE)")
 
     return candidates
 
@@ -370,7 +344,6 @@ def main():
     total_candidates = len(all_symbols)
 
     print(f"\nTotal candidates to analyze: {total_candidates}")
-    print(f"ALWAYS_INCLUDE: {len(ALWAYS_INCLUDE)} tickers")
     print()
 
     # ─── Step 1: Fetch live FX rate ──
@@ -438,7 +411,7 @@ def main():
 
             ticker_entries.append({
                 "symbol": sym,
-                "sector": sector_map.get(sym, "") or ALWAYS_INCLUDE_SECTORS.get(sym, ""),
+                "sector": sector_map.get(sym, ""),
                 "data": {
                     "ticker": sym,
                     "companyName": sym,
@@ -455,7 +428,7 @@ def main():
                     "distToPivotPct": dist_to_pivot,
                     "priceHistory30d": history_30d,
                     "marketCap": 0,  # filled later
-                    "sector": sector_map.get(sym, "") or ALWAYS_INCLUDE_SECTORS.get(sym, ""),
+                    "sector": sector_map.get(sym, ""),
                 },
                 "_rs_index": len(rs_raws) - 1,
                 "_sma150": sma150,
@@ -480,11 +453,9 @@ def main():
     final_tickers = []
     stage2_count = 0
     warning_count = 0
-    always_count = 0
 
     for entry in ticker_entries:
         d = entry["data"]
-        sym = entry["symbol"]
         rs = d["rsScore"]
         price = d["price"]
         sma150 = entry["_sma150"]
@@ -493,22 +464,16 @@ def main():
 
         in_stage2 = is_stage2(price, sma150, sma200, rs, whd)
         in_warning = not in_stage2 and is_warning(price, sma150, sma200)
-        in_always = sym in ALWAYS_INCLUDE
 
         if in_stage2:
             stage2_count += 1
             final_tickers.append(d)
-        elif in_always:
-            always_count += 1
-            final_tickers.append(d)
         elif in_warning and rs >= 70:
-            # Only keep warnings with strong RS (70+)
             warning_count += 1
             final_tickers.append(d)
 
     print(f"  Stage 2:        {stage2_count}")
     print(f"  Warning (RS70+): {warning_count}")
-    print(f"  ALWAYS_INCLUDE: {always_count}")
     print(f"  TOTAL OUTPUT:   {len(final_tickers)}")
 
     # ─── Step 6b: Fetch company names for final tickers (best effort) ──
@@ -585,7 +550,7 @@ def main():
             "totalScanned": total_candidates,
             "passedFinviz": total_candidates,
             "finalCount": len(final_tickers),
-            "note": f"Screened {total_candidates} stocks. {len(final_tickers)} passed Stage 2 / Warning / Always-Include filters.",
+            "note": f"Screened {total_candidates} stocks. {len(final_tickers)} passed Stage 2 / Warning filters.",
         },
         "fxRate": fx_rate,
         "commissionRoundTripUsd": COMMISSION_ROUND_TRIP_USD,
@@ -613,8 +578,7 @@ def main():
     print(f"  Candidates scanned:  {total_candidates}")
     print(f"  Downloaded OK:       {len(all_data)}")
     print(f"  Stage 2 passed:      {stage2_count}")
-    print(f"  Warning (RS 60+):    {warning_count}")
-    print(f"  ALWAYS_INCLUDE:      {always_count}")
+    print(f"  Warning (RS70+):     {warning_count}")
     print(f"  TOTAL in output:     {len(final_tickers)}")
     print(f"  Sectors:             {len(sector_data)}/{len(SECTORS)}")
     print(f"  FX rate:             {fx_rate} ILS/USD {'(live)' if live_fx else '(fallback)'}")
