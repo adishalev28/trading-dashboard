@@ -8,6 +8,7 @@ import Explainer from "@/components/Explainer";
 import mockData from "@/lib/mockData.json";
 import { isStage2, sortSectors, sortTickers, findPotentialBreakouts } from "@/lib/screener";
 import { Trophy, Target, Flame, Activity, Crown, TrendingUp } from "lucide-react";
+import ExplainerComp from "@/components/Explainer";
 
 function StatCard({ label, value, sub, Icon, tone = "emerald", badge, explainId }) {
   const toneClasses = {
@@ -162,9 +163,9 @@ export default function OverviewPage() {
 
       {/* ALL 11 sectors (was top 6) */}
       <section className="mb-10">
-        <h2 className="text-sm font-bold text-slate-300 uppercase tracking-wide mb-4">
+        <ExplainerComp id="sectorHeatmap" className="text-sm font-bold text-slate-300 uppercase tracking-wide mb-4 inline-block">
           All 11 Sectors - S&P 500 Rotation
-        </h2>
+        </ExplainerComp>
         <SectorHeatmap sectors={sortSectors(sectors, "strengthScore", "desc")} />
       </section>
 

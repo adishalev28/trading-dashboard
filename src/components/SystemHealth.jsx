@@ -2,6 +2,7 @@
 
 import { ShieldCheck, AlertTriangle, TrendingUp, Activity, Target, Zap } from "lucide-react";
 import { isStage2 } from "@/lib/screener";
+import Explainer from "./Explainer";
 
 /**
  * Daily Trading Checklist — "System Health" checks
@@ -34,6 +35,7 @@ export default function SystemHealth({ benchmark, sectors, tickers }) {
         ? `$${benchmark.price} ${spyAbove200 ? ">" : "<"} SMA200 $${benchmark.sma200 ?? "?"}`
         : "No data",
       Icon: TrendingUp,
+      explainId: "spyTrend",
     },
     {
       label: "Lead Sector",
@@ -43,6 +45,7 @@ export default function SystemHealth({ benchmark, sectors, tickers }) {
         ? `${topSector.symbol} (${topSector.name}): ${topSector.changePct >= 0 ? "+" : ""}${topSector.changePct?.toFixed(2)}%`
         : "No data",
       Icon: Activity,
+      explainId: "leadSector",
     },
     {
       label: "VCP Tight",
@@ -50,6 +53,7 @@ export default function SystemHealth({ benchmark, sectors, tickers }) {
       passed: hasVcpTight,
       detail: `${vcpTightCount} tight setup${vcpTightCount !== 1 ? "s" : ""} found`,
       Icon: Target,
+      explainId: "vcpTightCheck",
     },
     {
       label: "Breadth",
@@ -57,6 +61,7 @@ export default function SystemHealth({ benchmark, sectors, tickers }) {
       passed: healthyBreadth,
       detail: `${stage2Count}/${tickers?.length ?? 0} meeting all criteria`,
       Icon: Zap,
+      explainId: "breadthCheck",
     },
   ];
 
@@ -73,9 +78,9 @@ export default function SystemHealth({ benchmark, sectors, tickers }) {
           ) : (
             <AlertTriangle className="w-5 h-5 text-amber-400" />
           )}
-          <h2 className="text-sm font-bold text-slate-100 uppercase tracking-wide">
+          <Explainer id="systemHealth" className="text-sm font-bold text-slate-100 uppercase tracking-wide">
             System Health
-          </h2>
+          </Explainer>
         </div>
         <span className={`text-xs font-bold px-2.5 py-1 rounded-full ${
           passedCount === 4 ? "bg-emerald-950 text-emerald-400 border border-emerald-800" :
@@ -111,7 +116,7 @@ export default function SystemHealth({ benchmark, sectors, tickers }) {
                   }`}>
                     {check.passed ? "YES" : "NO"}
                   </span>
-                  <span className="text-xs text-slate-400 truncate">{check.question}</span>
+                  <Explainer id={check.explainId} className="text-xs text-slate-400 truncate">{check.question}</Explainer>
                 </div>
                 <div className="text-[10px] text-slate-500 mt-0.5 font-mono-nums truncate">
                   {check.detail}

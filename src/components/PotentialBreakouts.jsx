@@ -2,6 +2,7 @@
 
 import { Crosshair, Zap } from "lucide-react";
 import { fmtUsd } from "@/lib/formatters";
+import Explainer from "./Explainer";
 
 /**
  * Potential Breakouts — tickers in Stage 2, RS > 80, within 2% of Pivot
@@ -13,9 +14,9 @@ export default function PotentialBreakouts({ candidates }) {
       <div className="bg-slate-800 border border-slate-700 rounded-xl p-5">
         <div className="flex items-center gap-2 mb-2">
           <Crosshair className="w-5 h-5 text-slate-500" />
-          <h2 className="text-sm font-bold text-slate-400 uppercase tracking-wide">
+          <Explainer id="breakouts" className="text-sm font-bold text-slate-400 uppercase tracking-wide">
             Potential Breakouts
-          </h2>
+          </Explainer>
         </div>
         <div className="text-xs text-slate-500 italic">
           No tickers within 2% of their Pivot right now. Check back after data refresh.
@@ -30,9 +31,9 @@ export default function PotentialBreakouts({ candidates }) {
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center gap-2">
           <Crosshair className="w-5 h-5 text-emerald-400" />
-          <h2 className="text-sm font-bold text-emerald-400 uppercase tracking-wide">
+          <Explainer id="breakouts" className="text-sm font-bold text-emerald-400 uppercase tracking-wide">
             Potential Breakouts
-          </h2>
+          </Explainer>
         </div>
         <span className="text-[10px] font-bold px-2.5 py-1 rounded-full bg-emerald-950 text-emerald-400 border border-emerald-800">
           {Math.min(candidates.length, 3)} of {candidates.length} setup{candidates.length !== 1 ? "s" : ""}
@@ -40,7 +41,11 @@ export default function PotentialBreakouts({ candidates }) {
       </div>
 
       <div className="text-[10px] text-slate-500 mb-3">
-        Stage 2 + RS &gt; 80 + within 2% of Pivot Price
+        <Explainer id="stage2" className="text-[10px] text-slate-500">Stage 2</Explainer>
+        {" + "}
+        <Explainer id="rs" className="text-[10px] text-slate-500">RS &gt; 80</Explainer>
+        {" + within 2% of "}
+        <Explainer id="pivot" className="text-[10px] text-slate-500">Pivot Price</Explainer>
       </div>
 
       {/* Candidate cards */}
@@ -92,7 +97,7 @@ export default function PotentialBreakouts({ candidates }) {
               </div>
 
               {/* Distance badge */}
-              <div className={`shrink-0 text-right font-mono-nums font-bold text-sm min-w-[4rem] ${
+              <Explainer id="breakoutStatus" className={`shrink-0 text-right font-mono-nums font-bold text-sm min-w-[4rem] ${
                 isBreakout ? "text-emerald-400" :
                 isImminent ? "text-emerald-400" :
                 "text-amber-400"
@@ -101,7 +106,7 @@ export default function PotentialBreakouts({ candidates }) {
                   ? "AT PIVOT"
                   : `${dist.toFixed(1)}%`
                 }
-              </div>
+              </Explainer>
             </div>
           );
         })}

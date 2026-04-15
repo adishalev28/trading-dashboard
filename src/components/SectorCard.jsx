@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { fmtPct, fmtMarketCap } from "@/lib/formatters";
 import RSBar from "./RSBar";
 import Sparkline from "./Sparkline";
+import Explainer from "./Explainer";
 
 /**
  * Single sector tile — symbol pill, % change, strength score, market cap
@@ -48,9 +49,9 @@ export default function SectorCard({ sector, index = 0 }) {
 
       {/* Bottom: strength bar */}
       <div>
-        <div className="text-[10px] text-slate-500 mb-1 uppercase tracking-wide">
+        <Explainer id="sectorStrength" className="text-[10px] text-slate-500 mb-1 uppercase tracking-wide">
           Strength Score
-        </div>
+        </Explainer>
         <RSBar score={sector.strengthScore} compact={false} />
       </div>
     </motion.div>
