@@ -76,7 +76,7 @@ export default function OverviewPage() {
     <PageShell
       title="Overview"
       subtitle={`${scannedLabel} - ${now}`}
-      actions={<RefreshButton />}
+      actions={<RefreshButton generatedAt={meta?.generatedAt} />}
     >
       {/* 5 summary cards (was 4) */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">

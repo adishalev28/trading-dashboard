@@ -1,13 +1,27 @@
 "use client";
 
 import { useState } from "react";
-import { RefreshCw, Check, AlertCircle } from "lucide-react";
+import { RefreshCw, Check, AlertCircle, Clock } from "lucide-react";
+
+function timeAgo(dateStr) {
+  if (!dateStr) return null;
+  const generated = new Date(dateStr.replace(" ", "T") + "Z");
+  const now = new Date();
+  const diffMs = now - generated;
+  const mins = Math.floor(diffMs / 60000);
+  const hours = Math.floor(mins / 60);
+  const days = Math.floor(hours / 24);
+  if (days > 0) return `${days}d ago`;
+  if (hours > 0) return `${hours}h ago`;
+  if (mins > 0) return `${mins}m ago`;
+  return "just now";
+}
 
 /**
  * Refresh Data button — triggers GitHub Actions workflow via /api/refresh
  * Shows status: idle → loading → success/error
  */
-export default function RefreshButton() {
+export default function RefreshButton({ generatedAt }) {
   const [status, setStatus] = useState("idle"); // idle | loading | success | error
   const [message, setMessage] = useState("");
 
@@ -37,8 +51,22 @@ export default function RefreshButton() {
     }, 8000);
   };
 
+  const age = timeAgo(generatedAt);
+  const isStale = (() => {
+    if (!generatedAt) return false;
+    const generated = new Date(generatedAt.replace(" ", "T") + "Z");
+    return (new Date() - generated) > 24 * 60 * 60 * 1000;
+  })();
+
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex items-center gap-3">
+      {age && (
+        <div className={`flex items-center gap-1 text-[11px] ${isStale ? "text-amber-400" : "text-slate-500"}`}>
+          <Clock className="w-3 h-3" />
+          <span>Updated {age}</span>
+          {isStale && <span className="text-amber-500 font-bold">· Stale</span>}
+        </div>
+      )}
       <button
         onClick={handleRefresh}
         disabled={status === "loading"}
