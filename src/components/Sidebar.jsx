@@ -73,31 +73,29 @@ export default function Sidebar() {
                 Sign out
               </button>
             </div>
+          ) : magicLinkSent ? (
+            <div className="flex items-center gap-2 text-xs text-emerald-400 px-2 py-2">
+              <Check className="w-4 h-4" />
+              Check your email!
+            </div>
           ) : (
-            {magicLinkSent ? (
-              <div className="flex items-center gap-2 text-xs text-emerald-400 px-2 py-2">
-                <Check className="w-4 h-4" />
-                Check your email!
-              </div>
-            ) : (
-              <form onSubmit={async (e) => { e.preventDefault(); setSending(true); await signIn(email); setSending(false); }} className="space-y-2">
-                <input
-                  type="email"
-                  placeholder="Email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  className="w-full px-3 py-1.5 text-xs bg-slate-900 border border-slate-700 rounded-lg text-slate-200 placeholder-slate-500 focus:border-emerald-600 focus:outline-none"
-                />
-                <button
-                  type="submit"
-                  disabled={sending || !email}
-                  className="flex items-center justify-center gap-2 text-xs text-slate-400 hover:text-emerald-400 transition-colors w-full px-2 py-1.5 rounded-lg hover:bg-slate-900 disabled:opacity-50"
-                >
-                  <Mail className="w-3 h-3" />
-                  {sending ? "Sending..." : "Send magic link"}
-                </button>
-              </form>
-            )}
+            <form onSubmit={async (e) => { e.preventDefault(); setSending(true); await signIn(email); setSending(false); }} className="space-y-2">
+              <input
+                type="email"
+                placeholder="Email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="w-full px-3 py-1.5 text-xs bg-slate-900 border border-slate-700 rounded-lg text-slate-200 placeholder-slate-500 focus:border-emerald-600 focus:outline-none"
+              />
+              <button
+                type="submit"
+                disabled={sending || !email}
+                className="flex items-center justify-center gap-2 text-xs text-slate-400 hover:text-emerald-400 transition-colors w-full px-2 py-1.5 rounded-lg hover:bg-slate-900 disabled:opacity-50"
+              >
+                <Mail className="w-3 h-3" />
+                {sending ? "Sending..." : "Send magic link"}
+              </button>
+            </form>
           )
         )}
         <div className="text-[10px] text-slate-500">
