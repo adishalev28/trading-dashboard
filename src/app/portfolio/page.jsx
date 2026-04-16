@@ -10,7 +10,8 @@ import ExportCSV from "@/components/ExportCSV";
 import usePortfolio from "@/hooks/usePortfolio";
 import mockData from "@/lib/mockData.json";
 import { fmtUsd } from "@/lib/formatters";
-import { Trash2, Briefcase, FlaskConical } from "lucide-react";
+import { Trash2, Briefcase, FlaskConical, LogIn, Cloud } from "lucide-react";
+import { useAuth } from "@/components/AuthProvider";
 
 function SummaryCards({ positions, tickers }) {
   const tickerMap = {};
@@ -56,7 +57,9 @@ export default function PortfolioPage() {
   const {
     positions, loaded, removePosition, clearAll,
     simPositions, removeSimulation, clearSimulations,
+    isCloud,
   } = usePortfolio();
+  const { user, loading: authLoading, signIn } = useAuth();
   const { tickers } = mockData;
   const [tab, setTab] = useState("real"); // "real" | "sim"
 
@@ -98,6 +101,26 @@ export default function PortfolioPage() {
         )
       }
     >
+      {/* Cloud sync banner */}
+      {!authLoading && !user && (
+        <button
+          onClick={signIn}
+          className="w-full mb-4 p-3 bg-slate-800 border border-slate-700 rounded-lg flex items-center gap-3 hover:border-emerald-600 transition-colors group"
+        >
+          <LogIn className="w-5 h-5 text-slate-400 group-hover:text-emerald-400 shrink-0" />
+          <div className="text-left">
+            <div className="text-sm font-semibold text-slate-200">Sign in for cloud sync</div>
+            <div className="text-xs text-slate-500">Sync trades across devices with Google account</div>
+          </div>
+        </button>
+      )}
+      {isCloud && (
+        <div className="mb-4 flex items-center gap-2 text-xs text-emerald-400">
+          <Cloud className="w-3 h-3" />
+          <span>Cloud sync active — trades saved to Supabase</span>
+        </div>
+      )}
+
       {/* Tabs: Real / Simulations */}
       <div className="flex gap-2 mb-6">
         <button
