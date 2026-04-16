@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { LayoutDashboard, Grid3x3, List, Calculator, Briefcase, TrendingUp } from "lucide-react";
+import { LayoutDashboard, Grid3x3, List, Calculator, Briefcase, TrendingUp, LogIn, LogOut, Cloud } from "lucide-react";
+import { useAuth } from "@/components/AuthProvider";
 
 const navItems = [
   { href: "/overview",   label: "Overview",   Icon: LayoutDashboard },
@@ -14,6 +15,7 @@ const navItems = [
 
 export default function Sidebar() {
   const pathname = usePathname();
+  const { user, loading, signIn, signOut } = useAuth();
 
   return (
     <aside className="fixed inset-y-0 left-0 w-60 bg-slate-950 border-r border-slate-800 flex flex-col z-50 hidden md:flex">
@@ -51,8 +53,33 @@ export default function Sidebar() {
         })}
       </nav>
 
-      {/* Footer */}
-      <div className="px-6 py-4 border-t border-slate-800">
+      {/* Auth + Footer */}
+      <div className="px-6 py-4 border-t border-slate-800 space-y-3">
+        {!loading && (
+          user ? (
+            <div className="space-y-2">
+              <div className="flex items-center gap-2 text-xs text-emerald-400">
+                <Cloud className="w-3 h-3" />
+                <span className="truncate">{user.email}</span>
+              </div>
+              <button
+                onClick={signOut}
+                className="flex items-center gap-2 text-xs text-slate-500 hover:text-slate-300 transition-colors"
+              >
+                <LogOut className="w-3 h-3" />
+                Sign out
+              </button>
+            </div>
+          ) : (
+            <button
+              onClick={signIn}
+              className="flex items-center gap-2 text-sm text-slate-400 hover:text-emerald-400 transition-colors w-full px-2 py-2 rounded-lg hover:bg-slate-900"
+            >
+              <LogIn className="w-4 h-4" />
+              Sign in for cloud sync
+            </button>
+          )
+        )}
         <div className="text-[10px] text-slate-500">
           Minervini VCP × Weinstein Stage 2
         </div>
