@@ -2,28 +2,25 @@
 
 export default function SplashScreen() {
   return (
-    <div className="fixed inset-0 z-50 bg-slate-900 flex items-center justify-center overflow-hidden">
+    <div className="fixed inset-0 z-50 bg-slate-900 overflow-hidden">
+      {/* Portrait image for phones */}
       <div
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-center md:hidden"
+        style={{ backgroundImage: "url('/splash-portrait.jpg')" }}
+      />
+      {/* Landscape image for tablet/desktop */}
+      <div
+        className="absolute inset-0 bg-cover bg-center hidden md:block"
         style={{ backgroundImage: "url('/splash.jpg')" }}
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/60 to-slate-900/20" />
 
-      <div className="relative z-10 flex flex-col items-center gap-4 px-6 text-center">
-        <img
-          src="/icon-192.png"
-          alt="Bullish"
-          className="w-20 h-20 rounded-2xl shadow-2xl ring-1 ring-white/10"
-        />
-        <div>
-          <div className="text-3xl font-bold text-white tracking-tight">Bullish</div>
-          <div className="text-sm text-slate-300 mt-1">Minervini VCP · Weinstein Stage 2</div>
-        </div>
-        <div className="mt-4 flex gap-1.5">
-          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse [animation-delay:0.15s]" />
-          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse [animation-delay:0.3s]" />
-        </div>
+      {/* Subtle bottom gradient so the loading dots read cleanly */}
+      <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-slate-900/80 to-transparent" />
+
+      <div className="absolute inset-x-0 bottom-10 flex justify-center gap-2">
+        <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
+        <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse [animation-delay:0.15s]" />
+        <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse [animation-delay:0.3s]" />
       </div>
     </div>
   );
