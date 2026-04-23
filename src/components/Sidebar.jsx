@@ -25,12 +25,10 @@ export default function Sidebar() {
       {/* Logo */}
       <div className="px-6 py-6 border-b border-slate-800">
         <div className="flex items-center gap-2">
-          <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-emerald-500 to-emerald-700 flex items-center justify-center">
-            <TrendingUp className="w-5 h-5 text-white" />
-          </div>
+          <img src="/icon-192.png" alt="בוליש" className="w-9 h-9 rounded-lg" />
           <div>
-            <div className="font-bold text-slate-100 leading-tight">TCC</div>
-            <div className="text-[10px] text-slate-400 leading-tight">Trading Command Center</div>
+            <div className="font-bold text-slate-100 leading-tight text-lg">בוליש</div>
+            <div className="text-[10px] text-slate-400 leading-tight">Minervini · Weinstein</div>
           </div>
         </div>
       </div>

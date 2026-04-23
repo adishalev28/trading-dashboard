@@ -2,6 +2,7 @@
 
 import { createContext, useContext, useEffect, useState } from "react";
 import { supabase } from "@/lib/supabase";
+import SplashScreen from "@/components/SplashScreen";
 
 const AuthContext = createContext({ user: null, loading: true, signIn: () => {}, signOut: () => {}, magicLinkSent: false });
 
@@ -13,6 +14,12 @@ export default function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
   const [magicLinkSent, setMagicLinkSent] = useState(false);
+  const [showSplash, setShowSplash] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShowSplash(false), 1200);
+    return () => clearTimeout(timer);
+  }, []);
 
   useEffect(() => {
     if (!supabase) { setLoading(false); return; }
@@ -47,6 +54,7 @@ export default function AuthProvider({ children }) {
 
   return (
     <AuthContext.Provider value={{ user, loading, signIn, signOut, magicLinkSent }}>
+      {showSplash && <SplashScreen />}
       {children}
     </AuthContext.Provider>
   );
