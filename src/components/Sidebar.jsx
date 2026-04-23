@@ -25,9 +25,9 @@ export default function Sidebar() {
       {/* Logo */}
       <div className="px-6 py-6 border-b border-slate-800">
         <div className="flex items-center gap-2">
-          <img src="/icon-192.png" alt="בוליש" className="w-9 h-9 rounded-lg" />
+          <img src="/icon-192.png" alt="Bullish" className="w-9 h-9 rounded-lg" />
           <div>
-            <div className="font-bold text-slate-100 leading-tight text-lg">בוליש</div>
+            <div className="font-bold text-slate-100 leading-tight text-lg">Bullish</div>
             <div className="text-[10px] text-slate-400 leading-tight">Minervini · Weinstein</div>
           </div>
         </div>

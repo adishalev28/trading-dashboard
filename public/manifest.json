@@ -1,14 +1,14 @@
 {
-  "name": "בוליש",
-  "short_name": "בוליש",
-  "description": "סקרינר מומנטום — Minervini VCP + Weinstein Stage 2",
+  "name": "Bullish",
+  "short_name": "Bullish",
+  "description": "Momentum screener — Minervini VCP + Weinstein Stage 2",
   "start_url": "/overview",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
   "orientation": "any",
-  "lang": "he",
-  "dir": "rtl",
+  "lang": "en",
+  "dir": "ltr",
   "icons": [
     {
       "src": "/icon-192.png",

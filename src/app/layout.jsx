@@ -3,13 +3,13 @@ import Sidebar, { MobileTabBar } from "@/components/Sidebar";
 import AuthProvider from "@/components/AuthProvider";
 
 export const metadata = {
-  title: "בוליש",
-  description: "סקרינר מומנטום — Minervini VCP + Weinstein Stage 2",
+  title: "Bullish",
+  description: "Momentum screener — Minervini VCP + Weinstein Stage 2",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "בוליש",
+    title: "Bullish",
   },
   icons: {
     icon: [
