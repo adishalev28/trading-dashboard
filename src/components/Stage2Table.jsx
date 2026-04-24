@@ -9,6 +9,7 @@ import RSBar from "./RSBar";
 import Sparkline from "./Sparkline";
 import Tooltip from "./Tooltip";
 import TradingViewModal from "./TradingViewModal";
+import EarningsBadge from "./EarningsBadge";
 import { fmtUsd, fmtPct } from "@/lib/formatters";
 import { sortTickers, isStage2 } from "@/lib/screener";
 
@@ -194,8 +195,11 @@ export default function Stage2Table({ tickers, limit }) {
                     className="text-left group cursor-pointer"
                     title="Open TradingView chart"
                   >
-                    <div className="font-bold font-mono-nums text-slate-100 group-hover:text-emerald-400 transition-colors">
-                      {t.ticker}
+                    <div className="flex items-center gap-2">
+                      <span className="font-bold font-mono-nums text-slate-100 group-hover:text-emerald-400 transition-colors">
+                        {t.ticker}
+                      </span>
+                      <EarningsBadge earningsDate={t.earningsDate} compact />
                     </div>
                     <div className="text-[10px] text-slate-500 group-hover:text-slate-300 transition-colors">
                       {t.companyName}

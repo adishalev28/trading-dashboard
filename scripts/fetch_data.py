@@ -20,7 +20,7 @@ Usage:
 import json
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 try:
@@ -476,26 +476,52 @@ def main():
     print(f"  Warning (RS70+): {warning_count}")
     print(f"  TOTAL OUTPUT:   {len(final_tickers)}")
 
-    # ─── Step 6b: Fetch company names for final tickers (best effort) ──
-    print(f"\nFetching company names for {len(final_tickers)} tickers...")
-    for td in final_tickers:
-        try:
-            info = yf.Ticker(td["ticker"]).info
-            name = info.get("shortName") or info.get("longName") or td["ticker"]
-            td["companyName"] = name.split(",")[0].strip()[:30]
-        except Exception:
-            td["companyName"] = td["ticker"]
+    # ─── Step 6b: Fetch per-ticker info (name, market cap, earnings date) ──
+    print(f"\nFetching ticker info for {len(final_tickers)} tickers...")
+    now_utc = datetime.now(tz=timezone.utc)
+    earnings_flagged = 0
 
-    # ─── Step 6c: Fetch market cap for final tickers ──
-    print("Fetching market cap...")
     for td in final_tickers:
+        td["companyName"] = td["ticker"]
         try:
             info = yf.Ticker(td["ticker"]).info
-            mc = info.get("marketCap")
-            if mc and mc > 0:
-                td["marketCap"] = round(mc / 1e9, 1)
         except Exception:
-            pass
+            continue
+
+        name = info.get("shortName") or info.get("longName")
+        if name:
+            td["companyName"] = name.split(",")[0].strip()[:30]
+
+        mc = info.get("marketCap")
+        if mc and mc > 0:
+            td["marketCap"] = round(mc / 1e9, 1)
+
+        # Upcoming earnings date — check several yfinance fields, take the
+        # soonest future timestamp. Stored as ISO date string; the frontend
+        # computes days-until at render time so the badge auto-ages.
+        candidates_ts = []
+        for key in ("earningsTimestampStart", "earningsTimestamp"):
+            v = info.get(key)
+            if isinstance(v, (int, float)) and v > 0:
+                candidates_ts.append(v)
+
+        ed = info.get("earningsDate")
+        if isinstance(ed, (list, tuple)):
+            for v in ed:
+                if isinstance(v, (int, float)) and v > 0:
+                    candidates_ts.append(v)
+        elif isinstance(ed, (int, float)) and ed > 0:
+            candidates_ts.append(ed)
+
+        future_ts = [t for t in candidates_ts
+                     if datetime.fromtimestamp(t, tz=timezone.utc) > now_utc]
+        if future_ts:
+            soonest = min(future_ts)
+            dt = datetime.fromtimestamp(soonest, tz=timezone.utc)
+            td["earningsDate"] = dt.strftime("%Y-%m-%d")
+            earnings_flagged += 1
+
+    print(f"  earnings dates attached: {earnings_flagged}/{len(final_tickers)}")
 
     # ─── Step 7: Fetch sectors ──
     print(f"\nDownloading {len(SECTORS)} sector ETFs...")

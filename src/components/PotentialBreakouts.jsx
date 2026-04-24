@@ -5,6 +5,7 @@ import { Crosshair, Zap } from "lucide-react";
 import { fmtUsd } from "@/lib/formatters";
 import Explainer from "./Explainer";
 import TradingViewModal from "./TradingViewModal";
+import EarningsBadge from "./EarningsBadge";
 
 /**
  * Potential Breakouts — tickers in Stage 2, RS > 80, within 2% of Pivot
@@ -74,10 +75,11 @@ export default function PotentialBreakouts({ candidates }) {
             >
               {/* Ticker + Company */}
               <div className="flex-1 min-w-0">
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 flex-wrap">
                   <span className="font-bold font-mono-nums text-lg text-slate-100">
                     {t.ticker}
                   </span>
+                  <EarningsBadge earningsDate={t.earningsDate} compact />
                   {isBreakout && (
                     <span className="flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-500 text-white">
                       <Zap className="w-3 h-3" /> BREAKOUT
