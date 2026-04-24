@@ -1,14 +1,18 @@
 "use client";
 
+import { useState } from "react";
 import { Crosshair, Zap } from "lucide-react";
 import { fmtUsd } from "@/lib/formatters";
 import Explainer from "./Explainer";
+import TradingViewModal from "./TradingViewModal";
 
 /**
  * Potential Breakouts — tickers in Stage 2, RS > 80, within 2% of Pivot
  * The "money zone" — these are the actionable buy candidates RIGHT NOW
  */
 export default function PotentialBreakouts({ candidates }) {
+  const [chartTicker, setChartTicker] = useState(null);
+
   if (!candidates || candidates.length === 0) {
     return (
       <div className="bg-slate-800 border border-slate-700 rounded-xl p-5">
@@ -56,15 +60,17 @@ export default function PotentialBreakouts({ candidates }) {
           const isBreakout = dist <= 0;
 
           return (
-            <div
+            <button
               key={t.ticker}
-              className={`flex items-center gap-4 p-3.5 rounded-lg border transition-all ${
+              onClick={() => setChartTicker(t)}
+              className={`w-full text-left flex items-center gap-4 p-3.5 rounded-lg border transition-all cursor-pointer hover:brightness-110 ${
                 isBreakout
                   ? "bg-emerald-950/50 border-emerald-500 shadow-[0_0_12px_rgba(16,185,129,0.3)]"
                   : isImminent
                   ? "bg-emerald-950/30 border-emerald-600 animate-pulse-border"
-                  : "bg-slate-900 border-slate-700"
+                  : "bg-slate-900 border-slate-700 hover:border-slate-500"
               }`}
+              title="Open TradingView chart"
             >
               {/* Ticker + Company */}
               <div className="flex-1 min-w-0">
@@ -107,7 +113,7 @@ export default function PotentialBreakouts({ candidates }) {
                   : `${dist.toFixed(1)}%`
                 }
               </Explainer>
-            </div>
+            </button>
           );
         })}
       </div>
@@ -116,6 +122,12 @@ export default function PotentialBreakouts({ candidates }) {
       <div className="mt-3 pt-3 border-t border-slate-700 text-[10px] text-slate-500">
         <span className="text-emerald-400 font-bold">Action:</span> Cross-reference with Vol % &gt; 120% for confirmation. Place limit order at Pivot price in Meitav Trade.
       </div>
+
+      <TradingViewModal
+        ticker={chartTicker?.ticker ?? null}
+        companyName={chartTicker?.companyName ?? null}
+        onClose={() => setChartTicker(null)}
+      />
     </div>
   );
 }

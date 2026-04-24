@@ -8,6 +8,7 @@ import VolSurgeBadge from "./VolSurgeBadge";
 import RSBar from "./RSBar";
 import Sparkline from "./Sparkline";
 import Tooltip from "./Tooltip";
+import TradingViewModal from "./TradingViewModal";
 import { fmtUsd, fmtPct } from "@/lib/formatters";
 import { sortTickers, isStage2 } from "@/lib/screener";
 
@@ -40,6 +41,7 @@ export default function Stage2Table({ tickers, limit }) {
   const [search, setSearch] = useState("");
   const [sectorFilter, setSectorFilter] = useState("all");
   const [quickFilter, setQuickFilter] = useState("all"); // "all" | "vcp_tight" | "breakouts"
+  const [chartTicker, setChartTicker] = useState(null);
 
   const sectors = useMemo(() => getUniqueSectors(tickers), [tickers]);
 
@@ -187,8 +189,18 @@ export default function Stage2Table({ tickers, limit }) {
                 className={`${i % 2 === 0 ? "bg-slate-900" : "bg-slate-900/60"} hover:bg-slate-800/60 transition-colors`}
               >
                 <td className="px-4 py-3">
-                  <div className="font-bold font-mono-nums text-slate-100">{t.ticker}</div>
-                  <div className="text-[10px] text-slate-500">{t.companyName}</div>
+                  <button
+                    onClick={() => setChartTicker(t)}
+                    className="text-left group cursor-pointer"
+                    title="Open TradingView chart"
+                  >
+                    <div className="font-bold font-mono-nums text-slate-100 group-hover:text-emerald-400 transition-colors">
+                      {t.ticker}
+                    </div>
+                    <div className="text-[10px] text-slate-500 group-hover:text-slate-300 transition-colors">
+                      {t.companyName}
+                    </div>
+                  </button>
                 </td>
                 <td className="px-2 py-3">
                   <Sparkline data={t.priceHistory30d} width={90} height={28} />
@@ -247,6 +259,12 @@ export default function Stage2Table({ tickers, limit }) {
           </tbody>
         </table>
       </div>
+
+      <TradingViewModal
+        ticker={chartTicker?.ticker ?? null}
+        companyName={chartTicker?.companyName ?? null}
+        onClose={() => setChartTicker(null)}
+      />
     </div>
   );
 }
