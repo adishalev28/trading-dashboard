@@ -85,7 +85,12 @@ export default function TradingViewModal({
           enable_publishing: false,
           allow_symbol_change: true,
           container_id: containerId,
-          studies: ["MASimple@tv-basicstudies"],
+          studies: [
+            // Minervini's Stage 2 stack: price > 50 > 150 > 200, all rising.
+            { id: "MASimple@tv-basicstudies", inputs: { length: 50 } },
+            { id: "MASimple@tv-basicstudies", inputs: { length: 150 } },
+            { id: "MASimple@tv-basicstudies", inputs: { length: 200 } },
+          ],
           backgroundColor: "rgba(15, 23, 42, 1)",
           gridColor: "rgba(51, 65, 85, 0.4)",
           hide_side_toolbar: false,
