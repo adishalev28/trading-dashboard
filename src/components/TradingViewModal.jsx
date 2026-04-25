@@ -2,7 +2,8 @@
 
 import { useEffect, useRef, useState, useId } from "react";
 import { createPortal } from "react-dom";
-import { X, ExternalLink } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { X, ExternalLink, Calculator } from "lucide-react";
 
 const TV_SCRIPT_SRC = "https://s3.tradingview.com/tv.js";
 
@@ -25,11 +26,30 @@ function loadTvScript() {
   });
 }
 
-export default function TradingViewModal({ ticker, companyName, onClose }) {
+export default function TradingViewModal({
+  ticker,
+  companyName,
+  price,
+  pivotPrice,
+  onClose,
+}) {
   const [mounted, setMounted] = useState(false);
   const reactId = useId();
   const containerId = `tv_chart_${reactId.replace(/:/g, "")}`;
   const containerRef = useRef(null);
+  const router = useRouter();
+
+  const simulateEntry = pivotPrice ?? price;
+
+  const handleSimulate = () => {
+    if (!ticker || !simulateEntry) return;
+    const params = new URLSearchParams({
+      ticker,
+      entry: String(simulateEntry),
+    });
+    router.push(`/risk?${params.toString()}`);
+    onClose();
+  };
 
   useEffect(() => setMounted(true), []);
 
@@ -129,6 +149,28 @@ export default function TradingViewModal({ ticker, companyName, onClose }) {
           id={containerId}
           className="flex-1 w-full"
         />
+
+        {simulateEntry && (
+          <div className="border-t border-slate-700 px-4 py-2.5 flex items-center justify-between gap-3 shrink-0 bg-slate-900">
+            <div className="text-[11px] text-slate-400 truncate">
+              Pre-fill Risk Calc with{" "}
+              <span className="font-mono-nums text-slate-200">{ticker}</span> @{" "}
+              <span className="font-mono-nums text-emerald-400">
+                ${Number(simulateEntry).toFixed(2)}
+              </span>
+              {pivotPrice && pivotPrice !== price && (
+                <span className="text-slate-500"> (pivot)</span>
+              )}
+            </div>
+            <button
+              onClick={handleSimulate}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-emerald-600 hover:bg-emerald-500 text-white transition-colors shrink-0"
+            >
+              <Calculator className="w-3.5 h-3.5" />
+              Simulate Trade
+            </button>
+          </div>
+        )}
       </div>
     </div>,
     document.body

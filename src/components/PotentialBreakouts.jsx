@@ -1,11 +1,19 @@
 "use client";
 
 import { useState } from "react";
-import { Crosshair, Zap } from "lucide-react";
+import { Crosshair, Zap, AlertTriangle } from "lucide-react";
 import { fmtUsd } from "@/lib/formatters";
 import Explainer from "./Explainer";
 import TradingViewModal from "./TradingViewModal";
 import EarningsBadge from "./EarningsBadge";
+
+function daysUntilEarnings(isoDate) {
+  if (!isoDate) return null;
+  const target = new Date(isoDate + "T00:00:00Z");
+  if (Number.isNaN(target.getTime())) return null;
+  const ms = target.getTime() - Date.now();
+  return Math.ceil(ms / (1000 * 60 * 60 * 24));
+}
 
 /**
  * Potential Breakouts — tickers in Stage 2, RS > 80, within 2% of Pivot
@@ -13,6 +21,11 @@ import EarningsBadge from "./EarningsBadge";
  */
 export default function PotentialBreakouts({ candidates }) {
   const [chartTicker, setChartTicker] = useState(null);
+
+  const earningsRiskTickers = (candidates ?? []).slice(0, 3).filter((t) => {
+    const d = daysUntilEarnings(t.earningsDate);
+    return d != null && d >= 0 && d <= 7;
+  });
 
   if (!candidates || candidates.length === 0) {
     return (
@@ -120,6 +133,21 @@ export default function PotentialBreakouts({ candidates }) {
         })}
       </div>
 
+      {/* Earnings landmine warning */}
+      {earningsRiskTickers.length > 0 && (
+        <div className="mt-3 flex items-start gap-2 p-2.5 rounded-lg bg-rose-950/40 border border-rose-800">
+          <AlertTriangle className="w-4 h-4 text-rose-400 shrink-0 mt-0.5" />
+          <div className="text-[11px] text-rose-200 leading-snug">
+            <span className="font-bold text-rose-300">Earnings landmine:</span>{" "}
+            {earningsRiskTickers
+              .map((t) => `${t.ticker} (${daysUntilEarnings(t.earningsDate)}d)`)
+              .join(", ")}{" "}
+            — Minervini's rule: never enter within ~3 days of earnings. Wait
+            for the report or skip these.
+          </div>
+        </div>
+      )}
+
       {/* Action hint */}
       <div className="mt-3 pt-3 border-t border-slate-700 text-[10px] text-slate-500">
         <span className="text-emerald-400 font-bold">Action:</span> Cross-reference with Vol % &gt; 120% for confirmation. Place limit order at Pivot price in Meitav Trade.
@@ -128,6 +156,8 @@ export default function PotentialBreakouts({ candidates }) {
       <TradingViewModal
         ticker={chartTicker?.ticker ?? null}
         companyName={chartTicker?.companyName ?? null}
+        price={chartTicker?.price ?? null}
+        pivotPrice={chartTicker?.pivotPrice ?? null}
         onClose={() => setChartTicker(null)}
       />
     </div>

@@ -60,6 +60,12 @@ export default function Stage2Table({ tickers, limit }) {
         t.rsScore >= 80 &&
         (t.distToPivotPct ?? 100) <= 2
       );
+    } else if (quickFilter === "strong_fundamentals") {
+      arr = arr.filter(t =>
+        isStage2(t) &&
+        (t.epsGrowthYoY ?? -1) >= 25 &&
+        (t.salesGrowthYoY ?? -1) >= 25
+      );
     }
 
     // Search filter (ticker or company name)
@@ -104,11 +110,12 @@ export default function Stage2Table({ tickers, limit }) {
       {showFilters && (
         <div className="space-y-3 mb-4">
           {/* Quick filter buttons */}
-          <div className="flex gap-2">
+          <div className="flex flex-wrap gap-2">
             {[
               { key: "all", label: "Show All", count: tickers.length },
               { key: "vcp_tight", label: "VCP Tight Only", count: tickers.filter(t => t.vcpStatus === "tight").length },
               { key: "breakouts", label: "Breakouts Only", count: tickers.filter(t => isStage2(t) && t.rsScore >= 80 && (t.distToPivotPct ?? 100) <= 2).length },
+              { key: "strong_fundamentals", label: "Strong Fundamentals", count: tickers.filter(t => isStage2(t) && (t.epsGrowthYoY ?? -1) >= 25 && (t.salesGrowthYoY ?? -1) >= 25).length },
             ].map(({ key, label, count }) => (
               <button
                 key={key}
@@ -119,6 +126,8 @@ export default function Stage2Table({ tickers, limit }) {
                       ? "bg-emerald-600 text-white"
                       : key === "breakouts"
                       ? "bg-amber-600 text-white"
+                      : key === "strong_fundamentals"
+                      ? "bg-violet-600 text-white"
                       : "bg-slate-600 text-white"
                     : "bg-slate-800 text-slate-400 border border-slate-700 hover:text-slate-200 hover:border-slate-500"
                 }`}
@@ -276,6 +285,8 @@ export default function Stage2Table({ tickers, limit }) {
       <TradingViewModal
         ticker={chartTicker?.ticker ?? null}
         companyName={chartTicker?.companyName ?? null}
+        price={chartTicker?.price ?? null}
+        pivotPrice={chartTicker?.pivotPrice ?? null}
         onClose={() => setChartTicker(null)}
       />
     </div>

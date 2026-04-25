@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import { RotateCcw, Save, Check } from "lucide-react";
 import useRiskCalc from "@/hooks/useRiskCalc";
 import usePortfolio from "@/hooks/usePortfolio";
@@ -60,6 +61,34 @@ export default function RiskCalculator() {
   const [ticker, setTicker] = useState("");
   const [tradeNotes, setTradeNotes] = useState("");
   const [saved, setSaved] = useState(false);    // "real" | "sim" | false
+  const searchParams = useSearchParams();
+
+  // Hydrate from URL params (e.g. opened via "Simulate Trade" from the
+  // TradingView modal). Runs once on mount so the user can still edit
+  // afterwards without their typing being clobbered.
+  useEffect(() => {
+    if (!searchParams) return;
+    const t = searchParams.get("ticker");
+    const entry = searchParams.get("entry");
+    const stop = searchParams.get("stop");
+    if (t) setTicker(t.toUpperCase());
+    if (entry) {
+      const n = parseFloat(entry);
+      if (Number.isFinite(n) && n > 0) {
+        setField("entryUsd", n);
+        // Default stop = 7% below entry (Minervini's max loss rule of thumb)
+        // unless the caller passed an explicit stop.
+        const explicitStop = parseFloat(stop);
+        setField(
+          "stopUsd",
+          Number.isFinite(explicitStop) && explicitStop > 0
+            ? explicitStop
+            : Math.round(n * 0.93 * 100) / 100
+        );
+      }
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const buildPosition = () => ({
     ticker: ticker.trim().toUpperCase(),
