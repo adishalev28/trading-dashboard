@@ -2,11 +2,54 @@
   "snapshots": [
     {
       "date": "2026-04-25",
-      "stage2Count": 341,
+      "stage2Count": 318,
       "breakoutCount": 36,
-      "breakoutTickers": ["AAOI", "ACLX", "ADEA", "ADI", "AEHR", "AGX", "ANDE", "ARWR", "BTE", "CAPR"],
-      "spy": {"price": 713.94, "sma50": 676.07},
-      "qqq": {"price": 663.88, "sma50": 606.02}
+      "breakoutTickers": [
+        "AAOI",
+        "ACLX",
+        "ADEA",
+        "ADI",
+        "AEHR",
+        "AGX",
+        "ANDE",
+        "ARWR",
+        "BTE",
+        "CAPR",
+        "CAT",
+        "CNTA",
+        "DOCN",
+        "ECG",
+        "FTI",
+        "GEV",
+        "HAFN",
+        "INDV",
+        "LITE",
+        "LRCX",
+        "MRVL",
+        "MTZ",
+        "NOK",
+        "NVT",
+        "ORKA",
+        "OUT",
+        "PACS",
+        "PRIM",
+        "PRM",
+        "PTEN",
+        "STX",
+        "TERN",
+        "TIGO",
+        "WBD",
+        "WTTR",
+        "ZYME"
+      ],
+      "spy": {
+        "price": 713.94,
+        "sma50": 676.07
+      },
+      "qqq": {
+        "price": 663.88,
+        "sma50": 606.02
+      }
     }
   ]
 }
