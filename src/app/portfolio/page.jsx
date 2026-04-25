@@ -3,6 +3,7 @@
 import { useState } from "react";
 import PageShell from "@/components/PageShell";
 import PortfolioTable from "@/components/PortfolioTable";
+import AddPositionForm from "@/components/AddPositionForm";
 import TradeStats from "@/components/TradeStats";
 import EquityCurve from "@/components/EquityCurve";
 import SectorExposure from "@/components/SectorExposure";
@@ -55,8 +56,8 @@ function SummaryCards({ positions, tickers }) {
 
 export default function PortfolioPage() {
   const {
-    positions, loaded, removePosition, clearAll,
-    simPositions, removeSimulation, clearSimulations,
+    positions, loaded, addPosition, removePosition, clearAll,
+    simPositions, addSimulation, removeSimulation, clearSimulations,
     isCloud,
   } = usePortfolio();
   const { user, loading: authLoading, signIn, magicLinkSent } = useAuth();
@@ -74,6 +75,7 @@ export default function PortfolioPage() {
   }
 
   const activePositions = tab === "real" ? positions : simPositions;
+  const activeAdd       = tab === "real" ? addPosition : addSimulation;
   const activeRemove    = tab === "real" ? removePosition : removeSimulation;
   const activeClear     = tab === "real" ? clearAll : clearSimulations;
 
@@ -195,6 +197,11 @@ export default function PortfolioPage() {
       {activePositions.length > 0 && (
         <SummaryCards positions={activePositions} tickers={tickers} />
       )}
+
+      {/* Quick add — manual entry for an existing position */}
+      <div className="mb-4">
+        <AddPositionForm onAdd={activeAdd} tickers={tickers} />
+      </div>
 
       {/* Equity Curve + Strategy Statistics */}
       {activePositions.length >= 2 && (

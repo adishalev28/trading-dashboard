@@ -1,9 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { Trash2, AlertTriangle, TrendingDown, ShieldCheck, Trophy, XOctagon } from "lucide-react";
+import { Trash2, AlertTriangle, TrendingDown, ShieldCheck, Trophy, XOctagon, Scissors } from "lucide-react";
 import { fmtUsd, fmtPct } from "@/lib/formatters";
 import { isStage2 } from "@/lib/screener";
+import { computePositionHealth } from "@/lib/positionHealth";
 import Sparkline from "./Sparkline";
 
 /**
@@ -45,6 +46,7 @@ export default function PortfolioTable({ positions, tickers, onRemove, isSimulat
             <th className="px-4 py-3 text-right text-xs font-semibold uppercase tracking-wide text-slate-400">Current</th>
             <th className="px-4 py-3 text-right text-xs font-semibold uppercase tracking-wide text-slate-400">P&L</th>
             <th className="px-4 py-3 text-right text-xs font-semibold uppercase tracking-wide text-slate-400">Trail Stop</th>
+            <th className="px-3 py-3 text-center text-xs font-semibold uppercase tracking-wide text-slate-400">Health</th>
             <th className="px-4 py-3 text-center text-xs font-semibold uppercase tracking-wide text-slate-400">Signals</th>
             <th className="px-3 py-3 text-center text-xs font-semibold uppercase tracking-wide text-slate-400"></th>
           </tr>
@@ -67,8 +69,18 @@ export default function PortfolioTable({ positions, tickers, onRemove, isSimulat
             const profitPerShare = currentPrice - pos.entryPrice;
             const rMultiple = riskPerShare > 0 ? profitPerShare / riskPerShare : 0;
 
+            // Position health verdict (green/yellow/red)
+            const health = computePositionHealth(pos, live);
+
             // Sell signals + achievement badges
             const signals = [];
+
+            // SELL HALF — gain ≥ 10% (Minervini "pay yourself")
+            if (health.milestone?.type === "sell-half") {
+              signals.push({ label: "TAKE 50%", severity: "milestone", Icon: Scissors });
+            } else if (health.milestone?.type === "trail") {
+              signals.push({ label: "TRAIL +20%", severity: "milestone", Icon: Trophy });
+            }
 
             // STOP HIT — price at or below original stop loss
             if (currentPrice <= pos.stopLoss) {
@@ -150,6 +162,22 @@ export default function PortfolioTable({ positions, tickers, onRemove, isSimulat
                   </div>
                 </td>
 
+                {/* Position Health (at-a-glance verdict) */}
+                <td className="px-3 py-3 text-center">
+                  <div
+                    className={`inline-flex items-center gap-1.5 text-[10px] font-bold px-2 py-1 rounded border ${health.meta.classes}`}
+                    title={health.reasons.join(" · ")}
+                  >
+                    <span className={`w-2 h-2 rounded-full ${health.meta.dotClass}`} />
+                    {health.meta.label.toUpperCase()}
+                  </div>
+                  {health.reasons[0] && health.level !== "healthy" && (
+                    <div className="text-[9px] text-slate-500 mt-0.5 max-w-[110px] truncate" title={health.reasons.join(" · ")}>
+                      {health.reasons[0]}
+                    </div>
+                  )}
+                </td>
+
                 {/* Sell Signals */}
                 <td className="px-4 py-3 text-center">
                   {signals.length === 0 ? (
@@ -163,6 +191,7 @@ export default function PortfolioTable({ positions, tickers, onRemove, isSimulat
                         const colorClass =
                           s.severity === "stop"   ? "bg-rose-900 text-white border-rose-600 animate-pulse" :
                           s.severity === "target"  ? "bg-emerald-900 text-emerald-300 border-emerald-600" :
+                          s.severity === "milestone" ? "bg-emerald-900 text-emerald-200 border-emerald-500 ring-2 ring-emerald-400/40" :
                           s.severity === "danger" ? "bg-rose-950 text-rose-400 border-rose-800" :
                           "bg-amber-950 text-amber-400 border-amber-800";
                         return (
