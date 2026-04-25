@@ -131,29 +131,28 @@ export default function TradingViewModal({
         className="relative w-full max-w-6xl h-[90vh] sm:h-[85vh] bg-slate-900 border border-slate-700 rounded-xl overflow-hidden shadow-2xl flex flex-col"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="flex items-center justify-between px-4 py-3 border-b border-slate-700 shrink-0">
+        <div className="flex items-center justify-between gap-2 px-4 py-3 border-b border-slate-700 shrink-0">
           <div className="min-w-0">
-            <div className="flex items-center gap-2">
-              <span className="text-lg font-bold text-slate-100 font-mono-nums">
-                {ticker}
-              </span>
-              <a
-                href={`https://www.tradingview.com/symbols/${ticker}/`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-slate-500 hover:text-emerald-400 transition-colors"
-                aria-label="Open full chart on TradingView"
-                title="Open full chart on TradingView"
-              >
-                <ExternalLink className="w-4 h-4" />
-              </a>
-            </div>
+            <span className="text-lg font-bold text-slate-100 font-mono-nums">
+              {ticker}
+            </span>
             {companyName && (
               <div className="text-[11px] text-slate-500 truncate">
                 {companyName}
               </div>
             )}
           </div>
+          <a
+            href={`https://www.tradingview.com/symbols/${ticker}/`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-800 hover:bg-slate-700 border border-slate-600 hover:border-emerald-600 text-slate-200 hover:text-emerald-400 transition-colors shrink-0"
+            title="Open in TradingView (your saved colors and drawings persist there)"
+          >
+            <ExternalLink className="w-3.5 h-3.5" />
+            <span className="hidden sm:inline">Open in TradingView</span>
+            <span className="sm:hidden">TradingView</span>
+          </a>
           <button
             onClick={onClose}
             className="p-2 rounded-lg hover:bg-slate-800 text-slate-400 hover:text-slate-100 transition-colors shrink-0"
