@@ -3,7 +3,8 @@
 import { useEffect, useRef, useState, useId } from "react";
 import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
-import { X, ExternalLink, Calculator } from "lucide-react";
+import { X, ExternalLink, Calculator, Sparkles } from "lucide-react";
+import GannPanel from "./GannPanel";
 
 const TV_SCRIPT_SRC = "https://s3.tradingview.com/tv.js";
 
@@ -34,6 +35,7 @@ export default function TradingViewModal({
   onClose,
 }) {
   const [mounted, setMounted] = useState(false);
+  const [showGann, setShowGann] = useState(false);
   const reactId = useId();
   const containerId = `tv_chart_${reactId.replace(/:/g, "")}`;
   const containerRef = useRef(null);
@@ -142,6 +144,20 @@ export default function TradingViewModal({
               </div>
             )}
           </div>
+          {price && (
+            <button
+              onClick={() => setShowGann((v) => !v)}
+              className={`flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-bold border transition-colors shrink-0 ${
+                showGann
+                  ? "bg-violet-600 border-violet-500 text-white"
+                  : "bg-slate-800 hover:bg-slate-700 border-slate-600 hover:border-violet-500 text-slate-200 hover:text-violet-300"
+              }`}
+              title="Toggle Gann Square of 9 levels (geometric support/resistance)"
+            >
+              <Sparkles className="w-3.5 h-3.5" />
+              Gann
+            </button>
+          )}
           <a
             href={`https://www.tradingview.com/symbols/${ticker}/`}
             target="_blank"
@@ -161,11 +177,18 @@ export default function TradingViewModal({
             <X className="w-5 h-5" />
           </button>
         </div>
-        <div
-          ref={containerRef}
-          id={containerId}
-          className="flex-1 w-full"
-        />
+        <div className="flex-1 flex min-h-0">
+          <div
+            ref={containerRef}
+            id={containerId}
+            className="flex-1 min-w-0"
+          />
+          {showGann && price && (
+            <div className="w-72 sm:w-80 max-w-[80vw] shrink-0 overflow-hidden">
+              <GannPanel price={price} ticker={ticker} />
+            </div>
+          )}
+        </div>
 
         {simulateEntry && (
           <div className="border-t border-slate-700 px-4 py-2.5 flex items-center justify-between gap-3 shrink-0 bg-slate-900">
