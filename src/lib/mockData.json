@@ -18,6 +18,33 @@
     "changePct": 0.77,
     "aboveSma200": true
   },
+  "breadth": {
+    "asOf": "2026-04-25",
+    "indices": {
+      "spy": {
+        "price": 713.94,
+        "sma50": 676.07,
+        "aboveSma50": true,
+        "distSma50Pct": 5.6
+      },
+      "qqq": {
+        "price": 663.88,
+        "sma50": 606.02,
+        "aboveSma50": true,
+        "distSma50Pct": 9.5
+      }
+    },
+    "stage2": {
+      "current": 341,
+      "prev5d": null,
+      "changePct": null
+    },
+    "breakouts": {
+      "current": 36,
+      "prev5d": null,
+      "changePct": null
+    }
+  },
   "sectors": [
     {
       "symbol": "XLK",

@@ -56,6 +56,9 @@ SECTORS = [
 ]
 
 BENCHMARK = "SPY"
+SECONDARY_INDEX = "QQQ"  # Used together with SPY for the Market Breadth gauge
+BREADTH_HISTORY_FILE = ROOT_DIR / "scripts" / "breadth_history.json"
+BREADTH_LOOKBACK_DAYS = 5  # Trading days to look back for stage2/breakout deltas
 HISTORY_PERIOD = "18mo"
 BATCH_SIZE = 50  # Download this many tickers at once
 FX_RATE_USD_ILS_FALLBACK = 3.7
@@ -359,13 +362,14 @@ def main():
         print(f"  Using fallback FX rate: {fx_rate} ILS/USD")
     print()
 
-    # ─── Step 2: Fetch benchmark ──
-    print(f"Downloading {BENCHMARK} (benchmark)...")
-    spy_df = list(batch_download([BENCHMARK]).values())
-    if not spy_df:
+    # ─── Step 2: Fetch benchmark + secondary index for breadth ──
+    print(f"Downloading {BENCHMARK} + {SECONDARY_INDEX} (benchmark + breadth index)...")
+    bench_data = batch_download([BENCHMARK, SECONDARY_INDEX])
+    spy_df = bench_data.get(BENCHMARK)
+    qqq_df = bench_data.get(SECONDARY_INDEX)
+    if spy_df is None:
         print("FATAL: Failed to fetch SPY — aborting")
         sys.exit(1)
-    spy_df = spy_df[0]
     print(f"  {len(spy_df)} days of {BENCHMARK} data")
 
     spy_price = round(float(spy_df["Close"].iloc[-1]), 2)
@@ -373,7 +377,18 @@ def main():
     spy_change_pct = calculate_today_change_pct(spy_df)
     spy_sma50 = calculate_sma(spy_df, 50)
     spy_above_200 = spy_price > spy_sma200 if spy_sma200 else None
+    spy_above_50 = spy_price > spy_sma50 if spy_sma50 else None
     print(f"  SPY: ${spy_price} | SMA200: ${round(spy_sma200, 2) if spy_sma200 else '?'} | Above 200: {'Y' if spy_above_200 else 'N'}")
+
+    qqq_price = qqq_sma50 = None
+    qqq_above_50 = None
+    if qqq_df is not None:
+        qqq_price = round(float(qqq_df["Close"].iloc[-1]), 2)
+        qqq_sma50 = calculate_sma(qqq_df, 50)
+        qqq_above_50 = qqq_price > qqq_sma50 if qqq_sma50 else None
+        print(f"  QQQ: ${qqq_price} | SMA50: ${round(qqq_sma50, 2) if qqq_sma50 else '?'} | Above 50: {'Y' if qqq_above_50 else 'N'}")
+    else:
+        print(f"  WARNING: {SECONDARY_INDEX} fetch failed — breadth will use SPY only")
     print()
 
     # ─── Step 3: Batch download all candidates ──
@@ -587,6 +602,87 @@ def main():
         })
         print(f"  {symbol}: strength={strength_score}")
 
+    # ─── Step 7b: Compute breadth + update history ──
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    # Count today's actionable breakouts (mirror src/lib/screener.js findPotentialBreakouts:
+    # Stage 2 + RS >= 80 + within 2% of pivot)
+    breakout_tickers = [
+        t["ticker"]
+        for t in final_tickers
+        if t.get("rsScore", 0) >= 80 and (t.get("distToPivotPct") or 100) <= 2
+    ]
+    today_snapshot = {
+        "date": today_str,
+        "stage2Count": stage2_count,
+        "breakoutCount": len(breakout_tickers),
+        "breakoutTickers": breakout_tickers,
+        "spy": {"price": spy_price, "sma50": round(spy_sma50, 2) if spy_sma50 else None},
+        "qqq": {"price": qqq_price, "sma50": round(qqq_sma50, 2) if qqq_sma50 else None},
+    }
+
+    # Load existing history, replace today's entry (we run twice/day — keep latest),
+    # then trim to last 90 snapshots so the file stays small.
+    history = {"snapshots": []}
+    if BREADTH_HISTORY_FILE.exists():
+        try:
+            with open(BREADTH_HISTORY_FILE, "r", encoding="utf-8") as f:
+                history = json.load(f)
+        except Exception as e:
+            print(f"  WARNING: could not read breadth history: {e}")
+
+    history["snapshots"] = [s for s in history.get("snapshots", []) if s.get("date") != today_str]
+    history["snapshots"].append(today_snapshot)
+    history["snapshots"].sort(key=lambda s: s["date"])
+    history["snapshots"] = history["snapshots"][-90:]
+
+    with open(BREADTH_HISTORY_FILE, "w", encoding="utf-8") as f:
+        json.dump(history, f, indent=2, ensure_ascii=False)
+    print(f"\nBreadth history: {len(history['snapshots'])} snapshots (today added)")
+
+    # Find snapshot from ~5 trading days ago for delta computation
+    prev_snapshot = None
+    if len(history["snapshots"]) >= BREADTH_LOOKBACK_DAYS + 1:
+        prev_snapshot = history["snapshots"][-(BREADTH_LOOKBACK_DAYS + 1)]
+
+    def _pct_change(curr, prev):
+        if prev is None or prev == 0:
+            return None
+        return round(((curr - prev) / prev) * 100, 1)
+
+    def _dist_pct(price, ma):
+        if not price or not ma:
+            return None
+        return round(((price - ma) / ma) * 100, 1)
+
+    breadth_block = {
+        "asOf": today_str,
+        "indices": {
+            "spy": {
+                "price": spy_price,
+                "sma50": round(spy_sma50, 2) if spy_sma50 else None,
+                "aboveSma50": spy_above_50,
+                "distSma50Pct": _dist_pct(spy_price, spy_sma50),
+            },
+            "qqq": {
+                "price": qqq_price,
+                "sma50": round(qqq_sma50, 2) if qqq_sma50 else None,
+                "aboveSma50": qqq_above_50,
+                "distSma50Pct": _dist_pct(qqq_price, qqq_sma50),
+            } if qqq_price else None,
+        },
+        "stage2": {
+            "current": stage2_count,
+            "prev5d": prev_snapshot["stage2Count"] if prev_snapshot else None,
+            "changePct": _pct_change(stage2_count, prev_snapshot["stage2Count"]) if prev_snapshot else None,
+        },
+        "breakouts": {
+            "current": len(breakout_tickers),
+            "prev5d": prev_snapshot["breakoutCount"] if prev_snapshot else None,
+            "changePct": _pct_change(len(breakout_tickers), prev_snapshot["breakoutCount"]) if prev_snapshot else None,
+        },
+    }
+    print(f"  Breadth: stage2={stage2_count}, breakouts={len(breakout_tickers)}, prev5d={'available' if prev_snapshot else 'collecting'}")
+
     # ─── Step 8: Build output JSON ──
     output = {
         "meta": {
@@ -608,6 +704,7 @@ def main():
             "changePct": spy_change_pct if spy_change_pct is not None else 0.0,
             "aboveSma200": spy_above_200,
         },
+        "breadth": breadth_block,
         "sectors": sector_data,
         "tickers": final_tickers,
     }

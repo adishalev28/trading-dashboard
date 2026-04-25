@@ -3,6 +3,7 @@ import SectorHeatmap from "@/components/SectorHeatmap";
 import Stage2Table from "@/components/Stage2Table";
 import SystemHealth from "@/components/SystemHealth";
 import PotentialBreakouts from "@/components/PotentialBreakouts";
+import MarketBreadthLight from "@/components/MarketBreadthLight";
 import RefreshButton from "@/components/RefreshButton";
 import Explainer from "@/components/Explainer";
 import mockData from "@/lib/mockData.json";
@@ -41,7 +42,7 @@ function StatCard({ label, value, sub, Icon, tone = "emerald", badge, explainId 
 }
 
 export default function OverviewPage() {
-  const { sectors, tickers, benchmark, meta } = mockData;
+  const { sectors, tickers, benchmark, meta, breadth } = mockData;
 
   // Compute summary stats
   const topSector = sortSectors(sectors, "strengthScore", "desc")[0];
@@ -79,6 +80,9 @@ export default function OverviewPage() {
       subtitle={`${scannedLabel} - ${now}`}
       actions={<RefreshButton generatedAt={meta?.generatedAt} />}
     >
+      {/* Market Breadth — Go/No-Go gauge (top of page) */}
+      {breadth && <MarketBreadthLight breadth={breadth} />}
+
       {/* 5 summary cards (was 4) */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
         <StatCard
