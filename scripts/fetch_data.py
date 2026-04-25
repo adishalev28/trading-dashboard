@@ -32,6 +32,8 @@ except ImportError as e:
     print("Install with: pip install -r scripts/requirements.txt")
     sys.exit(1)
 
+from fundamentals import fetch_for_universe, load_cache
+
 # ─── Configuration ─────────────────────────────────────────────────────────
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
@@ -522,6 +524,24 @@ def main():
             earnings_flagged += 1
 
     print(f"  earnings dates attached: {earnings_flagged}/{len(final_tickers)}")
+
+    # ─── Step 6d: Fundamentals (EPS / Sales YoY) with on-disk caching ──
+    print(f"\nFetching fundamentals (EPS, Sales YoY) for {len(final_tickers)} tickers...")
+    fund_cache = fetch_for_universe([t["ticker"] for t in final_tickers])
+    fund_attached = 0
+    for td in final_tickers:
+        f = fund_cache.get(td["ticker"])
+        if not f:
+            continue
+        if f.get("epsGrowthYoY") is not None:
+            td["epsGrowthYoY"] = f["epsGrowthYoY"]
+        if f.get("salesGrowthYoY") is not None:
+            td["salesGrowthYoY"] = f["salesGrowthYoY"]
+        if f.get("lastReportDate"):
+            td["lastReportDate"] = f["lastReportDate"]
+        if "epsGrowthYoY" in td or "salesGrowthYoY" in td:
+            fund_attached += 1
+    print(f"  fundamentals attached: {fund_attached}/{len(final_tickers)}")
 
     # ─── Step 7: Fetch sectors ──
     print(f"\nDownloading {len(SECTORS)} sector ETFs...")

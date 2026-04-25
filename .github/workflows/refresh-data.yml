@@ -38,7 +38,7 @@ jobs:
       - name: Check if data changed
         id: check
         run: |
-          if git diff --quiet src/lib/mockData.json; then
+          if git diff --quiet src/lib/mockData.json scripts/fundamentals_cache.json; then
             echo "changed=false" >> $GITHUB_OUTPUT
             echo "No data changes detected"
           else
@@ -51,6 +51,6 @@ jobs:
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
-          git add src/lib/mockData.json
+          git add src/lib/mockData.json scripts/fundamentals_cache.json
           git commit -m "data: auto-refresh from screener ($(date -u +%Y-%m-%d))"
           git push

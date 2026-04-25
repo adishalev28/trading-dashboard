@@ -10,6 +10,7 @@ import Sparkline from "./Sparkline";
 import Tooltip from "./Tooltip";
 import TradingViewModal from "./TradingViewModal";
 import EarningsBadge from "./EarningsBadge";
+import FundamentalsCell from "./FundamentalsCell";
 import { fmtUsd, fmtPct } from "@/lib/formatters";
 import { sortTickers, isStage2 } from "@/lib/screener";
 
@@ -20,6 +21,7 @@ const columns = [
   { key: "distToPivotPct",   label: "Pivot",     align: "right",  tooltip: "pivot" },
   { key: "trend",            label: "Trend",     align: "center", sortable: false, tooltip: "stage2" },
   { key: "rsScore",          label: "RS Score",  align: "left",   tooltip: "rs" },
+  { key: "epsGrowthYoY",     label: "Growth",    align: "right",  tooltip: "fundamentals" },
   { key: "volumePctAvg",     label: "Vol %",     align: "right" },
   { key: "volumeSurge",      label: "Surge",     align: "center", sortable: false },
   { key: "vcpStatus",        label: "VCP",       align: "center", tooltip: "vcp" },
@@ -239,6 +241,13 @@ export default function Stage2Table({ tickers, limit }) {
                 </td>
                 <td className="px-4 py-3">
                   <RSBar score={t.rsScore} compact />
+                </td>
+                <td className="px-3 py-3">
+                  <FundamentalsCell
+                    epsGrowth={t.epsGrowthYoY}
+                    salesGrowth={t.salesGrowthYoY}
+                    lastReportDate={t.lastReportDate}
+                  />
                 </td>
                 <td className={`px-4 py-3 text-right font-mono-nums ${
                   (t.volumePctAvg ?? 100) > 120 ? "text-emerald-400" :

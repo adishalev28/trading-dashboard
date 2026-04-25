@@ -183,6 +183,13 @@ export function sortTickers(tickers, key = "rsScore", dir = "desc") {
     if (typeof av === "string") {
       return dir === "asc" ? av.localeCompare(bv) : bv.localeCompare(av);
     }
+    // Push null/undefined to the end regardless of sort direction —
+    // a missing value isn't "the smallest", it's just unknown.
+    const aMissing = av == null || Number.isNaN(av);
+    const bMissing = bv == null || Number.isNaN(bv);
+    if (aMissing && bMissing) return 0;
+    if (aMissing) return 1;
+    if (bMissing) return -1;
     return dir === "asc" ? av - bv : bv - av;
   });
   return arr;
