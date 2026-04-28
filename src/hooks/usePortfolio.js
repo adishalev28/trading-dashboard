@@ -169,6 +169,7 @@ export default function usePortfolio() {
     simPositions:      sim.positions,
     addSimulation:     sim.add,
     removeSimulation:  sim.remove,
+    updateSimulation:  sim.update,
     clearSimulations:  sim.clearAll,
   };
 }

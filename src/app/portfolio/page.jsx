@@ -56,8 +56,8 @@ function SummaryCards({ positions, tickers }) {
 
 export default function PortfolioPage() {
   const {
-    positions, loaded, addPosition, removePosition, clearAll,
-    simPositions, addSimulation, removeSimulation, clearSimulations,
+    positions, loaded, addPosition, removePosition, updatePosition, clearAll,
+    simPositions, addSimulation, removeSimulation, updateSimulation, clearSimulations,
     isCloud,
   } = usePortfolio();
   const { user, loading: authLoading, signIn, magicLinkSent } = useAuth();
@@ -77,6 +77,7 @@ export default function PortfolioPage() {
   const activePositions = tab === "real" ? positions : simPositions;
   const activeAdd       = tab === "real" ? addPosition : addSimulation;
   const activeRemove    = tab === "real" ? removePosition : removeSimulation;
+  const activeUpdate    = tab === "real" ? updatePosition : updateSimulation;
   const activeClear     = tab === "real" ? clearAll : clearSimulations;
 
   return (
@@ -223,6 +224,7 @@ export default function PortfolioPage() {
         positions={activePositions}
         tickers={tickers}
         onRemove={activeRemove}
+        onUpdate={activeUpdate}
         isSimulation={tab === "sim"}
       />
 

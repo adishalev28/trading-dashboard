@@ -15,7 +15,7 @@ import Sparkline from "./Sparkline";
  * - Trailing Stop (SMA 20)
  * - Sell Signals: drops out of Stage 2 or RS < 70
  */
-export default function PortfolioTable({ positions, tickers, onRemove, isSimulation = false }) {
+export default function PortfolioTable({ positions, tickers, onRemove, onUpdate, isSimulation = false }) {
   const [confirmDelete, setConfirmDelete] = useState(null);
 
   if (!positions || positions.length === 0) {
@@ -54,10 +54,30 @@ export default function PortfolioTable({ positions, tickers, onRemove, isSimulat
         <tbody>
           {positions.map((pos, i) => {
             const live = tickerMap[pos.ticker];
-            const currentPrice = live?.price ?? pos.entryPrice;
+            const livePrice = live?.price ?? pos.entryPrice;
+
+            // Auto-close: if stop loss hit and not yet marked, lock the exit
+            const isStopped = pos.status === "stopped";
+            const stopJustHit = !isStopped && pos.stopLoss && livePrice <= pos.stopLoss;
+            if (stopJustHit && onUpdate) {
+              onUpdate(pos.id, {
+                status: "stopped",
+                exitPrice: pos.stopLoss,
+                exitDate: new Date().toISOString().slice(0, 10),
+              });
+            }
+
+            // If stopped: show locked P&L at stop price, plus "if held" at current price
+            const wasStopped = isStopped || stopJustHit;
+            const exitPrice = wasStopped ? (pos.exitPrice || pos.stopLoss) : null;
+            const currentPrice = wasStopped ? exitPrice : livePrice;
             const pnlPerShare = currentPrice - pos.entryPrice;
             const pnlTotal = pnlPerShare * pos.shares;
             const pnlPct = pos.entryPrice > 0 ? (pnlPerShare / pos.entryPrice) * 100 : 0;
+
+            // "What if held" — only relevant when stopped
+            const ifHeldPnl = wasStopped ? (livePrice - pos.entryPrice) * pos.shares : null;
+            const ifHeldPct = wasStopped && pos.entryPrice > 0 ? ((livePrice - pos.entryPrice) / pos.entryPrice) * 100 : null;
             const isProfit = pnlTotal >= 0;
 
             // Trailing stop = SMA 20 (if available)
@@ -117,10 +137,18 @@ export default function PortfolioTable({ positions, tickers, onRemove, isSimulat
               >
                 {/* Position info */}
                 <td className="px-4 py-3">
-                  <div className="font-bold font-mono-nums text-slate-100">{pos.ticker}</div>
+                  <div className="font-bold font-mono-nums text-slate-100">
+                    {pos.ticker}
+                    {wasStopped && <span className="ml-1.5 text-[9px] font-semibold text-rose-400 bg-rose-950 px-1.5 py-0.5 rounded">CLOSED</span>}
+                  </div>
                   <div className="text-[10px] text-slate-500">
                     {pos.shares} shares - {pos.entryDate}
                   </div>
+                  {wasStopped && pos.exitDate && (
+                    <div className="text-[9px] text-slate-600">
+                      stopped {pos.exitDate}
+                    </div>
+                  )}
                   {pos.reason && (
                     <div className="text-[10px] text-amber-400/70 mt-0.5 italic truncate max-w-[140px]" title={pos.reason}>
                       "{pos.reason}"
@@ -149,6 +177,11 @@ export default function PortfolioTable({ positions, tickers, onRemove, isSimulat
                 }`}>
                   <div>{isProfit ? "+" : ""}{fmtUsd(pnlTotal)}</div>
                   <div className="text-[10px]">{isProfit ? "+" : ""}{pnlPct.toFixed(1)}%</div>
+                  {wasStopped && (
+                    <div className="text-[9px] text-slate-500 mt-1 font-normal" title="What if you stayed in">
+                      if held: <span className={ifHeldPnl >= 0 ? "text-emerald-600" : "text-rose-500"}>{ifHeldPnl >= 0 ? "+" : ""}{fmtUsd(ifHeldPnl)} ({ifHeldPct >= 0 ? "+" : ""}{ifHeldPct.toFixed(1)}%)</span>
+                    </div>
+                  )}
                 </td>
 
                 {/* Trailing Stop (SMA 20) */}
