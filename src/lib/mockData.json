@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generatedAt": "2026-04-29 06:17:07",
+    "generatedAt": "2026-04-29 11:24:04",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
-    "totalScanned": 1152,
-    "passedFinviz": 1152,
+    "totalScanned": 1153,
+    "passedFinviz": 1153,
     "finalCount": 339,
-    "note": "Screened 1152 stocks. 339 passed Stage 2 / Warning filters."
+    "note": "Screened 1153 stocks. 339 passed Stage 2 / Warning filters."
   },
-  "fxRate": 2.9605,
+  "fxRate": 2.9595,
   "commissionRoundTripUsd": 14,
   "benchmark": {
     "symbol": "SPY",
@@ -40,7 +40,7 @@
       "changePct": null
     },
     "breakouts": {
-      "current": 21,
+      "current": 22,
       "prev5d": null,
       "changePct": null
     }
@@ -83,7 +83,7 @@
         160.57,
         157.85
       ],
-      "marketCap": 42.9
+      "marketCap": 84.2
     },
     {
       "symbol": "XLV",
@@ -122,7 +122,7 @@
         143.46,
         143.84
       ],
-      "marketCap": 28.4
+      "marketCap": 38.6
     },
     {
       "symbol": "XLF",
@@ -161,7 +161,7 @@
         51.81,
         51.85
       ],
-      "marketCap": 45.8
+      "marketCap": 47.8
     },
     {
       "symbol": "XLE",
@@ -200,7 +200,7 @@
         56.77,
         57.71
       ],
-      "marketCap": 10.8
+      "marketCap": 43.6
     },
     {
       "symbol": "XLI",
@@ -239,7 +239,7 @@
         172.51,
         170.98
       ],
-      "marketCap": 23.4
+      "marketCap": 28.3
     },
     {
       "symbol": "XLY",
@@ -278,7 +278,7 @@
         117.84,
         117.01
       ],
-      "marketCap": 14.1
+      "marketCap": 21.4
     },
     {
       "symbol": "XLP",
@@ -317,7 +317,7 @@
         82.34,
         83.08
       ],
-      "marketCap": 17.5
+      "marketCap": 15.5
     },
     {
       "symbol": "XLB",
@@ -356,7 +356,7 @@
         51.78,
         51.4
       ],
-      "marketCap": 3.7
+      "marketCap": 6.5
     },
     {
       "symbol": "XLU",
@@ -395,7 +395,7 @@
         46.19,
         46.25
       ],
-      "marketCap": 7.6
+      "marketCap": 24.4
     },
     {
       "symbol": "XLRE",
@@ -3109,7 +3109,7 @@
       "price": 67.67,
       "sma150": 53.48,
       "sma200": 51.04,
-      "rsScore": 73,
+      "rsScore": 72,
       "vcpStatus": "none",
       "volumeSurge": "none",
       "weekHighDistance": 1.84,
@@ -3834,6 +3834,7 @@
       ],
       "marketCap": 2.7,
       "sector": "Industrials",
+      "earningsDate": "2026-07-28",
       "epsGrowthYoY": -38.5,
       "salesGrowthYoY": 35.4,
       "lastReportDate": "2025-12-31"
@@ -4000,7 +4001,7 @@
       "price": 53.74,
       "sma150": 44.78,
       "sma200": 43.8,
-      "rsScore": 76,
+      "rsScore": 75,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 8.45,
@@ -4467,59 +4468,6 @@
       "earningsDate": "2026-05-05",
       "epsGrowthYoY": 41.4,
       "salesGrowthYoY": 1.1,
-      "lastReportDate": "2025-12-31"
-    },
-    {
-      "ticker": "CNQ",
-      "companyName": "Canadian Natural Resources Lim",
-      "price": 46.36,
-      "sma150": 37.4,
-      "sma200": 35.75,
-      "rsScore": 70,
-      "vcpStatus": "loose",
-      "volumeSurge": "none",
-      "weekHighDistance": 7.46,
-      "volumePctAvg": 100.6,
-      "sma20": 45.98,
-      "pivotPrice": 49.16,
-      "distToPivotPct": 5.7,
-      "priceHistory30d": [
-        48.54,
-        48.66,
-        50.09,
-        49.02,
-        48.38,
-        49.02,
-        49.18,
-        48.67,
-        50.09,
-        49.37,
-        48.73,
-        46.56,
-        47.53,
-        48.25,
-        49.16,
-        46.43,
-        45.7,
-        46.35,
-        46.85,
-        45.65,
-        45.77,
-        46.31,
-        43.0,
-        43.3,
-        44.28,
-        44.68,
-        45.43,
-        44.24,
-        45.02,
-        46.36
-      ],
-      "marketCap": 96.7,
-      "sector": "Energy",
-      "earningsDate": "2026-05-07",
-      "epsGrowthYoY": 370.4,
-      "salesGrowthYoY": -3.2,
       "lastReportDate": "2025-12-31"
     },
     {
@@ -6732,6 +6680,59 @@
       "lastReportDate": "2025-12-31"
     },
     {
+      "ticker": "ESE",
+      "companyName": "ESCO Technologies Inc.",
+      "price": 317.01,
+      "sma150": 239.93,
+      "sma200": 229.23,
+      "rsScore": 81,
+      "vcpStatus": "loose",
+      "volumeSurge": "none",
+      "weekHighDistance": 1.26,
+      "volumePctAvg": 69.1,
+      "sma20": 307.77,
+      "pivotPrice": 321.07,
+      "distToPivotPct": 1.26,
+      "priceHistory30d": [
+        267.74,
+        267.24,
+        266.54,
+        260.88,
+        267.9,
+        276.76,
+        288.69,
+        277.55,
+        279.15,
+        268.92,
+        281.29,
+        293.07,
+        292.28,
+        293.4,
+        291.33,
+        308.94,
+        309.8,
+        310.59,
+        316.91,
+        318.24,
+        307.7,
+        299.82,
+        314.92,
+        315.15,
+        314.14,
+        311.0,
+        318.83,
+        319.9,
+        321.07,
+        317.01
+      ],
+      "marketCap": 8.2,
+      "sector": "Technology",
+      "earningsDate": "2026-05-07",
+      "epsGrowthYoY": 21.8,
+      "salesGrowthYoY": 35.0,
+      "lastReportDate": "2025-12-31"
+    },
+    {
       "ticker": "ESI",
       "companyName": "Element Solutions Inc.",
       "price": 38.78,
@@ -6839,7 +6840,7 @@
       "price": 214.07,
       "sma150": 172.37,
       "sma200": 163.82,
-      "rsScore": 75,
+      "rsScore": 74,
       "vcpStatus": "tight",
       "volumeSurge": "none",
       "weekHighDistance": 2.25,
@@ -7671,6 +7672,7 @@
       ],
       "marketCap": 131.2,
       "sector": "Technology",
+      "earningsDate": "2026-07-28",
       "epsGrowthYoY": 72.2,
       "salesGrowthYoY": 20.4,
       "lastReportDate": "2025-12-31"
@@ -7999,7 +8001,7 @@
       "price": 40.81,
       "sma150": 31.03,
       "sma200": 28.65,
-      "rsScore": 80,
+      "rsScore": 79,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 0.0,
@@ -9103,7 +9105,7 @@
       "price": 251.29,
       "sma150": 194.65,
       "sma200": 181.69,
-      "rsScore": 78,
+      "rsScore": 77,
       "vcpStatus": "none",
       "volumeSurge": "none",
       "weekHighDistance": 0.95,
@@ -9367,7 +9369,7 @@
       "price": 82.98,
       "sma150": 55.2,
       "sma200": 50.45,
-      "rsScore": 91,
+      "rsScore": 92,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 5.39,
@@ -9567,6 +9569,7 @@
       ],
       "marketCap": 4.1,
       "sector": "Healthcare",
+      "earningsDate": "2026-07-28",
       "epsGrowthYoY": 241.7,
       "salesGrowthYoY": 65.0,
       "lastReportDate": "2025-12-31"
@@ -10103,7 +10106,7 @@
       "price": 8.72,
       "sma150": 7.85,
       "sma200": 7.06,
-      "rsScore": 72,
+      "rsScore": 71,
       "vcpStatus": "none",
       "volumeSurge": "none",
       "weekHighDistance": 26.29,
@@ -10251,6 +10254,7 @@
       ],
       "marketCap": 2.3,
       "sector": "Financials",
+      "earningsDate": "2026-07-27",
       "epsGrowthYoY": -30.8,
       "salesGrowthYoY": -4.5,
       "lastReportDate": "2025-12-31"
@@ -11726,7 +11730,7 @@
         122.58,
         116.54
       ],
-      "marketCap": 17.3,
+      "marketCap": 17.5,
       "sector": "Technology",
       "earningsDate": "2026-05-12",
       "epsGrowthYoY": 7.6,
@@ -13680,7 +13684,7 @@
       "price": 225.52,
       "sma150": 186.13,
       "sma200": 175.31,
-      "rsScore": 71,
+      "rsScore": 70,
       "vcpStatus": "tight",
       "volumeSurge": "none",
       "weekHighDistance": 1.2,
@@ -13826,7 +13830,7 @@
         24.28,
         24.0
       ],
-      "marketCap": 2.5,
+      "marketCap": 5.6,
       "sector": "Consumer Discretionary",
       "epsGrowthYoY": 150.0,
       "salesGrowthYoY": 27.8,
@@ -15343,6 +15347,7 @@
       ],
       "marketCap": 129.7,
       "sector": "Technology",
+      "earningsDate": "2026-07-28",
       "epsGrowthYoY": 67.7,
       "salesGrowthYoY": 21.5,
       "lastReportDate": "2025-12-31"
@@ -16087,7 +16092,7 @@
       "price": 46.91,
       "sma150": 37.69,
       "sma200": 36.81,
-      "rsScore": 74,
+      "rsScore": 73,
       "vcpStatus": "tight",
       "volumeSurge": "none",
       "weekHighDistance": 0.0,
@@ -16709,6 +16714,7 @@
       ],
       "marketCap": 3.5,
       "sector": "Technology",
+      "earningsDate": "2026-07-27",
       "epsGrowthYoY": -119.4,
       "salesGrowthYoY": -10.0,
       "lastReportDate": "2025-12-31"
@@ -17128,7 +17134,7 @@
         17.07,
         16.91
       ],
-      "marketCap": 72.1,
+      "marketCap": 73.8,
       "sector": "Materials",
       "salesGrowthYoY": 9.2,
       "lastReportDate": "2025-12-31"
@@ -17232,7 +17238,7 @@
         44.92,
         43.17
       ],
-      "marketCap": 10.0,
+      "marketCap": 0,
       "sector": "Technology",
       "earningsDate": "2026-04-29",
       "epsGrowthYoY": -625.0,
@@ -17812,7 +17818,7 @@
         23.12,
         23.26
       ],
-      "marketCap": 44.2,
+      "marketCap": 0,
       "sector": "Energy"
     },
     {
@@ -17914,7 +17920,7 @@
         16.52,
         16.52
       ],
-      "marketCap": 2.0,
+      "marketCap": 2.3,
       "sector": "Energy",
       "earningsDate": "2026-05-05",
       "epsGrowthYoY": 100.0,
@@ -18177,7 +18183,7 @@
         54.74,
         53.77
       ],
-      "marketCap": 5.4,
+      "marketCap": 7.2,
       "sector": "Technology",
       "earningsDate": "2026-05-06",
       "epsGrowthYoY": -71.0,
