@@ -196,6 +196,42 @@
         "price": 657.55,
         "sma50": 608.44
       }
+    },
+    {
+      "date": "2026-04-29",
+      "stage2Count": 310,
+      "breakoutCount": 21,
+      "breakoutTickers": [
+        "AAMI",
+        "ACLX",
+        "ADEA",
+        "ANDE",
+        "BHE",
+        "CNTA",
+        "CSTM",
+        "DAVE",
+        "EFXT",
+        "GSAT",
+        "INTC",
+        "LION",
+        "POWL",
+        "PRM",
+        "SNEX",
+        "SPHR",
+        "STM",
+        "TERN",
+        "TPC",
+        "TS",
+        "WTTR"
+      ],
+      "spy": {
+        "price": 711.69,
+        "sma50": 677.42
+      },
+      "qqq": {
+        "price": 657.55,
+        "sma50": 608.44
+      }
     }
   ]
 }
