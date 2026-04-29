@@ -3,6 +3,7 @@ import SectorHeatmap from "@/components/SectorHeatmap";
 import Stage2Table from "@/components/Stage2Table";
 import SystemHealth from "@/components/SystemHealth";
 import PotentialBreakouts from "@/components/PotentialBreakouts";
+import TodaysTopPicks from "@/components/TodaysTopPicks";
 import MarketBreadthLight from "@/components/MarketBreadthLight";
 import RefreshButton from "@/components/RefreshButton";
 import Explainer from "@/components/Explainer";
@@ -82,6 +83,9 @@ export default function OverviewPage() {
     >
       {/* Market Breadth — Go/No-Go gauge (top of page) */}
       {breadth && <MarketBreadthLight breadth={breadth} />}
+
+      {/* Today's Top Picks — strict A+ filter on top of breakouts */}
+      <TodaysTopPicks tickers={tickers} sectors={sectors} />
 
       {/* 5 summary cards (was 4) */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
