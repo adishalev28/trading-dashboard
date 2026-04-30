@@ -234,6 +234,44 @@
         "price": 661.57,
         "sma50": 609.66
       }
+    },
+    {
+      "date": "2026-04-30",
+      "stage2Count": 299,
+      "breakoutCount": 23,
+      "breakoutTickers": [
+        "ACLX",
+        "APLS",
+        "ARCB",
+        "AXGN",
+        "BTSG",
+        "CC",
+        "CNTA",
+        "ECO",
+        "FLEX",
+        "GSAT",
+        "INDV",
+        "INSW",
+        "MEOH",
+        "MU",
+        "OUT",
+        "PLXS",
+        "SNDK",
+        "TALO",
+        "TERN",
+        "TPC",
+        "VLO",
+        "VSH",
+        "WBD"
+      ],
+      "spy": {
+        "price": 711.58,
+        "sma50": 678.03
+      },
+      "qqq": {
+        "price": 661.57,
+        "sma50": 609.66
+      }
     }
   ]
 }

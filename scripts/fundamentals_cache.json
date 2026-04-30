@@ -695,6 +695,12 @@
     "lastReportDate": "2025-12-31",
     "salesGrowthYoY": -12.2
   },
+  "EC": {
+    "epsGrowthYoY": -60.8,
+    "fetchedAt": "2026-04-30",
+    "lastReportDate": "2025-12-31",
+    "salesGrowthYoY": null
+  },
   "ECG": {
     "epsGrowthYoY": 61.2,
     "fetchedAt": "2026-04-25",
@@ -976,6 +982,12 @@
     "fetchedAt": "2026-04-25",
     "lastReportDate": "2025-12-31",
     "salesGrowthYoY": -192.2
+  },
+  "HYMC": {
+    "epsGrowthYoY": -14.9,
+    "fetchedAt": "2026-04-30",
+    "lastReportDate": "2026-03-31",
+    "salesGrowthYoY": null
   },
   "IAG": {
     "epsGrowthYoY": null,
@@ -1570,6 +1582,12 @@
     "fetchedAt": "2026-04-25",
     "lastReportDate": "2025-12-31",
     "salesGrowthYoY": 19.2
+  },
+  "PTEN": {
+    "epsGrowthYoY": null,
+    "fetchedAt": "2026-04-30",
+    "lastReportDate": "2026-03-31",
+    "salesGrowthYoY": -12.7
   },
   "PTGX": {
     "epsGrowthYoY": -134.8,
