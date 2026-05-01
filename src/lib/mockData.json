@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-05-01 11:01:47",
+    "generatedAt": "2026-05-01 12:21:37",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
     "totalScanned": 1182,
@@ -8,7 +8,7 @@
     "finalCount": 346,
     "note": "Screened 1182 stocks. 346 passed Stage 2 / Warning filters."
   },
-  "fxRate": 2.9469,
+  "fxRate": 2.942,
   "commissionRoundTripUsd": 14,
   "benchmark": {
     "symbol": "SPY",
@@ -17547,7 +17547,7 @@
         45.53,
         52.4
       ],
-      "marketCap": 12.1,
+      "marketCap": 0,
       "sector": "Technology",
       "epsGrowthYoY": -625.0,
       "salesGrowthYoY": 36.4,
@@ -18180,7 +18180,7 @@
         24.0,
         23.85
       ],
-      "marketCap": 45.3,
+      "marketCap": 0,
       "sector": "Energy"
     },
     {
