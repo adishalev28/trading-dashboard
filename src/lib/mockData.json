@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generatedAt": "2026-04-30 22:38:37",
+    "generatedAt": "2026-05-01 03:38:40",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
-    "totalScanned": 1180,
-    "passedFinviz": 1180,
+    "totalScanned": 1182,
+    "passedFinviz": 1182,
     "finalCount": 346,
-    "note": "Screened 1180 stocks. 346 passed Stage 2 / Warning filters."
+    "note": "Screened 1182 stocks. 346 passed Stage 2 / Warning filters."
   },
-  "fxRate": 2.9376,
+  "fxRate": 2.9434,
   "commissionRoundTripUsd": 14,
   "benchmark": {
     "symbol": "SPY",
@@ -19,7 +19,7 @@
     "aboveSma200": true
   },
   "breadth": {
-    "asOf": "2026-04-30",
+    "asOf": "2026-05-01",
     "indices": {
       "spy": {
         "price": 718.66,
@@ -937,7 +937,7 @@
         30.31,
         30.13,
         30.23,
-        30.68,
+        30.69,
         31.85
       ],
       "marketCap": 3.5,
@@ -1676,7 +1676,7 @@
         20.34,
         21.06
       ],
-      "marketCap": 2.9,
+      "marketCap": 3.0,
       "sector": "Industrials",
       "earningsDate": "2026-05-06",
       "salesGrowthYoY": 140.6,
@@ -1887,7 +1887,7 @@
         82.03,
         82.89
       ],
-      "marketCap": 7.4,
+      "marketCap": 6.2,
       "sector": "Healthcare",
       "earningsDate": "2026-05-11"
     },
@@ -2411,7 +2411,7 @@
         30.59,
         31.41
       ],
-      "marketCap": 68.8,
+      "marketCap": 68.9,
       "sector": "Technology",
       "earningsDate": "2026-07-30",
       "epsGrowthYoY": 56.5,
@@ -6872,6 +6872,7 @@
       ],
       "marketCap": 2.0,
       "sector": "Financials",
+      "earningsDate": "2026-05-06",
       "epsGrowthYoY": 37.5,
       "salesGrowthYoY": 19.3,
       "lastReportDate": "2025-12-31"
@@ -7764,7 +7765,7 @@
         151.9,
         164.24
       ],
-      "marketCap": 149.0,
+      "marketCap": 141.1,
       "sector": "Technology",
       "earningsDate": "2026-07-28",
       "epsGrowthYoY": 72.2,
@@ -7922,7 +7923,7 @@
         349.94,
         384.8
       ],
-      "marketCap": 4655.1,
+      "marketCap": 4662.0,
       "sector": "Communication Services",
       "earningsDate": "2026-07-23",
       "epsGrowthYoY": 31.2,
@@ -9816,7 +9817,7 @@
         81.51,
         81.07
       ],
-      "marketCap": 6.6,
+      "marketCap": 6.7,
       "sector": "Healthcare",
       "epsGrowthYoY": -10.2,
       "salesGrowthYoY": -61.2,
@@ -11608,7 +11609,7 @@
         83.2,
         85.04
       ],
-      "marketCap": 2.8,
+      "marketCap": 2.9,
       "sector": "Healthcare",
       "earningsDate": "2026-05-07",
       "epsGrowthYoY": -495.6,
@@ -12292,7 +12293,7 @@
         68.1,
         68.41
       ],
-      "marketCap": 3.4,
+      "marketCap": 4.1,
       "sector": "Healthcare",
       "earningsDate": "2026-05-13"
     },
@@ -14804,7 +14805,7 @@
         55.7,
         56.88
       ],
-      "marketCap": 85.1,
+      "marketCap": 85.0,
       "sector": "Energy",
       "earningsDate": "2026-07-24",
       "epsGrowthYoY": -13.8,
@@ -15534,7 +15535,7 @@
         643.3,
         673.64
       ],
-      "marketCap": 150.9,
+      "marketCap": 151.0,
       "sector": "Technology",
       "earningsDate": "2026-07-28",
       "epsGrowthYoY": 67.7,
@@ -17266,7 +17267,7 @@
         571.07,
         571.35
       ],
-      "marketCap": 25.0,
+      "marketCap": 24.2,
       "sector": "Healthcare",
       "earningsDate": "2026-05-06",
       "epsGrowthYoY": 24.4,
@@ -17529,7 +17530,7 @@
         45.53,
         52.4
       ],
-      "marketCap": 0,
+      "marketCap": 12.1,
       "sector": "Technology",
       "epsGrowthYoY": -625.0,
       "salesGrowthYoY": 36.4,
@@ -18159,7 +18160,7 @@
         24.0,
         23.85
       ],
-      "marketCap": 0,
+      "marketCap": 45.3,
       "sector": "Energy"
     },
     {
