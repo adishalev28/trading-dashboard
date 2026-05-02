@@ -33,6 +33,7 @@ except ImportError as e:
     sys.exit(1)
 
 from fundamentals import fetch_for_universe, load_cache
+from top_picks import compute_top_picks
 
 # ─── Configuration ─────────────────────────────────────────────────────────
 
@@ -58,6 +59,7 @@ SECTORS = [
 BENCHMARK = "SPY"
 SECONDARY_INDEX = "QQQ"  # Used together with SPY for the Market Breadth gauge
 BREADTH_HISTORY_FILE = ROOT_DIR / "scripts" / "breadth_history.json"
+PERFORMANCE_FILE = ROOT_DIR / "scripts" / "performance_data.json"
 BREADTH_LOOKBACK_DAYS = 5  # Trading days to look back for stage2/breakout deltas
 HISTORY_PERIOD = "18mo"
 BATCH_SIZE = 50  # Download this many tickers at once
@@ -653,6 +655,70 @@ def main():
         if not price or not ma:
             return None
         return round(((price - ma) / ma) * 100, 1)
+
+    # ─── Step 7c: Compute Top Picks + update performance_data.json ──
+    top_picks_today = compute_top_picks(final_tickers, sector_data)
+    print(f"\nTop Picks today: {len(top_picks_today)} qualified")
+    for p in top_picks_today:
+        print(f"  {p['grade']:3s} {p['ticker']:6s} score={p['score']}")
+
+    perf = {"tickers": {}, "lastUpdate": today_str}
+    if PERFORMANCE_FILE.exists():
+        try:
+            with open(PERFORMANCE_FILE, "r", encoding="utf-8") as f:
+                perf = json.load(f)
+        except Exception as e:
+            print(f"  WARNING: could not read performance_data.json: {e}")
+
+    perf_tickers = perf.setdefault("tickers", {})
+    breakout_set = set(breakout_tickers)
+    top_pick_map = {p["ticker"]: p for p in top_picks_today}
+
+    # Touch every ticker that appears in either list today
+    for sym in (breakout_set | set(top_pick_map.keys())):
+        live = next((t for t in final_tickers if t["ticker"] == sym), None)
+        price_today = live.get("price") if live else None
+
+        entry = perf_tickers.setdefault(sym, {
+            "firstSeen": today_str,
+            "entryPrice": price_today,
+            "appearances": [],
+            "topPicksHistory": [],
+            "lastSeen": today_str,
+        })
+
+        # Backfill entryPrice if missing for any reason
+        if entry.get("entryPrice") is None and price_today is not None:
+            entry["entryPrice"] = price_today
+
+        lists_today = []
+        if sym in breakout_set:
+            lists_today.append("breakout")
+        if sym in top_pick_map:
+            lists_today.append("topPick")
+
+        # Replace today's entry if already present (re-runs same day)
+        entry["appearances"] = [a for a in entry["appearances"] if a.get("date") != today_str]
+        entry["appearances"].append({"date": today_str, "lists": lists_today})
+
+        if sym in top_pick_map:
+            tp = top_pick_map[sym]
+            entry["topPicksHistory"] = [h for h in entry["topPicksHistory"] if h.get("date") != today_str]
+            entry["topPicksHistory"].append({
+                "date": today_str,
+                "score": tp["score"],
+                "grade": tp["grade"],
+            })
+            current_best = entry.get("bestTopPickScore") or 0
+            if tp["score"] > current_best:
+                entry["bestTopPickScore"] = tp["score"]
+
+        entry["lastSeen"] = today_str
+
+    perf["lastUpdate"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    with open(PERFORMANCE_FILE, "w", encoding="utf-8") as f:
+        json.dump(perf, f, indent=2, ensure_ascii=False)
+    print(f"  performance_data.json: {len(perf_tickers)} tickers tracked")
 
     breadth_block = {
         "asOf": today_str,

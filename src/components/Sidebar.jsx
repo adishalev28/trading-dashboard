@@ -3,15 +3,16 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { LayoutDashboard, Grid3x3, List, Calculator, Briefcase, TrendingUp, LogIn, LogOut, Cloud, Mail, Check } from "lucide-react";
+import { LayoutDashboard, Grid3x3, List, Calculator, Briefcase, TrendingUp, LogIn, LogOut, Cloud, Mail, Check, BarChart3 } from "lucide-react";
 import { useAuth } from "@/components/AuthProvider";
 
 const navItems = [
-  { href: "/overview",   label: "Overview",   Icon: LayoutDashboard },
-  { href: "/sectors",    label: "Sectors",    Icon: Grid3x3 },
-  { href: "/watchlist",  label: "Watchlist",  Icon: List },
-  { href: "/risk",       label: "Risk Calc",  Icon: Calculator },
-  { href: "/portfolio",  label: "Portfolio",  Icon: Briefcase },
+  { href: "/overview",    label: "Overview",    Icon: LayoutDashboard },
+  { href: "/sectors",     label: "Sectors",     Icon: Grid3x3 },
+  { href: "/watchlist",   label: "Watchlist",   Icon: List },
+  { href: "/risk",        label: "Risk Calc",   Icon: Calculator },
+  { href: "/portfolio",   label: "Portfolio",   Icon: Briefcase },
+  { href: "/performance", label: "Performance", Icon: BarChart3 },
 ];
 
 export default function Sidebar() {
