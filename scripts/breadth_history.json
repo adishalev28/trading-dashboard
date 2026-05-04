@@ -471,6 +471,66 @@
         "price": 674.15,
         "sma50": 612.34
       }
+    },
+    {
+      "date": "2026-05-04",
+      "stage2Count": 310,
+      "breakoutCount": 45,
+      "breakoutTickers": [
+        "APLS",
+        "ARCB",
+        "ASX",
+        "CAT",
+        "CELC",
+        "CLS",
+        "CNTA",
+        "COGT",
+        "CSTM",
+        "DAR",
+        "ECO",
+        "ENS",
+        "FN",
+        "FRO",
+        "FTI",
+        "GSAT",
+        "HAL",
+        "HP",
+        "KLIC",
+        "LSCC",
+        "MEOH",
+        "MKSI",
+        "MRVL",
+        "MTSI",
+        "NESR",
+        "PARR",
+        "PBR",
+        "PBR-A",
+        "POWL",
+        "PRIM",
+        "RIG",
+        "SGML",
+        "SMTC",
+        "SSL",
+        "TERN",
+        "TIGO",
+        "TS",
+        "UMC",
+        "VAL",
+        "VICR",
+        "VRT",
+        "VSAT",
+        "WDC",
+        "WFRD",
+        "WULF"
+      ],
+      "spy": {
+        "price": 720.65,
+        "sma50": 679.48
+      },
+      "qqq": {
+        "price": 674.15,
+        "sma50": 612.34
+      }
     }
   ]
 }

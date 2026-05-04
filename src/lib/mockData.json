@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-05-03 22:27:44",
+    "generatedAt": "2026-05-04 11:31:04",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
     "totalScanned": 1150,
@@ -8,7 +8,7 @@
     "finalCount": 337,
     "note": "Screened 1150 stocks. 337 passed Stage 2 / Warning filters."
   },
-  "fxRate": 2.9382,
+  "fxRate": 2.961,
   "commissionRoundTripUsd": 14,
   "benchmark": {
     "symbol": "SPY",
@@ -19,7 +19,7 @@
     "aboveSma200": true
   },
   "breadth": {
-    "asOf": "2026-05-03",
+    "asOf": "2026-05-04",
     "indices": {
       "spy": {
         "price": 720.65,
@@ -36,13 +36,13 @@
     },
     "stage2": {
       "current": 310,
-      "prev5d": 309,
-      "changePct": 0.3
+      "prev5d": 298,
+      "changePct": 4.0
     },
     "breakouts": {
       "current": 45,
-      "prev5d": 21,
-      "changePct": 114.3
+      "prev5d": 23,
+      "changePct": 95.7
     }
   },
   "sectors": [
@@ -5356,7 +5356,6 @@
       ],
       "marketCap": 2.2,
       "sector": "Healthcare",
-      "earningsDate": "2026-05-05",
       "salesGrowthYoY": 83.9,
       "lastReportDate": "2025-12-31"
     },
