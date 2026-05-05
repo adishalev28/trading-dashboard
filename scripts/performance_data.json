@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-05 17:45:53",
+  "lastUpdate": "2026-05-05 22:40:06",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -1011,11 +1011,24 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-05",
+          "lists": [
+            "topPick"
+          ]
         }
       ],
-      "topPicksHistory": [],
-      "lastSeen": "2026-04-26",
-      "entryPrice": 595.86
+      "topPicksHistory": [
+        {
+          "date": "2026-05-05",
+          "score": 87,
+          "grade": "A+"
+        }
+      ],
+      "lastSeen": "2026-05-05",
+      "entryPrice": 595.86,
+      "bestTopPickScore": 87
     },
     "TERN": {
       "firstSeen": "2026-04-25",
@@ -2635,11 +2648,24 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-05",
+          "lists": [
+            "topPick"
+          ]
         }
       ],
-      "topPicksHistory": [],
-      "lastSeen": "2026-04-30",
-      "entryPrice": 518.46
+      "topPicksHistory": [
+        {
+          "date": "2026-05-05",
+          "score": 85,
+          "grade": "A+"
+        }
+      ],
+      "lastSeen": "2026-05-05",
+      "entryPrice": 518.46,
+      "bestTopPickScore": 85
     },
     "SNDK": {
       "firstSeen": "2026-04-29",
@@ -4419,6 +4445,48 @@
     "RNG": {
       "firstSeen": "2026-05-05",
       "entryPrice": 47.78,
+      "appearances": [
+        {
+          "date": "2026-05-05",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-05-05"
+    },
+    "HUT": {
+      "firstSeen": "2026-05-05",
+      "entryPrice": 80.51,
+      "appearances": [
+        {
+          "date": "2026-05-05",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-05-05"
+    },
+    "SANM": {
+      "firstSeen": "2026-05-05",
+      "entryPrice": 221.89,
+      "appearances": [
+        {
+          "date": "2026-05-05",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-05-05"
+    },
+    "ABVX": {
+      "firstSeen": "2026-05-05",
+      "entryPrice": 123.78,
       "appearances": [
         {
           "date": "2026-05-05",
