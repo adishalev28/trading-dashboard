@@ -586,6 +586,56 @@
         "price": 681.61,
         "sma50": 615.26
       }
+    },
+    {
+      "date": "2026-05-06",
+      "stage2Count": 308,
+      "breakoutCount": 35,
+      "breakoutTickers": [
+        "AAOI",
+        "ABVX",
+        "AMAT",
+        "AMD",
+        "AMKR",
+        "ANAB",
+        "ANDE",
+        "APA",
+        "APLS",
+        "ARWR",
+        "CLS",
+        "CNTA",
+        "COGT",
+        "CRDO",
+        "CTOS",
+        "FSLY",
+        "GSAT",
+        "HUT",
+        "LBRT",
+        "LION",
+        "MKSI",
+        "NBIS",
+        "NEXA",
+        "NXT",
+        "ON",
+        "ONTO",
+        "PBR",
+        "SANM",
+        "SGML",
+        "TALO",
+        "TIGO",
+        "TSEM",
+        "TVTX",
+        "VSAT",
+        "WBD"
+      ],
+      "spy": {
+        "price": 723.77,
+        "sma50": 680.95
+      },
+      "qqq": {
+        "price": 681.61,
+        "sma50": 615.26
+      }
     }
   ]
 }
