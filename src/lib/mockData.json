@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-05-06 11:52:20",
+    "generatedAt": "2026-05-06 13:21:44",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
     "totalScanned": 1137,
@@ -8,7 +8,7 @@
     "finalCount": 331,
     "note": "Screened 1137 stocks. 331 passed Stage 2 / Warning filters."
   },
-  "fxRate": 2.9042,
+  "fxRate": 2.9079,
   "commissionRoundTripUsd": 14,
   "benchmark": {
     "symbol": "SPY",
@@ -83,7 +83,7 @@
         162.05,
         165.63
       ],
-      "marketCap": 84.2
+      "marketCap": 103.3
     },
     {
       "symbol": "XLV",
@@ -122,7 +122,7 @@
         144.73,
         145.3
       ],
-      "marketCap": 38.6
+      "marketCap": 37.9
     },
     {
       "symbol": "XLF",
@@ -161,7 +161,7 @@
         51.58,
         51.59
       ],
-      "marketCap": 47.8
+      "marketCap": 51.5
     },
     {
       "symbol": "XLE",
@@ -200,7 +200,7 @@
         59.39,
         59.45
       ],
-      "marketCap": 43.6
+      "marketCap": 41.4
     },
     {
       "symbol": "XLI",
@@ -239,7 +239,7 @@
         170.98,
         172.41
       ],
-      "marketCap": 28.3
+      "marketCap": 30.1
     },
     {
       "symbol": "XLY",
@@ -278,7 +278,7 @@
         117.72,
         118.07
       ],
-      "marketCap": 21.4
+      "marketCap": 23.1
     },
     {
       "symbol": "XLP",
@@ -317,7 +317,7 @@
         83.54,
         84.06
       ],
-      "marketCap": 15.5
+      "marketCap": 14.5
     },
     {
       "symbol": "XLB",
@@ -356,7 +356,7 @@
         50.65,
         51.53
       ],
-      "marketCap": 6.5
+      "marketCap": 7.3
     },
     {
       "symbol": "XLU",
@@ -395,7 +395,7 @@
         46.37,
         46.37
       ],
-      "marketCap": 24.4
+      "marketCap": 24.1
     },
     {
       "symbol": "XLRE",
@@ -434,7 +434,7 @@
         44.08,
         44.17
       ],
-      "marketCap": 7.3
+      "marketCap": 7.7
     },
     {
       "symbol": "XLC",
@@ -473,7 +473,7 @@
         116.1,
         115.63
       ],
-      "marketCap": 24.1
+      "marketCap": 25.6
     }
   ],
   "tickers": [
@@ -4095,6 +4095,7 @@
       ],
       "marketCap": 9.0,
       "sector": "Technology",
+      "earningsDate": "2026-08-06",
       "salesGrowthYoY": 41.4,
       "lastReportDate": "2025-12-31"
     },
@@ -5092,7 +5093,6 @@
       ],
       "marketCap": 57.2,
       "sector": "Energy",
-      "earningsDate": "2026-05-06",
       "epsGrowthYoY": 614.3,
       "salesGrowthYoY": -8.3,
       "lastReportDate": "2025-12-31"
@@ -6402,7 +6402,6 @@
       ],
       "marketCap": 103.1,
       "sector": "Energy",
-      "earningsDate": "2026-05-06",
       "epsGrowthYoY": -28.8,
       "salesGrowthYoY": -4.7,
       "lastReportDate": "2025-12-31"
@@ -6977,7 +6976,7 @@
       ],
       "marketCap": 35.5,
       "sector": "Technology",
-      "earningsDate": "2026-05-06",
+      "earningsDate": "2026-07-22",
       "epsGrowthYoY": -4.5,
       "salesGrowthYoY": 7.7,
       "lastReportDate": "2025-12-31"
@@ -8189,7 +8188,6 @@
       ],
       "marketCap": 9.1,
       "sector": "Financials",
-      "earningsDate": "2026-05-06",
       "epsGrowthYoY": -266.0,
       "salesGrowthYoY": -192.2,
       "lastReportDate": "2025-12-31"
@@ -12555,7 +12553,6 @@
       ],
       "marketCap": 4.9,
       "sector": "Materials",
-      "earningsDate": "2026-05-06",
       "epsGrowthYoY": -204.4,
       "salesGrowthYoY": 19.2,
       "lastReportDate": "2025-12-31"
@@ -13656,7 +13653,6 @@
       ],
       "marketCap": 2.7,
       "sector": "Technology",
-      "earningsDate": "2026-05-06",
       "epsGrowthYoY": 55.8,
       "salesGrowthYoY": 96.4,
       "lastReportDate": "2025-12-31"
@@ -14337,6 +14333,7 @@
       ],
       "marketCap": 4.9,
       "sector": "Communication Services",
+      "earningsDate": "2026-08-06",
       "epsGrowthYoY": 135.2,
       "lastReportDate": "2025-12-31"
     },
@@ -16638,7 +16635,6 @@
       ],
       "marketCap": 24.3,
       "sector": "Healthcare",
-      "earningsDate": "2026-05-06",
       "epsGrowthYoY": 24.4,
       "salesGrowthYoY": 7.4,
       "lastReportDate": "2025-12-31"
@@ -16849,7 +16845,6 @@
       ],
       "marketCap": 2.1,
       "sector": "Energy",
-      "earningsDate": "2026-05-06",
       "salesGrowthYoY": -10.3,
       "lastReportDate": "2025-12-31"
     },
@@ -17479,7 +17474,7 @@
         23.46,
         23.47
       ],
-      "marketCap": 44.6,
+      "marketCap": 0,
       "sector": "Energy"
     },
     {
@@ -17793,7 +17788,6 @@
       ],
       "marketCap": 7.9,
       "sector": "Technology",
-      "earningsDate": "2026-05-06",
       "epsGrowthYoY": -71.0,
       "salesGrowthYoY": 16.7,
       "lastReportDate": "2025-12-31"
