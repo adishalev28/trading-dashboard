@@ -639,6 +639,59 @@
         "price": 695.77,
         "sma50": 617.03
       }
+    },
+    {
+      "date": "2026-05-07",
+      "stage2Count": 323,
+      "breakoutCount": 38,
+      "breakoutTickers": [
+        "ACMR",
+        "AEHR",
+        "AG",
+        "AMKR",
+        "AXGN",
+        "BTSG",
+        "CAMT",
+        "CECO",
+        "CIFR",
+        "CLS",
+        "CNTA",
+        "COHR",
+        "CTOS",
+        "DFTX",
+        "ENTG",
+        "FRO",
+        "GSAT",
+        "KOD",
+        "LSCC",
+        "MTZ",
+        "MXL",
+        "NESR",
+        "NOK",
+        "NVMI",
+        "PL",
+        "PLAB",
+        "PLXS",
+        "PRAX",
+        "RVMD",
+        "SPHR",
+        "SQM",
+        "SYRE",
+        "THR",
+        "TIGO",
+        "TPC",
+        "TVTX",
+        "USAS",
+        "WBD"
+      ],
+      "spy": {
+        "price": 733.83,
+        "sma50": 681.92
+      },
+      "qqq": {
+        "price": 695.77,
+        "sma50": 617.03
+      }
     }
   ]
 }
