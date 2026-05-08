@@ -688,6 +688,55 @@
         "price": 694.94,
         "sma50": 618.61
       }
+    },
+    {
+      "date": "2026-05-08",
+      "stage2Count": 309,
+      "breakoutCount": 34,
+      "breakoutTickers": [
+        "ABVX",
+        "ADI",
+        "AG",
+        "APLS",
+        "ARWR",
+        "ATI",
+        "ATRO",
+        "AXGN",
+        "AXSM",
+        "BTSG",
+        "CNTA",
+        "CSTM",
+        "ECO",
+        "ENS",
+        "EZPW",
+        "FLEX",
+        "GNRC",
+        "GOOGL",
+        "GSAT",
+        "ICHR",
+        "JAZZ",
+        "KGS",
+        "MCHP",
+        "MOD",
+        "OGN",
+        "PLXS",
+        "SANM",
+        "SIMO",
+        "SSRM",
+        "SYRE",
+        "UMC",
+        "UUUU",
+        "VSAT",
+        "WBD"
+      ],
+      "spy": {
+        "price": 731.58,
+        "sma50": 682.73
+      },
+      "qqq": {
+        "price": 694.94,
+        "sma50": 618.61
+      }
     }
   ]
 }
