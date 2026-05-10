@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-05-10 10:52:51",
+    "generatedAt": "2026-05-10 22:32:04",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
     "totalScanned": 1164,
@@ -8,7 +8,7 @@
     "finalCount": 340,
     "note": "Screened 1164 stocks. 340 passed Stage 2 / Warning filters."
   },
-  "fxRate": 2.8999,
+  "fxRate": 2.9003,
   "commissionRoundTripUsd": 14,
   "benchmark": {
     "symbol": "SPY",
@@ -683,6 +683,7 @@
       ],
       "marketCap": 11.4,
       "sector": "Industrials",
+      "earningsDate": "2026-08-10",
       "epsGrowthYoY": 30.0,
       "salesGrowthYoY": 42.5,
       "lastReportDate": "2025-12-31"
@@ -1623,7 +1624,7 @@
         410.64,
         435.44
       ],
-      "marketCap": 345.6,
+      "marketCap": 345.5,
       "sector": "Technology",
       "earningsDate": "2026-05-14",
       "epsGrowthYoY": 75.2,
@@ -7760,7 +7761,7 @@
         397.99,
         400.8
       ],
-      "marketCap": 4855.9,
+      "marketCap": 4854.8,
       "sector": "Communication Services",
       "earningsDate": "2026-07-23",
       "epsGrowthYoY": 31.2,
@@ -8813,7 +8814,7 @@
         109.62,
         124.92
       ],
-      "marketCap": 627.8,
+      "marketCap": 627.7,
       "sector": "Technology",
       "earningsDate": "2026-07-23",
       "epsGrowthYoY": -284.2,
@@ -10920,7 +10921,7 @@
         184.77,
         177.05
       ],
-      "marketCap": 45.0,
+      "marketCap": 44.9,
       "sector": "Technology",
       "earningsDate": "2026-05-13",
       "epsGrowthYoY": -70.3,
@@ -13383,7 +13384,7 @@
         78.58,
         105.47
       ],
-      "marketCap": 61.0,
+      "marketCap": 61.1,
       "sector": "Industrials",
       "earningsDate": "2026-08-06",
       "epsGrowthYoY": 10.0,
