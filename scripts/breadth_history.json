@@ -818,43 +818,48 @@
     {
       "date": "2026-05-11",
       "stage2Count": 311,
-      "breakoutCount": 27,
+      "breakoutCount": 32,
       "breakoutTickers": [
-        "AEHR",
         "AMKR",
-        "ANAB",
         "APLS",
+        "ARWR",
         "BHE",
-        "CGNX",
+        "CAT",
         "CNTA",
-        "COHU",
-        "CYTK",
+        "DAR",
+        "DHC",
+        "DOCN",
         "ECO",
-        "ESI",
+        "FTAI",
         "GSAT",
-        "JAZZ",
+        "HBM",
+        "HYMC",
+        "IRDM",
+        "JBL",
         "KEYS",
+        "LBRT",
         "LRCX",
-        "LWLG",
-        "MOD",
         "MRVL",
-        "NVT",
-        "NVTS",
-        "NXT",
-        "OGN",
-        "RIOT",
-        "STX",
-        "SYRE",
-        "WBD",
-        "WDC"
+        "PENG",
+        "PWR",
+        "SANM",
+        "SNDK",
+        "SNEX",
+        "SQM",
+        "TTMI",
+        "TWLO",
+        "UCTT",
+        "VECO",
+        "VIAV",
+        "WBD"
       ],
       "spy": {
-        "price": 737.62,
-        "sma50": 683.73
+        "price": 739.3,
+        "sma50": 684.83
       },
       "qqq": {
-        "price": 711.23,
-        "sma50": 620.67
+        "price": 713.29,
+        "sma50": 622.8
       }
     }
   ]

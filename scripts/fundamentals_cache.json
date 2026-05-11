@@ -251,6 +251,12 @@
     "lastReportDate": "2026-03-31",
     "salesGrowthYoY": 13.2
   },
+  "ASTS": {
+    "epsGrowthYoY": null,
+    "fetchedAt": "2026-05-11",
+    "lastReportDate": "2025-12-31",
+    "salesGrowthYoY": 2731.3
+  },
   "ASX": {
     "epsGrowthYoY": 56.5,
     "fetchedAt": "2026-04-25",
@@ -2120,6 +2126,12 @@
   "SIMO": {
     "epsGrowthYoY": 107.4,
     "fetchedAt": "2026-04-25",
+    "lastReportDate": "2025-12-31",
+    "salesGrowthYoY": null
+  },
+  "SION": {
+    "epsGrowthYoY": -23.2,
+    "fetchedAt": "2026-05-11",
     "lastReportDate": "2025-12-31",
     "salesGrowthYoY": null
   },
