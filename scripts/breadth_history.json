@@ -914,6 +914,59 @@
         "price": 707.24,
         "sma50": 624.8
       }
+    },
+    {
+      "date": "2026-05-13",
+      "stage2Count": 304,
+      "breakoutCount": 38,
+      "breakoutTickers": [
+        "APLD",
+        "APLS",
+        "ARWR",
+        "CAT",
+        "CGON",
+        "CIEN",
+        "CNTA",
+        "COHR",
+        "CTOS",
+        "CVE",
+        "DHC",
+        "ECO",
+        "ENS",
+        "FIX",
+        "HL",
+        "HUT",
+        "JAZZ",
+        "KEYS",
+        "KGS",
+        "KRYS",
+        "LASR",
+        "LUNR",
+        "MTSI",
+        "NVT",
+        "OGN",
+        "PENG",
+        "PRAX",
+        "ROIV",
+        "SEI",
+        "SIMO",
+        "SKE",
+        "SKM",
+        "SYRE",
+        "TRMD",
+        "TTMI",
+        "VECO",
+        "VRT",
+        "WBD"
+      ],
+      "spy": {
+        "price": 738.18,
+        "sma50": 685.91
+      },
+      "qqq": {
+        "price": 707.24,
+        "sma50": 624.8
+      }
     }
   ]
 }
