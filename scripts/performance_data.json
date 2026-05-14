@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-14 16:05:47",
+  "lastUpdate": "2026-05-14 17:15:02",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -2802,13 +2802,13 @@
       "topPicksHistory": [
         {
           "date": "2026-05-14",
-          "score": 74,
-          "grade": "A"
+          "score": 80,
+          "grade": "A+"
         }
       ],
       "lastSeen": "2026-05-14",
       "entryPrice": 10.95,
-      "bestTopPickScore": 74
+      "bestTopPickScore": 80
     },
     "PLAB": {
       "firstSeen": "2026-04-27",
@@ -4908,10 +4908,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-14",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-05-05",
+      "lastSeen": "2026-05-14",
       "entryPrice": 6.82
     },
     "RSI": {
@@ -5125,10 +5131,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-14",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-05-05",
+      "lastSeen": "2026-05-14",
       "entryPrice": 101.98
     },
     "VISN": {
@@ -5477,10 +5489,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-14",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-05-13"
+      "lastSeen": "2026-05-14"
     },
     "CLS": {
       "firstSeen": "2026-05-02",
@@ -6027,8 +6045,7 @@
         {
           "date": "2026-05-14",
           "lists": [
-            "breakout",
-            "topPick"
+            "breakout"
           ]
         }
       ],
@@ -8720,7 +8737,7 @@
         {
           "date": "2026-05-14",
           "lists": [
-            "breakout"
+            "topPick"
           ]
         }
       ],
@@ -8732,7 +8749,7 @@
         },
         {
           "date": "2026-05-14",
-          "score": 90,
+          "score": 80,
           "grade": "A+"
         }
       ],
@@ -8964,6 +8981,7 @@
         {
           "date": "2026-05-14",
           "lists": [
+            "breakout",
             "topPick"
           ]
         }
@@ -8981,6 +8999,34 @@
     "POET": {
       "firstSeen": "2026-05-14",
       "entryPrice": 19.05,
+      "appearances": [
+        {
+          "date": "2026-05-14",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-05-14"
+    },
+    "AA": {
+      "firstSeen": "2026-05-14",
+      "entryPrice": 67.33,
+      "appearances": [
+        {
+          "date": "2026-05-14",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-05-14"
+    },
+    "COCO": {
+      "firstSeen": "2026-05-14",
+      "entryPrice": 76.68,
       "appearances": [
         {
           "date": "2026-05-14",
