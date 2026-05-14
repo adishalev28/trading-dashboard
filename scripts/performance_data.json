@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-14 17:15:02",
+  "lastUpdate": "2026-05-14 22:44:38",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -1040,11 +1040,24 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-14",
+          "lists": [
+            "topPick"
+          ]
         }
       ],
-      "topPicksHistory": [],
-      "lastSeen": "2026-05-12",
-      "entryPrice": 158.21
+      "topPicksHistory": [
+        {
+          "date": "2026-05-14",
+          "score": 82,
+          "grade": "A+"
+        }
+      ],
+      "lastSeen": "2026-05-14",
+      "entryPrice": 158.21,
+      "bestTopPickScore": 82
     },
     "MTZ": {
       "firstSeen": "2026-04-25",
@@ -4227,6 +4240,12 @@
           "lists": [
             "topPick"
           ]
+        },
+        {
+          "date": "2026-05-14",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -4241,7 +4260,7 @@
           "grade": "A+"
         }
       ],
-      "lastSeen": "2026-05-07",
+      "lastSeen": "2026-05-14",
       "entryPrice": 354.49,
       "bestTopPickScore": 90
     },
@@ -4271,10 +4290,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-14",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-05-07",
+      "lastSeen": "2026-05-14",
       "entryPrice": 74.14
     },
     "CTOS": {
@@ -7465,10 +7490,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-14",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-05-12"
+      "lastSeen": "2026-05-14"
     },
     "NVMI": {
       "firstSeen": "2026-05-06",
@@ -8197,7 +8228,7 @@
         {
           "date": "2026-05-14",
           "lists": [
-            "breakout"
+            "topPick"
           ]
         }
       ],
@@ -8229,6 +8260,11 @@
         },
         {
           "date": "2026-05-13",
+          "score": 85,
+          "grade": "A+"
+        },
+        {
+          "date": "2026-05-14",
           "score": 85,
           "grade": "A+"
         }
@@ -8749,7 +8785,7 @@
         },
         {
           "date": "2026-05-14",
-          "score": 80,
+          "score": 90,
           "grade": "A+"
         }
       ],
