@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-15 13:25:23",
+  "lastUpdate": "2026-05-15 22:41:26",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -469,10 +469,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-15",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-05-05",
+      "lastSeen": "2026-05-15",
       "entryPrice": 4.74
     },
     "CAPR": {
@@ -2303,10 +2309,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-15",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-05-05",
+      "lastSeen": "2026-05-15",
       "entryPrice": 25.57
     },
     "FLEX": {
@@ -3230,10 +3242,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-15",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-05-14",
+      "lastSeen": "2026-05-15",
       "entryPrice": 322.43
     },
     "VSH": {
@@ -3930,10 +3948,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-15",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-05-14",
+      "lastSeen": "2026-05-15",
       "entryPrice": 48.15
     },
     "ECO": {
@@ -4585,10 +4609,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-15",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-05-14",
+      "lastSeen": "2026-05-15",
       "entryPrice": 213.26
     },
     "GFS": {
@@ -6682,10 +6712,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-15",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-05-13"
+      "lastSeen": "2026-05-15"
     },
     "NBIS": {
       "firstSeen": "2026-05-05",
@@ -6702,10 +6738,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-15",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-05-06"
+      "lastSeen": "2026-05-15"
     },
     "AMAT": {
       "firstSeen": "2026-05-05",
@@ -7901,10 +7943,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-15",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-05-14"
+      "lastSeen": "2026-05-15"
     },
     "ENTG": {
       "firstSeen": "2026-05-06",
@@ -9126,10 +9174,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-15",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-05-14"
+      "lastSeen": "2026-05-15"
     },
     "BVN": {
       "firstSeen": "2026-05-13",
@@ -9364,6 +9418,76 @@
       ],
       "topPicksHistory": [],
       "lastSeen": "2026-05-14"
+    },
+    "SEDG": {
+      "firstSeen": "2026-05-15",
+      "entryPrice": 61.76,
+      "appearances": [
+        {
+          "date": "2026-05-15",
+          "lists": [
+            "topPick"
+          ]
+        }
+      ],
+      "topPicksHistory": [
+        {
+          "date": "2026-05-15",
+          "score": 90,
+          "grade": "A+"
+        }
+      ],
+      "lastSeen": "2026-05-15",
+      "bestTopPickScore": 90
+    },
+    "BW": {
+      "firstSeen": "2026-05-15",
+      "entryPrice": 21.85,
+      "appearances": [
+        {
+          "date": "2026-05-15",
+          "lists": [
+            "topPick"
+          ]
+        }
+      ],
+      "topPicksHistory": [
+        {
+          "date": "2026-05-15",
+          "score": 80,
+          "grade": "A+"
+        }
+      ],
+      "lastSeen": "2026-05-15",
+      "bestTopPickScore": 80
+    },
+    "TYRA": {
+      "firstSeen": "2026-05-15",
+      "entryPrice": 37.04,
+      "appearances": [
+        {
+          "date": "2026-05-15",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-05-15"
+    },
+    "NE": {
+      "firstSeen": "2026-05-15",
+      "entryPrice": 52.9,
+      "appearances": [
+        {
+          "date": "2026-05-15",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-05-15"
     }
   }
 }
