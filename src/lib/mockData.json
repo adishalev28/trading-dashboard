@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-05-17 22:39:20",
+    "generatedAt": "2026-05-18 03:37:10",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
     "totalScanned": 1054,
@@ -8,7 +8,7 @@
     "finalCount": 307,
     "note": "Screened 1054 stocks. 307 passed Stage 2 / Warning filters."
   },
-  "fxRate": 2.9165,
+  "fxRate": 2.9263,
   "commissionRoundTripUsd": 14,
   "benchmark": {
     "symbol": "SPY",
@@ -19,7 +19,7 @@
     "aboveSma200": true
   },
   "breadth": {
-    "asOf": "2026-05-17",
+    "asOf": "2026-05-18",
     "indices": {
       "spy": {
         "price": 739.17,
@@ -36,13 +36,13 @@
     },
     "stage2": {
       "current": 267,
-      "prev5d": 303,
-      "changePct": -11.9
+      "prev5d": 295,
+      "changePct": -9.5
     },
     "breakouts": {
       "current": 25,
-      "prev5d": 38,
-      "changePct": -34.2
+      "prev5d": 47,
+      "changePct": -46.8
     }
   },
   "sectors": [
