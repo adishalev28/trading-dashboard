@@ -1191,6 +1191,40 @@
         "price": 705.88,
         "sma50": 633.43
       }
+    },
+    {
+      "date": "2026-05-19",
+      "stage2Count": 275,
+      "breakoutCount": 19,
+      "breakoutTickers": [
+        "APLS",
+        "CNTA",
+        "DHC",
+        "ECO",
+        "EFXT",
+        "GOOG",
+        "GOOGL",
+        "GSAT",
+        "IRDM",
+        "JAZZ",
+        "LION",
+        "PRM",
+        "PUMP",
+        "RDW",
+        "RKLB",
+        "SATS",
+        "TWLO",
+        "UMC",
+        "WBD"
+      ],
+      "spy": {
+        "price": 738.65,
+        "sma50": 691.04
+      },
+      "qqq": {
+        "price": 705.88,
+        "sma50": 633.43
+      }
     }
   ]
 }
