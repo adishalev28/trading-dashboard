@@ -1223,6 +1223,38 @@
         "price": 701.53,
         "sma50": 635.32
       }
+    },
+    {
+      "date": "2026-05-20",
+      "stage2Count": 264,
+      "breakoutCount": 17,
+      "breakoutTickers": [
+        "AESI",
+        "APLS",
+        "DHC",
+        "EFXT",
+        "EQNR",
+        "GSAT",
+        "HP",
+        "NE",
+        "PRM",
+        "PTEN",
+        "PUMP",
+        "RDW",
+        "RIG",
+        "SATS",
+        "SDRL",
+        "WBD",
+        "YOU"
+      ],
+      "spy": {
+        "price": 733.73,
+        "sma50": 692.18
+      },
+      "qqq": {
+        "price": 701.53,
+        "sma50": 635.32
+      }
     }
   ]
 }
