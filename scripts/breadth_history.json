@@ -1261,6 +1261,44 @@
         "price": 713.15,
         "sma50": 637.44
       }
+    },
+    {
+      "date": "2026-05-21",
+      "stage2Count": 284,
+      "breakoutCount": 23,
+      "breakoutTickers": [
+        "AAMI",
+        "APLS",
+        "AXSM",
+        "COCO",
+        "DDOG",
+        "DNTH",
+        "ECO",
+        "FRO",
+        "GSAT",
+        "HAL",
+        "HP",
+        "HPE",
+        "LION",
+        "NE",
+        "PL",
+        "PRM",
+        "RVMD",
+        "SDRL",
+        "SYNA",
+        "TIGO",
+        "TTMI",
+        "UMC",
+        "WTTR"
+      ],
+      "spy": {
+        "price": 741.25,
+        "sma50": 693.5
+      },
+      "qqq": {
+        "price": 713.15,
+        "sma50": 637.44
+      }
     }
   ]
 }
