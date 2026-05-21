@@ -1264,40 +1264,42 @@
     },
     {
       "date": "2026-05-21",
-      "stage2Count": 284,
-      "breakoutCount": 23,
+      "stage2Count": 285,
+      "breakoutCount": 25,
       "breakoutTickers": [
-        "AAMI",
+        "ABVX",
+        "ACMR",
+        "AESI",
         "APLS",
         "AXSM",
+        "BTSG",
+        "CELC",
+        "CIEN",
         "COCO",
-        "DDOG",
+        "CORZ",
+        "CSCO",
         "DNTH",
         "ECO",
-        "FRO",
-        "GSAT",
-        "HAL",
-        "HP",
+        "ENS",
         "HPE",
-        "LION",
-        "NE",
+        "MTSI",
+        "NBIS",
+        "PENG",
         "PL",
-        "PRM",
-        "RVMD",
-        "SDRL",
-        "SYNA",
-        "TIGO",
-        "TTMI",
-        "UMC",
-        "WTTR"
+        "SNDK",
+        "TSEM",
+        "TVTX",
+        "WBD",
+        "WTTR",
+        "YOU"
       ],
       "spy": {
-        "price": 741.25,
-        "sma50": 693.5
+        "price": 742.72,
+        "sma50": 694.87
       },
       "qqq": {
-        "price": 713.15,
-        "sma50": 637.44
+        "price": 714.51,
+        "sma50": 639.59
       }
     }
   ]
