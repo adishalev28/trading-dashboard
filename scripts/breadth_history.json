@@ -1301,6 +1301,46 @@
         "price": 714.51,
         "sma50": 639.59
       }
+    },
+    {
+      "date": "2026-05-22",
+      "stage2Count": 285,
+      "breakoutCount": 25,
+      "breakoutTickers": [
+        "ABVX",
+        "ACMR",
+        "AESI",
+        "APLS",
+        "AXSM",
+        "BTSG",
+        "CELC",
+        "CIEN",
+        "COCO",
+        "CORZ",
+        "CSCO",
+        "DNTH",
+        "ECO",
+        "ENS",
+        "HPE",
+        "MTSI",
+        "NBIS",
+        "PENG",
+        "PL",
+        "SNDK",
+        "TSEM",
+        "TVTX",
+        "WBD",
+        "WTTR",
+        "YOU"
+      ],
+      "spy": {
+        "price": 742.72,
+        "sma50": 694.87
+      },
+      "qqq": {
+        "price": 714.51,
+        "sma50": 639.59
+      }
     }
   ]
 }
