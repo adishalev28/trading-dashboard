@@ -1373,6 +1373,42 @@
         "price": 717.54,
         "sma50": 642.01
       }
+    },
+    {
+      "date": "2026-05-24",
+      "stage2Count": 286,
+      "breakoutCount": 21,
+      "breakoutTickers": [
+        "APLS",
+        "ASX",
+        "BE",
+        "BTSG",
+        "CIEN",
+        "CIFR",
+        "CNTA",
+        "KLAC",
+        "LQDA",
+        "ON",
+        "PRAX",
+        "RVMD",
+        "SANM",
+        "SEDG",
+        "SNX",
+        "TIGO",
+        "TVTX",
+        "TWST",
+        "UMC",
+        "VSAT",
+        "WBD"
+      ],
+      "spy": {
+        "price": 745.64,
+        "sma50": 696.49
+      },
+      "qqq": {
+        "price": 717.54,
+        "sma50": 642.01
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-05-23 22:40:31",
+    "generatedAt": "2026-05-24 11:05:59",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
     "totalScanned": 1123,
@@ -19,7 +19,7 @@
     "aboveSma200": true
   },
   "breadth": {
-    "asOf": "2026-05-23",
+    "asOf": "2026-05-24",
     "indices": {
       "spy": {
         "price": 745.64,
@@ -36,13 +36,13 @@
     },
     "stage2": {
       "current": 286,
-      "prev5d": 275,
-      "changePct": 4.0
+      "prev5d": 264,
+      "changePct": 8.3
     },
     "breakouts": {
       "current": 21,
-      "prev5d": 19,
-      "changePct": 10.5
+      "prev5d": 17,
+      "changePct": 23.5
     }
   },
   "sectors": [
