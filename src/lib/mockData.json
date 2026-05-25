@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generatedAt": "2026-05-25 15:57:26",
+    "generatedAt": "2026-05-25 22:44:40",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
-    "totalScanned": 1123,
-    "passedFinviz": 1123,
+    "totalScanned": 1124,
+    "passedFinviz": 1124,
     "finalCount": 329,
-    "note": "Screened 1123 stocks. 329 passed Stage 2 / Warning filters."
+    "note": "Screened 1124 stocks. 329 passed Stage 2 / Warning filters."
   },
-  "fxRate": 2.8786,
+  "fxRate": 2.8791,
   "commissionRoundTripUsd": 14,
   "benchmark": {
     "symbol": "SPY",
@@ -736,7 +736,9 @@
         121.99
       ],
       "marketCap": 9.7,
-      "sector": "Healthcare"
+      "sector": "Healthcare",
+      "epsGrowthYoY": 26.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ACLS",
