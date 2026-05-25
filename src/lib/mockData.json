@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-05-24 22:44:53",
+    "generatedAt": "2026-05-25 08:22:32",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
     "totalScanned": 1123,
@@ -8,7 +8,7 @@
     "finalCount": 329,
     "note": "Screened 1123 stocks. 329 passed Stage 2 / Warning filters."
   },
-  "fxRate": 2.8911,
+  "fxRate": 2.886,
   "commissionRoundTripUsd": 14,
   "benchmark": {
     "symbol": "SPY",
@@ -19,7 +19,7 @@
     "aboveSma200": true
   },
   "breadth": {
-    "asOf": "2026-05-24",
+    "asOf": "2026-05-25",
     "indices": {
       "spy": {
         "price": 745.64,
@@ -36,13 +36,13 @@
     },
     "stage2": {
       "current": 286,
-      "prev5d": 264,
-      "changePct": 8.3
+      "prev5d": 285,
+      "changePct": 0.4
     },
     "breakouts": {
       "current": 21,
-      "prev5d": 17,
-      "changePct": 23.5
+      "prev5d": 23,
+      "changePct": -8.7
     }
   },
   "sectors": [
@@ -527,6 +527,7 @@
       "sector": "Materials",
       "earningsDate": "2026-07-15",
       "epsGrowthYoY": -22.7,
+      "salesGrowthYoY": -5.2,
       "lastReportDate": "2026-03-31"
     },
     {
@@ -631,9 +632,9 @@
       "marketCap": 14.6,
       "sector": "Technology",
       "earningsDate": "2026-08-06",
-      "epsGrowthYoY": 98.8,
-      "salesGrowthYoY": 33.9,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -5.6,
+      "salesGrowthYoY": 51.4,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "AAUC",
@@ -684,9 +685,9 @@
       "marketCap": 3.4,
       "sector": "Materials",
       "earningsDate": "2026-08-05",
-      "epsGrowthYoY": -111.1,
-      "salesGrowthYoY": 150.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -461.5,
+      "salesGrowthYoY": 13.8,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ABVX",
@@ -786,9 +787,9 @@
       "marketCap": 4.8,
       "sector": "Technology",
       "earningsDate": "2026-08-04",
-      "epsGrowthYoY": -28.6,
-      "salesGrowthYoY": -5.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -65.9,
+      "salesGrowthYoY": 3.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ACMR",
@@ -839,9 +840,9 @@
       "marketCap": 5.1,
       "sector": "Technology",
       "earningsDate": "2026-08-05",
-      "epsGrowthYoY": -76.1,
-      "salesGrowthYoY": 9.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -20.0,
+      "salesGrowthYoY": 34.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ADEA",
@@ -892,9 +893,9 @@
       "marketCap": 3.0,
       "sector": "Technology",
       "earningsDate": "2026-08-04",
-      "epsGrowthYoY": 103.1,
-      "salesGrowthYoY": 53.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 100.0,
+      "salesGrowthYoY": 19.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ADI",
@@ -945,9 +946,9 @@
       "marketCap": 193.4,
       "sector": "Technology",
       "earningsDate": "2026-08-19",
-      "epsGrowthYoY": 116.7,
-      "salesGrowthYoY": 30.4,
-      "lastReportDate": "2026-01-31"
+      "epsGrowthYoY": 110.5,
+      "salesGrowthYoY": 37.2,
+      "lastReportDate": "2026-04-30"
     },
     {
       "ticker": "AEHR",
@@ -1050,9 +1051,9 @@
       "marketCap": 13.0,
       "sector": "Industrials",
       "earningsDate": "2026-08-04",
-      "epsGrowthYoY": 0.8,
-      "salesGrowthYoY": 17.8,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 143.1,
+      "salesGrowthYoY": 26.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "AESI",
@@ -1155,8 +1156,9 @@
       "marketCap": 9.6,
       "sector": "Materials",
       "earningsDate": "2026-08-13",
-      "salesGrowthYoY": 169.8,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 2500.0,
+      "salesGrowthYoY": 95.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "AGX",
@@ -1313,9 +1315,9 @@
       "marketCap": 52.6,
       "sector": "Technology",
       "earningsDate": "2026-08-04",
-      "epsGrowthYoY": 78.6,
-      "salesGrowthYoY": 91.8,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 144.4,
+      "salesGrowthYoY": 93.4,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ALB",
@@ -1366,9 +1368,8 @@
       "marketCap": 20.2,
       "sector": "Materials",
       "earningsDate": "2026-07-29",
-      "epsGrowthYoY": -1434.5,
-      "salesGrowthYoY": 15.9,
-      "lastReportDate": "2025-12-31"
+      "salesGrowthYoY": 32.7,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ALGM",
@@ -1419,9 +1420,9 @@
       "marketCap": 8.6,
       "sector": "Technology",
       "earningsDate": "2026-07-30",
-      "epsGrowthYoY": 200.0,
-      "salesGrowthYoY": 28.9,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -12.5,
+      "salesGrowthYoY": 26.1,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ALM",
@@ -1471,8 +1472,9 @@
       ],
       "marketCap": 5.3,
       "sector": "Materials",
-      "salesGrowthYoY": 38.8,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 84.6,
+      "salesGrowthYoY": 221.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ALMS",
@@ -1576,9 +1578,8 @@
       "marketCap": 343.1,
       "sector": "Technology",
       "earningsDate": "2026-08-13",
-      "epsGrowthYoY": 75.2,
-      "salesGrowthYoY": -2.1,
-      "lastReportDate": "2026-01-31"
+      "epsGrowthYoY": 33.5,
+      "lastReportDate": "2026-04-30"
     },
     {
       "ticker": "AMD",
@@ -1629,9 +1630,9 @@
       "marketCap": 762.3,
       "sector": "Technology",
       "earningsDate": "2026-08-04",
-      "epsGrowthYoY": 217.2,
-      "salesGrowthYoY": 34.1,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 90.9,
+      "salesGrowthYoY": 37.8,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "AMKR",
@@ -1682,9 +1683,9 @@
       "marketCap": 16.3,
       "sector": "Technology",
       "earningsDate": "2026-07-27",
-      "epsGrowthYoY": 60.5,
-      "salesGrowthYoY": 15.9,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 266.7,
+      "salesGrowthYoY": 27.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "AMPX",
@@ -1735,8 +1736,9 @@
       "marketCap": 2.3,
       "sector": "Industrials",
       "earningsDate": "2026-08-06",
-      "salesGrowthYoY": 140.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 50.0,
+      "salesGrowthYoY": 152.9,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "AMSC",
@@ -1840,9 +1842,9 @@
       "marketCap": 2.4,
       "sector": "Consumer Staples",
       "earningsDate": "2026-08-03",
-      "epsGrowthYoY": 50.4,
-      "salesGrowthYoY": -18.8,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 9600.0,
+      "salesGrowthYoY": -1.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "APA",
@@ -1893,9 +1895,9 @@
       "marketCap": 13.7,
       "sector": "Energy",
       "earningsDate": "2026-08-05",
-      "epsGrowthYoY": -17.7,
-      "salesGrowthYoY": -26.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 31.3,
+      "salesGrowthYoY": -11.7,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "APGE",
@@ -2050,8 +2052,9 @@
       ],
       "marketCap": 5.3,
       "sector": "Healthcare",
-      "salesGrowthYoY": -5.9,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 120.3,
+      "salesGrowthYoY": 60.9,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ARCB",
@@ -2102,9 +2105,9 @@
       "marketCap": 2.8,
       "sector": "Industrials",
       "earningsDate": "2026-07-29",
-      "epsGrowthYoY": -129.0,
-      "salesGrowthYoY": -2.9,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -138.5,
+      "salesGrowthYoY": 3.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ARIS",
@@ -2155,8 +2158,9 @@
       "marketCap": 3.6,
       "sector": "Materials",
       "earningsDate": "2026-08-06",
-      "salesGrowthYoY": 104.2,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 4600.0,
+      "salesGrowthYoY": 136.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ARM",
@@ -2207,9 +2211,8 @@
       "marketCap": 326.1,
       "sector": "Technology",
       "earningsDate": "2026-07-29",
-      "epsGrowthYoY": -12.5,
-      "salesGrowthYoY": 26.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 45.0,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ARW",
@@ -2260,9 +2263,9 @@
       "marketCap": 11.1,
       "sector": "Technology",
       "earningsDate": "2026-07-30",
-      "epsGrowthYoY": 101.6,
-      "salesGrowthYoY": 20.1,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 201.3,
+      "salesGrowthYoY": 39.0,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ARWR",
@@ -2313,9 +2316,9 @@
       "marketCap": 10.6,
       "sector": "Healthcare",
       "earningsDate": "2026-08-06",
-      "epsGrowthYoY": 115.8,
-      "salesGrowthYoY": 10461.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -133.8,
+      "salesGrowthYoY": -86.4,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ASML",
@@ -2471,9 +2474,9 @@
       "marketCap": 76.4,
       "sector": "Technology",
       "earningsDate": "2026-07-30",
-      "epsGrowthYoY": 56.5,
-      "salesGrowthYoY": 9.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 87.8,
+      "salesGrowthYoY": 17.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ATEN",
@@ -2576,9 +2579,9 @@
       "marketCap": 22.1,
       "sector": "Industrials",
       "earningsDate": "2026-07-28",
-      "epsGrowthYoY": -26.6,
-      "salesGrowthYoY": 0.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 26.9,
+      "salesGrowthYoY": 0.6,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ATRO",
@@ -2629,9 +2632,9 @@
       "marketCap": 2.9,
       "sector": "Industrials",
       "earningsDate": "2026-07-30",
-      "epsGrowthYoY": 1075.0,
-      "salesGrowthYoY": 15.1,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 157.7,
+      "salesGrowthYoY": 12.0,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "AVT",
@@ -2681,9 +2684,9 @@
       ],
       "marketCap": 7.0,
       "sector": "Technology",
-      "epsGrowthYoY": -24.2,
-      "salesGrowthYoY": 11.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 12.9,
+      "salesGrowthYoY": 33.9,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "AXGN",
@@ -2733,9 +2736,9 @@
       ],
       "marketCap": 2.2,
       "sector": "Healthcare",
-      "epsGrowthYoY": -2900.0,
-      "salesGrowthYoY": 21.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -375.0,
+      "salesGrowthYoY": 26.6,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "AXSM",
@@ -2839,9 +2842,9 @@
       "marketCap": 9.2,
       "sector": "Technology",
       "earningsDate": "2026-07-30",
-      "epsGrowthYoY": 33.3,
-      "salesGrowthYoY": -8.2,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 85.0,
+      "salesGrowthYoY": 39.1,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "BB",
@@ -2943,9 +2946,9 @@
       ],
       "marketCap": 86.0,
       "sector": "Industrials",
-      "epsGrowthYoY": -100.0,
-      "salesGrowthYoY": 35.9,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 330.0,
+      "salesGrowthYoY": 130.4,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "BHE",
@@ -2996,9 +2999,9 @@
       "marketCap": 3.1,
       "sector": "Technology",
       "earningsDate": "2026-07-29",
-      "epsGrowthYoY": -66.0,
+      "epsGrowthYoY": 260.0,
       "salesGrowthYoY": 7.2,
-      "lastReportDate": "2025-12-31"
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "BTE",
@@ -3049,8 +3052,9 @@
       "marketCap": 3.7,
       "sector": "Energy",
       "earningsDate": "2026-07-30",
-      "salesGrowthYoY": -211.0,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -200.0,
+      "salesGrowthYoY": -0.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "BTSG",
@@ -3101,9 +3105,9 @@
       "marketCap": 11.3,
       "sector": "Healthcare",
       "earningsDate": "2026-07-31",
-      "epsGrowthYoY": 337.5,
-      "salesGrowthYoY": 16.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 378.6,
+      "salesGrowthYoY": 25.6,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "BVN",
@@ -3259,9 +3263,9 @@
       "marketCap": 13.5,
       "sector": "Consumer Discretionary",
       "earningsDate": "2026-07-30",
-      "epsGrowthYoY": 31.7,
-      "salesGrowthYoY": 3.9,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 61.1,
+      "salesGrowthYoY": 0.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "BWLP",
@@ -3365,9 +3369,9 @@
       "marketCap": 2.8,
       "sector": "Consumer Discretionary",
       "earningsDate": "2026-08-06",
-      "epsGrowthYoY": 95.6,
-      "salesGrowthYoY": -216.5,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 4600.0,
+      "salesGrowthYoY": 9.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "CAMT",
@@ -3418,9 +3422,9 @@
       "marketCap": 7.7,
       "sector": "Technology",
       "earningsDate": "2026-08-12",
-      "epsGrowthYoY": 6.0,
-      "salesGrowthYoY": 9.2,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -10.0,
+      "salesGrowthYoY": 2.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "CAR",
@@ -3471,9 +3475,9 @@
       "marketCap": 5.9,
       "sector": "Industrials",
       "earningsDate": "2026-07-29",
-      "epsGrowthYoY": 61.8,
-      "salesGrowthYoY": 0.5,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 44.2,
+      "salesGrowthYoY": 21.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "CASY",
@@ -3577,9 +3581,9 @@
       "marketCap": 405.3,
       "sector": "Industrials",
       "earningsDate": "2026-08-04",
-      "epsGrowthYoY": -11.4,
-      "salesGrowthYoY": 18.0,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 30.2,
+      "salesGrowthYoY": 22.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "CC",
@@ -3630,8 +3634,9 @@
       "marketCap": 3.2,
       "sector": "Materials",
       "earningsDate": "2026-08-04",
-      "salesGrowthYoY": -4.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -533.3,
+      "salesGrowthYoY": 1.0,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "CECO",
@@ -3682,9 +3687,9 @@
       "marketCap": 2.9,
       "sector": "Industrials",
       "earningsDate": "2026-07-28",
-      "epsGrowthYoY": -38.5,
-      "salesGrowthYoY": 35.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -101.0,
+      "salesGrowthYoY": 16.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "CELC",
@@ -3735,8 +3740,8 @@
       "marketCap": 6.7,
       "sector": "Healthcare",
       "earningsDate": "2026-08-13",
-      "epsGrowthYoY": -14.1,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -12.8,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "CENX",
@@ -3787,8 +3792,9 @@
       "marketCap": 6.4,
       "sector": "Materials",
       "earningsDate": "2026-08-06",
-      "salesGrowthYoY": 0.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 1013.8,
+      "salesGrowthYoY": 2.4,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "CGAU",
@@ -3838,8 +3844,9 @@
       ],
       "marketCap": 3.3,
       "sector": "Materials",
-      "salesGrowthYoY": 32.8,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 200.0,
+      "salesGrowthYoY": 61.8,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "CGNX",
@@ -3890,9 +3897,9 @@
       "marketCap": 11.0,
       "sector": "Technology",
       "earningsDate": "2026-07-29",
-      "epsGrowthYoY": 18.8,
-      "salesGrowthYoY": 9.9,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 121.4,
+      "salesGrowthYoY": 24.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "CGON",
@@ -3943,8 +3950,9 @@
       "marketCap": 5.7,
       "sector": "Healthcare",
       "earningsDate": "2026-08-07",
-      "salesGrowthYoY": 409.2,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -57.8,
+      "salesGrowthYoY": 1982.7,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "CHRD",
@@ -4101,8 +4109,9 @@
       "marketCap": 9.0,
       "sector": "Technology",
       "earningsDate": "2026-08-06",
-      "salesGrowthYoY": 41.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -154.5,
+      "salesGrowthYoY": -28.8,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "CLMT",
@@ -4153,9 +4162,9 @@
       "marketCap": 3.0,
       "sector": "Materials",
       "earningsDate": "2026-08-07",
-      "epsGrowthYoY": 8.5,
-      "salesGrowthYoY": 9.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -94.7,
+      "salesGrowthYoY": 3.6,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "CLS",
@@ -4206,9 +4215,9 @@
       "marketCap": 42.2,
       "sector": "Technology",
       "earningsDate": "2026-07-27",
-      "epsGrowthYoY": 79.1,
-      "salesGrowthYoY": 43.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 147.3,
+      "salesGrowthYoY": 52.8,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "CLSK",
@@ -4521,8 +4530,8 @@
       "marketCap": 5.6,
       "sector": "Healthcare",
       "earningsDate": "2026-08-04",
-      "epsGrowthYoY": -3.5,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 16.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "COHR",
@@ -4572,9 +4581,9 @@
       ],
       "marketCap": 73.9,
       "sector": "Technology",
-      "epsGrowthYoY": 72.7,
-      "salesGrowthYoY": 17.5,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 981.8,
+      "salesGrowthYoY": 20.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "COHU",
@@ -4625,9 +4634,9 @@
       "marketCap": 2.2,
       "sector": "Technology",
       "earningsDate": "2026-07-30",
-      "epsGrowthYoY": -4.3,
-      "salesGrowthYoY": 29.9,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 60.6,
+      "salesGrowthYoY": 29.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "CORZ",
@@ -4677,9 +4686,9 @@
       ],
       "marketCap": 8.0,
       "sector": "Technology",
-      "epsGrowthYoY": 170.0,
-      "salesGrowthYoY": -16.0,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -184.8,
+      "salesGrowthYoY": 44.9,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "CRDO",
@@ -4783,9 +4792,9 @@
       "marketCap": 21.6,
       "sector": "Industrials",
       "earningsDate": "2026-07-30",
-      "epsGrowthYoY": 25.9,
-      "salesGrowthYoY": 7.5,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 47.3,
+      "salesGrowthYoY": 11.6,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "CRWD",
@@ -4942,8 +4951,9 @@
       "marketCap": 4.5,
       "sector": "Materials",
       "earningsDate": "2026-07-28",
-      "salesGrowthYoY": 40.5,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 465.4,
+      "salesGrowthYoY": 24.4,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "CTOS",
@@ -5045,9 +5055,9 @@
       "marketCap": 56.0,
       "sector": "Energy",
       "earningsDate": "2026-07-30",
-      "epsGrowthYoY": 614.3,
-      "salesGrowthYoY": -8.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 76.6,
+      "salesGrowthYoY": -6.1,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "CYTK",
@@ -5149,8 +5159,9 @@
       ],
       "marketCap": 3.7,
       "sector": "Consumer Discretionary",
-      "salesGrowthYoY": -20.0,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 5717.6,
+      "salesGrowthYoY": 4.9,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "DAR",
@@ -5201,9 +5212,9 @@
       "marketCap": 9.3,
       "sector": "Consumer Staples",
       "earningsDate": "2026-07-30",
-      "epsGrowthYoY": -44.4,
-      "salesGrowthYoY": 20.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 618.8,
+      "salesGrowthYoY": 12.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "DDOG",
@@ -5517,9 +5528,9 @@
       "marketCap": 4.6,
       "sector": "Technology",
       "earningsDate": "2026-08-06",
-      "epsGrowthYoY": 22.2,
-      "salesGrowthYoY": 15.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 420.0,
+      "salesGrowthYoY": 22.1,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "DK",
@@ -5569,9 +5580,9 @@
       ],
       "marketCap": 2.7,
       "sector": "Energy",
-      "epsGrowthYoY": 119.2,
-      "salesGrowthYoY": 2.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -20.1,
+      "salesGrowthYoY": 0.4,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "DNTH",
@@ -5621,9 +5632,9 @@
       ],
       "marketCap": 4.7,
       "sector": "Healthcare",
-      "epsGrowthYoY": -76.5,
-      "salesGrowthYoY": -78.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -3.7,
+      "salesGrowthYoY": -60.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "DOCN",
@@ -5674,9 +5685,9 @@
       "marketCap": 16.5,
       "sector": "Technology",
       "earningsDate": "2026-08-04",
-      "epsGrowthYoY": 26.3,
-      "salesGrowthYoY": 18.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -61.5,
+      "salesGrowthYoY": 22.4,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "E",
@@ -5726,9 +5737,9 @@
       ],
       "marketCap": 79.9,
       "sector": "Energy",
-      "epsGrowthYoY": -85.7,
-      "salesGrowthYoY": -12.2,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -5.6,
+      "salesGrowthYoY": 4.7,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ECG",
@@ -5778,9 +5789,9 @@
       ],
       "marketCap": 7.6,
       "sector": "Industrials",
-      "epsGrowthYoY": 61.2,
-      "salesGrowthYoY": 33.2,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 58.3,
+      "salesGrowthYoY": 25.4,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ECO",
@@ -5831,9 +5842,9 @@
       "marketCap": 2.1,
       "sector": "Industrials",
       "earningsDate": "2026-08-04",
-      "epsGrowthYoY": 329.3,
-      "salesGrowthYoY": 48.9,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 492.3,
+      "salesGrowthYoY": 112.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "EFXT",
@@ -5884,9 +5895,9 @@
       "marketCap": 3.3,
       "sector": "Energy",
       "earningsDate": "2026-08-07",
-      "epsGrowthYoY": -487.3,
-      "salesGrowthYoY": 11.8,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 84.2,
+      "salesGrowthYoY": 5.8,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ELVN",
@@ -5936,8 +5947,8 @@
       ],
       "marketCap": 2.5,
       "sector": "Healthcare",
-      "epsGrowthYoY": -4.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 33.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ENPH",
@@ -6041,9 +6052,8 @@
       "marketCap": 8.5,
       "sector": "Industrials",
       "earningsDate": "2026-08-05",
-      "epsGrowthYoY": -16.7,
-      "salesGrowthYoY": 1.4,
-      "lastReportDate": "2025-12-31"
+      "salesGrowthYoY": 1.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ENTG",
@@ -6094,9 +6104,9 @@
       "marketCap": 20.6,
       "sector": "Technology",
       "earningsDate": "2026-07-30",
-      "epsGrowthYoY": -52.2,
-      "salesGrowthYoY": -3.1,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 46.3,
+      "salesGrowthYoY": 5.0,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "EQNR",
@@ -6147,9 +6157,9 @@
       "marketCap": 96.7,
       "sector": "Energy",
       "earningsDate": "2026-07-22",
-      "epsGrowthYoY": -28.8,
-      "salesGrowthYoY": -4.7,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 29.2,
+      "salesGrowthYoY": -5.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ERAS",
@@ -6199,8 +6209,8 @@
       ],
       "marketCap": 3.5,
       "sector": "Healthcare",
-      "epsGrowthYoY": 9.1,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -445.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ERIC",
@@ -6303,9 +6313,9 @@
       ],
       "marketCap": 9.9,
       "sector": "Materials",
-      "epsGrowthYoY": -87.0,
-      "salesGrowthYoY": 8.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -42.5,
+      "salesGrowthYoY": 41.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "EWTX",
@@ -6514,6 +6524,7 @@
       "sector": "Financials",
       "earningsDate": "2026-07-30",
       "epsGrowthYoY": 29.9,
+      "salesGrowthYoY": 25.7,
       "lastReportDate": "2026-03-31"
     },
     {
@@ -6565,9 +6576,8 @@
       "marketCap": 2.1,
       "sector": "Consumer Discretionary",
       "earningsDate": "2026-08-06",
-      "epsGrowthYoY": 900.0,
-      "salesGrowthYoY": 33.0,
-      "lastReportDate": "2025-12-31"
+      "salesGrowthYoY": 28.0,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "FIX",
@@ -6671,9 +6681,9 @@
       "marketCap": 48.5,
       "sector": "Technology",
       "earningsDate": "2026-07-22",
-      "epsGrowthYoY": -4.5,
-      "salesGrowthYoY": 7.7,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 17.5,
+      "salesGrowthYoY": 16.9,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "FLNC",
@@ -6828,9 +6838,9 @@
       ],
       "marketCap": 25.2,
       "sector": "Technology",
-      "epsGrowthYoY": 30.7,
-      "salesGrowthYoY": 35.9,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 53.3,
+      "salesGrowthYoY": 39.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "FORM",
@@ -6881,9 +6891,9 @@
       "marketCap": 10.1,
       "sector": "Technology",
       "earningsDate": "2026-07-29",
-      "epsGrowthYoY": 141.7,
-      "salesGrowthYoY": 13.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 225.0,
+      "salesGrowthYoY": 32.0,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "FRO",
@@ -7039,9 +7049,9 @@
       "marketCap": 2.6,
       "sector": "Technology",
       "earningsDate": "2026-08-05",
-      "epsGrowthYoY": 56.5,
-      "salesGrowthYoY": 22.8,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 51.9,
+      "salesGrowthYoY": 19.8,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "FTI",
@@ -7092,9 +7102,9 @@
       "marketCap": 28.3,
       "sector": "Energy",
       "earningsDate": "2026-07-23",
-      "epsGrowthYoY": 13.5,
-      "salesGrowthYoY": 6.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 93.9,
+      "salesGrowthYoY": 11.6,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "FTNT",
@@ -7303,9 +7313,9 @@
       "marketCap": 47.0,
       "sector": "Technology",
       "earningsDate": "2026-08-04",
-      "epsGrowthYoY": 127.3,
-      "salesGrowthYoY": 0.0,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -52.6,
+      "salesGrowthYoY": 3.1,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "GH",
@@ -7409,9 +7419,9 @@
       "marketCap": 167.0,
       "sector": "Technology",
       "earningsDate": "2026-07-28",
-      "epsGrowthYoY": 72.2,
-      "salesGrowthYoY": 20.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 138.9,
+      "salesGrowthYoY": 20.0,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "GNRC",
@@ -7514,9 +7524,9 @@
       "marketCap": 4596.4,
       "sector": "Communication Services",
       "earningsDate": "2026-07-23",
-      "epsGrowthYoY": 31.2,
-      "salesGrowthYoY": 18.0,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 81.9,
+      "salesGrowthYoY": 21.8,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "GOOGL",
@@ -7567,9 +7577,9 @@
       "marketCap": 4639.9,
       "sector": "Communication Services",
       "earningsDate": "2026-07-23",
-      "epsGrowthYoY": 31.2,
-      "salesGrowthYoY": 18.0,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 81.9,
+      "salesGrowthYoY": 21.8,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "GSAT",
@@ -7620,9 +7630,9 @@
       "marketCap": 10.7,
       "sector": "Communication Services",
       "earningsDate": "2026-08-06",
-      "epsGrowthYoY": 73.8,
-      "salesGrowthYoY": 17.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 0.0,
+      "salesGrowthYoY": 16.7,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "GTX",
@@ -7673,9 +7683,9 @@
       "marketCap": 6.2,
       "sector": "Consumer Discretionary",
       "earningsDate": "2026-07-23",
-      "epsGrowthYoY": -10.6,
-      "salesGrowthYoY": 5.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 63.3,
+      "salesGrowthYoY": 12.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "HAL",
@@ -7727,6 +7737,7 @@
       "sector": "Energy",
       "earningsDate": "2026-07-21",
       "epsGrowthYoY": 129.2,
+      "salesGrowthYoY": -0.3,
       "lastReportDate": "2026-03-31"
     },
     {
@@ -7778,8 +7789,9 @@
       "marketCap": 9.7,
       "sector": "Materials",
       "earningsDate": "2026-07-31",
-      "salesGrowthYoY": 25.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 92.0,
+      "salesGrowthYoY": 27.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "HIMX",
@@ -7830,9 +7842,9 @@
       "marketCap": 3.7,
       "sector": "Technology",
       "earningsDate": "2026-08-06",
-      "epsGrowthYoY": -48.6,
-      "salesGrowthYoY": -14.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -59.6,
+      "salesGrowthYoY": -7.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "HLIO",
@@ -7883,9 +7895,9 @@
       "marketCap": 2.6,
       "sector": "Industrials",
       "earningsDate": "2026-08-06",
-      "epsGrowthYoY": 314.3,
-      "salesGrowthYoY": 17.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 168.2,
+      "salesGrowthYoY": 16.8,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "HP",
@@ -7936,9 +7948,9 @@
       "marketCap": 4.0,
       "sector": "Energy",
       "earningsDate": "2026-08-05",
-      "epsGrowthYoY": -281.5,
-      "salesGrowthYoY": 50.2,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -6000.0,
+      "salesGrowthYoY": -8.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "HPE",
@@ -8095,9 +8107,9 @@
       "marketCap": 11.9,
       "sector": "Financials",
       "earningsDate": "2026-08-06",
-      "epsGrowthYoY": -266.0,
-      "salesGrowthYoY": -192.2,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -52.3,
+      "salesGrowthYoY": 225.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "HYMC",
@@ -8199,9 +8211,9 @@
       "marketCap": 7.6,
       "sector": "Healthcare",
       "earningsDate": "2026-08-04",
-      "epsGrowthYoY": 33.3,
-      "salesGrowthYoY": 407.0,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -313.3,
+      "salesGrowthYoY": 167.6,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ICHR",
@@ -8252,9 +8264,9 @@
       "marketCap": 2.4,
       "sector": "Technology",
       "earningsDate": "2026-08-04",
-      "epsGrowthYoY": -283.3,
-      "salesGrowthYoY": -4.2,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 46.2,
+      "salesGrowthYoY": 4.7,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "IMNM",
@@ -8305,8 +8317,9 @@
       "marketCap": 2.5,
       "sector": "Healthcare",
       "earningsDate": "2026-08-06",
+      "epsGrowthYoY": 7.7,
       "salesGrowthYoY": -100.0,
-      "lastReportDate": "2025-12-31"
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "IMVT",
@@ -8357,8 +8370,8 @@
       "marketCap": 7.0,
       "sector": "Healthcare",
       "earningsDate": "2026-08-10",
-      "epsGrowthYoY": 19.7,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -14.1,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "INDV",
@@ -8408,9 +8421,9 @@
       ],
       "marketCap": 4.4,
       "sector": "Healthcare",
-      "epsGrowthYoY": 1028.6,
-      "salesGrowthYoY": 19.7,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 81.6,
+      "salesGrowthYoY": 19.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "INOD",
@@ -8514,9 +8527,9 @@
       "marketCap": 4.1,
       "sector": "Energy",
       "earningsDate": "2026-08-05",
-      "epsGrowthYoY": 255.6,
-      "salesGrowthYoY": 37.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 475.0,
+      "salesGrowthYoY": 77.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "INTC",
@@ -8774,9 +8787,9 @@
       ],
       "marketCap": 20.3,
       "sector": "Financials",
-      "epsGrowthYoY": -420.0,
-      "salesGrowthYoY": 59.0,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -957.1,
+      "salesGrowthYoY": -0.0,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "JAZZ",
@@ -8827,9 +8840,9 @@
       "marketCap": 15.0,
       "sector": "Healthcare",
       "earningsDate": "2026-08-04",
-      "epsGrowthYoY": 3.2,
-      "salesGrowthYoY": 10.1,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 391.4,
+      "salesGrowthYoY": 19.1,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "JBHT",
@@ -8881,6 +8894,7 @@
       "sector": "Industrials",
       "earningsDate": "2026-07-14",
       "epsGrowthYoY": 27.4,
+      "salesGrowthYoY": 4.6,
       "lastReportDate": "2026-03-31"
     },
     {
@@ -9037,9 +9051,8 @@
       "marketCap": 59.2,
       "sector": "Technology",
       "earningsDate": "2026-08-18",
-      "epsGrowthYoY": 68.0,
-      "salesGrowthYoY": 23.3,
-      "lastReportDate": "2026-01-31"
+      "epsGrowthYoY": 35.6,
+      "lastReportDate": "2026-04-30"
     },
     {
       "ticker": "KGS",
@@ -9090,9 +9103,9 @@
       "marketCap": 7.4,
       "sector": "Energy",
       "earningsDate": "2026-08-05",
-      "epsGrowthYoY": 33.3,
-      "salesGrowthYoY": 7.5,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -39.4,
+      "salesGrowthYoY": 4.9,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "KLAC",
@@ -9143,9 +9156,9 @@
       "marketCap": 246.7,
       "sector": "Technology",
       "earningsDate": "2026-07-30",
-      "epsGrowthYoY": 40.9,
-      "salesGrowthYoY": 7.2,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 11.8,
+      "salesGrowthYoY": 11.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "KLIC",
@@ -9196,9 +9209,9 @@
       "marketCap": 5.5,
       "sector": "Technology",
       "earningsDate": "2026-08-06",
-      "epsGrowthYoY": -78.8,
-      "salesGrowthYoY": 20.2,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 141.5,
+      "salesGrowthYoY": 49.8,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "KN",
@@ -9250,6 +9263,7 @@
       "sector": "Technology",
       "earningsDate": "2026-07-23",
       "epsGrowthYoY": 650.0,
+      "salesGrowthYoY": 15.8,
       "lastReportDate": "2026-03-31"
     },
     {
@@ -9353,8 +9367,8 @@
       ],
       "marketCap": 2.3,
       "sector": "Healthcare",
-      "epsGrowthYoY": -23.8,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 13.8,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "KYMR",
@@ -9404,9 +9418,9 @@
       ],
       "marketCap": 6.5,
       "sector": "Healthcare",
-      "epsGrowthYoY": -10.2,
-      "salesGrowthYoY": -61.2,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 13.4,
+      "salesGrowthYoY": 55.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "LASR",
@@ -9457,9 +9471,9 @@
       "marketCap": 4.4,
       "sector": "Technology",
       "earningsDate": "2026-08-06",
-      "epsGrowthYoY": 80.4,
-      "salesGrowthYoY": 71.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 106.2,
+      "salesGrowthYoY": 55.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "LBRT",
@@ -9668,9 +9682,9 @@
       ],
       "marketCap": 73.7,
       "sector": "Technology",
-      "epsGrowthYoY": 201.1,
-      "salesGrowthYoY": 65.5,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 334.4,
+      "salesGrowthYoY": 90.1,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "LNTH",
@@ -9774,8 +9788,9 @@
       "marketCap": 5.4,
       "sector": "Healthcare",
       "earningsDate": "2026-08-12",
-      "salesGrowthYoY": 3054.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 215.6,
+      "salesGrowthYoY": 4158.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "LRCX",
@@ -9879,9 +9894,9 @@
       "marketCap": 19.6,
       "sector": "Technology",
       "earningsDate": "2026-08-03",
-      "epsGrowthYoY": -150.0,
-      "salesGrowthYoY": 24.2,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 300.0,
+      "salesGrowthYoY": 42.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "LUMN",
@@ -9932,9 +9947,9 @@
       "marketCap": 9.7,
       "sector": "Communication Services",
       "earningsDate": "2026-07-30",
-      "epsGrowthYoY": -100.0,
-      "salesGrowthYoY": -8.7,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 0.0,
+      "salesGrowthYoY": -8.9,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "LUNR",
@@ -9985,9 +10000,9 @@
       "marketCap": 6.1,
       "sector": "Industrials",
       "earningsDate": "2026-08-06",
-      "epsGrowthYoY": 77.8,
-      "salesGrowthYoY": -20.8,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -127.3,
+      "salesGrowthYoY": 193.7,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "MCHP",
@@ -10091,9 +10106,9 @@
       "marketCap": 4.7,
       "sector": "Materials",
       "earningsDate": "2026-07-29",
-      "epsGrowthYoY": -271.6,
-      "salesGrowthYoY": 2.1,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -112.5,
+      "salesGrowthYoY": 8.6,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "MKSI",
@@ -10144,9 +10159,9 @@
       "marketCap": 21.7,
       "sector": "Technology",
       "earningsDate": "2026-08-05",
-      "epsGrowthYoY": 18.8,
-      "salesGrowthYoY": 10.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 53.2,
+      "salesGrowthYoY": 15.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "MOD",
@@ -10303,9 +10318,9 @@
       "marketCap": 78.1,
       "sector": "Technology",
       "earningsDate": "2026-07-30",
-      "epsGrowthYoY": -88.4,
-      "salesGrowthYoY": 20.8,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 39.5,
+      "salesGrowthYoY": 26.1,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "MRNA",
@@ -10356,9 +10371,9 @@
       "marketCap": 18.6,
       "sector": "Healthcare",
       "earningsDate": "2026-07-31",
-      "epsGrowthYoY": 27.5,
-      "salesGrowthYoY": -29.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -34.9,
+      "salesGrowthYoY": 263.6,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "MRVL",
@@ -10514,9 +10529,9 @@
       "marketCap": 50.2,
       "sector": "Materials",
       "earningsDate": "2026-07-30",
-      "epsGrowthYoY": 145.1,
-      "salesGrowthYoY": 1.7,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -27.9,
+      "salesGrowthYoY": 4.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "MTSI",
@@ -10567,9 +10582,9 @@
       "marketCap": 29.4,
       "sector": "Technology",
       "earningsDate": "2026-08-06",
-      "epsGrowthYoY": 127.8,
-      "salesGrowthYoY": 24.5,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 42.9,
+      "salesGrowthYoY": 22.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "MTZ",
@@ -10620,9 +10635,9 @@
       "marketCap": 30.2,
       "sector": "Industrials",
       "earningsDate": "2026-07-30",
-      "epsGrowthYoY": 90.5,
-      "salesGrowthYoY": 15.8,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 492.3,
+      "salesGrowthYoY": 34.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "MU",
@@ -10832,8 +10847,9 @@
       "marketCap": 54.5,
       "sector": "Technology",
       "earningsDate": "2026-08-06",
-      "epsGrowthYoY": -70.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 539.6,
+      "salesGrowthYoY": 683.9,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "NE",
@@ -10883,9 +10899,9 @@
       ],
       "marketCap": 8.3,
       "sector": "Energy",
-      "epsGrowthYoY": -8.5,
-      "salesGrowthYoY": -17.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 11.9,
+      "salesGrowthYoY": -10.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "NESR",
@@ -10935,9 +10951,9 @@
       ],
       "marketCap": 2.6,
       "sector": "Energy",
-      "epsGrowthYoY": -71.4,
-      "salesGrowthYoY": 15.9,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 109.1,
+      "salesGrowthYoY": 33.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "NKTR",
@@ -10988,9 +11004,9 @@
       "marketCap": 2.3,
       "sector": "Healthcare",
       "earningsDate": "2026-08-06",
-      "epsGrowthYoY": -495.6,
-      "salesGrowthYoY": -25.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 49.7,
+      "salesGrowthYoY": 3.8,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "NN",
@@ -11199,9 +11215,9 @@
       "marketCap": 52.8,
       "sector": "Materials",
       "earningsDate": "2026-07-27",
-      "epsGrowthYoY": 34.4,
-      "salesGrowthYoY": 8.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 382.1,
+      "salesGrowthYoY": 21.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "NVMI",
@@ -11252,9 +11268,9 @@
       "marketCap": 16.0,
       "sector": "Technology",
       "earningsDate": "2026-08-13",
-      "epsGrowthYoY": 22.8,
-      "salesGrowthYoY": 14.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 0.5,
+      "salesGrowthYoY": 10.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "NVT",
@@ -11305,9 +11321,9 @@
       "marketCap": 26.6,
       "sector": "Industrials",
       "earningsDate": "2026-07-31",
-      "epsGrowthYoY": 1116.7,
-      "salesGrowthYoY": 41.8,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -59.7,
+      "salesGrowthYoY": 53.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "NVTS",
@@ -11358,9 +11374,9 @@
       "marketCap": 6.8,
       "sector": "Technology",
       "earningsDate": "2026-08-03",
-      "epsGrowthYoY": 33.3,
-      "salesGrowthYoY": -59.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -66.7,
+      "salesGrowthYoY": -38.7,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "NXPI",
@@ -11464,9 +11480,9 @@
       "marketCap": 19.9,
       "sector": "Technology",
       "earningsDate": "2026-07-30",
-      "epsGrowthYoY": 7.6,
-      "salesGrowthYoY": 33.9,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -7.6,
+      "salesGrowthYoY": -4.7,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "OGN",
@@ -11622,9 +11638,9 @@
       "marketCap": 45.2,
       "sector": "Technology",
       "earningsDate": "2026-08-03",
-      "epsGrowthYoY": -48.9,
-      "salesGrowthYoY": -11.2,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 93.0,
+      "salesGrowthYoY": 4.7,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ONDS",
@@ -11675,8 +11691,9 @@
       "marketCap": 4.5,
       "sector": "Technology",
       "earningsDate": "2026-08-12",
-      "salesGrowthYoY": 629.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 473.3,
+      "salesGrowthYoY": 1079.9,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ONTO",
@@ -11726,9 +11743,9 @@
       ],
       "marketCap": 13.0,
       "sector": "Technology",
-      "epsGrowthYoY": -78.6,
-      "salesGrowthYoY": 1.1,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -48.5,
+      "salesGrowthYoY": 9.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ORKA",
@@ -11935,9 +11952,9 @@
       "marketCap": 5.9,
       "sector": "Real Estate",
       "earningsDate": "2026-08-04",
-      "epsGrowthYoY": 24.8,
-      "salesGrowthYoY": 4.1,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 178.6,
+      "salesGrowthYoY": 10.0,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "PACS",
@@ -11988,8 +12005,9 @@
       "marketCap": 6.0,
       "sector": "Healthcare",
       "earningsDate": "2026-08-10",
-      "salesGrowthYoY": 12.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 194.1,
+      "salesGrowthYoY": 11.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "PANW",
@@ -12093,9 +12111,9 @@
       "marketCap": 2.9,
       "sector": "Energy",
       "earningsDate": "2026-08-04",
-      "epsGrowthYoY": 251.5,
-      "salesGrowthYoY": -1.0,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 293.0,
+      "salesGrowthYoY": 4.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "PBI",
@@ -12145,8 +12163,9 @@
       ],
       "marketCap": 2.1,
       "sector": "Industrials",
-      "salesGrowthYoY": -7.5,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 105.3,
+      "salesGrowthYoY": -3.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "PBR",
@@ -12197,8 +12216,9 @@
       "marketCap": 128.2,
       "sector": "Energy",
       "earningsDate": "2026-08-06",
-      "salesGrowthYoY": 13.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -7.3,
+      "salesGrowthYoY": 0.4,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "PENG",
@@ -12408,8 +12428,9 @@
       "marketCap": 5.3,
       "sector": "Industrials",
       "earningsDate": "2026-08-10",
-      "salesGrowthYoY": 17.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 14.3,
+      "salesGrowthYoY": 22.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "PLXS",
@@ -12460,9 +12481,9 @@
       "marketCap": 7.1,
       "sector": "Technology",
       "earningsDate": "2026-07-29",
-      "epsGrowthYoY": 12.7,
-      "salesGrowthYoY": 9.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 29.1,
+      "salesGrowthYoY": 18.7,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "POET",
@@ -12513,8 +12534,9 @@
       "marketCap": 2.5,
       "sector": "Technology",
       "earningsDate": "2026-08-11",
-      "salesGrowthYoY": 1075.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -200.0,
+      "salesGrowthYoY": 201.9,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "POWI",
@@ -12565,9 +12587,9 @@
       "marketCap": 3.9,
       "sector": "Technology",
       "earningsDate": "2026-08-06",
-      "epsGrowthYoY": 50.0,
-      "salesGrowthYoY": -1.9,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -60.0,
+      "salesGrowthYoY": 2.6,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "POWL",
@@ -12618,9 +12640,9 @@
       "marketCap": 10.2,
       "sector": "Industrials",
       "earningsDate": "2026-08-04",
-      "epsGrowthYoY": 18.9,
-      "salesGrowthYoY": 4.0,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -1.6,
+      "salesGrowthYoY": 6.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "PRAX",
@@ -12670,9 +12692,8 @@
       ],
       "marketCap": 9.6,
       "sector": "Healthcare",
-      "epsGrowthYoY": -19.0,
-      "salesGrowthYoY": -100.0,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 2.7,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "PRM",
@@ -12723,9 +12744,9 @@
       "marketCap": 5.1,
       "sector": "Materials",
       "earningsDate": "2026-08-06",
-      "epsGrowthYoY": -204.4,
-      "salesGrowthYoY": 19.2,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 22.2,
+      "salesGrowthYoY": 73.6,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "PTEN",
@@ -12827,9 +12848,9 @@
       ],
       "marketCap": 6.4,
       "sector": "Healthcare",
-      "epsGrowthYoY": -134.8,
-      "salesGrowthYoY": -95.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 126.3,
+      "salesGrowthYoY": 99.0,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "PUMP",
@@ -12880,8 +12901,9 @@
       "marketCap": 2.1,
       "sector": "Energy",
       "earningsDate": "2026-07-29",
-      "salesGrowthYoY": -9.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -133.3,
+      "salesGrowthYoY": -24.7,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "PWR",
@@ -12932,9 +12954,9 @@
       "marketCap": 108.6,
       "sector": "Industrials",
       "earningsDate": "2026-07-30",
-      "epsGrowthYoY": 2.5,
-      "salesGrowthYoY": 19.7,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 51.0,
+      "salesGrowthYoY": 26.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "QBTS",
@@ -13091,9 +13113,9 @@
       "marketCap": 2.9,
       "sector": "Healthcare",
       "earningsDate": "2026-08-05",
-      "epsGrowthYoY": 13.6,
-      "salesGrowthYoY": 26.9,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 10.5,
+      "salesGrowthYoY": -39.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "RDW",
@@ -13249,8 +13271,9 @@
       "marketCap": 7.6,
       "sector": "Energy",
       "earningsDate": "2026-08-03",
-      "salesGrowthYoY": 9.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 154.5,
+      "salesGrowthYoY": 19.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "RIOT",
@@ -13353,9 +13376,9 @@
       "marketCap": 78.6,
       "sector": "Industrials",
       "earningsDate": "2026-08-06",
-      "epsGrowthYoY": 10.0,
-      "salesGrowthYoY": 35.7,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 41.7,
+      "salesGrowthYoY": 63.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "RLAY",
@@ -13405,8 +13428,9 @@
       ],
       "marketCap": 2.9,
       "sector": "Healthcare",
-      "epsGrowthYoY": 28.9,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 10.9,
+      "salesGrowthYoY": -60.9,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "RMBS",
@@ -13457,9 +13481,9 @@
       "marketCap": 15.5,
       "sector": "Technology",
       "earningsDate": "2026-07-27",
-      "epsGrowthYoY": 0.0,
-      "salesGrowthYoY": 18.1,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -1.8,
+      "salesGrowthYoY": 8.1,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ROIV",
@@ -13510,9 +13534,9 @@
       "marketCap": 21.5,
       "sector": "Healthcare",
       "earningsDate": "2026-08-10",
-      "epsGrowthYoY": -265.9,
-      "salesGrowthYoY": -77.8,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 196.6,
+      "salesGrowthYoY": -66.7,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ROKU",
@@ -13614,9 +13638,9 @@
       ],
       "marketCap": 6.3,
       "sector": "Consumer Discretionary",
-      "epsGrowthYoY": 150.0,
-      "salesGrowthYoY": 27.8,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 60.0,
+      "salesGrowthYoY": 41.1,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "RVMD",
@@ -13667,8 +13691,8 @@
       "marketCap": 32.2,
       "sector": "Healthcare",
       "earningsDate": "2026-08-05",
-      "epsGrowthYoY": -66.1,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -102.7,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "RXO",
@@ -13772,9 +13796,9 @@
       "marketCap": 13.2,
       "sector": "Technology",
       "earningsDate": "2026-07-27",
-      "epsGrowthYoY": -23.3,
-      "salesGrowthYoY": 59.0,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 46.6,
+      "salesGrowthYoY": 102.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "SATS",
@@ -13825,8 +13849,9 @@
       "marketCap": 36.0,
       "sector": "Communication Services",
       "earningsDate": "2026-07-30",
-      "salesGrowthYoY": -4.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 28.2,
+      "salesGrowthYoY": -5.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "SCCO",
@@ -13877,9 +13902,9 @@
       "marketCap": 149.9,
       "sector": "Materials",
       "earningsDate": "2026-07-27",
-      "epsGrowthYoY": 60.1,
-      "salesGrowthYoY": 39.0,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 67.4,
+      "salesGrowthYoY": 36.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "SDRL",
@@ -13930,9 +13955,9 @@
       "marketCap": 3.2,
       "sector": "Energy",
       "earningsDate": "2026-08-05",
-      "epsGrowthYoY": -110.4,
-      "salesGrowthYoY": 25.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 52.2,
+      "salesGrowthYoY": 6.9,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "SEDG",
@@ -13983,9 +14008,9 @@
       "marketCap": 3.8,
       "sector": "Technology",
       "earningsDate": "2026-08-05",
-      "epsGrowthYoY": 55.8,
-      "salesGrowthYoY": 96.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 44.1,
+      "salesGrowthYoY": 41.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "SEI",
@@ -14036,9 +14061,9 @@
       "marketCap": 6.9,
       "sector": "Energy",
       "earningsDate": "2026-07-23",
-      "epsGrowthYoY": -121.1,
-      "salesGrowthYoY": 86.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 128.6,
+      "salesGrowthYoY": 55.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "SEZL",
@@ -14140,8 +14165,9 @@
       ],
       "marketCap": 9.4,
       "sector": "Technology",
-      "epsGrowthYoY": 107.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 251.4,
+      "salesGrowthYoY": 105.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "SITM",
@@ -14192,8 +14218,9 @@
       "marketCap": 19.2,
       "sector": "Technology",
       "earningsDate": "2026-08-05",
-      "salesGrowthYoY": 66.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 80.2,
+      "salesGrowthYoY": 88.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "SKM",
@@ -14244,9 +14271,8 @@
       "marketCap": 14.5,
       "sector": "Communication Services",
       "earningsDate": "2026-08-05",
-      "epsGrowthYoY": -162.0,
-      "salesGrowthYoY": -12.2,
-      "lastReportDate": "2025-09-30"
+      "salesGrowthYoY": -4.1,
+      "lastReportDate": "2025-12-31"
     },
     {
       "ticker": "SM",
@@ -14403,9 +14429,9 @@
       "marketCap": 219.0,
       "sector": "Technology",
       "earningsDate": "2026-08-24",
-      "epsGrowthYoY": 615.3,
-      "salesGrowthYoY": 61.2,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 272.8,
+      "salesGrowthYoY": 251.0,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "SNEX",
@@ -14456,9 +14482,9 @@
       "marketCap": 8.9,
       "sector": "Financials",
       "earningsDate": "2026-08-04",
-      "epsGrowthYoY": 47.9,
-      "salesGrowthYoY": 39.7,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 120.2,
+      "salesGrowthYoY": 24.0,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "SNX",
@@ -14613,8 +14639,9 @@
       "marketCap": 4.6,
       "sector": "Communication Services",
       "earningsDate": "2026-08-06",
-      "epsGrowthYoY": 135.2,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 98.2,
+      "salesGrowthYoY": 37.7,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "SQM",
@@ -14766,8 +14793,9 @@
       "marketCap": 6.2,
       "sector": "Materials",
       "earningsDate": "2026-08-04",
-      "salesGrowthYoY": 61.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -285.7,
+      "salesGrowthYoY": 83.7,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "ST",
@@ -14870,6 +14898,7 @@
       "marketCap": 34.6,
       "sector": "Materials",
       "epsGrowthYoY": 93.1,
+      "salesGrowthYoY": 19.1,
       "lastReportDate": "2026-03-31"
     },
     {
@@ -14974,9 +15003,9 @@
       "marketCap": 22.5,
       "sector": "Industrials",
       "earningsDate": "2026-08-03",
-      "epsGrowthYoY": -22.8,
-      "salesGrowthYoY": 51.5,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 141.4,
+      "salesGrowthYoY": 91.6,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "STX",
@@ -15027,9 +15056,9 @@
       "marketCap": 182.2,
       "sector": "Technology",
       "earningsDate": "2026-07-28",
-      "epsGrowthYoY": 67.7,
-      "salesGrowthYoY": 21.5,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 108.3,
+      "salesGrowthYoY": 44.1,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "SU",
@@ -15080,9 +15109,9 @@
       "marketCap": 79.5,
       "sector": "Energy",
       "earningsDate": "2026-08-04",
-      "epsGrowthYoY": 89.2,
-      "salesGrowthYoY": -6.8,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 30.1,
+      "salesGrowthYoY": 15.7,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "SVM",
@@ -15239,8 +15268,8 @@
       "marketCap": 6.4,
       "sector": "Healthcare",
       "earningsDate": "2026-08-04",
-      "epsGrowthYoY": 13.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -23.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "TALO",
@@ -15291,9 +15320,9 @@
       "marketCap": 2.7,
       "sector": "Energy",
       "earningsDate": "2026-08-05",
-      "epsGrowthYoY": -230.6,
-      "salesGrowthYoY": -19.2,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -2940.0,
+      "salesGrowthYoY": -7.9,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "TE",
@@ -15448,9 +15477,9 @@
       ],
       "marketCap": 56.1,
       "sector": "Technology",
-      "epsGrowthYoY": 81.1,
-      "salesGrowthYoY": 43.9,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 314.8,
+      "salesGrowthYoY": 87.0,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "TFII",
@@ -15500,8 +15529,9 @@
       ],
       "marketCap": 12.2,
       "sector": "Industrials",
-      "salesGrowthYoY": -7.8,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -19.7,
+      "salesGrowthYoY": -0.8,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "TGB",
@@ -15552,8 +15582,9 @@
       "marketCap": 2.4,
       "sector": "Materials",
       "earningsDate": "2026-08-05",
-      "salesGrowthYoY": 45.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 155.6,
+      "salesGrowthYoY": 70.4,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "THR",
@@ -15657,9 +15688,9 @@
       "marketCap": 14.4,
       "sector": "Communication Services",
       "earningsDate": "2026-08-06",
-      "epsGrowthYoY": 733.3,
-      "salesGrowthYoY": 15.7,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -43.0,
+      "salesGrowthYoY": 45.1,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "TNGX",
@@ -15710,9 +15741,9 @@
       "marketCap": 2.9,
       "sector": "Healthcare",
       "earningsDate": "2026-08-05",
-      "epsGrowthYoY": 17.1,
+      "epsGrowthYoY": 11.1,
       "salesGrowthYoY": -100.0,
-      "lastReportDate": "2025-12-31"
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "TRGP",
@@ -15815,8 +15846,9 @@
       ],
       "marketCap": 3.2,
       "sector": "Energy",
-      "salesGrowthYoY": 15.5,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 90.3,
+      "salesGrowthYoY": 22.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "TRVI",
@@ -15866,8 +15898,8 @@
       ],
       "marketCap": 2.0,
       "sector": "Healthcare",
-      "epsGrowthYoY": 45.5,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 0.0,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "TS",
@@ -15918,9 +15950,9 @@
       "marketCap": 31.1,
       "sector": "Energy",
       "earningsDate": "2026-08-05",
-      "epsGrowthYoY": -5.6,
-      "salesGrowthYoY": 5.3,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 14.9,
+      "salesGrowthYoY": 6.1,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "TSEM",
@@ -15971,9 +16003,9 @@
       "marketCap": 33.7,
       "sector": "Technology",
       "earningsDate": "2026-08-03",
-      "epsGrowthYoY": 42.9,
-      "salesGrowthYoY": 13.7,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 62.9,
+      "salesGrowthYoY": 15.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "TSM",
@@ -16025,6 +16057,7 @@
       "sector": "Technology",
       "earningsDate": "2026-07-16",
       "epsGrowthYoY": 58.4,
+      "salesGrowthYoY": 35.1,
       "lastReportDate": "2026-03-31"
     },
     {
@@ -16076,9 +16109,9 @@
       "marketCap": 19.7,
       "sector": "Technology",
       "earningsDate": "2026-07-29",
-      "epsGrowthYoY": 860.0,
-      "salesGrowthYoY": 18.9,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 51.6,
+      "salesGrowthYoY": 30.4,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "TVTX",
@@ -16128,9 +16161,9 @@
       ],
       "marketCap": 4.1,
       "sector": "Healthcare",
-      "epsGrowthYoY": 104.1,
-      "salesGrowthYoY": 73.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 14.9,
+      "salesGrowthYoY": 55.6,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "TWLO",
@@ -16233,9 +16266,9 @@
       "marketCap": 3.8,
       "sector": "Healthcare",
       "earningsDate": "2026-08-03",
-      "epsGrowthYoY": 5.7,
-      "salesGrowthYoY": 16.9,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -7.6,
+      "salesGrowthYoY": 19.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "TXG",
@@ -16286,9 +16319,9 @@
       "marketCap": 3.0,
       "sector": "Healthcare",
       "earningsDate": "2026-08-06",
-      "epsGrowthYoY": 67.5,
-      "salesGrowthYoY": 0.6,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 64.3,
+      "salesGrowthYoY": -2.6,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "TXN",
@@ -16340,6 +16373,7 @@
       "sector": "Technology",
       "earningsDate": "2026-07-28",
       "epsGrowthYoY": 31.2,
+      "salesGrowthYoY": 18.6,
       "lastReportDate": "2026-03-31"
     },
     {
@@ -16391,9 +16425,9 @@
       "marketCap": 3.8,
       "sector": "Technology",
       "earningsDate": "2026-07-27",
-      "epsGrowthYoY": -119.4,
-      "salesGrowthYoY": -10.0,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -263.6,
+      "salesGrowthYoY": 2.9,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "UMC",
@@ -16444,8 +16478,9 @@
       "marketCap": 45.7,
       "sector": "Technology",
       "earningsDate": "2026-07-29",
-      "salesGrowthYoY": 2.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 108.1,
+      "salesGrowthYoY": 5.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "UNFI",
@@ -16549,9 +16584,9 @@
       "marketCap": 2.7,
       "sector": "Real Estate",
       "earningsDate": "2026-07-30",
-      "epsGrowthYoY": -1422.2,
-      "salesGrowthYoY": 212.7,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -525.0,
+      "salesGrowthYoY": 236.0,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "USAR",
@@ -16654,8 +16689,9 @@
       "marketCap": 4.5,
       "sector": "Energy",
       "earningsDate": "2026-08-06",
-      "salesGrowthYoY": -32.1,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 69.2,
+      "salesGrowthYoY": 112.1,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "VAL",
@@ -16706,9 +16742,9 @@
       "marketCap": 7.0,
       "sector": "Energy",
       "earningsDate": "2026-07-29",
-      "epsGrowthYoY": 445.7,
-      "salesGrowthYoY": -8.0,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 54.7,
+      "salesGrowthYoY": -25.0,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "VECO",
@@ -16759,9 +16795,9 @@
       "marketCap": 3.6,
       "sector": "Technology",
       "earningsDate": "2026-08-05",
-      "epsGrowthYoY": -92.3,
-      "salesGrowthYoY": -9.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -105.0,
+      "salesGrowthYoY": -5.4,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "VIAV",
@@ -16811,9 +16847,9 @@
       ],
       "marketCap": 12.2,
       "sector": "Technology",
-      "epsGrowthYoY": -625.0,
-      "salesGrowthYoY": 36.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -66.7,
+      "salesGrowthYoY": 42.8,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "VICR",
@@ -16864,9 +16900,9 @@
       "marketCap": 12.2,
       "sector": "Technology",
       "earningsDate": "2026-07-21",
-      "epsGrowthYoY": 339.1,
-      "salesGrowthYoY": 11.5,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 633.3,
+      "salesGrowthYoY": 20.2,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "VISN",
@@ -16916,9 +16952,9 @@
       ],
       "marketCap": 2.8,
       "sector": "Technology",
-      "epsGrowthYoY": 12200.0,
-      "salesGrowthYoY": -288.0,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 703.8,
+      "salesGrowthYoY": 21.6,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "VIST",
@@ -16969,8 +17005,9 @@
       "marketCap": 8.4,
       "sector": "Energy",
       "earningsDate": "2026-07-15",
-      "epsGrowthYoY": -13.8,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 19.0,
+      "salesGrowthYoY": 97.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "VLO",
@@ -17021,9 +17058,9 @@
       "marketCap": 73.3,
       "sector": "Energy",
       "earningsDate": "2026-07-23",
-      "epsGrowthYoY": 323.9,
-      "salesGrowthYoY": -1.2,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 322.1,
+      "salesGrowthYoY": 7.0,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "VRT",
@@ -17233,9 +17270,9 @@
       "marketCap": 6.4,
       "sector": "Technology",
       "earningsDate": "2026-08-05",
-      "epsGrowthYoY": 102.0,
-      "salesGrowthYoY": 12.1,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 266.7,
+      "salesGrowthYoY": 17.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "VTRS",
@@ -17339,8 +17376,9 @@
       "marketCap": 67.8,
       "sector": "Communication Services",
       "earningsDate": "2026-08-06",
-      "salesGrowthYoY": -5.7,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -550.0,
+      "salesGrowthYoY": -1.0,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "WCC",
@@ -17444,9 +17482,9 @@
       "marketCap": 166.9,
       "sector": "Technology",
       "earningsDate": "2026-07-29",
-      "epsGrowthYoY": 190.2,
-      "salesGrowthYoY": 25.2,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 477.5,
+      "salesGrowthYoY": 45.5,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "WFRD",
@@ -17603,9 +17641,9 @@
       "marketCap": 2.7,
       "sector": "Energy",
       "earningsDate": "2026-08-04",
-      "epsGrowthYoY": 100.0,
-      "salesGrowthYoY": -0.7,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 0.0,
+      "salesGrowthYoY": -2.3,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "WULF",
@@ -17656,8 +17694,9 @@
       "marketCap": 11.3,
       "sector": "Financials",
       "earningsDate": "2026-08-06",
-      "salesGrowthYoY": 2.4,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": -531.2,
+      "salesGrowthYoY": -1.1,
+      "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "XMTR",
@@ -17761,9 +17800,9 @@
       "marketCap": 8.0,
       "sector": "Technology",
       "earningsDate": "2026-08-05",
-      "epsGrowthYoY": -71.0,
-      "salesGrowthYoY": 16.7,
-      "lastReportDate": "2025-12-31"
+      "epsGrowthYoY": 50.0,
+      "salesGrowthYoY": 19.7,
+      "lastReportDate": "2026-03-31"
     }
   ]
 }
