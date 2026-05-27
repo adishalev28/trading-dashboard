@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-05-27 11:23:47",
+    "generatedAt": "2026-05-27 12:47:25",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
     "totalScanned": 1161,
@@ -8,7 +8,7 @@
     "finalCount": 338,
     "note": "Screened 1161 stocks. 338 passed Stage 2 / Warning filters."
   },
-  "fxRate": 2.8385,
+  "fxRate": 2.8317,
   "commissionRoundTripUsd": 14,
   "benchmark": {
     "symbol": "SPY",
