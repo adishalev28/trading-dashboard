@@ -42,49 +42,79 @@ export default function AuthProvider({ children }) {
     return () => clearTimeout(timer);
   }, []);
 
-  // Check if user is in allowed_users and active
-  const checkAllowedUser = useCallback(async (sessionUser) => {
-    if (!supabase || !sessionUser) {
+  // Check if user is in allowed_users and active.
+  //
+  // We deliberately bypass supabase-js for this query and use native fetch +
+  // AbortController. Reason: under certain conditions (rapid sign-in events,
+  // tab focus changes, parallel auth state subscribers) supabase-js can get
+  // into a state where `.from(...).select()` returns a promise that never
+  // resolves or rejects — the network request is never even dispatched. We
+  // observed this directly: the auth POST succeeded (200) but the follow-up
+  // GET to /rest/v1/allowed_users never appeared in the network log, and the
+  // promise hung until our timeout fired. Native fetch behaves predictably.
+  const checkAllowedUser = useCallback(async (sessionUser, accessToken) => {
+    if (!sessionUser?.email) {
       setAllowedUser(null);
       return null;
     }
+    const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const SUPABASE_ANON_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+    if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
+      console.error("[Auth] Missing Supabase env vars");
+      setAllowedUser(null);
+      return null;
+    }
+
     const myKey = ++verifyKeyRef.current;
     const isCurrent = () => verifyKeyRef.current === myKey;
 
     setVerifying(true);
-    // Safety net: 15 seconds is enough for even the slowest Supabase free-tier
-    // cold start. If the query is still hanging after that, the session is
-    // probably broken — clear everything and force a fresh sign-in.
-    // BUT: only fire if we're still the latest call. A newer checkAllowedUser
-    // supersedes us and is responsible for its own outcome.
-    const verifyTimeout = setTimeout(() => {
-      if (!isCurrent()) return;
-      console.warn("[Auth] checkAllowedUser timed out — clearing session");
+
+    // If the caller didn't pass a token, try to grab one from the current
+    // session. getSession reads from localStorage — no network — so it's safe.
+    let token = accessToken;
+    if (!token && supabase) {
       try {
-        Object.keys(localStorage)
-          .filter((k) => k.startsWith("sb-"))
-          .forEach((k) => localStorage.removeItem(k));
+        const { data: { session } } = await supabase.auth.getSession();
+        token = session?.access_token;
       } catch {}
-      setUser(null);
-      setAllowedUser(null);
-      setAccessDeniedReason(null);
-      setVerifying(false);
-    }, 15000);
+    }
+    if (!isCurrent()) return null;
+
+    // Hard 10s timeout via AbortController. If supabase-js or the network is
+    // genuinely broken, we abort fast and let the UI recover, rather than
+    // dragging users through a 15s spinner.
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 10000);
+
     try {
-      const { data, error } = await supabase
-        .from("allowed_users")
-        .select("*")
-        .eq("email", sessionUser.email)
-        .maybeSingle();
+      const url =
+        `${SUPABASE_URL}/rest/v1/allowed_users` +
+        `?select=*&email=eq.${encodeURIComponent(sessionUser.email)}`;
+      const res = await fetch(url, {
+        headers: {
+          apikey: SUPABASE_ANON_KEY,
+          Authorization: token ? `Bearer ${token}` : `Bearer ${SUPABASE_ANON_KEY}`,
+          Accept: "application/json",
+        },
+        signal: controller.signal,
+        cache: "no-store",
+      });
+      clearTimeout(timeoutId);
 
-      if (!isCurrent()) return null; // a newer call superseded us — ignore our result
+      if (!isCurrent()) return null;
 
-      if (error) {
-        console.error("[Auth] Error checking allowed_users:", error);
+      if (!res.ok) {
+        console.error("[Auth] allowed_users HTTP", res.status);
         setAllowedUser(null);
         setAccessDeniedReason("Database error");
         return null;
       }
+
+      const rows = await res.json();
+      if (!isCurrent()) return null;
+
+      const data = Array.isArray(rows) && rows.length > 0 ? rows[0] : null;
 
       if (!data) {
         setAllowedUser(null);
@@ -108,14 +138,18 @@ export default function AuthProvider({ children }) {
       setAccessDeniedReason(null);
       return data;
     } catch (e) {
-      console.error("[Auth] Exception checking allowed_users:", e);
-      if (isCurrent()) {
-        setAllowedUser(null);
+      clearTimeout(timeoutId);
+      if (!isCurrent()) return null;
+      if (e?.name === "AbortError") {
+        console.warn("[Auth] allowed_users fetch aborted after 10s");
+        setAccessDeniedReason("timeout");
+      } else {
+        console.error("[Auth] allowed_users fetch error:", e);
         setAccessDeniedReason("error");
       }
+      setAllowedUser(null);
       return null;
     } finally {
-      clearTimeout(verifyTimeout);
       if (isCurrent()) setVerifying(false);
     }
   }, []);
@@ -146,7 +180,9 @@ export default function AuthProvider({ children }) {
         const u = session?.user ?? null;
         setUser(u);
         if (u) {
-          await checkAllowedUser(u);
+          // Pass the access token directly so checkAllowedUser doesn't have
+          // to round-trip back through supabase-js to find it.
+          await checkAllowedUser(u, session?.access_token);
         }
       } catch (e) {
         console.error("[Auth] init error:", e);
@@ -162,7 +198,7 @@ export default function AuthProvider({ children }) {
         const u = session?.user ?? null;
         setUser(u);
         if (u) {
-          await checkAllowedUser(u);
+          await checkAllowedUser(u, session?.access_token);
         } else {
           setAllowedUser(null);
           setAccessDeniedReason(null);
