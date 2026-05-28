@@ -42,12 +42,12 @@ export default function AuthProvider({ children }) {
       return null;
     }
     setVerifying(true);
-    // Safety net: if the query takes > 6s, give up so verifying clears.
+    // Safety net: if the query takes > 3s, give up so verifying clears.
     // Otherwise a hung supabase request leaves the UI on "Loading..." forever.
     const verifyTimeout = setTimeout(() => {
       console.warn("[Auth] checkAllowedUser timed out — clearing verifying");
       setVerifying(false);
-    }, 6000);
+    }, 3000);
     try {
       const { data, error } = await supabase
         .from("allowed_users")
@@ -100,12 +100,12 @@ export default function AuthProvider({ children }) {
       return;
     }
 
-    // Hard timeout guard — if the whole init takes >8s we give up so the UI
+    // Hard timeout guard — if the whole init takes >3s we give up so the UI
     // never stays on "Loading..." forever (PWA cache, network blip, etc.)
     const loadingTimeout = setTimeout(() => {
       console.warn("[Auth] init timed out — forcing loading=false");
       setLoading(false);
-    }, 8000);
+    }, 3000);
 
     const init = async () => {
       try {
