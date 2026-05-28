@@ -20,8 +20,13 @@ export default function AuthGate({ children }) {
   // Show different messages depending on how long we've been waiting, so the
   // user knows we're actively working on cold-start cases (Supabase free tier
   // can take 5-15s on the first request after inactivity).
+  //
+  // Only block the UI on verifying when we don't yet have a known-good
+  // allowed user. supabase-js re-fires SIGNED_IN / TOKEN_REFRESHED on tab
+  // focus, screen wake, etc., which retriggers checkAllowedUser. If the user
+  // is already verified, that's a background refresh — keep showing the app.
   const [waitedSeconds, setWaitedSeconds] = useState(0);
-  const isWaiting = loading || verifying;
+  const isWaiting = loading || (verifying && !isAllowed);
   useEffect(() => {
     if (!isWaiting) {
       setWaitedSeconds(0);
