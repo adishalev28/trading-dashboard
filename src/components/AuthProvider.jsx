@@ -42,10 +42,20 @@ export default function AuthProvider({ children }) {
       return null;
     }
     setVerifying(true);
-    // Safety net: if the query takes > 3s, give up so verifying clears.
-    // Otherwise a hung supabase request leaves the UI on "Loading..." forever.
+    // Safety net: if the query takes > 3s the session is probably stale or the
+    // Supabase server is taking a cold start. Clear everything and force a fresh
+    // sign-in instead of leaving the user on the confusing "Something went wrong"
+    // screen.
     const verifyTimeout = setTimeout(() => {
-      console.warn("[Auth] checkAllowedUser timed out — clearing verifying");
+      console.warn("[Auth] checkAllowedUser timed out — clearing session");
+      try {
+        Object.keys(localStorage)
+          .filter((k) => k.startsWith("sb-"))
+          .forEach((k) => localStorage.removeItem(k));
+      } catch {}
+      setUser(null);
+      setAllowedUser(null);
+      setAccessDeniedReason(null);
       setVerifying(false);
     }, 3000);
     try {
@@ -100,10 +110,21 @@ export default function AuthProvider({ children }) {
       return;
     }
 
-    // Hard timeout guard — if the whole init takes >3s we give up so the UI
-    // never stays on "Loading..." forever (PWA cache, network blip, etc.)
+    // If init hangs (Supabase cold start, stale token refresh, PWA cache, etc.)
+    // we forcibly clear the stored session and drop the user back to the Sign In
+    // screen rather than leaving them stuck on Loading or showing the misleading
+    // "Something went wrong" screen.
     const loadingTimeout = setTimeout(() => {
-      console.warn("[Auth] init timed out — forcing loading=false");
+      console.warn("[Auth] init timed out — clearing stale session");
+      try {
+        Object.keys(localStorage)
+          .filter((k) => k.startsWith("sb-"))
+          .forEach((k) => localStorage.removeItem(k));
+      } catch {}
+      setUser(null);
+      setAllowedUser(null);
+      setAccessDeniedReason(null);
+      setVerifying(false);
       setLoading(false);
     }, 3000);
 
