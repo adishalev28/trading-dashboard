@@ -89,13 +89,18 @@ export default function AuthProvider({ children }) {
     }
 
     const init = async () => {
-      const { data: { session } } = await supabase.auth.getSession();
-      const u = session?.user ?? null;
-      setUser(u);
-      if (u) {
-        await checkAllowedUser(u);
+      try {
+        const { data: { session } } = await supabase.auth.getSession();
+        const u = session?.user ?? null;
+        setUser(u);
+        if (u) {
+          await checkAllowedUser(u);
+        }
+      } catch (e) {
+        console.error("[Auth] init error:", e);
+      } finally {
+        setLoading(false);
       }
-      setLoading(false);
     };
     init();
 
