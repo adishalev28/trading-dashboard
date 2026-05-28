@@ -158,6 +158,7 @@ export default function PotentialBreakouts({ candidates }) {
         companyName={chartTicker?.companyName ?? null}
         price={chartTicker?.price ?? null}
         pivotPrice={chartTicker?.pivotPrice ?? null}
+        priceHistory={chartTicker?.priceHistory30d ?? null}
         onClose={() => setChartTicker(null)}
       />
     </div>

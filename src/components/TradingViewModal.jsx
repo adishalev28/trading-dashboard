@@ -32,6 +32,7 @@ export default function TradingViewModal({
   companyName,
   price,
   pivotPrice,
+  priceHistory,
   onClose,
 }) {
   const [mounted, setMounted] = useState(false);
@@ -185,7 +186,7 @@ export default function TradingViewModal({
           />
           {showGann && price && (
             <div className="w-72 sm:w-80 max-w-[80vw] shrink-0 overflow-hidden">
-              <GannPanel price={price} ticker={ticker} />
+              <GannPanel price={price} ticker={ticker} priceHistory={priceHistory} />
             </div>
           )}
         </div>

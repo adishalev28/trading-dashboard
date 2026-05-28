@@ -206,6 +206,7 @@ export default function TodaysTopPicks({ tickers, sectors }) {
             companyName={td?.companyName}
             price={td?.price}
             pivotPrice={td?.pivotPrice}
+            priceHistory={td?.priceHistory30d}
             onClose={() => setOpenTicker(null)}
           />
         );

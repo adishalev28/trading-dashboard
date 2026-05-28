@@ -287,6 +287,7 @@ export default function Stage2Table({ tickers, limit }) {
         companyName={chartTicker?.companyName ?? null}
         price={chartTicker?.price ?? null}
         pivotPrice={chartTicker?.pivotPrice ?? null}
+        priceHistory={chartTicker?.priceHistory30d ?? null}
         onClose={() => setChartTicker(null)}
       />
     </div>

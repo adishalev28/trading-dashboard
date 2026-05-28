@@ -1,6 +1,12 @@
 /**
  * Position Health — at-a-glance verdict for an open trade.
  *
+ * Note on Gann: the chart-overlay panel uses the Gann Box (range-based) for
+ * setup analysis. This module deliberately uses Square of 9 instead because
+ * it anchors on a single price (the trade's entry) and yields a clean
+ * "nearest geometric support" line below entry — exactly what's needed for
+ * an exit decision. Both tools live in src/lib/gann_math.js.
+ *
  * Combines three lenses:
  *   1. Trend     — where is price relative to SMA 20 / SMA 50 and Stage 2 status
  *   2. Strength  — Relative Strength rank (RS Score)
