@@ -60,9 +60,7 @@ export default function PortfolioPage() {
     simPositions, addSimulation, removeSimulation, updateSimulation, clearSimulations,
     isCloud,
   } = usePortfolio();
-  const { user, loading: authLoading, signIn, magicLinkSent } = useAuth();
-  const [loginEmail, setLoginEmail] = useState("");
-  const [loginSending, setLoginSending] = useState(false);
+  const { user } = useAuth();
   const { tickers } = mockData;
   const [tab, setTab] = useState("real"); // "real" | "sim"
 
@@ -106,44 +104,6 @@ export default function PortfolioPage() {
         )
       }
     >
-      {/* Cloud sync banner */}
-      {!authLoading && !user && (
-        magicLinkSent ? (
-          <div className="w-full mb-4 p-3 bg-slate-800 border border-emerald-700 rounded-lg flex items-center gap-3">
-            <Check className="w-5 h-5 text-emerald-400 shrink-0" />
-            <div className="text-left">
-              <div className="text-sm font-semibold text-emerald-300">Magic link sent!</div>
-              <div className="text-xs text-slate-400">Check your email and click the link to sign in</div>
-            </div>
-          </div>
-        ) : (
-          <form
-            onSubmit={async (e) => { e.preventDefault(); setLoginSending(true); await signIn(loginEmail); setLoginSending(false); }}
-            className="w-full mb-4 p-3 bg-slate-800 border border-slate-700 rounded-lg space-y-2"
-          >
-            <div className="flex items-center gap-2">
-              <Mail className="w-4 h-4 text-slate-400 shrink-0" />
-              <div className="text-sm font-semibold text-slate-200">Sign in for cloud sync</div>
-            </div>
-            <div className="flex gap-2">
-              <input
-                type="email"
-                placeholder="your@email.com"
-                value={loginEmail}
-                onChange={(e) => setLoginEmail(e.target.value)}
-                className="flex-1 px-3 py-1.5 text-sm bg-slate-900 border border-slate-600 rounded-lg text-slate-200 placeholder-slate-500 focus:border-emerald-500 focus:outline-none"
-              />
-              <button
-                type="submit"
-                disabled={loginSending || !loginEmail}
-                className="px-3 py-1.5 text-sm bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg font-medium disabled:opacity-50 transition-colors"
-              >
-                {loginSending ? "..." : "Send"}
-              </button>
-            </div>
-          </form>
-        )
-      )}
       {isCloud && (
         <div className="mb-4 flex items-center gap-2 text-xs text-emerald-400">
           <Cloud className="w-3 h-3" />

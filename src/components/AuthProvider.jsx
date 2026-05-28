@@ -1,10 +1,20 @@
 "use client";
 
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useContext, useEffect, useState, useCallback } from "react";
 import { supabase } from "@/lib/supabase";
 import SplashScreen from "@/components/SplashScreen";
 
-const AuthContext = createContext({ user: null, loading: true, signIn: () => {}, signOut: () => {}, magicLinkSent: false });
+const AuthContext = createContext({
+  user: null,
+  allowedUser: null,
+  loading: true,
+  isAllowed: false,
+  isAdmin: false,
+  signIn: () => {},
+  signOut: () => {},
+  signInError: null,
+  accessDeniedReason: null,
+});
 
 export function useAuth() {
   return useContext(AuthContext);
@@ -12,8 +22,10 @@ export function useAuth() {
 
 export default function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
+  const [allowedUser, setAllowedUser] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [magicLinkSent, setMagicLinkSent] = useState(false);
+  const [signInError, setSignInError] = useState(null);
+  const [accessDeniedReason, setAccessDeniedReason] = useState(null);
   const [showSplash, setShowSplash] = useState(true);
 
   useEffect(() => {
@@ -21,39 +33,127 @@ export default function AuthProvider({ children }) {
     return () => clearTimeout(timer);
   }, []);
 
-  useEffect(() => {
-    if (!supabase) { setLoading(false); return; }
+  // Check if user is in allowed_users and active
+  const checkAllowedUser = useCallback(async (sessionUser) => {
+    if (!supabase || !sessionUser) {
+      setAllowedUser(null);
+      return null;
+    }
+    try {
+      const { data, error } = await supabase
+        .from("allowed_users")
+        .select("*")
+        .eq("email", sessionUser.email)
+        .maybeSingle();
 
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      setUser(session?.user ?? null);
-      setLoading(false);
-    });
+      if (error) {
+        console.error("[Auth] Error checking allowed_users:", error);
+        setAllowedUser(null);
+        setAccessDeniedReason("Database error");
+        return null;
+      }
 
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
-      setUser(session?.user ?? null);
-    });
+      if (!data) {
+        setAllowedUser(null);
+        setAccessDeniedReason("not_whitelisted");
+        return null;
+      }
 
-    return () => subscription.unsubscribe();
+      if (!data.active) {
+        setAllowedUser(data);
+        setAccessDeniedReason("disabled");
+        return data;
+      }
+
+      if (data.expires_at && new Date(data.expires_at) < new Date()) {
+        setAllowedUser(data);
+        setAccessDeniedReason("expired");
+        return data;
+      }
+
+      setAllowedUser(data);
+      setAccessDeniedReason(null);
+      return data;
+    } catch (e) {
+      console.error("[Auth] Exception checking allowed_users:", e);
+      setAllowedUser(null);
+      setAccessDeniedReason("error");
+      return null;
+    }
   }, []);
 
-  const signIn = async (email) => {
-    if (!supabase || !email) return { error: "Missing email" };
-    const { error } = await supabase.auth.signInWithOtp({
-      email,
-      options: { emailRedirectTo: window.location.origin + "/portfolio" },
-    });
-    if (!error) setMagicLinkSent(true);
-    return { error };
+  useEffect(() => {
+    if (!supabase) {
+      setLoading(false);
+      return;
+    }
+
+    const init = async () => {
+      const { data: { session } } = await supabase.auth.getSession();
+      const u = session?.user ?? null;
+      setUser(u);
+      if (u) {
+        await checkAllowedUser(u);
+      }
+      setLoading(false);
+    };
+    init();
+
+    const { data: { subscription } } = supabase.auth.onAuthStateChange(
+      async (_event, session) => {
+        const u = session?.user ?? null;
+        setUser(u);
+        if (u) {
+          await checkAllowedUser(u);
+        } else {
+          setAllowedUser(null);
+          setAccessDeniedReason(null);
+        }
+      }
+    );
+
+    return () => subscription.unsubscribe();
+  }, [checkAllowedUser]);
+
+  const signIn = async (email, password) => {
+    setSignInError(null);
+    if (!supabase || !email || !password) {
+      const error = "Missing email or password";
+      setSignInError(error);
+      return { error };
+    }
+    const { error } = await supabase.auth.signInWithPassword({ email, password });
+    if (error) {
+      setSignInError(error.message);
+      return { error: error.message };
+    }
+    return { error: null };
   };
 
   const signOut = async () => {
     if (!supabase) return;
     await supabase.auth.signOut();
-    setMagicLinkSent(false);
+    setAllowedUser(null);
+    setAccessDeniedReason(null);
+    setSignInError(null);
   };
 
+  const isAllowed = !!(allowedUser && allowedUser.active &&
+    (!allowedUser.expires_at || new Date(allowedUser.expires_at) > new Date()));
+  const isAdmin = !!(allowedUser && allowedUser.is_admin && isAllowed);
+
   return (
-    <AuthContext.Provider value={{ user, loading, signIn, signOut, magicLinkSent }}>
+    <AuthContext.Provider value={{
+      user,
+      allowedUser,
+      loading,
+      isAllowed,
+      isAdmin,
+      signIn,
+      signOut,
+      signInError,
+      accessDeniedReason,
+    }}>
       {showSplash && <SplashScreen />}
       {children}
     </AuthContext.Provider>
