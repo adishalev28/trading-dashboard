@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext, useEffect, useState, useCallback } from "react";
+import { createContext, useContext, useEffect, useRef, useState, useCallback } from "react";
 import { supabase } from "@/lib/supabase";
 import SplashScreen from "@/components/SplashScreen";
 
@@ -30,6 +30,13 @@ export default function AuthProvider({ children }) {
   const [accessDeniedReason, setAccessDeniedReason] = useState(null);
   const [showSplash, setShowSplash] = useState(true);
 
+  // Each checkAllowedUser invocation gets a unique key. Only the LATEST call
+  // writes back to state — older parallel calls (from onAuthStateChange races
+  // when supabase fires SIGNED_IN / TOKEN_REFRESHED / USER_UPDATED at once)
+  // resolve quietly and never trip their own timeout cleanup. Without this,
+  // a single successful sign-in could be wiped by 3+ stale 15s timeouts.
+  const verifyKeyRef = useRef(0);
+
   useEffect(() => {
     const timer = setTimeout(() => setShowSplash(false), 1200);
     return () => clearTimeout(timer);
@@ -41,11 +48,17 @@ export default function AuthProvider({ children }) {
       setAllowedUser(null);
       return null;
     }
+    const myKey = ++verifyKeyRef.current;
+    const isCurrent = () => verifyKeyRef.current === myKey;
+
     setVerifying(true);
     // Safety net: 15 seconds is enough for even the slowest Supabase free-tier
     // cold start. If the query is still hanging after that, the session is
     // probably broken — clear everything and force a fresh sign-in.
+    // BUT: only fire if we're still the latest call. A newer checkAllowedUser
+    // supersedes us and is responsible for its own outcome.
     const verifyTimeout = setTimeout(() => {
+      if (!isCurrent()) return;
       console.warn("[Auth] checkAllowedUser timed out — clearing session");
       try {
         Object.keys(localStorage)
@@ -63,6 +76,8 @@ export default function AuthProvider({ children }) {
         .select("*")
         .eq("email", sessionUser.email)
         .maybeSingle();
+
+      if (!isCurrent()) return null; // a newer call superseded us — ignore our result
 
       if (error) {
         console.error("[Auth] Error checking allowed_users:", error);
@@ -94,12 +109,14 @@ export default function AuthProvider({ children }) {
       return data;
     } catch (e) {
       console.error("[Auth] Exception checking allowed_users:", e);
-      setAllowedUser(null);
-      setAccessDeniedReason("error");
+      if (isCurrent()) {
+        setAllowedUser(null);
+        setAccessDeniedReason("error");
+      }
       return null;
     } finally {
       clearTimeout(verifyTimeout);
-      setVerifying(false);
+      if (isCurrent()) setVerifying(false);
     }
   }, []);
 
@@ -113,17 +130,13 @@ export default function AuthProvider({ children }) {
     // we eventually give up so the UI doesn't stay on Loading forever. Cold
     // starts on Supabase's free tier can legitimately take 10-15s, so we let
     // init breathe for 15s before bailing.
+    //
+    // IMPORTANT: we don't wipe user/allowedUser here. Race conditions in
+    // supabase-js can make init()'s await hang even after onAuthStateChange
+    // successfully set up the session. Wiping state would kick a logged-in
+    // user back to the login screen for no reason. Just stop the spinner.
     const loadingTimeout = setTimeout(() => {
-      console.warn("[Auth] init timed out — clearing stale session");
-      try {
-        Object.keys(localStorage)
-          .filter((k) => k.startsWith("sb-"))
-          .forEach((k) => localStorage.removeItem(k));
-      } catch {}
-      setUser(null);
-      setAllowedUser(null);
-      setAccessDeniedReason(null);
-      setVerifying(false);
+      console.warn("[Auth] init timed out — stopping spinner (session state preserved)");
       setLoading(false);
     }, 15000);
 
