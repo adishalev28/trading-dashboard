@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-28 19:13:13",
+  "lastUpdate": "2026-05-28 23:04:59",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -1226,6 +1226,12 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-28",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -1240,7 +1246,7 @@
           "grade": "A+"
         }
       ],
-      "lastSeen": "2026-05-19",
+      "lastSeen": "2026-05-28",
       "entryPrice": 158.21,
       "bestTopPickScore": 82
     },
@@ -2690,11 +2696,24 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-28",
+          "lists": [
+            "topPick"
+          ]
         }
       ],
-      "topPicksHistory": [],
-      "lastSeen": "2026-05-05",
-      "entryPrice": 215.97
+      "topPicksHistory": [
+        {
+          "date": "2026-05-28",
+          "score": 90,
+          "grade": "A+"
+        }
+      ],
+      "lastSeen": "2026-05-28",
+      "entryPrice": 215.97,
+      "bestTopPickScore": 90
     },
     "EFXT": {
       "firstSeen": "2026-04-27",
@@ -3484,7 +3503,6 @@
         {
           "date": "2026-05-28",
           "lists": [
-            "breakout",
             "topPick"
           ]
         }
@@ -3821,6 +3839,12 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-28",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -3835,7 +3859,7 @@
           "grade": "A+"
         }
       ],
-      "lastSeen": "2026-05-14",
+      "lastSeen": "2026-05-28",
       "entryPrice": 268.61,
       "bestTopPickScore": 89
     },
@@ -5166,6 +5190,12 @@
           "lists": [
             "topPick"
           ]
+        },
+        {
+          "date": "2026-05-28",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -5220,7 +5250,7 @@
           "grade": "A+"
         }
       ],
-      "lastSeen": "2026-05-27",
+      "lastSeen": "2026-05-28",
       "entryPrice": 518.46,
       "bestTopPickScore": 95
     },
@@ -7313,7 +7343,7 @@
         {
           "date": "2026-05-28",
           "lists": [
-            "breakout"
+            "topPick"
           ]
         }
       ],
@@ -7321,6 +7351,11 @@
         {
           "date": "2026-05-20",
           "score": 89,
+          "grade": "A+"
+        },
+        {
+          "date": "2026-05-28",
+          "score": 87,
           "grade": "A+"
         }
       ],
@@ -9127,10 +9162,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-28",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-05-27"
+      "lastSeen": "2026-05-28"
     },
     "POWI": {
       "firstSeen": "2026-05-06",
@@ -10030,10 +10071,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-28",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-05-07"
+      "lastSeen": "2026-05-28"
     },
     "CGNX": {
       "firstSeen": "2026-05-07",
@@ -10238,10 +10285,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-28",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-05-08"
+      "lastSeen": "2026-05-28"
     },
     "EXK": {
       "firstSeen": "2026-05-07",
@@ -10874,10 +10927,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-28",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-05-19"
+      "lastSeen": "2026-05-28"
     },
     "HYMC": {
       "firstSeen": "2026-05-11",
@@ -12182,7 +12241,7 @@
         {
           "date": "2026-05-28",
           "lists": [
-            "topPick"
+            "breakout"
           ]
         }
       ],
