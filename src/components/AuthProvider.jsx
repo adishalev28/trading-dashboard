@@ -42,10 +42,9 @@ export default function AuthProvider({ children }) {
       return null;
     }
     setVerifying(true);
-    // Safety net: if the query takes > 3s the session is probably stale or the
-    // Supabase server is taking a cold start. Clear everything and force a fresh
-    // sign-in instead of leaving the user on the confusing "Something went wrong"
-    // screen.
+    // Safety net: 15 seconds is enough for even the slowest Supabase free-tier
+    // cold start. If the query is still hanging after that, the session is
+    // probably broken — clear everything and force a fresh sign-in.
     const verifyTimeout = setTimeout(() => {
       console.warn("[Auth] checkAllowedUser timed out — clearing session");
       try {
@@ -57,7 +56,7 @@ export default function AuthProvider({ children }) {
       setAllowedUser(null);
       setAccessDeniedReason(null);
       setVerifying(false);
-    }, 3000);
+    }, 15000);
     try {
       const { data, error } = await supabase
         .from("allowed_users")
@@ -111,9 +110,9 @@ export default function AuthProvider({ children }) {
     }
 
     // If init hangs (Supabase cold start, stale token refresh, PWA cache, etc.)
-    // we forcibly clear the stored session and drop the user back to the Sign In
-    // screen rather than leaving them stuck on Loading or showing the misleading
-    // "Something went wrong" screen.
+    // we eventually give up so the UI doesn't stay on Loading forever. Cold
+    // starts on Supabase's free tier can legitimately take 10-15s, so we let
+    // init breathe for 15s before bailing.
     const loadingTimeout = setTimeout(() => {
       console.warn("[Auth] init timed out — clearing stale session");
       try {
@@ -126,7 +125,7 @@ export default function AuthProvider({ children }) {
       setAccessDeniedReason(null);
       setVerifying(false);
       setLoading(false);
-    }, 3000);
+    }, 15000);
 
     const init = async () => {
       try {
