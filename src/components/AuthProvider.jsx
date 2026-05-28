@@ -8,6 +8,7 @@ const AuthContext = createContext({
   user: null,
   allowedUser: null,
   loading: true,
+  verifying: false,
   isAllowed: false,
   isAdmin: false,
   signIn: () => {},
@@ -24,6 +25,7 @@ export default function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
   const [allowedUser, setAllowedUser] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [verifying, setVerifying] = useState(false);
   const [signInError, setSignInError] = useState(null);
   const [accessDeniedReason, setAccessDeniedReason] = useState(null);
   const [showSplash, setShowSplash] = useState(true);
@@ -39,6 +41,7 @@ export default function AuthProvider({ children }) {
       setAllowedUser(null);
       return null;
     }
+    setVerifying(true);
     try {
       const { data, error } = await supabase
         .from("allowed_users")
@@ -79,6 +82,8 @@ export default function AuthProvider({ children }) {
       setAllowedUser(null);
       setAccessDeniedReason("error");
       return null;
+    } finally {
+      setVerifying(false);
     }
   }, []);
 
@@ -175,6 +180,7 @@ export default function AuthProvider({ children }) {
       user,
       allowedUser,
       loading,
+      verifying,
       isAllowed,
       isAdmin,
       signIn,
