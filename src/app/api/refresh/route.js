@@ -18,7 +18,7 @@ const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 
-const DAILY_QUOTA = 3; // Non-admin refresh limit per day
+const DAILY_QUOTA = 5; // Non-admin refresh limit per day
 
 function json(body, status = 200) {
   return Response.json(body, { status });
