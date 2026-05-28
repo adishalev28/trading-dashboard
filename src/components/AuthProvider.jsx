@@ -144,11 +144,26 @@ export default function AuthProvider({ children }) {
   };
 
   const signOut = async () => {
-    if (!supabase) return;
-    await supabase.auth.signOut();
+    // Clear UI state immediately so the user sees the Sign In screen even if
+    // the Supabase signOut() call hangs (stale PWA bundles + old sessions).
+    setUser(null);
     setAllowedUser(null);
     setAccessDeniedReason(null);
     setSignInError(null);
+    try {
+      if (supabase) {
+        await supabase.auth.signOut();
+      }
+    } catch (e) {
+      console.warn("[Auth] signOut error:", e);
+    }
+    // Belt-and-braces: nuke any stale Supabase tokens from storage so the
+    // next reload starts clean even if signOut didn't reach the server.
+    try {
+      Object.keys(localStorage)
+        .filter((k) => k.startsWith("sb-"))
+        .forEach((k) => localStorage.removeItem(k));
+    } catch {}
   };
 
   const isAllowed = !!(allowedUser && allowedUser.active &&
