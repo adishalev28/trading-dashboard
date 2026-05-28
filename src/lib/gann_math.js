@@ -49,22 +49,147 @@ const EXTENSIONS_BELOW = [
 ];
 
 /**
- * Find swing high and low from a price history array. We use the simple
- * max/min of the window — for a 30-day series of daily closes this is the
- * 30-day high and 30-day low, which is what most traders mean by
- * "recent swing range" on a daily Gann Box.
+ * Find swing high and low from a price history array, along with the
+ * index of each extreme. The indexes are what enable time-projection:
+ * we need to know WHEN the high and low occurred, not just the values.
+ *
+ * For a 30-day series of daily closes this is the 30-day high and
+ * 30-day low — the standard "recent swing range" for a daily Gann Box.
  *
  * @param {number[]} priceHistory
- * @returns {{ high: number, low: number } | null}
+ * @returns {{ high: number, low: number, highIdx: number, lowIdx: number } | null}
  */
 export function findSwingPoints(priceHistory) {
   if (!Array.isArray(priceHistory) || priceHistory.length === 0) return null;
-  const valid = priceHistory.filter((p) => Number.isFinite(p) && p > 0);
-  if (valid.length === 0) return null;
-  const high = Math.max(...valid);
-  const low = Math.min(...valid);
-  if (high <= low) return null;
-  return { high, low };
+  let high = -Infinity;
+  let low = Infinity;
+  let highIdx = -1;
+  let lowIdx = -1;
+  for (let i = 0; i < priceHistory.length; i++) {
+    const p = priceHistory[i];
+    if (!Number.isFinite(p) || p <= 0) continue;
+    if (p > high) {
+      high = p;
+      highIdx = i;
+    }
+    if (p < low) {
+      low = p;
+      lowIdx = i;
+    }
+  }
+  if (!Number.isFinite(high) || !Number.isFinite(low) || high <= low) return null;
+  return { high, low, highIdx, lowIdx };
+}
+
+// Time-projection fractions. Same eighths as the price box, with two
+// extensions (1.5×, 2×) and a "1×" mirror that is the single most
+// important time forecast: when price has traveled the full range, it
+// often reverses on the day it has "squared" with the range duration.
+const TIME_FRACTIONS = [
+  { ratio: 0.125, label: "1/8",  importance: "minor" },
+  { ratio: 0.25,  label: "1/4",  importance: "key" },
+  { ratio: 0.375, label: "3/8",  importance: "minor" },
+  { ratio: 0.5,   label: "1/2",  importance: "critical" }, // ★ midpoint forecast
+  { ratio: 0.625, label: "5/8",  importance: "key" },
+  { ratio: 0.75,  label: "3/4",  importance: "key" },
+  { ratio: 0.875, label: "7/8",  importance: "minor" },
+  { ratio: 1,     label: "1×",   importance: "critical" }, // ★ full mirror — "time squares price"
+  { ratio: 1.5,   label: "1.5×", importance: "key" },
+  { ratio: 2,     label: "2×",   importance: "key" },
+];
+
+/**
+ * Project forward reversal dates from a Gann Box's swing extremes.
+ *
+ * The "leg" is the time between the swing low and swing high. Gann's
+ * "time squares price" doctrine: once price has travelled the full
+ * leg's worth of time forward from the most recent extreme, a major
+ * reversal is more likely than not. The 1/2 forecast is the inner
+ * pivot, the 1× forecast is the headline date, and 1.5×/2× extend
+ * the projection if no reversal hits.
+ *
+ * Time uses calendar days (not trading days) so the dates line up with
+ * real-world calendars. The price-history indexes are interpreted as
+ * trading days back from `asOfDate`, but the forecast span is converted
+ * to calendar days by multiplying by 7/5 (≈1.4) — a standard
+ * trading-to-calendar approximation that accounts for weekends.
+ *
+ * @param {object} args
+ * @param {number} args.swingHighIdx   Index of swing high in priceHistory
+ * @param {number} args.swingLowIdx    Index of swing low in priceHistory
+ * @param {number} args.historyLength  Length of priceHistory (e.g. 30)
+ * @param {Date}   [args.asOfDate]     Reference date for the last index (default: today)
+ * @returns {Array<{
+ *   label: string,           // "1/2", "1×", "2×", etc.
+ *   ratio: number,
+ *   importance: "critical"|"key"|"minor",
+ *   date: Date,
+ *   isoDate: string,         // YYYY-MM-DD
+ *   daysFromToday: number,
+ *   tradingDaysFromAnchor: number,
+ * }>}
+ *   Sorted soonest → latest.
+ */
+export function calculateGannTimeProjections({
+  swingHighIdx,
+  swingLowIdx,
+  historyLength,
+  asOfDate,
+}) {
+  if (
+    !Number.isFinite(swingHighIdx) ||
+    !Number.isFinite(swingLowIdx) ||
+    !Number.isFinite(historyLength) ||
+    swingHighIdx < 0 ||
+    swingLowIdx < 0 ||
+    historyLength <= 0
+  ) {
+    return [];
+  }
+
+  const today = asOfDate ? new Date(asOfDate) : new Date();
+  today.setHours(0, 0, 0, 0);
+  if (Number.isNaN(today.getTime())) return [];
+
+  // Each priceHistory index ≈ one trading day. The last index maps to the
+  // reference date; earlier indexes map proportionally backward.
+  const TRADING_TO_CALENDAR = 7 / 5;
+  function indexToDate(idx) {
+    const tradingDaysBack = historyLength - 1 - idx;
+    const calendarDaysBack = Math.round(tradingDaysBack * TRADING_TO_CALENDAR);
+    const d = new Date(today);
+    d.setDate(d.getDate() - calendarDaysBack);
+    return d;
+  }
+
+  const lowDate = indexToDate(swingLowIdx);
+  const highDate = indexToDate(swingHighIdx);
+  const legCalendarDays =
+    Math.abs(highDate.getTime() - lowDate.getTime()) / (1000 * 60 * 60 * 24);
+  if (legCalendarDays <= 0) return [];
+
+  // Anchor forward projection on the LATER of the two extremes — that's
+  // where the new "leg" of price action begins.
+  const anchorDate = highDate > lowDate ? highDate : lowDate;
+  const legTradingDays = Math.abs(swingHighIdx - swingLowIdx);
+
+  return TIME_FRACTIONS.map((f) => {
+    const calendarDaysForward = Math.round(f.ratio * legCalendarDays);
+    const projDate = new Date(anchorDate);
+    projDate.setDate(projDate.getDate() + calendarDaysForward);
+    const daysFromToday = Math.round(
+      (projDate.getTime() - today.getTime()) / (1000 * 60 * 60 * 24)
+    );
+    return {
+      label: f.label,
+      ratio: f.ratio,
+      importance: f.importance,
+      date: projDate,
+      isoDate: projDate.toISOString().slice(0, 10),
+      daysFromToday,
+      tradingDaysFromAnchor: Math.round(f.ratio * legTradingDays),
+    };
+  });
 }
 
 /**
