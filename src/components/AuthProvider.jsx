@@ -42,6 +42,12 @@ export default function AuthProvider({ children }) {
       return null;
     }
     setVerifying(true);
+    // Safety net: if the query takes > 6s, give up so verifying clears.
+    // Otherwise a hung supabase request leaves the UI on "Loading..." forever.
+    const verifyTimeout = setTimeout(() => {
+      console.warn("[Auth] checkAllowedUser timed out — clearing verifying");
+      setVerifying(false);
+    }, 6000);
     try {
       const { data, error } = await supabase
         .from("allowed_users")
@@ -83,6 +89,7 @@ export default function AuthProvider({ children }) {
       setAccessDeniedReason("error");
       return null;
     } finally {
+      clearTimeout(verifyTimeout);
       setVerifying(false);
     }
   }, []);

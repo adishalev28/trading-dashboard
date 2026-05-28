@@ -1,29 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Force HTML responses to never be cached by the browser / PWA shell.
-  // Next.js's hashed JS/CSS chunks stay cached forever (their filenames
-  // change when content changes), but the HTML that references them must
-  // always be revalidated — otherwise an installed PWA can keep serving
-  // pre-installation HTML that points at stale environment variables.
+  // Force HTML pages to revalidate so installed PWAs always see the latest
+  // env-var-baked bundles. We deliberately DON'T touch /api/*, /_next/*, or
+  // image/manifest assets — only the HTML routes the user actually navigates
+  // to. Aggressive no-cache on everything was breaking React hydration.
   async headers() {
     return [
       {
-        source: "/:path*",
+        // Match all paths EXCEPT api/, _next/, and common static asset
+        // extensions. Tested negative lookahead works in Next.js path-to-regexp.
+        source: "/((?!api|_next|.*\\.(?:png|jpg|jpeg|gif|svg|ico|webp|json|xml|txt|webmanifest)).*)",
         headers: [
           {
             key: "Cache-Control",
-            value: "no-cache, no-store, must-revalidate",
-          },
-        ],
-      },
-      {
-        // Hashed static assets — safe to cache aggressively, the filenames
-        // bust themselves on every deploy.
-        source: "/_next/static/:path*",
-        headers: [
-          {
-            key: "Cache-Control",
-            value: "public, max-age=31536000, immutable",
+            value: "no-cache, must-revalidate",
           },
         ],
       },
