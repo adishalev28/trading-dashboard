@@ -158,11 +158,34 @@ export default function TodaysTopPicks({ tickers, sectors }) {
           <EmptyState totalCandidates={totalCandidates} rejectedReasons={rejectedReasons} />
         ) : (
           <>
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-3">
-              {picks.map(p => (
-                <PickCard key={p.ticker.ticker} pick={p} onOpen={setOpenTicker} />
-              ))}
+            {/* Scrollable picks container. Sized to comfortably show ~3 cards
+                on mobile and a single row of 3 on desktop, with a soft fade
+                cue so users can see more setups are available below. */}
+            <div className="relative">
+              <div
+                className="grid grid-cols-1 lg:grid-cols-3 gap-3 overflow-y-auto pr-1
+                           max-h-[470px] lg:max-h-[400px] scrollbar-thin"
+              >
+                {picks.map(p => (
+                  <PickCard key={p.ticker.ticker} pick={p} onOpen={setOpenTicker} />
+                ))}
+              </div>
+              {picks.length > 3 && (
+                <div
+                  aria-hidden
+                  className="pointer-events-none absolute inset-x-0 bottom-0 h-8
+                             bg-gradient-to-t from-slate-900 via-slate-900/70 to-transparent
+                             rounded-b-xl"
+                />
+              )}
             </div>
+
+            {picks.length > 3 && (
+              <div className="mt-2 text-[10px] text-slate-500 text-center">
+                Scroll to see {picks.length - 3} more {picks.length - 3 === 1 ? "pick" : "picks"} ranked by score
+              </div>
+            )}
+
             <div className="mt-3 pt-3 border-t border-slate-800 flex items-start gap-2 text-[11px] text-slate-500">
               <Award className="w-3.5 h-3.5 text-emerald-500/60 flex-shrink-0 mt-0.5" />
               <span>

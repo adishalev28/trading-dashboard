@@ -1,22 +1,24 @@
 /**
- * Today's Top 3 Picks — strict A+ filter on top of findPotentialBreakouts.
+ * Today's Top Picks — strict A+ filter on top of findPotentialBreakouts.
  *
  * The funnel:
  *   findPotentialBreakouts (~30 stocks)
  *     ↓ require volume confirmation + earnings safety
  *     ↓ score remaining stocks 0-100 across 7 factors
  *     ↓ keep only those scoring ≥50
- *     ↓ take top 3 by score
- *   = up to 3 A+ setups for the day, sometimes zero.
+ *     ↓ take top 8 by score (UI shows ~3 with scroll for the rest)
+ *   = up to 8 A+/A/B+ setups for the day, sometimes zero.
  *
  * Zero picks is a feature, not a bug. Disciplined trading means
- * waiting for high-quality setups instead of forcing trades.
+ * waiting for high-quality setups instead of forcing trades. The
+ * top 3 by score are still the day's headline picks; entries 4-8
+ * are surfaced as a watchlist for the user to scroll through.
  */
 
 import { findPotentialBreakouts } from "./screener";
 
 const MIN_SCORE = 50;
-const MAX_PICKS = 3;
+const MAX_PICKS = 8;
 const EARNINGS_BLACKOUT_DAYS = 7;
 
 function daysUntilEarnings(earningsDate) {
