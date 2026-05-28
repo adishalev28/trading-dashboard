@@ -88,6 +88,13 @@ export default function AuthProvider({ children }) {
       return;
     }
 
+    // Hard timeout guard — if the whole init takes >8s we give up so the UI
+    // never stays on "Loading..." forever (PWA cache, network blip, etc.)
+    const loadingTimeout = setTimeout(() => {
+      console.warn("[Auth] init timed out — forcing loading=false");
+      setLoading(false);
+    }, 8000);
+
     const init = async () => {
       try {
         const { data: { session } } = await supabase.auth.getSession();
@@ -99,6 +106,7 @@ export default function AuthProvider({ children }) {
       } catch (e) {
         console.error("[Auth] init error:", e);
       } finally {
+        clearTimeout(loadingTimeout);
         setLoading(false);
       }
     };
