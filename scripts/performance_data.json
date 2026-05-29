@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-29 18:24:53",
+  "lastUpdate": "2026-05-29 23:02:28",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -3568,6 +3568,7 @@
         {
           "date": "2026-05-29",
           "lists": [
+            "breakout",
             "topPick"
           ]
         }
@@ -10331,10 +10332,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-29",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-05-22"
+      "lastSeen": "2026-05-29"
     },
     "DFTX": {
       "firstSeen": "2026-05-06",
@@ -11934,7 +11941,7 @@
         },
         {
           "date": "2026-05-29",
-          "score": 85,
+          "score": 95,
           "grade": "A+"
         }
       ],
