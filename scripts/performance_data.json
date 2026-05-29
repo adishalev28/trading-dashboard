@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-29 18:18:09",
+  "lastUpdate": "2026-05-29 18:24:53",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -13557,10 +13557,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-05-29",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-05-28"
+      "lastSeen": "2026-05-29"
     },
     "CLOV": {
       "firstSeen": "2026-05-28",
@@ -13808,6 +13814,20 @@
     "CLSK": {
       "firstSeen": "2026-05-29",
       "entryPrice": 18.32,
+      "appearances": [
+        {
+          "date": "2026-05-29",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-05-29"
+    },
+    "SHLS": {
+      "firstSeen": "2026-05-29",
+      "entryPrice": 12.27,
       "appearances": [
         {
           "date": "2026-05-29",
