@@ -1587,6 +1587,61 @@
         "price": 735.6,
         "sma50": 650.02
       }
+    },
+    {
+      "date": "2026-05-29",
+      "stage2Count": 303,
+      "breakoutCount": 40,
+      "breakoutTickers": [
+        "ABVX",
+        "ALGM",
+        "AMAT",
+        "APLS",
+        "ARWR",
+        "ASML",
+        "ATEN",
+        "AXSM",
+        "CLMT",
+        "COHU",
+        "CSCO",
+        "DFTX",
+        "DGII",
+        "ENPH",
+        "FLEX",
+        "GNRC",
+        "GTX",
+        "IRDM",
+        "KN",
+        "LFUS",
+        "LRCX",
+        "LUMN",
+        "MPWR",
+        "MRVL",
+        "MU",
+        "OGN",
+        "PENG",
+        "PLUG",
+        "PLXS",
+        "PRAX",
+        "RKLB",
+        "RVMD",
+        "SEDG",
+        "SNX",
+        "STM",
+        "TE",
+        "TER",
+        "USAR",
+        "VICR",
+        "WULF"
+      ],
+      "spy": {
+        "price": 754.6,
+        "sma50": 701.67
+      },
+      "qqq": {
+        "price": 735.6,
+        "sma50": 650.02
+      }
     }
   ]
 }
