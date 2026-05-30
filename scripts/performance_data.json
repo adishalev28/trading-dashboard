@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-30 11:09:55",
+  "lastUpdate": "2026-05-30 18:55:58",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -2802,7 +2802,10 @@
         {
           "date": "2026-05-30",
           "score": 90,
-          "grade": "A+"
+          "grade": "A+",
+          "tags": [
+            "extended"
+          ]
         }
       ],
       "lastSeen": "2026-05-30",
@@ -3640,7 +3643,11 @@
         {
           "date": "2026-05-30",
           "score": 95,
-          "grade": "A+"
+          "grade": "A+",
+          "tags": [
+            "extended",
+            "eps_extreme"
+          ]
         }
       ],
       "lastSeen": "2026-05-30",
@@ -12108,7 +12115,10 @@
         {
           "date": "2026-05-30",
           "score": 95,
-          "grade": "A+"
+          "grade": "A+",
+          "tags": [
+            "extended"
+          ]
         }
       ],
       "lastSeen": "2026-05-30",
