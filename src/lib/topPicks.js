@@ -108,6 +108,35 @@ export function computeSetupScore(ticker, sectorMap) {
 }
 
 /**
+ * Non-blocking observation tags. These DO NOT affect the score, grade, or
+ * ranking — they're labels we attach to a pick so we can later measure (in
+ * the Performance tracker) whether picks with a given trait actually perform
+ * better or worse. The book says "extended" and "explosive EPS" are risky;
+ * we tag them and let our own data decide instead of filtering blindly.
+ *
+ *   extended    — price stretched ≥15% above its 20-day MA (parabolic/late)
+ *   eps_extreme — EPS growth so large (>300%) it's likely a low base or a
+ *                 one-time item; a flag to verify earnings quality, NOT a
+ *                 claim that the number is fake.
+ */
+export function computeTags(ticker) {
+  const tags = [];
+
+  if (ticker.sma20 && ticker.sma20 > 0 && ticker.price) {
+    const extPct = ((ticker.price - ticker.sma20) / ticker.sma20) * 100;
+    if (extPct >= 15) {
+      tags.push({ key: "extended", label: `Extended +${Math.round(extPct)}% vs SMA20` });
+    }
+  }
+
+  if (ticker.epsGrowthYoY != null && ticker.epsGrowthYoY > 300) {
+    tags.push({ key: "eps_extreme", label: `EPS +${Math.round(ticker.epsGrowthYoY)}% — verify quality` });
+  }
+
+  return tags;
+}
+
+/**
  * Find today's top picks — strictest filter of all.
  *
  * @param {Array} tickers — full ticker list from mockData
@@ -150,7 +179,7 @@ export function findTopPicks(tickers, sectors) {
   // Step 3: score and rank
   const scored = eligible.map(({ ticker, daysToEarnings }) => {
     const { score, grade, breakdown } = computeSetupScore(ticker, sectorMap);
-    return { ticker, score, grade, breakdown, daysToEarnings };
+    return { ticker, score, grade, breakdown, daysToEarnings, tags: computeTags(ticker) };
   });
 
   // Step 4: minimum score gate

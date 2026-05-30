@@ -96,6 +96,28 @@ def grade_from_score(score):
     return "C"
 
 
+def compute_tags(ticker):
+    """Non-blocking observation tags — mirror of computeTags() in
+    src/lib/topPicks.js. These do NOT affect the score; they're recorded in
+    performance_data.json so we can later measure whether picks carrying a
+    given trait outperform or underperform.
+
+      extended    — price stretched >=15% above its 20-day MA
+      eps_extreme — EPS YoY > 300% (likely low-base / one-time — verify quality)
+    """
+    tags = []
+    sma20 = ticker.get("sma20")
+    price = ticker.get("price")
+    if sma20 and sma20 > 0 and price:
+        ext = (price - sma20) / sma20 * 100
+        if ext >= 15:
+            tags.append("extended")
+    eps = ticker.get("epsGrowthYoY")
+    if eps is not None and eps > 300:
+        tags.append("eps_extreme")
+    return tags
+
+
 def is_potential_breakout(ticker):
     """Mirror of src/lib/screener.js findPotentialBreakouts gate.
     Stage 2 is already enforced by the upstream filter, so we only check
@@ -143,6 +165,7 @@ def compute_top_picks(tickers, sectors):
                 "score": score,
                 "grade": grade_from_score(score),
                 "daysToEarnings": dte if dte != float("inf") else None,
+                "tags": compute_tags(t),
             })
 
     scored.sort(key=lambda x: x["score"], reverse=True)

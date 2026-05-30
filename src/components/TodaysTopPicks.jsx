@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Crosshair, TrendingUp, AlertCircle, Award, ChevronDown, ChevronUp } from "lucide-react";
+import { Crosshair, TrendingUp, AlertCircle, Award, ChevronDown, ChevronUp, Search } from "lucide-react";
 import { findTopPicks } from "@/lib/topPicks";
 import { fmtUsd } from "@/lib/formatters";
 import TradingViewModal from "./TradingViewModal";
@@ -74,6 +74,24 @@ function PickCard({ pick, onOpen }) {
           </span>
         )}
       </div>
+
+      {/* Non-blocking observation tags — informational only, do NOT affect
+          score or rank. Tracked over time to learn if they matter. */}
+      {pick.tags && pick.tags.length > 0 && (
+        <div className="mt-2 flex flex-wrap items-center gap-1.5">
+          <span className="text-[10px] text-amber-500/80 flex items-center gap-1">
+            <Search className="w-3 h-3" /> Watch:
+          </span>
+          {pick.tags.map(tag => (
+            <span
+              key={tag.key}
+              className="text-[10px] px-2 py-0.5 rounded border bg-amber-950/40 text-amber-300/90 border-amber-800/60"
+            >
+              {tag.label}
+            </span>
+          ))}
+        </div>
+      )}
 
       {/* Details toggle */}
       <button

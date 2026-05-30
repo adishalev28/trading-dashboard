@@ -708,6 +708,7 @@ def main():
                 "date": today_str,
                 "score": tp["score"],
                 "grade": tp["grade"],
+                "tags": tp.get("tags", []),
             })
             current_best = entry.get("bestTopPickScore") or 0
             if tp["score"] > current_best:
