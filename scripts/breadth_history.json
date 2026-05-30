@@ -1634,6 +1634,53 @@
         "price": 738.31,
         "sma50": 652.9
       }
+    },
+    {
+      "date": "2026-05-30",
+      "stage2Count": 297,
+      "breakoutCount": 32,
+      "breakoutTickers": [
+        "ALAB",
+        "AMAT",
+        "AMD",
+        "APLS",
+        "ASML",
+        "ATRO",
+        "AXSM",
+        "AYA",
+        "CLMT",
+        "CNTA",
+        "EXTR",
+        "GSAT",
+        "LQDA",
+        "LRCX",
+        "MRVL",
+        "MT",
+        "OGN",
+        "ONDS",
+        "PL",
+        "PLXS",
+        "PRAX",
+        "RXO",
+        "SANM",
+        "STLD",
+        "STM",
+        "STX",
+        "TIGO",
+        "TVTX",
+        "TXG",
+        "VISN",
+        "VSH",
+        "XMTR"
+      ],
+      "spy": {
+        "price": 756.48,
+        "sma50": 703.61
+      },
+      "qqq": {
+        "price": 738.31,
+        "sma50": 652.9
+      }
     }
   ]
 }
