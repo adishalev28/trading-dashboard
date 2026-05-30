@@ -58,4 +58,7 @@ jobs:
           git config user.email "actions@github.com"
           git add src/lib/mockData.json scripts/fundamentals_cache.json scripts/breadth_history.json scripts/performance_data.json
           git commit -m "data: auto-refresh from screener ($(date -u +%Y-%m-%d))"
+          # Rebase onto any commits pushed while the screener was running
+          # (e.g. a manual push to main) so the push is a fast-forward.
+          git pull --rebase --autostash origin main
           git push
