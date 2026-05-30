@@ -207,9 +207,9 @@ export default function TodaysTopPicks({ tickers, sectors }) {
             <div className="mt-3 pt-3 border-t border-slate-800 flex items-start gap-2 text-[11px] text-slate-500">
               <Award className="w-3.5 h-3.5 text-emerald-500/60 flex-shrink-0 mt-0.5" />
               <span>
-                Wait for the actual breakout candle with volume before entering. Stop loss
-                at <strong className="text-slate-400">−7%</strong> from entry. Take 50% off
-                at <strong className="text-emerald-400">+10%</strong>.
+                Wait for the actual breakout candle with volume before entering. Hard stop
+                at <strong className="text-rose-400">−12%</strong> from entry — no trailing
+                stop, no partial profit. Hold until the stop hits or <strong className="text-slate-400">60 days</strong>.
               </span>
             </div>
           </>
