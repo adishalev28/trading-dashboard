@@ -1729,46 +1729,39 @@
     },
     {
       "date": "2026-06-01",
-      "stage2Count": 285,
-      "breakoutCount": 29,
+      "stage2Count": 286,
+      "breakoutCount": 22,
       "breakoutTickers": [
         "AMD",
+        "AMPX",
         "ASML",
         "CLMT",
-        "CNTA",
+        "COHU",
         "CSTM",
         "DFTX",
-        "DNTH",
-        "ERAS",
         "FLEX",
-        "GSAT",
-        "HBM",
-        "IONQ",
-        "KEEL",
+        "HLIO",
+        "KN",
         "LRCX",
-        "LUMN",
-        "MT",
+        "NOK",
         "NVT",
         "OGN",
-        "ONDS",
         "PLXS",
-        "QBTS",
-        "RIOT",
-        "RXO",
-        "SANM",
-        "SPHR",
-        "STLD",
+        "RCUS",
+        "RLAY",
+        "SEDG",
+        "TGB",
         "TIGO",
-        "UMC",
-        "VSH"
+        "TWST",
+        "XMTR"
       ],
       "spy": {
-        "price": 757.31,
-        "sma50": 705.6
+        "price": 758.54,
+        "sma50": 705.62
       },
       "qqq": {
-        "price": 742.04,
-        "sma50": 655.9
+        "price": 742.74,
+        "sma50": 655.91
       }
     }
   ]
