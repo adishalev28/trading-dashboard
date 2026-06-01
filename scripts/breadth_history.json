@@ -1729,48 +1729,46 @@
     },
     {
       "date": "2026-06-01",
-      "stage2Count": 296,
-      "breakoutCount": 31,
+      "stage2Count": 285,
+      "breakoutCount": 29,
       "breakoutTickers": [
-        "ALAB",
-        "AMAT",
         "AMD",
         "ASML",
-        "ATRO",
-        "AXSM",
-        "AYA",
         "CLMT",
         "CNTA",
-        "EXTR",
+        "CSTM",
+        "DFTX",
+        "DNTH",
+        "ERAS",
+        "FLEX",
         "GSAT",
-        "LQDA",
+        "HBM",
+        "IONQ",
+        "KEEL",
         "LRCX",
-        "MRVL",
+        "LUMN",
         "MT",
+        "NVT",
         "OGN",
         "ONDS",
-        "PL",
         "PLXS",
-        "PRAX",
+        "QBTS",
+        "RIOT",
         "RXO",
         "SANM",
+        "SPHR",
         "STLD",
-        "STM",
-        "STX",
         "TIGO",
-        "TVTX",
-        "TXG",
-        "VISN",
-        "VSH",
-        "XMTR"
+        "UMC",
+        "VSH"
       ],
       "spy": {
-        "price": 756.48,
-        "sma50": 703.61
+        "price": 757.31,
+        "sma50": 705.6
       },
       "qqq": {
-        "price": 738.31,
-        "sma50": 652.9
+        "price": 742.04,
+        "sma50": 655.9
       }
     }
   ]
