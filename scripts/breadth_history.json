@@ -1763,6 +1763,43 @@
         "price": 742.74,
         "sma50": 655.91
       }
+    },
+    {
+      "date": "2026-06-02",
+      "stage2Count": 285,
+      "breakoutCount": 22,
+      "breakoutTickers": [
+        "AMD",
+        "AMPX",
+        "ASML",
+        "CLMT",
+        "COHU",
+        "CSTM",
+        "DFTX",
+        "FLEX",
+        "HLIO",
+        "KN",
+        "LRCX",
+        "NOK",
+        "NVT",
+        "OGN",
+        "PLXS",
+        "RCUS",
+        "RLAY",
+        "SEDG",
+        "TGB",
+        "TIGO",
+        "TWST",
+        "XMTR"
+      ],
+      "spy": {
+        "price": 758.54,
+        "sma50": 705.62
+      },
+      "qqq": {
+        "price": 742.74,
+        "sma50": 655.91
+      }
     }
   ]
 }
