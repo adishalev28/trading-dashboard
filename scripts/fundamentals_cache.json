@@ -1685,6 +1685,12 @@
     "lastReportDate": "2026-03-31",
     "salesGrowthYoY": 55.5
   },
+  "LAC": {
+    "epsGrowthYoY": 100.0,
+    "fetchedAt": "2026-06-02",
+    "lastReportDate": "2026-03-31",
+    "salesGrowthYoY": null
+  },
   "LASR": {
     "epsGrowthYoY": 106.2,
     "fetchedAt": "2026-05-25",
@@ -1696,6 +1702,12 @@
     "fetchedAt": "2026-05-25",
     "lastReportDate": "2026-03-31",
     "salesGrowthYoY": 4.5
+  },
+  "LEGN": {
+    "epsGrowthYoY": 44.4,
+    "fetchedAt": "2026-06-02",
+    "lastReportDate": "2026-03-31",
+    "salesGrowthYoY": 56.5
   },
   "LFST": {
     "epsGrowthYoY": null,
@@ -2953,7 +2965,7 @@
   },
   "UEC": {
     "epsGrowthYoY": -50.0,
-    "fetchedAt": "2026-04-27",
+    "fetchedAt": "2026-06-02",
     "lastReportDate": "2026-01-31",
     "salesGrowthYoY": -59.4
   },
