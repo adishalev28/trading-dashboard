@@ -372,8 +372,8 @@
     "salesGrowthYoY": 19.8
   },
   "BB": {
-    "epsGrowthYoY": null,
-    "fetchedAt": "2026-05-04",
+    "epsGrowthYoY": 500.0,
+    "fetchedAt": "2026-06-03",
     "lastReportDate": "2026-02-28",
     "salesGrowthYoY": 8.4
   },
@@ -2832,10 +2832,10 @@
     "salesGrowthYoY": 70.4
   },
   "THR": {
-    "epsGrowthYoY": 1.9,
-    "fetchedAt": "2026-05-04",
-    "lastReportDate": "2025-12-31",
-    "salesGrowthYoY": 9.6
+    "epsGrowthYoY": -84.0,
+    "fetchedAt": "2026-06-03",
+    "lastReportDate": "2026-03-31",
+    "salesGrowthYoY": 10.6
   },
   "TIGO": {
     "epsGrowthYoY": -43.0,
@@ -2944,6 +2944,12 @@
     "fetchedAt": "2026-05-25",
     "lastReportDate": "2026-03-31",
     "salesGrowthYoY": 19.3
+  },
+  "TX": {
+    "epsGrowthYoY": 266.7,
+    "fetchedAt": "2026-06-03",
+    "lastReportDate": "2026-03-31",
+    "salesGrowthYoY": 0.0
   },
   "TXG": {
     "epsGrowthYoY": 64.3,
@@ -3240,10 +3246,10 @@
     "salesGrowthYoY": 2.6
   },
   "XPO": {
-    "epsGrowthYoY": -20.6,
-    "fetchedAt": "2026-04-25",
-    "lastReportDate": "2025-12-31",
-    "salesGrowthYoY": 4.6
+    "epsGrowthYoY": 46.6,
+    "fetchedAt": "2026-06-03",
+    "lastReportDate": "2026-03-31",
+    "salesGrowthYoY": 7.3
   },
   "XPRO": {
     "epsGrowthYoY": -73.7,
