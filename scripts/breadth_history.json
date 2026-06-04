@@ -1858,6 +1858,56 @@
         "price": 744.21,
         "sma50": 662.33
       }
+    },
+    {
+      "date": "2026-06-04",
+      "stage2Count": 280,
+      "breakoutCount": 35,
+      "breakoutTickers": [
+        "AKAM",
+        "ASX",
+        "AXSM",
+        "BB",
+        "BHE",
+        "BTSG",
+        "CAT",
+        "CIEN",
+        "CIFR",
+        "CNTA",
+        "CORZ",
+        "CSCO",
+        "CSTM",
+        "ENS",
+        "FTNT",
+        "HPE",
+        "HUT",
+        "JBL",
+        "KLIC",
+        "KN",
+        "LFUS",
+        "MOD",
+        "MT",
+        "NOK",
+        "NUE",
+        "OGN",
+        "PDFS",
+        "QCOM",
+        "RXO",
+        "SHLS",
+        "SMTC",
+        "SNX",
+        "SYNA",
+        "TWLO",
+        "VSXY"
+      ],
+      "spy": {
+        "price": 754.24,
+        "sma50": 709.82
+      },
+      "qqq": {
+        "price": 744.21,
+        "sma50": 662.33
+      }
     }
   ]
 }
