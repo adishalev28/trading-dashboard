@@ -1941,6 +1941,33 @@
         "price": 705.06,
         "sma50": 667.81
       }
+    },
+    {
+      "date": "2026-06-06",
+      "stage2Count": 274,
+      "breakoutCount": 12,
+      "breakoutTickers": [
+        "ATI",
+        "AXSM",
+        "BAND",
+        "CNTA",
+        "CRS",
+        "JAZZ",
+        "LQDA",
+        "OGN",
+        "PBI",
+        "SSL",
+        "TFII",
+        "UNIT"
+      ],
+      "spy": {
+        "price": 737.55,
+        "sma50": 713.51
+      },
+      "qqq": {
+        "price": 705.06,
+        "sma50": 667.81
+      }
     }
   ]
 }
