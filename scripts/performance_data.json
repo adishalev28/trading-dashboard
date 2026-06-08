@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-07 22:47:54",
+  "lastUpdate": "2026-06-08 13:55:54",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -943,10 +943,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-06-08",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-06-07",
+      "lastSeen": "2026-06-08",
       "entryPrice": 39.51
     },
     "DOCN": {
@@ -5048,10 +5054,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-06-08",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-06-04",
+      "lastSeen": "2026-06-08",
       "entryPrice": 66.91
     },
     "GSAT": {
@@ -9407,10 +9419,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-06-08",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-06-07"
+      "lastSeen": "2026-06-08"
     },
     "CRDO": {
       "firstSeen": "2026-05-05",
@@ -11022,10 +11040,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-06-08",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-06-07"
+      "lastSeen": "2026-06-08"
     },
     "RIOT": {
       "firstSeen": "2026-05-06",
@@ -11331,10 +11355,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-06-08",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-06-04"
+      "lastSeen": "2026-06-08"
     },
     "ARM": {
       "firstSeen": "2026-05-06",
@@ -12743,10 +12773,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-06-08",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-06-07"
+      "lastSeen": "2026-06-08"
     },
     "PENG": {
       "firstSeen": "2026-05-08",
@@ -15962,10 +15998,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-06-08",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-06-02"
+      "lastSeen": "2026-06-08"
     },
     "QCOM": {
       "firstSeen": "2026-05-28",
@@ -16192,10 +16234,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-06-08",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-06-04"
+      "lastSeen": "2026-06-08"
     },
     "FROG": {
       "firstSeen": "2026-05-29",
@@ -16505,10 +16553,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-06-08",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-06-04"
+      "lastSeen": "2026-06-08"
     },
     "IREN": {
       "firstSeen": "2026-06-02",
@@ -16758,6 +16812,12 @@
             "breakout",
             "topPick"
           ]
+        },
+        {
+          "date": "2026-06-08",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -16786,7 +16846,7 @@
           ]
         }
       ],
-      "lastSeen": "2026-06-07",
+      "lastSeen": "2026-06-08",
       "bestTopPickScore": 74
     },
     "CRS": {
@@ -16840,6 +16900,34 @@
       ],
       "topPicksHistory": [],
       "lastSeen": "2026-06-07"
+    },
+    "HUM": {
+      "firstSeen": "2026-06-08",
+      "entryPrice": 347.83,
+      "appearances": [
+        {
+          "date": "2026-06-08",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-08"
+    },
+    "YPF": {
+      "firstSeen": "2026-06-08",
+      "entryPrice": 54.35,
+      "appearances": [
+        {
+          "date": "2026-06-08",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-08"
     }
   }
 }

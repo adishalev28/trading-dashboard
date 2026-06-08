@@ -1995,6 +1995,33 @@
         "price": 705.06,
         "sma50": 667.81
       }
+    },
+    {
+      "date": "2026-06-08",
+      "stage2Count": 277,
+      "breakoutCount": 12,
+      "breakoutTickers": [
+        "AAMI",
+        "ASML",
+        "ATI",
+        "ATRO",
+        "AXSM",
+        "BAND",
+        "CNTA",
+        "HUM",
+        "OGN",
+        "RXO",
+        "VSXY",
+        "YPF"
+      ],
+      "spy": {
+        "price": 743.3,
+        "sma50": 715.48
+      },
+      "qqq": {
+        "price": 717.86,
+        "sma50": 670.69
+      }
     }
   ]
 }
