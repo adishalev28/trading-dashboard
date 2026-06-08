@@ -1998,29 +1998,30 @@
     },
     {
       "date": "2026-06-08",
-      "stage2Count": 277,
-      "breakoutCount": 12,
+      "stage2Count": 269,
+      "breakoutCount": 13,
       "breakoutTickers": [
-        "AAMI",
+        "AMAT",
         "ASML",
         "ATI",
-        "ATRO",
         "AXSM",
-        "BAND",
+        "BWA",
         "CNTA",
-        "HUM",
+        "EXTR",
+        "KLAC",
         "OGN",
-        "RXO",
-        "VSXY",
-        "YPF"
+        "PDFS",
+        "PLXS",
+        "SSL",
+        "TVTX"
       ],
       "spy": {
-        "price": 743.3,
-        "sma50": 715.48
+        "price": 739.22,
+        "sma50": 715.39
       },
       "qqq": {
-        "price": 717.86,
-        "sma50": 670.69
+        "price": 716.07,
+        "sma50": 670.65
       }
     }
   ]

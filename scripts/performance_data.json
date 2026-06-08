@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-08 13:55:54",
+  "lastUpdate": "2026-06-08 23:06:17",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -3593,10 +3593,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-06-08",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-06-04",
+      "lastSeen": "2026-06-08",
       "entryPrice": 1900.0
     },
     "KLIC": {
@@ -4311,10 +4317,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-06-08",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-06-04",
+      "lastSeen": "2026-06-08",
       "entryPrice": 249.14
     },
     "SLAB": {
@@ -7487,10 +7499,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-06-08",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-06-07",
+      "lastSeen": "2026-06-08",
       "entryPrice": 13.82
     },
     "STRL": {
@@ -9937,10 +9955,25 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-06-08",
+          "lists": [
+            "breakout",
+            "topPick"
+          ]
         }
       ],
-      "topPicksHistory": [],
-      "lastSeen": "2026-06-04"
+      "topPicksHistory": [
+        {
+          "date": "2026-06-08",
+          "score": 64,
+          "grade": "B+",
+          "tags": []
+        }
+      ],
+      "lastSeen": "2026-06-08",
+      "bestTopPickScore": 64
     },
     "ALMS": {
       "firstSeen": "2026-05-05",
@@ -10073,10 +10106,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-06-08",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-06-04"
+      "lastSeen": "2026-06-08"
     },
     "YOU": {
       "firstSeen": "2026-05-05",
@@ -14953,6 +14992,12 @@
           "lists": [
             "topPick"
           ]
+        },
+        {
+          "date": "2026-06-08",
+          "lists": [
+            "topPick"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -14965,10 +15010,18 @@
           "date": "2026-05-19",
           "score": 65,
           "grade": "A"
+        },
+        {
+          "date": "2026-06-08",
+          "score": 77,
+          "grade": "A",
+          "tags": [
+            "extended"
+          ]
         }
       ],
-      "lastSeen": "2026-05-19",
-      "bestTopPickScore": 65
+      "lastSeen": "2026-06-08",
+      "bestTopPickScore": 77
     },
     "TXN": {
       "firstSeen": "2026-05-16",
@@ -15049,10 +15102,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-06-08",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-06-04"
+      "lastSeen": "2026-06-08"
     },
     "HLIO": {
       "firstSeen": "2026-05-16",
@@ -16409,10 +16468,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-06-08",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-06-04"
+      "lastSeen": "2026-06-08"
     },
     "CLSK": {
       "firstSeen": "2026-05-29",
@@ -16727,10 +16792,25 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-06-08",
+          "lists": [
+            "breakout",
+            "topPick"
+          ]
         }
       ],
-      "topPicksHistory": [],
-      "lastSeen": "2026-06-04"
+      "topPicksHistory": [
+        {
+          "date": "2026-06-08",
+          "score": 82,
+          "grade": "A+",
+          "tags": []
+        }
+      ],
+      "lastSeen": "2026-06-08",
+      "bestTopPickScore": 82
     },
     "PCT": {
       "firstSeen": "2026-06-04",
