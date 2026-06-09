@@ -2023,6 +2023,34 @@
         "price": 716.07,
         "sma50": 670.65
       }
+    },
+    {
+      "date": "2026-06-09",
+      "stage2Count": 269,
+      "breakoutCount": 13,
+      "breakoutTickers": [
+        "AMAT",
+        "ASML",
+        "ATI",
+        "AXSM",
+        "BWA",
+        "CNTA",
+        "EXTR",
+        "KLAC",
+        "OGN",
+        "PDFS",
+        "PLXS",
+        "SSL",
+        "TVTX"
+      ],
+      "spy": {
+        "price": 739.22,
+        "sma50": 715.39
+      },
+      "qqq": {
+        "price": 716.07,
+        "sma50": 670.65
+      }
     }
   ]
 }
