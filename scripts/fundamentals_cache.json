@@ -197,6 +197,12 @@
     "lastReportDate": "2026-03-31",
     "salesGrowthYoY": 152.9
   },
+  "AMRX": {
+    "epsGrowthYoY": 375.0,
+    "fetchedAt": "2026-06-10",
+    "lastReportDate": "2026-03-31",
+    "salesGrowthYoY": 3.9
+  },
   "AMSC": {
     "epsGrowthYoY": 4266.7,
     "fetchedAt": "2026-05-25",
@@ -294,10 +300,10 @@
     "salesGrowthYoY": 13.2
   },
   "ASTS": {
-    "epsGrowthYoY": null,
-    "fetchedAt": "2026-05-11",
-    "lastReportDate": "2025-12-31",
-    "salesGrowthYoY": 2731.3
+    "epsGrowthYoY": -230.0,
+    "fetchedAt": "2026-06-10",
+    "lastReportDate": "2026-03-31",
+    "salesGrowthYoY": 1952.2
   },
   "ASX": {
     "epsGrowthYoY": 87.8,
@@ -1871,6 +1877,18 @@
     "lastReportDate": "2025-12-31",
     "salesGrowthYoY": -25.3
   },
+  "M": {
+    "epsGrowthYoY": 76.9,
+    "fetchedAt": "2026-06-10",
+    "lastReportDate": "2026-04-30",
+    "salesGrowthYoY": 2.1
+  },
+  "MANU": {
+    "epsGrowthYoY": -335.0,
+    "fetchedAt": "2026-06-10",
+    "lastReportDate": "2026-03-31",
+    "salesGrowthYoY": 18.0
+  },
   "MBIN": {
     "epsGrowthYoY": -30.8,
     "fetchedAt": "2026-04-25",
@@ -2023,9 +2041,9 @@
   },
   "MUSA": {
     "epsGrowthYoY": 176.8,
-    "fetchedAt": "2026-05-07",
+    "fetchedAt": "2026-06-10",
     "lastReportDate": "2026-03-31",
-    "salesGrowthYoY": null
+    "salesGrowthYoY": 6.5
   },
   "MXL": {
     "epsGrowthYoY": 10.3,
@@ -2826,10 +2844,10 @@
     "salesGrowthYoY": 23.0
   },
   "STNG": {
-    "epsGrowthYoY": 81.1,
-    "fetchedAt": "2026-04-25",
-    "lastReportDate": "2025-12-31",
-    "salesGrowthYoY": 23.9
+    "epsGrowthYoY": 254.1,
+    "fetchedAt": "2026-06-10",
+    "lastReportDate": "2026-03-31",
+    "salesGrowthYoY": 46.2
   },
   "STOK": {
     "epsGrowthYoY": null,
@@ -2926,6 +2944,12 @@
     "fetchedAt": "2026-05-25",
     "lastReportDate": "2026-03-31",
     "salesGrowthYoY": 70.4
+  },
+  "TGTX": {
+    "epsGrowthYoY": 300.0,
+    "fetchedAt": "2026-06-10",
+    "lastReportDate": "2026-03-31",
+    "salesGrowthYoY": 69.6
   },
   "THR": {
     "epsGrowthYoY": -84.0,

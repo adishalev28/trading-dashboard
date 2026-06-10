@@ -2053,6 +2053,41 @@
         "price": 707.83,
         "sma50": 673.56
       }
+    },
+    {
+      "date": "2026-06-10",
+      "stage2Count": 262,
+      "breakoutCount": 20,
+      "breakoutTickers": [
+        "AAMI",
+        "AMAT",
+        "BTSG",
+        "CNC",
+        "CNTA",
+        "COCO",
+        "CRS",
+        "GH",
+        "INDV",
+        "KLAC",
+        "KNX",
+        "MOG-A",
+        "OGN",
+        "PBI",
+        "PDFS",
+        "PRM",
+        "RXO",
+        "SSL",
+        "UNIT",
+        "VECO"
+      ],
+      "spy": {
+        "price": 725.43,
+        "sma50": 719.32
+      },
+      "qqq": {
+        "price": 693.69,
+        "sma50": 676.27
+      }
     }
   ]
 }
