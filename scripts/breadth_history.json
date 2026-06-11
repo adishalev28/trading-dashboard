@@ -2091,37 +2091,40 @@
     },
     {
       "date": "2026-06-11",
-      "stage2Count": 262,
-      "breakoutCount": 20,
+      "stage2Count": 286,
+      "breakoutCount": 23,
       "breakoutTickers": [
-        "AAMI",
-        "AMAT",
-        "BTSG",
-        "CNC",
+        "ACMR",
+        "AEIS",
+        "APGE",
+        "ARCB",
+        "AXGN",
+        "BHE",
+        "CAMT",
         "CNTA",
         "COCO",
-        "CRS",
+        "DFTX",
         "GH",
-        "INDV",
-        "KLAC",
-        "KNX",
-        "MOG-A",
+        "GTX",
+        "JAZZ",
+        "JBL",
+        "LQDA",
+        "LSTR",
+        "NUE",
         "OGN",
-        "PBI",
-        "PDFS",
-        "PRM",
-        "RXO",
+        "SNX",
         "SSL",
-        "UNIT",
-        "VECO"
+        "STM",
+        "VISN",
+        "VSXY"
       ],
       "spy": {
-        "price": 725.43,
-        "sma50": 719.32
+        "price": 737.76,
+        "sma50": 721.07
       },
       "qqq": {
-        "price": 693.69,
-        "sma50": 676.27
+        "price": 717.12,
+        "sma50": 679.07
       }
     }
   ]
