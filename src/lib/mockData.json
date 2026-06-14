@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-06-13 22:48:42",
+    "generatedAt": "2026-06-14 11:50:28",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
     "totalScanned": 1178,
@@ -19,7 +19,7 @@
     "aboveSma200": true
   },
   "breadth": {
-    "asOf": "2026-06-13",
+    "asOf": "2026-06-14",
     "indices": {
       "spy": {
         "price": 741.75,
@@ -36,13 +36,13 @@
     },
     "stage2": {
       "current": 294,
-      "prev5d": 269,
-      "changePct": 9.3
+      "prev5d": 277,
+      "changePct": 6.1
     },
     "breakouts": {
       "current": 34,
-      "prev5d": 13,
-      "changePct": 161.5
+      "prev5d": 15,
+      "changePct": 126.7
     }
   },
   "sectors": [
@@ -2486,48 +2486,48 @@
     {
       "ticker": "ATRO",
       "companyName": "Astronics Corporation",
-      "price": 96.0,
-      "sma150": 69.25,
-      "sma200": 63.06,
+      "price": 80.0,
+      "sma150": 57.71,
+      "sma200": 52.55,
       "rsScore": 88,
       "vcpStatus": "none",
       "volumeSurge": "none",
       "weekHighDistance": 0.0,
-      "volumePctAvg": 165.0,
-      "sma20": 84.85,
-      "pivotPrice": 96.0,
+      "volumePctAvg": 161.4,
+      "sma20": 70.71,
+      "pivotPrice": 80.0,
       "distToPivotPct": 0.0,
       "priceHistory30d": [
-        71.21,
-        72.1,
-        73.78,
-        78.19,
-        77.95,
-        75.08,
-        75.79,
-        78.26,
-        80.09,
-        82.71,
-        78.59,
-        80.35,
-        79.38,
-        84.99,
-        79.89,
-        80.86,
-        84.44,
-        85.01,
-        88.17,
-        87.0,
-        85.1,
-        85.61,
-        83.51,
-        87.33,
-        84.72,
-        84.32,
-        84.59,
-        82.34,
-        94.8,
-        96.0
+        59.34,
+        60.08,
+        61.48,
+        65.16,
+        64.96,
+        62.57,
+        63.16,
+        65.22,
+        66.74,
+        68.93,
+        65.49,
+        66.96,
+        66.15,
+        70.82,
+        66.57,
+        67.38,
+        70.37,
+        70.84,
+        73.47,
+        72.5,
+        70.92,
+        71.34,
+        69.59,
+        72.78,
+        70.6,
+        70.27,
+        70.49,
+        68.62,
+        79.0,
+        80.0
       ],
       "marketCap": 4.1,
       "sector": "Industrials",
@@ -11008,7 +11008,7 @@
         280.71,
         279.7
       ],
-      "marketCap": 244.7,
+      "marketCap": 244.9,
       "sector": "Technology",
       "earningsDate": "2026-08-27",
       "epsGrowthYoY": 100.0,
@@ -15747,7 +15747,7 @@
         868.09,
         931.04
       ],
-      "marketCap": 210.6,
+      "marketCap": 208.8,
       "sector": "Technology",
       "earningsDate": "2026-07-28",
       "epsGrowthYoY": 108.3,
@@ -18543,9 +18543,8 @@
         227.65,
         228.33
       ],
-      "marketCap": 26.8,
+      "marketCap": 0,
       "sector": "Industrials",
-      "earningsDate": "2026-07-30",
       "epsGrowthYoY": 46.6,
       "salesGrowthYoY": 7.3,
       "lastReportDate": "2026-03-31"

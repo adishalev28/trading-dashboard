@@ -2224,6 +2224,55 @@
         "price": 721.34,
         "sma50": 681.81
       }
+    },
+    {
+      "date": "2026-06-14",
+      "stage2Count": 294,
+      "breakoutCount": 34,
+      "breakoutTickers": [
+        "ALAB",
+        "ARCB",
+        "ARW",
+        "ASML",
+        "ATI",
+        "BWLP",
+        "CNC",
+        "CNTA",
+        "CORT",
+        "CRS",
+        "CSTM",
+        "CTOS",
+        "DGII",
+        "DHC",
+        "GH",
+        "GTX",
+        "HLIO",
+        "KEYS",
+        "KNX",
+        "LQDA",
+        "MT",
+        "OGN",
+        "POWL",
+        "SMTC",
+        "STX",
+        "TER",
+        "TFII",
+        "TKR",
+        "TNGX",
+        "TTMI",
+        "VIAV",
+        "VISN",
+        "VSXY",
+        "YPF"
+      ],
+      "spy": {
+        "price": 741.75,
+        "sma50": 722.8
+      },
+      "qqq": {
+        "price": 721.34,
+        "sma50": 681.81
+      }
     }
   ]
 }
