@@ -2276,55 +2276,50 @@
     },
     {
       "date": "2026-06-15",
-      "stage2Count": 297,
-      "breakoutCount": 38,
+      "stage2Count": 295,
+      "breakoutCount": 33,
       "breakoutTickers": [
         "ADEA",
-        "ADI",
+        "AEHR",
         "AGX",
+        "ARW",
+        "ASML",
         "ATI",
         "AVT",
         "AXSM",
         "CAT",
+        "CECO",
+        "CIFR",
         "CLOV",
         "CNTA",
+        "CORT",
         "CTOS",
         "DGII",
-        "ERAS",
+        "ESTA",
         "FTNT",
-        "HUM",
+        "HLIO",
         "INSW",
-        "KLAC",
-        "LQDA",
         "MOG-A",
-        "MRCY",
         "MRX",
         "NBIS",
         "NESR",
-        "NUE",
         "OGN",
         "ORKA",
-        "OSCR",
-        "PEB",
-        "PWR",
-        "RIOT",
+        "PBI",
         "SITM",
         "STM",
-        "TNGX",
         "TSEM",
         "UNIT",
-        "VIAV",
-        "VISN",
-        "VSXY",
-        "WULF"
+        "VSH",
+        "VSXY"
       ],
       "spy": {
-        "price": 755.02,
-        "sma50": 724.79
+        "price": 754.83,
+        "sma50": 724.78
       },
       "qqq": {
-        "price": 743.5,
-        "sma50": 684.98
+        "price": 744.0,
+        "sma50": 684.99
       }
     }
   ]
