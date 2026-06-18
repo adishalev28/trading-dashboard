@@ -2420,6 +2420,55 @@
         "price": 722.51,
         "sma50": 690.49
       }
+    },
+    {
+      "date": "2026-06-18",
+      "stage2Count": 280,
+      "breakoutCount": 34,
+      "breakoutTickers": [
+        "ALGM",
+        "AMKR",
+        "ARW",
+        "ASML",
+        "ATI",
+        "AXSM",
+        "BHE",
+        "CNTA",
+        "COCO",
+        "CTOS",
+        "DFTX",
+        "DOCN",
+        "ECG",
+        "FIX",
+        "FRO",
+        "HLIO",
+        "ICHR",
+        "INSW",
+        "KEYS",
+        "KLIC",
+        "MKSI",
+        "OGN",
+        "PBI",
+        "PLXS",
+        "RLAY",
+        "SNX",
+        "SPHR",
+        "TKR",
+        "TNGX",
+        "TTMI",
+        "UCTT",
+        "VISN",
+        "VSXY",
+        "WULF"
+      ],
+      "spy": {
+        "price": 740.96,
+        "sma50": 728.24
+      },
+      "qqq": {
+        "price": 722.51,
+        "sma50": 690.49
+      }
     }
   ]
 }
