@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-19 13:05:09",
+  "lastUpdate": "2026-06-19 22:40:43",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -5539,6 +5539,12 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "topPick"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -5623,9 +5629,15 @@
           "tags": [
             "extended"
           ]
+        },
+        {
+          "date": "2026-06-19",
+          "score": 84,
+          "grade": "A+",
+          "tags": []
         }
       ],
-      "lastSeen": "2026-06-18",
+      "lastSeen": "2026-06-19",
       "entryPrice": 27.77,
       "bestTopPickScore": 89
     },
@@ -7010,11 +7022,27 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "topPick"
+          ]
         }
       ],
-      "topPicksHistory": [],
-      "lastSeen": "2026-06-18",
-      "entryPrice": 81.22
+      "topPicksHistory": [
+        {
+          "date": "2026-06-19",
+          "score": 80,
+          "grade": "A+",
+          "tags": [
+            "eps_extreme"
+          ]
+        }
+      ],
+      "lastSeen": "2026-06-19",
+      "entryPrice": 81.22,
+      "bestTopPickScore": 80
     },
     "MEOH": {
       "firstSeen": "2026-04-29",
@@ -20841,6 +20869,436 @@
             "breakout"
           ]
         },
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "IRM": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 127.83,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "GS": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 1096.56,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "WSFS": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 74.14,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "HLT": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 348.84,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "KEY": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 22.59,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "VVV": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 38.07,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "HGV": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 52.73,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "VCTR": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 87.01,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "ZION": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 66.17,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "WRBY": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 25.96,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "CLH": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 288.6,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "WWD": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 430.08,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "CNO": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 50.83,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "HOG": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 25.67,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "JCI": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 144.82,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "VOYA": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 90.2,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "VRTX": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 451.63,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "CPRX": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 31.38,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "CMI": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 716.86,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "HG": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 31.38,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "COMP": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 10.01,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "topPick"
+          ]
+        }
+      ],
+      "topPicksHistory": [
+        {
+          "date": "2026-06-19",
+          "score": 80,
+          "grade": "A+",
+          "tags": [
+            "extended"
+          ]
+        }
+      ],
+      "lastSeen": "2026-06-19",
+      "bestTopPickScore": 80
+    },
+    "WAFD": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 36.48,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "CLDX": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 32.43,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "COLM": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 66.46,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "CNK": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 33.76,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "WH": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 84.2,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "WSBC": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 36.29,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "XYZ": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 74.78,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "WSM": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 226.92,
+      "appearances": [
+        {
+          "date": "2026-06-19",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-06-19"
+    },
+    "IVT": {
+      "firstSeen": "2026-06-19",
+      "entryPrice": 34.33,
+      "appearances": [
         {
           "date": "2026-06-19",
           "lists": [
