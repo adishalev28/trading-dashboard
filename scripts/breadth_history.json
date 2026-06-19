@@ -2468,6 +2468,54 @@
         "price": 740.62,
         "sma50": 693.18
       }
+    },
+    {
+      "date": "2026-06-19",
+      "stage2Count": 282,
+      "breakoutCount": 33,
+      "breakoutTickers": [
+        "AEHR",
+        "AMD",
+        "APGE",
+        "ASX",
+        "AVT",
+        "AXSM",
+        "CAMT",
+        "DFTX",
+        "DGII",
+        "DHC",
+        "EXTR",
+        "FORM",
+        "GH",
+        "GTX",
+        "LQDA",
+        "LSCC",
+        "MOG-A",
+        "MRVL",
+        "OGN",
+        "ONTO",
+        "OUST",
+        "PBI",
+        "PEB",
+        "RIOT",
+        "RVMD",
+        "SITM",
+        "SNX",
+        "STM",
+        "TSEM",
+        "TXG",
+        "TXN",
+        "VISN",
+        "VRT"
+      ],
+      "spy": {
+        "price": 746.74,
+        "sma50": 727.82
+      },
+      "qqq": {
+        "price": 740.62,
+        "sma50": 693.18
+      }
     }
   ]
 }
