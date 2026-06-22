@@ -2617,6 +2617,72 @@
         "price": 740.62,
         "sma50": 693.18
       }
+    },
+    {
+      "date": "2026-06-22",
+      "stage2Count": 290,
+      "breakoutCount": 51,
+      "breakoutTickers": [
+        "AIP",
+        "ALGM",
+        "ALMS",
+        "AMD",
+        "ASML",
+        "AVT",
+        "AXGN",
+        "BTSG",
+        "CALY",
+        "CECO",
+        "CIFR",
+        "CLOV",
+        "CNTA",
+        "COCO",
+        "COGT",
+        "COHU",
+        "CORZ",
+        "CRS",
+        "CTOS",
+        "DFTX",
+        "DGII",
+        "ELVN",
+        "EXTR",
+        "FORM",
+        "GFS",
+        "GLW",
+        "KEEL",
+        "KRYS",
+        "LSCC",
+        "MOG-A",
+        "MRX",
+        "NBIS",
+        "NKTR",
+        "OGN",
+        "OSCR",
+        "PBI",
+        "PDFS",
+        "SITM",
+        "SMTC",
+        "SNEX",
+        "SNX",
+        "SPHR",
+        "STM",
+        "SYNA",
+        "TVTX",
+        "UCTT",
+        "UMC",
+        "VISN",
+        "VSH",
+        "VSXY",
+        "WULF"
+      ],
+      "spy": {
+        "price": 744.32,
+        "sma50": 729.15
+      },
+      "qqq": {
+        "price": 737.68,
+        "sma50": 695.73
+      }
     }
   ]
 }
