@@ -2666,6 +2666,63 @@
         "price": 737.95,
         "sma50": 695.74
       }
+    },
+    {
+      "date": "2026-06-23",
+      "stage2Count": 279,
+      "breakoutCount": 42,
+      "breakoutTickers": [
+        "HXL",
+        "IFS",
+        "INDV",
+        "KOD",
+        "LFST",
+        "LIVN",
+        "MFG",
+        "MSM",
+        "NBIS",
+        "NKTR",
+        "NSA",
+        "NUVL",
+        "OGN",
+        "ON",
+        "OPLN",
+        "PDFS",
+        "PHVS",
+        "PK",
+        "PRM",
+        "PWR",
+        "ROIV",
+        "ROST",
+        "SEI",
+        "SLAB",
+        "SMFG",
+        "SNEX",
+        "SNX",
+        "SPHR",
+        "TBBB",
+        "TH",
+        "TKR",
+        "TRMD",
+        "TVTX",
+        "UNH",
+        "URI",
+        "VCYT",
+        "VIRT",
+        "VSH",
+        "VSXY",
+        "WCC",
+        "WDC",
+        "WWD"
+      ],
+      "spy": {
+        "price": 744.39,
+        "sma50": 729.15
+      },
+      "qqq": {
+        "price": 737.95,
+        "sma50": 694.99
+      }
     }
   ]
 }
