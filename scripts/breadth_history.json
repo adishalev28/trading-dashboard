@@ -2708,41 +2708,37 @@
     },
     {
       "date": "2026-06-24",
-      "stage2Count": 292,
-      "breakoutCount": 24,
+      "stage2Count": 293,
+      "breakoutCount": 20,
       "breakoutTickers": [
-        "ALMS",
-        "AXGN",
-        "BTSG",
+        "APGE",
+        "BHE",
         "CALY",
-        "CGON",
-        "CLOV",
         "COCO",
         "CRS",
-        "CTOS",
-        "DFTX",
-        "DGII",
+        "ELVN",
         "ERAS",
-        "EXTR",
-        "FTNT",
-        "GH",
-        "IMVT",
-        "KEEL",
-        "KYMR",
-        "LNTH",
-        "LQDA",
-        "SNEX",
+        "GEO",
+        "GLW",
+        "IBRX",
+        "KGS",
+        "PACS",
+        "PBI",
+        "QURE",
+        "SPHR",
         "TGTX",
         "TRVI",
-        "WULF"
+        "TXG",
+        "VIRT",
+        "VSXY"
       ],
       "spy": {
-        "price": 733.58,
-        "sma50": 730.26
+        "price": 733.24,
+        "sma50": 731.24
       },
       "qqq": {
-        "price": 713.65,
-        "sma50": 697.06
+        "price": 710.62,
+        "sma50": 698.93
       }
     }
   ]
