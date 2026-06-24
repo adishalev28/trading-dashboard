@@ -2705,6 +2705,45 @@
         "price": 713.65,
         "sma50": 697.06
       }
+    },
+    {
+      "date": "2026-06-24",
+      "stage2Count": 292,
+      "breakoutCount": 24,
+      "breakoutTickers": [
+        "ALMS",
+        "AXGN",
+        "BTSG",
+        "CALY",
+        "CGON",
+        "CLOV",
+        "COCO",
+        "CRS",
+        "CTOS",
+        "DFTX",
+        "DGII",
+        "ERAS",
+        "EXTR",
+        "FTNT",
+        "GH",
+        "IMVT",
+        "KEEL",
+        "KYMR",
+        "LNTH",
+        "LQDA",
+        "SNEX",
+        "TGTX",
+        "TRVI",
+        "WULF"
+      ],
+      "spy": {
+        "price": 733.58,
+        "sma50": 730.26
+      },
+      "qqq": {
+        "price": 713.65,
+        "sma50": 697.06
+      }
     }
   ]
 }
