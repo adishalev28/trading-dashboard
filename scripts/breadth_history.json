@@ -2740,6 +2740,41 @@
         "price": 710.62,
         "sma50": 698.93
       }
+    },
+    {
+      "date": "2026-06-25",
+      "stage2Count": 294,
+      "breakoutCount": 20,
+      "breakoutTickers": [
+        "APGE",
+        "BHE",
+        "CALY",
+        "COCO",
+        "CRS",
+        "ELVN",
+        "ERAS",
+        "GEO",
+        "GLW",
+        "IBRX",
+        "KGS",
+        "PACS",
+        "PBI",
+        "QURE",
+        "SPHR",
+        "TGTX",
+        "TRVI",
+        "TXG",
+        "VIRT",
+        "VSXY"
+      ],
+      "spy": {
+        "price": 733.24,
+        "sma50": 731.24
+      },
+      "qqq": {
+        "price": 710.62,
+        "sma50": 698.93
+      }
     }
   ]
 }
