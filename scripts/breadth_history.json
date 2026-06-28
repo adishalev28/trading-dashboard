@@ -2864,6 +2864,45 @@
         "price": 706.52,
         "sma50": 702.1
       }
+    },
+    {
+      "date": "2026-06-28",
+      "stage2Count": 310,
+      "breakoutCount": 24,
+      "breakoutTickers": [
+        "AMRX",
+        "APGE",
+        "AXGN",
+        "BFLY",
+        "BTSG",
+        "CGNX",
+        "CGON",
+        "CNC",
+        "CRS",
+        "CTOS",
+        "ESTA",
+        "EWTX",
+        "EXTR",
+        "FROG",
+        "ILMN",
+        "OSCR",
+        "PEB",
+        "PTGX",
+        "RAL",
+        "RIOT",
+        "TH",
+        "TKR",
+        "TVTX",
+        "XMTR"
+      ],
+      "spy": {
+        "price": 728.99,
+        "sma50": 732.69
+      },
+      "qqq": {
+        "price": 706.52,
+        "sma50": 702.1
+      }
     }
   ]
 }
