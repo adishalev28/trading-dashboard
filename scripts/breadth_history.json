@@ -3054,6 +3054,53 @@
         "price": 725.17,
         "sma50": 707.13
       }
+    },
+    {
+      "date": "2026-07-02",
+      "stage2Count": 316,
+      "breakoutCount": 32,
+      "breakoutTickers": [
+        "ABVX",
+        "APGE",
+        "ARWR",
+        "BKD",
+        "CELC",
+        "CGNX",
+        "CHEF",
+        "CLOV",
+        "COGT",
+        "CRS",
+        "DGII",
+        "FROG",
+        "GEO",
+        "GLUE",
+        "ICHR",
+        "IMVT",
+        "KNSA",
+        "KRYS",
+        "KYMR",
+        "LGND",
+        "LNTH",
+        "LQDA",
+        "MRX",
+        "MSGE",
+        "NRIX",
+        "OGN",
+        "ORKA",
+        "ROIV",
+        "RSI",
+        "TWST",
+        "VCYT",
+        "XMTR"
+      ],
+      "spy": {
+        "price": 745.76,
+        "sma50": 735.06
+      },
+      "qqq": {
+        "price": 725.17,
+        "sma50": 707.13
+      }
     }
   ]
 }
