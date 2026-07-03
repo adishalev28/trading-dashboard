@@ -1,7 +1,5 @@
 import "@/styles/globals.css";
 import Sidebar, { MobileTabBar } from "@/components/Sidebar";
-import AuthProvider from "@/components/AuthProvider";
-import AuthGate from "@/components/AuthGate";
 
 export const metadata = {
   title: "Bullish",
@@ -29,13 +27,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" dir="ltr" className="h-full">
       <body className="bg-slate-900 text-slate-100 min-h-screen">
-        <AuthProvider>
-          <AuthGate>
-            <Sidebar />
-            <MobileTabBar />
-            <main className="md:ml-60">{children}</main>
-          </AuthGate>
-        </AuthProvider>
+        <Sidebar />
+        <MobileTabBar />
+        <main className="md:ml-60">{children}</main>
       </body>
     </html>
   );

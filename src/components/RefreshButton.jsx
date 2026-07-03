@@ -2,8 +2,6 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import { RefreshCw, Check, AlertCircle, Clock, Loader2 } from "lucide-react";
-import { supabase } from "@/lib/supabase";
-import { useAuth } from "@/components/AuthProvider";
 
 const POLL_INTERVAL_MS = 15000;     // Poll workflow status every 15s
 const POLL_TIMEOUT_MS = 10 * 60_000; // Stop polling after 10 min (workflow timeout is 25)
@@ -43,41 +41,12 @@ function elapsedSince(startedAt) {
  * State persists across page reloads via localStorage — if you click refresh
  * and reload the page, the orange "running" state continues until completion.
  */
-async function getAuthHeader() {
-  if (!supabase) return null;
-  const { data } = await supabase.auth.getSession();
-  const token = data?.session?.access_token;
-  return token ? `Bearer ${token}` : null;
-}
-
 export default function RefreshButton({ generatedAt }) {
-  const { isAdmin, user } = useAuth();
   const [status, setStatus] = useState("idle"); // idle | running | success | error
   const [message, setMessage] = useState("");
   const [activeRun, setActiveRun] = useState(null); // { startedAt, runId } when running
-  const [quota, setQuota] = useState(null); // { isAdmin, remaining, usedToday, quota }
   const pollTimerRef = useRef(null);
   const pollStartRef = useRef(null);
-
-  // Fetch quota on mount + after each refresh
-  const fetchQuota = useCallback(async () => {
-    const auth = await getAuthHeader();
-    if (!auth) return;
-    try {
-      const res = await fetch("/api/refresh", {
-        method: "GET",
-        headers: { Authorization: auth },
-      });
-      if (res.ok) {
-        const data = await res.json();
-        setQuota(data);
-      }
-    } catch {}
-  }, []);
-
-  useEffect(() => {
-    if (user) fetchQuota();
-  }, [user, fetchQuota]);
 
   const stopPolling = useCallback(() => {
     if (pollTimerRef.current) {
@@ -120,7 +89,6 @@ export default function RefreshButton({ generatedAt }) {
       if (!data) return; // Network blip — keep polling
 
       // We're tracking the run that was triggered. Ignore older runs.
-      // If the API returned a run with id < ours, ignore (shouldn't happen but defensive).
       if (runId && data.runId && data.runId < runId) {
         return;
       }
@@ -155,8 +123,6 @@ export default function RefreshButton({ generatedAt }) {
   }, [checkStatus, stopPolling]);
 
   // On mount: resume polling if a run was active when page reloaded.
-  // setState in this effect is intentional — we're subscribing to external
-  // state (localStorage) on first render.
   /* eslint-disable react-hooks/set-state-in-effect */
   useEffect(() => {
     const stored = localStorage.getItem(STORAGE_KEY);
@@ -191,46 +157,22 @@ export default function RefreshButton({ generatedAt }) {
   const handleRefresh = async () => {
     if (status === "running") return; // No-op if already running
 
-    // Pre-flight: if non-admin and quota is 0, don't even try
-    if (quota && !quota.isAdmin && quota.remaining === 0) {
-      setStatus("error");
-      setMessage(`Daily quota used (${quota.usedToday}/${quota.quota}). Try tomorrow.`);
-      setTimeout(() => { setStatus("idle"); setMessage(""); }, 6000);
-      return;
-    }
-
     setStatus("running");
     setMessage("");
     const startedAt = new Date().toISOString();
 
     try {
-      const auth = await getAuthHeader();
-      const res = await fetch("/api/refresh", {
-        method: "POST",
-        headers: auth ? { Authorization: auth } : {},
-      });
+      const res = await fetch("/api/refresh", { method: "POST" });
       const data = await res.json();
 
       if (!data.success) {
         setStatus("error");
         setMessage(data.error || "Failed to trigger refresh");
-        // Refresh quota state after a failed attempt too
-        fetchQuota();
         setTimeout(() => {
           setStatus("idle");
           setMessage("");
         }, 8000);
         return;
-      }
-
-      // Update quota after successful trigger
-      if (typeof data.remaining !== "undefined") {
-        setQuota((prev) => ({
-          ...prev,
-          remaining: data.remaining,
-          usedToday: data.usedToday,
-          quota: data.quota,
-        }));
       }
 
       // Trigger accepted. The workflow run isn't queryable for ~2-3 sec —
@@ -259,11 +201,6 @@ export default function RefreshButton({ generatedAt }) {
     return (new Date() - generated) > 24 * 60 * 60 * 1000;
   })();
 
-  const quotaLabel = quota && !quota.isAdmin
-    ? `${quota.remaining}/${quota.quota} left today`
-    : null;
-  const quotaExhausted = quota && !quota.isAdmin && quota.remaining === 0;
-
   return (
     <div className="flex items-center gap-3">
       {age && status !== "running" && status !== "success" && (
@@ -273,17 +210,9 @@ export default function RefreshButton({ generatedAt }) {
           {isStale && <span className="text-amber-500 font-bold">· Stale</span>}
         </div>
       )}
-      {quotaLabel && status === "idle" && (
-        <div className={`text-[10px] font-medium ${
-          quotaExhausted ? "text-rose-400" : quota.remaining === 1 ? "text-amber-400" : "text-slate-500"
-        }`}>
-          {quotaLabel}
-        </div>
-      )}
       <button
         onClick={handleRefresh}
-        disabled={status === "running" || quotaExhausted}
-        title={quotaExhausted ? "Daily quota exhausted. Resets at midnight UTC." : undefined}
+        disabled={status === "running"}
         className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all border ${
           status === "running"
             ? "bg-amber-950 border-amber-600 text-amber-300 cursor-wait animate-pulse"
@@ -291,8 +220,6 @@ export default function RefreshButton({ generatedAt }) {
             ? "bg-emerald-950 border-emerald-600 text-emerald-300"
             : status === "error"
             ? "bg-rose-950 border-rose-700 text-rose-400 hover:border-rose-500"
-            : quotaExhausted
-            ? "bg-slate-900 border-slate-800 text-slate-600 cursor-not-allowed"
             : "bg-slate-800 border-slate-700 text-slate-300 hover:border-emerald-700 hover:text-emerald-400"
         }`}
       >

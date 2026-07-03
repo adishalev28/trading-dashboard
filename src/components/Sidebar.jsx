@@ -2,8 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { LayoutDashboard, Grid3x3, List, Calculator, Briefcase, LogOut, Cloud, BarChart3, Users, Shield } from "lucide-react";
-import { useAuth } from "@/components/AuthProvider";
+import { LayoutDashboard, Grid3x3, List, Calculator, Briefcase, BarChart3 } from "lucide-react";
 
 const navItems = [
   { href: "/overview",    label: "Overview",    Icon: LayoutDashboard },
@@ -14,13 +13,8 @@ const navItems = [
   { href: "/performance", label: "Performance", Icon: BarChart3 },
 ];
 
-const adminItems = [
-  { href: "/admin/users", label: "Manage Users", Icon: Users },
-];
-
 export default function Sidebar() {
   const pathname = usePathname();
-  const { user, isAdmin, signOut } = useAuth();
 
   return (
     <aside className="fixed inset-y-0 left-0 w-60 bg-slate-950 border-r border-slate-800 flex flex-col z-50 hidden md:flex">
@@ -54,52 +48,10 @@ export default function Sidebar() {
             </Link>
           );
         })}
-
-        {/* Admin section */}
-        {isAdmin && (
-          <>
-            <div className="px-6 mt-6 mb-2 flex items-center gap-2 text-[10px] text-slate-500 uppercase tracking-wider">
-              <Shield className="w-3 h-3" />
-              <span>Admin</span>
-            </div>
-            {adminItems.map(({ href, label, Icon }) => {
-              const active = pathname === href;
-              return (
-                <Link
-                  key={href}
-                  href={href}
-                  className={`flex items-center gap-3 px-6 py-3 text-sm transition-colors ${
-                    active
-                      ? "bg-slate-800 text-purple-400 border-l-2 border-purple-500"
-                      : "text-slate-400 hover:text-slate-200 hover:bg-slate-900 border-l-2 border-transparent"
-                  }`}
-                >
-                  <Icon className="w-4 h-4" />
-                  <span className="font-medium">{label}</span>
-                </Link>
-              );
-            })}
-          </>
-        )}
       </nav>
 
-      {/* User Info + Logout */}
-      <div className="px-6 py-4 border-t border-slate-800 space-y-3">
-        {user && (
-          <div className="space-y-2">
-            <div className="flex items-center gap-2 text-xs text-emerald-400">
-              <Cloud className="w-3 h-3" />
-              <span className="truncate">{user.email}</span>
-            </div>
-            <button
-              onClick={signOut}
-              className="flex items-center gap-2 text-xs text-slate-500 hover:text-slate-300 transition-colors"
-            >
-              <LogOut className="w-3 h-3" />
-              Sign out
-            </button>
-          </div>
-        )}
+      {/* Footer */}
+      <div className="px-6 py-4 border-t border-slate-800">
         <div className="text-[10px] text-slate-500">
           Minervini VCP × Weinstein Stage 2
         </div>

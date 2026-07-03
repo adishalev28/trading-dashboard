@@ -12,7 +12,6 @@ import usePortfolio from "@/hooks/usePortfolio";
 import mockData from "@/lib/mockData.json";
 import { fmtUsd } from "@/lib/formatters";
 import { Trash2, Briefcase, FlaskConical, LogIn, Cloud, Mail, Check } from "lucide-react";
-import { useAuth } from "@/components/AuthProvider";
 
 function SummaryCards({ positions, tickers }) {
   const tickerMap = {};
@@ -60,7 +59,6 @@ export default function PortfolioPage() {
     simPositions, addSimulation, removeSimulation, updateSimulation, clearSimulations,
     isCloud,
   } = usePortfolio();
-  const { user } = useAuth();
   const { tickers } = mockData;
   const [tab, setTab] = useState("real"); // "real" | "sim"
 

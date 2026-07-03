@@ -21,16 +21,6 @@ jobs:
       contents: write        # Needed to push updated mockData.json
 
     steps:
-      # Ping the LIVE Supabase project (swab...) so the twice-daily schedule
-      # also counts as Supabase activity. Without this, the project auto-pauses
-      # after 7 days with no logins. The apikey is the public anon/publishable
-      # key (RLS-protected) — safe to keep in a public repo.
-      - name: Keep Supabase alive (prevent 7-day auto-pause)
-        run: |
-          curl -s -o /dev/null -w "Supabase keep-alive: %{http_code}\n" \
-            -H "apikey: sb_publishable_NZm9c_P1hZXNSRB9HDCaGQ_VTEt_9sU" \
-            "https://swabpldjfmxzalkzfzvq.supabase.co/rest/v1/allowed_users?select=email&limit=1"
-
       - name: Checkout repo
         uses: actions/checkout@v4
 
