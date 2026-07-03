@@ -3103,6 +3103,55 @@
         "price": 712.6,
         "sma50": 708.51
       }
+    },
+    {
+      "date": "2026-07-03",
+      "stage2Count": 310,
+      "breakoutCount": 34,
+      "breakoutTickers": [
+        "ABCL",
+        "ALGT",
+        "ALKS",
+        "AMRX",
+        "ASTH",
+        "AXGN",
+        "BKD",
+        "BTSG",
+        "CHEF",
+        "CNC",
+        "COGT",
+        "CYTK",
+        "DAL",
+        "DDOG",
+        "DK",
+        "FTNT",
+        "GEO",
+        "GH",
+        "HNGE",
+        "IMVT",
+        "JBHT",
+        "KOD",
+        "KRYS",
+        "LFST",
+        "LNTH",
+        "LQDA",
+        "NRIX",
+        "OUT",
+        "PANW",
+        "PLSE",
+        "ROIV",
+        "RVMD",
+        "TIGO",
+        "TXG"
+      ],
+      "spy": {
+        "price": 744.78,
+        "sma50": 735.91
+      },
+      "qqq": {
+        "price": 712.6,
+        "sma50": 708.51
+      }
     }
   ]
 }
