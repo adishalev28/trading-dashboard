@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-05 11:23:19",
+    "generatedAt": "2026-07-05 22:43:37",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
     "totalScanned": 1289,
@@ -8,7 +8,7 @@
     "finalCount": 377,
     "note": "Screened 1289 stocks. 377 passed Stage 2 / Warning filters."
   },
-  "fxRate": 2.9953,
+  "fxRate": 2.9935,
   "commissionRoundTripUsd": 14,
   "benchmark": {
     "symbol": "SPY",
@@ -17825,7 +17825,7 @@
     },
     {
       "ticker": "TGB",
-      "companyName": "Taseko Mines",
+      "companyName": "Trekor Metals Limited",
       "price": 6.93,
       "sma150": 6.89,
       "sma200": 6.22,
