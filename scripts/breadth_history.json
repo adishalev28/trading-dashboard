@@ -3292,6 +3292,48 @@
         "price": 722.82,
         "sma50": 709.88
       }
+    },
+    {
+      "date": "2026-07-07",
+      "stage2Count": 313,
+      "breakoutCount": 27,
+      "breakoutTickers": [
+        "ABVX",
+        "AXGN",
+        "BRKR",
+        "CHEF",
+        "CON",
+        "CYTK",
+        "DK",
+        "DNLI",
+        "DYN",
+        "ELVN",
+        "EZPW",
+        "GEV",
+        "GH",
+        "GSAT",
+        "IMVT",
+        "KRYS",
+        "KYMR",
+        "LQDA",
+        "MBX",
+        "MOG-A",
+        "MRX",
+        "NRIX",
+        "PLSE",
+        "PTGX",
+        "RVMD",
+        "TGTX",
+        "VIRT"
+      ],
+      "spy": {
+        "price": 751.28,
+        "sma50": 736.75
+      },
+      "qqq": {
+        "price": 722.82,
+        "sma50": 709.88
+      }
     }
   ]
 }
