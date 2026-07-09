@@ -3386,6 +3386,56 @@
         "price": 711.44,
         "sma50": 712.02
       }
+    },
+    {
+      "date": "2026-07-09",
+      "stage2Count": 290,
+      "breakoutCount": 35,
+      "breakoutTickers": [
+        "ALKS",
+        "APGE",
+        "ARWR",
+        "BTSG",
+        "CHEF",
+        "CNC",
+        "COGT",
+        "CON",
+        "CORT",
+        "CRNX",
+        "CXW",
+        "DDOG",
+        "DELL",
+        "ELVN",
+        "GLUE",
+        "HNGE",
+        "IMNM",
+        "INSW",
+        "KRYS",
+        "LGND",
+        "MBX",
+        "MRX",
+        "NRIX",
+        "NTAP",
+        "OGN",
+        "OKTA",
+        "OUT",
+        "PGNY",
+        "PHVS",
+        "PTGX",
+        "RLAY",
+        "ROIV",
+        "RVMD",
+        "TGTX",
+        "TVTX"
+      ],
+      "spy": {
+        "price": 745.4,
+        "sma50": 738.24
+      },
+      "qqq": {
+        "price": 711.44,
+        "sma50": 712.02
+      }
     }
   ]
 }
