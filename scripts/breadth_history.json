@@ -3432,44 +3432,41 @@
     {
       "date": "2026-07-10",
       "stage2Count": 310,
-      "breakoutCount": 28,
+      "breakoutCount": 25,
       "breakoutTickers": [
+        "AAMI",
         "AMRX",
-        "ATEX",
-        "CELC",
-        "CGON",
-        "CHEF",
+        "AVAH",
+        "BTSG",
         "CNC",
-        "CORT",
-        "CRWD",
-        "CYTK",
-        "DAVE",
+        "CON",
+        "CRNX",
+        "CSCO",
         "DINO",
-        "GEO",
-        "ILMN",
-        "IMNM",
-        "INDV",
+        "DK",
+        "DVA",
+        "ENVA",
+        "HNGE",
+        "HPE",
+        "INSW",
         "JAZZ",
-        "KOD",
-        "KRYS",
-        "KYMR",
-        "MIRM",
-        "OGN",
-        "RSI",
-        "RVMD",
-        "SYRE",
-        "TVTX",
-        "VCYT",
-        "VLO",
-        "YOU"
+        "LGND",
+        "LTH",
+        "NTAP",
+        "PBF",
+        "PGNY",
+        "TWLO",
+        "TXG",
+        "VIRT",
+        "XMTR"
       ],
       "spy": {
-        "price": 751.71,
-        "sma50": 739.0
+        "price": 754.95,
+        "sma50": 739.91
       },
       "qqq": {
-        "price": 723.28,
-        "sma50": 713.22
+        "price": 725.51,
+        "sma50": 714.59
       }
     }
   ]
