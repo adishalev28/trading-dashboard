@@ -3428,6 +3428,49 @@
         "price": 723.28,
         "sma50": 713.22
       }
+    },
+    {
+      "date": "2026-07-10",
+      "stage2Count": 310,
+      "breakoutCount": 28,
+      "breakoutTickers": [
+        "AMRX",
+        "ATEX",
+        "CELC",
+        "CGON",
+        "CHEF",
+        "CNC",
+        "CORT",
+        "CRWD",
+        "CYTK",
+        "DAVE",
+        "DINO",
+        "GEO",
+        "ILMN",
+        "IMNM",
+        "INDV",
+        "JAZZ",
+        "KOD",
+        "KRYS",
+        "KYMR",
+        "MIRM",
+        "OGN",
+        "RSI",
+        "RVMD",
+        "SYRE",
+        "TVTX",
+        "VCYT",
+        "VLO",
+        "YOU"
+      ],
+      "spy": {
+        "price": 751.71,
+        "sma50": 739.0
+      },
+      "qqq": {
+        "price": 723.28,
+        "sma50": 713.22
+      }
     }
   ]
 }
