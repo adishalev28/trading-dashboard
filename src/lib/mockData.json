@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-11 22:34:50",
+    "generatedAt": "2026-07-12 11:05:14",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
     "totalScanned": 1259,
@@ -19,7 +19,7 @@
     "aboveSma200": true
   },
   "breadth": {
-    "asOf": "2026-07-11",
+    "asOf": "2026-07-12",
     "indices": {
       "spy": {
         "price": 754.95,
@@ -36,13 +36,13 @@
     },
     "stage2": {
       "current": 309,
-      "prev5d": 313,
-      "changePct": -1.3
+      "prev5d": 294,
+      "changePct": 5.1
     },
     "breakouts": {
       "current": 25,
-      "prev5d": 26,
-      "changePct": -3.8
+      "prev5d": 27,
+      "changePct": -7.4
     }
   },
   "sectors": [
@@ -5805,7 +5805,7 @@
     },
     {
       "ticker": "CROX",
-      "companyName": "CROX",
+      "companyName": "Crocs",
       "price": 132.78,
       "sma150": 97.72,
       "sma200": 93.58,
@@ -5849,8 +5849,9 @@
         127.13,
         132.78
       ],
-      "marketCap": 0,
+      "marketCap": 6.6,
       "sector": "Consumer Discretionary",
+      "earningsDate": "2026-07-30",
       "epsGrowthYoY": -4.2,
       "salesGrowthYoY": -1.7,
       "lastReportDate": "2026-03-31"
@@ -13600,7 +13601,7 @@
         148.84,
         138.63
       ],
-      "marketCap": 24.1,
+      "marketCap": 24.3,
       "sector": "Technology",
       "earningsDate": "2026-08-25",
       "epsGrowthYoY": 20.0,
@@ -17074,7 +17075,7 @@
         890.09,
         910.34
       ],
-      "marketCap": 206.0,
+      "marketCap": 204.1,
       "sector": "Technology",
       "earningsDate": "2026-07-28",
       "epsGrowthYoY": 108.3,
