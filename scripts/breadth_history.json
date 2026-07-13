@@ -3548,6 +3548,46 @@
         "price": 725.51,
         "sma50": 714.59
       }
+    },
+    {
+      "date": "2026-07-13",
+      "stage2Count": 309,
+      "breakoutCount": 25,
+      "breakoutTickers": [
+        "AAMI",
+        "AMRX",
+        "AVAH",
+        "BTSG",
+        "CNC",
+        "CON",
+        "CRNX",
+        "CSCO",
+        "DINO",
+        "DK",
+        "DVA",
+        "ENVA",
+        "HNGE",
+        "HPE",
+        "INSW",
+        "JAZZ",
+        "LGND",
+        "LTH",
+        "NTAP",
+        "PBF",
+        "PGNY",
+        "TWLO",
+        "TXG",
+        "VIRT",
+        "XMTR"
+      ],
+      "spy": {
+        "price": 754.95,
+        "sma50": 739.91
+      },
+      "qqq": {
+        "price": 725.51,
+        "sma50": 714.59
+      }
     }
   ]
 }
