@@ -3551,42 +3551,38 @@
     },
     {
       "date": "2026-07-13",
-      "stage2Count": 309,
-      "breakoutCount": 25,
+      "stage2Count": 294,
+      "breakoutCount": 21,
       "breakoutTickers": [
-        "AAMI",
         "AMRX",
         "AVAH",
-        "BTSG",
+        "CHEF",
         "CNC",
         "CON",
-        "CRNX",
         "CSCO",
-        "DINO",
-        "DK",
+        "CXW",
+        "DNTH",
         "DVA",
-        "ENVA",
-        "HNGE",
-        "HPE",
-        "INSW",
-        "JAZZ",
-        "LGND",
+        "FSLY",
+        "FTNT",
+        "GEO",
+        "HUM",
+        "KOD",
         "LTH",
-        "NTAP",
-        "PBF",
-        "PGNY",
-        "TWLO",
-        "TXG",
-        "VIRT",
-        "XMTR"
+        "OGN",
+        "OSCR",
+        "OUT",
+        "PBI",
+        "TIGO",
+        "TWLO"
       ],
       "spy": {
-        "price": 754.95,
-        "sma50": 739.91
+        "price": 749.17,
+        "sma50": 740.69
       },
       "qqq": {
-        "price": 725.51,
-        "sma50": 714.59
+        "price": 711.74,
+        "sma50": 715.61
       }
     }
   ]
