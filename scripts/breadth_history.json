@@ -3584,6 +3584,52 @@
         "price": 711.74,
         "sma50": 715.61
       }
+    },
+    {
+      "date": "2026-07-14",
+      "stage2Count": 294,
+      "breakoutCount": 31,
+      "breakoutTickers": [
+        "AMG",
+        "AMRX",
+        "AVAH",
+        "KOD",
+        "LB",
+        "LIVN",
+        "LTH",
+        "MNST",
+        "MUSA",
+        "NSIT",
+        "OGN",
+        "OSCR",
+        "OUT",
+        "PBI",
+        "PLGO",
+        "RAMP",
+        "ROKU",
+        "RY",
+        "SIRI",
+        "SLAB",
+        "SN",
+        "STT",
+        "TD",
+        "TIGO",
+        "TWLO",
+        "UNH",
+        "VCTR",
+        "VRNS",
+        "WBD",
+        "WERN",
+        "WST"
+      ],
+      "spy": {
+        "price": 749.17,
+        "sma50": 740.69
+      },
+      "qqq": {
+        "price": 711.74,
+        "sma50": 715.61
+      }
     }
   ]
 }
