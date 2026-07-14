@@ -3587,48 +3587,37 @@
     },
     {
       "date": "2026-07-14",
-      "stage2Count": 294,
-      "breakoutCount": 31,
+      "stage2Count": 301,
+      "breakoutCount": 20,
       "breakoutTickers": [
-        "AMG",
-        "AMRX",
-        "AVAH",
-        "KOD",
-        "LB",
-        "LIVN",
-        "LTH",
-        "MNST",
-        "MUSA",
-        "NSIT",
+        "ASTH",
+        "ATEN",
+        "CALY",
+        "CLMT",
+        "CMBT",
+        "CXW",
+        "DVA",
+        "ELVN",
+        "GSAT",
+        "HNGE",
+        "HUM",
+        "ILMN",
         "OGN",
-        "OSCR",
         "OUT",
-        "PBI",
-        "PLGO",
-        "RAMP",
-        "ROKU",
-        "RY",
-        "SIRI",
-        "SLAB",
-        "SN",
-        "STT",
-        "TD",
-        "TIGO",
-        "TWLO",
-        "UNH",
-        "VCTR",
-        "VRNS",
-        "WBD",
-        "WERN",
-        "WST"
+        "PACS",
+        "PANW",
+        "RSI",
+        "SEZL",
+        "SYRE",
+        "TWLO"
       ],
       "spy": {
-        "price": 749.17,
-        "sma50": 740.69
+        "price": 751.83,
+        "sma50": 741.39
       },
       "qqq": {
-        "price": 711.74,
-        "sma50": 715.61
+        "price": 719.69,
+        "sma50": 716.66
       }
     }
   ]
