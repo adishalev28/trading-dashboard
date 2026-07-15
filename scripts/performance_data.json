@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-14 22:42:21",
+  "lastUpdate": "2026-07-15 22:43:25",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -30607,6 +30607,34 @@
       ],
       "topPicksHistory": [],
       "lastSeen": "2026-07-14"
+    },
+    "FF": {
+      "firstSeen": "2026-07-15",
+      "entryPrice": 4.64,
+      "appearances": [
+        {
+          "date": "2026-07-15",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-07-15"
+    },
+    "EES": {
+      "firstSeen": "2026-07-15",
+      "entryPrice": 67.76,
+      "appearances": [
+        {
+          "date": "2026-07-15",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-07-15"
     }
   }
 }
