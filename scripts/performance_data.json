@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-16 11:25:14",
+  "lastUpdate": "2026-07-16 22:39:04",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -30641,6 +30641,20 @@
       ],
       "topPicksHistory": [],
       "lastSeen": "2026-07-15"
+    },
+    "EE": {
+      "firstSeen": "2026-07-16",
+      "entryPrice": 39.47,
+      "appearances": [
+        {
+          "date": "2026-07-16",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-07-16"
     }
   }
 }
