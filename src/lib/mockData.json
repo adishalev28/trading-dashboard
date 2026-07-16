@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generatedAt": "2026-07-15 22:43:25",
+    "generatedAt": "2026-07-16 11:25:14",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
-    "totalScanned": 1261,
-    "passedFinviz": 1261,
-    "finalCount": 16,
-    "note": "Screened 1261 stocks. 16 passed Stage 2 / Warning filters."
+    "totalScanned": 1259,
+    "passedFinviz": 1259,
+    "finalCount": 13,
+    "note": "Screened 1259 stocks. 13 passed Stage 2 / Warning filters."
   },
-  "fxRate": 2.9874,
+  "fxRate": 3.0068,
   "commissionRoundTripUsd": 14,
   "benchmark": {
     "symbol": "SPY",
@@ -19,7 +19,7 @@
     "aboveSma200": true
   },
   "breadth": {
-    "asOf": "2026-07-15",
+    "asOf": "2026-07-16",
     "indices": {
       "spy": {
         "price": 754.81,
@@ -35,14 +35,14 @@
       }
     },
     "stage2": {
-      "current": 13,
-      "prev5d": 310,
-      "changePct": -95.8
+      "current": 11,
+      "prev5d": 309,
+      "changePct": -96.4
     },
     "breakouts": {
-      "current": 2,
+      "current": 1,
       "prev5d": 25,
-      "changePct": -92.0
+      "changePct": -96.0
     }
   },
   "sectors": [
@@ -83,7 +83,7 @@
         183.62,
         181.58
       ],
-      "marketCap": 123.9
+      "marketCap": 0
     },
     {
       "symbol": "XLV",
@@ -122,7 +122,7 @@
         158.29,
         158.29
       ],
-      "marketCap": 40.6
+      "marketCap": 0
     },
     {
       "symbol": "XLF",
@@ -161,7 +161,7 @@
         56.18,
         56.56
       ],
-      "marketCap": 51.4
+      "marketCap": 0
     },
     {
       "symbol": "XLE",
@@ -200,7 +200,7 @@
         56.95,
         56.5
       ],
-      "marketCap": 35.7
+      "marketCap": 0
     },
     {
       "symbol": "XLI",
@@ -239,7 +239,7 @@
         180.45,
         180.06
       ],
-      "marketCap": 34.0
+      "marketCap": 0
     },
     {
       "symbol": "XLY",
@@ -278,7 +278,7 @@
         115.9,
         117.0
       ],
-      "marketCap": 22.6
+      "marketCap": 0
     },
     {
       "symbol": "XLP",
@@ -317,7 +317,7 @@
         83.42,
         83.47
       ],
-      "marketCap": 13.6
+      "marketCap": 0
     },
     {
       "symbol": "XLB",
@@ -356,7 +356,7 @@
         50.64,
         50.5
       ],
-      "marketCap": 8.2
+      "marketCap": 0
     },
     {
       "symbol": "XLU",
@@ -395,7 +395,7 @@
         45.69,
         45.22
       ],
-      "marketCap": 23.1
+      "marketCap": 0
     },
     {
       "symbol": "XLRE",
@@ -434,7 +434,7 @@
         44.48,
         44.56
       ],
-      "marketCap": 8.1
+      "marketCap": 0
     },
     {
       "symbol": "XLC",
@@ -473,7 +473,7 @@
         111.45,
         113.38
       ],
-      "marketCap": 22.3
+      "marketCap": 0
     }
   ],
   "tickers": [
@@ -483,11 +483,11 @@
       "price": 113.11,
       "sma150": 101.47,
       "sma200": 100.37,
-      "rsScore": 90,
+      "rsScore": 87,
       "vcpStatus": "none",
       "volumeSurge": "none",
       "weekHighDistance": 23.65,
-      "volumePctAvg": 65.6,
+      "volumePctAvg": 66.3,
       "sma20": 121.23,
       "pivotPrice": 136.72,
       "distToPivotPct": 17.27,
@@ -523,16 +523,15 @@
         112.93,
         113.11
       ],
-      "marketCap": 9.3,
+      "marketCap": 0,
       "sector": "Financials",
-      "earningsDate": "2026-08-10",
       "epsGrowthYoY": 37.1,
       "salesGrowthYoY": 54.3,
       "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "BBC",
-      "companyName": "Virtus Biotech Clinical Trials",
+      "companyName": "BBC",
       "price": 51.85,
       "sma150": 43.03,
       "sma200": 40.06,
@@ -540,7 +539,7 @@
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 5.5,
-      "volumePctAvg": 49.2,
+      "volumePctAvg": 49.5,
       "sma20": 50.64,
       "pivotPrice": 54.87,
       "distToPivotPct": 5.5,
@@ -581,15 +580,15 @@
     },
     {
       "ticker": "BBIO",
-      "companyName": "BridgeBio Pharma",
+      "companyName": "BBIO",
       "price": 82.66,
       "sma150": 72.34,
       "sma200": 69.65,
-      "rsScore": 88,
+      "rsScore": 85,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 8.33,
-      "volumePctAvg": 51.6,
+      "volumePctAvg": 52.0,
       "sma20": 75.26,
       "pivotPrice": 90.17,
       "distToPivotPct": 8.33,
@@ -625,24 +624,23 @@
         84.09,
         82.66
       ],
-      "marketCap": 16.2,
+      "marketCap": 0,
       "sector": "Healthcare",
-      "earningsDate": "2026-08-04",
       "epsGrowthYoY": 4.5,
       "salesGrowthYoY": 66.8,
       "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "BBP",
-      "companyName": "Virtus Biotech ETF",
+      "companyName": "BBP",
       "price": 98.2,
       "sma150": 85.05,
       "sma200": 82.38,
-      "rsScore": 93,
+      "rsScore": 92,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 5.23,
-      "volumePctAvg": 67.6,
+      "volumePctAvg": 68.1,
       "sma20": 96.26,
       "pivotPrice": 103.62,
       "distToPivotPct": 5.23,
@@ -682,74 +680,20 @@
       "sector": "Energy"
     },
     {
-      "ticker": "CC",
-      "companyName": "Chemours Company (The)",
-      "price": 18.51,
-      "sma150": 19.07,
-      "sma200": 17.57,
-      "rsScore": 75,
-      "vcpStatus": "none",
-      "volumeSurge": "none",
-      "weekHighDistance": 33.52,
-      "volumePctAvg": 55.4,
-      "sma20": 19.8,
-      "pivotPrice": 22.02,
-      "distToPivotPct": 15.94,
-      "priceHistory30d": [
-        23.25,
-        22.61,
-        21.67,
-        20.5,
-        20.86,
-        20.22,
-        20.31,
-        21.52,
-        22.0,
-        22.43,
-        21.67,
-        22.02,
-        21.77,
-        21.46,
-        19.96,
-        21.17,
-        21.36,
-        20.74,
-        20.26,
-        20.52,
-        20.14,
-        19.01,
-        18.19,
-        18.85,
-        18.38,
-        17.39,
-        17.81,
-        18.12,
-        18.63,
-        18.51
-      ],
-      "marketCap": 2.8,
-      "sector": "Financials",
-      "earningsDate": "2026-08-04",
-      "epsGrowthYoY": -533.3,
-      "salesGrowthYoY": 1.0,
-      "lastReportDate": "2026-03-31"
-    },
-    {
       "ticker": "CCBC",
-      "companyName": "Chino Commercial Bancorp",
+      "companyName": "CCBC",
       "price": 17.35,
-      "sma150": 15.48,
-      "sma200": 15.04,
-      "rsScore": 82,
+      "sma150": 15.51,
+      "sma200": 15.06,
+      "rsScore": 78,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 8.68,
-      "volumePctAvg": 169.4,
-      "sma20": 18.24,
+      "volumePctAvg": 0.0,
+      "sma20": 18.29,
       "pivotPrice": 19.0,
       "distToPivotPct": 8.68,
       "priceHistory30d": [
-        16.67,
         16.67,
         16.67,
         16.67,
@@ -778,22 +722,23 @@
         18.75,
         17.75,
         17.75,
+        17.35,
         17.35
       ],
-      "marketCap": 0.1,
+      "marketCap": 0,
       "sector": "Financials"
     },
     {
       "ticker": "DD",
-      "companyName": "DuPont de Nemours",
+      "companyName": "DD",
       "price": 134.86,
       "sma150": 137.2,
       "sma200": 129.6,
-      "rsScore": 77,
+      "rsScore": 71,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 12.07,
-      "volumePctAvg": 78.4,
+      "volumePctAvg": 79.1,
       "sma20": 138.35,
       "pivotPrice": 144.57,
       "distToPivotPct": 6.72,
@@ -829,16 +774,15 @@
         134.17,
         134.86
       ],
-      "marketCap": 18.2,
+      "marketCap": 0,
       "sector": "Utilities",
-      "earningsDate": "2026-08-04",
       "epsGrowthYoY": 127.7,
       "salesGrowthYoY": 4.3,
       "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "DDD",
-      "companyName": "3D Systems Corporation",
+      "companyName": "DDD",
       "price": 2.96,
       "sma150": 2.44,
       "sma200": 2.49,
@@ -846,7 +790,7 @@
       "vcpStatus": "none",
       "volumeSurge": "none",
       "weekHighDistance": 23.71,
-      "volumePctAvg": 20.7,
+      "volumePctAvg": 25.1,
       "sma20": 3.05,
       "pivotPrice": 3.57,
       "distToPivotPct": 17.09,
@@ -882,24 +826,23 @@
         2.97,
         2.96
       ],
-      "marketCap": 0.5,
+      "marketCap": 0,
       "sector": "Materials",
-      "earningsDate": "2026-08-10",
       "epsGrowthYoY": 89.3,
       "salesGrowthYoY": 1.1,
       "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "EE",
-      "companyName": "Excelerate Energy",
+      "companyName": "EE",
       "price": 38.48,
       "sma150": 34.41,
       "sma200": 32.47,
-      "rsScore": 86,
+      "rsScore": 83,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 9.88,
-      "volumePctAvg": 41.8,
+      "volumePctAvg": 58.6,
       "sma20": 37.4,
       "pivotPrice": 39.57,
       "distToPivotPct": 2.75,
@@ -935,24 +878,23 @@
         38.73,
         38.48
       ],
-      "marketCap": 4.4,
+      "marketCap": 0,
       "sector": "Energy",
-      "earningsDate": "2026-08-05",
       "epsGrowthYoY": -19.6,
       "salesGrowthYoY": 37.6,
       "lastReportDate": "2026-03-31"
     },
     {
       "ticker": "EEMA",
-      "companyName": "iShares MSCI Emerging Markets ",
+      "companyName": "EEMA",
       "price": 113.22,
       "sma150": 104.69,
       "sma200": 101.56,
-      "rsScore": 79,
+      "rsScore": 73,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 6.82,
-      "volumePctAvg": 14.9,
+      "volumePctAvg": 15.7,
       "sma20": 115.47,
       "pivotPrice": 121.51,
       "distToPivotPct": 6.82,
@@ -993,18 +935,18 @@
     },
     {
       "ticker": "EES",
-      "companyName": "WisdomTree U.S. SmallCap Fund",
+      "companyName": "EES",
       "price": 67.76,
       "sma150": 61.04,
       "sma200": 59.47,
-      "rsScore": 81,
+      "rsScore": 76,
       "vcpStatus": "loose",
       "volumeSurge": "none",
-      "weekHighDistance": 0.58,
-      "volumePctAvg": 43.0,
-      "sma20": 66.81,
+      "weekHighDistance": 0.59,
+      "volumePctAvg": 44.0,
+      "sma20": 66.8,
       "pivotPrice": 68.16,
-      "distToPivotPct": 0.58,
+      "distToPivotPct": 0.59,
       "priceHistory30d": [
         64.38,
         63.4,
@@ -1042,11 +984,11 @@
     },
     {
       "ticker": "EESE",
-      "companyName": "Energy & Environmental Service",
+      "companyName": "EESE",
       "price": 0.09,
       "sma150": 0.08,
       "sma200": 0.08,
-      "rsScore": 92,
+      "rsScore": 90,
       "vcpStatus": "none",
       "volumeSurge": "none",
       "weekHighDistance": 18.18,
@@ -1055,7 +997,6 @@
       "pivotPrice": 0.1,
       "distToPivotPct": 10.0,
       "priceHistory30d": [
-        0.1,
         0.11,
         0.11,
         0.09,
@@ -1078,6 +1019,7 @@
         0.09,
         0.1,
         0.1,
+        0.09,
         0.09,
         0.09,
         0.09,
@@ -1086,20 +1028,20 @@
         0.09,
         0.09
       ],
-      "marketCap": 0.0,
+      "marketCap": 0,
       "sector": "Technology"
     },
     {
       "ticker": "EET",
-      "companyName": "ProShares Ultra MSCI Emerging ",
+      "companyName": "EET",
       "price": 107.23,
       "sma150": 98.08,
       "sma200": 92.98,
-      "rsScore": 95,
+      "rsScore": 94,
       "vcpStatus": "none",
       "volumeSurge": "none",
       "weekHighDistance": 15.83,
-      "volumePctAvg": 67.3,
+      "volumePctAvg": 67.2,
       "sma20": 113.5,
       "pivotPrice": 127.39,
       "distToPivotPct": 15.83,
@@ -1140,11 +1082,11 @@
     },
     {
       "ticker": "FF",
-      "companyName": "FutureFuel Corp.",
+      "companyName": "FF",
       "price": 4.64,
       "sma150": 3.96,
       "sma200": 3.87,
-      "rsScore": 84,
+      "rsScore": 80,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 6.61,
@@ -1184,110 +1126,11 @@
         4.72,
         4.64
       ],
-      "marketCap": 0.2,
+      "marketCap": 0,
       "sector": "Consumer Discretionary",
-      "earningsDate": "2026-08-10",
       "epsGrowthYoY": -14.6,
       "salesGrowthYoY": 82.2,
       "lastReportDate": "2026-03-31"
-    },
-    {
-      "ticker": "FFLEX",
-      "companyName": "Fidelity Freedom Index 2060 Fu",
-      "price": 23.99,
-      "sma150": 22.59,
-      "sma200": 22.22,
-      "rsScore": 71,
-      "vcpStatus": "none",
-      "volumeSurge": "none",
-      "weekHighDistance": 1.24,
-      "volumePctAvg": 100.0,
-      "sma20": 23.97,
-      "pivotPrice": 24.21,
-      "distToPivotPct": 0.91,
-      "priceHistory30d": [
-        24.19,
-        24.29,
-        24.1,
-        24.17,
-        23.45,
-        23.55,
-        23.55,
-        23.19,
-        23.75,
-        23.87,
-        24.21,
-        24.1,
-        23.88,
-        24.17,
-        24.13,
-        23.69,
-        23.71,
-        23.78,
-        23.72,
-        23.94,
-        24.1,
-        23.92,
-        23.93,
-        24.19,
-        23.96,
-        23.88,
-        24.04,
-        24.12,
-        23.85,
-        23.99
-      ],
-      "marketCap": 0,
-      "sector": "Technology"
-    },
-    {
-      "ticker": "FFLG",
-      "companyName": "Fidelity Fundamental Large Cap",
-      "price": 33.56,
-      "sma150": 31.14,
-      "sma200": 30.76,
-      "rsScore": 73,
-      "vcpStatus": "none",
-      "volumeSurge": "none",
-      "weekHighDistance": 4.62,
-      "volumePctAvg": 72.6,
-      "sma20": 33.75,
-      "pivotPrice": 34.68,
-      "distToPivotPct": 3.23,
-      "priceHistory30d": [
-        35.18,
-        34.87,
-        35.03,
-        33.42,
-        33.76,
-        33.38,
-        32.56,
-        33.46,
-        33.55,
-        34.66,
-        34.25,
-        33.88,
-        34.67,
-        34.42,
-        33.48,
-        33.44,
-        33.39,
-        33.12,
-        34.04,
-        34.68,
-        34.02,
-        33.2,
-        33.75,
-        33.2,
-        33.36,
-        33.79,
-        33.93,
-        33.1,
-        33.67,
-        33.56
-      ],
-      "marketCap": 0,
-      "sector": "Financials"
     }
   ]
 }
