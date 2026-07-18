@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-17 22:34:33",
+  "lastUpdate": "2026-07-18 10:52:57",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -30629,6 +30629,12 @@
           "lists": [
             "topPick"
           ]
+        },
+        {
+          "date": "2026-07-18",
+          "lists": [
+            "topPick"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -30637,9 +30643,15 @@
           "score": 55,
           "grade": "B+",
           "tags": []
+        },
+        {
+          "date": "2026-07-18",
+          "score": 55,
+          "grade": "B+",
+          "tags": []
         }
       ],
-      "lastSeen": "2026-07-17",
+      "lastSeen": "2026-07-18",
       "bestTopPickScore": 55
     },
     "EES": {
@@ -30657,10 +30669,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-07-18",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-07-17"
+      "lastSeen": "2026-07-18"
     },
     "EE": {
       "firstSeen": "2026-07-16",
@@ -30677,10 +30695,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-07-18",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-07-17"
+      "lastSeen": "2026-07-18"
     }
   }
 }
