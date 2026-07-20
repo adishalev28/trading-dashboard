@@ -1,37 +1,37 @@
 {
   "meta": {
-    "generatedAt": "2026-07-20 12:05:38",
+    "generatedAt": "2026-07-20 22:39:55",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
-    "totalScanned": 1271,
-    "passedFinviz": 1271,
-    "finalCount": 11,
-    "note": "Screened 1271 stocks. 11 passed Stage 2 / Warning filters."
+    "totalScanned": 1231,
+    "passedFinviz": 1231,
+    "finalCount": 10,
+    "note": "Screened 1231 stocks. 10 passed Stage 2 / Warning filters."
   },
-  "fxRate": 3.0459,
+  "fxRate": 3.0551,
   "commissionRoundTripUsd": 14,
   "benchmark": {
     "symbol": "SPY",
-    "price": 743.29,
-    "sma200": 693.44,
-    "sma50": 743.23,
-    "changePct": -0.99,
+    "price": 742.09,
+    "sma200": 693.85,
+    "sma50": 743.44,
+    "changePct": -0.16,
     "aboveSma200": true
   },
   "breadth": {
     "asOf": "2026-07-20",
     "indices": {
       "spy": {
-        "price": 743.29,
-        "sma50": 743.23,
-        "aboveSma50": true,
-        "distSma50Pct": 0.0
+        "price": 742.09,
+        "sma50": 743.44,
+        "aboveSma50": false,
+        "distSma50Pct": -0.2
       },
       "qqq": {
-        "price": 695.33,
-        "sma50": 718.52,
+        "price": 696.06,
+        "sma50": 718.54,
         "aboveSma50": false,
-        "distSma50Pct": -3.2
+        "distSma50Pct": -3.1
       }
     },
     "stage2": {
@@ -40,19 +40,18 @@
       "changePct": -30.8
     },
     "breakouts": {
-      "current": 1,
+      "current": 2,
       "prev5d": 2,
-      "changePct": -50.0
+      "changePct": 0.0
     }
   },
   "sectors": [
     {
       "symbol": "XLK",
       "name": "Technology",
-      "changePct": -1.09,
+      "changePct": 0.07,
       "strengthScore": 77,
       "priceHistory30d": [
-        192.94,
         180.09,
         183.96,
         180.55,
@@ -81,17 +80,17 @@
         183.62,
         181.58,
         177.52,
-        175.59
+        175.59,
+        175.71
       ],
       "marketCap": 0
     },
     {
       "symbol": "XLV",
       "name": "Healthcare",
-      "changePct": -0.44,
+      "changePct": -1.14,
       "strengthScore": 61,
       "priceHistory30d": [
-        151.41,
         152.34,
         151.98,
         153.89,
@@ -120,17 +119,17 @@
         158.29,
         158.29,
         161.8,
-        161.09
+        161.09,
+        159.25
       ],
       "marketCap": 0
     },
     {
       "symbol": "XLF",
       "name": "Financials",
-      "changePct": -0.86,
-      "strengthScore": 58,
+      "changePct": -0.39,
+      "strengthScore": 56,
       "priceHistory30d": [
-        52.01,
         52.12,
         51.79,
         52.28,
@@ -159,17 +158,17 @@
         56.18,
         56.56,
         56.75,
-        56.26
+        56.26,
+        56.04
       ],
       "marketCap": 0
     },
     {
       "symbol": "XLE",
       "name": "Energy",
-      "changePct": 1.16,
-      "strengthScore": 52,
+      "changePct": 0.45,
+      "strengthScore": 53,
       "priceHistory30d": [
-        58.33,
         57.26,
         57.91,
         56.98,
@@ -198,17 +197,17 @@
         56.95,
         56.5,
         57.02,
-        57.68
+        57.68,
+        57.94
       ],
       "marketCap": 0
     },
     {
       "symbol": "XLI",
       "name": "Industrials",
-      "changePct": -0.41,
-      "strengthScore": 46,
+      "changePct": -0.72,
+      "strengthScore": 43,
       "priceHistory30d": [
-        175.73,
         173.75,
         173.2,
         175.17,
@@ -237,17 +236,17 @@
         180.45,
         180.06,
         180.15,
-        179.41
+        179.41,
+        178.12
       ],
       "marketCap": 0
     },
     {
       "symbol": "XLY",
       "name": "Consumer Discretionary",
-      "changePct": -1.62,
-      "strengthScore": 23,
+      "changePct": -0.72,
+      "strengthScore": 22,
       "priceHistory30d": [
-        117.03,
         114.63,
         115.16,
         115.64,
@@ -276,17 +275,17 @@
         115.9,
         117.0,
         117.34,
-        115.44
+        115.44,
+        114.61
       ],
       "marketCap": 0
     },
     {
       "symbol": "XLP",
       "name": "Consumer Staples",
-      "changePct": -0.72,
-      "strengthScore": 47,
+      "changePct": -0.39,
+      "strengthScore": 46,
       "priceHistory30d": [
-        81.47,
         82.87,
         82.5,
         83.52,
@@ -315,17 +314,17 @@
         83.42,
         83.47,
         85.81,
-        85.19
+        85.19,
+        84.86
       ],
       "marketCap": 0
     },
     {
       "symbol": "XLB",
       "name": "Materials",
-      "changePct": -0.71,
-      "strengthScore": 28,
+      "changePct": -0.99,
+      "strengthScore": 24,
       "priceHistory30d": [
-        51.43,
         50.44,
         49.77,
         50.58,
@@ -354,17 +353,17 @@
         50.64,
         50.5,
         50.89,
-        50.53
+        50.53,
+        50.03
       ],
       "marketCap": 0
     },
     {
       "symbol": "XLU",
       "name": "Utilities",
-      "changePct": -0.66,
-      "strengthScore": 31,
+      "changePct": -0.51,
+      "strengthScore": 32,
       "priceHistory30d": [
-        43.66,
         44.07,
         43.24,
         43.7,
@@ -393,17 +392,17 @@
         45.69,
         45.22,
         45.47,
-        45.17
+        45.17,
+        44.94
       ],
       "marketCap": 0
     },
     {
       "symbol": "XLRE",
       "name": "Real Estate",
-      "changePct": -0.09,
-      "strengthScore": 44,
+      "changePct": -0.42,
+      "strengthScore": 42,
       "priceHistory30d": [
-        44.01,
         44.31,
         43.65,
         44.58,
@@ -432,17 +431,17 @@
         44.48,
         44.56,
         45.46,
-        45.42
+        45.42,
+        45.23
       ],
       "marketCap": 0
     },
     {
       "symbol": "XLC",
       "name": "Communication Services",
-      "changePct": -1.78,
-      "strengthScore": 15,
+      "changePct": 0.14,
+      "strengthScore": 16,
       "priceHistory30d": [
-        112.82,
         111.38,
         110.8,
         111.19,
@@ -471,80 +470,28 @@
         111.45,
         113.38,
         112.65,
-        110.65
+        110.65,
+        110.8
       ],
       "marketCap": 0
     }
   ],
   "tickers": [
     {
-      "ticker": "AAON",
-      "companyName": "AAON",
-      "price": 111.42,
-      "sma150": 101.87,
-      "sma200": 100.58,
-      "rsScore": 82,
-      "vcpStatus": "none",
-      "volumeSurge": "rising",
-      "weekHighDistance": 24.79,
-      "volumePctAvg": 144.0,
-      "sma20": 119.26,
-      "pivotPrice": 136.72,
-      "distToPivotPct": 18.5,
-      "priceHistory30d": [
-        143.55,
-        132.62,
-        132.05,
-        129.66,
-        121.12,
-        128.64,
-        127.19,
-        131.26,
-        130.66,
-        133.36,
-        136.72,
-        136.16,
-        129.45,
-        131.6,
-        133.26,
-        126.78,
-        125.71,
-        126.86,
-        116.42,
-        107.62,
-        109.35,
-        109.94,
-        107.98,
-        110.25,
-        114.16,
-        112.19,
-        112.93,
-        113.11,
-        113.2,
-        111.42
-      ],
-      "marketCap": 0,
-      "sector": "Financials",
-      "epsGrowthYoY": 37.1,
-      "salesGrowthYoY": 54.3,
-      "lastReportDate": "2026-03-31"
-    },
-    {
       "ticker": "BBC",
       "companyName": "BBC",
-      "price": 50.97,
-      "sma150": 43.18,
-      "sma200": 40.3,
+      "price": 49.74,
+      "sma150": 43.25,
+      "sma200": 40.42,
       "rsScore": 99,
-      "vcpStatus": "loose",
-      "volumeSurge": "surge",
-      "weekHighDistance": 7.11,
-      "volumePctAvg": 280.5,
-      "sma20": 51.29,
+      "vcpStatus": "none",
+      "volumeSurge": "none",
+      "weekHighDistance": 9.36,
+      "volumePctAvg": 34.4,
+      "sma20": 51.5,
       "pivotPrice": 54.87,
-      "distToPivotPct": 7.11,
+      "distToPivotPct": 9.36,
       "priceHistory30d": [
-        42.96,
         40.66,
         40.9,
         41.41,
@@ -573,7 +520,8 @@
         51.57,
         51.85,
         49.91,
-        50.97
+        50.97,
+        49.74
       ],
       "marketCap": 0,
       "sector": "Consumer Discretionary"
@@ -581,19 +529,18 @@
     {
       "ticker": "BBIO",
       "companyName": "BBIO",
-      "price": 81.38,
-      "sma150": 72.45,
-      "sma200": 69.95,
+      "price": 80.76,
+      "sma150": 72.5,
+      "sma200": 70.1,
       "rsScore": 96,
       "vcpStatus": "loose",
       "volumeSurge": "none",
-      "weekHighDistance": 9.75,
-      "volumePctAvg": 38.2,
-      "sma20": 76.64,
+      "weekHighDistance": 10.44,
+      "volumePctAvg": 44.6,
+      "sma20": 77.37,
       "pivotPrice": 90.17,
-      "distToPivotPct": 9.75,
+      "distToPivotPct": 10.44,
       "priceHistory30d": [
-        67.33,
         67.61,
         67.37,
         67.68,
@@ -622,7 +569,8 @@
         84.09,
         82.66,
         80.3,
-        81.38
+        81.38,
+        80.76
       ],
       "marketCap": 0,
       "sector": "Healthcare",
@@ -633,19 +581,18 @@
     {
       "ticker": "BBP",
       "companyName": "BBP",
-      "price": 97.72,
-      "sma150": 85.31,
-      "sma200": 82.66,
+      "price": 96.33,
+      "sma150": 85.44,
+      "sma200": 82.79,
       "rsScore": 93,
-      "vcpStatus": "loose",
+      "vcpStatus": "none",
       "volumeSurge": "none",
-      "weekHighDistance": 5.7,
-      "volumePctAvg": 69.5,
-      "sma20": 97.14,
+      "weekHighDistance": 7.04,
+      "volumePctAvg": 164.5,
+      "sma20": 97.46,
       "pivotPrice": 103.62,
-      "distToPivotPct": 5.7,
+      "distToPivotPct": 7.04,
       "priceHistory30d": [
-        86.61,
         84.71,
         84.1,
         85.37,
@@ -674,7 +621,8 @@
         97.59,
         98.2,
         96.92,
-        97.72
+        97.72,
+        96.33
       ],
       "marketCap": 0,
       "sector": "Energy"
@@ -685,7 +633,7 @@
       "price": 17.75,
       "sma150": 15.56,
       "sma200": 15.1,
-      "rsScore": 88,
+      "rsScore": 90,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 6.58,
@@ -731,19 +679,18 @@
     {
       "ticker": "DD",
       "companyName": "DD",
-      "price": 135.29,
-      "sma150": 137.39,
-      "sma200": 130.0,
-      "rsScore": 74,
+      "price": 135.75,
+      "sma150": 137.48,
+      "sma200": 130.2,
+      "rsScore": 75,
       "vcpStatus": "loose",
       "volumeSurge": "none",
-      "weekHighDistance": 11.78,
-      "volumePctAvg": 96.7,
-      "sma20": 137.43,
+      "weekHighDistance": 11.48,
+      "volumePctAvg": 77.9,
+      "sma20": 137.07,
       "pivotPrice": 144.57,
-      "distToPivotPct": 6.42,
+      "distToPivotPct": 6.1,
       "priceHistory30d": [
-        142.95,
         140.55,
         140.97,
         141.18,
@@ -772,7 +719,8 @@
         134.17,
         134.86,
         134.29,
-        135.29
+        135.29,
+        135.75
       ],
       "marketCap": 0,
       "sector": "Utilities",
@@ -781,73 +729,20 @@
       "lastReportDate": "2026-03-31"
     },
     {
-      "ticker": "DDD",
-      "companyName": "DDD",
-      "price": 2.69,
-      "sma150": 2.45,
-      "sma200": 2.49,
-      "rsScore": 71,
-      "vcpStatus": "none",
-      "volumeSurge": "none",
-      "weekHighDistance": 30.67,
-      "volumePctAvg": 44.1,
-      "sma20": 2.99,
-      "pivotPrice": 3.57,
-      "distToPivotPct": 24.65,
-      "priceHistory30d": [
-        3.07,
-        2.91,
-        3.0,
-        2.95,
-        2.89,
-        3.02,
-        3.01,
-        3.02,
-        3.19,
-        3.45,
-        3.57,
-        3.26,
-        3.14,
-        3.01,
-        2.95,
-        3.04,
-        2.86,
-        3.02,
-        2.96,
-        2.8,
-        2.83,
-        2.87,
-        2.97,
-        3.11,
-        3.07,
-        3.0,
-        2.97,
-        2.96,
-        2.81,
-        2.69
-      ],
-      "marketCap": 0,
-      "sector": "Materials",
-      "epsGrowthYoY": 89.3,
-      "salesGrowthYoY": 1.1,
-      "lastReportDate": "2026-03-31"
-    },
-    {
       "ticker": "EE",
       "companyName": "EE",
-      "price": 38.95,
-      "sma150": 34.56,
-      "sma200": 32.61,
-      "rsScore": 91,
+      "price": 38.91,
+      "sma150": 34.64,
+      "sma200": 32.68,
+      "rsScore": 87,
       "vcpStatus": "loose",
       "volumeSurge": "none",
-      "weekHighDistance": 8.78,
-      "volumePctAvg": 91.2,
-      "sma20": 37.87,
+      "weekHighDistance": 8.88,
+      "volumePctAvg": 97.7,
+      "sma20": 38.09,
       "pivotPrice": 39.57,
-      "distToPivotPct": 1.57,
+      "distToPivotPct": 1.67,
       "priceHistory30d": [
-        32.39,
         32.23,
         31.84,
         32.12,
@@ -876,7 +771,8 @@
         38.73,
         38.48,
         39.47,
-        38.95
+        38.95,
+        38.91
       ],
       "marketCap": 0,
       "sector": "Energy",
@@ -885,21 +781,69 @@
       "lastReportDate": "2026-03-31"
     },
     {
+      "ticker": "EEMA",
+      "companyName": "EEMA",
+      "price": 110.23,
+      "sma150": 105.06,
+      "sma200": 101.87,
+      "rsScore": 72,
+      "vcpStatus": "loose",
+      "volumeSurge": "none",
+      "weekHighDistance": 9.29,
+      "volumePctAvg": 16.5,
+      "sma20": 114.26,
+      "pivotPrice": 121.51,
+      "distToPivotPct": 9.29,
+      "priceHistory30d": [
+        111.38,
+        113.06,
+        113.15,
+        111.62,
+        115.42,
+        115.96,
+        119.78,
+        117.77,
+        117.21,
+        120.59,
+        121.51,
+        115.36,
+        115.24,
+        115.91,
+        114.27,
+        115.49,
+        116.96,
+        114.6,
+        113.38,
+        116.29,
+        113.17,
+        113.87,
+        114.89,
+        115.06,
+        111.54,
+        113.09,
+        113.22,
+        111.48,
+        109.71,
+        110.23
+      ],
+      "marketCap": 0,
+      "sector": "Utilities"
+    },
+    {
       "ticker": "EES",
       "companyName": "EES",
-      "price": 67.88,
-      "sma150": 61.2,
-      "sma200": 59.6,
-      "rsScore": 77,
-      "vcpStatus": "none",
+      "price": 67.67,
+      "sma150": 61.27,
+      "sma200": 59.66,
+      "rsScore": 78,
+      "vcpStatus": "loose",
       "volumeSurge": "none",
-      "weekHighDistance": 0.82,
-      "volumePctAvg": 28.2,
-      "sma20": 67.12,
+      "weekHighDistance": 1.12,
+      "volumePctAvg": 89.3,
+      "sma20": 67.24,
       "pivotPrice": 68.44,
-      "distToPivotPct": 0.82,
+      "distToPivotPct": 1.12,
       "priceHistory30d": [
-        64.38,
         63.44,
         64.01,
         64.45,
@@ -928,7 +872,8 @@
         67.46,
         67.76,
         68.44,
-        67.88
+        67.88,
+        67.67
       ],
       "marketCap": 0,
       "sector": "Utilities"
@@ -936,19 +881,18 @@
     {
       "ticker": "EET",
       "companyName": "EET",
-      "price": 100.59,
-      "sma150": 98.4,
-      "sma200": 93.25,
-      "rsScore": 79,
+      "price": 100.15,
+      "sma150": 98.54,
+      "sma200": 93.38,
+      "rsScore": 81,
       "vcpStatus": "none",
       "volumeSurge": "none",
-      "weekHighDistance": 21.04,
-      "volumePctAvg": 62.9,
-      "sma20": 111.77,
+      "weekHighDistance": 21.38,
+      "volumePctAvg": 125.3,
+      "sma20": 110.45,
       "pivotPrice": 127.39,
-      "distToPivotPct": 21.04,
+      "distToPivotPct": 21.38,
       "priceHistory30d": [
-        120.48,
         104.56,
         108.54,
         108.49,
@@ -977,7 +921,8 @@
         107.2,
         107.23,
         102.45,
-        100.59
+        100.59,
+        100.15
       ],
       "marketCap": 0,
       "sector": "Energy"
@@ -985,19 +930,18 @@
     {
       "ticker": "FF",
       "companyName": "FF",
-      "price": 4.8,
-      "sma150": 3.98,
+      "price": 4.76,
+      "sma150": 3.99,
       "sma200": 3.88,
-      "rsScore": 85,
+      "rsScore": 84,
       "vcpStatus": "tight",
-      "volumeSurge": "rising",
-      "weekHighDistance": 3.39,
-      "volumePctAvg": 121.2,
-      "sma20": 4.49,
+      "volumeSurge": "none",
+      "weekHighDistance": 4.19,
+      "volumePctAvg": 89.5,
+      "sma20": 4.52,
       "pivotPrice": 4.8,
-      "distToPivotPct": -0.0,
+      "distToPivotPct": 0.83,
       "priceHistory30d": [
-        4.37,
         4.35,
         4.45,
         4.51,
@@ -1026,7 +970,8 @@
         4.72,
         4.64,
         4.62,
-        4.8
+        4.8,
+        4.76
       ],
       "marketCap": 0,
       "sector": "Consumer Discretionary",
