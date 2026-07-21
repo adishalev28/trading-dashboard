@@ -3722,20 +3722,19 @@
     },
     {
       "date": "2026-07-21",
-      "stage2Count": 8,
-      "breakoutCount": 3,
+      "stage2Count": 10,
+      "breakoutCount": 2,
       "breakoutTickers": [
-        "EE",
-        "EES",
-        "FF"
+        "DD",
+        "EE"
       ],
       "spy": {
-        "price": 742.09,
-        "sma50": 743.44
+        "price": 748.28,
+        "sma50": 743.81
       },
       "qqq": {
-        "price": 696.06,
-        "sma50": 718.54
+        "price": 708.97,
+        "sma50": 718.83
       }
     }
   ]
