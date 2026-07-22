@@ -3736,6 +3736,25 @@
         "price": 708.97,
         "sma50": 718.83
       }
+    },
+    {
+      "date": "2026-07-22",
+      "stage2Count": 16,
+      "breakoutCount": 4,
+      "breakoutTickers": [
+        "DD",
+        "EE",
+        "EES",
+        "SSO"
+      ],
+      "spy": {
+        "price": 748.28,
+        "sma50": 743.81
+      },
+      "qqq": {
+        "price": 708.97,
+        "sma50": 718.83
+      }
     }
   ]
 }

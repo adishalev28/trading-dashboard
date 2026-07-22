@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-21 22:36:46",
+  "lastUpdate": "2026-07-22 11:34:23",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -28100,10 +28100,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-07-22",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-07-21"
+      "lastSeen": "2026-07-22"
     },
     "VIK": {
       "firstSeen": "2026-06-25",
@@ -30659,6 +30665,12 @@
           "lists": [
             "topPick"
           ]
+        },
+        {
+          "date": "2026-07-22",
+          "lists": [
+            "topPick"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -30691,9 +30703,15 @@
           "score": 67,
           "grade": "A",
           "tags": []
+        },
+        {
+          "date": "2026-07-22",
+          "score": 67,
+          "grade": "A",
+          "tags": []
         }
       ],
-      "lastSeen": "2026-07-21",
+      "lastSeen": "2026-07-22",
       "bestTopPickScore": 67
     },
     "EES": {
@@ -30729,10 +30747,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-07-22",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-07-21"
+      "lastSeen": "2026-07-22"
     },
     "EE": {
       "firstSeen": "2026-07-16",
@@ -30773,10 +30797,30 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-07-22",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-07-21"
+      "lastSeen": "2026-07-22"
+    },
+    "SSO": {
+      "firstSeen": "2026-07-22",
+      "entryPrice": 67.44,
+      "appearances": [
+        {
+          "date": "2026-07-22",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-07-22"
     }
   }
 }
