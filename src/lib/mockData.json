@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generatedAt": "2026-07-25 10:59:24",
+    "generatedAt": "2026-07-27 12:47:34",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
-    "totalScanned": 1234,
-    "passedFinviz": 1234,
+    "totalScanned": 1265,
+    "passedFinviz": 1265,
     "finalCount": 11,
-    "note": "Screened 1234 stocks. 11 passed Stage 2 / Warning filters."
+    "note": "Screened 1265 stocks. 11 passed Stage 2 / Warning filters."
   },
-  "fxRate": 3.0493,
+  "fxRate": 3.0414,
   "commissionRoundTripUsd": 14,
   "benchmark": {
     "symbol": "SPY",
@@ -19,7 +19,7 @@
     "aboveSma200": true
   },
   "breadth": {
-    "asOf": "2026-07-25",
+    "asOf": "2026-07-27",
     "indices": {
       "spy": {
         "price": 738.93,
@@ -36,13 +36,13 @@
     },
     "stage2": {
       "current": 10,
-      "prev5d": 9,
-      "changePct": 11.1
+      "prev5d": 10,
+      "changePct": 0.0
     },
     "breakouts": {
-      "current": 1,
+      "current": 0,
       "prev5d": 2,
-      "changePct": -50.0
+      "changePct": -100.0
     }
   },
   "sectors": [
@@ -682,7 +682,7 @@
       "price": 137.7,
       "sma150": 137.93,
       "sma200": 130.98,
-      "rsScore": 83,
+      "rsScore": 82,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 10.21,
@@ -734,7 +734,7 @@
       "price": 38.63,
       "sma150": 34.97,
       "sma200": 32.96,
-      "rsScore": 94,
+      "rsScore": 93,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 9.53,
@@ -835,7 +835,7 @@
       "price": 67.24,
       "sma150": 61.52,
       "sma200": 59.9,
-      "rsScore": 80,
+      "rsScore": 79,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 1.75,
@@ -985,7 +985,7 @@
       "price": 30.51,
       "sma150": 28.72,
       "sma200": 28.27,
-      "rsScore": 72,
+      "rsScore": 71,
       "vcpStatus": "tight",
       "volumeSurge": "none",
       "weekHighDistance": 0.28,
