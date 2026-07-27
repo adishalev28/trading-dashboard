@@ -3642,15 +3642,17 @@
     {
       "date": "2026-07-27",
       "stage2Count": 10,
-      "breakoutCount": 0,
-      "breakoutTickers": [],
+      "breakoutCount": 1,
+      "breakoutTickers": [
+        "DD"
+      ],
       "spy": {
-        "price": 738.93,
-        "sma50": 744.11
+        "price": 739.09,
+        "sma50": 744.08
       },
       "qqq": {
-        "price": 684.23,
-        "sma50": 717.87
+        "price": 682.12,
+        "sma50": 717.24
       }
     }
   ]
