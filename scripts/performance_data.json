@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-29 11:52:16",
+  "lastUpdate": "2026-07-29 22:40:07",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -30869,6 +30869,29 @@
       ],
       "topPicksHistory": [],
       "lastSeen": "2026-07-22"
+    },
+    "CCBC": {
+      "firstSeen": "2026-07-29",
+      "entryPrice": 18.5,
+      "appearances": [
+        {
+          "date": "2026-07-29",
+          "lists": [
+            "breakout",
+            "topPick"
+          ]
+        }
+      ],
+      "topPicksHistory": [
+        {
+          "date": "2026-07-29",
+          "score": 51,
+          "grade": "B+",
+          "tags": []
+        }
+      ],
+      "lastSeen": "2026-07-29",
+      "bestTopPickScore": 51
     }
   }
 }
