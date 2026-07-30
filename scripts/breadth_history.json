@@ -1,63 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-04-30",
-      "stage2Count": 322,
-      "breakoutCount": 42,
-      "breakoutTickers": [
-        "ADI",
-        "AEIS",
-        "APLS",
-        "ARCB",
-        "ARWR",
-        "ASX",
-        "BE",
-        "BTE",
-        "BTSG",
-        "CECO",
-        "CNTA",
-        "DAR",
-        "DK",
-        "FRO",
-        "FTI",
-        "HP",
-        "INTC",
-        "JBL",
-        "LBRT",
-        "LION",
-        "LSCC",
-        "MOD",
-        "MPWR",
-        "MRVL",
-        "MU",
-        "NESR",
-        "NGL",
-        "PARR",
-        "PLXS",
-        "PTEN",
-        "SDRL",
-        "SEI",
-        "SITM",
-        "TALO",
-        "TDW",
-        "TERN",
-        "TEVA",
-        "TVTX",
-        "VAL",
-        "VICR",
-        "VISN",
-        "WBD"
-      ],
-      "spy": {
-        "price": 718.66,
-        "sma50": 678.72
-      },
-      "qqq": {
-        "price": 667.74,
-        "sma50": 610.91
-      }
-    },
-    {
       "date": "2026-05-01",
       "stage2Count": 309,
       "breakoutCount": 45,
@@ -3600,6 +3543,22 @@
     },
     {
       "date": "2026-07-29",
+      "stage2Count": 9,
+      "breakoutCount": 1,
+      "breakoutTickers": [
+        "CCBC"
+      ],
+      "spy": {
+        "price": 729.46,
+        "sma50": 743.82
+      },
+      "qqq": {
+        "price": 661.73,
+        "sma50": 715.44
+      }
+    },
+    {
+      "date": "2026-07-30",
       "stage2Count": 9,
       "breakoutCount": 1,
       "breakoutTickers": [
