@@ -3559,18 +3559,20 @@
     },
     {
       "date": "2026-07-30",
-      "stage2Count": 9,
-      "breakoutCount": 1,
+      "stage2Count": 10,
+      "breakoutCount": 3,
       "breakoutTickers": [
-        "CCBC"
+        "CCBC",
+        "DD",
+        "FF"
       ],
       "spy": {
-        "price": 729.46,
-        "sma50": 743.82
+        "price": 741.69,
+        "sma50": 743.92
       },
       "qqq": {
-        "price": 661.73,
-        "sma50": 715.44
+        "price": 683.55,
+        "sma50": 715.01
       }
     }
   ]

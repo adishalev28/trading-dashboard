@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-30 11:35:13",
+  "lastUpdate": "2026-07-30 22:48:28",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -28130,10 +28130,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-07-30",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-07-29"
+      "lastSeen": "2026-07-30"
     },
     "VIK": {
       "firstSeen": "2026-06-25",
@@ -30695,6 +30701,13 @@
           "lists": [
             "topPick"
           ]
+        },
+        {
+          "date": "2026-07-30",
+          "lists": [
+            "breakout",
+            "topPick"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -30733,9 +30746,15 @@
           "score": 67,
           "grade": "A",
           "tags": []
+        },
+        {
+          "date": "2026-07-30",
+          "score": 50,
+          "grade": "B+",
+          "tags": []
         }
       ],
-      "lastSeen": "2026-07-22",
+      "lastSeen": "2026-07-30",
       "bestTopPickScore": 67
     },
     "EES": {
