@@ -1,66 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-05-01",
-      "stage2Count": 309,
-      "breakoutCount": 45,
-      "breakoutTickers": [
-        "APLS",
-        "ARCB",
-        "ASX",
-        "CAT",
-        "CELC",
-        "CLS",
-        "CNTA",
-        "COGT",
-        "CSTM",
-        "DAR",
-        "ECO",
-        "ENS",
-        "FN",
-        "FRO",
-        "FTI",
-        "GSAT",
-        "HAL",
-        "HP",
-        "KLIC",
-        "LSCC",
-        "MEOH",
-        "MKSI",
-        "MRVL",
-        "MTSI",
-        "NESR",
-        "PARR",
-        "PBR",
-        "PBR-A",
-        "POWL",
-        "PRIM",
-        "RIG",
-        "SGML",
-        "SMTC",
-        "SSL",
-        "TERN",
-        "TIGO",
-        "TS",
-        "UMC",
-        "VAL",
-        "VICR",
-        "VRT",
-        "VSAT",
-        "WDC",
-        "WFRD",
-        "WULF"
-      ],
-      "spy": {
-        "price": 720.65,
-        "sma50": 679.48
-      },
-      "qqq": {
-        "price": 674.15,
-        "sma50": 612.34
-      }
-    },
-    {
       "date": "2026-05-02",
       "stage2Count": 310,
       "breakoutCount": 45,
@@ -3563,6 +3503,23 @@
       "breakoutCount": 3,
       "breakoutTickers": [
         "CCBC",
+        "DD",
+        "FF"
+      ],
+      "spy": {
+        "price": 741.69,
+        "sma50": 743.92
+      },
+      "qqq": {
+        "price": 683.55,
+        "sma50": 715.01
+      }
+    },
+    {
+      "date": "2026-07-31",
+      "stage2Count": 11,
+      "breakoutCount": 2,
+      "breakoutTickers": [
         "DD",
         "FF"
       ],
