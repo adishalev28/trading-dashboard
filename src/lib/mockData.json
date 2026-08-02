@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-01 22:39:11",
+    "generatedAt": "2026-08-02 11:09:36",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
     "totalScanned": 1261,
@@ -19,7 +19,7 @@
     "aboveSma200": true
   },
   "breadth": {
-    "asOf": "2026-08-01",
+    "asOf": "2026-08-02",
     "indices": {
       "spy": {
         "price": 747.03,
@@ -41,8 +41,8 @@
     },
     "breakouts": {
       "current": 2,
-      "prev5d": 1,
-      "changePct": 100.0
+      "prev5d": 2,
+      "changePct": 0.0
     }
   },
   "sectors": [
@@ -833,6 +833,55 @@
       "lastReportDate": "2026-03-31"
     },
     {
+      "ticker": "EEMA",
+      "companyName": "EEMA",
+      "price": 111.03,
+      "sma150": 106.22,
+      "sma200": 102.73,
+      "rsScore": 72,
+      "vcpStatus": "none",
+      "volumeSurge": "none",
+      "weekHighDistance": 8.62,
+      "volumePctAvg": 9.9,
+      "sma20": 111.88,
+      "pivotPrice": 116.29,
+      "distToPivotPct": 4.52,
+      "priceHistory30d": [
+        120.59,
+        121.51,
+        115.36,
+        115.24,
+        115.91,
+        114.27,
+        115.49,
+        116.96,
+        114.6,
+        113.38,
+        116.29,
+        113.17,
+        113.87,
+        114.89,
+        115.06,
+        111.54,
+        113.09,
+        113.22,
+        111.48,
+        109.71,
+        110.23,
+        112.84,
+        113.02,
+        111.87,
+        110.22,
+        110.61,
+        108.84,
+        106.6,
+        110.12,
+        111.03
+      ],
+      "marketCap": 0,
+      "sector": "Utilities"
+    },
+    {
       "ticker": "EES",
       "companyName": "EES",
       "price": 67.53,
@@ -981,55 +1030,6 @@
       "epsGrowthYoY": -14.6,
       "salesGrowthYoY": 82.2,
       "lastReportDate": "2026-03-31"
-    },
-    {
-      "ticker": "PPH",
-      "companyName": "PPH",
-      "price": 110.4,
-      "sma150": 104.8,
-      "sma200": 102.53,
-      "rsScore": 72,
-      "vcpStatus": "loose",
-      "volumeSurge": "none",
-      "weekHighDistance": 2.79,
-      "volumePctAvg": 64.5,
-      "sma20": 110.0,
-      "pivotPrice": 113.57,
-      "distToPivotPct": 2.79,
-      "priceHistory30d": [
-        101.94,
-        102.88,
-        104.72,
-        105.13,
-        106.2,
-        108.81,
-        109.82,
-        108.72,
-        107.95,
-        111.39,
-        109.96,
-        111.6,
-        110.33,
-        109.63,
-        108.8,
-        108.78,
-        106.78,
-        107.52,
-        109.88,
-        110.04,
-        107.91,
-        109.37,
-        108.62,
-        109.95,
-        110.63,
-        111.31,
-        113.57,
-        113.42,
-        111.6,
-        110.4
-      ],
-      "marketCap": 0,
-      "sector": "Industrials"
     }
   ]
 }
