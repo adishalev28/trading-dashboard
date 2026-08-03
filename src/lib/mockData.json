@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generatedAt": "2026-08-02 22:39:56",
+    "generatedAt": "2026-08-03 12:47:48",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
-    "totalScanned": 1261,
-    "passedFinviz": 1261,
-    "finalCount": 11,
-    "note": "Screened 1261 stocks. 11 passed Stage 2 / Warning filters."
+    "totalScanned": 1284,
+    "passedFinviz": 1284,
+    "finalCount": 12,
+    "note": "Screened 1284 stocks. 12 passed Stage 2 / Warning filters."
   },
-  "fxRate": 3.0529,
+  "fxRate": 3.0516,
   "commissionRoundTripUsd": 14,
   "benchmark": {
     "symbol": "SPY",
@@ -19,7 +19,7 @@
     "aboveSma200": true
   },
   "breadth": {
-    "asOf": "2026-08-02",
+    "asOf": "2026-08-03",
     "indices": {
       "spy": {
         "price": 747.03,
@@ -36,13 +36,13 @@
     },
     "stage2": {
       "current": 9,
-      "prev5d": 10,
-      "changePct": -10.0
+      "prev5d": 9,
+      "changePct": 0.0
     },
     "breakouts": {
       "current": 2,
-      "prev5d": 2,
-      "changePct": 0.0
+      "prev5d": 1,
+      "changePct": 100.0
     }
   },
   "sectors": [
@@ -532,7 +532,7 @@
       "price": 80.09,
       "sma150": 72.97,
       "sma200": 71.38,
-      "rsScore": 93,
+      "rsScore": 94,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 11.18,
@@ -633,7 +633,7 @@
       "price": 17.75,
       "sma150": 15.83,
       "sma200": 15.31,
-      "rsScore": 85,
+      "rsScore": 86,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 6.58,
@@ -682,7 +682,7 @@
       "price": 137.0,
       "sma150": 138.49,
       "sma200": 132.07,
-      "rsScore": 82,
+      "rsScore": 84,
       "vcpStatus": "none",
       "volumeSurge": "none",
       "weekHighDistance": 10.67,
@@ -734,7 +734,7 @@
       "price": 2.64,
       "sma150": 2.5,
       "sma200": 2.47,
-      "rsScore": 79,
+      "rsScore": 81,
       "vcpStatus": "none",
       "volumeSurge": "none",
       "weekHighDistance": 31.96,
@@ -887,7 +887,7 @@
       "price": 67.53,
       "sma150": 61.87,
       "sma200": 60.24,
-      "rsScore": 74,
+      "rsScore": 73,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 1.33,
@@ -936,7 +936,7 @@
       "price": 101.5,
       "sma150": 99.99,
       "sma200": 94.46,
-      "rsScore": 77,
+      "rsScore": 78,
       "vcpStatus": "none",
       "volumeSurge": "none",
       "weekHighDistance": 20.32,
@@ -985,7 +985,7 @@
       "price": 4.95,
       "sma150": 4.08,
       "sma200": 3.93,
-      "rsScore": 88,
+      "rsScore": 89,
       "vcpStatus": "none",
       "volumeSurge": "none",
       "weekHighDistance": 0.8,
@@ -1030,6 +1030,55 @@
       "epsGrowthYoY": -14.6,
       "salesGrowthYoY": 82.2,
       "lastReportDate": "2026-03-31"
+    },
+    {
+      "ticker": "MMSI",
+      "companyName": "MMSI",
+      "price": 85.01,
+      "sma150": 72.9,
+      "sma200": 76.01,
+      "rsScore": 76,
+      "vcpStatus": "none",
+      "volumeSurge": "none",
+      "weekHighDistance": 8.77,
+      "volumePctAvg": 263.4,
+      "sma20": 74.96,
+      "pivotPrice": 85.01,
+      "distToPivotPct": -0.0,
+      "priceHistory30d": [
+        67.22,
+        66.5,
+        67.27,
+        69.2,
+        70.83,
+        71.73,
+        70.09,
+        69.34,
+        69.45,
+        71.09,
+        71.45,
+        72.14,
+        71.06,
+        71.46,
+        73.44,
+        73.26,
+        71.02,
+        73.04,
+        75.55,
+        73.99,
+        75.17,
+        73.48,
+        73.11,
+        73.11,
+        74.32,
+        76.1,
+        78.29,
+        80.84,
+        83.35,
+        85.01
+      ],
+      "marketCap": 0,
+      "sector": "Technology"
     }
   ]
 }
