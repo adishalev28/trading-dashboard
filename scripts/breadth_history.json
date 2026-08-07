@@ -3255,20 +3255,18 @@
     },
     {
       "date": "2026-08-07",
-      "stage2Count": 17,
-      "breakoutCount": 3,
+      "stage2Count": 11,
+      "breakoutCount": 1,
       "breakoutTickers": [
-        "BBP",
-        "DDD",
-        "SSO"
+        "BBIO"
       ],
       "spy": {
-        "price": 768.56,
-        "sma50": 746.12
+        "price": 773.26,
+        "sma50": 746.61
       },
       "qqq": {
-        "price": 714.65,
-        "sma50": 714.42
+        "price": 723.03,
+        "sma50": 714.31
       }
     }
   ]

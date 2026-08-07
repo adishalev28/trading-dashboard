@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-07 10:35:45",
+  "lastUpdate": "2026-08-07 22:21:51",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -31103,6 +31103,20 @@
     "BBP": {
       "firstSeen": "2026-08-07",
       "entryPrice": 98.31,
+      "appearances": [
+        {
+          "date": "2026-08-07",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-08-07"
+    },
+    "BBIO": {
+      "firstSeen": "2026-08-07",
+      "entryPrice": 84.48,
       "appearances": [
         {
           "date": "2026-08-07",
