@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-06 11:54:42",
+  "lastUpdate": "2026-08-07 01:08:13",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -30756,6 +30756,12 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-08-07",
+          "lists": [
+            "topPick"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -30806,9 +30812,15 @@
           "score": 50,
           "grade": "B+",
           "tags": []
+        },
+        {
+          "date": "2026-08-07",
+          "score": 62,
+          "grade": "B+",
+          "tags": []
         }
       ],
-      "lastSeen": "2026-08-06",
+      "lastSeen": "2026-08-07",
       "bestTopPickScore": 67
     },
     "EES": {
@@ -31036,6 +31048,12 @@
           "lists": [
             "topPick"
           ]
+        },
+        {
+          "date": "2026-08-07",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -31064,8 +31082,22 @@
           ]
         }
       ],
-      "lastSeen": "2026-08-06",
+      "lastSeen": "2026-08-07",
       "bestTopPickScore": 72
+    },
+    "BBP": {
+      "firstSeen": "2026-08-07",
+      "entryPrice": 98.31,
+      "appearances": [
+        {
+          "date": "2026-08-07",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-08-07"
     }
   }
 }
