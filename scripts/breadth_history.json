@@ -1,59 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-05-12",
-      "stage2Count": 303,
-      "breakoutCount": 38,
-      "breakoutTickers": [
-        "APLD",
-        "APLS",
-        "ARWR",
-        "CAT",
-        "CGON",
-        "CIEN",
-        "CNTA",
-        "COHR",
-        "CTOS",
-        "CVE",
-        "DHC",
-        "ECO",
-        "ENS",
-        "FIX",
-        "HL",
-        "HUT",
-        "JAZZ",
-        "KEYS",
-        "KGS",
-        "KRYS",
-        "LASR",
-        "LUNR",
-        "MTSI",
-        "NVT",
-        "OGN",
-        "PENG",
-        "PRAX",
-        "ROIV",
-        "SEI",
-        "SIMO",
-        "SKE",
-        "SKM",
-        "SYRE",
-        "TRMD",
-        "TTMI",
-        "VECO",
-        "VRT",
-        "WBD"
-      ],
-      "spy": {
-        "price": 738.18,
-        "sma50": 685.91
-      },
-      "qqq": {
-        "price": 707.24,
-        "sma50": 624.8
-      }
-    },
-    {
       "date": "2026-05-13",
       "stage2Count": 295,
       "breakoutCount": 47,
@@ -3183,6 +3130,26 @@
         "FF",
         "FFSM",
         "PPH"
+      ],
+      "spy": {
+        "price": 773.03,
+        "sma50": 747.02
+      },
+      "qqq": {
+        "price": 720.87,
+        "sma50": 714.03
+      }
+    },
+    {
+      "date": "2026-08-11",
+      "stage2Count": 12,
+      "breakoutCount": 5,
+      "breakoutTickers": [
+        "BBC",
+        "BBIO",
+        "DDD",
+        "EES",
+        "FF"
       ],
       "spy": {
         "price": 773.03,

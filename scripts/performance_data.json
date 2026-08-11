@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-10 22:21:19",
+  "lastUpdate": "2026-08-11 10:37:35",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -30768,6 +30768,13 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-08-11",
+          "lists": [
+            "breakout",
+            "topPick"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -30824,9 +30831,15 @@
           "score": 62,
           "grade": "B+",
           "tags": []
+        },
+        {
+          "date": "2026-08-11",
+          "score": 57,
+          "grade": "B+",
+          "tags": []
         }
       ],
-      "lastSeen": "2026-08-10",
+      "lastSeen": "2026-08-11",
       "bestTopPickScore": 67
     },
     "EES": {
@@ -30898,10 +30911,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-08-11",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-08-10"
+      "lastSeen": "2026-08-11"
     },
     "EE": {
       "firstSeen": "2026-07-16",
@@ -31085,6 +31104,12 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-08-11",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -31121,7 +31146,7 @@
           ]
         }
       ],
-      "lastSeen": "2026-08-10",
+      "lastSeen": "2026-08-11",
       "bestTopPickScore": 72
     },
     "BBP": {
@@ -31165,10 +31190,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-08-11",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-08-10"
+      "lastSeen": "2026-08-11"
     },
     "EET": {
       "firstSeen": "2026-08-09",
@@ -31193,10 +31224,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-08-11",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-08-10"
+      "lastSeen": "2026-08-11"
     },
     "PPH": {
       "firstSeen": "2026-08-10",
