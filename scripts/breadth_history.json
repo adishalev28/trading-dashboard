@@ -1,64 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-05-14",
-      "stage2Count": 299,
-      "breakoutCount": 43,
-      "breakoutTickers": [
-        "AESI",
-        "AMAT",
-        "AMD",
-        "APLS",
-        "ASX",
-        "AXSM",
-        "CAT",
-        "CECO",
-        "CNTA",
-        "CVE",
-        "DHC",
-        "FLEX",
-        "GFS",
-        "GOOG",
-        "GOOGL",
-        "GSAT",
-        "HBM",
-        "JAZZ",
-        "KEYS",
-        "KGS",
-        "KLIC",
-        "LBRT",
-        "LION",
-        "MKSI",
-        "MTZ",
-        "NOK",
-        "NVTS",
-        "OGN",
-        "PRAX",
-        "PWR",
-        "RIG",
-        "ROIV",
-        "RVMD",
-        "SKE",
-        "SYNA",
-        "SYRE",
-        "THR",
-        "TVTX",
-        "TWLO",
-        "UCTT",
-        "VAL",
-        "VSH",
-        "WBD"
-      ],
-      "spy": {
-        "price": 748.17,
-        "sma50": 688.48
-      },
-      "qqq": {
-        "price": 719.79,
-        "sma50": 629.28
-      }
-    },
-    {
       "date": "2026-05-15",
       "stage2Count": 267,
       "breakoutCount": 25,
@@ -3098,6 +3040,23 @@
     {
       "date": "2026-08-12",
       "stage2Count": 11,
+      "breakoutCount": 2,
+      "breakoutTickers": [
+        "BBC",
+        "BBIO"
+      ],
+      "spy": {
+        "price": 772.49,
+        "sma50": 747.66
+      },
+      "qqq": {
+        "price": 723.7,
+        "sma50": 713.29
+      }
+    },
+    {
+      "date": "2026-08-13",
+      "stage2Count": 12,
       "breakoutCount": 2,
       "breakoutTickers": [
         "BBC",
