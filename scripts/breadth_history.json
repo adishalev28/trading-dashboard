@@ -2944,18 +2944,19 @@
     {
       "date": "2026-08-19",
       "stage2Count": 11,
-      "breakoutCount": 2,
+      "breakoutCount": 3,
       "breakoutTickers": [
-        "CCBC",
+        "BBC",
+        "BBIO",
         "CCCC"
       ],
       "spy": {
-        "price": 767.45,
-        "sma50": 749.53
+        "price": 769.06,
+        "sma50": 750.17
       },
       "qqq": {
-        "price": 717.51,
-        "sma50": 712.84
+        "price": 716.08,
+        "sma50": 712.86
       }
     }
   ]
