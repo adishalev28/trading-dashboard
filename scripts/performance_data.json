@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-19 22:03:12",
+  "lastUpdate": "2026-08-20 10:08:29",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -31266,6 +31266,12 @@
           "lists": [
             "topPick"
           ]
+        },
+        {
+          "date": "2026-08-20",
+          "lists": [
+            "topPick"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -31286,9 +31292,15 @@
           "score": 55,
           "grade": "B+",
           "tags": []
+        },
+        {
+          "date": "2026-08-20",
+          "score": 55,
+          "grade": "B+",
+          "tags": []
         }
       ],
-      "lastSeen": "2026-08-19",
+      "lastSeen": "2026-08-20",
       "bestTopPickScore": 55
     },
     "BBIO": {
@@ -31342,10 +31354,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-08-20",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-08-19"
+      "lastSeen": "2026-08-20"
     },
     "EET": {
       "firstSeen": "2026-08-09",
@@ -31443,6 +31461,13 @@
             "breakout",
             "topPick"
           ]
+        },
+        {
+          "date": "2026-08-20",
+          "lists": [
+            "breakout",
+            "topPick"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -31451,9 +31476,15 @@
           "score": 60,
           "grade": "B+",
           "tags": []
+        },
+        {
+          "date": "2026-08-20",
+          "score": 60,
+          "grade": "B+",
+          "tags": []
         }
       ],
-      "lastSeen": "2026-08-19",
+      "lastSeen": "2026-08-20",
       "bestTopPickScore": 60
     },
     "PPH": {
@@ -31551,10 +31582,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-08-20",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-08-19"
+      "lastSeen": "2026-08-20"
     }
   }
 }
