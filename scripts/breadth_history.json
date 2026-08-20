@@ -2921,20 +2921,19 @@
     },
     {
       "date": "2026-08-20",
-      "stage2Count": 12,
-      "breakoutCount": 3,
+      "stage2Count": 16,
+      "breakoutCount": 2,
       "breakoutTickers": [
-        "BBC",
-        "BBIO",
-        "CCCC"
+        "EE",
+        "MMSI"
       ],
       "spy": {
-        "price": 769.06,
-        "sma50": 750.17
+        "price": 762.6,
+        "sma50": 750.72
       },
       "qqq": {
-        "price": 716.08,
-        "sma50": 712.86
+        "price": 710.93,
+        "sma50": 712.94
       }
     }
   ]
