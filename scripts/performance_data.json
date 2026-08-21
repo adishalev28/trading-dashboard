@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-20 22:05:30",
+  "lastUpdate": "2026-08-21 10:08:21",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -31034,6 +31034,12 @@
             "breakout",
             "topPick"
           ]
+        },
+        {
+          "date": "2026-08-21",
+          "lists": [
+            "topPick"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -31042,9 +31048,15 @@
           "score": 82,
           "grade": "A+",
           "tags": []
+        },
+        {
+          "date": "2026-08-21",
+          "score": 75,
+          "grade": "A",
+          "tags": []
         }
       ],
-      "lastSeen": "2026-08-20",
+      "lastSeen": "2026-08-21",
       "bestTopPickScore": 82
     },
     "SSO": {

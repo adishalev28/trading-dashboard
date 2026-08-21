@@ -1,42 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-05-22",
-      "stage2Count": 286,
-      "breakoutCount": 21,
-      "breakoutTickers": [
-        "APLS",
-        "ASX",
-        "BE",
-        "BTSG",
-        "CIEN",
-        "CIFR",
-        "CNTA",
-        "KLAC",
-        "LQDA",
-        "ON",
-        "PRAX",
-        "RVMD",
-        "SANM",
-        "SEDG",
-        "SNX",
-        "TIGO",
-        "TVTX",
-        "TWST",
-        "UMC",
-        "VSAT",
-        "WBD"
-      ],
-      "spy": {
-        "price": 745.64,
-        "sma50": 696.49
-      },
-      "qqq": {
-        "price": 717.54,
-        "sma50": 642.01
-      }
-    },
-    {
       "date": "2026-05-23",
       "stage2Count": 286,
       "breakoutCount": 21,
@@ -2927,6 +2891,20 @@
         "EE",
         "MMSI"
       ],
+      "spy": {
+        "price": 762.6,
+        "sma50": 750.72
+      },
+      "qqq": {
+        "price": 710.93,
+        "sma50": 712.94
+      }
+    },
+    {
+      "date": "2026-08-21",
+      "stage2Count": 10,
+      "breakoutCount": 0,
+      "breakoutTickers": [],
       "spy": {
         "price": 762.6,
         "sma50": 750.72
