@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-22 10:01:26",
+    "generatedAt": "2026-08-22 21:59:45",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
     "totalScanned": 1345,
@@ -684,7 +684,7 @@
       "price": 18.05,
       "sma150": 16.22,
       "sma200": 15.63,
-      "rsScore": 74,
+      "rsScore": 73,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 5.0,
@@ -789,13 +789,12 @@
       "vcpStatus": "none",
       "volumeSurge": "none",
       "weekHighDistance": 57.14,
-      "volumePctAvg": 41.3,
+      "volumePctAvg": 6.8,
       "sma20": 0.03,
       "pivotPrice": 0.04,
       "distToPivotPct": 55.0,
       "priceHistory30d": [
         0.01,
-        0.01,
         0.02,
         0.03,
         0.03,
@@ -823,6 +822,7 @@
         0.01,
         0.02,
         0.01,
+        0.02,
         0.02
       ],
       "marketCap": 0,
@@ -987,7 +987,7 @@
       "price": 110.54,
       "sma150": 102.23,
       "sma200": 96.57,
-      "rsScore": 79,
+      "rsScore": 78,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 13.23,
