@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generatedAt": "2026-08-23 21:58:29",
+    "generatedAt": "2026-08-24 10:25:26",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
-    "totalScanned": 1345,
-    "passedFinviz": 1345,
+    "totalScanned": 1351,
+    "passedFinviz": 1351,
     "finalCount": 12,
-    "note": "Screened 1345 stocks. 12 passed Stage 2 / Warning filters."
+    "note": "Screened 1351 stocks. 12 passed Stage 2 / Warning filters."
   },
-  "fxRate": 2.9863,
+  "fxRate": 2.9901,
   "commissionRoundTripUsd": 14,
   "benchmark": {
     "symbol": "SPY",
@@ -19,7 +19,7 @@
     "aboveSma200": true
   },
   "breadth": {
-    "asOf": "2026-08-23",
+    "asOf": "2026-08-24",
     "indices": {
       "spy": {
         "price": 765.72,
@@ -41,7 +41,7 @@
     },
     "breakouts": {
       "current": 0,
-      "prev5d": 2,
+      "prev5d": 3,
       "changePct": -100.0
     }
   },
@@ -583,7 +583,7 @@
       "price": 81.5,
       "sma150": 73.6,
       "sma200": 73.17,
-      "rsScore": 80,
+      "rsScore": 81,
       "vcpStatus": "none",
       "volumeSurge": "none",
       "weekHighDistance": 9.62,
@@ -684,7 +684,7 @@
       "price": 18.05,
       "sma150": 16.22,
       "sma200": 15.63,
-      "rsScore": 73,
+      "rsScore": 74,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 5.0,
@@ -733,7 +733,7 @@
       "price": 4.0,
       "sma150": 3.18,
       "sma200": 2.97,
-      "rsScore": 88,
+      "rsScore": 89,
       "vcpStatus": "none",
       "volumeSurge": "none",
       "weekHighDistance": 14.35,
@@ -834,7 +834,7 @@
       "price": 42.3,
       "sma150": 39.38,
       "sma200": 37.58,
-      "rsScore": 70,
+      "rsScore": 71,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 0.0,
@@ -883,7 +883,7 @@
       "price": 3.19,
       "sma150": 2.63,
       "sma200": 2.5,
-      "rsScore": 83,
+      "rsScore": 84,
       "vcpStatus": "none",
       "volumeSurge": "none",
       "weekHighDistance": 17.78,
@@ -935,7 +935,7 @@
       "price": 39.35,
       "sma150": 36.05,
       "sma200": 33.97,
-      "rsScore": 75,
+      "rsScore": 76,
       "vcpStatus": "none",
       "volumeSurge": "none",
       "weekHighDistance": 7.62,
@@ -987,7 +987,7 @@
       "price": 110.54,
       "sma150": 102.23,
       "sma200": 96.57,
-      "rsScore": 78,
+      "rsScore": 79,
       "vcpStatus": "loose",
       "volumeSurge": "none",
       "weekHighDistance": 13.23,
