@@ -1,46 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-05-26",
-      "stage2Count": 300,
-      "breakoutCount": 25,
-      "breakoutTickers": [
-        "ABVX",
-        "ALGM",
-        "APLS",
-        "ARWR",
-        "ATRO",
-        "AXSM",
-        "BE",
-        "CAT",
-        "CNTA",
-        "CSCO",
-        "DOCN",
-        "ERAS",
-        "EZPW",
-        "FLEX",
-        "IONQ",
-        "LFUS",
-        "LION",
-        "LUMN",
-        "MYRG",
-        "OGN",
-        "PLAB",
-        "TVTX",
-        "TXG",
-        "VISN",
-        "WBD"
-      ],
-      "spy": {
-        "price": 750.59,
-        "sma50": 698.3
-      },
-      "qqq": {
-        "price": 730.28,
-        "sma50": 644.76
-      }
-    },
-    {
       "date": "2026-05-27",
       "stage2Count": 305,
       "breakoutCount": 33,
@@ -2840,6 +2800,20 @@
     {
       "date": "2026-08-24",
       "stage2Count": 11,
+      "breakoutCount": 0,
+      "breakoutTickers": [],
+      "spy": {
+        "price": 763.47,
+        "sma50": 752.11
+      },
+      "qqq": {
+        "price": 706.32,
+        "sma50": 713.15
+      }
+    },
+    {
+      "date": "2026-08-25",
+      "stage2Count": 10,
       "breakoutCount": 0,
       "breakoutTickers": [],
       "spy": {
