@@ -2813,16 +2813,22 @@
     },
     {
       "date": "2026-08-25",
-      "stage2Count": 10,
-      "breakoutCount": 0,
-      "breakoutTickers": [],
+      "stage2Count": 13,
+      "breakoutCount": 5,
+      "breakoutTickers": [
+        "BBC",
+        "BBP",
+        "CCCC",
+        "EET",
+        "MMSI"
+      ],
       "spy": {
-        "price": 763.47,
-        "sma50": 752.11
+        "price": 765.91,
+        "sma50": 752.63
       },
       "qqq": {
-        "price": 706.32,
-        "sma50": 713.15
+        "price": 710.72,
+        "sma50": 712.95
       }
     }
   ]
