@@ -1,54 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-05-27",
-      "stage2Count": 305,
-      "breakoutCount": 33,
-      "breakoutTickers": [
-        "AA",
-        "AAMI",
-        "AMAT",
-        "AMD",
-        "APLS",
-        "ARWR",
-        "ATEN",
-        "AXSM",
-        "CAT",
-        "CENX",
-        "CNTA",
-        "COCO",
-        "CRDO",
-        "CSCO",
-        "DDOG",
-        "EXTR",
-        "GTX",
-        "KEEL",
-        "KN",
-        "LFUS",
-        "LQDA",
-        "LRCX",
-        "LSCC",
-        "MKSI",
-        "MXL",
-        "OGN",
-        "ON",
-        "PENG",
-        "PLXS",
-        "RVMD",
-        "SIMO",
-        "TWST",
-        "WBD"
-      ],
-      "spy": {
-        "price": 750.46,
-        "sma50": 699.96
-      },
-      "qqq": {
-        "price": 729.45,
-        "sma50": 647.36
-      }
-    },
-    {
       "date": "2026-05-28",
       "stage2Count": 303,
       "breakoutCount": 39,
@@ -2821,6 +2773,24 @@
         "CCCC",
         "EET",
         "MMSI"
+      ],
+      "spy": {
+        "price": 765.91,
+        "sma50": 752.63
+      },
+      "qqq": {
+        "price": 710.72,
+        "sma50": 712.95
+      }
+    },
+    {
+      "date": "2026-08-26",
+      "stage2Count": 10,
+      "breakoutCount": 3,
+      "breakoutTickers": [
+        "BBC",
+        "BBP",
+        "CCCC"
       ],
       "spy": {
         "price": 765.91,
