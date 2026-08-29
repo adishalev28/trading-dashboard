@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generatedAt": "2026-08-29 14:45:35",
+    "generatedAt": "2026-08-29 23:40:29",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
-    "totalScanned": 1281,
-    "passedFinviz": 1281,
+    "totalScanned": 1280,
+    "passedFinviz": 1280,
     "finalCount": 376,
-    "note": "Screened 1281 stocks. 376 passed Stage 2 / Warning filters."
+    "note": "Screened 1280 stocks. 376 passed Stage 2 / Warning filters."
   },
   "fxRate": 2.9975,
   "commissionRoundTripUsd": 14,
