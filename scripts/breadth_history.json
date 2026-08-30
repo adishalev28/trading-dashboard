@@ -1,52 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-05-31",
-      "stage2Count": 296,
-      "breakoutCount": 31,
-      "breakoutTickers": [
-        "ALAB",
-        "AMAT",
-        "AMD",
-        "ASML",
-        "ATRO",
-        "AXSM",
-        "AYA",
-        "CLMT",
-        "CNTA",
-        "EXTR",
-        "GSAT",
-        "LQDA",
-        "LRCX",
-        "MRVL",
-        "MT",
-        "OGN",
-        "ONDS",
-        "PL",
-        "PLXS",
-        "PRAX",
-        "RXO",
-        "SANM",
-        "STLD",
-        "STM",
-        "STX",
-        "TIGO",
-        "TVTX",
-        "TXG",
-        "VISN",
-        "VSH",
-        "XMTR"
-      ],
-      "spy": {
-        "price": 756.48,
-        "sma50": 703.61
-      },
-      "qqq": {
-        "price": 738.31,
-        "sma50": 652.9
-      }
-    },
-    {
       "date": "2026-06-01",
       "stage2Count": 286,
       "breakoutCount": 22,
@@ -2773,6 +2727,52 @@
     },
     {
       "date": "2026-08-29",
+      "stage2Count": 281,
+      "breakoutCount": 31,
+      "breakoutTickers": [
+        "AAMI",
+        "ABNB",
+        "ATRC",
+        "AVTR",
+        "AXGN",
+        "CHYM",
+        "CRNX",
+        "CXW",
+        "DHT",
+        "FIVN",
+        "FRO",
+        "GEO",
+        "HUM",
+        "INSW",
+        "INTA",
+        "ITGR",
+        "MT",
+        "NIQ",
+        "NSIT",
+        "NSP",
+        "OGN",
+        "PATH",
+        "RELY",
+        "ROKU",
+        "SLDE",
+        "SN",
+        "STT",
+        "TNET",
+        "UGP",
+        "UTZ",
+        "WLY"
+      ],
+      "spy": {
+        "price": 769.35,
+        "sma50": 753.96
+      },
+      "qqq": {
+        "price": 716.43,
+        "sma50": 712.05
+      }
+    },
+    {
+      "date": "2026-08-30",
       "stage2Count": 281,
       "breakoutCount": 31,
       "breakoutTickers": [
