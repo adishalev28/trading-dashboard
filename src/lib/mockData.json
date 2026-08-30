@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-30 14:35:14",
+    "generatedAt": "2026-08-30 23:56:59",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
     "totalScanned": 1280,
@@ -8,7 +8,7 @@
     "finalCount": 376,
     "note": "Screened 1280 stocks. 376 passed Stage 2 / Warning filters."
   },
-  "fxRate": 2.9975,
+  "fxRate": 2.9659,
   "commissionRoundTripUsd": 14,
   "benchmark": {
     "symbol": "SPY",
@@ -1263,7 +1263,7 @@
         18.89,
         18.04
       ],
-      "marketCap": 5.2,
+      "marketCap": 5.1,
       "sector": "Materials",
       "earningsDate": "2026-11-06",
       "epsGrowthYoY": 84.6,
@@ -4164,7 +4164,7 @@
         24.25,
         23.44
       ],
-      "marketCap": 4.6,
+      "marketCap": 4.7,
       "sector": "Materials",
       "earningsDate": "2026-10-27",
       "epsGrowthYoY": 9.4,
@@ -5165,7 +5165,7 @@
         296.41,
         291.5
       ],
-      "marketCap": 14.0,
+      "marketCap": 13.9,
       "sector": "Healthcare",
       "earningsDate": "2026-11-04",
       "epsGrowthYoY": -102.8,
@@ -6008,7 +6008,7 @@
         111.54,
         105.84
       ],
-      "marketCap": 5.9,
+      "marketCap": 5.8,
       "sector": "Healthcare",
       "earningsDate": "2026-11-05",
       "epsGrowthYoY": -2.3,
@@ -6061,7 +6061,7 @@
         121.68,
         111.21
       ],
-      "marketCap": 13.1,
+      "marketCap": 13.0,
       "sector": "Technology",
       "earningsDate": "2026-11-04",
       "epsGrowthYoY": -25.6,
@@ -6642,7 +6642,7 @@
         41.55,
         41.39
       ],
-      "marketCap": 98.2,
+      "marketCap": 98.3,
       "sector": "Energy",
       "earningsDate": "2026-10-28",
       "epsGrowthYoY": 298.0,
@@ -8015,7 +8015,7 @@
         152.8,
         148.98
       ],
-      "marketCap": 128.3,
+      "marketCap": 128.1,
       "sector": "Technology",
       "earningsDate": "2026-10-27",
       "epsGrowthYoY": 18.5,
@@ -9707,7 +9707,7 @@
         35.1,
         35.24
       ],
-      "marketCap": 100.5,
+      "marketCap": 100.6,
       "sector": "Financials",
       "earningsDate": "2026-10-29",
       "salesGrowthYoY": 9.7,
@@ -10500,7 +10500,7 @@
         79.8,
         78.08
       ],
-      "marketCap": 6.1,
+      "marketCap": 6.0,
       "sector": "Healthcare",
       "earningsDate": "2026-10-27",
       "epsGrowthYoY": 30.4,
@@ -10764,7 +10764,7 @@
         120.23,
         118.15
       ],
-      "marketCap": 9.7,
+      "marketCap": 9.8,
       "sector": "Healthcare",
       "earningsDate": "2026-11-03",
       "epsGrowthYoY": 34.7,
@@ -11610,7 +11610,7 @@
         363.54,
         368.83
       ],
-      "marketCap": 103.6,
+      "marketCap": 107.7,
       "sector": "Energy",
       "earningsDate": "2026-11-03",
       "epsGrowthYoY": 347.7,
@@ -11821,7 +11821,7 @@
         71.38,
         72.84
       ],
-      "marketCap": 0,
+      "marketCap": 5.2,
       "sector": "Financials",
       "earningsDate": "2026-11-05",
       "epsGrowthYoY": 55.4,
@@ -12191,7 +12191,7 @@
         218.48,
         209.18
       ],
-      "marketCap": 56.9,
+      "marketCap": 53.1,
       "sector": "Technology",
       "earningsDate": "2026-11-10",
       "epsGrowthYoY": 539.6,
@@ -12297,7 +12297,7 @@
         18.64,
         18.05
       ],
-      "marketCap": 2.3,
+      "marketCap": 2.4,
       "sector": "Healthcare",
       "earningsDate": "2026-10-27",
       "epsGrowthYoY": 105.7,
@@ -12827,7 +12827,7 @@
         190.64,
         187.02
       ],
-      "marketCap": 36.7,
+      "marketCap": 36.6,
       "sector": "Technology",
       "earningsDate": "2026-09-02",
       "epsGrowthYoY": 23.0,
@@ -14515,7 +14515,7 @@
         239.81,
         244.01
       ],
-      "marketCap": 97.8,
+      "marketCap": 97.4,
       "sector": "Energy",
       "earningsDate": "2026-10-29",
       "epsGrowthYoY": 344.2,
@@ -14674,7 +14674,7 @@
         188.59,
         187.05
       ],
-      "marketCap": 6.5,
+      "marketCap": 6.6,
       "sector": "Technology",
       "earningsDate": "2026-11-03",
       "epsGrowthYoY": 16.3,
@@ -15780,7 +15780,7 @@
         599.89,
         557.86
       ],
-      "marketCap": 16.7,
+      "marketCap": 16.8,
       "sector": "Technology",
       "earningsDate": "2026-11-04",
       "epsGrowthYoY": 178.6,
@@ -16254,7 +16254,7 @@
         192.86,
         191.23
       ],
-      "marketCap": 27.1,
+      "marketCap": 26.9,
       "sector": "Consumer Discretionary",
       "earningsDate": "2026-11-05",
       "epsGrowthYoY": -6.1,
@@ -16412,7 +16412,7 @@
         260.13,
         253.97
       ],
-      "marketCap": 0,
+      "marketCap": 20.3,
       "sector": "Technology",
       "earningsDate": "2026-09-24",
       "epsGrowthYoY": 87.8,
@@ -16673,7 +16673,7 @@
         39.01,
         37.29
       ],
-      "marketCap": 7.6,
+      "marketCap": 7.7,
       "sector": "Materials",
       "earningsDate": "2026-11-03",
       "epsGrowthYoY": 11.9,
@@ -16779,7 +16779,7 @@
         51.34,
         49.38
       ],
-      "marketCap": 44.0,
+      "marketCap": 44.1,
       "sector": "Technology",
       "earningsDate": "2026-10-29",
       "epsGrowthYoY": 318.2,
@@ -16885,7 +16885,7 @@
         847.2,
         829.76
       ],
-      "marketCap": 188.1,
+      "marketCap": 188.4,
       "sector": "Technology",
       "earningsDate": "2026-10-27",
       "epsGrowthYoY": 149.1,
@@ -16990,7 +16990,7 @@
         93.61,
         90.36
       ],
-      "marketCap": 8.0,
+      "marketCap": 7.8,
       "sector": "Healthcare",
       "earningsDate": "2026-11-03",
       "epsGrowthYoY": 29.7,
@@ -17411,7 +17411,7 @@
         37.62,
         37.67
       ],
-      "marketCap": 4.1,
+      "marketCap": 4.2,
       "sector": "Technology",
       "earningsDate": "2026-10-28",
       "epsGrowthYoY": 125.0,
@@ -18310,7 +18310,7 @@
         67.52,
         65.67
       ],
-      "marketCap": 6.2,
+      "marketCap": 6.1,
       "sector": "Healthcare",
       "earningsDate": "2026-10-29",
       "epsGrowthYoY": -164.3,
@@ -18469,7 +18469,7 @@
         55.83,
         54.84
       ],
-      "marketCap": 0,
+      "marketCap": 10.8,
       "sector": "Materials",
       "earningsDate": "2026-10-27",
       "epsGrowthYoY": 63.6,
@@ -18946,7 +18946,7 @@
         14.2,
         14.2
       ],
-      "marketCap": 2.0,
+      "marketCap": 1.3,
       "sector": "Consumer Staples",
       "earningsDate": "2026-10-29",
       "epsGrowthYoY": -191.7,
@@ -19581,7 +19581,7 @@
         105.01,
         103.76
       ],
-      "marketCap": 14.2,
+      "marketCap": 13.7,
       "sector": "Consumer Discretionary",
       "earningsDate": "2026-10-27",
       "epsGrowthYoY": -109.1,
@@ -20053,7 +20053,7 @@
         96.26,
         94.11
       ],
-      "marketCap": 5.4,
+      "marketCap": 5.2,
       "sector": "Industrials",
       "earningsDate": "2026-11-03",
       "epsGrowthYoY": 80.8,
@@ -20159,7 +20159,7 @@
         361.11,
         356.45
       ],
-      "marketCap": 16.9,
+      "marketCap": 17.0,
       "sector": "Technology",
       "earningsDate": "2026-11-03",
       "epsGrowthYoY": 121.5,
@@ -20212,7 +20212,7 @@
         30.22,
         30.54
       ],
-      "marketCap": 7.6,
+      "marketCap": 7.7,
       "sector": "Technology",
       "earningsDate": "2026-11-03",
       "epsGrowthYoY": 160.5,
