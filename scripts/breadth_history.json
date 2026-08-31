@@ -1,43 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-06-01",
-      "stage2Count": 286,
-      "breakoutCount": 22,
-      "breakoutTickers": [
-        "AMD",
-        "AMPX",
-        "ASML",
-        "CLMT",
-        "COHU",
-        "CSTM",
-        "DFTX",
-        "FLEX",
-        "HLIO",
-        "KN",
-        "LRCX",
-        "NOK",
-        "NVT",
-        "OGN",
-        "PLXS",
-        "RCUS",
-        "RLAY",
-        "SEDG",
-        "TGB",
-        "TIGO",
-        "TWST",
-        "XMTR"
-      ],
-      "spy": {
-        "price": 758.54,
-        "sma50": 705.62
-      },
-      "qqq": {
-        "price": 742.74,
-        "sma50": 655.91
-      }
-    },
-    {
       "date": "2026-06-02",
       "stage2Count": 286,
       "breakoutCount": 30,
@@ -2815,6 +2778,58 @@
       "qqq": {
         "price": 716.43,
         "sma50": 712.05
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "stage2Count": 269,
+      "breakoutCount": 37,
+      "breakoutTickers": [
+        "ASST",
+        "ATAI",
+        "AVTR",
+        "CBZ",
+        "CLBK",
+        "CMBT",
+        "CRNX",
+        "CRWD",
+        "ECO",
+        "EQNR",
+        "FIVN",
+        "FRO",
+        "FTNT",
+        "HP",
+        "HTFL",
+        "HUM",
+        "INTA",
+        "ITGR",
+        "KRYS",
+        "MAN",
+        "MT",
+        "NIQ",
+        "NSIT",
+        "NSP",
+        "OGN",
+        "OKTA",
+        "PATH",
+        "PTEN",
+        "RELY",
+        "RHI",
+        "RNG",
+        "ROKU",
+        "SLDE",
+        "SM",
+        "SN",
+        "STT",
+        "UTZ"
+      ],
+      "spy": {
+        "price": 765.94,
+        "sma50": 754.34
+      },
+      "qqq": {
+        "price": 714.83,
+        "sma50": 711.55
       }
     }
   ]
