@@ -1,51 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-06-02",
-      "stage2Count": 286,
-      "breakoutCount": 30,
-      "breakoutTickers": [
-        "ACMR",
-        "AKAM",
-        "ARM",
-        "ATI",
-        "BE",
-        "BHE",
-        "CAT",
-        "CRWD",
-        "DIOD",
-        "DOCN",
-        "EC",
-        "FROG",
-        "INOD",
-        "IONQ",
-        "IREN",
-        "JBL",
-        "KLIC",
-        "MKSI",
-        "NBIS",
-        "NVT",
-        "OGN",
-        "OUST",
-        "PANW",
-        "PLUG",
-        "STRL",
-        "SYNA",
-        "UCTT",
-        "UMC",
-        "VISN",
-        "WULF"
-      ],
-      "spy": {
-        "price": 759.57,
-        "sma50": 707.84
-      },
-      "qqq": {
-        "price": 746.16,
-        "sma50": 659.21
-      }
-    },
-    {
       "date": "2026-06-03",
       "stage2Count": 281,
       "breakoutCount": 35,
@@ -2830,6 +2785,56 @@
       "qqq": {
         "price": 714.83,
         "sma50": 711.55
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "stage2Count": 266,
+      "breakoutCount": 35,
+      "breakoutTickers": [
+        "ATAI",
+        "ATRC",
+        "AVTR",
+        "AXGN",
+        "CHYM",
+        "CLBK",
+        "CMBT",
+        "DHT",
+        "ECO",
+        "EQNR",
+        "FIGS",
+        "FIVN",
+        "FRO",
+        "FTNT",
+        "HNGE",
+        "HP",
+        "INSW",
+        "INTA",
+        "ITGR",
+        "KRYS",
+        "MRX",
+        "MT",
+        "NIQ",
+        "NSP",
+        "OGN",
+        "PLSE",
+        "ROKU",
+        "SBLK",
+        "SM",
+        "SN",
+        "SNOW",
+        "STT",
+        "TNET",
+        "TVTX",
+        "UTZ"
+      ],
+      "spy": {
+        "price": 767.05,
+        "sma50": 754.36
+      },
+      "qqq": {
+        "price": 716.76,
+        "sma50": 711.59
       }
     }
   ]
