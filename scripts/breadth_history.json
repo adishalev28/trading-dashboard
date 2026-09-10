@@ -1,44 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-06-11",
-      "stage2Count": 286,
-      "breakoutCount": 23,
-      "breakoutTickers": [
-        "ACMR",
-        "AEIS",
-        "APGE",
-        "ARCB",
-        "AXGN",
-        "BHE",
-        "CAMT",
-        "CNTA",
-        "COCO",
-        "DFTX",
-        "GH",
-        "GTX",
-        "JAZZ",
-        "JBL",
-        "LQDA",
-        "LSTR",
-        "NUE",
-        "OGN",
-        "SNX",
-        "SSL",
-        "STM",
-        "VISN",
-        "VSXY"
-      ],
-      "spy": {
-        "price": 737.76,
-        "sma50": 721.07
-      },
-      "qqq": {
-        "price": 717.12,
-        "sma50": 679.07
-      }
-    },
-    {
       "date": "2026-06-12",
       "stage2Count": 294,
       "breakoutCount": 34,
@@ -2942,6 +2904,59 @@
       "qqq": {
         "price": 716.31,
         "sma50": 711.17
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "stage2Count": 242,
+      "breakoutCount": 38,
+      "breakoutTickers": [
+        "APGE",
+        "ARX",
+        "ASST",
+        "ATAI",
+        "ATRC",
+        "AVAH",
+        "BTE",
+        "BTSG",
+        "CBZ",
+        "CLMT",
+        "CMBT",
+        "CNC",
+        "CVE",
+        "CXW",
+        "DAR",
+        "DHT",
+        "DK",
+        "DOCN",
+        "EC",
+        "ECO",
+        "EQNR",
+        "GSAT",
+        "HAFN",
+        "ITGR",
+        "LITE",
+        "MPC",
+        "OGN",
+        "OSCR",
+        "PACS",
+        "PARR",
+        "PBF",
+        "PSX",
+        "STT",
+        "TBBB",
+        "TIGO",
+        "TX",
+        "UTZ",
+        "VLO"
+      ],
+      "spy": {
+        "price": 758.21,
+        "sma50": 758.25
+      },
+      "qqq": {
+        "price": 709.46,
+        "sma50": 710.63
       }
     }
   ]
