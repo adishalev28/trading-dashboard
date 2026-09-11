@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-11 18:54:14",
+  "lastUpdate": "2026-09-11 23:34:31",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -685,10 +685,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-09-11",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-09-10",
+      "lastSeen": "2026-09-11",
       "entryPrice": 4.74
     },
     "CAPR": {
@@ -8977,6 +8983,12 @@
           "lists": [
             "topPick"
           ]
+        },
+        {
+          "date": "2026-09-11",
+          "lists": [
+            "topPick"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -8995,11 +9007,19 @@
           "tags": [
             "eps_extreme"
           ]
+        },
+        {
+          "date": "2026-09-11",
+          "score": 95,
+          "grade": "A+",
+          "tags": [
+            "eps_extreme"
+          ]
         }
       ],
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-11",
       "entryPrice": 81.22,
-      "bestTopPickScore": 80
+      "bestTopPickScore": 95
     },
     "MEOH": {
       "firstSeen": "2026-04-29",
@@ -9994,7 +10014,7 @@
         {
           "date": "2026-09-11",
           "lists": [
-            "breakout"
+            "topPick"
           ]
         }
       ],
@@ -10008,6 +10028,12 @@
         {
           "date": "2026-09-08",
           "score": 90,
+          "grade": "A+",
+          "tags": []
+        },
+        {
+          "date": "2026-09-11",
+          "score": 95,
           "grade": "A+",
           "tags": []
         }
@@ -12458,7 +12484,7 @@
         },
         {
           "date": "2026-09-11",
-          "score": 85,
+          "score": 95,
           "grade": "A+",
           "tags": [
             "eps_extreme"
@@ -33381,10 +33407,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-09-11",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-09-10"
+      "lastSeen": "2026-09-11"
     },
     "ENVA": {
       "firstSeen": "2026-07-10",
@@ -37752,6 +37784,20 @@
     "HPQ": {
       "firstSeen": "2026-09-11",
       "entryPrice": 35.53,
+      "appearances": [
+        {
+          "date": "2026-09-11",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-09-11"
+    },
+    "FA": {
+      "firstSeen": "2026-09-11",
+      "entryPrice": 21.22,
       "appearances": [
         {
           "date": "2026-09-11",
