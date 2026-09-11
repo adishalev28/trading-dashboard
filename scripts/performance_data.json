@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-11 18:43:27",
+  "lastUpdate": "2026-09-11 18:54:14",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -16436,6 +16436,12 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-09-11",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -16445,7 +16451,7 @@
           "grade": "B+"
         }
       ],
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-11",
       "bestTopPickScore": 57
     },
     "SANM": {
@@ -29751,6 +29757,12 @@
           "lists": [
             "topPick"
           ]
+        },
+        {
+          "date": "2026-09-11",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -29763,7 +29775,7 @@
           ]
         }
       ],
-      "lastSeen": "2026-09-10",
+      "lastSeen": "2026-09-11",
       "bestTopPickScore": 85
     },
     "ROST": {
@@ -32931,10 +32943,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-09-11",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-07-13"
+      "lastSeen": "2026-09-11"
     },
     "DVA": {
       "firstSeen": "2026-07-07",
@@ -33481,10 +33499,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-09-11",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-09-10"
+      "lastSeen": "2026-09-11"
     },
     "WST": {
       "firstSeen": "2026-07-14",
@@ -36458,6 +36482,7 @@
         {
           "date": "2026-09-11",
           "lists": [
+            "breakout",
             "topPick"
           ]
         }
@@ -37713,6 +37738,20 @@
     "VG": {
       "firstSeen": "2026-09-11",
       "entryPrice": 15.48,
+      "appearances": [
+        {
+          "date": "2026-09-11",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-09-11"
+    },
+    "HPQ": {
+      "firstSeen": "2026-09-11",
+      "entryPrice": 35.53,
       "appearances": [
         {
           "date": "2026-09-11",

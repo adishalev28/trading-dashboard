@@ -2910,7 +2910,7 @@
     {
       "date": "2026-09-11",
       "stage2Count": 248,
-      "breakoutCount": 40,
+      "breakoutCount": 42,
       "breakoutTickers": [
         "AMD",
         "APA",
@@ -2918,48 +2918,50 @@
         "ARX",
         "ATAI",
         "ATRC",
+        "AVAH",
         "BE",
         "BWLP",
         "CBZ",
         "CIB",
         "CLOV",
         "CMBT",
-        "CVI",
+        "CON",
+        "CVE",
         "CXW",
-        "DK",
+        "DHT",
         "EQNR",
         "GSAT",
-        "HAFN",
-        "HPE",
+        "HPQ",
         "HTFL",
+        "HUT",
         "ITGR",
+        "LFST",
         "LPG",
+        "MFG",
         "MPC",
         "OGN",
         "PACS",
         "PSX",
         "PTEN",
         "ROIV",
-        "SLDE",
-        "SM",
         "SSL",
         "STT",
         "TIGO",
         "TNK",
         "TRMD",
         "TVTX",
-        "TXG",
         "UGP",
         "UMC",
-        "UTZ"
+        "UTZ",
+        "VG"
       ],
       "spy": {
-        "price": 765.34,
-        "sma50": 758.64
+        "price": 765.11,
+        "sma50": 758.63
       },
       "qqq": {
-        "price": 716.42,
-        "sma50": 710.44
+        "price": 716.0,
+        "sma50": 710.43
       }
     }
   ]
