@@ -1,55 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-06-12",
-      "stage2Count": 294,
-      "breakoutCount": 34,
-      "breakoutTickers": [
-        "ALAB",
-        "ARCB",
-        "ARW",
-        "ASML",
-        "ATI",
-        "BWLP",
-        "CNC",
-        "CNTA",
-        "CORT",
-        "CRS",
-        "CSTM",
-        "CTOS",
-        "DGII",
-        "DHC",
-        "GH",
-        "GTX",
-        "HLIO",
-        "KEYS",
-        "KNX",
-        "LQDA",
-        "MT",
-        "OGN",
-        "POWL",
-        "SMTC",
-        "STX",
-        "TER",
-        "TFII",
-        "TKR",
-        "TNGX",
-        "TTMI",
-        "VIAV",
-        "VISN",
-        "VSXY",
-        "YPF"
-      ],
-      "spy": {
-        "price": 741.75,
-        "sma50": 722.8
-      },
-      "qqq": {
-        "price": 721.34,
-        "sma50": 681.81
-      }
-    },
-    {
       "date": "2026-06-13",
       "stage2Count": 294,
       "breakoutCount": 34,
@@ -2954,6 +2905,65 @@
       "qqq": {
         "price": 708.69,
         "sma50": 710.61
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "stage2Count": 253,
+      "breakoutCount": 44,
+      "breakoutTickers": [
+        "AMD",
+        "APA",
+        "APGE",
+        "ARX",
+        "ATAI",
+        "ATRC",
+        "AVT",
+        "AYA",
+        "BE",
+        "CBZ",
+        "CIB",
+        "CLMT",
+        "CLOV",
+        "CVE",
+        "CXW",
+        "DOCN",
+        "EC",
+        "EQNR",
+        "GSAT",
+        "HPE",
+        "HUM",
+        "INTC",
+        "ITGR",
+        "LPG",
+        "MFG",
+        "NSIT",
+        "OGN",
+        "OKTA",
+        "OSCR",
+        "PTEN",
+        "ROIV",
+        "SIMO",
+        "SLDE",
+        "SM",
+        "SSL",
+        "STT",
+        "TBBB",
+        "TIGO",
+        "TRMD",
+        "TX",
+        "UMC",
+        "UTZ",
+        "VG",
+        "ZIM"
+      ],
+      "spy": {
+        "price": 765.18,
+        "sma50": 758.63
+      },
+      "qqq": {
+        "price": 716.21,
+        "sma50": 710.43
       }
     }
   ]
