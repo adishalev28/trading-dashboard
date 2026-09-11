@@ -1,0 +1,525 @@
+{
+  "lastUpdate": "2026-09-11 21:35:30",
+  "tickers": {
+    "ABNB": {
+      "companyName": "Airbnb Inc",
+      "entryPrice": 169.48,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Consumer Cyclical",
+      "spyEntry": 765.38
+    },
+    "ACAD": {
+      "companyName": "Acadia Pharmaceuticals Inc",
+      "entryPrice": 27.87,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Healthcare",
+      "spyEntry": 765.38
+    },
+    "AEM": {
+      "companyName": "Agnico Eagle Mines Ltd",
+      "entryPrice": 198.76,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Basic Materials",
+      "spyEntry": 765.38
+    },
+    "ANET": {
+      "companyName": "Arista Networks Inc",
+      "entryPrice": 199.68,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Technology",
+      "spyEntry": 765.38
+    },
+    "APPF": {
+      "companyName": "Appfolio Inc",
+      "entryPrice": 207.85,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Technology",
+      "spyEntry": 765.38
+    },
+    "ARGX": {
+      "companyName": "Argen X SE ADR",
+      "entryPrice": 992.52,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Healthcare",
+      "spyEntry": 765.38
+    },
+    "ASML": {
+      "companyName": "ASML Holding NV",
+      "entryPrice": 1706.48,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Technology",
+      "spyEntry": 765.38
+    },
+    "ASND": {
+      "companyName": "Ascendis Pharma A/S",
+      "entryPrice": 264.17,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Healthcare",
+      "spyEntry": 765.38
+    },
+    "AU": {
+      "companyName": "AngloGold Ashanti Plc",
+      "entryPrice": 103.9,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Basic Materials",
+      "spyEntry": 765.38
+    },
+    "AUPH": {
+      "companyName": "Aurinia Pharmaceuticals Inc",
+      "entryPrice": 16.16,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Healthcare",
+      "spyEntry": 765.38
+    },
+    "AVPT": {
+      "companyName": "AvePoint Inc",
+      "entryPrice": 12.69,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Technology",
+      "spyEntry": 765.38
+    },
+    "AYA": {
+      "companyName": "Aya Gold & Silver Inc",
+      "entryPrice": 27.81,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Basic Materials",
+      "spyEntry": 765.38
+    },
+    "BVN": {
+      "companyName": "Compania de Minas Buenaventura SA ADR",
+      "entryPrice": 33.88,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Basic Materials",
+      "spyEntry": 765.38
+    },
+    "BWLP": {
+      "companyName": "BW LPG Limited",
+      "entryPrice": 24.86,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Energy",
+      "spyEntry": 765.38
+    },
+    "CART": {
+      "companyName": "Maplebear Inc",
+      "entryPrice": 48.13,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Consumer Cyclical",
+      "spyEntry": 765.38
+    },
+    "CLS": {
+      "companyName": "Celestica Inc",
+      "entryPrice": 339.82,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Technology",
+      "spyEntry": 765.38
+    },
+    "CNQ": {
+      "companyName": "Canadian Natural Resources Ltd",
+      "entryPrice": 49.46,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Energy",
+      "spyEntry": 765.38
+    },
+    "CRS": {
+      "companyName": "Carpenter Technology Corp",
+      "entryPrice": 445.67,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Industrials",
+      "spyEntry": 765.38
+    },
+    "CVE": {
+      "companyName": "Cenovus Energy Inc",
+      "entryPrice": 32.76,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Energy",
+      "spyEntry": 765.38
+    },
+    "DLO": {
+      "companyName": "DLocal Limited",
+      "entryPrice": 14.82,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Technology",
+      "spyEntry": 765.38
+    },
+    "DOCU": {
+      "companyName": "DocuSign Inc",
+      "entryPrice": 66.25,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Technology",
+      "spyEntry": 765.38
+    },
+    "DUOL": {
+      "companyName": "Duolingo Inc",
+      "entryPrice": 144.41,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Technology",
+      "spyEntry": 765.38
+    },
+    "DXCM": {
+      "companyName": "Dexcom Inc",
+      "entryPrice": 83.09,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Healthcare",
+      "spyEntry": 765.38
+    },
+    "EOG": {
+      "companyName": "EOG Resources Inc",
+      "entryPrice": 146.51,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Energy",
+      "spyEntry": 765.38
+    },
+    "ERO": {
+      "companyName": "Ero Copper Corp",
+      "entryPrice": 35.54,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Basic Materials",
+      "spyEntry": 765.38
+    },
+    "EXEL": {
+      "companyName": "Exelixis Inc",
+      "entryPrice": 56.54,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Healthcare",
+      "spyEntry": 765.38
+    },
+    "EXLS": {
+      "companyName": "ExlService Holdings Inc",
+      "entryPrice": 35.12,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Technology",
+      "spyEntry": 765.38
+    },
+    "FIX": {
+      "companyName": "Comfort Systems USA Inc",
+      "entryPrice": 1680.55,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Industrials",
+      "spyEntry": 765.38
+    },
+    "FRSH": {
+      "companyName": "Freshworks Inc",
+      "entryPrice": 11.89,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Technology",
+      "spyEntry": 765.38
+    },
+    "FSM": {
+      "companyName": "Fortuna Mining Corp",
+      "entryPrice": 11.95,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Basic Materials",
+      "spyEntry": 765.38
+    },
+    "FTNT": {
+      "companyName": "Fortinet Inc",
+      "entryPrice": 155.81,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Technology",
+      "spyEntry": 765.38
+    },
+    "GFI": {
+      "companyName": "Gold Fields Ltd ADR",
+      "entryPrice": 44.83,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Basic Materials",
+      "spyEntry": 765.38
+    },
+    "GLBE": {
+      "companyName": "Global E Online Ltd",
+      "entryPrice": 37.27,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Consumer Cyclical",
+      "spyEntry": 765.38
+    },
+    "GOOG": {
+      "companyName": "Alphabet Inc",
+      "entryPrice": 336.3,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Communication Services",
+      "spyEntry": 765.38
+    },
+    "GOOGL": {
+      "companyName": "Alphabet Inc",
+      "entryPrice": 339.3,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Communication Services",
+      "spyEntry": 765.38
+    },
+    "GRDN": {
+      "companyName": "Guardian Pharmacy Services Inc",
+      "entryPrice": 44.4,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Healthcare",
+      "spyEntry": 765.38
+    },
+    "HAFN": {
+      "companyName": "Hafnia Ltd",
+      "entryPrice": 9.37,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Industrials",
+      "spyEntry": 765.38
+    },
+    "HMY": {
+      "companyName": "Harmony Gold Mining Co Ltd ADR",
+      "entryPrice": 20.55,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Basic Materials",
+      "spyEntry": 765.38
+    },
+    "HRMY": {
+      "companyName": "Harmony Biosciences Holdings Inc",
+      "entryPrice": 41.64,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Healthcare",
+      "spyEntry": 765.38
+    },
+    "IAG": {
+      "companyName": "Iamgold Corp",
+      "entryPrice": 20.15,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Basic Materials",
+      "spyEntry": 765.38
+    },
+    "IESC": {
+      "companyName": "IES Holdings Inc",
+      "entryPrice": 345.16,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Industrials",
+      "spyEntry": 765.38
+    },
+    "INSP": {
+      "companyName": "Inspire Medical Systems Inc",
+      "entryPrice": 73.17,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Healthcare",
+      "spyEntry": 765.38
+    },
+    "KSPI": {
+      "companyName": "Kaspi.kz JSC ADR",
+      "entryPrice": 98.04,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Technology",
+      "spyEntry": 765.38
+    },
+    "LQDA": {
+      "companyName": "Liquidia Corp",
+      "entryPrice": 67.99,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Healthcare",
+      "spyEntry": 765.38
+    },
+    "META": {
+      "companyName": "Meta Platforms Inc",
+      "entryPrice": 650.06,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Communication Services",
+      "spyEntry": 765.38
+    },
+    "MGY": {
+      "companyName": "Magnolia Oil & Gas Corp",
+      "entryPrice": 27.56,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Energy",
+      "spyEntry": 765.38
+    },
+    "NBIX": {
+      "companyName": "Neurocrine Biosciences Inc",
+      "entryPrice": 156.3,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Healthcare",
+      "spyEntry": 765.38
+    },
+    "NVDA": {
+      "companyName": "NVIDIA Corp",
+      "entryPrice": 219.9,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Technology",
+      "spyEntry": 765.38
+    },
+    "OSCR": {
+      "companyName": "Oscar Health Inc",
+      "entryPrice": 33.34,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Healthcare",
+      "spyEntry": 765.38
+    },
+    "PATH": {
+      "companyName": "UiPath Inc",
+      "entryPrice": 13.83,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Technology",
+      "spyEntry": 765.38
+    },
+    "PCTY": {
+      "companyName": "Paylocity Holding Corp",
+      "entryPrice": 142.16,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Technology",
+      "spyEntry": 765.38
+    },
+    "PGNY": {
+      "companyName": "Progyny Inc",
+      "entryPrice": 27.46,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Healthcare",
+      "spyEntry": 765.38
+    },
+    "PGR": {
+      "companyName": "Progressive Corp",
+      "entryPrice": 216.25,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Financial",
+      "spyEntry": 765.38
+    },
+    "PLTR": {
+      "companyName": "Palantir Technologies Inc",
+      "entryPrice": 167.45,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Technology",
+      "spyEntry": 765.38
+    },
+    "RELY": {
+      "companyName": "Remitly Global Inc",
+      "entryPrice": 22.2,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Technology",
+      "spyEntry": 765.38
+    },
+    "RNR": {
+      "companyName": "RenaissanceRe Holdings Ltd",
+      "entryPrice": 324.22,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Financial",
+      "spyEntry": 765.38
+    },
+    "RSI": {
+      "companyName": "Rush Street Interactive Inc",
+      "entryPrice": 26.59,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Consumer Cyclical",
+      "spyEntry": 765.38
+    },
+    "SEZL": {
+      "companyName": "Sezzle Inc",
+      "entryPrice": 119.25,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Financial",
+      "spyEntry": 765.38
+    },
+    "SFBS": {
+      "companyName": "ServisFirst Bancshares Inc",
+      "entryPrice": 42.33,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Financial",
+      "spyEntry": 765.38
+    },
+    "SKHY": {
+      "companyName": "SK Hynix Inc ADR",
+      "entryPrice": 191.15,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Technology",
+      "spyEntry": 765.38
+    },
+    "SN": {
+      "companyName": "SharkNinja Inc",
+      "entryPrice": 160.35,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Consumer Cyclical",
+      "spyEntry": 765.38
+    },
+    "SPNT": {
+      "companyName": "SiriusPoint Ltd",
+      "entryPrice": 24.14,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Financial",
+      "spyEntry": 765.38
+    },
+    "SPOT": {
+      "companyName": "Spotify Technology SA",
+      "entryPrice": 524.14,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Communication Services",
+      "spyEntry": 765.38
+    },
+    "TOST": {
+      "companyName": "Toast Inc",
+      "entryPrice": 32.3,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Technology",
+      "spyEntry": 765.38
+    },
+    "TSM": {
+      "companyName": "Taiwan Semiconductor Manufacturing ADR",
+      "entryPrice": 433.55,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Technology",
+      "spyEntry": 765.38
+    }
+  }
+}

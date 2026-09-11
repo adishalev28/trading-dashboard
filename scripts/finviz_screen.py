@@ -29,6 +29,8 @@ except ImportError:
     print("ERROR: Missing finvizfinance. Install with: pip install finvizfinance>=0.14")
     sys.exit(1)
 
+from finviz_guard import check_tickers
+
 ROOT_DIR = Path(__file__).resolve().parent.parent
 OUTPUT_FILE = ROOT_DIR / "scripts" / "candidates.json"
 
@@ -115,6 +117,10 @@ def main():
     if not candidates:
         print("\nERROR: No candidates found. Keeping previous candidates.json if it exists.")
         sys.exit(1)
+
+    # A normal run returns ~1,100 stocks. Fail loudly on corrupted or near-empty
+    # output instead of feeding garbage to Stage 2.
+    check_tickers([c["symbol"] for c in candidates], source="Stage 1", min_count=300)
 
     output = {
         "generatedAt": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
