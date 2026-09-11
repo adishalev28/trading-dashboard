@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-11 21:35:30",
+  "lastUpdate": "2026-09-11 18:43:40",
   "tickers": {
     "ABNB": {
       "companyName": "Airbnb Inc",
@@ -520,6 +520,14 @@
       "lastSeen": "2026-09-11",
       "sector": "Technology",
       "spyEntry": 765.38
+    },
+    "TXRH": {
+      "companyName": "Texas Roadhouse Inc",
+      "entryPrice": 180.54,
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "sector": "Consumer Cyclical",
+      "spyEntry": 765.18
     }
   }
 }
