@@ -32,6 +32,7 @@ except ImportError as e:
     print("Install with: pip install -r scripts/requirements.txt")
     sys.exit(1)
 
+from finviz_guard import check_stage2
 from fundamentals import fetch_for_universe, load_cache
 from top_picks import compute_top_picks
 
@@ -640,6 +641,8 @@ def main():
     with open(BREADTH_HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2, ensure_ascii=False)
     print(f"\nBreadth history: {len(history['snapshots'])} snapshots (today added)")
+
+    check_stage2(stage2_count, history["snapshots"])
 
     # Find snapshot from ~5 trading days ago for delta computation
     prev_snapshot = None
