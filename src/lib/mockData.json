@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generatedAt": "2026-09-12 23:25:07",
+    "generatedAt": "2026-09-13 13:56:28",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
-    "totalScanned": 1103,
-    "passedFinviz": 1103,
+    "totalScanned": 1102,
+    "passedFinviz": 1102,
     "finalCount": 323,
-    "note": "Screened 1103 stocks. 323 passed Stage 2 / Warning filters."
+    "note": "Screened 1102 stocks. 323 passed Stage 2 / Warning filters."
   },
   "fxRate": 3.0302,
   "commissionRoundTripUsd": 14,
@@ -19,7 +19,7 @@
     "aboveSma200": true
   },
   "breadth": {
-    "asOf": "2026-09-12",
+    "asOf": "2026-09-13",
     "indices": {
       "spy": {
         "price": 764.29,
@@ -36,13 +36,13 @@
     },
     "stage2": {
       "current": 250,
-      "prev5d": 270,
-      "changePct": -7.4
+      "prev5d": 266,
+      "changePct": -6.0
     },
     "breakouts": {
       "current": 36,
-      "prev5d": 33,
-      "changePct": 9.1
+      "prev5d": 35,
+      "changePct": 2.9
     }
   },
   "sectors": [
@@ -1051,7 +1051,7 @@
         16.57,
         15.49
       ],
-      "marketCap": 4.5,
+      "marketCap": 4.4,
       "sector": "Materials",
       "earningsDate": "2026-11-06",
       "epsGrowthYoY": 84.6,
@@ -3377,7 +3377,7 @@
         22.6,
         22.63
       ],
-      "marketCap": 4.4,
+      "marketCap": 4.5,
       "sector": "Materials",
       "earningsDate": "2026-10-27",
       "epsGrowthYoY": 9.4,
@@ -4171,7 +4171,7 @@
         14.41,
         14.66
       ],
-      "marketCap": 5.8,
+      "marketCap": 4.8,
       "sector": "Energy",
       "earningsDate": "2026-11-02",
       "epsGrowthYoY": 116.7,
@@ -4224,7 +4224,7 @@
         273.0,
         278.26
       ],
-      "marketCap": 13.4,
+      "marketCap": 13.3,
       "sector": "Healthcare",
       "earningsDate": "2026-11-04",
       "epsGrowthYoY": -102.8,
@@ -5016,7 +5016,7 @@
         103.28,
         106.2
       ],
-      "marketCap": 5.9,
+      "marketCap": 5.8,
       "sector": "Healthcare",
       "earningsDate": "2026-11-05",
       "epsGrowthYoY": -2.3,
@@ -5069,7 +5069,7 @@
         131.05,
         122.95
       ],
-      "marketCap": 14.5,
+      "marketCap": 14.4,
       "sector": "Technology",
       "earningsDate": "2026-11-04",
       "epsGrowthYoY": -25.6,
@@ -6547,7 +6547,7 @@
         163.12,
         166.4
       ],
-      "marketCap": 143.3,
+      "marketCap": 143.0,
       "sector": "Technology",
       "earningsDate": "2026-10-27",
       "epsGrowthYoY": 18.5,
@@ -8609,7 +8609,7 @@
         76.48,
         76.27
       ],
-      "marketCap": 6.0,
+      "marketCap": 5.9,
       "sector": "Healthcare",
       "earningsDate": "2026-10-27",
       "epsGrowthYoY": 30.4,
@@ -8673,45 +8673,45 @@
       "ticker": "KSPI",
       "companyName": "Joint Stock Company Kaspi.kz -",
       "price": 99.89,
-      "sma150": 82.25,
-      "sma200": 79.91,
+      "sma150": 82.27,
+      "sma200": 79.93,
       "rsScore": 73,
       "vcpStatus": "none",
       "volumeSurge": "surge",
-      "weekHighDistance": 6.11,
+      "weekHighDistance": 6.13,
       "volumePctAvg": 165.8,
-      "sma20": 101.78,
-      "pivotPrice": 106.39,
-      "distToPivotPct": 6.11,
+      "sma20": 101.8,
+      "pivotPrice": 106.41,
+      "distToPivotPct": 6.13,
       "priceHistory30d": [
-        86.85,
-        90.0,
-        90.0,
-        90.19,
-        89.8,
-        88.34,
-        91.96,
-        93.29,
-        97.39,
-        97.3,
-        96.55,
-        96.9,
-        95.96,
-        99.27,
-        101.45,
-        103.26,
-        104.15,
-        106.39,
-        105.34,
-        102.73,
-        103.98,
-        102.85,
-        101.82,
-        104.49,
-        105.47,
-        105.19,
-        104.88,
-        97.83,
+        86.87,
+        90.02,
+        90.02,
+        90.21,
+        89.83,
+        88.36,
+        91.98,
+        93.31,
+        97.41,
+        97.32,
+        96.58,
+        96.92,
+        95.98,
+        99.3,
+        101.47,
+        103.28,
+        104.17,
+        106.41,
+        105.37,
+        102.75,
+        104.01,
+        102.88,
+        101.84,
+        104.51,
+        105.49,
+        105.22,
+        104.91,
+        97.85,
         97.15,
         99.89
       ],
@@ -8768,7 +8768,7 @@
         117.0,
         114.96
       ],
-      "marketCap": 9.5,
+      "marketCap": 9.6,
       "sector": "Healthcare",
       "earningsDate": "2026-11-03",
       "epsGrowthYoY": 34.7,
@@ -9614,7 +9614,7 @@
         392.42,
         395.93
       ],
-      "marketCap": 111.2,
+      "marketCap": 115.6,
       "sector": "Energy",
       "earningsDate": "2026-11-03",
       "epsGrowthYoY": 347.7,
@@ -9826,7 +9826,7 @@
         74.09,
         73.0
       ],
-      "marketCap": 0,
+      "marketCap": 5.3,
       "sector": "Financials",
       "earningsDate": "2026-11-05",
       "epsGrowthYoY": 55.4,
@@ -10196,7 +10196,7 @@
         228.11,
         224.55
       ],
-      "marketCap": 61.0,
+      "marketCap": 57.0,
       "sector": "Technology",
       "earningsDate": "2026-11-10",
       "epsGrowthYoY": 539.6,
@@ -10302,7 +10302,7 @@
         17.61,
         17.32
       ],
-      "marketCap": 2.2,
+      "marketCap": 2.3,
       "sector": "Healthcare",
       "earningsDate": "2026-10-27",
       "epsGrowthYoY": 105.7,
@@ -12151,7 +12151,7 @@
         6.68,
         6.85
       ],
-      "marketCap": 2.5,
+      "marketCap": 2.4,
       "sector": "Healthcare",
       "earningsDate": "2026-11-12",
       "epsGrowthYoY": 155.6,
@@ -12519,7 +12519,7 @@
         258.51,
         259.47
       ],
-      "marketCap": 104.0,
+      "marketCap": 103.5,
       "sector": "Energy",
       "earningsDate": "2026-10-29",
       "epsGrowthYoY": 344.2,
@@ -13469,7 +13469,7 @@
         602.27,
         635.66
       ],
-      "marketCap": 19.0,
+      "marketCap": 19.1,
       "sector": "Technology",
       "earningsDate": "2026-11-04",
       "epsGrowthYoY": 178.6,
@@ -13838,7 +13838,7 @@
         162.58,
         160.8
       ],
-      "marketCap": 22.8,
+      "marketCap": 22.7,
       "sector": "Consumer Discretionary",
       "earningsDate": "2026-11-05",
       "epsGrowthYoY": -6.1,
@@ -13996,7 +13996,7 @@
         255.54,
         269.21
       ],
-      "marketCap": 0,
+      "marketCap": 21.5,
       "sector": "Technology",
       "earningsDate": "2026-09-24",
       "epsGrowthYoY": 87.8,
@@ -14203,7 +14203,7 @@
         36.21,
         36.24
       ],
-      "marketCap": 7.4,
+      "marketCap": 7.5,
       "sector": "Materials",
       "earningsDate": "2026-11-03",
       "epsGrowthYoY": 11.9,
@@ -14468,7 +14468,7 @@
         68.93,
         68.83
       ],
-      "marketCap": 81.3,
+      "marketCap": 80.5,
       "sector": "Energy",
       "earningsDate": "2026-11-03",
       "epsGrowthYoY": 240.9,
@@ -14626,7 +14626,7 @@
         88.71,
         90.6
       ],
-      "marketCap": 8.0,
+      "marketCap": 7.9,
       "sector": "Healthcare",
       "earningsDate": "2026-11-03",
       "epsGrowthYoY": 29.7,
@@ -15843,7 +15843,7 @@
         57.61,
         57.9
       ],
-      "marketCap": 0,
+      "marketCap": 11.4,
       "sector": "Materials",
       "earningsDate": "2026-10-27",
       "epsGrowthYoY": 63.6,
@@ -16002,7 +16002,7 @@
         71.13,
         74.04
       ],
-      "marketCap": 3.4,
+      "marketCap": 3.3,
       "sector": "Technology",
       "earningsDate": "2026-11-03",
       "epsGrowthYoY": 105.3,
@@ -16214,7 +16214,7 @@
         14.23,
         14.28
       ],
-      "marketCap": 2.1,
+      "marketCap": 1.3,
       "sector": "Consumer Staples",
       "earningsDate": "2026-10-29",
       "epsGrowthYoY": -191.7,
@@ -17272,7 +17272,7 @@
         84.85,
         86.11
       ],
-      "marketCap": 4.9,
+      "marketCap": 4.8,
       "sector": "Industrials",
       "earningsDate": "2026-11-03",
       "epsGrowthYoY": 80.8,
@@ -17431,7 +17431,7 @@
         344.01,
         350.37
       ],
-      "marketCap": 16.6,
+      "marketCap": 16.7,
       "sector": "Technology",
       "earningsDate": "2026-11-03",
       "epsGrowthYoY": 121.5,
@@ -17484,7 +17484,7 @@
         30.56,
         30.18
       ],
-      "marketCap": 7.5,
+      "marketCap": 7.6,
       "sector": "Technology",
       "earningsDate": "2026-11-03",
       "epsGrowthYoY": 160.5,
