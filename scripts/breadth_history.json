@@ -1,55 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-06-17",
-      "stage2Count": 279,
-      "breakoutCount": 34,
-      "breakoutTickers": [
-        "ALGM",
-        "AMKR",
-        "ARW",
-        "ASML",
-        "ATI",
-        "AXSM",
-        "BHE",
-        "CNTA",
-        "COCO",
-        "CTOS",
-        "DFTX",
-        "DOCN",
-        "ECG",
-        "FIX",
-        "FRO",
-        "HLIO",
-        "ICHR",
-        "INSW",
-        "KEYS",
-        "KLIC",
-        "MKSI",
-        "OGN",
-        "PBI",
-        "PLXS",
-        "RLAY",
-        "SNX",
-        "SPHR",
-        "TKR",
-        "TNGX",
-        "TTMI",
-        "UCTT",
-        "VISN",
-        "VSXY",
-        "WULF"
-      ],
-      "spy": {
-        "price": 740.96,
-        "sma50": 728.24
-      },
-      "qqq": {
-        "price": 722.51,
-        "sma50": 690.49
-      }
-    },
-    {
       "date": "2026-06-18",
       "stage2Count": 282,
       "breakoutCount": 33,
@@ -2981,6 +2932,66 @@
       "qqq": {
         "price": 704.54,
         "sma50": 709.97
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "stage2Count": 230,
+      "breakoutCount": 45,
+      "breakoutTickers": [
+        "ATAI",
+        "ATKR",
+        "AVAH",
+        "AVTR",
+        "BWIN",
+        "BWLP",
+        "CBZ",
+        "CLMT",
+        "CNC",
+        "CON",
+        "CRWD",
+        "CVI",
+        "DINO",
+        "DK",
+        "EQNR",
+        "FIVN",
+        "FRO",
+        "FSLY",
+        "GTLB",
+        "ILMN",
+        "IOVA",
+        "IQV",
+        "ITGR",
+        "LFST",
+        "MATX",
+        "MPC",
+        "NEOG",
+        "NSIT",
+        "NTRA",
+        "NUE",
+        "OGN",
+        "OKTA",
+        "PANW",
+        "PSX",
+        "S",
+        "SFL",
+        "SLDE",
+        "TBBB",
+        "TGTX",
+        "TIGO",
+        "TWLO",
+        "TXG",
+        "UGP",
+        "UTZ",
+        "VLO"
+      ],
+      "spy": {
+        "price": 759.01,
+        "sma50": 759.29
+      },
+      "qqq": {
+        "price": 709.75,
+        "sma50": 709.98
       }
     }
   ]
