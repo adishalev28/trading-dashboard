@@ -1,54 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-06-18",
-      "stage2Count": 282,
-      "breakoutCount": 33,
-      "breakoutTickers": [
-        "AEHR",
-        "AMD",
-        "APGE",
-        "ASX",
-        "AVT",
-        "AXSM",
-        "CAMT",
-        "DFTX",
-        "DGII",
-        "DHC",
-        "EXTR",
-        "FORM",
-        "GH",
-        "GTX",
-        "LQDA",
-        "LSCC",
-        "MOG-A",
-        "MRVL",
-        "OGN",
-        "ONTO",
-        "OUST",
-        "PBI",
-        "PEB",
-        "RIOT",
-        "RVMD",
-        "SITM",
-        "SNX",
-        "STM",
-        "TSEM",
-        "TXG",
-        "TXN",
-        "VISN",
-        "VRT"
-      ],
-      "spy": {
-        "price": 746.74,
-        "sma50": 729.66
-      },
-      "qqq": {
-        "price": 740.62,
-        "sma50": 693.18
-      }
-    },
-    {
       "date": "2026-06-19",
       "stage2Count": 259,
       "breakoutCount": 38,
@@ -2981,6 +2933,65 @@
       "qqq": {
         "price": 704.72,
         "sma50": 709.88
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "stage2Count": 236,
+      "breakoutCount": 44,
+      "breakoutTickers": [
+        "ADPT",
+        "AMRX",
+        "ASST",
+        "ATAI",
+        "AVAH",
+        "CBZ",
+        "CON",
+        "CVI",
+        "DAR",
+        "DHT",
+        "DINO",
+        "DOCN",
+        "FRO",
+        "GTLB",
+        "HAE",
+        "HAFN",
+        "HALO",
+        "HNGE",
+        "HPE",
+        "HTFL",
+        "IOVA",
+        "KNSA",
+        "LQDA",
+        "MTRN",
+        "NTAP",
+        "OGN",
+        "OSCR",
+        "PANW",
+        "PARR",
+        "PGEN",
+        "TBBB",
+        "TENB",
+        "TEVA",
+        "TGTX",
+        "TIGO",
+        "TNK",
+        "TX",
+        "TXG",
+        "UGP",
+        "UMC",
+        "UTZ",
+        "VLO",
+        "VSH",
+        "ZBIO"
+      ],
+      "spy": {
+        "price": 762.16,
+        "sma50": 759.52
+      },
+      "qqq": {
+        "price": 716.52,
+        "sma50": 709.98
       }
     }
   ]
