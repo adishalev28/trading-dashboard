@@ -1,59 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-06-19",
-      "stage2Count": 259,
-      "breakoutCount": 38,
-      "breakoutTickers": [
-        "CLDX",
-        "CLH",
-        "CMI",
-        "CNK",
-        "CNO",
-        "COLM",
-        "CPRX",
-        "GH",
-        "GS",
-        "GTX",
-        "HG",
-        "HGV",
-        "HLT",
-        "HOG",
-        "IRM",
-        "IVT",
-        "JCI",
-        "KEY",
-        "RVMD",
-        "SITM",
-        "SNX",
-        "STM",
-        "TSEM",
-        "VCTR",
-        "VISN",
-        "VOYA",
-        "VRT",
-        "VRTX",
-        "VVV",
-        "WAFD",
-        "WH",
-        "WRBY",
-        "WSBC",
-        "WSFS",
-        "WSM",
-        "WWD",
-        "XYZ",
-        "ZION"
-      ],
-      "spy": {
-        "price": 746.74,
-        "sma50": 727.82
-      },
-      "qqq": {
-        "price": 740.62,
-        "sma50": 693.18
-      }
-    },
-    {
       "date": "2026-06-20",
       "stage2Count": 282,
       "breakoutCount": 33,
@@ -2982,6 +2929,71 @@
       "qqq": {
         "price": 716.92,
         "sma50": 709.99
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "stage2Count": 219,
+      "breakoutCount": 50,
+      "breakoutTickers": [
+        "ADPT",
+        "ASST",
+        "ATAI",
+        "ATRC",
+        "AVTR",
+        "BRKR",
+        "BWLP",
+        "CBZ",
+        "CDNA",
+        "CLMT",
+        "CMBT",
+        "CMPS",
+        "COHU",
+        "DOCN",
+        "ECO",
+        "EWTX",
+        "GH",
+        "GTLB",
+        "HALO",
+        "HNGE",
+        "HPE",
+        "HTFL",
+        "ILMN",
+        "IOVA",
+        "IQV",
+        "KNSA",
+        "LPG",
+        "MATX",
+        "MRNA",
+        "MRVL",
+        "NEO",
+        "NEOG",
+        "NTRA",
+        "NTSK",
+        "OGN",
+        "PBF",
+        "PENG",
+        "PGEN",
+        "PSX",
+        "RBRK",
+        "RVTY",
+        "SBLK",
+        "TEAM",
+        "TGTX",
+        "TRMD",
+        "TXG",
+        "UGP",
+        "UTZ",
+        "VICR",
+        "XMTR"
+      ],
+      "spy": {
+        "price": 760.36,
+        "sma50": 759.7
+      },
+      "qqq": {
+        "price": 718.28,
+        "sma50": 709.89
       }
     }
   ]
