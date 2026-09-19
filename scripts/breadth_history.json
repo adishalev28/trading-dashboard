@@ -1,54 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-06-20",
-      "stage2Count": 282,
-      "breakoutCount": 33,
-      "breakoutTickers": [
-        "AEHR",
-        "AMD",
-        "APGE",
-        "ASX",
-        "AVT",
-        "AXSM",
-        "CAMT",
-        "DFTX",
-        "DGII",
-        "DHC",
-        "EXTR",
-        "FORM",
-        "GH",
-        "GTX",
-        "LQDA",
-        "LSCC",
-        "MOG-A",
-        "MRVL",
-        "OGN",
-        "ONTO",
-        "OUST",
-        "PBI",
-        "PEB",
-        "RIOT",
-        "RVMD",
-        "SITM",
-        "SNX",
-        "STM",
-        "TSEM",
-        "TXG",
-        "TXN",
-        "VISN",
-        "VRT"
-      ],
-      "spy": {
-        "price": 746.74,
-        "sma50": 727.82
-      },
-      "qqq": {
-        "price": 740.62,
-        "sma50": 693.18
-      }
-    },
-    {
       "date": "2026-06-21",
       "stage2Count": 281,
       "breakoutCount": 33,
@@ -2978,6 +2930,59 @@
       "spy": {
         "price": 761.69,
         "sma50": 759.73
+      },
+      "qqq": {
+        "price": 721.45,
+        "sma50": 709.95
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "stage2Count": 221,
+      "breakoutCount": 38,
+      "breakoutTickers": [
+        "ABCL",
+        "ATAI",
+        "ATRC",
+        "AXTI",
+        "BWLP",
+        "CBZ",
+        "CDNA",
+        "CLMT",
+        "CMBT",
+        "CVI",
+        "CXW",
+        "DINO",
+        "ECO",
+        "FTNT",
+        "HAE",
+        "HPE",
+        "HUT",
+        "INTC",
+        "IQV",
+        "LPG",
+        "MGNI",
+        "MRVL",
+        "MU",
+        "NTAP",
+        "OGN",
+        "PBF",
+        "PGEN",
+        "PSX",
+        "RBRK",
+        "SFL",
+        "TBBB",
+        "TEAM",
+        "TGTX",
+        "TWLO",
+        "TXG",
+        "UTZ",
+        "VSAT",
+        "WTTR"
+      ],
+      "spy": {
+        "price": 761.69,
+        "sma50": 757.89
       },
       "qqq": {
         "price": 721.45,
