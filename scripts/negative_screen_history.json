@@ -160,6 +160,13 @@
   "price": 988.2000122070312,
   "spy": 773.5
  },
+ "ARIS": {
+  "count": 2,
+  "firstSeen": "2026-09-22",
+  "level": "caution",
+  "price": 19.030000686645508,
+  "spy": 773.5
+ },
  "ARM": {
   "count": 1,
   "firstSeen": "2026-09-22",
@@ -326,6 +333,13 @@
   "firstSeen": "2026-09-22",
   "level": "veto",
   "price": 8.140000343322754,
+  "spy": 773.5
+ },
+ "BHE": {
+  "count": 0,
+  "firstSeen": "2026-09-22",
+  "level": "clean",
+  "price": 77.16000366210938,
   "spy": 773.5
  },
  "BRKR": {
@@ -643,6 +657,13 @@
   "price": 68.56999969482422,
   "spy": 773.5
  },
+ "DT": {
+  "count": 0,
+  "firstSeen": "2026-09-22",
+  "level": "clean",
+  "price": 56.400001525878906,
+  "spy": 773.5
+ },
  "DUOL": {
   "count": 1,
   "firstSeen": "2026-09-22",
@@ -867,6 +888,13 @@
   "price": 39.689998626708984,
   "spy": 773.5
  },
+ "GLW": {
+  "count": 1,
+  "firstSeen": "2026-09-22",
+  "level": "clean",
+  "price": 158.97999572753906,
+  "spy": 773.5
+ },
  "GOOG": {
   "count": 0,
   "firstSeen": "2026-09-22",
@@ -1063,6 +1091,13 @@
   "price": 36.90999984741211,
   "spy": 773.5
  },
+ "INOD": {
+  "count": 1,
+  "firstSeen": "2026-09-22",
+  "level": "clean",
+  "price": 61.04999923706055,
+  "spy": 773.5
+ },
  "INSP": {
   "count": 0,
   "firstSeen": "2026-09-22",
@@ -1166,6 +1201,13 @@
   "firstSeen": "2026-09-22",
   "level": "clean",
   "price": 12.670000076293945,
+  "spy": 773.5
+ },
+ "LGND": {
+  "count": 1,
+  "firstSeen": "2026-09-22",
+  "level": "clean",
+  "price": 290.07000732421875,
   "spy": 773.5
  },
  "LITE": {
@@ -1273,6 +1315,13 @@
   "price": 402.3800048828125,
   "spy": 773.5
  },
+ "MPWR": {
+  "count": 1,
+  "firstSeen": "2026-09-22",
+  "level": "clean",
+  "price": 1277.6800537109375,
+  "spy": 773.5
+ },
  "MRK": {
   "count": 0,
   "firstSeen": "2026-09-22",
@@ -1327,6 +1376,13 @@
   "firstSeen": "2026-09-22",
   "level": "clean",
   "price": 1043.9599609375,
+  "spy": 773.5
+ },
+ "MUFG": {
+  "count": 1,
+  "firstSeen": "2026-09-22",
+  "level": "clean",
+  "price": 23.420000076293945,
   "spy": 773.5
  },
  "MXL": {
@@ -1805,6 +1861,13 @@
   "price": 13.489999771118164,
   "spy": 773.5
  },
+ "SHOP": {
+  "count": 0,
+  "firstSeen": "2026-09-22",
+  "level": "clean",
+  "price": 137.9199981689453,
+  "spy": 773.5
+ },
  "SIMO": {
   "count": 1,
   "firstSeen": "2026-09-22",
@@ -1817,6 +1880,13 @@
   "firstSeen": "2026-09-22",
   "level": "veto",
   "price": 638.3200073242188,
+  "spy": 773.5
+ },
+ "SKE": {
+  "count": 4,
+  "firstSeen": "2026-09-22",
+  "level": "veto",
+  "price": 31.799999237060547,
   "spy": 773.5
  },
  "SKHY": {
@@ -1922,6 +1992,13 @@
   "firstSeen": "2026-09-22",
   "level": "clean",
   "price": 36.61000061035156,
+  "spy": 773.5
+ },
+ "STGW": {
+  "count": 1,
+  "firstSeen": "2026-09-22",
+  "level": "clean",
+  "price": 8.350000381469727,
   "spy": 773.5
  },
  "STM": {
@@ -2097,6 +2174,13 @@
   "firstSeen": "2026-09-22",
   "level": "clean",
   "price": 98.76000213623047,
+  "spy": 773.5
+ },
+ "TOST": {
+  "count": 0,
+  "firstSeen": "2026-09-22",
+  "level": "clean",
+  "price": 29.799999237060547,
   "spy": 773.5
  },
  "TRGP": {
@@ -2391,6 +2475,13 @@
   "firstSeen": "2026-09-22",
   "level": "clean",
   "price": 30.459999084472656,
+  "spy": 773.5
+ },
+ "ZLAB": {
+  "count": 1,
+  "firstSeen": "2026-09-22",
+  "level": "clean",
+  "price": 26.43000030517578,
   "spy": 773.5
  }
 }

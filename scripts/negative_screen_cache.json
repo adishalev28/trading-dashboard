@@ -206,6 +206,15 @@
   "sharesYoY": 0.018471549090314676,
   "shortPctFloat": 0.0201
  },
+ "ARIS": {
+  "assetsYoY": 0.2569440823382656,
+  "companyName": "Aris Mining Corporation",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": 129068000.0,
+  "operatingIncome": 357293000.0,
+  "sharesYoY": 0.20170244141033367,
+  "shortPctFloat": null
+ },
  "ARM": {
   "assetsYoY": 0.19827586206896552,
   "companyName": "Arm Holdings plc",
@@ -421,6 +430,15 @@
   "operatingIncome": -86415000.0,
   "sharesYoY": 0.179919627381687,
   "shortPctFloat": 0.1592
+ },
+ "BHE": {
+  "assetsYoY": -0.029388918144491072,
+  "companyName": "Benchmark Electronics, Inc.",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": 85420000.0,
+  "operatingIncome": 105589000.0,
+  "sharesYoY": -0.008974216492553921,
+  "shortPctFloat": 0.0436
  },
  "BRKR": {
   "assetsYoY": 0.07486179757865918,
@@ -827,6 +845,15 @@
   "sharesYoY": -0.023271779016875938,
   "shortPctFloat": 0.09810001
  },
+ "DT": {
+  "assetsYoY": 0.06668320579523335,
+  "companyName": "Dynatrace, Inc.",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": 529483000.0,
+  "operatingIncome": 263912000.0,
+  "sharesYoY": -0.01721104879998414,
+  "shortPctFloat": 0.047
+ },
  "DUOL": {
   "assetsYoY": 0.5304134197005825,
   "companyName": "Duolingo, Inc.",
@@ -1115,6 +1142,15 @@
   "sharesYoY": -0.00048277294296639184,
   "shortPctFloat": 0.0335
  },
+ "GLW": {
+  "assetsYoY": 0.11685595817559036,
+  "companyName": "Corning Incorporated",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": 1413000000.0,
+  "operatingIncome": 2279000000.0,
+  "sharesYoY": 0.003934889929742447,
+  "shortPctFloat": 0.026300002
+ },
  "GOOG": {
   "assetsYoY": 0.322094541771792,
   "companyName": "Alphabet Inc.",
@@ -1367,6 +1403,15 @@
   "sharesYoY": -0.06260324881856982,
   "shortPctFloat": 0.0007
  },
+ "INOD": {
+  "assetsYoY": 0.4860686299570731,
+  "companyName": "Innodata Inc.",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": 35648000.0,
+  "operatingIncome": 39873000.0,
+  "sharesYoY": 0.033130990415335404,
+  "shortPctFloat": 0.145
+ },
  "INSP": {
   "assetsYoY": 0.12238505757790552,
   "companyName": "Inspire Medical Systems, Inc.",
@@ -1501,6 +1546,15 @@
   "operatingIncome": 24148000.0,
   "sharesYoY": 0.014587116412138945,
   "shortPctFloat": 0.0738
+ },
+ "LGND": {
+  "assetsYoY": 0.6571247454272469,
+  "companyName": "Ligand Pharmaceuticals Incorpor",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": 38045000.0,
+  "operatingIncome": 47199000.0,
+  "sharesYoY": 0.03496283889877527,
+  "shortPctFloat": 0.1492
  },
  "LITE": {
   "assetsYoY": 0.732168677554697,
@@ -1637,6 +1691,15 @@
   "sharesYoY": -0.06771367405063289,
   "shortPctFloat": 0.031400003
  },
+ "MPWR": {
+  "assetsYoY": 0.19294975684206994,
+  "companyName": "Monolithic Power Systems, Inc.",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": 663261000.0,
+  "operatingIncome": 728636000.0,
+  "sharesYoY": 0.018526650356523122,
+  "shortPctFloat": 0.0547
+ },
  "MRK": {
   "assetsYoY": 0.16873601694191587,
   "companyName": "Merck & Company, Inc.",
@@ -1708,6 +1771,15 @@
   "operatingIncome": 9809000000.0,
   "sharesYoY": 0.011867048685376913,
   "shortPctFloat": 0.026400002
+ },
+ "MUFG": {
+  "assetsYoY": 0.045067631425582455,
+  "companyName": "Mitsubishi UFJ Financial Group,",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": -23737555000000.0,
+  "operatingIncome": null,
+  "sharesYoY": -0.019028237169919082,
+  "shortPctFloat": 0.00059999997
  },
  "MXL": {
   "assetsYoY": -0.07892658091989835,
@@ -2321,6 +2393,15 @@
   "sharesYoY": -0.00855284511182497,
   "shortPctFloat": 0.0321
  },
+ "SHOP": {
+  "assetsYoY": 0.09085033036483758,
+  "companyName": "Shopify Inc.",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": 2007000000.0,
+  "operatingIncome": 1885000000.0,
+  "sharesYoY": 0.007202459484047408,
+  "shortPctFloat": 0.0153
+ },
  "SIMO": {
   "assetsYoY": 0.18556803990164217,
   "companyName": "Silicon Motion Technology Corpo",
@@ -2338,6 +2419,15 @@
   "operatingIncome": -60411000.0,
   "sharesYoY": 0.11445885244512244,
   "shortPctFloat": 0.048699997
+ },
+ "SKE": {
+  "assetsYoY": 1.806910576513078,
+  "companyName": "Skeena Resources Limited",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": -351950000.0,
+  "operatingIncome": -57245000.0,
+  "sharesYoY": 0.12708436128433687,
+  "shortPctFloat": null
  },
  "SKHY": {
   "assetsYoY": 0.4693367144351648,
@@ -2473,6 +2563,15 @@
   "operatingIncome": 469482000.0,
   "sharesYoY": 0.0031236948346831106,
   "shortPctFloat": 0.0456
+ },
+ "STGW": {
+  "assetsYoY": 0.0783799073798539,
+  "companyName": "Stagwell Inc.",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": 179798000.0,
+  "operatingIncome": 159467000.0,
+  "sharesYoY": 1.196591987600895,
+  "shortPctFloat": 0.1026
  },
  "STM": {
   "assetsYoY": 0.002303681849411987,
@@ -2698,6 +2797,15 @@
   "operatingIncome": 215008000.0,
   "sharesYoY": 0.005444951442547419,
   "shortPctFloat": 0.0319
+ },
+ "TOST": {
+  "assetsYoY": 0.30606312292358795,
+  "companyName": "Toast, Inc.",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": 608000000.0,
+  "operatingIncome": 304000000.0,
+  "sharesYoY": 0.029720279720279796,
+  "shortPctFloat": 0.056500003
  },
  "TRGP": {
   "assetsYoY": 0.10927637337743734,
@@ -3076,5 +3184,14 @@
   "operatingIncome": 988900000.0,
   "sharesYoY": 0.00035354444142488006,
   "shortPctFloat": 0.024500001
+ },
+ "ZLAB": {
+  "assetsYoY": -0.011274692115474272,
+  "companyName": "Zai Lab Limited",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": -164213000.0,
+  "operatingIncome": -223572000.0,
+  "sharesYoY": 0.026618476745911668,
+  "shortPctFloat": 0.0729
  }
 }

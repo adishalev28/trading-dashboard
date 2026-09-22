@@ -1,45 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-06-23",
-      "stage2Count": 291,
-      "breakoutCount": 24,
-      "breakoutTickers": [
-        "ALMS",
-        "AXGN",
-        "BTSG",
-        "CALY",
-        "CGON",
-        "CLOV",
-        "COCO",
-        "CRS",
-        "CTOS",
-        "DFTX",
-        "DGII",
-        "ERAS",
-        "EXTR",
-        "FTNT",
-        "GH",
-        "IMVT",
-        "KEEL",
-        "KYMR",
-        "LNTH",
-        "LQDA",
-        "SNEX",
-        "TGTX",
-        "TRVI",
-        "WULF"
-      ],
-      "spy": {
-        "price": 733.58,
-        "sma50": 730.26
-      },
-      "qqq": {
-        "price": 713.65,
-        "sma50": 697.06
-      }
-    },
-    {
       "date": "2026-06-24",
       "stage2Count": 293,
       "breakoutCount": 20,
@@ -3000,6 +2961,52 @@
       "qqq": {
         "price": 737.08,
         "sma50": 710.18
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "stage2Count": 228,
+      "breakoutCount": 31,
+      "breakoutTickers": [
+        "ABCL",
+        "ATRC",
+        "AUGO",
+        "BB",
+        "CGON",
+        "CLMT",
+        "CMPS",
+        "CVI",
+        "GTLB",
+        "HALO",
+        "HNGE",
+        "HPE",
+        "HTFL",
+        "IBRX",
+        "INSW",
+        "IOVA",
+        "IQV",
+        "LB",
+        "MATX",
+        "MGNI",
+        "MTRN",
+        "NTAP",
+        "OGN",
+        "SFL",
+        "SNDK",
+        "TER",
+        "TIGO",
+        "TWST",
+        "VSAT",
+        "VSH",
+        "WTTR"
+      ],
+      "spy": {
+        "price": 773.5,
+        "sma50": 758.3
+      },
+      "qqq": {
+        "price": 741.47,
+        "sma50": 709.55
       }
     }
   ]
