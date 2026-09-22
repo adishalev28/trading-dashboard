@@ -14,7 +14,7 @@ Flags (latest annual statements + last year of prices):
   LOTTO        beta vs SPY > 2 over 252 days, or a single-day gain > 15% in the last 21 days
   SHORT        short interest > 15% of float - shown only, NOT counted (no free history to test it)
 
-Universe: every ticker in mockData.json, the long-term picks, and scripts/negative_screen_watch.json
+Universe: every ticker in mockData.json, the long-term picks, scripts/tracked_lists.json and scripts/negative_screen_watch.json
 (one flat personal list - the repo is public, so owned names are never labeled).
 Statements change once a quarter, so they are cached for 7 days and refetched in batches.
 
@@ -41,6 +41,7 @@ ROOT = Path(__file__).resolve().parent.parent
 MOCK = ROOT / "src/lib/mockData.json"
 LONG_TERM = ROOT / "src/lib/longTermData.json"
 WATCH = ROOT / "scripts/negative_screen_watch.json"
+LISTS = ROOT / "scripts/tracked_lists.json"
 CACHE = ROOT / "scripts/negative_screen_cache.json"
 HISTORY = ROOT / "scripts/negative_screen_history.json"
 OUT = ROOT / "src/lib/negativeScreen.json"
@@ -80,6 +81,7 @@ def universe() -> tuple[list[str], dict]:
         "screener": [t["ticker"] for t in mock.get("tickers", [])],
         "longTerm": [p["ticker"] for p in lt.get("picks", [])],
         "watch": watch.get("watch", []),
+        "lists": [t for l in load(LISTS, {}).get("lists", []) for t in l.get("tickers", [])],
     }
     seen, order = set(), []
     for g in groups.values():

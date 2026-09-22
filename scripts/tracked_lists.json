@@ -1,0 +1,13 @@
+{
+  "_note": "Outside stock lists measured forward against SPY in the monthly report. Entry = first close on or after startDate. Tickers only - never the source document.",
+  "lists": [
+    {
+      "id": "zacks-7-best-30d-2026-09",
+      "name": "Zacks: 7 best stocks for the next 30 days",
+      "source": "Zacks special report (Zacks Rank #1 highlights), received 22.9.2026",
+      "startDate": "2026-09-22",
+      "horizonDays": 30,
+      "tickers": ["ANET", "CAT", "CSTM", "NVT", "PBF", "PSX", "STX"]
+    }
+  ]
+}
