@@ -197,6 +197,15 @@
   "sharesYoY": -0.0010017859809291485,
   "shortPctFloat": 0.0917
  },
+ "ARCB": {
+  "assetsYoY": 0.00943767026061737,
+  "companyName": "ArcBest Corporation",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": 100787000.0,
+  "operatingIncome": 99696000.0,
+  "sharesYoY": -0.04025460812256698,
+  "shortPctFloat": 0.0806
+ },
  "ARGX": {
   "assetsYoY": 0.39986573203609765,
   "companyName": "argenx SE",
@@ -440,6 +449,24 @@
   "sharesYoY": -0.008974216492553921,
   "shortPctFloat": 0.0436
  },
+ "BHP": {
+  "assetsYoY": 0.11579189263719081,
+  "companyName": "BHP Group Limited",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": 11929000000.0,
+  "operatingIncome": 25501000000.0,
+  "sharesYoY": 0.0009600208688578249,
+  "shortPctFloat": 0.0073
+ },
+ "BMNR": {
+  "assetsYoY": 1206.7798681680856,
+  "companyName": "BitMine Immersion Technologies,",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": -5214000.0,
+  "operatingIncome": -362633000.0,
+  "sharesYoY": 93.04999939894937,
+  "shortPctFloat": 0.0691
+ },
  "BRKR": {
   "assetsYoY": 0.07486179757865918,
   "companyName": "Bruker Corporation",
@@ -457,6 +484,15 @@
   "operatingIncome": 226287000.0,
   "sharesYoY": -0.010369644126733801,
   "shortPctFloat": null
+ },
+ "BVN": {
+  "assetsYoY": 0.19313623894912402,
+  "companyName": "Buenaventura Mining Company Inc",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": 104312000.0,
+  "operatingIncome": 534182000.0,
+  "sharesYoY": 0.0,
+  "shortPctFloat": 0.0227
  },
  "BWLP": {
   "assetsYoY": -0.05135705723974682,
@@ -692,6 +728,15 @@
   "sharesYoY": -0.03762147787489489,
   "shortPctFloat": 0.0614
  },
+ "CROX": {
+  "assetsYoY": -0.1324569272838998,
+  "companyName": "Crocs, Inc.",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": 659200000.0,
+  "operatingIncome": 887630000.0,
+  "sharesYoY": -0.1115044247787611,
+  "shortPctFloat": 0.1284
+ },
  "CRWD": {
   "assetsYoY": 0.27410039880122894,
   "companyName": "CrowdStrike Holdings, Inc.",
@@ -872,6 +917,15 @@
   "sharesYoY": -0.015101100588686966,
   "shortPctFloat": 0.0539
  },
+ "EAT": {
+  "assetsYoY": 0.05092212349734937,
+  "companyName": "Brinker International, Inc.",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": 557500000.0,
+  "operatingIncome": 628500000.0,
+  "sharesYoY": -0.051685393258426915,
+  "shortPctFloat": 0.1883
+ },
  "EC": {
   "assetsYoY": -0.053718301641960675,
   "companyName": "Ecopetrol S.A.",
@@ -997,6 +1051,15 @@
   "operatingIncome": 132468000.0,
   "sharesYoY": 0.005886176937849541,
   "shortPctFloat": 0.1331
+ },
+ "FCX": {
+  "assetsYoY": 0.06051268961493572,
+  "companyName": "Freeport-McMoRan, Inc.",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": 1116000000.0,
+  "operatingIncome": 6502000000.0,
+  "sharesYoY": -0.0027334082102153934,
+  "shortPctFloat": 0.0215
  },
  "FFIV": {
   "assetsYoY": 0.12586629191783927,
@@ -1348,6 +1411,15 @@
   "operatingIncome": -256027000.0,
   "sharesYoY": 0.18629951865410832,
   "shortPctFloat": 0.3134
+ },
+ "ICHR": {
+  "assetsYoY": -0.052919752019960575,
+  "companyName": "Ichor Holdings",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": -6283000.0,
+  "operatingIncome": -39272000.0,
+  "sharesYoY": 0.016959296141690228,
+  "shortPctFloat": 0.0775
  },
  "IESC": {
   "assetsYoY": 0.2826588833352357,
@@ -2024,6 +2096,15 @@
   "sharesYoY": 0.009264441675443491,
   "shortPctFloat": 0.0689
  },
+ "PAGP": {
+  "assetsYoY": 0.1268194264303213,
+  "companyName": "Plains GP Holdings, L.P.",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": 2261000000.0,
+  "operatingIncome": 1374000000.0,
+  "sharesYoY": 0.00222025902331513,
+  "shortPctFloat": 0.0908
+ },
  "PANW": {
   "assetsYoY": 1.0554801493043775,
   "companyName": "Palo Alto Networks, Inc.",
@@ -2104,6 +2185,15 @@
   "operatingIncome": 385993000.0,
   "sharesYoY": -0.03783910703319726,
   "shortPctFloat": 0.074200004
+ },
+ "PEB": {
+  "assetsYoY": -0.060625945622761246,
+  "companyName": "Pebblebrook Hotel Trust",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": 249729000.0,
+  "operatingIncome": 75247000.0,
+  "sharesYoY": -0.051114891736032675,
+  "shortPctFloat": 0.2218
  },
  "PENG": {
   "assetsYoY": 0.09677410603958214,
@@ -2204,6 +2294,15 @@
   "sharesYoY": 0.025276554215760916,
   "shortPctFloat": 0.1385
  },
+ "PTRN": {
+  "assetsYoY": 0.42626071984371383,
+  "companyName": "Pattern Group Inc. - Series A",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": 78924000.0,
+  "operatingIncome": 25406000.0,
+  "sharesYoY": 0.002123813691579546,
+  "shortPctFloat": 0.12109999
+ },
  "QLYS": {
   "assetsYoY": 0.1248478486179776,
   "companyName": "Qualys, Inc.",
@@ -2248,6 +2347,15 @@
   "operatingIncome": 41560000.0,
   "sharesYoY": 0.004167320581269118,
   "shortPctFloat": 0.1175
+ },
+ "RIOT": {
+  "assetsYoY": 0.0003710002802830292,
+  "companyName": "Riot Platforms, Inc.",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": -1139879000.0,
+  "operatingIncome": -343298000.0,
+  "sharesYoY": 0.07737373628189514,
+  "shortPctFloat": 0.15
  },
  "RLAY": {
   "assetsYoY": -0.28688872667841925,
@@ -2608,6 +2716,15 @@
   "operatingIncome": 7995000000.0,
   "sharesYoY": -0.040834860224690184,
   "shortPctFloat": null
+ },
+ "SUN": {
+  "assetsYoY": 0.973008695652174,
+  "companyName": "Sunoco LP",
+  "fetchedAt": "2026-09-22",
+  "freeCashFlow": 615000000.0,
+  "operatingIncome": 929000000.0,
+  "sharesYoY": 0.38285310049029,
+  "shortPctFloat": 0.0325
  },
  "SVM": {
   "assetsYoY": 0.28560390748950115,
