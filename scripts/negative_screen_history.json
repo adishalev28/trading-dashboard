@@ -1231,12 +1231,26 @@
   "price": 342.0299987792969,
   "spy": 773.5
  },
+ "KLIC": {
+  "count": 2,
+  "firstSeen": "2026-09-22",
+  "level": "caution",
+  "price": 89.54000091552734,
+  "spy": 773.3800048828125
+ },
  "KNSA": {
   "count": 0,
   "firstSeen": "2026-09-22",
   "level": "clean",
   "price": 78.12999725341797,
   "spy": 773.5
+ },
+ "KOD": {
+  "count": 2,
+  "firstSeen": "2026-09-22",
+  "level": "caution",
+  "price": 33.79999923706055,
+  "spy": 773.3800048828125
  },
  "KRYS": {
   "count": 0,
@@ -1342,6 +1356,13 @@
   "level": "caution",
   "price": 60.939998626708984,
   "spy": 773.5
+ },
+ "MDB": {
+  "count": 1,
+  "firstSeen": "2026-09-22",
+  "level": "clean",
+  "price": 427.69000244140625,
+  "spy": 773.3800048828125
  },
  "META": {
   "count": 0,
@@ -1468,6 +1489,13 @@
   "level": "veto",
   "price": 232.8000030517578,
   "spy": 773.5
+ },
+ "NEM": {
+  "count": 0,
+  "firstSeen": "2026-09-22",
+  "level": "clean",
+  "price": 127.26000213623047,
+  "spy": 773.3800048828125
  },
  "NEO": {
   "count": 1,
@@ -1721,6 +1749,13 @@
   "price": 144.4199981689453,
   "spy": 773.5
  },
+ "PDFS": {
+  "count": 2,
+  "firstSeen": "2026-09-22",
+  "level": "caution",
+  "price": 48.439998626708984,
+  "spy": 773.3800048828125
+ },
  "PEB": {
   "count": 0,
   "firstSeen": "2026-09-22",
@@ -1916,6 +1951,13 @@
   "level": "clean",
   "price": 23.799999237060547,
   "spy": 773.5
+ },
+ "SAIL": {
+  "count": 2,
+  "firstSeen": "2026-09-22",
+  "level": "caution",
+  "price": 21.3700008392334,
+  "spy": 773.3800048828125
  },
  "SBET": {
   "count": 4,
