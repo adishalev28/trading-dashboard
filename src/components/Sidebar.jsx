@@ -2,13 +2,14 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { LayoutDashboard, Grid3x3, List, Sprout, Calculator, Briefcase, BarChart3 } from "lucide-react";
+import { LayoutDashboard, Grid3x3, List, Sprout, Calculator, Briefcase, BarChart3, Flag } from "lucide-react";
 
 const navItems = [
   { href: "/overview",    label: "Overview",    Icon: LayoutDashboard },
   { href: "/sectors",     label: "Sectors",     Icon: Grid3x3 },
   { href: "/watchlist",   label: "Watchlist",   Icon: List },
   { href: "/long-term",   label: "Long Term",   Icon: Sprout },
+  { href: "/red-flags",   label: "Red Flags",   Icon: Flag },
   { href: "/risk",        label: "Risk Calc",   Icon: Calculator },
   { href: "/portfolio",   label: "Portfolio",   Icon: Briefcase },
   { href: "/performance", label: "Performance", Icon: BarChart3 },

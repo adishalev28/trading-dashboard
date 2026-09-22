@@ -48,10 +48,18 @@ jobs:
         env:
           PYTHONIOENCODING: utf-8
 
+      - name: Negative screen (red flags)
+        id: redflags
+        # Veto labels for the lists. Never blocks the main refresh - reported at the end.
+        continue-on-error: true
+        run: python scripts/negative_screen.py
+        env:
+          PYTHONIOENCODING: utf-8
+
       - name: Check if data changed
         id: check
         run: |
-          if git diff --quiet src/lib/mockData.json scripts/fundamentals_cache.json scripts/breadth_history.json scripts/performance_data.json src/lib/longTermData.json scripts/long_term_history.json; then
+          if git diff --quiet src/lib/mockData.json scripts/fundamentals_cache.json scripts/breadth_history.json scripts/performance_data.json src/lib/longTermData.json scripts/long_term_history.json src/lib/negativeScreen.json scripts/negative_screen_cache.json scripts/negative_screen_history.json; then
             echo "changed=false" >> $GITHUB_OUTPUT
             echo "No data changes detected"
           else
@@ -64,7 +72,7 @@ jobs:
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
-          git add src/lib/mockData.json scripts/fundamentals_cache.json scripts/breadth_history.json scripts/performance_data.json src/lib/longTermData.json scripts/long_term_history.json
+          git add src/lib/mockData.json scripts/fundamentals_cache.json scripts/breadth_history.json scripts/performance_data.json src/lib/longTermData.json scripts/long_term_history.json src/lib/negativeScreen.json scripts/negative_screen_cache.json scripts/negative_screen_history.json
           git commit -m "data: auto-refresh from screener ($(date -u +%Y-%m-%d))"
           # Rebase onto any commits pushed while the screener was running
           # (e.g. a manual push to main) so the push is a fast-forward.
@@ -75,4 +83,10 @@ jobs:
         if: steps.longterm.outcome == 'failure'
         run: |
           echo "Long-term screen failed. The main data was still refreshed - see the step log above."
+          exit 1
+
+      - name: Report negative screen failure
+        if: steps.redflags.outcome == 'failure'
+        run: |
+          echo "Negative screen failed. The main data was still refreshed - see the step log above."
           exit 1

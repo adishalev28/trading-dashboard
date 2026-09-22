@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { ArrowDown, ArrowUp } from "lucide-react";
 import TradingViewModal from "./TradingViewModal";
+import RedFlagBadge from "./RedFlagBadge";
 
 const fmtPct = (v, digits = 0) => (v == null ? "—" : `${v > 0 ? "+" : ""}${v.toFixed(digits)}%`);
 const fmtNum = (v, digits = 1) => (v == null ? "—" : v.toFixed(digits));
@@ -65,8 +66,11 @@ function HeaderRow({ columns, sort }) {
 function TickerCell({ row, onOpen }) {
   return (
     <button onClick={() => onOpen(row)} className="text-left group cursor-pointer" title="Open TradingView chart">
-      <div className="font-bold font-mono-nums text-slate-100 group-hover:text-emerald-400 transition-colors">
-        {row.ticker}
+      <div className="flex items-center gap-1.5">
+        <span className="font-bold font-mono-nums text-slate-100 group-hover:text-emerald-400 transition-colors">
+          {row.ticker}
+        </span>
+        <RedFlagBadge ticker={row.ticker} />
       </div>
       <div className="text-[10px] text-slate-500 group-hover:text-slate-300 transition-colors max-w-[160px] truncate">
         {row.companyName}

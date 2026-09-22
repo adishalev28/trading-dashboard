@@ -5,6 +5,7 @@ import { Crosshair, TrendingUp, AlertCircle, Award, ChevronDown, ChevronUp, Sear
 import { findTopPicks } from "@/lib/topPicks";
 import { fmtUsd } from "@/lib/formatters";
 import TradingViewModal from "./TradingViewModal";
+import RedFlagBadge from "./RedFlagBadge";
 
 const GRADE_STYLES = {
   "A+": { ring: "ring-emerald-400", text: "text-emerald-300", bg: "bg-emerald-500", label: "A+" },
@@ -40,6 +41,7 @@ function PickCard({ pick, onOpen }) {
             {t.ticker}
           </button>
           <div className="text-[11px] text-slate-500 truncate">{t.companyName}</div>
+          <div className="mt-1"><RedFlagBadge ticker={t.ticker} /></div>
           <div className="flex items-center gap-3 mt-1 text-xs">
             <span className="font-mono-nums text-slate-300">{fmtUsd(t.price)}</span>
             <span className="text-slate-600">·</span>

@@ -6,6 +6,7 @@ import { fmtUsd } from "@/lib/formatters";
 import Explainer from "./Explainer";
 import TradingViewModal from "./TradingViewModal";
 import EarningsBadge from "./EarningsBadge";
+import RedFlagBadge from "./RedFlagBadge";
 
 function daysUntilEarnings(isoDate) {
   if (!isoDate) return null;
@@ -93,6 +94,7 @@ export default function PotentialBreakouts({ candidates }) {
                     {t.ticker}
                   </span>
                   <EarningsBadge earningsDate={t.earningsDate} compact />
+                  <RedFlagBadge ticker={t.ticker} />
                   {isBreakout && (
                     <span className="flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-500 text-white">
                       <Zap className="w-3 h-3" /> BREAKOUT

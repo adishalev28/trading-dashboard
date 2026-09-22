@@ -10,6 +10,7 @@ import Sparkline from "./Sparkline";
 import Tooltip from "./Tooltip";
 import TradingViewModal from "./TradingViewModal";
 import EarningsBadge from "./EarningsBadge";
+import RedFlagBadge from "./RedFlagBadge";
 import FundamentalsCell from "./FundamentalsCell";
 import { fmtUsd, fmtPct } from "@/lib/formatters";
 import { sortTickers, isStage2 } from "@/lib/screener";
@@ -211,6 +212,7 @@ export default function Stage2Table({ tickers, limit }) {
                         {t.ticker}
                       </span>
                       <EarningsBadge earningsDate={t.earningsDate} compact />
+                      <RedFlagBadge ticker={t.ticker} />
                     </div>
                     <div className="text-[10px] text-slate-500 group-hover:text-slate-300 transition-colors">
                       {t.companyName}
