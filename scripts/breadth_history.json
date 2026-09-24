@@ -1,52 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-06-25",
-      "stage2Count": 300,
-      "breakoutCount": 31,
-      "breakoutTickers": [
-        "APGE",
-        "AXGN",
-        "CGNX",
-        "COCO",
-        "CYTK",
-        "DAVE",
-        "DD",
-        "DGII",
-        "DNTH",
-        "ECG",
-        "ERAS",
-        "EWTX",
-        "FLEX",
-        "GNRC",
-        "HUM",
-        "IBRX",
-        "INDV",
-        "LRCX",
-        "MTSI",
-        "MTZ",
-        "OGN",
-        "ONTO",
-        "PBI",
-        "RLAY",
-        "RSI",
-        "SNEX",
-        "TGTX",
-        "TH",
-        "UMC",
-        "VIK",
-        "WTTR"
-      ],
-      "spy": {
-        "price": 734.3,
-        "sma50": 732.07
-      },
-      "qqq": {
-        "price": 716.38,
-        "sma50": 700.7
-      }
-    },
-    {
       "date": "2026-06-26",
       "stage2Count": 310,
       "breakoutCount": 24,
@@ -3005,6 +2959,51 @@
       "qqq": {
         "price": 738.81,
         "sma50": 710.1
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "stage2Count": 203,
+      "breakoutCount": 30,
+      "breakoutTickers": [
+        "ADPT",
+        "AEHR",
+        "AMD",
+        "ASST",
+        "CBZ",
+        "CRL",
+        "CRWD",
+        "DDOG",
+        "FIVN",
+        "GH",
+        "HAE",
+        "HNGE",
+        "HPE",
+        "MXL",
+        "NEOG",
+        "NTSK",
+        "OGN",
+        "PANW",
+        "QLYS",
+        "RBRK",
+        "S",
+        "TBBB",
+        "TEAM",
+        "TH",
+        "TRLV",
+        "TXG",
+        "UCTT",
+        "UGP",
+        "VIA",
+        "ZBRA"
+      ],
+      "spy": {
+        "price": 766.26,
+        "sma50": 759.44
+      },
+      "qqq": {
+        "price": 738.03,
+        "sma50": 711.14
       }
     }
   ]
