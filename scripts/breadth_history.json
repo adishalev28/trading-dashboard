@@ -1,45 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-06-27",
-      "stage2Count": 310,
-      "breakoutCount": 24,
-      "breakoutTickers": [
-        "AMRX",
-        "APGE",
-        "AXGN",
-        "BFLY",
-        "BTSG",
-        "CGNX",
-        "CGON",
-        "CNC",
-        "CRS",
-        "CTOS",
-        "ESTA",
-        "EWTX",
-        "EXTR",
-        "FROG",
-        "ILMN",
-        "OSCR",
-        "PEB",
-        "PTGX",
-        "RAL",
-        "RIOT",
-        "TH",
-        "TKR",
-        "TVTX",
-        "XMTR"
-      ],
-      "spy": {
-        "price": 728.99,
-        "sma50": 732.69
-      },
-      "qqq": {
-        "price": 706.52,
-        "sma50": 702.1
-      }
-    },
-    {
       "date": "2026-06-28",
       "stage2Count": 310,
       "breakoutCount": 24,
@@ -3013,6 +2974,53 @@
       "qqq": {
         "price": 741.32,
         "sma50": 711.93
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "stage2Count": 203,
+      "breakoutCount": 32,
+      "breakoutTickers": [
+        "AAMI",
+        "ABCL",
+        "ADPT",
+        "AMC",
+        "AMRX",
+        "ASX",
+        "AXTI",
+        "CAI",
+        "CBZ",
+        "CRL",
+        "ECPG",
+        "FORM",
+        "HALO",
+        "HIMX",
+        "HPE",
+        "ICHR",
+        "ILMN",
+        "IRDM",
+        "MRVL",
+        "MU",
+        "NEOG",
+        "OGN",
+        "PENG",
+        "PGEN",
+        "SMTC",
+        "STX",
+        "TER",
+        "TGTX",
+        "TWST",
+        "VICR",
+        "VSH",
+        "ZBRA"
+      ],
+      "spy": {
+        "price": 771.35,
+        "sma50": 759.91
+      },
+      "qqq": {
+        "price": 744.5,
+        "sma50": 711.99
       }
     }
   ]
