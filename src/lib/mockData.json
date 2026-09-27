@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-26 23:56:56",
+    "generatedAt": "2026-09-27 14:52:23",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
     "totalScanned": 915,
@@ -19,7 +19,7 @@
     "aboveSma200": true
   },
   "breadth": {
-    "asOf": "2026-09-26",
+    "asOf": "2026-09-27",
     "indices": {
       "spy": {
         "price": 771.35,
@@ -36,13 +36,13 @@
     },
     "stage2": {
       "current": 203,
-      "prev5d": 222,
-      "changePct": -8.6
+      "prev5d": 224,
+      "changePct": -9.4
     },
     "breakouts": {
       "current": 32,
-      "prev5d": 43,
-      "changePct": -25.6
+      "prev5d": 23,
+      "changePct": 39.1
     }
   },
   "sectors": [
@@ -4809,9 +4809,9 @@
       "marketCap": 9.3,
       "sector": "Technology",
       "earningsDate": "2026-11-19",
-      "epsGrowthYoY": 2687.5,
-      "salesGrowthYoY": 16.0,
-      "lastReportDate": "2026-04-30"
+      "epsGrowthYoY": 30.4,
+      "salesGrowthYoY": 15.1,
+      "lastReportDate": "2026-07-31"
     },
     {
       "ticker": "EWTX",
@@ -5866,9 +5866,9 @@
       "marketCap": 4.8,
       "sector": "Industrials",
       "earningsDate": "2026-11-18",
-      "epsGrowthYoY": 176.9,
-      "salesGrowthYoY": 22.5,
-      "lastReportDate": "2026-03-31"
+      "epsGrowthYoY": 266.7,
+      "salesGrowthYoY": 47.2,
+      "lastReportDate": "2026-06-30"
     },
     {
       "ticker": "HALO",
@@ -10624,6 +10624,7 @@
       "sector": "Healthcare",
       "earningsDate": "2026-10-26",
       "epsGrowthYoY": 1.0,
+      "salesGrowthYoY": 1.3,
       "lastReportDate": "2026-06-30"
     },
     {

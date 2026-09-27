@@ -12,9 +12,9 @@
   ]
  },
  "meta": {
-  "asOf": "2026-09-26",
+  "asOf": "2026-09-27",
   "cautionAt": 2,
-  "generatedAt": "2026-09-26 23:57",
+  "generatedAt": "2026-09-27 14:52",
   "tested": [
    "DILUTION",
    "LOSS",
@@ -52,7 +52,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8839485329744607,
+      "beta": 0.88394912202283,
       "maxDay21": 0.04548747084751814
      }
     },
@@ -92,7 +92,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.503168569916804,
+      "beta": 1.5031674848649659,
       "maxDay21": 0.03713910982939961
      }
     },
@@ -132,7 +132,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.6390631550545836,
+      "beta": 2.639063249765321,
       "maxDay21": 0.09083114473114962
      }
     },
@@ -172,7 +172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1160851407360972,
+      "beta": 1.1160865132380544,
       "maxDay21": 0.04016118538587188
      }
     },
@@ -212,7 +212,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.6947860103557217,
+      "beta": 3.6947849549914147,
       "maxDay21": 0.07231351778840311
      }
     },
@@ -252,7 +252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.6666010932034734,
+      "beta": 1.6666001194343407,
       "maxDay21": 0.07667472017279753
      }
     },
@@ -292,7 +292,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 5.432892883008404,
+      "beta": 5.432896754603675,
       "maxDay21": 0.13098211528598824
      }
     },
@@ -332,7 +332,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5009104667865512,
+      "beta": 1.500909930232163,
       "maxDay21": 0.05323909806638727
      }
     },
@@ -372,7 +372,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.6988166080019518,
+      "beta": 3.6988221358836517,
       "maxDay21": 0.12362733795342118
      }
     },
@@ -412,7 +412,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.7223001432113585,
+      "beta": 2.7223011785786144,
       "maxDay21": 0.06509346867521182
      }
     },
@@ -452,7 +452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5659339253050706,
+      "beta": 1.5659330528006659,
       "maxDay21": 0.0703703903203472
      }
     },
@@ -492,7 +492,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.205150406492763,
+      "beta": 3.2051515586677333,
       "maxDay21": 0.09949628716069214
      }
     },
@@ -532,7 +532,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8127854060452738,
+      "beta": 0.8127866423866701,
       "maxDay21": 0.06388357042383985
      }
     },
@@ -572,7 +572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6631023930055916,
+      "beta": 0.6631042941976562,
       "maxDay21": 0.08588590618250169
      }
     },
@@ -612,7 +612,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.0506768508065036,
+      "beta": 2.05067690575116,
       "maxDay21": 0.05608757361039385
      }
     },
@@ -652,7 +652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.099722704616421,
+      "beta": 1.0997250829671696,
       "maxDay21": 0.05080517476227686
      }
     },
@@ -692,7 +692,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.7456124527331268,
+      "beta": -0.7456105044940606,
       "maxDay21": 0.05285367827301535
      }
     },
@@ -732,7 +732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.4587278423271194,
+      "beta": 0.45872915576465556,
       "maxDay21": 0.06422678273241966
      }
     },
@@ -772,7 +772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.48184156760104324,
+      "beta": 0.4818409532893746,
       "maxDay21": 0.10212897650109065
      }
     },
@@ -812,7 +812,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.091124662080544,
+      "beta": 2.091124963263338,
       "maxDay21": 0.043676926342150146
      }
     },
@@ -852,7 +852,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.4712144299650154,
+      "beta": 3.4712138015378198,
       "maxDay21": 0.17158307412048113
      }
     },
@@ -892,7 +892,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.4295795516102145,
+      "beta": 1.4295800894282102,
       "maxDay21": 0.06915289701089589
      }
     },
@@ -932,7 +932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.16185032038448668,
+      "beta": 0.16184931284695228,
       "maxDay21": 0.00913697415513659
      }
     },
@@ -972,7 +972,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.227619163466566,
+      "beta": 2.2276176902099523,
       "maxDay21": 0.04172669371183524
      }
     },
@@ -1012,7 +1012,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.6679497270404147,
+      "beta": 3.6679467409280972,
       "maxDay21": 0.11407541712723646
      }
     },
@@ -1052,7 +1052,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.464287886373531,
+      "beta": 2.4642882921291536,
       "maxDay21": 0.06078386286371207
      }
     },
@@ -1092,7 +1092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5771313957455482,
+      "beta": 1.577133923717624,
       "maxDay21": 0.04350906948224731
      }
     },
@@ -1132,7 +1132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.7178365612256972,
+      "beta": 1.717836467780096,
       "maxDay21": 0.005102618884775145
      }
     },
@@ -1172,7 +1172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.4683832387621676,
+      "beta": 0.4683844945167725,
       "maxDay21": 0.07502048489389179
      }
     },
@@ -1212,7 +1212,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.0063425499301673,
+      "beta": 2.006343964769992,
       "maxDay21": 0.03561157630236367
      }
     },
@@ -1252,7 +1252,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.415169774253197,
+      "beta": 2.4151701628829083,
       "maxDay21": 0.07027643031002295
      }
     },
@@ -1292,7 +1292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5541112581229112,
+      "beta": 0.5541123903234649,
       "maxDay21": 0.05145691053257373
      }
     },
@@ -1332,7 +1332,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7608045495261989,
+      "beta": 0.760803341252221,
       "maxDay21": 0.03333337427389793
      }
     },
@@ -1372,7 +1372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8366304636444623,
+      "beta": 0.8366299284204324,
       "maxDay21": 0.08251325885240424
      }
     },
@@ -1412,7 +1412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3445333762714862,
+      "beta": 1.344533506007162,
       "maxDay21": 0.07163596800331917
      }
     },
@@ -1452,7 +1452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.842078160697583,
+      "beta": 0.8420826402715753,
       "maxDay21": 0.0420054116493771
      }
     },
@@ -1492,7 +1492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8219111542458747,
+      "beta": 0.821907000356527,
       "maxDay21": 0.03843546869848091
      }
     },
@@ -1532,7 +1532,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 4.2782306934072425,
+      "beta": 4.278228244161492,
       "maxDay21": 0.14136800940236016
      }
     },
@@ -1572,7 +1572,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.929727567362546,
+      "beta": 2.929726842243958,
       "maxDay21": 0.07738316616165308
      }
     },
@@ -1612,7 +1612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.698542960216462,
+      "beta": 1.6985432899049935,
       "maxDay21": 0.11039790255309256
      }
     },
@@ -1652,7 +1652,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 4.257119124869583,
+      "beta": 4.257119978974182,
       "maxDay21": 0.09629456469214981
      }
     },
@@ -1692,7 +1692,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.1527401468494265,
+      "beta": 3.1527454968133912,
       "maxDay21": 0.21990170594051195
      }
     },
@@ -1732,7 +1732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.8670029844702658,
+      "beta": 1.8670032545978124,
       "maxDay21": 0.06570761345510312
      }
     },
@@ -1772,7 +1772,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 4.070194953760908,
+      "beta": 4.070194000280711,
       "maxDay21": 0.14700786537327581
      }
     },
@@ -1812,7 +1812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3146839899446177,
+      "beta": 1.3146862609738053,
       "maxDay21": 0.08825111923369944
      }
     },
@@ -1852,7 +1852,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.39375027077674496,
+      "beta": 0.39375301465108553,
       "maxDay21": 0.037399105104310326
      }
     },
@@ -1892,7 +1892,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.331219885805076,
+      "beta": 1.331224316219598,
       "maxDay21": 0.09606526337368537
      }
     },
@@ -1932,7 +1932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5071089857904927,
+      "beta": 0.5071077380722046,
       "maxDay21": 0.03589021464776243
      }
     },
@@ -1972,7 +1972,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.42997372244017207,
+      "beta": 0.4299749221287532,
       "maxDay21": 0.0315410205509945
      }
     },
@@ -2012,7 +2012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.7400262492835783,
+      "beta": 1.7400244270150855,
       "maxDay21": 0.020279437553360813
      }
     },
@@ -2052,7 +2052,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.18380449337425955,
+      "beta": -0.18380058033411625,
       "maxDay21": 0.008262959429019778
      }
     },
@@ -2092,7 +2092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3610256717784228,
+      "beta": 1.3610273026138562,
       "maxDay21": 0.12999442791518256
      }
     },
@@ -2132,7 +2132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.698521668044623,
+      "beta": 1.6985222009769285,
       "maxDay21": 0.037864959891295014
      }
     },
@@ -2172,7 +2172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.49594342063093655,
+      "beta": 0.4959409363629633,
       "maxDay21": 0.03352209462986466
      }
     },
@@ -2212,7 +2212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8705753704939267,
+      "beta": 0.870574540998355,
       "maxDay21": 0.03494872392862325
      }
     },
@@ -2252,7 +2252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.553722440631736,
+      "beta": 0.5537238554472481,
       "maxDay21": 0.0130434450895891
      }
     },
@@ -2292,7 +2292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.09412407856030967,
+      "beta": -0.09412183825591368,
       "maxDay21": 0.043259766712553605
      }
     },
@@ -2332,7 +2332,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.2127366566471809,
+      "beta": 1.2127351191189661,
       "maxDay21": 0.08525342685494053
      }
     },
@@ -2372,7 +2372,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.1493171348732445,
+      "beta": 3.1493204047207444,
       "maxDay21": 0.11545526368091652
      }
     },
@@ -2412,7 +2412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.43968406863225457,
+      "beta": 0.4396847008134474,
       "maxDay21": 0.042245934542653574
      }
     },
@@ -2452,7 +2452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3600902583451835,
+      "beta": 0.360089006437395,
       "maxDay21": 0.045016645221198415
      }
     },
@@ -2492,7 +2492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.3832623985133355,
+      "beta": -0.38326149940139737,
       "maxDay21": 0.03475142102289053
      }
     },
@@ -2532,7 +2532,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.2210341613747984,
+      "beta": 3.221035238865635,
       "maxDay21": 0.07223452115562612
      }
     },
@@ -2572,7 +2572,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.76256681436793,
+      "beta": 2.762567166157669,
       "maxDay21": 0.10308833679114593
      }
     },
@@ -2612,7 +2612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3765351576093529,
+      "beta": 0.37653456141881386,
       "maxDay21": 0.024606597756172244
      }
     },
@@ -2652,7 +2652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.8556637145401937,
+      "beta": 1.855666732048984,
       "maxDay21": 0.049318218296603655
      }
     },
@@ -2692,7 +2692,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.3066545288036036,
+      "beta": 3.3066561920281705,
       "maxDay21": 0.07654232743054834
      }
     },
@@ -2732,7 +2732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.2734142173019096,
+      "beta": 1.2734162758850254,
       "maxDay21": 0.06169551327866296
      }
     },
@@ -2772,7 +2772,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5228585795959384,
+      "beta": 1.5228605348692055,
       "maxDay21": 0.2049900387962671
      }
     },
@@ -2812,7 +2812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.8844950315199325,
+      "beta": 1.8844945888253721,
       "maxDay21": 0.02492446596758402
      }
     },
@@ -2852,7 +2852,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.1956770867834983,
+      "beta": -0.19567467895569562,
       "maxDay21": 0.030482101253876737
      }
     },
@@ -2892,7 +2892,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.24398815608732574,
+      "beta": -0.24398685442407442,
       "maxDay21": 0.07279451003654436
      }
     },
@@ -2932,7 +2932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3382199760915182,
+      "beta": 0.338221515883621,
       "maxDay21": 0.06443624255614044
      }
     },
@@ -2972,7 +2972,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.27067108820657426,
+      "beta": 0.27067198866471615,
       "maxDay21": 0.0477276483842064
      }
     },
@@ -3012,7 +3012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1837302796948146,
+      "beta": 1.1837298286828484,
       "maxDay21": 0.07154073562563323
      }
     },
@@ -3052,7 +3052,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.2412795598780844,
+      "beta": 2.2412796901918512,
       "maxDay21": 0.1581176757812499
      }
     },
@@ -3092,7 +3092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1303720803963917,
+      "beta": 1.130374157158531,
       "maxDay21": 0.03497044565944529
      }
     },
@@ -3132,7 +3132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3597681789220906,
+      "beta": 1.3597677929366878,
       "maxDay21": 0.03607595191468649
      }
     },
@@ -3172,7 +3172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.29114702979426776,
+      "beta": 0.29114767121651,
       "maxDay21": 0.05622274584079312
      }
     },
@@ -3212,7 +3212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.17612451185480102,
+      "beta": -0.17612273432875272,
       "maxDay21": 0.049948518894151084
      }
     },
@@ -3252,7 +3252,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.4772309335820344,
+      "beta": 2.4772327550438895,
       "maxDay21": 0.05742311133811406
      }
     },
@@ -3292,7 +3292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.21817832871651907,
+      "beta": -0.21817515924891337,
       "maxDay21": 0.05301972622088891
      }
     },
@@ -3332,7 +3332,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.737776119149803,
+      "beta": 1.7377771231012331,
       "maxDay21": 0.04989883849798682
      }
     },
@@ -3372,7 +3372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8894677713934108,
+      "beta": 0.8894682131974119,
       "maxDay21": 0.028272639460280802
      }
     },
@@ -3412,7 +3412,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.4989965349571492,
+      "beta": 2.4989972321878255,
       "maxDay21": 0.12643372513883766
      }
     },
@@ -3452,7 +3452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5778061149652424,
+      "beta": 0.5778079365287787,
       "maxDay21": 0.07534126526296792
      }
     },
@@ -3492,7 +3492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.552648241088639,
+      "beta": 0.5526494848896636,
       "maxDay21": 0.044448804999576375
      }
     },
@@ -3532,7 +3532,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6895134638878531,
+      "beta": 0.6895157085575649,
       "maxDay21": 0.07016718535510069
      }
     },
@@ -3572,7 +3572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6500952615917144,
+      "beta": 0.6500953283443167,
       "maxDay21": 0.020902180404907433
      }
     },
@@ -3612,7 +3612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6788999468020089,
+      "beta": 0.6788976409529298,
       "maxDay21": 0.03509116502094933
      }
     },
@@ -3652,7 +3652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.14745397388797496,
+      "beta": -0.14745202664253704,
       "maxDay21": 0.046790682847970055
      }
     },
@@ -3692,7 +3692,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3533416056211217,
+      "beta": 0.3533434283601783,
       "maxDay21": 0.06518942900081393
      }
     },
@@ -3732,7 +3732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7639275780952544,
+      "beta": 0.7639283819976995,
       "maxDay21": 0.03806043257952352
      }
     },
@@ -3772,7 +3772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0342141717595699,
+      "beta": 1.0342135527037757,
       "maxDay21": 0.022801359343169958
      }
     },
@@ -3812,7 +3812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.6034168914196705,
+      "beta": -0.6034156381195966,
       "maxDay21": 0.03500748917508334
      }
     },
@@ -3852,7 +3852,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.9149348303066385,
+      "beta": -0.9149311664996505,
       "maxDay21": 0.042406088464404634
      }
     },
@@ -3892,7 +3892,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1732852668688047,
+      "beta": 1.173289273927882,
       "maxDay21": 0.041233472608311894
      }
     },
@@ -3932,7 +3932,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.367442528453036,
+      "beta": 2.367440967452435,
       "maxDay21": 0.08624636647368744
      }
     },
@@ -3972,7 +3972,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9414251985774409,
+      "beta": 0.9414258693289579,
       "maxDay21": 0.19309775747362257
      }
     },
@@ -4012,7 +4012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3838525425019916,
+      "beta": 1.3838575318411117,
       "maxDay21": 0.04148515962142607
      }
     },
@@ -4052,7 +4052,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5868394213761526,
+      "beta": 0.586840268761463,
       "maxDay21": 0.04117862417886964
      }
     },
@@ -4092,7 +4092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.001546081228926667,
+      "beta": -0.0015450016068692116,
       "maxDay21": 0.03374936182794763
      }
     },
@@ -4132,7 +4132,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.18878816433332,
+      "beta": 2.1887885585003213,
       "maxDay21": 0.05348548343326298
      }
     },
@@ -4172,7 +4172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0043701372438558,
+      "beta": 1.0043710957033987,
       "maxDay21": 0.04712147344676221
      }
     },
@@ -4212,7 +4212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.4554942505938233,
+      "beta": 1.455494731724378,
       "maxDay21": 0.13982127903140773
      }
     },
@@ -4252,7 +4252,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.440098293808712,
+      "beta": 2.4401012820619785,
       "maxDay21": 0.06286727139739079
      }
     },
@@ -4292,7 +4292,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.8938961500724405,
+      "beta": 2.8938973142778583,
       "maxDay21": 0.07193775103592981
      }
     },
@@ -4332,7 +4332,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.8749954780429974,
+      "beta": 2.874996149024569,
       "maxDay21": 0.07379081471697235
      }
     },
@@ -4372,7 +4372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.4710185740166399,
+      "beta": 0.4710203358386399,
       "maxDay21": 0.0618931836143628
      }
     },
@@ -4412,7 +4412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3181006973594271,
+      "beta": 1.318099056801183,
       "maxDay21": 0.12101288101548557
      }
     },
@@ -4452,7 +4452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5653697219946564,
+      "beta": 0.5653705608902119,
       "maxDay21": 0.0630782151676883
      }
     },
@@ -4492,7 +4492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1610289225342398,
+      "beta": 1.1610275984956306,
       "maxDay21": 0.14920366198137858
      }
     },
@@ -4532,7 +4532,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.0315304058320818,
+      "beta": 2.0315317165001927,
       "maxDay21": 0.04340427479845421
      }
     },
@@ -4572,7 +4572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9291496742639024,
+      "beta": 0.9291500247036905,
       "maxDay21": 0.0967373755404719
      }
     },
@@ -4612,7 +4612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7887285333308756,
+      "beta": 0.7887310642726532,
       "maxDay21": 0.04376218839035162
      }
     },
@@ -4652,7 +4652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.2347069775875446,
+      "beta": 1.2347083009905622,
       "maxDay21": 0.05970143487314461
      }
     },
@@ -4692,7 +4692,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9049349585910826,
+      "beta": 0.9049339198097633,
       "maxDay21": 0.06646328078885744
      }
     },
@@ -4732,7 +4732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8235791833551098,
+      "beta": 0.8235818274354905,
       "maxDay21": 0.042655051633293084
      }
     },
@@ -4772,7 +4772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0434292871931814,
+      "beta": 1.0434291143375456,
       "maxDay21": 0.048932075600510494
      }
     },
@@ -4812,7 +4812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3406645494906404,
+      "beta": 1.340663787371221,
       "maxDay21": 0.030585717319081995
      }
     },
@@ -4852,7 +4852,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3604250090471603,
+      "beta": 1.3604239240639107,
       "maxDay21": 0.032171387439992705
      }
     },
@@ -4892,7 +4892,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.855260999131099,
+      "beta": 2.855254559325457,
       "maxDay21": 0.3367587682074229
      }
     },
@@ -4932,7 +4932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6259871796623314,
+      "beta": 0.6259854271696368,
       "maxDay21": 0.06530711110629372
      }
     },
@@ -4972,7 +4972,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5527903314951306,
+      "beta": 1.5527915655852478,
       "maxDay21": 0.007570147809967898
      }
     },
@@ -5012,7 +5012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8586707720918785,
+      "beta": 0.8586699910321546,
       "maxDay21": 0.09980039886386494
      }
     },
@@ -5052,7 +5052,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.1088683586866155,
+      "beta": 0.10886630521128993,
       "maxDay21": 0.03525168011611468
      }
     },
@@ -5092,7 +5092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.11793945826549386,
+      "beta": 0.11794173704278617,
       "maxDay21": 0.06692404654743989
      }
     },
@@ -5132,7 +5132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5418777801014744,
+      "beta": 0.5418789069996262,
       "maxDay21": 0.033019294804330857
      }
     },
@@ -5172,7 +5172,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.5928944139327914,
+      "beta": 2.5928956891360437,
       "maxDay21": 0.0575064597236663
      }
     },
@@ -5212,7 +5212,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.854714741907674,
+      "beta": 2.854715377063942,
       "maxDay21": 0.06894048096329697
      }
     },
@@ -5252,7 +5252,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.312623916693541,
+      "beta": 2.312625058522121,
       "maxDay21": 0.06735215499006508
      }
     },
@@ -5292,7 +5292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0266041192256887,
+      "beta": 1.026601688519974,
       "maxDay21": 0.06998538022272083
      }
     },
@@ -5332,7 +5332,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.053751442232982,
+      "beta": 2.0537523485140983,
       "maxDay21": 0.12441139738145202
      }
     },
@@ -5372,7 +5372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7743642307872021,
+      "beta": 0.7743647764781034,
       "maxDay21": 0.08402077722155998
      }
     },
@@ -5412,7 +5412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.49115698633461174,
+      "beta": 0.4911568048216999,
       "maxDay21": 0.04748600510828438
      }
     },
@@ -5452,7 +5452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.6787277306658985,
+      "beta": 1.6787289760061215,
       "maxDay21": 0.09650470933542499
      }
     },
@@ -5492,7 +5492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5442962943908217,
+      "beta": 0.5442956824051104,
       "maxDay21": 0.046303073760066926
      }
     },
@@ -5532,7 +5532,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 4.460838003878483,
+      "beta": 4.460842823489887,
       "maxDay21": 0.09184427373185677
      }
     },
@@ -5572,7 +5572,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.0578134089088134,
+      "beta": 2.057814203084554,
       "maxDay21": 0.04717469176891598
      }
     },
@@ -5612,7 +5612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.6258455582211822,
+      "beta": 1.6258518248291343,
       "maxDay21": 0.0994083043252687
      }
     },
@@ -5652,7 +5652,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.8642783458664804,
+      "beta": 3.864279680783449,
       "maxDay21": 0.0673987389977182
      }
     },
@@ -5692,7 +5692,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.863761345451939,
+      "beta": 2.863765932711103,
       "maxDay21": 0.08196671050926208
      }
     },
@@ -5732,7 +5732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.792905096245678,
+      "beta": 0.7929065985209366,
       "maxDay21": 0.07251933847432657
      }
     },
@@ -5772,7 +5772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.17930304245492515,
+      "beta": 0.1793048299477733,
       "maxDay21": 0.03489682245733072
      }
     },
@@ -5812,7 +5812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.286759173837458,
+      "beta": 1.2867584072414247,
       "maxDay21": 0.0317730193442487
      }
     },
@@ -5852,7 +5852,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.3440810104424568,
+      "beta": 3.344080824963591,
       "maxDay21": 0.14610978042777223
      }
     },
@@ -5892,7 +5892,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0702394283334584,
+      "beta": 1.0702423236353251,
       "maxDay21": 0.07163824217054704
      }
     },
@@ -5932,7 +5932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.26938798038887957,
+      "beta": 0.2693895862749946,
       "maxDay21": 0.059677639794130544
      }
     },
@@ -5972,7 +5972,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.9309096996689603,
+      "beta": 2.930909846077308,
       "maxDay21": 0.12136280377864384
      }
     },
@@ -6012,7 +6012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.2978675081821291,
+      "beta": 1.2978687308334258,
       "maxDay21": 0.07674416489959701
      }
     },
@@ -6052,7 +6052,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.779676869709351,
+      "beta": 0.7796774604058362,
       "maxDay21": 0.02948756400577457
      }
     },
@@ -6092,7 +6092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3815633874828566,
+      "beta": 1.381563287204987,
       "maxDay21": 0.03078893762272661
      }
     },
@@ -6132,7 +6132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6210898740309948,
+      "beta": 0.6210884774620261,
       "maxDay21": 0.007968127490039834
      }
     },
@@ -6172,7 +6172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.8569024711603324,
+      "beta": 1.8569044457212573,
       "maxDay21": 0.039889516337845654
      }
     },
@@ -6212,7 +6212,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.154289983095959,
+      "beta": 2.1542912801081213,
       "maxDay21": 0.06493814183595825
      }
     },
@@ -6252,7 +6252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.25123260270939946,
+      "beta": 0.2512331361433142,
       "maxDay21": 0.032867613713255084
      }
     },
@@ -6292,7 +6292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7704948476982094,
+      "beta": 0.7704940587995248,
       "maxDay21": 0.05101092846473221
      }
     },
@@ -6332,7 +6332,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0293653053770613,
+      "beta": 1.0293668003415442,
       "maxDay21": 0.0310377974458671
      }
     },
@@ -6372,7 +6372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.809738233419808,
+      "beta": 0.8097410573029603,
       "maxDay21": 0.03730772038719232
      }
     },
@@ -6412,7 +6412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6617913681489865,
+      "beta": 0.6617895813339694,
       "maxDay21": 0.03161139853284167
      }
     },
@@ -6452,7 +6452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8249417425638121,
+      "beta": 0.8249399872439386,
       "maxDay21": 0.03452034730599207
      }
     },
@@ -6492,7 +6492,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.8611353040435445,
+      "beta": 2.8611358967339338,
       "maxDay21": 0.1103879895407287
      }
     },
@@ -6532,7 +6532,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.49043127309237383,
+      "beta": 0.4904333549776379,
       "maxDay21": 0.030427498178102752
      }
     },
@@ -6572,7 +6572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8462260021552929,
+      "beta": 0.8462286985077612,
       "maxDay21": 0.05126684240614088
      }
     },
@@ -6612,7 +6612,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.2395200292902064,
+      "beta": 3.2395202514945316,
       "maxDay21": 0.06980795506946103
      }
     },
@@ -6652,7 +6652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.0427507888006045,
+      "beta": 0.04275055515312298,
       "maxDay21": 0.02763020543016692
      }
     },
@@ -6692,7 +6692,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3251380016469977,
+      "beta": 0.3251395183933661,
       "maxDay21": 0.04816165696743413
      }
     },
@@ -6732,7 +6732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0798961259602917,
+      "beta": 1.0798974810846136,
       "maxDay21": 0.02797811558920893
      }
     },
@@ -6772,7 +6772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1465708230089402,
+      "beta": 1.1465705403983377,
       "maxDay21": 0.03768068387726897
      }
     },
@@ -6812,7 +6812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.4386476525760408,
+      "beta": 1.4386471992462242,
       "maxDay21": 0.11428457919302493
      }
     },
@@ -6852,7 +6852,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.228636870217894,
+      "beta": 1.2286377541119387,
       "maxDay21": 0.048295383990716756
      }
     },
@@ -6892,7 +6892,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0954941613337268,
+      "beta": 1.0954957644721224,
       "maxDay21": 0.0869375196234432
      }
     },
@@ -6932,7 +6932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.120132214948668,
+      "beta": 1.120132090410889,
       "maxDay21": 0.025335347529503283
      }
     },
@@ -6972,7 +6972,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.265832365765336,
+      "beta": 2.2658307912455773,
       "maxDay21": 0.057977185268293985
      }
     },
@@ -7012,7 +7012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.15502929074552066,
+      "beta": -0.15502774304243916,
       "maxDay21": 0.036297095945969415
      }
     },
@@ -7052,7 +7052,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.544233404481187,
+      "beta": 2.5442341380525364,
       "maxDay21": 0.08056785508020403
      }
     },
@@ -7092,7 +7092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.21377677279392934,
+      "beta": 0.21377734210233865,
       "maxDay21": 0.017907026419617056
      }
     },
@@ -7132,7 +7132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.9808545551514845,
+      "beta": 1.9808530464532002,
       "maxDay21": 0.12269546857332192
      }
     },
@@ -7172,7 +7172,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.0375533987872996,
+      "beta": 3.037552377698774,
       "maxDay21": 0.0704879619385903
      }
     },
@@ -7212,7 +7212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8066373317864802,
+      "beta": 0.806637032665629,
       "maxDay21": 0.05818707074199758
      }
     },
@@ -7252,7 +7252,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.03716289372815,
+      "beta": 2.0371647985537242,
       "maxDay21": 0.03509922676030963
      }
     },
@@ -7292,7 +7292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.9904972155627099,
+      "beta": 1.9904983704867523,
       "maxDay21": 0.046880104367515996
      }
     },
@@ -7332,7 +7332,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.3460703230405873,
+      "beta": 3.3460726714957243,
       "maxDay21": 0.06098152223910924
      }
     },
@@ -7372,7 +7372,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.482137638433327,
+      "beta": 3.4821411228870467,
       "maxDay21": 0.09998826659722027
      }
     },
@@ -7412,7 +7412,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.612310443521319,
+      "beta": 3.6123108645789137,
       "maxDay21": 0.07725608701937992
      }
     },
@@ -7452,7 +7452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.992918613022641,
+      "beta": 0.9929197328109906,
       "maxDay21": 0.07311447835664509
      }
     },
@@ -7492,7 +7492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5204806318815618,
+      "beta": 1.5204812065135167,
       "maxDay21": 0.04692305051363421
      }
     },
@@ -7532,7 +7532,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.4348097061816982,
+      "beta": 1.4348062515586613,
       "maxDay21": 0.04131983991878907
      }
     },
@@ -7572,7 +7572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5765106094982468,
+      "beta": 1.5765121203004948,
       "maxDay21": 0.10510026790634797
      }
     },
@@ -7612,7 +7612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3020875483267168,
+      "beta": 0.30208825948493206,
       "maxDay21": 0.03772607379043791
      }
     },
@@ -7652,7 +7652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.535895857271945,
+      "beta": 0.5358940588732369,
       "maxDay21": 0.04428245523664498
      }
     },
@@ -7692,7 +7692,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.4769467341037483,
+      "beta": 1.4769492309348848,
       "maxDay21": 0.0323854543723332
      }
     },
@@ -7732,7 +7732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.221268215290341,
+      "beta": 1.2212682496403398,
       "maxDay21": 0.060948227995116344
      }
     },
@@ -7772,7 +7772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3174074578003496,
+      "beta": 1.3174083670738157,
       "maxDay21": 0.08540300737757445
      }
     },
@@ -7812,7 +7812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.2381867555711605,
+      "beta": 1.238185775620811,
       "maxDay21": 0.060722770148481375
      }
     },
@@ -7852,7 +7852,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.750934214466974,
+      "beta": 1.7509321051650852,
       "maxDay21": 0.15646260003930168
      }
     },
@@ -7892,7 +7892,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9268374422649883,
+      "beta": 0.9268383976430038,
       "maxDay21": 0.047832657745879636
      }
     },
@@ -7932,7 +7932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.902492905291859,
+      "beta": 1.9024925622058266,
       "maxDay21": 0.08737952570943941
      }
     },
@@ -7972,7 +7972,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.0287591348142024,
+      "beta": 2.028760121367454,
       "maxDay21": 0.04646521105205603
      }
     },
@@ -8012,7 +8012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6621350315039196,
+      "beta": 0.6621370757939566,
       "maxDay21": 0.0021897615612302967
      }
     },
@@ -8052,7 +8052,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8926120155298503,
+      "beta": 0.8926134681326219,
       "maxDay21": 0.04289539996615632
      }
     },
@@ -8092,7 +8092,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.2402839556262342,
+      "beta": 1.2402856637427575,
       "maxDay21": 0.2863413630223981
      }
     },
@@ -8132,7 +8132,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.3567891041985978,
+      "beta": 3.3567892598458657,
       "maxDay21": 0.08096593391334972
      }
     },
@@ -8172,7 +8172,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.1843465811189686,
+      "beta": 3.18434710334461,
       "maxDay21": 0.06159392631792904
      }
     },
@@ -8212,7 +8212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.4473393364996254,
+      "beta": 1.4473403746827045,
       "maxDay21": 0.044681990046148146
      }
     },
@@ -8252,7 +8252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.423326511017975,
+      "beta": 1.4233279240218726,
       "maxDay21": 0.06297401119569002
      }
     },
@@ -8292,7 +8292,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 4.531677819823693,
+      "beta": 4.531676132057632,
       "maxDay21": 0.08758915154491986
      }
     },
@@ -8332,7 +8332,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.4562953775820113,
+      "beta": 2.4562943314230905,
       "maxDay21": 0.1115366671896727
      }
     },
@@ -8372,7 +8372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3061359321219882,
+      "beta": 0.30613734235423656,
       "maxDay21": 0.027529368681066257
      }
     },
@@ -8412,7 +8412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.2066325193610288,
+      "beta": 1.2066332358320746,
       "maxDay21": 0.13092396595801703
      }
     },
@@ -8452,7 +8452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.34648896226840664,
+      "beta": -0.34648753462822574,
       "maxDay21": 0.023494256711891426
      }
     },
@@ -8492,7 +8492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.11563346130229218,
+      "beta": 0.11563566437152743,
       "maxDay21": 0.020360706716231913
      }
     },
@@ -8532,7 +8532,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.47889328255503644,
+      "beta": -0.47889031086343586,
       "maxDay21": 0.061363630698732186
      }
     },
@@ -8572,7 +8572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.20499194206507662,
+      "beta": -0.20498965688685983,
       "maxDay21": 0.05064597017655936
      }
     },
@@ -8612,7 +8612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.0709543116867831,
+      "beta": -0.07095319181021142,
       "maxDay21": 0.045977078272876115
      }
     },
@@ -8652,7 +8652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.0480509824028142,
+      "beta": -0.048048528452718654,
       "maxDay21": 0.04454325423882177
      }
     },
@@ -8692,7 +8692,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.3432782075722534,
+      "beta": 3.343279493391258,
       "maxDay21": 0.08934488823862607
      }
     },
@@ -8732,7 +8732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.4275783734717569,
+      "beta": 1.4275847474059498,
       "maxDay21": 0.06285715103149414
      }
     },
@@ -8772,7 +8772,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.0871594369255053,
+      "beta": 2.0871599043819216,
       "maxDay21": 0.08567329835498128
      }
     },
@@ -8812,7 +8812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.9440423186378561,
+      "beta": 1.94404306817103,
       "maxDay21": 0.07712729580790323
      }
     },
@@ -8852,7 +8852,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0751873973636765,
+      "beta": 1.0751869968319505,
       "maxDay21": 0.06069365197447785
      }
     },
@@ -8892,7 +8892,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.2606001866504877,
+      "beta": -0.2605993156083772,
       "maxDay21": 0.03620143746174209
      }
     },
@@ -8932,7 +8932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.1236616487956158,
+      "beta": -0.12365856336808737,
       "maxDay21": 0.04340425747756704
      }
     },
@@ -8972,7 +8972,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.20449863229471144,
+      "beta": 0.20449770602553635,
       "maxDay21": 0.03291105572291264
      }
     },
@@ -9012,7 +9012,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.33594149899918196,
+      "beta": 0.33594406390570425,
       "maxDay21": 0.15058560731057247
      }
     },
@@ -9052,7 +9052,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5908683975578863,
+      "beta": 1.590867599303944,
       "maxDay21": 0.15637617061456632
      }
     },
@@ -9092,7 +9092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3675469726587484,
+      "beta": 1.3675464961676618,
       "maxDay21": 0.0480435506536141
      }
     },
@@ -9132,7 +9132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.201804688655527,
+      "beta": 1.2018072452459285,
       "maxDay21": 0.04005949837820877
      }
     },
@@ -9172,7 +9172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5027615575584952,
+      "beta": 1.5027628495374659,
       "maxDay21": 0.06377129265280734
      }
     },
@@ -9212,7 +9212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0961440958630257,
+      "beta": 1.0961481503540975,
       "maxDay21": 0.07570278868913083
      }
     },
@@ -9252,7 +9252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.42400178393538424,
+      "beta": -0.4240033391093668,
       "maxDay21": 0.02041010624901407
      }
     },
@@ -9292,7 +9292,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.00735520710216,
+      "beta": 1.0073538338013939,
       "maxDay21": 0.18751786944845783
      }
     },
@@ -9332,7 +9332,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.4850497933692497,
+      "beta": 1.485050185573064,
       "maxDay21": 0.016265438530901566
      }
     },
@@ -9372,7 +9372,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.1195277870102314,
+      "beta": 3.119528284784123,
       "maxDay21": 0.11576009970352308
      }
     },
@@ -9412,7 +9412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1199875041758698,
+      "beta": 1.1199887356314833,
       "maxDay21": 0.0478137509412746
      }
     },
@@ -9452,7 +9452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.185326328330524,
+      "beta": 1.1853275722886902,
       "maxDay21": 0.09105764221377233
      }
     },
@@ -9492,7 +9492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1749875809397705,
+      "beta": 1.1749915518002576,
       "maxDay21": 0.1448101574861551
      }
     },
@@ -9532,7 +9532,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.4756373662827413,
+      "beta": 2.475637231263519,
       "maxDay21": 0.06241701142979461
      }
     },
@@ -9572,7 +9572,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.3214314952375212,
+      "beta": 3.32143311153084,
       "maxDay21": 0.13196127389641066
      }
     },
@@ -9612,7 +9612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7804014347237136,
+      "beta": 0.7804025750296304,
       "maxDay21": 0.02850661279050537
      }
     },
@@ -9652,7 +9652,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.3362836530440485,
+      "beta": 2.336284001582694,
       "maxDay21": 0.04930571202758194
      }
     },
@@ -9692,7 +9692,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.7055030183942808,
+      "beta": 1.705503232373043,
       "maxDay21": 0.26368572442423255
      }
     },
@@ -9732,7 +9732,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.373144934436329,
+      "beta": 2.373149728863578,
       "maxDay21": 0.060950083492306906
      }
     },
@@ -9772,7 +9772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8031489991647844,
+      "beta": 0.8031494712279557,
       "maxDay21": 0.01854082543694946
      }
     },
@@ -9812,7 +9812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.8906346505611669,
+      "beta": 1.8906353004048033,
       "maxDay21": 0.07330737874665605
      }
     },
@@ -9852,7 +9852,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.3519818839350983,
+      "beta": 2.3519807235161654,
       "maxDay21": 0.08701737281456046
      }
     },
@@ -9892,7 +9892,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.8980316719935857,
+      "beta": 2.8980315122317655,
       "maxDay21": 0.09054463283168634
      }
     },
@@ -9972,7 +9972,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9383848747735039,
+      "beta": 0.938385094328911,
       "maxDay21": 0.03809018321189339
      }
     },
@@ -10012,7 +10012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.8584161913284805,
+      "beta": 1.858419471003678,
       "maxDay21": 0.10779319339071036
      }
     },
@@ -10052,7 +10052,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.7974306572447161,
+      "beta": -0.7974294429103159,
       "maxDay21": 0.05790423281871249
      }
     },
@@ -10092,7 +10092,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.7593038321973546,
+      "beta": 3.7593040186129856,
       "maxDay21": 0.09497965115135543
      }
     },
@@ -10132,7 +10132,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.006795500257704,
+      "beta": 3.0067926225273323,
       "maxDay21": 0.11026438927737181
      }
     },
@@ -10172,7 +10172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.453145370622481,
+      "beta": 1.453144821918308,
       "maxDay21": 0.05485069588332503
      }
     },
@@ -10212,7 +10212,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 4.152981729312789,
+      "beta": 4.152980346344567,
       "maxDay21": 0.11897826412229162
      }
     },
@@ -10252,7 +10252,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.325136554656328,
+      "beta": 1.325138837874604,
       "maxDay21": 0.16554409328097397
      }
     },
@@ -10292,7 +10292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3427874839359761,
+      "beta": 1.3427879628621002,
       "maxDay21": 0.05349455477851084
      }
     },
@@ -10332,7 +10332,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.34841918837033,
+      "beta": 1.3484173802464259,
       "maxDay21": 0.05498875966423333
      }
     },
@@ -10372,7 +10372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.06362406913198684,
+      "beta": 0.06362363733133994,
       "maxDay21": 0.021381598038191507
      }
     },
@@ -10412,7 +10412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.32901020226798816,
+      "beta": 0.32901107647481487,
       "maxDay21": 0.05812648132875653
      }
     },
@@ -10452,7 +10452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.49492215968302805,
+      "beta": -0.4949223087115622,
       "maxDay21": 0.09624058004622227
      }
     },
@@ -10492,7 +10492,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.1411076114966603,
+      "beta": 2.1411076816727848,
       "maxDay21": 0.05358632628595639
      }
     },
@@ -10532,7 +10532,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8581624141511982,
+      "beta": 0.8581609447541946,
       "maxDay21": 0.02920560604495792
      }
     },
@@ -10572,7 +10572,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.691213437116,
+      "beta": 2.6912137816329147,
       "maxDay21": 0.03628247766137305
      }
     },
@@ -10612,7 +10612,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.3746472447601783,
+      "beta": 2.374643681399665,
       "maxDay21": 0.06930384998656058
      }
     },
@@ -10652,7 +10652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.3000586736613757,
+      "beta": -0.3000562904446151,
       "maxDay21": 0.045838205324855386
      }
     },
@@ -10692,7 +10692,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.4822177106981036,
+      "beta": 1.4822186203323042,
       "maxDay21": 0.13550337590591832
      }
     },
@@ -10732,7 +10732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.8876893803451522,
+      "beta": 1.8876945024614389,
       "maxDay21": 0.021305370410935387
      }
     },
@@ -10772,7 +10772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.47659453209148767,
+      "beta": 0.4765936108181772,
       "maxDay21": 0.02738319619953411
      }
     },
@@ -10812,7 +10812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7535362377552216,
+      "beta": 0.7535352453515755,
       "maxDay21": 0.10179850283266223
      }
     },
@@ -10852,7 +10852,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.522309361630781,
+      "beta": 2.52230955920639,
       "maxDay21": 0.1484921996338937
      }
     },
@@ -10892,7 +10892,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.2900205063452646,
+      "beta": 3.290018506620125,
       "maxDay21": 0.05486618150755174
      }
     },
@@ -10932,7 +10932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7210749862113773,
+      "beta": 0.7210752102207176,
       "maxDay21": 0.04394718418467036
      }
     },
@@ -10972,7 +10972,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.7683081931381537,
+      "beta": 2.7683083719994195,
       "maxDay21": 0.07958472598748201
      }
     },
@@ -11012,7 +11012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.46136527649631653,
+      "beta": 0.4613663360643629,
       "maxDay21": 0.033294604338831135
      }
     },
@@ -11052,7 +11052,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5520946904965709,
+      "beta": 0.5520971340624221,
       "maxDay21": 0.052978836917235705
      }
     },
@@ -11092,7 +11092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0297236007249952,
+      "beta": 1.029723711370887,
       "maxDay21": 0.1299164665447312
      }
     },
@@ -11132,7 +11132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.4964842396430443,
+      "beta": 0.49648250101958274,
       "maxDay21": 0.04075498293888291
      }
     },
@@ -11172,7 +11172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.2902387397995565,
+      "beta": 0.29024026140843223,
       "maxDay21": 0.03099285599377133
      }
     },
@@ -11212,7 +11212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.4255409101501402,
+      "beta": 1.4255417687832395,
       "maxDay21": 0.14330500554736925
      }
     },
@@ -11252,7 +11252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.24514905925722139,
+      "beta": 0.24514983630058587,
       "maxDay21": 0.06009615605046781
      }
     },
@@ -11292,7 +11292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.064233027365114,
+      "beta": 1.0642336117363955,
       "maxDay21": 0.03642596583280522
      }
     },
@@ -11332,7 +11332,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0865408694470942,
+      "beta": 1.0865422742425916,
       "maxDay21": 0.08434784930685302
      }
     },
@@ -11372,7 +11372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.4048619944137065,
+      "beta": 0.4048632470191706,
       "maxDay21": 0.08973565109987303
      }
     },
@@ -11412,7 +11412,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.003206508363236,
+      "beta": 3.0032068451059915,
       "maxDay21": 0.08427304056430662
      }
     },
@@ -11452,7 +11452,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.231536063821811,
+      "beta": 2.2315386573421416,
       "maxDay21": 0.05505379844310032
      }
     },
@@ -11492,7 +11492,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.188772941858965,
+      "beta": 2.188774392110896,
       "maxDay21": 0.03002012953240496
      }
     },
@@ -11532,7 +11532,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.333341389541962,
+      "beta": 3.3333422309775957,
       "maxDay21": 0.08848253001540951
      }
     },
@@ -11572,7 +11572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.418512605797878,
+      "beta": 1.4185111914450463,
       "maxDay21": 0.023132008729857212
      }
     },
@@ -11612,7 +11612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3938675528985007,
+      "beta": 1.3938699958332477,
       "maxDay21": 0.09112533445871907
      }
     },
@@ -11652,7 +11652,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.606464758229515,
+      "beta": 2.6064638431869485,
       "maxDay21": 0.16107254750345024
      }
     },
@@ -11692,7 +11692,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0460167121211776,
+      "beta": 1.0460176162096282,
       "maxDay21": 0.023052196866194752
      }
     },
@@ -11732,7 +11732,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.230501933626438,
+      "beta": 2.2305023967348214,
       "maxDay21": 0.1122718534171605
      }
     },
@@ -11772,7 +11772,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.134087674949223,
+      "beta": 2.1340875473581895,
       "maxDay21": 0.04492511060990001
      }
     },
@@ -11812,7 +11812,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.574175508831262,
+      "beta": 3.5741778880292423,
       "maxDay21": 0.08770092038527588
      }
     },
@@ -11852,7 +11852,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6975570049643615,
+      "beta": 0.6975579783488493,
       "maxDay21": 0.03784573991454687
      }
     },
@@ -11892,7 +11892,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.7940509157272144,
+      "beta": 1.7940535889948022,
       "maxDay21": 0.08610734876093029
      }
     },
@@ -11932,7 +11932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.210625391739508,
+      "beta": 1.2106226834167326,
       "maxDay21": 0.041926208184672964
      }
     },
@@ -11972,7 +11972,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6867097839525298,
+      "beta": 0.6867143451825232,
       "maxDay21": 0.003513713898048776
      }
     },
@@ -12012,7 +12012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3547191905451565,
+      "beta": 1.3547211452978902,
       "maxDay21": 0.07469013951531411
      }
     },
@@ -12052,7 +12052,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0342097827166925,
+      "beta": 1.0342096229735742,
       "maxDay21": 0.02497645206399568
      }
     },
@@ -12092,7 +12092,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5789614029689457,
+      "beta": 0.5789613786783164,
       "maxDay21": 0.15197419731393969
      }
     },
@@ -12132,7 +12132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.063271737025876,
+      "beta": 1.0632749066548801,
       "maxDay21": 0.04583017561578795
      }
     },
@@ -12172,7 +12172,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.0986499794705487,
+      "beta": 2.098650323216554,
       "maxDay21": 0.11158919453642557
      }
     },
@@ -12212,7 +12212,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.345781573938649,
+      "beta": 3.345782132572527,
       "maxDay21": 0.19848148125431475
      }
     },
@@ -12252,7 +12252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.28671412477345976,
+      "beta": -0.28671248171767416,
       "maxDay21": 0.036793304318458286
      }
     },
@@ -12292,7 +12292,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.260655946474288,
+      "beta": 3.260659075578547,
       "maxDay21": 0.054918519262034504
      }
     },
@@ -12332,7 +12332,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.928647637203844,
+      "beta": 2.928647024019319,
       "maxDay21": 0.061361397020366804
      }
     },
@@ -12372,7 +12372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.4828769521695335,
+      "beta": 1.4828774848146022,
       "maxDay21": 0.04759335202858228
      }
     },
@@ -12412,7 +12412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7322300349537318,
+      "beta": 0.7322310922401939,
       "maxDay21": 0.02766091491492806
      }
     },
@@ -12452,7 +12452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.9739327992474096,
+      "beta": 1.9739330362899052,
       "maxDay21": 0.038685493468328724
      }
     },
@@ -12492,7 +12492,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.9875382779161916,
+      "beta": 2.98753570590916,
       "maxDay21": 0.0586316101594202
      }
     },
@@ -12532,7 +12532,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1310397230973381,
+      "beta": 1.1310406497445806,
       "maxDay21": 0.04191523747343684
      }
     },
@@ -12572,7 +12572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0510454181041893,
+      "beta": 1.0510463861708736,
       "maxDay21": 0.07602824872904179
      }
     },
@@ -12612,7 +12612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5373528452548435,
+      "beta": 1.5373545926500083,
       "maxDay21": 0.047599034499148596
      }
     },
@@ -12652,7 +12652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7605899230949107,
+      "beta": 0.7605895846146726,
       "maxDay21": 0.036889321576230705
      }
     },
@@ -12692,7 +12692,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.1415766338047586,
+      "beta": 2.141579722792213,
       "maxDay21": 0.09287011960860037
      }
     },
@@ -12732,7 +12732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.15906258635087756,
+      "beta": 0.15906373861237863,
       "maxDay21": 0.028630635776887958
      }
     },
@@ -12772,7 +12772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.7680435627850268,
+      "beta": 1.7680409646374347,
       "maxDay21": 0.03069772296799189
      }
     },
@@ -12812,7 +12812,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.243847242262426,
+      "beta": 2.2438502721155724,
       "maxDay21": 0.0735873762095356
      }
     },
@@ -12852,7 +12852,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9655776096041702,
+      "beta": 0.9655765572301139,
       "maxDay21": 0.05248425486368902
      }
     },
@@ -12875,7 +12875,7 @@
   "clean": {
    "avgExcess": 0.2,
    "avgReturn": -0.1,
-   "n": 243
+   "n": 244
   },
   "veto": {
    "avgExcess": 1.2,
