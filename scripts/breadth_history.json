@@ -1,56 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-06-30",
-      "stage2Count": 313,
-      "breakoutCount": 35,
-      "breakoutTickers": [
-        "ACLS",
-        "ADEA",
-        "APGE",
-        "ARWR",
-        "BFH",
-        "COGT",
-        "CRWD",
-        "CTOS",
-        "DELL",
-        "DK",
-        "DY",
-        "ELVN",
-        "FTNT",
-        "GLW",
-        "GNRC",
-        "GSAT",
-        "IBRX",
-        "IMVT",
-        "INDV",
-        "INTC",
-        "JBL",
-        "KGS",
-        "KRYS",
-        "KYMR",
-        "LSCC",
-        "MSGE",
-        "MYRG",
-        "OGN",
-        "PLXS",
-        "RCUS",
-        "SIMO",
-        "SITM",
-        "TGTX",
-        "TH",
-        "VISN"
-      ],
-      "spy": {
-        "price": 746.77,
-        "sma50": 734.28
-      },
-      "qqq": {
-        "price": 736.4,
-        "sma50": 705.55
-      }
-    },
-    {
       "date": "2026-07-01",
       "stage2Count": 315,
       "breakoutCount": 32,
@@ -3028,6 +2978,59 @@
       "qqq": {
         "price": 738.07,
         "sma50": 712.86
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "stage2Count": 185,
+      "breakoutCount": 38,
+      "breakoutTickers": [
+        "ABCL",
+        "AMRX",
+        "ARW",
+        "ASX",
+        "ATKR",
+        "AVT",
+        "AXTI",
+        "CDNA",
+        "COHU",
+        "CORT",
+        "CRL",
+        "CRWD",
+        "DDOG",
+        "ICHR",
+        "ILMN",
+        "IMAX",
+        "INSW",
+        "IRDM",
+        "LITE",
+        "MRNA",
+        "MTRN",
+        "MXL",
+        "NBIS",
+        "OGN",
+        "PENG",
+        "PGEN",
+        "RBRK",
+        "RVTY",
+        "SITM",
+        "SN",
+        "STX",
+        "TRLV",
+        "TSEM",
+        "TWST",
+        "UCTT",
+        "VSH",
+        "VSXY",
+        "XMTR"
+      ],
+      "spy": {
+        "price": 763.05,
+        "sma50": 760.85
+      },
+      "qqq": {
+        "price": 737.05,
+        "sma50": 713.66
       }
     }
   ]
