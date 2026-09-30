@@ -1,53 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-07-01",
-      "stage2Count": 315,
-      "breakoutCount": 32,
-      "breakoutTickers": [
-        "ABVX",
-        "APGE",
-        "ARWR",
-        "CELC",
-        "CGNX",
-        "CHEF",
-        "CLOV",
-        "COGT",
-        "CRS",
-        "CRWD",
-        "DGII",
-        "FROG",
-        "GEO",
-        "GLUE",
-        "ICHR",
-        "IMVT",
-        "KNSA",
-        "KRYS",
-        "KYMR",
-        "LGND",
-        "LNTH",
-        "LQDA",
-        "MRX",
-        "MSGE",
-        "NRIX",
-        "OGN",
-        "ORKA",
-        "ROIV",
-        "RSI",
-        "TWST",
-        "VCYT",
-        "XMTR"
-      ],
-      "spy": {
-        "price": 745.76,
-        "sma50": 735.06
-      },
-      "qqq": {
-        "price": 725.17,
-        "sma50": 707.13
-      }
-    },
-    {
       "date": "2026-07-02",
       "stage2Count": 310,
       "breakoutCount": 34,
@@ -3031,6 +2984,53 @@
       "qqq": {
         "price": 737.05,
         "sma50": 713.66
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "stage2Count": 190,
+      "breakoutCount": 32,
+      "breakoutTickers": [
+        "AAMI",
+        "ABCL",
+        "ACMR",
+        "ADPT",
+        "AMAT",
+        "AMRX",
+        "ARW",
+        "ASX",
+        "CDNA",
+        "CHEF",
+        "GH",
+        "HAFN",
+        "HPE",
+        "HTFL",
+        "IBRX",
+        "IMAX",
+        "INSW",
+        "IRDM",
+        "MRVL",
+        "NBIS",
+        "OGN",
+        "PBF",
+        "RVMD",
+        "S",
+        "SDGR",
+        "SN",
+        "TER",
+        "TRMD",
+        "TWLO",
+        "VSXY",
+        "WT",
+        "XMTR"
+      ],
+      "spy": {
+        "price": 768.99,
+        "sma50": 761.32
+      },
+      "qqq": {
+        "price": 744.53,
+        "sma50": 714.41
       }
     }
   ]
