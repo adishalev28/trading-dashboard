@@ -1,55 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-07-02",
-      "stage2Count": 310,
-      "breakoutCount": 34,
-      "breakoutTickers": [
-        "ABCL",
-        "ALGT",
-        "ALKS",
-        "AMRX",
-        "ASTH",
-        "AXGN",
-        "BKD",
-        "BTSG",
-        "CHEF",
-        "CNC",
-        "COGT",
-        "CYTK",
-        "DAL",
-        "DDOG",
-        "DK",
-        "FTNT",
-        "GEO",
-        "GH",
-        "HNGE",
-        "IMVT",
-        "JBHT",
-        "KOD",
-        "KRYS",
-        "LFST",
-        "LNTH",
-        "LQDA",
-        "NRIX",
-        "OUT",
-        "PANW",
-        "PLSE",
-        "ROIV",
-        "RVMD",
-        "TIGO",
-        "TXG"
-      ],
-      "spy": {
-        "price": 744.78,
-        "sma50": 735.91
-      },
-      "qqq": {
-        "price": 712.6,
-        "sma50": 708.51
-      }
-    },
-    {
       "date": "2026-07-03",
       "stage2Count": 310,
       "breakoutCount": 34,
@@ -3031,6 +2982,59 @@
       "qqq": {
         "price": 744.53,
         "sma50": 714.41
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "stage2Count": 192,
+      "breakoutCount": 38,
+      "breakoutTickers": [
+        "AAMI",
+        "ALAB",
+        "ARW",
+        "ASST",
+        "AVT",
+        "BB",
+        "CAKE",
+        "COHR",
+        "COHU",
+        "CRWD",
+        "CVI",
+        "DHT",
+        "FORM",
+        "FRO",
+        "FROG",
+        "FTNT",
+        "HAFN",
+        "HPE",
+        "HTFL",
+        "IBRX",
+        "ILMN",
+        "IOVA",
+        "IRDM",
+        "MXL",
+        "PANW",
+        "PBF",
+        "RVMD",
+        "SDGR",
+        "SMTC",
+        "SN",
+        "TNK",
+        "TWLO",
+        "TXG",
+        "UTZ",
+        "VCTR",
+        "VIAV",
+        "XMTR",
+        "ZETA"
+      ],
+      "spy": {
+        "price": 761.83,
+        "sma50": 761.52
+      },
+      "qqq": {
+        "price": 738.68,
+        "sma50": 714.99
       }
     }
   ]
