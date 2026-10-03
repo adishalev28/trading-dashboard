@@ -638,6 +638,15 @@
   "sharesYoY": -0.008954142480924299,
   "shortPctFloat": 0.0077
  },
+ "CIEN": {
+  "assetsYoY": 0.0395881330968173,
+  "companyName": "Ciena Corporation",
+  "fetchedAt": "2026-10-03",
+  "freeCashFlow": 665292000.0,
+  "operatingIncome": 310792000.0,
+  "sharesYoY": -0.011494887467705883,
+  "shortPctFloat": 0.0399
+ },
  "CLBK": {
   "assetsYoY": 0.05186390750296899,
   "companyName": "Columbia Financial, Inc.",
@@ -3260,11 +3269,11 @@
  "TOST": {
   "assetsYoY": 0.30606312292358795,
   "companyName": "Toast, Inc.",
-  "fetchedAt": "2026-09-22",
+  "fetchedAt": "2026-10-03",
   "freeCashFlow": 608000000.0,
   "operatingIncome": 304000000.0,
   "sharesYoY": 0.029720279720279796,
-  "shortPctFloat": 0.056500003
+  "shortPctFloat": 0.0623
  },
  "TRGP": {
   "assetsYoY": 0.10927637337743734,
@@ -3431,7 +3440,7 @@
  "URGN": {
   "assetsYoY": -0.29839943159346327,
   "companyName": "UroGen Pharma Ltd.",
-  "fetchedAt": "2026-09-22",
+  "fetchedAt": "2026-10-03",
   "freeCashFlow": -162733000.0,
   "operatingIncome": -124863000.0,
   "sharesYoY": 0.14487977835441623,
