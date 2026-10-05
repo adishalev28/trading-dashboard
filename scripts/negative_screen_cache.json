@@ -521,6 +521,15 @@
   "sharesYoY": -0.010369644126733801,
   "shortPctFloat": null
  },
+ "BTSG": {
+  "assetsYoY": 0.08220713651719325,
+  "companyName": "BrightSpring Health Services, I",
+  "fetchedAt": "2026-10-05",
+  "freeCashFlow": 394685000.0,
+  "operatingIncome": 295252000.0,
+  "sharesYoY": 0.1026028489952624,
+  "shortPctFloat": 0.0798
+ },
  "BVN": {
   "assetsYoY": 0.19313623894912402,
   "companyName": "Buenaventura Mining Company Inc",
@@ -1316,11 +1325,11 @@
  "GGB": {
   "assetsYoY": -0.05904910370207428,
   "companyName": "Gerdau S.A.",
-  "fetchedAt": "2026-09-22",
+  "fetchedAt": "2026-10-05",
   "freeCashFlow": 1134613000.0,
   "operatingIncome": 5607950000.0,
   "sharesYoY": -0.03240572294758626,
-  "shortPctFloat": 0.0448
+  "shortPctFloat": 0.053600002
  },
  "GH": {
   "assetsYoY": 0.35544345786812004,
@@ -2225,11 +2234,20 @@
  "NUE": {
   "assetsYoY": 0.03429581614614019,
   "companyName": "Nucor Corporation",
-  "fetchedAt": "2026-09-22",
+  "fetchedAt": "2026-10-05",
   "freeCashFlow": -188000000.0,
   "operatingIncome": 2659000000.0,
   "sharesYoY": -0.019177633161511998,
-  "shortPctFloat": 0.024
+  "shortPctFloat": 0.0251
+ },
+ "NVAX": {
+  "assetsYoY": -0.2460276669456517,
+  "companyName": "Novavax, Inc.",
+  "fetchedAt": "2026-10-05",
+  "freeCashFlow": -251023000.0,
+  "operatingIncome": 550640000.0,
+  "sharesYoY": 0.013432151484078725,
+  "shortPctFloat": 0.3043
  },
  "NVDA": {
   "assetsYoY": 0.8530568722502487,
@@ -2428,6 +2446,15 @@
   "operatingIncome": 385993000.0,
   "sharesYoY": -0.03783910703319726,
   "shortPctFloat": 0.065
+ },
+ "PCVX": {
+  "assetsYoY": -0.14484618026621343,
+  "companyName": "Vaxcyte, Inc.",
+  "fetchedAt": "2026-10-05",
+  "freeCashFlow": -712550000.0,
+  "operatingIncome": -923675000.0,
+  "sharesYoY": 0.049368838297258355,
+  "shortPctFloat": 0.109
  },
  "PDFS": {
   "assetsYoY": 0.32797845785929725,
@@ -2725,6 +2752,15 @@
   "operatingIncome": 356635000.0,
   "sharesYoY": -0.06933507948875217,
   "shortPctFloat": 0.083500005
+ },
+ "RXO": {
+  "assetsYoY": -0.04012888107791446,
+  "companyName": "RXO, Inc.",
+  "fetchedAt": "2026-10-05",
+  "freeCashFlow": -8000000.0,
+  "operatingIncome": -7000000.0,
+  "sharesYoY": 0.010109711599401994,
+  "shortPctFloat": 0.2566
  },
  "S": {
   "assetsYoY": 0.013079312314963953,
@@ -3527,6 +3563,15 @@
   "sharesYoY": 0.0019333094895297442,
   "shortPctFloat": 0.097600006
  },
+ "VIRT": {
+  "assetsYoY": 0.31174802234355825,
+  "companyName": "Virtu Financial, Inc.",
+  "fetchedAt": "2026-10-05",
+  "freeCashFlow": 454887000.0,
+  "operatingIncome": 1875578000.0,
+  "sharesYoY": -0.000663643667809799,
+  "shortPctFloat": 0.0552
+ },
  "VIST": {
   "assetsYoY": 0.6805831339967281,
   "companyName": "Vista Energy S.A.B. de C.V.",
@@ -3653,14 +3698,23 @@
   "sharesYoY": 0.031205846487014854,
   "shortPctFloat": 0.0848
  },
+ "XP": {
+  "assetsYoY": 0.14123079084718348,
+  "companyName": "XP Inc.",
+  "fetchedAt": "2026-10-05",
+  "freeCashFlow": 11555259000.0,
+  "operatingIncome": -4517135000.0,
+  "sharesYoY": -0.03475727195744971,
+  "shortPctFloat": 0.044
+ },
  "YPF": {
   "assetsYoY": 0.001633153006022292,
   "companyName": "YPF Sociedad Anonima",
-  "fetchedAt": "2026-09-22",
+  "fetchedAt": "2026-10-05",
   "freeCashFlow": -118000000.0,
   "operatingIncome": 1630000000.0,
   "sharesYoY": -0.002293673168164645,
-  "shortPctFloat": null
+  "shortPctFloat": 72.3631
  },
  "ZBIO": {
   "assetsYoY": 0.03695454742031745,

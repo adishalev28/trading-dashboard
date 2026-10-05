@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-10-05 00:12:14",
+    "generatedAt": "2026-10-05 18:54:04",
     "asOf": "2026-10-05",
     "trackingSince": "2026-09-11",
-    "passedFinviz": 60,
+    "passedFinviz": 61,
     "dropped": {
       "noFreeCashFlow": 1,
-      "pegTooHigh": 4
+      "pegTooHigh": 3
     },
     "benchmark": {
       "symbol": "SPY",
-      "price": 769.64
+      "price": 775.2
     }
   },
   "criteria": [
@@ -57,10 +57,10 @@
   ],
   "summary": {
     "count": 76,
-    "avgReturn": -1.8,
-    "medianReturn": -1.8,
-    "avgSpyReturn": 0.5,
-    "beatSpyPct": 39
+    "avgReturn": -1.0,
+    "medianReturn": -1.5,
+    "avgSpyReturn": 1.2,
+    "beatSpyPct": 43
   },
   "picks": [
     {
@@ -68,8 +68,8 @@
       "companyName": "Sezzle Inc",
       "sector": "Financial",
       "industry": "Credit Services",
-      "marketCapB": 3.6,
-      "price": 107.41,
+      "marketCapB": 3.7,
+      "price": 109.37,
       "salesGrowth5y": 50.3,
       "epsGrowth5y": null,
       "epsGrowthNext5y": 30.3,
@@ -77,9 +77,9 @@
       "grossMargin": 74.7,
       "operMargin": 40.4,
       "debtEq": 0.52,
-      "peg": 0.53,
-      "pFcf": 11.04,
-      "forwardPe": 16.09,
+      "peg": 0.54,
+      "pFcf": 11.24,
+      "forwardPe": 16.38,
       "score": 99,
       "firstSeen": "2026-09-11"
     },
@@ -88,8 +88,8 @@
       "companyName": "Micron Technology Inc",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "marketCapB": 1214.0,
-      "price": 1074.89,
+      "marketCapB": 1197.3,
+      "price": 1060.14,
       "salesGrowth5y": 36.9,
       "epsGrowth5y": 70.7,
       "epsGrowthNext5y": 41.6,
@@ -97,9 +97,9 @@
       "grossMargin": 85.9,
       "operMargin": 75.0,
       "debtEq": 0.04,
-      "peg": 0.13,
-      "pFcf": 20.59,
-      "forwardPe": 5.21,
+      "peg": 0.12,
+      "pFcf": 20.31,
+      "forwardPe": 5.1,
       "score": 97,
       "firstSeen": "2026-10-01"
     },
@@ -108,19 +108,19 @@
       "companyName": "NVIDIA Corp",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "marketCapB": 5638.2,
-      "price": 233.95,
+      "marketCapB": 5761.1,
+      "price": 239.05,
       "salesGrowth5y": 66.9,
       "epsGrowth5y": 95.3,
-      "epsGrowthNext5y": 64.9,
+      "epsGrowthNext5y": 65.0,
       "roic": 72.4,
       "grossMargin": 74.7,
       "operMargin": 65.2,
       "debtEq": 0.17,
       "peg": 0.23,
-      "pFcf": 44.39,
-      "forwardPe": 14.85,
-      "score": 93,
+      "pFcf": 45.36,
+      "forwardPe": 15.16,
+      "score": 92,
       "firstSeen": "2026-09-11"
     },
     {
@@ -128,8 +128,8 @@
       "companyName": "Remitly Global Inc",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "marketCapB": 4.6,
-      "price": 21.77,
+      "marketCapB": 4.9,
+      "price": 23.27,
       "salesGrowth5y": 44.8,
       "epsGrowth5y": null,
       "epsGrowthNext5y": 62.2,
@@ -137,9 +137,9 @@
       "grossMargin": 60.0,
       "operMargin": 10.4,
       "debtEq": 0.03,
-      "peg": 0.33,
-      "pFcf": 13.38,
-      "forwardPe": 20.39,
+      "peg": 0.35,
+      "pFcf": 14.3,
+      "forwardPe": 21.8,
       "score": 84,
       "firstSeen": "2026-09-11"
     },
@@ -148,8 +148,8 @@
       "companyName": "DLocal Limited",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "marketCapB": 3.9,
-      "price": 13.74,
+      "marketCapB": 4.1,
+      "price": 14.64,
       "salesGrowth5y": 60.0,
       "epsGrowth5y": 47.3,
       "epsGrowthNext5y": 20.2,
@@ -157,9 +157,9 @@
       "grossMargin": 33.9,
       "operMargin": 17.7,
       "debtEq": 0.12,
-      "peg": 0.62,
-      "pFcf": 8.6,
-      "forwardPe": 12.58,
+      "peg": 0.66,
+      "pFcf": 9.16,
+      "forwardPe": 13.39,
       "score": 79,
       "firstSeen": "2026-09-11"
     },
@@ -168,18 +168,18 @@
       "companyName": "SK Hynix Inc ADR",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "marketCapB": 1422.2,
-      "price": 195.13,
+      "marketCapB": 1415.4,
+      "price": 194.19,
       "salesGrowth5y": 20.4,
       "epsGrowth5y": 49.3,
-      "epsGrowthNext5y": 113.6,
+      "epsGrowthNext5y": 113.8,
       "roic": 61.3,
       "grossMargin": 75.6,
       "operMargin": 67.8,
       "debtEq": 0.08,
       "peg": 0.05,
-      "pFcf": 22.75,
-      "forwardPe": 5.69,
+      "pFcf": 22.64,
+      "forwardPe": 5.66,
       "score": 79,
       "firstSeen": "2026-09-11"
     },
@@ -189,7 +189,7 @@
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "marketCapB": 2.1,
-      "price": 15.83,
+      "price": 15.78,
       "salesGrowth5y": 41.4,
       "epsGrowth5y": null,
       "epsGrowthNext5y": -11.5,
@@ -198,29 +198,9 @@
       "operMargin": 45.1,
       "debtEq": 0.1,
       "peg": null,
-      "pFcf": 12.09,
-      "forwardPe": 13.44,
+      "pFcf": 12.06,
+      "forwardPe": 13.4,
       "score": 75,
-      "firstSeen": "2026-09-11"
-    },
-    {
-      "ticker": "PLTR",
-      "companyName": "Palantir Technologies Inc",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "marketCapB": 453.6,
-      "price": 188.75,
-      "salesGrowth5y": 32.6,
-      "epsGrowth5y": null,
-      "epsGrowthNext5y": 65.8,
-      "roic": 30.2,
-      "grossMargin": 84.8,
-      "operMargin": 42.8,
-      "debtEq": 0.02,
-      "peg": 1.25,
-      "pFcf": 135.06,
-      "forwardPe": 82.44,
-      "score": 74,
       "firstSeen": "2026-09-11"
     },
     {
@@ -228,8 +208,8 @@
       "companyName": "Harmony Biosciences Holdings Inc",
       "sector": "Healthcare",
       "industry": "Biotechnology",
-      "marketCapB": 2.3,
-      "price": 39.64,
+      "marketCapB": 2.4,
+      "price": 40.69,
       "salesGrowth5y": 40.3,
       "epsGrowth5y": null,
       "epsGrowthNext5y": 22.1,
@@ -237,9 +217,29 @@
       "grossMargin": 72.9,
       "operMargin": 24.0,
       "debtEq": 0.22,
-      "peg": 0.41,
-      "pFcf": 6.5,
-      "forwardPe": 9.17,
+      "peg": 0.43,
+      "pFcf": 6.68,
+      "forwardPe": 9.42,
+      "score": 73,
+      "firstSeen": "2026-09-11"
+    },
+    {
+      "ticker": "PLTR",
+      "companyName": "Palantir Technologies Inc",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "marketCapB": 456.1,
+      "price": 189.81,
+      "salesGrowth5y": 32.6,
+      "epsGrowth5y": null,
+      "epsGrowthNext5y": 65.8,
+      "roic": 30.2,
+      "grossMargin": 84.8,
+      "operMargin": 42.8,
+      "debtEq": 0.02,
+      "peg": 1.26,
+      "pFcf": 135.82,
+      "forwardPe": 82.91,
       "score": 73,
       "firstSeen": "2026-09-11"
     },
@@ -248,8 +248,8 @@
       "companyName": "Global E Online Ltd",
       "sector": "Consumer Cyclical",
       "industry": "Internet Retail",
-      "marketCapB": 6.6,
-      "price": 39.31,
+      "marketCapB": 6.7,
+      "price": 39.76,
       "salesGrowth5y": 47.8,
       "epsGrowth5y": 62.4,
       "epsGrowthNext5y": 79.7,
@@ -257,9 +257,9 @@
       "grossMargin": 44.3,
       "operMargin": 14.3,
       "debtEq": 0.03,
-      "peg": 0.3,
-      "pFcf": 21.5,
-      "forwardPe": 24.17,
+      "peg": 0.31,
+      "pFcf": 21.74,
+      "forwardPe": 24.44,
       "score": 72,
       "firstSeen": "2026-09-11"
     },
@@ -268,8 +268,8 @@
       "companyName": "Toast Inc",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "marketCapB": 17.3,
-      "price": 29.79,
+      "marketCapB": 17.5,
+      "price": 30.14,
       "salesGrowth5y": 49.5,
       "epsGrowth5y": null,
       "epsGrowthNext5y": 30.7,
@@ -277,9 +277,9 @@
       "grossMargin": 26.7,
       "operMargin": 6.4,
       "debtEq": 0.0,
-      "peg": 0.56,
-      "pFcf": 30.05,
-      "forwardPe": 17.25,
+      "peg": 0.57,
+      "pFcf": 30.41,
+      "forwardPe": 17.45,
       "score": 71,
       "firstSeen": "2026-09-11"
     },
@@ -288,8 +288,8 @@
       "companyName": "Airbnb Inc",
       "sector": "Consumer Cyclical",
       "industry": "Travel Services",
-      "marketCapB": 97.3,
-      "price": 162.43,
+      "marketCapB": 98.3,
+      "price": 164.25,
       "salesGrowth5y": 29.5,
       "epsGrowth5y": null,
       "epsGrowthNext5y": 22.8,
@@ -297,9 +297,9 @@
       "grossMargin": 72.6,
       "operMargin": 21.2,
       "debtEq": 0.32,
-      "peg": 1.14,
-      "pFcf": 20.02,
-      "forwardPe": 25.96,
+      "peg": 1.15,
+      "pFcf": 20.25,
+      "forwardPe": 26.25,
       "score": 70,
       "firstSeen": "2026-09-11"
     },
@@ -308,8 +308,8 @@
       "companyName": "Credo Technology Group Holding Ltd",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "marketCapB": 41.1,
-      "price": 218.64,
+      "marketCapB": 39.1,
+      "price": 208.3,
       "salesGrowth5y": 86.8,
       "epsGrowth5y": null,
       "epsGrowthNext5y": 52.8,
@@ -317,19 +317,39 @@
       "grossMargin": 67.0,
       "operMargin": 32.3,
       "debtEq": 0.01,
-      "peg": 0.43,
-      "pFcf": 93.69,
-      "forwardPe": 22.67,
+      "peg": 0.41,
+      "pFcf": 89.26,
+      "forwardPe": 21.59,
       "score": 70,
       "firstSeen": "2026-09-18"
+    },
+    {
+      "ticker": "EXEL",
+      "companyName": "Exelixis Inc",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "marketCapB": 14.7,
+      "price": 59.38,
+      "salesGrowth5y": 18.6,
+      "epsGrowth5y": 51.2,
+      "epsGrowthNext5y": 18.7,
+      "roic": 42.8,
+      "grossMargin": 96.5,
+      "operMargin": 40.7,
+      "debtEq": 0.09,
+      "peg": 0.77,
+      "pFcf": 12.55,
+      "forwardPe": 14.42,
+      "score": 70,
+      "firstSeen": "2026-09-11"
     },
     {
       "ticker": "FIX",
       "companyName": "Comfort Systems USA Inc",
       "sector": "Industrials",
       "industry": "Engineering & Construction",
-      "marketCapB": 60.8,
-      "price": 1728.01,
+      "marketCapB": 60.2,
+      "price": 1711.75,
       "salesGrowth5y": 26.1,
       "epsGrowth5y": 47.9,
       "epsGrowthNext5y": 37.0,
@@ -337,9 +357,9 @@
       "grossMargin": 25.1,
       "operMargin": 16.4,
       "debtEq": 0.11,
-      "peg": 0.78,
-      "pFcf": 28.21,
-      "forwardPe": 28.71,
+      "peg": 0.77,
+      "pFcf": 27.94,
+      "forwardPe": 28.44,
       "score": 70,
       "firstSeen": "2026-09-11"
     },
@@ -349,7 +369,7 @@
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "marketCapB": 17.9,
-      "price": 94.05,
+      "price": 94.42,
       "salesGrowth5y": 38.0,
       "epsGrowth5y": 26.9,
       "epsGrowthNext5y": 13.0,
@@ -358,29 +378,9 @@
       "operMargin": 30.4,
       "debtEq": 0.23,
       "peg": 0.48,
-      "pFcf": 6.63,
-      "forwardPe": 6.19,
+      "pFcf": 6.66,
+      "forwardPe": 6.22,
       "score": 70,
-      "firstSeen": "2026-09-11"
-    },
-    {
-      "ticker": "EXEL",
-      "companyName": "Exelixis Inc",
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
-      "marketCapB": 14.5,
-      "price": 58.39,
-      "salesGrowth5y": 18.6,
-      "epsGrowth5y": 51.2,
-      "epsGrowthNext5y": 18.5,
-      "roic": 42.8,
-      "grossMargin": 96.5,
-      "operMargin": 40.7,
-      "debtEq": 0.09,
-      "peg": 0.76,
-      "pFcf": 12.34,
-      "forwardPe": 14.12,
-      "score": 69,
       "firstSeen": "2026-09-11"
     },
     {
@@ -388,8 +388,8 @@
       "companyName": "Arista Networks Inc",
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "marketCapB": 261.5,
-      "price": 207.35,
+      "marketCapB": 262.0,
+      "price": 207.75,
       "salesGrowth5y": 31.2,
       "epsGrowth5y": 40.7,
       "epsGrowthNext5y": 29.2,
@@ -397,9 +397,9 @@
       "grossMargin": 63.0,
       "operMargin": 43.1,
       "debtEq": 0.0,
-      "peg": 1.35,
-      "pFcf": 50.73,
-      "forwardPe": 39.57,
+      "peg": 1.36,
+      "pFcf": 50.83,
+      "forwardPe": 39.64,
       "score": 67,
       "firstSeen": "2026-09-11"
     },
@@ -408,8 +408,8 @@
       "companyName": "Appfolio Inc",
       "sector": "Technology",
       "industry": "Software - Application",
-      "marketCapB": 7.2,
-      "price": 202.97,
+      "marketCapB": 7.3,
+      "price": 204.87,
       "salesGrowth5y": 25.1,
       "epsGrowth5y": -2.6,
       "epsGrowthNext5y": 27.2,
@@ -417,9 +417,9 @@
       "grossMargin": 61.6,
       "operMargin": 17.5,
       "debtEq": 0.07,
-      "peg": 0.88,
-      "pFcf": 26.62,
-      "forwardPe": 23.96,
+      "peg": 0.89,
+      "pFcf": 26.87,
+      "forwardPe": 24.18,
       "score": 67,
       "firstSeen": "2026-09-11"
     },
@@ -429,7 +429,7 @@
       "sector": "Basic Materials",
       "industry": "Gold",
       "marketCapB": 3.3,
-      "price": 11.25,
+      "price": 11.23,
       "salesGrowth5y": 27.9,
       "epsGrowth5y": 51.0,
       "epsGrowthNext5y": 41.2,
@@ -438,8 +438,8 @@
       "operMargin": 48.6,
       "debtEq": 0.13,
       "peg": 0.16,
-      "pFcf": 8.36,
-      "forwardPe": 6.66,
+      "pFcf": 8.34,
+      "forwardPe": 6.65,
       "score": 65,
       "firstSeen": "2026-09-11"
     },
@@ -449,7 +449,7 @@
       "sector": "Basic Materials",
       "industry": "Silver",
       "marketCapB": 3.9,
-      "price": 27.12,
+      "price": 27.1,
       "salesGrowth5y": 71.0,
       "epsGrowth5y": null,
       "epsGrowthNext5y": null,
@@ -458,7 +458,7 @@
       "operMargin": 53.0,
       "debtEq": 0.18,
       "peg": null,
-      "pFcf": 26.89,
+      "pFcf": 26.87,
       "forwardPe": null,
       "score": 63,
       "firstSeen": "2026-09-11"
@@ -468,8 +468,8 @@
       "companyName": "Duolingo Inc",
       "sector": "Technology",
       "industry": "Software - Application",
-      "marketCapB": 6.8,
-      "price": 144.27,
+      "marketCapB": 6.9,
+      "price": 146.7,
       "salesGrowth5y": 45.0,
       "epsGrowth5y": null,
       "epsGrowthNext5y": -21.2,
@@ -478,8 +478,8 @@
       "operMargin": 14.2,
       "debtEq": 0.06,
       "peg": null,
-      "pFcf": 16.55,
-      "forwardPe": 42.99,
+      "pFcf": 16.83,
+      "forwardPe": 43.71,
       "score": 63,
       "firstSeen": "2026-09-11"
     },
@@ -488,8 +488,8 @@
       "companyName": "Oscar Health Inc",
       "sector": "Healthcare",
       "industry": "Healthcare Plans",
-      "marketCapB": 9.6,
-      "price": 30.94,
+      "marketCapB": 10.0,
+      "price": 32.4,
       "salesGrowth5y": 90.8,
       "epsGrowth5y": 0.1,
       "epsGrowthNext5y": null,
@@ -498,8 +498,8 @@
       "operMargin": 4.1,
       "debtEq": 0.21,
       "peg": null,
-      "pFcf": 2.18,
-      "forwardPe": 13.19,
+      "pFcf": 2.28,
+      "forwardPe": 13.81,
       "score": 63,
       "firstSeen": "2026-09-11"
     },
@@ -508,8 +508,8 @@
       "companyName": "IES Holdings Inc",
       "sector": "Industrials",
       "industry": "Engineering & Construction",
-      "marketCapB": 13.5,
-      "price": 339.34,
+      "marketCapB": 13.4,
+      "price": 336.45,
       "salesGrowth5y": 22.9,
       "epsGrowth5y": 50.1,
       "epsGrowthNext5y": 32.3,
@@ -517,9 +517,9 @@
       "grossMargin": 24.9,
       "operMargin": 12.4,
       "debtEq": 0.06,
-      "peg": 0.78,
-      "pFcf": 32.45,
-      "forwardPe": 25.12,
+      "peg": 0.77,
+      "pFcf": 32.18,
+      "forwardPe": 24.9,
       "score": 62,
       "firstSeen": "2026-09-11"
     },
@@ -528,18 +528,18 @@
       "companyName": "ASML Holding NV",
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "marketCapB": 719.7,
-      "price": 1867.31,
+      "marketCapB": 718.2,
+      "price": 1863.55,
       "salesGrowth5y": 18.3,
       "epsGrowth5y": 23.6,
-      "epsGrowthNext5y": 38.5,
+      "epsGrowthNext5y": 38.4,
       "roic": 45.6,
       "grossMargin": 52.7,
       "operMargin": 35.4,
       "debtEq": 0.09,
       "peg": 0.8,
-      "pFcf": 63.54,
-      "forwardPe": 30.81,
+      "pFcf": 63.41,
+      "forwardPe": 30.79,
       "score": 61,
       "firstSeen": "2026-09-11"
     },
@@ -548,8 +548,8 @@
       "companyName": "Maplebear Inc",
       "sector": "Consumer Cyclical",
       "industry": "Internet Retail",
-      "marketCapB": 10.2,
-      "price": 44.25,
+      "marketCapB": 10.6,
+      "price": 45.76,
       "salesGrowth5y": 20.4,
       "epsGrowth5y": null,
       "epsGrowthNext5y": 29.9,
@@ -557,9 +557,9 @@
       "grossMargin": 72.0,
       "operMargin": 16.7,
       "debtEq": 0.01,
-      "peg": 0.5,
-      "pFcf": 8.71,
-      "forwardPe": 14.93,
+      "peg": 0.52,
+      "pFcf": 9.01,
+      "forwardPe": 15.43,
       "score": 61,
       "firstSeen": "2026-09-11"
     },
@@ -568,8 +568,8 @@
       "companyName": "Innodata Inc",
       "sector": "Technology",
       "industry": "Information Technology Services",
-      "marketCapB": 2.4,
-      "price": 70.07,
+      "marketCapB": 2.3,
+      "price": 66.41,
       "salesGrowth5y": 34.0,
       "epsGrowth5y": 107.1,
       "epsGrowthNext5y": null,
@@ -578,8 +578,8 @@
       "operMargin": 17.1,
       "debtEq": 0.02,
       "peg": null,
-      "pFcf": 13.11,
-      "forwardPe": 43.32,
+      "pFcf": 12.43,
+      "forwardPe": 41.05,
       "score": 61,
       "firstSeen": "2026-09-22"
     },
@@ -588,18 +588,18 @@
       "companyName": "Taiwan Semiconductor Manufacturing ADR",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "marketCapB": 2452.1,
-      "price": 472.78,
+      "marketCapB": 2522.8,
+      "price": 486.42,
       "salesGrowth5y": 21.9,
       "epsGrowth5y": 25.7,
-      "epsGrowthNext5y": 38.3,
+      "epsGrowthNext5y": 38.4,
       "roic": 31.2,
       "grossMargin": 63.1,
       "operMargin": 55.8,
       "debtEq": 0.17,
-      "peg": 0.56,
-      "pFcf": 61.45,
-      "forwardPe": 21.41,
+      "peg": 0.57,
+      "pFcf": 63.22,
+      "forwardPe": 22.0,
       "score": 61,
       "firstSeen": "2026-09-11"
     },
@@ -608,8 +608,8 @@
       "companyName": "Freshworks Inc",
       "sector": "Technology",
       "industry": "Software - Application",
-      "marketCapB": 3.3,
-      "price": 12.78,
+      "marketCapB": 3.4,
+      "price": 13.06,
       "salesGrowth5y": 27.4,
       "epsGrowth5y": null,
       "epsGrowthNext5y": 14.2,
@@ -617,9 +617,9 @@
       "grossMargin": 83.9,
       "operMargin": 4.1,
       "debtEq": 0.04,
-      "peg": 1.09,
-      "pFcf": 15.12,
-      "forwardPe": 15.41,
+      "peg": 1.11,
+      "pFcf": 15.46,
+      "forwardPe": 15.75,
       "score": 58,
       "firstSeen": "2026-09-11"
     },
@@ -629,7 +629,7 @@
       "sector": "Healthcare",
       "industry": "Medical Devices",
       "marketCapB": 2.0,
-      "price": 69.97,
+      "price": 70.64,
       "salesGrowth5y": 51.2,
       "epsGrowth5y": null,
       "epsGrowthNext5y": -7.1,
@@ -638,8 +638,8 @@
       "operMargin": 6.0,
       "debtEq": 0.04,
       "peg": null,
-      "pFcf": 17.28,
-      "forwardPe": 47.56,
+      "pFcf": 17.44,
+      "forwardPe": 47.78,
       "score": 56,
       "firstSeen": "2026-09-11"
     },
@@ -648,8 +648,8 @@
       "companyName": "AvePoint Inc",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "marketCapB": 3.0,
-      "price": 14.07,
+      "marketCapB": 3.1,
+      "price": 14.56,
       "salesGrowth5y": 22.6,
       "epsGrowth5y": null,
       "epsGrowthNext5y": 24.5,
@@ -657,9 +657,9 @@
       "grossMargin": 73.3,
       "operMargin": 9.8,
       "debtEq": 0.06,
-      "peg": 1.16,
-      "pFcf": 29.47,
-      "forwardPe": 28.4,
+      "peg": 1.2,
+      "pFcf": 30.49,
+      "forwardPe": 29.38,
       "score": 54,
       "firstSeen": "2026-09-11"
     },
@@ -668,8 +668,8 @@
       "companyName": "Dexcom Inc",
       "sector": "Healthcare",
       "industry": "Medical Devices",
-      "marketCapB": 32.2,
-      "price": 85.36,
+      "marketCapB": 32.8,
+      "price": 86.86,
       "salesGrowth5y": 19.3,
       "epsGrowth5y": 10.6,
       "epsGrowthNext5y": 21.2,
@@ -677,9 +677,9 @@
       "grossMargin": 63.6,
       "operMargin": 22.9,
       "debtEq": 0.53,
-      "peg": 1.29,
-      "pFcf": 22.93,
-      "forwardPe": 27.35,
+      "peg": 1.32,
+      "pFcf": 23.33,
+      "forwardPe": 27.88,
       "score": 54,
       "firstSeen": "2026-09-11"
     },
@@ -688,18 +688,18 @@
       "companyName": "Monolithic Power System Inc",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "marketCapB": 70.8,
-      "price": 1439.73,
+      "marketCapB": 71.4,
+      "price": 1452.72,
       "salesGrowth5y": 27.0,
       "epsGrowth5y": 29.8,
-      "epsGrowthNext5y": 34.4,
+      "epsGrowthNext5y": 34.7,
       "roic": 20.4,
       "grossMargin": 55.2,
       "operMargin": 28.7,
       "debtEq": 0.0,
       "peg": 1.16,
-      "pFcf": 120.83,
-      "forwardPe": 40.09,
+      "pFcf": 121.92,
+      "forwardPe": 40.33,
       "score": 54,
       "firstSeen": "2026-09-22"
     },
@@ -709,7 +709,7 @@
       "sector": "Basic Materials",
       "industry": "Gold",
       "marketCapB": 10.6,
-      "price": 18.52,
+      "price": 18.56,
       "salesGrowth5y": 18.1,
       "epsGrowth5y": 69.9,
       "epsGrowthNext5y": 24.1,
@@ -718,8 +718,8 @@
       "operMargin": 47.5,
       "debtEq": 0.12,
       "peg": 0.32,
-      "pFcf": 6.71,
-      "forwardPe": 7.75,
+      "pFcf": 6.72,
+      "forwardPe": 7.77,
       "score": 53,
       "firstSeen": "2026-09-11"
     },
@@ -728,8 +728,8 @@
       "companyName": "Rambus Inc",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "marketCapB": 12.1,
-      "price": 111.97,
+      "marketCapB": 11.9,
+      "price": 110.1,
       "salesGrowth5y": 23.5,
       "epsGrowth5y": null,
       "epsGrowthNext5y": 24.3,
@@ -737,10 +737,10 @@
       "grossMargin": 74.5,
       "operMargin": 36.0,
       "debtEq": 0.01,
-      "peg": 1.22,
-      "pFcf": 40.54,
-      "forwardPe": 29.57,
-      "score": 52,
+      "peg": 1.2,
+      "pFcf": 39.87,
+      "forwardPe": 29.07,
+      "score": 53,
       "firstSeen": "2026-10-02"
     },
     {
@@ -749,7 +749,7 @@
       "sector": "Basic Materials",
       "industry": "Copper",
       "marketCapB": 4.0,
-      "price": 37.91,
+      "price": 38.6,
       "salesGrowth5y": 19.4,
       "epsGrowth5y": 33.6,
       "epsGrowthNext5y": 28.5,
@@ -758,8 +758,8 @@
       "operMargin": 35.9,
       "debtEq": 0.47,
       "peg": 0.28,
-      "pFcf": 25.17,
-      "forwardPe": 7.88,
+      "pFcf": 25.62,
+      "forwardPe": 8.02,
       "score": 50,
       "firstSeen": "2026-09-11"
     },
@@ -769,7 +769,7 @@
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "marketCapB": 6.8,
-      "price": 13.12,
+      "price": 13.03,
       "salesGrowth5y": 21.5,
       "epsGrowth5y": null,
       "epsGrowthNext5y": 13.3,
@@ -777,9 +777,9 @@
       "grossMargin": 82.1,
       "operMargin": 9.4,
       "debtEq": 0.04,
-      "peg": 1.07,
-      "pFcf": 18.84,
-      "forwardPe": 14.28,
+      "peg": 1.06,
+      "pFcf": 18.72,
+      "forwardPe": 14.18,
       "score": 50,
       "firstSeen": "2026-09-11"
     },
@@ -788,8 +788,8 @@
       "companyName": "Shopify Inc",
       "sector": "Technology",
       "industry": "Software - Application",
-      "marketCapB": 194.8,
-      "price": 151.39,
+      "marketCapB": 205.2,
+      "price": 159.51,
       "salesGrowth5y": 31.6,
       "epsGrowth5y": 28.7,
       "epsGrowthNext5y": 33.4,
@@ -797,9 +797,9 @@
       "grossMargin": 47.6,
       "operMargin": 17.8,
       "debtEq": 0.01,
-      "peg": 1.83,
-      "pFcf": 83.34,
-      "forwardPe": 61.13,
+      "peg": 1.93,
+      "pFcf": 87.81,
+      "forwardPe": 64.41,
       "score": 49,
       "firstSeen": "2026-09-14"
     },
@@ -808,18 +808,18 @@
       "companyName": "Cenovus Energy Inc",
       "sector": "Energy",
       "industry": "Oil & Gas Integrated",
-      "marketCapB": 59.8,
-      "price": 32.4,
+      "marketCapB": 57.9,
+      "price": 31.42,
       "salesGrowth5y": 28.6,
       "epsGrowth5y": null,
-      "epsGrowthNext5y": 22.6,
+      "epsGrowthNext5y": 22.7,
       "roic": 15.1,
       "grossMargin": 18.8,
       "operMargin": 16.8,
       "debtEq": 0.34,
-      "peg": 0.53,
-      "pFcf": 10.98,
-      "forwardPe": 12.05,
+      "peg": 0.51,
+      "pFcf": 10.65,
+      "forwardPe": 11.7,
       "score": 48,
       "firstSeen": "2026-09-11"
     },
@@ -828,8 +828,8 @@
       "companyName": "BW LPG Limited",
       "sector": "Energy",
       "industry": "Oil & Gas Midstream",
-      "marketCapB": 3.9,
-      "price": 25.64,
+      "marketCapB": 4.0,
+      "price": 26.0,
       "salesGrowth5y": 34.6,
       "epsGrowth5y": -1.9,
       "epsGrowthNext5y": null,
@@ -838,7 +838,7 @@
       "operMargin": 15.5,
       "debtEq": 0.49,
       "peg": null,
-      "pFcf": 6.45,
+      "pFcf": 6.54,
       "forwardPe": null,
       "score": 47,
       "firstSeen": "2026-09-11"
@@ -848,8 +848,8 @@
       "companyName": "Celestica Inc",
       "sector": "Technology",
       "industry": "Electronic Components",
-      "marketCapB": 48.8,
-      "price": 387.32,
+      "marketCapB": 48.4,
+      "price": 384.0,
       "salesGrowth5y": 16.6,
       "epsGrowth5y": 72.5,
       "epsGrowthNext5y": 65.6,
@@ -858,8 +858,8 @@
       "operMargin": 8.4,
       "debtEq": 0.4,
       "peg": 0.3,
-      "pFcf": 94.91,
-      "forwardPe": 19.73,
+      "pFcf": 94.1,
+      "forwardPe": 19.57,
       "score": 46,
       "firstSeen": "2026-09-11"
     },
@@ -868,8 +868,8 @@
       "companyName": "DocuSign Inc",
       "sector": "Technology",
       "industry": "Software - Application",
-      "marketCapB": 12.9,
-      "price": 69.01,
+      "marketCapB": 13.1,
+      "price": 69.96,
       "salesGrowth5y": 17.2,
       "epsGrowth5y": null,
       "epsGrowthNext5y": 14.3,
@@ -877,9 +877,9 @@
       "grossMargin": 79.2,
       "operMargin": 12.0,
       "debtEq": 0.11,
-      "peg": 0.93,
-      "pFcf": 10.76,
-      "forwardPe": 13.23,
+      "peg": 0.94,
+      "pFcf": 10.91,
+      "forwardPe": 13.42,
       "score": 46,
       "firstSeen": "2026-09-11"
     },
@@ -888,8 +888,8 @@
       "companyName": "Alphabet Inc",
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
-      "marketCapB": 4183.6,
-      "price": 340.35,
+      "marketCapB": 4235.8,
+      "price": 344.6,
       "salesGrowth5y": 17.2,
       "epsGrowth5y": 29.8,
       "epsGrowthNext5y": 18.5,
@@ -897,9 +897,9 @@
       "grossMargin": 60.9,
       "operMargin": 34.0,
       "debtEq": 0.18,
-      "peg": 1.21,
-      "pFcf": 78.53,
-      "forwardPe": 22.48,
+      "peg": 1.23,
+      "pFcf": 79.51,
+      "forwardPe": 22.76,
       "score": 46,
       "firstSeen": "2026-09-11"
     },
@@ -908,8 +908,8 @@
       "companyName": "Alphabet Inc",
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
-      "marketCapB": 4183.6,
-      "price": 343.5,
+      "marketCapB": 4232.2,
+      "price": 347.49,
       "salesGrowth5y": 17.2,
       "epsGrowth5y": 29.8,
       "epsGrowthNext5y": 18.6,
@@ -917,9 +917,9 @@
       "grossMargin": 60.9,
       "operMargin": 34.0,
       "debtEq": 0.18,
-      "peg": 1.22,
-      "pFcf": 78.53,
-      "forwardPe": 22.67,
+      "peg": 1.24,
+      "pFcf": 79.44,
+      "forwardPe": 22.93,
       "score": 46,
       "firstSeen": "2026-09-11"
     },
@@ -928,8 +928,8 @@
       "companyName": "Paylocity Holding Corp",
       "sector": "Technology",
       "industry": "Software - Application",
-      "marketCapB": 7.7,
-      "price": 144.47,
+      "marketCapB": 7.8,
+      "price": 147.04,
       "salesGrowth5y": 22.8,
       "epsGrowth5y": 31.4,
       "epsGrowthNext5y": 10.3,
@@ -937,9 +937,9 @@
       "grossMargin": 68.3,
       "operMargin": 22.1,
       "debtEq": 0.11,
-      "peg": 1.44,
-      "pFcf": 15.42,
-      "forwardPe": 14.88,
+      "peg": 1.47,
+      "pFcf": 15.69,
+      "forwardPe": 15.13,
       "score": 46,
       "firstSeen": "2026-09-11"
     },
@@ -948,8 +948,8 @@
       "companyName": "Meta Platforms Inc",
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
-      "marketCapB": 1854.8,
-      "price": 728.08,
+      "marketCapB": 1892.6,
+      "price": 742.93,
       "salesGrowth5y": 18.5,
       "epsGrowth5y": 18.4,
       "epsGrowthNext5y": 18.8,
@@ -957,9 +957,9 @@
       "grossMargin": 81.8,
       "operMargin": 38.1,
       "debtEq": 0.43,
-      "peg": 1.14,
-      "pFcf": 45.27,
-      "forwardPe": 21.4,
+      "peg": 1.16,
+      "pFcf": 46.19,
+      "forwardPe": 21.84,
       "score": 45,
       "firstSeen": "2026-09-11"
     },
@@ -969,7 +969,7 @@
       "sector": "Technology",
       "industry": "Information Technology Services",
       "marketCapB": 5.4,
-      "price": 35.75,
+      "price": 35.81,
       "salesGrowth5y": 16.9,
       "epsGrowth5y": 24.4,
       "epsGrowthNext5y": 15.2,
@@ -978,8 +978,8 @@
       "operMargin": 14.4,
       "debtEq": 0.56,
       "peg": 0.91,
-      "pFcf": 19.71,
-      "forwardPe": 13.77,
+      "pFcf": 19.74,
+      "forwardPe": 13.79,
       "score": 43,
       "firstSeen": "2026-09-11"
     },
@@ -988,8 +988,8 @@
       "companyName": "Doximity Inc",
       "sector": "Healthcare",
       "industry": "Health Information Services",
-      "marketCapB": 5.0,
-      "price": 27.93,
+      "marketCapB": 5.1,
+      "price": 28.4,
       "salesGrowth5y": 25.5,
       "epsGrowth5y": 52.7,
       "epsGrowthNext5y": 6.9,
@@ -997,10 +997,10 @@
       "grossMargin": 87.4,
       "operMargin": 30.6,
       "debtEq": 0.01,
-      "peg": 2.59,
-      "pFcf": 16.76,
-      "forwardPe": 17.94,
-      "score": 42,
+      "peg": 2.63,
+      "pFcf": 17.04,
+      "forwardPe": 18.24,
+      "score": 41,
       "firstSeen": "2026-09-30"
     },
     {
@@ -1008,8 +1008,8 @@
       "companyName": "SiriusPoint Ltd",
       "sector": "Financial",
       "industry": "Insurance - Reinsurance",
-      "marketCapB": 2.8,
-      "price": 24.42,
+      "marketCapB": 2.9,
+      "price": 24.66,
       "salesGrowth5y": 29.8,
       "epsGrowth5y": 19.8,
       "epsGrowthNext5y": 5.3,
@@ -1017,9 +1017,9 @@
       "grossMargin": null,
       "operMargin": 21.0,
       "debtEq": 0.31,
-      "peg": 1.65,
-      "pFcf": 11.75,
-      "forwardPe": 8.77,
+      "peg": 1.67,
+      "pFcf": 11.86,
+      "forwardPe": 8.85,
       "score": 41,
       "firstSeen": "2026-09-11"
     },
@@ -1028,18 +1028,18 @@
       "companyName": "EOG Resources Inc",
       "sector": "Energy",
       "industry": "Oil & Gas E&P",
-      "marketCapB": 74.2,
-      "price": 141.38,
+      "marketCapB": 75.6,
+      "price": 144.08,
       "salesGrowth5y": 17.9,
       "epsGrowth5y": null,
-      "epsGrowthNext5y": 13.8,
+      "epsGrowthNext5y": 13.9,
       "roic": 17.3,
       "grossMargin": 43.2,
       "operMargin": 35.1,
       "debtEq": 0.26,
       "peg": 0.68,
-      "pFcf": 11.2,
-      "forwardPe": 9.35,
+      "pFcf": 11.41,
+      "forwardPe": 9.53,
       "score": 38,
       "firstSeen": "2026-09-11"
     },
@@ -1048,8 +1048,8 @@
       "companyName": "SharkNinja Inc",
       "sector": "Consumer Cyclical",
       "industry": "Furnishings, Fixtures & Appliances",
-      "marketCapB": 25.7,
-      "price": 182.57,
+      "marketCapB": 26.0,
+      "price": 184.45,
       "salesGrowth5y": 18.4,
       "epsGrowth5y": 16.0,
       "epsGrowthNext5y": 17.0,
@@ -1057,11 +1057,31 @@
       "grossMargin": 48.6,
       "operMargin": 13.9,
       "debtEq": 0.32,
-      "peg": 1.42,
-      "pFcf": 31.97,
-      "forwardPe": 24.06,
+      "peg": 1.43,
+      "pFcf": 32.3,
+      "forwardPe": 24.3,
       "score": 38,
       "firstSeen": "2026-09-11"
+    },
+    {
+      "ticker": "ECG",
+      "companyName": "Everus Construction Group",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "marketCapB": 6.5,
+      "price": 126.99,
+      "salesGrowth5y": 16.2,
+      "epsGrowth5y": 16.4,
+      "epsGrowthNext5y": 18.8,
+      "roic": 23.4,
+      "grossMargin": 12.9,
+      "operMargin": 7.8,
+      "debtEq": 0.47,
+      "peg": 1.13,
+      "pFcf": 25.9,
+      "forwardPe": 21.25,
+      "score": 37,
+      "firstSeen": "2026-10-02"
     },
     {
       "ticker": "UTHR",
@@ -1069,7 +1089,7 @@
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - Specialty & Generic",
       "marketCapB": 23.2,
-      "price": 541.7,
+      "price": 541.57,
       "salesGrowth5y": 16.5,
       "epsGrowth5y": 19.3,
       "epsGrowthNext5y": 7.1,
@@ -1088,18 +1108,18 @@
       "companyName": "Canadian Natural Resources Ltd",
       "sector": "Energy",
       "industry": "Oil & Gas E&P",
-      "marketCapB": 99.9,
-      "price": 48.44,
+      "marketCapB": 99.8,
+      "price": 48.4,
       "salesGrowth5y": 17.1,
       "epsGrowth5y": null,
-      "epsGrowthNext5y": 12.1,
+      "epsGrowthNext5y": 12.4,
       "roic": 18.7,
       "grossMargin": 29.4,
       "operMargin": 26.6,
       "debtEq": 0.43,
-      "peg": 1.06,
-      "pFcf": 14.15,
-      "forwardPe": 12.81,
+      "peg": 1.04,
+      "pFcf": 14.14,
+      "forwardPe": 12.83,
       "score": 33,
       "firstSeen": "2026-09-11"
     },
@@ -1108,17 +1128,17 @@
       "companyName": "Progressive Corp",
       "sector": "Financial",
       "industry": "Insurance - Property & Casualty",
-      "marketCapB": 122.2,
-      "price": 210.31,
+      "marketCapB": 122.9,
+      "price": 211.46,
       "salesGrowth5y": 15.5,
       "epsGrowth5y": 14.8,
-      "epsGrowthNext5y": -4.0,
+      "epsGrowthNext5y": -3.8,
       "roic": 28.0,
       "grossMargin": null,
       "operMargin": 16.6,
       "debtEq": 0.24,
       "peg": null,
-      "pFcf": 7.66,
+      "pFcf": 7.7,
       "forwardPe": 13.01,
       "score": 33,
       "firstSeen": "2026-09-11"
@@ -1129,7 +1149,7 @@
       "sector": "Financial",
       "industry": "Insurance - Reinsurance",
       "marketCapB": 13.5,
-      "price": 325.53,
+      "price": 325.94,
       "salesGrowth5y": 19.9,
       "epsGrowth5y": 29.6,
       "epsGrowthNext5y": 4.0,
@@ -1137,10 +1157,30 @@
       "grossMargin": null,
       "operMargin": 40.4,
       "debtEq": 0.2,
-      "peg": 1.98,
-      "pFcf": 3.75,
+      "peg": 1.99,
+      "pFcf": 3.76,
       "forwardPe": 7.91,
       "score": 30,
+      "firstSeen": "2026-09-11"
+    },
+    {
+      "ticker": "HAFN",
+      "companyName": "Hafnia Ltd",
+      "sector": "Industrials",
+      "industry": "Marine Shipping",
+      "marketCapB": 5.2,
+      "price": 10.34,
+      "salesGrowth5y": 21.2,
+      "epsGrowth5y": 10.8,
+      "epsGrowthNext5y": 5.9,
+      "roic": 19.9,
+      "grossMargin": 23.5,
+      "operMargin": 20.2,
+      "debtEq": 0.33,
+      "peg": 1.48,
+      "pFcf": 9.57,
+      "forwardPe": 8.73,
+      "score": 29,
       "firstSeen": "2026-09-11"
     },
     {
@@ -1149,7 +1189,7 @@
       "sector": "Healthcare",
       "industry": "Medical Care Facilities",
       "marketCapB": 2.7,
-      "price": 42.38,
+      "price": 42.66,
       "salesGrowth5y": 16.3,
       "epsGrowth5y": 31.2,
       "epsGrowthNext5y": 14.1,
@@ -1157,9 +1197,9 @@
       "grossMargin": 21.6,
       "operMargin": 5.7,
       "debtEq": 0.14,
-      "peg": 2.1,
-      "pFcf": 33.65,
-      "forwardPe": 29.55,
+      "peg": 2.11,
+      "pFcf": 33.87,
+      "forwardPe": 29.74,
       "score": 27,
       "firstSeen": "2026-09-11"
     }
@@ -1174,9 +1214,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 169.48,
-      "currentPrice": 162.43,
-      "returnPct": -4.2,
-      "spyReturnPct": 0.6
+      "currentPrice": 164.25,
+      "returnPct": -3.1,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "ACAD",
@@ -1187,9 +1227,9 @@
       "inList": false,
       "daysTracked": 24,
       "entryPrice": 27.87,
-      "currentPrice": 19.95,
-      "returnPct": -28.4,
-      "spyReturnPct": 0.6
+      "currentPrice": 20.15,
+      "returnPct": -27.7,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "AEM",
@@ -1200,9 +1240,9 @@
       "inList": false,
       "daysTracked": 24,
       "entryPrice": 198.76,
-      "currentPrice": 183.69,
-      "returnPct": -7.6,
-      "spyReturnPct": 0.6
+      "currentPrice": 184.05,
+      "returnPct": -7.4,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "ANET",
@@ -1213,9 +1253,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 199.68,
-      "currentPrice": 207.35,
-      "returnPct": 3.8,
-      "spyReturnPct": 0.6
+      "currentPrice": 207.75,
+      "returnPct": 4.0,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "APPF",
@@ -1226,9 +1266,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 207.85,
-      "currentPrice": 202.97,
-      "returnPct": -2.3,
-      "spyReturnPct": 0.6
+      "currentPrice": 204.87,
+      "returnPct": -1.4,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "ARGX",
@@ -1239,9 +1279,9 @@
       "inList": false,
       "daysTracked": 24,
       "entryPrice": 992.52,
-      "currentPrice": 919.21,
-      "returnPct": -7.4,
-      "spyReturnPct": 0.6
+      "currentPrice": 914.11,
+      "returnPct": -7.9,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "ASML",
@@ -1252,9 +1292,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 1706.48,
-      "currentPrice": 1867.31,
-      "returnPct": 9.4,
-      "spyReturnPct": 0.6
+      "currentPrice": 1863.55,
+      "returnPct": 9.2,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "ASND",
@@ -1265,9 +1305,9 @@
       "inList": false,
       "daysTracked": 24,
       "entryPrice": 264.17,
-      "currentPrice": 227.87,
-      "returnPct": -13.7,
-      "spyReturnPct": 0.6
+      "currentPrice": 228.21,
+      "returnPct": -13.6,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "AU",
@@ -1278,9 +1318,9 @@
       "inList": false,
       "daysTracked": 24,
       "entryPrice": 103.9,
-      "currentPrice": 94.92,
-      "returnPct": -8.6,
-      "spyReturnPct": 0.6
+      "currentPrice": 94.84,
+      "returnPct": -8.7,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "AUPH",
@@ -1291,9 +1331,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 16.16,
-      "currentPrice": 15.83,
-      "returnPct": -2.0,
-      "spyReturnPct": 0.6
+      "currentPrice": 15.78,
+      "returnPct": -2.4,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "AVPT",
@@ -1304,9 +1344,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 12.69,
-      "currentPrice": 14.07,
-      "returnPct": 10.9,
-      "spyReturnPct": 0.6
+      "currentPrice": 14.56,
+      "returnPct": 14.7,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "AYA",
@@ -1317,9 +1357,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 27.81,
-      "currentPrice": 27.12,
-      "returnPct": -2.5,
-      "spyReturnPct": 0.6
+      "currentPrice": 27.1,
+      "returnPct": -2.6,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "BVN",
@@ -1330,9 +1370,9 @@
       "inList": false,
       "daysTracked": 24,
       "entryPrice": 33.88,
-      "currentPrice": 31.39,
-      "returnPct": -7.3,
-      "spyReturnPct": 0.6
+      "currentPrice": 31.76,
+      "returnPct": -6.3,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "BWLP",
@@ -1343,9 +1383,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 24.86,
-      "currentPrice": 25.64,
-      "returnPct": 3.1,
-      "spyReturnPct": 0.6
+      "currentPrice": 26.0,
+      "returnPct": 4.6,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "CART",
@@ -1356,9 +1396,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 48.13,
-      "currentPrice": 44.25,
-      "returnPct": -8.1,
-      "spyReturnPct": 0.6
+      "currentPrice": 45.76,
+      "returnPct": -4.9,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "CLS",
@@ -1369,9 +1409,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 339.82,
-      "currentPrice": 387.32,
-      "returnPct": 14.0,
-      "spyReturnPct": 0.6
+      "currentPrice": 384.0,
+      "returnPct": 13.0,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "CNQ",
@@ -1382,9 +1422,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 49.46,
-      "currentPrice": 48.44,
+      "currentPrice": 48.4,
       "returnPct": -2.1,
-      "spyReturnPct": 0.6
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "CRS",
@@ -1395,9 +1435,9 @@
       "inList": false,
       "daysTracked": 24,
       "entryPrice": 445.67,
-      "currentPrice": 388.47,
-      "returnPct": -12.8,
-      "spyReturnPct": 0.6
+      "currentPrice": 392.78,
+      "returnPct": -11.9,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "CVE",
@@ -1408,9 +1448,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 32.76,
-      "currentPrice": 32.4,
-      "returnPct": -1.1,
-      "spyReturnPct": 0.6
+      "currentPrice": 31.42,
+      "returnPct": -4.1,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "DLO",
@@ -1421,9 +1461,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 14.82,
-      "currentPrice": 13.74,
-      "returnPct": -7.3,
-      "spyReturnPct": 0.6
+      "currentPrice": 14.64,
+      "returnPct": -1.2,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "DOCU",
@@ -1434,9 +1474,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 66.25,
-      "currentPrice": 69.01,
-      "returnPct": 4.2,
-      "spyReturnPct": 0.6
+      "currentPrice": 69.96,
+      "returnPct": 5.6,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "DUOL",
@@ -1447,9 +1487,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 144.41,
-      "currentPrice": 144.27,
-      "returnPct": -0.1,
-      "spyReturnPct": 0.6
+      "currentPrice": 146.7,
+      "returnPct": 1.6,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "DXCM",
@@ -1460,9 +1500,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 83.09,
-      "currentPrice": 85.36,
-      "returnPct": 2.7,
-      "spyReturnPct": 0.6
+      "currentPrice": 86.86,
+      "returnPct": 4.5,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "EOG",
@@ -1473,9 +1513,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 146.51,
-      "currentPrice": 141.38,
-      "returnPct": -3.5,
-      "spyReturnPct": 0.6
+      "currentPrice": 144.08,
+      "returnPct": -1.7,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "ERO",
@@ -1486,9 +1526,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 35.54,
-      "currentPrice": 37.91,
-      "returnPct": 6.7,
-      "spyReturnPct": 0.6
+      "currentPrice": 38.6,
+      "returnPct": 8.6,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "EXEL",
@@ -1499,9 +1539,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 56.54,
-      "currentPrice": 58.39,
-      "returnPct": 3.3,
-      "spyReturnPct": 0.6
+      "currentPrice": 59.38,
+      "returnPct": 5.0,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "EXLS",
@@ -1512,9 +1552,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 35.12,
-      "currentPrice": 35.75,
-      "returnPct": 1.8,
-      "spyReturnPct": 0.6
+      "currentPrice": 35.81,
+      "returnPct": 2.0,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "FIX",
@@ -1525,9 +1565,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 1680.55,
-      "currentPrice": 1728.01,
-      "returnPct": 2.8,
-      "spyReturnPct": 0.6
+      "currentPrice": 1711.75,
+      "returnPct": 1.9,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "FRSH",
@@ -1538,9 +1578,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 11.89,
-      "currentPrice": 12.78,
-      "returnPct": 7.5,
-      "spyReturnPct": 0.6
+      "currentPrice": 13.06,
+      "returnPct": 9.8,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "FSM",
@@ -1551,9 +1591,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 11.95,
-      "currentPrice": 11.25,
-      "returnPct": -5.9,
-      "spyReturnPct": 0.6
+      "currentPrice": 11.23,
+      "returnPct": -6.0,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "FTNT",
@@ -1564,9 +1604,9 @@
       "inList": false,
       "daysTracked": 24,
       "entryPrice": 155.81,
-      "currentPrice": 180.95,
-      "returnPct": 16.1,
-      "spyReturnPct": 0.6
+      "currentPrice": 184.31,
+      "returnPct": 18.3,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "GFI",
@@ -1577,9 +1617,9 @@
       "inList": false,
       "daysTracked": 24,
       "entryPrice": 44.83,
-      "currentPrice": 35.62,
-      "returnPct": -20.5,
-      "spyReturnPct": 0.6
+      "currentPrice": 35.84,
+      "returnPct": -20.1,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "GLBE",
@@ -1590,9 +1630,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 37.27,
-      "currentPrice": 39.31,
-      "returnPct": 5.5,
-      "spyReturnPct": 0.6
+      "currentPrice": 39.76,
+      "returnPct": 6.7,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "GOOG",
@@ -1603,9 +1643,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 336.3,
-      "currentPrice": 340.35,
-      "returnPct": 1.2,
-      "spyReturnPct": 0.6
+      "currentPrice": 344.6,
+      "returnPct": 2.5,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "GOOGL",
@@ -1616,9 +1656,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 339.3,
-      "currentPrice": 343.5,
-      "returnPct": 1.2,
-      "spyReturnPct": 0.6
+      "currentPrice": 347.49,
+      "returnPct": 2.4,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "GRDN",
@@ -1629,22 +1669,22 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 44.4,
-      "currentPrice": 42.38,
-      "returnPct": -4.5,
-      "spyReturnPct": 0.6
+      "currentPrice": 42.66,
+      "returnPct": -3.9,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "HAFN",
       "companyName": "Hafnia Ltd",
       "sector": "Industrials",
       "firstSeen": "2026-09-11",
-      "lastSeen": "2026-09-14",
-      "inList": false,
+      "lastSeen": "2026-10-05",
+      "inList": true,
       "daysTracked": 24,
       "entryPrice": 9.37,
-      "currentPrice": 10.25,
-      "returnPct": 9.4,
-      "spyReturnPct": 0.6
+      "currentPrice": 10.34,
+      "returnPct": 10.4,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "HMY",
@@ -1655,9 +1695,9 @@
       "inList": false,
       "daysTracked": 24,
       "entryPrice": 20.55,
-      "currentPrice": 17.38,
-      "returnPct": -15.4,
-      "spyReturnPct": 0.6
+      "currentPrice": 17.35,
+      "returnPct": -15.6,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "HRMY",
@@ -1668,9 +1708,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 41.64,
-      "currentPrice": 39.64,
-      "returnPct": -4.8,
-      "spyReturnPct": 0.6
+      "currentPrice": 40.69,
+      "returnPct": -2.3,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "IAG",
@@ -1681,9 +1721,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 20.15,
-      "currentPrice": 18.52,
-      "returnPct": -8.1,
-      "spyReturnPct": 0.6
+      "currentPrice": 18.56,
+      "returnPct": -7.9,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "IESC",
@@ -1694,9 +1734,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 345.16,
-      "currentPrice": 339.34,
-      "returnPct": -1.7,
-      "spyReturnPct": 0.6
+      "currentPrice": 336.45,
+      "returnPct": -2.5,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "INSP",
@@ -1707,9 +1747,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 73.17,
-      "currentPrice": 69.97,
-      "returnPct": -4.4,
-      "spyReturnPct": 0.6
+      "currentPrice": 70.64,
+      "returnPct": -3.5,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "KSPI",
@@ -1720,9 +1760,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 98.04,
-      "currentPrice": 94.05,
-      "returnPct": -4.1,
-      "spyReturnPct": 0.6
+      "currentPrice": 94.42,
+      "returnPct": -3.7,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "LQDA",
@@ -1733,9 +1773,9 @@
       "inList": false,
       "daysTracked": 24,
       "entryPrice": 67.99,
-      "currentPrice": 28.64,
-      "returnPct": -57.9,
-      "spyReturnPct": 0.6
+      "currentPrice": 27.37,
+      "returnPct": -59.7,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "META",
@@ -1746,9 +1786,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 650.06,
-      "currentPrice": 728.08,
-      "returnPct": 12.0,
-      "spyReturnPct": 0.6
+      "currentPrice": 742.93,
+      "returnPct": 14.3,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "MGY",
@@ -1759,9 +1799,9 @@
       "inList": false,
       "daysTracked": 24,
       "entryPrice": 27.56,
-      "currentPrice": 24.07,
-      "returnPct": -12.7,
-      "spyReturnPct": 0.6
+      "currentPrice": 24.08,
+      "returnPct": -12.6,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "NBIX",
@@ -1772,9 +1812,9 @@
       "inList": false,
       "daysTracked": 24,
       "entryPrice": 156.3,
-      "currentPrice": 143.18,
-      "returnPct": -8.4,
-      "spyReturnPct": 0.6
+      "currentPrice": 145.88,
+      "returnPct": -6.7,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "NVDA",
@@ -1785,9 +1825,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 219.9,
-      "currentPrice": 233.95,
-      "returnPct": 6.4,
-      "spyReturnPct": 0.6
+      "currentPrice": 239.05,
+      "returnPct": 8.7,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "OSCR",
@@ -1798,9 +1838,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 33.34,
-      "currentPrice": 30.94,
-      "returnPct": -7.2,
-      "spyReturnPct": 0.6
+      "currentPrice": 32.4,
+      "returnPct": -2.8,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "PATH",
@@ -1811,9 +1851,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 13.83,
-      "currentPrice": 13.12,
-      "returnPct": -5.1,
-      "spyReturnPct": 0.6
+      "currentPrice": 13.03,
+      "returnPct": -5.8,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "PCTY",
@@ -1824,9 +1864,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 142.16,
-      "currentPrice": 144.47,
-      "returnPct": 1.6,
-      "spyReturnPct": 0.6
+      "currentPrice": 147.04,
+      "returnPct": 3.4,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "PGNY",
@@ -1837,9 +1877,9 @@
       "inList": false,
       "daysTracked": 24,
       "entryPrice": 27.46,
-      "currentPrice": 25.23,
-      "returnPct": -8.1,
-      "spyReturnPct": 0.6
+      "currentPrice": 25.6,
+      "returnPct": -6.8,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "PGR",
@@ -1850,9 +1890,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 216.25,
-      "currentPrice": 210.31,
-      "returnPct": -2.7,
-      "spyReturnPct": 0.6
+      "currentPrice": 211.46,
+      "returnPct": -2.2,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "PLTR",
@@ -1863,9 +1903,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 167.45,
-      "currentPrice": 188.75,
-      "returnPct": 12.7,
-      "spyReturnPct": 0.6
+      "currentPrice": 189.81,
+      "returnPct": 13.4,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "RELY",
@@ -1876,9 +1916,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 22.2,
-      "currentPrice": 21.77,
-      "returnPct": -1.9,
-      "spyReturnPct": 0.6
+      "currentPrice": 23.27,
+      "returnPct": 4.8,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "RNR",
@@ -1889,9 +1929,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 324.22,
-      "currentPrice": 325.53,
-      "returnPct": 0.4,
-      "spyReturnPct": 0.6
+      "currentPrice": 325.94,
+      "returnPct": 0.5,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "RSI",
@@ -1902,9 +1942,9 @@
       "inList": false,
       "daysTracked": 24,
       "entryPrice": 26.59,
-      "currentPrice": 20.01,
-      "returnPct": -24.7,
-      "spyReturnPct": 0.6
+      "currentPrice": 21.0,
+      "returnPct": -21.0,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "SEZL",
@@ -1915,9 +1955,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 119.25,
-      "currentPrice": 107.41,
-      "returnPct": -9.9,
-      "spyReturnPct": 0.6
+      "currentPrice": 109.37,
+      "returnPct": -8.3,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "SFBS",
@@ -1928,9 +1968,9 @@
       "inList": false,
       "daysTracked": 24,
       "entryPrice": 42.33,
-      "currentPrice": 40.15,
-      "returnPct": -5.2,
-      "spyReturnPct": 0.6
+      "currentPrice": 39.77,
+      "returnPct": -6.0,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "SKHY",
@@ -1941,9 +1981,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 191.15,
-      "currentPrice": 195.13,
-      "returnPct": 2.1,
-      "spyReturnPct": 0.6
+      "currentPrice": 194.19,
+      "returnPct": 1.6,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "SN",
@@ -1954,9 +1994,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 160.35,
-      "currentPrice": 182.57,
-      "returnPct": 13.9,
-      "spyReturnPct": 0.6
+      "currentPrice": 184.45,
+      "returnPct": 15.0,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "SPNT",
@@ -1967,9 +2007,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 24.14,
-      "currentPrice": 24.42,
-      "returnPct": 1.2,
-      "spyReturnPct": 0.6
+      "currentPrice": 24.66,
+      "returnPct": 2.2,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "SPOT",
@@ -1980,9 +2020,9 @@
       "inList": false,
       "daysTracked": 24,
       "entryPrice": 524.14,
-      "currentPrice": 472.89,
-      "returnPct": -9.8,
-      "spyReturnPct": 0.6
+      "currentPrice": 482.15,
+      "returnPct": -8.0,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "TOST",
@@ -1993,9 +2033,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 32.3,
-      "currentPrice": 29.79,
-      "returnPct": -7.8,
-      "spyReturnPct": 0.6
+      "currentPrice": 30.14,
+      "returnPct": -6.7,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "TSM",
@@ -2006,9 +2046,9 @@
       "inList": true,
       "daysTracked": 24,
       "entryPrice": 433.55,
-      "currentPrice": 472.78,
-      "returnPct": 9.0,
-      "spyReturnPct": 0.6
+      "currentPrice": 486.42,
+      "returnPct": 12.2,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "TXRH",
@@ -2019,9 +2059,9 @@
       "inList": false,
       "daysTracked": 24,
       "entryPrice": 180.54,
-      "currentPrice": 156.14,
-      "returnPct": -13.5,
-      "spyReturnPct": 0.6
+      "currentPrice": 158.92,
+      "returnPct": -12.0,
+      "spyReturnPct": 1.3
     },
     {
       "ticker": "SHOP",
@@ -2032,9 +2072,9 @@
       "inList": true,
       "daysTracked": 21,
       "entryPrice": 133.09,
-      "currentPrice": 151.39,
-      "returnPct": 13.8,
-      "spyReturnPct": 1.1
+      "currentPrice": 159.51,
+      "returnPct": 19.9,
+      "spyReturnPct": 1.8
     },
     {
       "ticker": "CRDO",
@@ -2045,9 +2085,9 @@
       "inList": true,
       "daysTracked": 17,
       "entryPrice": 175.89,
-      "currentPrice": 218.64,
-      "returnPct": 24.3,
-      "spyReturnPct": 1.0
+      "currentPrice": 208.3,
+      "returnPct": 18.4,
+      "spyReturnPct": 1.8
     },
     {
       "ticker": "ULTA",
@@ -2058,9 +2098,9 @@
       "inList": false,
       "daysTracked": 14,
       "entryPrice": 559.54,
-      "currentPrice": 543.69,
-      "returnPct": -2.8,
-      "spyReturnPct": -0.2
+      "currentPrice": 545.18,
+      "returnPct": -2.6,
+      "spyReturnPct": 0.5
     },
     {
       "ticker": "INOD",
@@ -2071,9 +2111,9 @@
       "inList": true,
       "daysTracked": 13,
       "entryPrice": 61.67,
-      "currentPrice": 70.07,
-      "returnPct": 13.6,
-      "spyReturnPct": -0.5
+      "currentPrice": 66.41,
+      "returnPct": 7.7,
+      "spyReturnPct": 0.2
     },
     {
       "ticker": "MPWR",
@@ -2084,9 +2124,9 @@
       "inList": true,
       "daysTracked": 13,
       "entryPrice": 1280.0,
-      "currentPrice": 1439.73,
-      "returnPct": 12.5,
-      "spyReturnPct": -0.5
+      "currentPrice": 1452.72,
+      "returnPct": 13.5,
+      "spyReturnPct": 0.2
     },
     {
       "ticker": "DOCS",
@@ -2097,9 +2137,9 @@
       "inList": true,
       "daysTracked": 5,
       "entryPrice": 27.97,
-      "currentPrice": 27.93,
-      "returnPct": -0.1,
-      "spyReturnPct": 0.1
+      "currentPrice": 28.4,
+      "returnPct": 1.5,
+      "spyReturnPct": 0.8
     },
     {
       "ticker": "UTHR",
@@ -2110,9 +2150,9 @@
       "inList": true,
       "daysTracked": 5,
       "entryPrice": 544.21,
-      "currentPrice": 541.7,
+      "currentPrice": 541.57,
       "returnPct": -0.5,
-      "spyReturnPct": 0.1
+      "spyReturnPct": 0.8
     },
     {
       "ticker": "MU",
@@ -2123,22 +2163,22 @@
       "inList": true,
       "daysTracked": 4,
       "entryPrice": 1055.26,
-      "currentPrice": 1074.89,
-      "returnPct": 1.9,
-      "spyReturnPct": 1.0
+      "currentPrice": 1060.14,
+      "returnPct": 0.5,
+      "spyReturnPct": 1.7
     },
     {
       "ticker": "ECG",
       "companyName": "Everus Construction Group",
       "sector": "Industrials",
       "firstSeen": "2026-10-02",
-      "lastSeen": "2026-10-02",
-      "inList": false,
+      "lastSeen": "2026-10-05",
+      "inList": true,
       "daysTracked": 3,
       "entryPrice": 124.84,
-      "currentPrice": 123.35,
-      "returnPct": -1.2,
-      "spyReturnPct": -0.0
+      "currentPrice": 126.99,
+      "returnPct": 1.7,
+      "spyReturnPct": 0.7
     },
     {
       "ticker": "RMBS",
@@ -2149,9 +2189,9 @@
       "inList": true,
       "daysTracked": 3,
       "entryPrice": 113.02,
-      "currentPrice": 111.97,
-      "returnPct": -0.9,
-      "spyReturnPct": -0.0
+      "currentPrice": 110.1,
+      "returnPct": -2.6,
+      "spyReturnPct": 0.7
     }
   ]
 }
