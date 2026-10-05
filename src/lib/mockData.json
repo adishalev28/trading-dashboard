@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-10-04 15:01:01",
+    "generatedAt": "2026-10-05 00:12:05",
     "source": "yfinance (live) + Finviz pre-screen",
     "fxSource": "frankfurter.dev",
     "totalScanned": 861,
@@ -8,7 +8,7 @@
     "finalCount": 251,
     "note": "Screened 861 stocks. 251 passed Stage 2 / Warning filters."
   },
-  "fxRate": 3.0532,
+  "fxRate": 3.0089,
   "commissionRoundTripUsd": 14,
   "benchmark": {
     "symbol": "SPY",
@@ -19,7 +19,7 @@
     "aboveSma200": true
   },
   "breadth": {
-    "asOf": "2026-10-04",
+    "asOf": "2026-10-05",
     "indices": {
       "spy": {
         "price": 769.64,
@@ -36,13 +36,13 @@
     },
     "stage2": {
       "current": 211,
-      "prev5d": 185,
-      "changePct": 14.1
+      "prev5d": 190,
+      "changePct": 11.1
     },
     "breakouts": {
       "current": 27,
-      "prev5d": 38,
-      "changePct": -28.9
+      "prev5d": 32,
+      "changePct": -15.6
     }
   },
   "sectors": [
@@ -1635,7 +1635,7 @@
         44.73,
         47.45
       ],
-      "marketCap": 123.5,
+      "marketCap": 104.3,
       "sector": "Technology",
       "earningsDate": "2026-10-29",
       "epsGrowthYoY": 171.2,
@@ -8773,7 +8773,7 @@
         314.88,
         327.77
       ],
-      "marketCap": 20.0,
+      "marketCap": 16.1,
       "sector": "Technology",
       "earningsDate": "2026-11-05",
       "epsGrowthYoY": 75.4,
