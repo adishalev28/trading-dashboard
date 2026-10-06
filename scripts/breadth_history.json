@@ -1,48 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-07-07",
-      "stage2Count": 294,
-      "breakoutCount": 27,
-      "breakoutTickers": [
-        "ABVX",
-        "AMRX",
-        "BAND",
-        "BTSG",
-        "CON",
-        "CYTK",
-        "DK",
-        "DNTH",
-        "DVA",
-        "ESTA",
-        "EZPW",
-        "FROG",
-        "ILMN",
-        "KOD",
-        "LGND",
-        "OGN",
-        "OKTA",
-        "OUT",
-        "PGNY",
-        "RELY",
-        "RVMD",
-        "TENB",
-        "TIGO",
-        "TVTX",
-        "TWLO",
-        "VIRT",
-        "YOU"
-      ],
-      "spy": {
-        "price": 747.71,
-        "sma50": 737.57
-      },
-      "qqq": {
-        "price": 709.43,
-        "sma50": 711.06
-      }
-    },
-    {
       "date": "2026-07-08",
       "stage2Count": 290,
       "breakoutCount": 37,
@@ -3056,6 +3014,59 @@
       "qqq": {
         "price": 755.47,
         "sma50": 717.66
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "stage2Count": 190,
+      "breakoutCount": 38,
+      "breakoutTickers": [
+        "ASML",
+        "ASST",
+        "AVNT",
+        "AVT",
+        "AVTR",
+        "BAND",
+        "BE",
+        "BHE",
+        "LNTH",
+        "LPG",
+        "LRCX",
+        "LSCC",
+        "LXP",
+        "MRNA",
+        "MRVL",
+        "MRX",
+        "MXL",
+        "NTAP",
+        "NTSK",
+        "NVT",
+        "OGN",
+        "ONTO",
+        "OUST",
+        "PAYC",
+        "PENG",
+        "PK",
+        "PLTR",
+        "PSX",
+        "RAMP",
+        "RNG",
+        "SANM",
+        "SYRE",
+        "TEM",
+        "W",
+        "WAB",
+        "WAT",
+        "WCC",
+        "ZBRA"
+      ],
+      "spy": {
+        "price": 774.83,
+        "sma50": 762.98
+      },
+      "qqq": {
+        "price": 756.2,
+        "sma50": 717.68
       }
     }
   ]
