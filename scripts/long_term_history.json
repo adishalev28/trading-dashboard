@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-06 01:57:59",
+  "lastUpdate": "2026-10-06 16:19:36",
   "tickers": {
     "ABNB": {
       "companyName": "Airbnb Inc",
@@ -80,6 +80,14 @@
       "lastSeen": "2026-10-06",
       "sector": "Healthcare",
       "spyEntry": 765.38
+    },
+    "AVGO": {
+      "companyName": "Broadcom Inc",
+      "entryPrice": 378.2,
+      "firstSeen": "2026-10-06",
+      "lastSeen": "2026-10-06",
+      "sector": "Technology",
+      "spyEntry": 780.68
     },
     "AVPT": {
       "companyName": "AvePoint Inc",
