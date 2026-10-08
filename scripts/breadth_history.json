@@ -1,58 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-07-08",
-      "stage2Count": 290,
-      "breakoutCount": 37,
-      "breakoutTickers": [
-        "ALKS",
-        "APGE",
-        "ARWR",
-        "BTSG",
-        "CHEF",
-        "CNC",
-        "COGT",
-        "CON",
-        "CORT",
-        "CRNX",
-        "CXW",
-        "DDOG",
-        "DELL",
-        "ELVN",
-        "GLUE",
-        "HNGE",
-        "IMNM",
-        "INSW",
-        "KRYS",
-        "LGND",
-        "MBX",
-        "MRX",
-        "NRIX",
-        "NTAP",
-        "NTCT",
-        "OGN",
-        "OKTA",
-        "OUT",
-        "PGNY",
-        "PHVS",
-        "PTGX",
-        "RLAY",
-        "ROIV",
-        "RVMD",
-        "TGTX",
-        "TIGO",
-        "TVTX"
-      ],
-      "spy": {
-        "price": 745.4,
-        "sma50": 738.24
-      },
-      "qqq": {
-        "price": 711.44,
-        "sma50": 712.02
-      }
-    },
-    {
       "date": "2026-07-09",
       "stage2Count": 311,
       "breakoutCount": 27,
@@ -3083,6 +3031,49 @@
       "qqq": {
         "price": 760.88,
         "sma50": 719.27
+      }
+    },
+    {
+      "date": "2026-10-08",
+      "stage2Count": 193,
+      "breakoutCount": 28,
+      "breakoutTickers": [
+        "BWLP",
+        "CAKE",
+        "CVI",
+        "DHT",
+        "DT",
+        "ECPG",
+        "ESTC",
+        "FROG",
+        "FTNT",
+        "GTLB",
+        "HAFN",
+        "HNGE",
+        "HPE",
+        "LPG",
+        "MGNI",
+        "NTAP",
+        "P",
+        "PARR",
+        "PAYC",
+        "PBR-A",
+        "QLYS",
+        "SN",
+        "SNOW",
+        "SSL",
+        "TBBB",
+        "TENB",
+        "ZBRA",
+        "ZIM"
+      ],
+      "spy": {
+        "price": 772.9,
+        "sma50": 765.49
+      },
+      "qqq": {
+        "price": 747.82,
+        "sma50": 722.64
       }
     }
   ]
