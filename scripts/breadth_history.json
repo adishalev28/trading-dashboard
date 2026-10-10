@@ -1,46 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-07-10",
-      "stage2Count": 310,
-      "breakoutCount": 25,
-      "breakoutTickers": [
-        "AAMI",
-        "AMRX",
-        "AVAH",
-        "BTSG",
-        "CNC",
-        "CON",
-        "CRNX",
-        "CSCO",
-        "DINO",
-        "DK",
-        "DVA",
-        "ENVA",
-        "HNGE",
-        "HPE",
-        "INSW",
-        "JAZZ",
-        "LGND",
-        "LTH",
-        "NTAP",
-        "PBF",
-        "PGNY",
-        "TWLO",
-        "TXG",
-        "VIRT",
-        "XMTR"
-      ],
-      "spy": {
-        "price": 754.95,
-        "sma50": 739.91
-      },
-      "qqq": {
-        "price": 725.51,
-        "sma50": 714.59
-      }
-    },
-    {
       "date": "2026-07-11",
       "stage2Count": 309,
       "breakoutCount": 25,
@@ -3095,6 +3055,59 @@
       "qqq": {
         "price": 750.5,
         "sma50": 723.99
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "stage2Count": 213,
+      "breakoutCount": 38,
+      "breakoutTickers": [
+        "ARX",
+        "AUGO",
+        "BWLP",
+        "CAKE",
+        "CHEF",
+        "CMBT",
+        "CORT",
+        "CRWD",
+        "DELL",
+        "DHT",
+        "ECO",
+        "ECPG",
+        "ERAS",
+        "FLEX",
+        "FRO",
+        "FSLY",
+        "HAE",
+        "HAFN",
+        "INSW",
+        "IOVA",
+        "KEYS",
+        "LIND",
+        "LPG",
+        "MGNI",
+        "MPC",
+        "NSIT",
+        "NTSK",
+        "OSCR",
+        "PANW",
+        "PSX",
+        "RBRK",
+        "RNG",
+        "SN",
+        "SSL",
+        "TNK",
+        "UTZ",
+        "ZETA",
+        "ZIM"
+      ],
+      "spy": {
+        "price": 778.57,
+        "sma50": 766.28
+      },
+      "qqq": {
+        "price": 751.27,
+        "sma50": 724.0
       }
     }
   ]

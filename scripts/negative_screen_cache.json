@@ -848,7 +848,7 @@
  "CIEN": {
   "assetsYoY": 0.0395881330968173,
   "companyName": "Ciena Corporation",
-  "fetchedAt": "2026-10-03",
+  "fetchedAt": "2026-10-10",
   "freeCashFlow": 665292000.0,
   "operatingIncome": 310792000.0,
   "sharesYoY": -0.011494887467705883,
@@ -1874,7 +1874,7 @@
  "INOD": {
   "assetsYoY": 0.4860686299570731,
   "companyName": "Innodata Inc.",
-  "fetchedAt": "2026-10-01",
+  "fetchedAt": "2026-10-10",
   "freeCashFlow": 35648000.0,
   "operatingIncome": 39873000.0,
   "sharesYoY": 0.033130990415335404,
@@ -1897,6 +1897,15 @@
   "operatingIncome": 306389000.0,
   "sharesYoY": 0.004261049079959278,
   "shortPctFloat": 0.078600004
+ },
+ "INTA": {
+  "assetsYoY": -0.15713389423157575,
+  "companyName": "Intapp, Inc.",
+  "fetchedAt": "2026-10-10",
+  "freeCashFlow": 136364000.0,
+  "operatingIncome": -40097000.0,
+  "sharesYoY": -0.0656961051333097,
+  "shortPctFloat": 0.059699997
  },
  "INTC": {
   "assetsYoY": 0.07605669643993185,
@@ -4052,7 +4061,7 @@
  "TOST": {
   "assetsYoY": 0.30606312292358795,
   "companyName": "Toast, Inc.",
-  "fetchedAt": "2026-10-03",
+  "fetchedAt": "2026-10-10",
   "freeCashFlow": 608000000.0,
   "operatingIncome": 304000000.0,
   "sharesYoY": 0.029720279720279796,
@@ -4412,11 +4421,11 @@
  "WPP": {
   "assetsYoY": -0.05621545336939904,
   "companyName": "WPP plc",
-  "fetchedAt": "2026-09-22",
+  "fetchedAt": "2026-10-10",
   "freeCashFlow": 538000000.0,
   "operatingIncome": 382000000.0,
   "sharesYoY": -0.00022067506087752875,
-  "shortPctFloat": 0.0085
+  "shortPctFloat": 0.0088
  },
  "WT": {
   "assetsYoY": 0.46384368287632793,

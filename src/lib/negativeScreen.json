@@ -12,9 +12,9 @@
   ]
  },
  "meta": {
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-10",
   "cautionAt": 2,
-  "generatedAt": "2026-10-09 16:39",
+  "generatedAt": "2026-10-10 15:37",
   "tested": [
    "DILUTION",
    "LOSS",
@@ -52,7 +52,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5149776717546948,
+      "beta": 1.5112036027972249,
       "maxDay21": 0.03713910982939961
      }
     },
@@ -64,46 +64,6 @@
    },
    "known": 4,
    "level": "clean"
-  },
-  "AAOI": {
-   "asOf": "2026-10-09",
-   "companyName": "Applied Optoelectronics, Inc.",
-   "count": 4,
-   "flags": {
-    "ASSET_BLOAT": {
-     "on": true,
-     "rule": "assets +50% in a year",
-     "value": 1.1359317188025564
-    },
-    "DILUTION": {
-     "on": true,
-     "rule": "shares +10% in a year",
-     "value": 0.5183988587490824
-    },
-    "LOSS": {
-     "on": true,
-     "rule": "operating loss or negative free cash flow",
-     "value": {
-      "freeCashFlow": -353955000.0,
-      "operatingIncome": -49736000.0
-     }
-    },
-    "LOTTO": {
-     "on": true,
-     "rule": "beta > 2 or a +15% day in the last month",
-     "value": {
-      "beta": 4.286663536650729,
-      "maxDay21": 0.08120086021690498
-     }
-    },
-    "SHORT": {
-     "on": true,
-     "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.15020001
-    }
-   },
-   "known": 4,
-   "level": "veto"
   },
   "ABCL": {
    "asOf": "2026-10-06",
@@ -132,7 +92,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.5084240418829085,
+      "beta": 2.506953145351305,
       "maxDay21": 0.09606301459459643
      }
     },
@@ -172,7 +132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.102193075019729,
+      "beta": 1.1025913288192668,
       "maxDay21": 0.04016118538587188
      }
     },
@@ -212,7 +172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.6389132031455826,
+      "beta": 1.6411304859330917,
       "maxDay21": 0.07667472017279753
      }
     },
@@ -252,7 +212,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 5.344152048692588,
+      "beta": 5.339951732339939,
       "maxDay21": 0.07477748429386133
      }
     },
@@ -292,7 +252,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.7020698878753544,
+      "beta": 3.702466315409921,
       "maxDay21": 0.12362733795342118
      }
     },
@@ -332,7 +292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5844388035316767,
+      "beta": 0.5877186803610318,
       "maxDay21": 0.12110098116466905
      }
     },
@@ -372,7 +332,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.662790261943489,
+      "beta": 2.659454787607606,
       "maxDay21": 0.06509346867521182
      }
     },
@@ -412,7 +372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.518724047813637,
+      "beta": 1.5256978944571824,
       "maxDay21": 0.11904758429272477
      }
     },
@@ -452,7 +412,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.1614566191015903,
+      "beta": 3.1579709126198954,
       "maxDay21": 0.09949628716069214
      }
     },
@@ -492,7 +452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8420707953680665,
+      "beta": 0.8400910290072734,
       "maxDay21": 0.06388357042383985
      }
     },
@@ -532,7 +492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6290170554723604,
+      "beta": 0.6297686751769381,
       "maxDay21": 0.08588590618250169
      }
     },
@@ -572,7 +532,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.029971575592006,
+      "beta": 2.0312161163356075,
       "maxDay21": 0.05608757361039385
      }
     },
@@ -612,7 +572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1165912647801077,
+      "beta": 1.1168849185869845,
       "maxDay21": 0.040394305690873544
      }
     },
@@ -652,7 +612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.7323327363674906,
+      "beta": -0.7336358238959978,
       "maxDay21": 0.05285367827301535
      }
     },
@@ -692,7 +652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.48938284746628957,
+      "beta": 0.4937230047523998,
       "maxDay21": 0.06422678273241966
      }
     },
@@ -732,7 +692,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.4757955093446112,
+      "beta": 0.4844483864135995,
       "maxDay21": 0.10212897650109065
      }
     },
@@ -772,7 +732,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.4889402943277648,
+      "beta": 3.484898002445361,
       "maxDay21": 0.17158307412048113
      }
     },
@@ -812,7 +772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.4339424235633647,
+      "beta": 1.4361993034353069,
       "maxDay21": 0.06915289701089589
      }
     },
@@ -852,7 +812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.16704897564359067,
+      "beta": 0.16699357634863798,
       "maxDay21": 0.006103806722521199
      }
     },
@@ -892,7 +852,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.2051744438811607,
+      "beta": 2.204288045268484,
       "maxDay21": 0.03555358683395693
      }
     },
@@ -932,7 +892,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.62997324780474,
+      "beta": 3.6225253821084893,
       "maxDay21": 0.06400280841566985
      }
     },
@@ -972,7 +932,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.476545434216163,
+      "beta": 2.477377927327407,
       "maxDay21": 0.060809328158717424
      }
     },
@@ -1012,7 +972,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5647658879364759,
+      "beta": 1.5636961142597894,
       "maxDay21": 0.04582940644939959
      }
     },
@@ -1052,7 +1012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.6798140577795457,
+      "beta": 1.6788983866893645,
       "maxDay21": 0.005102618884775145
      }
     },
@@ -1092,8 +1052,8 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.4710859991576924,
-      "maxDay21": 0.04135127492394619
+      "beta": 0.4774030556501196,
+      "maxDay21": 0.05620744156181967
      }
     },
     "SHORT": {
@@ -1132,8 +1092,8 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.447582662775166,
-      "maxDay21": 0.10740696859980114
+      "beta": 2.450857488911778,
+      "maxDay21": 0.1063159716277895
      }
     },
     "SHORT": {
@@ -1172,7 +1132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5709384589123514,
+      "beta": 0.5682150721530758,
       "maxDay21": 0.05145691053257373
      }
     },
@@ -1212,7 +1172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7240639974149874,
+      "beta": 0.7233562751978367,
       "maxDay21": 0.02256242839757805
      }
     },
@@ -1252,7 +1212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8021836820944838,
+      "beta": 0.8054353642593692,
       "maxDay21": 0.07424964813485113
      }
     },
@@ -1292,7 +1252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3580102279387256,
+      "beta": 1.3588136843494096,
       "maxDay21": 0.07163596800331917
      }
     },
@@ -1332,7 +1292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8075604323533483,
+      "beta": 0.8091361146999403,
       "maxDay21": 0.0420054116493771
      }
     },
@@ -1372,7 +1332,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 4.3160177301029,
+      "beta": 4.309938512050043,
       "maxDay21": 0.14136800940236016
      }
     },
@@ -1412,7 +1372,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.830416439710086,
+      "beta": 2.830635087986319,
       "maxDay21": 0.07738316616165308
      }
     },
@@ -1452,7 +1412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.6725910161648352,
+      "beta": 1.6783781717016333,
       "maxDay21": 0.07186359925048857
      }
     },
@@ -1492,7 +1452,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 4.26039322552833,
+      "beta": 4.265962795282617,
       "maxDay21": 0.1079621311293466
      }
     },
@@ -1532,7 +1492,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.1417824555193627,
+      "beta": 3.135015343088446,
       "maxDay21": 0.21990170594051195
      }
     },
@@ -1572,7 +1532,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.8502724178032095,
+      "beta": 1.848338845144707,
       "maxDay21": 0.0657076590124992
      }
     },
@@ -1612,7 +1572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.11552169050724809,
+      "beta": -0.11721684875103881,
       "maxDay21": 0.03493446508240128
      }
     },
@@ -1652,7 +1612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.2897735015836747,
+      "beta": 1.2864747011879463,
       "maxDay21": 0.05221798403969524
      }
     },
@@ -1692,7 +1652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3719120507114236,
+      "beta": 0.36823033252553106,
       "maxDay21": 0.03256178623612627
      }
     },
@@ -1732,7 +1692,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.305699317801607,
+      "beta": 1.3153037440716493,
       "maxDay21": 0.09606526337368537
      }
     },
@@ -1772,7 +1732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5107349555478646,
+      "beta": 0.5136126306713008,
       "maxDay21": 0.03589021464776243
      }
     },
@@ -1812,7 +1772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.45903644340647415,
+      "beta": 0.4613167479666175,
       "maxDay21": 0.03209035410045913
      }
     },
@@ -1852,7 +1812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.7439549303996968,
+      "beta": 1.7434239708541348,
       "maxDay21": 0.02307739806090847
      }
     },
@@ -1892,7 +1852,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3468525852886992,
+      "beta": 1.3473611158534058,
       "maxDay21": 0.12999442791518256
      }
     },
@@ -1932,7 +1892,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.6721810547330191,
+      "beta": 1.6734789168858337,
       "maxDay21": 0.037864959891295014
      }
     },
@@ -1972,7 +1932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5139412672445504,
+      "beta": 0.514919009990481,
       "maxDay21": 0.03429282777251497
      }
     },
@@ -2012,8 +1972,8 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.1637404282475186,
-      "maxDay21": 0.03816517121201257
+      "beta": 2.1673494516411713,
+      "maxDay21": 0.038674063350848
      }
     },
     "SHORT": {
@@ -2052,7 +2012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.898827121869644,
+      "beta": 0.9013019259444316,
       "maxDay21": 0.04515279872842881
      }
     },
@@ -2066,7 +2026,7 @@
    "level": "clean"
   },
   "CIEN": {
-   "asOf": "2026-10-03",
+   "asOf": "2026-10-10",
    "companyName": "Ciena Corporation",
    "count": 1,
    "flags": {
@@ -2092,7 +2052,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.529606035419079,
+      "beta": 2.533346781463073,
       "maxDay21": 0.13846901669793676
      }
     },
@@ -2132,7 +2092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5601423742766253,
+      "beta": 0.5564434107476992,
       "maxDay21": 0.022401433998045395
      }
     },
@@ -2172,7 +2132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.06602737794203832,
+      "beta": -0.0684573148289631,
       "maxDay21": 0.02903941778006769
      }
     },
@@ -2212,7 +2172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.2920869796542462,
+      "beta": 1.2903421808150746,
       "maxDay21": 0.06849308357518114
      }
     },
@@ -2252,7 +2212,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.1598504112726413,
+      "beta": 3.158393941058026,
       "maxDay21": 0.06558633076749332
      }
     },
@@ -2292,7 +2252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.4108028607397779,
+      "beta": 0.40801498067584024,
       "maxDay21": 0.04310770276262477
      }
     },
@@ -2332,7 +2292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.38203962348978737,
+      "beta": 0.38085741570861836,
       "maxDay21": 0.045016645221198415
      }
     },
@@ -2372,7 +2332,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.25022228334892316,
+      "beta": 0.24734106600430208,
       "maxDay21": 0.03601023895659372
      }
     },
@@ -2412,7 +2372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.3782667331359677,
+      "beta": -0.37803351268373747,
       "maxDay21": 0.03263156288548519
      }
     },
@@ -2452,7 +2412,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.2641515160681123,
+      "beta": 3.2669594775817967,
       "maxDay21": 0.10903028091101663
      }
     },
@@ -2492,7 +2452,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.7369532363755145,
+      "beta": 2.7327668541807597,
       "maxDay21": 0.07716409167137162
      }
     },
@@ -2532,7 +2492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.39291890182495076,
+      "beta": 0.3956211929889333,
       "maxDay21": 0.024606597756172244
      }
     },
@@ -2572,7 +2532,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.8721735893544353,
+      "beta": 1.8722467547866388,
       "maxDay21": 0.04990101742105213
      }
     },
@@ -2612,7 +2572,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.304236547647421,
+      "beta": 3.3082633202484453,
       "maxDay21": 0.07895685308752154
      }
     },
@@ -2652,7 +2612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.11166293540536759,
+      "beta": -0.11681074148054521,
       "maxDay21": 0.053461255984486034
      }
     },
@@ -2692,7 +2652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.244688667589902,
+      "beta": 1.2442252963730904,
       "maxDay21": 0.07091900616535218
      }
     },
@@ -2732,7 +2692,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.4970662895166431,
+      "beta": 1.5014190303068708,
       "maxDay21": 0.13853148219344247
      }
     },
@@ -2772,7 +2732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0732163777146806,
+      "beta": 1.0762472518931505,
       "maxDay21": 0.04538204893132014
      }
     },
@@ -2812,7 +2772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.903048726040705,
+      "beta": 1.9020711650942819,
       "maxDay21": 0.03647546356194087
      }
     },
@@ -2852,7 +2812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.20626209742704715,
+      "beta": -0.2076969807134022,
       "maxDay21": 0.028077069340998184
      }
     },
@@ -2892,7 +2852,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.21888377038522508,
+      "beta": -0.22695078583848616,
       "maxDay21": 0.07279451003654436
      }
     },
@@ -2932,7 +2892,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.34808422428400243,
+      "beta": 0.34687154015198324,
       "maxDay21": 0.06443624255614044
      }
     },
@@ -2972,7 +2932,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.4926609390551415,
+      "beta": 2.499930750627097,
       "maxDay21": 0.06454682934019784
      }
     },
@@ -3012,8 +2972,8 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1442207365187274,
-      "maxDay21": 0.06580551932544365
+      "beta": 1.150631090568878,
+      "maxDay21": 0.07107385989867443
      }
     },
     "SHORT": {
@@ -3052,7 +3012,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.218630435614657,
+      "beta": 2.2227445203423613,
       "maxDay21": 0.11975441848899493
      }
     },
@@ -3092,8 +3052,8 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0438488221217297,
-      "maxDay21": 0.09420717355042063
+      "beta": 1.0428238833149301,
+      "maxDay21": 0.079578735998175
      }
     },
     "SHORT": {
@@ -3132,7 +3092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3400529821148766,
+      "beta": 1.3394351469477128,
       "maxDay21": 0.03607595191468649
      }
     },
@@ -3172,7 +3132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.27428012293434334,
+      "beta": 0.27017027744461053,
       "maxDay21": 0.05145513571538207
      }
     },
@@ -3212,7 +3172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.1649617451004864,
+      "beta": -0.16731829537335405,
       "maxDay21": 0.050130425537798784
      }
     },
@@ -3252,7 +3212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.23801937959554814,
+      "beta": -0.24207767828692717,
       "maxDay21": 0.04928156450634025
      }
     },
@@ -3292,7 +3252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.7562019094816776,
+      "beta": 1.7560696096164863,
       "maxDay21": 0.05638418178663129
      }
     },
@@ -3332,7 +3292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8701879903634931,
+      "beta": 0.865678673865584,
       "maxDay21": 0.028272639460280802
      }
     },
@@ -3372,7 +3332,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.4981316344395395,
+      "beta": 2.5067268068801116,
       "maxDay21": 0.12309823534343112
      }
     },
@@ -3412,7 +3372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6497174687711623,
+      "beta": 0.6586627224149367,
       "maxDay21": 0.06862743828842643
      }
     },
@@ -3452,7 +3412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5535881531507363,
+      "beta": 0.557066593097141,
       "maxDay21": 0.06260472985261734
      }
     },
@@ -3492,7 +3452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5633753416639469,
+      "beta": 0.5664073955976354,
       "maxDay21": 0.044448804999576375
      }
     },
@@ -3532,7 +3492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6928419826429458,
+      "beta": 0.6912037901382186,
       "maxDay21": 0.06195079580320817
      }
     },
@@ -3572,7 +3532,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.637396622859074,
+      "beta": 0.6371762376191591,
       "maxDay21": 0.020902180404907433
      }
     },
@@ -3612,7 +3572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.12913035219672614,
+      "beta": -0.13153748292957448,
       "maxDay21": 0.039156602626097214
      }
     },
@@ -3652,7 +3612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.31332034944137943,
+      "beta": 0.310231845544289,
       "maxDay21": 0.07269424647121014
      }
     },
@@ -3692,7 +3652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7995922716656607,
+      "beta": 0.7992804111772865,
       "maxDay21": 0.03292050989907258
      }
     },
@@ -3732,7 +3692,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9188980699758452,
+      "beta": 0.917305622008246,
       "maxDay21": 0.11627904835777203
      }
     },
@@ -3772,7 +3732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.7197042049041609,
+      "beta": 1.7225588059734993,
       "maxDay21": 0.04427857439939098
      }
     },
@@ -3812,7 +3772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0134642985797069,
+      "beta": 1.0109976488995467,
       "maxDay21": 0.08242616235734657
      }
     },
@@ -3852,7 +3812,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.3466571841159185,
+      "beta": 3.348574313026906,
       "maxDay21": 0.05628574986349566
      }
     },
@@ -3892,7 +3852,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.5844355477710101,
+      "beta": -0.586523997918788,
       "maxDay21": 0.03500748917508334
      }
     },
@@ -3932,7 +3892,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.8893345366054792,
+      "beta": -0.8916601023176096,
       "maxDay21": 0.03172313567560581
      }
     },
@@ -3972,7 +3932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.107520205434516,
+      "beta": 1.1146098932310644,
       "maxDay21": 0.09490086143402499
      }
     },
@@ -4012,7 +3972,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.3638297265783854,
+      "beta": 2.3644908027762246,
       "maxDay21": 0.07463977220871088
      }
     },
@@ -4052,7 +4012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9159259469585987,
+      "beta": 0.9195876638531916,
       "maxDay21": 0.046336616464418556
      }
     },
@@ -4092,7 +4052,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3186959437484986,
+      "beta": 1.314864107506375,
       "maxDay21": 0.04148515962142607
      }
     },
@@ -4132,7 +4092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5801655109596283,
+      "beta": 0.5781153189934243,
       "maxDay21": 0.030116289819178688
      }
     },
@@ -4172,7 +4132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.022528433679466654,
+      "beta": -0.02382681258813821,
       "maxDay21": 0.0610819781523706
      }
     },
@@ -4212,7 +4172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0210471762410802,
+      "beta": 1.0244400738476291,
       "maxDay21": 0.04712147344676221
      }
     },
@@ -4252,7 +4212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8321130849715133,
+      "beta": 0.8327334049281572,
       "maxDay21": 0.07445959345222009
      }
     },
@@ -4292,7 +4252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.4207937741371734,
+      "beta": 1.429929236620566,
       "maxDay21": 0.13982127903140773
      }
     },
@@ -4332,7 +4292,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.433539733142013,
+      "beta": 2.431707379754478,
       "maxDay21": 0.06286727139739079
      }
     },
@@ -4372,7 +4332,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.905866311684711,
+      "beta": 2.9124540256084046,
       "maxDay21": 0.07193775103592981
      }
     },
@@ -4412,7 +4372,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.787375964759479,
+      "beta": 2.7824874826765815,
       "maxDay21": 0.09585319309059637
      }
     },
@@ -4452,7 +4412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.43992819091586444,
+      "beta": 0.4368218058980667,
       "maxDay21": 0.06030902497965229
      }
     },
@@ -4492,7 +4452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.309372005953273,
+      "beta": 1.313207335273916,
       "maxDay21": 0.07380765703470771
      }
     },
@@ -4532,7 +4492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5806410607349733,
+      "beta": 0.5829556887113789,
       "maxDay21": 0.0630782151676883
      }
     },
@@ -4572,8 +4532,8 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1514777004039596,
-      "maxDay21": 0.15895604606114788
+      "beta": 1.1578165532509412,
+      "maxDay21": 0.15856062381837144
      }
     },
     "SHORT": {
@@ -4612,7 +4572,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.0190682725015625,
+      "beta": 2.019180995062724,
       "maxDay21": 0.048418950262774096
      }
     },
@@ -4652,7 +4612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.927040077575699,
+      "beta": 0.9295570289910354,
       "maxDay21": 0.09040805208812808
      }
     },
@@ -4692,7 +4652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.9101920392735623,
+      "beta": 1.9121555713958753,
       "maxDay21": 0.029240940241628932
      }
     },
@@ -4732,7 +4692,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7827442568839611,
+      "beta": 0.783756701516608,
       "maxDay21": 0.04376218839035162
      }
     },
@@ -4772,7 +4732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9106369468813552,
+      "beta": 0.9096791352508481,
       "maxDay21": 0.06646328078885744
      }
     },
@@ -4812,7 +4772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7837910891579125,
+      "beta": 0.7897117981578908,
       "maxDay21": 0.06553621250010155
      }
     },
@@ -4852,7 +4812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0023540579330437,
+      "beta": 1.0049050895518308,
       "maxDay21": 0.04686320671978783
      }
     },
@@ -4892,7 +4852,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.341653603835829,
+      "beta": 1.3394614602664674,
       "maxDay21": 0.030585717319081995
      }
     },
@@ -4932,7 +4892,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3584533534191645,
+      "beta": 1.3564543637365405,
       "maxDay21": 0.032171387439992705
      }
     },
@@ -4972,7 +4932,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.7900827323397666,
+      "beta": 2.7917859343448796,
       "maxDay21": 0.3367587682074229
      }
     },
@@ -5012,7 +4972,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6232454554539508,
+      "beta": 0.6235326250840906,
       "maxDay21": 0.06530711110629372
      }
     },
@@ -5052,7 +5012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8561964667262182,
+      "beta": 0.8592721720775727,
       "maxDay21": 0.057142873289723894
      }
     },
@@ -5092,7 +5052,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.025014459907838838,
+      "beta": 0.024114675446755145,
       "maxDay21": 0.17461412148357547
      }
     },
@@ -5132,7 +5092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.07759164620922734,
+      "beta": 0.07371805136950192,
       "maxDay21": 0.05914566868393667
      }
     },
@@ -5172,7 +5132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5573962684385203,
+      "beta": 0.5528814536895006,
       "maxDay21": 0.033019294804330857
      }
     },
@@ -5212,7 +5172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.01308549456196,
+      "beta": 1.022721791605112,
       "maxDay21": 0.06998538022272083
      }
     },
@@ -5220,46 +5180,6 @@
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
      "value": 0.0783
-    }
-   },
-   "known": 4,
-   "level": "clean"
-  },
-  "HP": {
-   "asOf": "2026-10-09",
-   "companyName": "Helmerich & Payne, Inc.",
-   "count": 0,
-   "flags": {
-    "ASSET_BLOAT": {
-     "on": false,
-     "rule": "assets +50% in a year",
-     "value": 0.1597814420109107
-    },
-    "DILUTION": {
-     "on": false,
-     "rule": "shares +10% in a year",
-     "value": 0.006998755673258694
-    },
-    "LOSS": {
-     "on": false,
-     "rule": "operating loss or negative free cash flow",
-     "value": {
-      "freeCashFlow": 116577000.0,
-      "operatingIncome": 232324000.0
-     }
-    },
-    "LOTTO": {
-     "on": false,
-     "rule": "beta > 2 or a +15% day in the last month",
-     "value": {
-      "beta": 0.31994952390405185,
-      "maxDay21": 0.04071575827047802
-     }
-    },
-    "SHORT": {
-     "on": false,
-     "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.103999995
     }
    },
    "known": 4,
@@ -5292,7 +5212,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.0574124130796614,
+      "beta": 2.0632921753045577,
       "maxDay21": 0.12441139738145202
      }
     },
@@ -5332,7 +5252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.731864585006024,
+      "beta": 0.7275795332530343,
       "maxDay21": 0.08402077722155998
      }
     },
@@ -5372,8 +5292,8 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5268316193552597,
-      "maxDay21": 0.018434428915714562
+      "beta": 0.52694923617344,
+      "maxDay21": 0.017171725539842253
      }
     },
     "SHORT": {
@@ -5412,7 +5332,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.6741348112293735,
+      "beta": 1.6763004054126782,
       "maxDay21": 0.09650470933542499
      }
     },
@@ -5452,8 +5372,8 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6094643824050842,
-      "maxDay21": 0.12166771723908942
+      "beta": 0.6127786383477838,
+      "maxDay21": 0.11559723229086494
      }
     },
     "SHORT": {
@@ -5492,7 +5412,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.034922019319764,
+      "beta": 2.0351931144996005,
       "maxDay21": 0.0377546080758453
      }
     },
@@ -5532,7 +5452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.6212912425769959,
+      "beta": 1.621351667203784,
       "maxDay21": 0.10829742924132013
      }
     },
@@ -5572,7 +5492,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.7730881006708312,
+      "beta": 3.7744926097083265,
       "maxDay21": 0.03514060153615617
      }
     },
@@ -5612,7 +5532,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.865047600168845,
+      "beta": 2.861955835982594,
       "maxDay21": 0.08196671050926208
      }
     },
@@ -5652,7 +5572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7806320790187999,
+      "beta": 0.790054764559328,
       "maxDay21": 0.07562991960970056
      }
     },
@@ -5692,7 +5612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.16524625690444594,
+      "beta": 0.16418809156454986,
       "maxDay21": 0.03489682245733072
      }
     },
@@ -5700,6 +5620,46 @@
      "on": true,
      "rule": "short > 15% of float (info only, not counted)",
      "value": 0.1823
+    }
+   },
+   "known": 4,
+   "level": "clean"
+  },
+  "INOD": {
+   "asOf": "2026-10-10",
+   "companyName": "Innodata Inc.",
+   "count": 1,
+   "flags": {
+    "ASSET_BLOAT": {
+     "on": false,
+     "rule": "assets +50% in a year",
+     "value": 0.4860686299570731
+    },
+    "DILUTION": {
+     "on": false,
+     "rule": "shares +10% in a year",
+     "value": 0.033130990415335404
+    },
+    "LOSS": {
+     "on": false,
+     "rule": "operating loss or negative free cash flow",
+     "value": {
+      "freeCashFlow": 35648000.0,
+      "operatingIncome": 39873000.0
+     }
+    },
+    "LOTTO": {
+     "on": true,
+     "rule": "beta > 2 or a +15% day in the last month",
+     "value": {
+      "beta": 3.2750688849160468,
+      "maxDay21": 0.14610978042777223
+     }
+    },
+    "SHORT": {
+     "on": false,
+     "rule": "short > 15% of float (info only, not counted)",
+     "value": 0.146
     }
    },
    "known": 4,
@@ -5732,7 +5692,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.2527314023986258,
+      "beta": 0.24669797955617856,
       "maxDay21": 0.04173077776240963
      }
     },
@@ -5740,6 +5700,46 @@
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
      "value": 0.078600004
+    }
+   },
+   "known": 4,
+   "level": "clean"
+  },
+  "INTA": {
+   "asOf": "2026-10-10",
+   "companyName": "Intapp, Inc.",
+   "count": 1,
+   "flags": {
+    "ASSET_BLOAT": {
+     "on": false,
+     "rule": "assets +50% in a year",
+     "value": -0.15713389423157575
+    },
+    "DILUTION": {
+     "on": false,
+     "rule": "shares +10% in a year",
+     "value": -0.0656961051333097
+    },
+    "LOSS": {
+     "on": true,
+     "rule": "operating loss or negative free cash flow",
+     "value": {
+      "freeCashFlow": 136364000.0,
+      "operatingIncome": -40097000.0
+     }
+    },
+    "LOTTO": {
+     "on": false,
+     "rule": "beta > 2 or a +15% day in the last month",
+     "value": {
+      "beta": 0.4127217136954964,
+      "maxDay21": 0.03811104951689992
+     }
+    },
+    "SHORT": {
+     "on": false,
+     "rule": "short > 15% of float (info only, not counted)",
+     "value": 0.059699997
     }
    },
    "known": 4,
@@ -5772,7 +5772,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.939796043419796,
+      "beta": 2.934748295000506,
       "maxDay21": 0.12136280377864384
      }
     },
@@ -5812,7 +5812,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1929446074551484,
+      "beta": 1.1974323756420946,
       "maxDay21": 0.3148316751780005
      }
     },
@@ -5852,7 +5852,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3639058424851842,
+      "beta": 1.3647171347545406,
       "maxDay21": 0.03078893762272661
      }
     },
@@ -5892,7 +5892,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.602811337712499,
+      "beta": 0.6023916384899836,
       "maxDay21": 0.001744518433418163
      }
     },
@@ -5932,7 +5932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.8614633870407926,
+      "beta": 1.8629187745122469,
       "maxDay21": 0.039889516337845654
      }
     },
@@ -5972,7 +5972,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.139505932058789,
+      "beta": 2.142041449399817,
       "maxDay21": 0.06493814183595825
      }
     },
@@ -6012,7 +6012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.2351007130673958,
+      "beta": 0.23525120871540253,
       "maxDay21": 0.032867613713255084
      }
     },
@@ -6052,7 +6052,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.1338688793583526,
+      "beta": 0.13744182575438096,
       "maxDay21": 1.779598219792136
      }
     },
@@ -6092,7 +6092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0365306914233907,
+      "beta": 1.0376793612123392,
       "maxDay21": 0.0310377974458671
      }
     },
@@ -6132,8 +6132,8 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8014990862484609,
-      "maxDay21": 0.04551691066070007
+      "beta": 0.7976176539864854,
+      "maxDay21": 0.03730772038719232
      }
     },
     "SHORT": {
@@ -6172,7 +6172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.640921393969914,
+      "beta": 0.6430791761259772,
       "maxDay21": 0.03296706220100942
      }
     },
@@ -6212,7 +6212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.7241803790411392,
+      "beta": 1.7226945782577483,
       "maxDay21": 0.06999684192103439
      }
     },
@@ -6252,7 +6252,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.905425188135344,
+      "beta": 2.902806939575061,
       "maxDay21": 0.09588061449253171
      }
     },
@@ -6292,7 +6292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.47876455981883487,
+      "beta": 0.4729357556394904,
       "maxDay21": 0.035936674802787394
      }
     },
@@ -6332,7 +6332,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.180954951318025,
+      "beta": 3.1777247508741424,
       "maxDay21": 0.06980795506946103
      }
     },
@@ -6372,7 +6372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.01704282677186228,
+      "beta": -0.022675100069737622,
       "maxDay21": 0.028182366343272314
      }
     },
@@ -6412,7 +6412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.069640524894565,
+      "beta": 1.0703765199601223,
       "maxDay21": 0.07290695076522624
      }
     },
@@ -6452,7 +6452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.4614244762000523,
+      "beta": 1.4583614438495323,
       "maxDay21": 0.11428457919302493
      }
     },
@@ -6492,7 +6492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0947795131472857,
+      "beta": 1.0929849927100705,
       "maxDay21": 0.097008568152543
      }
     },
@@ -6532,7 +6532,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1025485166391717,
+      "beta": 1.1000371126688848,
       "maxDay21": 0.025335347529503283
      }
     },
@@ -6572,7 +6572,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.359522628972988,
+      "beta": 2.3602414980778503,
       "maxDay21": 0.057977185268293985
      }
     },
@@ -6612,7 +6612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.14409173931979458,
+      "beta": -0.14920442804694817,
       "maxDay21": 0.06254104402651728
      }
     },
@@ -6652,7 +6652,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.544134041369705,
+      "beta": 2.548512037886042,
       "maxDay21": 0.08056793225198322
      }
     },
@@ -6692,8 +6692,8 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.18294645302798718,
-      "maxDay21": 0.024090409876052155
+      "beta": 0.18339702268251487,
+      "maxDay21": 0.022615543687847017
      }
     },
     "SHORT": {
@@ -6732,8 +6732,8 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.9698496827195064,
-      "maxDay21": 0.12269546857332192
+      "beta": 1.9841994510887646,
+      "maxDay21": 0.14213197969543145
      }
     },
     "SHORT": {
@@ -6772,8 +6772,8 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.0464727625880816,
-      "maxDay21": 0.05810141849078332
+      "beta": 3.048553680879576,
+      "maxDay21": 0.05810151222466575
      }
     },
     "SHORT": {
@@ -6812,7 +6812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8246572966736322,
+      "beta": 0.8196163491763665,
       "maxDay21": 0.05818707074199758
      }
     },
@@ -6852,7 +6852,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6866913989165006,
+      "beta": 0.6824257258263757,
       "maxDay21": 0.04541257348391081
      }
     },
@@ -6892,7 +6892,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.036602227620349,
+      "beta": 2.032925023926374,
       "maxDay21": 0.09476042514406857
      }
     },
@@ -6932,7 +6932,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.277197715347624,
+      "beta": 2.280449538066839,
       "maxDay21": 0.06813897796692125
      }
     },
@@ -6972,7 +6972,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.268083008631403,
+      "beta": 3.2661455789436777,
       "maxDay21": 0.05498895135533233
      }
     },
@@ -7012,7 +7012,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.5673581924588236,
+      "beta": 3.5660165074171974,
       "maxDay21": 0.14991312577990712
      }
     },
@@ -7052,7 +7052,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.606791012051886,
+      "beta": 3.6048341931626697,
       "maxDay21": 0.07444506011098295
      }
     },
@@ -7092,7 +7092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9683903090737216,
+      "beta": 0.9681764574799033,
       "maxDay21": 0.06535941261974942
      }
     },
@@ -7132,7 +7132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5020013107520211,
+      "beta": 1.500893925708163,
       "maxDay21": 0.07078194546113026
      }
     },
@@ -7172,7 +7172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5778516887857383,
+      "beta": 1.5833390892261345,
       "maxDay21": 0.08674291345729923
      }
     },
@@ -7212,7 +7212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.30358492774232443,
+      "beta": 0.3007950971711372,
       "maxDay21": 0.03772607379043791
      }
     },
@@ -7252,7 +7252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.516958885183407,
+      "beta": 0.518474057678398,
       "maxDay21": 0.05414950492570836
      }
     },
@@ -7264,46 +7264,6 @@
    },
    "known": 4,
    "level": "clean"
-  },
-  "NRIX": {
-   "asOf": "2026-10-08",
-   "companyName": "Nurix Therapeutics, Inc.",
-   "count": 2,
-   "flags": {
-    "ASSET_BLOAT": {
-     "on": false,
-     "rule": "assets +50% in a year",
-     "value": 0.02807529174130452
-    },
-    "DILUTION": {
-     "on": true,
-     "rule": "shares +10% in a year",
-     "value": 0.34185475877531557
-    },
-    "LOSS": {
-     "on": true,
-     "rule": "operating loss or negative free cash flow",
-     "value": {
-      "freeCashFlow": -263467000.0,
-      "operatingIncome": -285666000.0
-     }
-    },
-    "LOTTO": {
-     "on": false,
-     "rule": "beta > 2 or a +15% day in the last month",
-     "value": {
-      "beta": 1.4028075907197561,
-      "maxDay21": 0.04457459339378911
-     }
-    },
-    "SHORT": {
-     "on": true,
-     "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.1752
-    }
-   },
-   "known": 4,
-   "level": "caution"
   },
   "NSIT": {
    "asOf": "2026-10-08",
@@ -7332,7 +7292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.198807922880418,
+      "beta": 1.2008574440272535,
       "maxDay21": 0.060948227995116344
      }
     },
@@ -7372,8 +7332,8 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3043625776385668,
-      "maxDay21": 0.08540300737757445
+      "beta": 1.3100703063641606,
+      "maxDay21": 0.08540298350815845
      }
     },
     "SHORT": {
@@ -7412,7 +7372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6598775746151084,
+      "beta": 0.6635967817231516,
       "maxDay21": 0.026850793713989907
      }
     },
@@ -7452,7 +7412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.2350340259092765,
+      "beta": 1.2355129879172737,
       "maxDay21": 0.060722770148481375
      }
     },
@@ -7492,7 +7452,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.769744333101806,
+      "beta": 1.7765882520732534,
       "maxDay21": 0.15646260003930168
      }
     },
@@ -7532,7 +7492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9557800358152281,
+      "beta": 0.9554260776164072,
       "maxDay21": 0.04584219102475484
      }
     },
@@ -7572,7 +7532,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.8822245559062891,
+      "beta": 1.8927786165307674,
       "maxDay21": 0.2007648540928446
      }
     },
@@ -7612,7 +7572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.8919544579191507,
+      "beta": 1.8906964786261193,
       "maxDay21": 0.025432457207263504
      }
     },
@@ -7652,7 +7612,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.0395588041707513,
+      "beta": 2.040032840183473,
       "maxDay21": 0.04646521105205603
      }
     },
@@ -7692,8 +7652,8 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6453520332152773,
-      "maxDay21": 0.0036390241315698013
+      "beta": 0.6453648946727929,
+      "maxDay21": 0.0043636668812145896
      }
     },
     "SHORT": {
@@ -7732,7 +7692,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9131387710726112,
+      "beta": 0.9120971392144513,
       "maxDay21": 0.030234660690766635
      }
     },
@@ -7772,7 +7732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.2188931530132754,
+      "beta": 1.2259370138738883,
       "maxDay21": 0.11981980149094418
      }
     },
@@ -7812,7 +7772,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.3842062338345826,
+      "beta": 3.3836289239313144,
       "maxDay21": 0.046070416053982655
      }
     },
@@ -7852,7 +7812,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.131390272986333,
+      "beta": 3.1296532294496973,
       "maxDay21": 0.05524005245717567
      }
     },
@@ -7892,8 +7852,8 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3906002698913702,
-      "maxDay21": 0.05305381132096332
+      "beta": 1.3951445903576891,
+      "maxDay21": 0.06250002468101279
      }
     },
     "SHORT": {
@@ -7932,7 +7892,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.4300461430391262,
+      "beta": 1.4301379743608758,
       "maxDay21": 0.04783444115518254
      }
     },
@@ -7972,7 +7932,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 4.615900307814625,
+      "beta": 4.6141762717109325,
       "maxDay21": 0.08758915154491986
      }
     },
@@ -8012,7 +7972,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.3637165419679164,
+      "beta": -0.3650376969113076,
       "maxDay21": 0.03735731336583625
      }
     },
@@ -8052,7 +8012,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.4217107067164974,
+      "beta": 2.425551935104698,
       "maxDay21": 0.1115366671896727
      }
     },
@@ -8092,7 +8052,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.25481603694554356,
+      "beta": 0.2536467801602763,
       "maxDay21": 0.04435778086697306
      }
     },
@@ -8132,7 +8092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1986969516247703,
+      "beta": 1.2036076211547952,
       "maxDay21": 0.13092396595801703
      }
     },
@@ -8172,7 +8132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.362626147080909,
+      "beta": -0.37510754408762453,
       "maxDay21": 0.056236169853385976
      }
     },
@@ -8212,7 +8172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.183166782888473,
+      "beta": 1.1846428032843817,
       "maxDay21": 0.06618180708451704
      }
     },
@@ -8252,7 +8212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.11493087843789603,
+      "beta": 0.11741784337085791,
       "maxDay21": 0.04511834412864357
      }
     },
@@ -8292,7 +8252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.48229642131590944,
+      "beta": -0.48916389515683567,
       "maxDay21": 0.06990641004962583
      }
     },
@@ -8332,7 +8292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.16099914096182003,
+      "beta": -0.1626348615959181,
       "maxDay21": 0.11501153879868742
      }
     },
@@ -8372,7 +8332,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.023116446834584504,
+      "beta": -0.02526065928779199,
       "maxDay21": 0.12857144942436505
      }
     },
@@ -8412,7 +8372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.056449697330586364,
+      "beta": -0.0545578150116546,
       "maxDay21": 0.04454325423882177
      }
     },
@@ -8452,7 +8412,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9851796140593809,
+      "beta": 0.9919240494581307,
       "maxDay21": 0.3070113366346765
      }
     },
@@ -8492,7 +8452,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.876927670120755,
+      "beta": 2.877820419715212,
       "maxDay21": 0.05487805718531158
      }
     },
@@ -8532,7 +8492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8384483523037873,
+      "beta": 0.8397236360170158,
       "maxDay21": 0.02085631292471546
      }
     },
@@ -8572,7 +8532,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.3968643242854686,
+      "beta": 3.4072644897900877,
       "maxDay21": 0.13082077006149984
      }
     },
@@ -8612,7 +8572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3850238278347249,
+      "beta": 1.3867064219070357,
       "maxDay21": 0.0633540641985102
      }
     },
@@ -8652,7 +8612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3191690673706705,
+      "beta": 0.3214494454793913,
       "maxDay21": 0.06329600151704518
      }
     },
@@ -8692,7 +8652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.4906341153427017,
+      "beta": -0.4920766562453838,
       "maxDay21": 0.021529986528481482
      }
     },
@@ -8732,8 +8692,8 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.0640883003408317,
-      "maxDay21": 0.06441411346014525
+      "beta": 2.0744380158569666,
+      "maxDay21": 0.07663068959850805
      }
     },
     "SHORT": {
@@ -8772,8 +8732,8 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.9280491392976327,
-      "maxDay21": 0.036758676636830634
+      "beta": 1.9346859180206897,
+      "maxDay21": 0.05166517927119818
      }
     },
     "SHORT": {
@@ -8812,7 +8772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.36747311354658335,
+      "beta": -0.3693146327139454,
       "maxDay21": 0.03835224591647246
      }
     },
@@ -8852,7 +8812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.24306006941661482,
+      "beta": -0.24880138977262647,
       "maxDay21": 0.03674254902339702
      }
     },
@@ -8892,7 +8852,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6135162185857544,
+      "beta": 0.6131279172011732,
       "maxDay21": 0.3348607660647409
      }
     },
@@ -8932,7 +8892,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.11693341776809163,
+      "beta": -0.12138706649006772,
       "maxDay21": 0.03507107856585834
      }
     },
@@ -8972,14 +8932,54 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.20859831345839727,
-      "maxDay21": 0.03638050321393216
+      "beta": 0.20713189073915078,
+      "maxDay21": 0.03291105572291264
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
      "value": 0.1462
+    }
+   },
+   "known": 4,
+   "level": "clean"
+  },
+  "PWR": {
+   "asOf": "2026-10-06",
+   "companyName": "Quanta Services, Inc.",
+   "count": 0,
+   "flags": {
+    "ASSET_BLOAT": {
+     "on": false,
+     "rule": "assets +50% in a year",
+     "value": 0.33413842960145246
+    },
+    "DILUTION": {
+     "on": false,
+     "rule": "shares +10% in a year",
+     "value": 0.012859365755256258
+    },
+    "LOSS": {
+     "on": false,
+     "rule": "operating loss or negative free cash flow",
+     "value": {
+      "freeCashFlow": 1620816000.0,
+      "operatingIncome": 1587077000.0
+     }
+    },
+    "LOTTO": {
+     "on": false,
+     "rule": "beta > 2 or a +15% day in the last month",
+     "value": {
+      "beta": 1.6562135984390205,
+      "maxDay21": 0.052881120763465406
+     }
+    },
+    "SHORT": {
+     "on": false,
+     "rule": "short > 15% of float (info only, not counted)",
+     "value": 0.024
     }
    },
    "known": 4,
@@ -9012,7 +9012,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3550076220808308,
+      "beta": 0.3599000560775323,
       "maxDay21": 0.15058560731057247
      }
     },
@@ -9052,7 +9052,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5340510852833527,
+      "beta": 1.5354941498502472,
       "maxDay21": 0.03973407054264588
      }
     },
@@ -9092,7 +9092,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5928118176138504,
+      "beta": 1.5996985364178016,
       "maxDay21": 0.15637617061456632
      }
     },
@@ -9132,7 +9132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3782778048539335,
+      "beta": 1.3849846667942511,
       "maxDay21": 0.05236561165261189
      }
     },
@@ -9172,7 +9172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.4520737565523865,
+      "beta": 1.4481263225093965,
       "maxDay21": 0.06377129265280734
      }
     },
@@ -9212,7 +9212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0865639694190103,
+      "beta": 1.08632824173566,
       "maxDay21": 0.07570278868913083
      }
     },
@@ -9252,7 +9252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.4294364694689763,
+      "beta": -0.42944108168277306,
       "maxDay21": 0.02572515738475234
      }
     },
@@ -9292,8 +9292,8 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.995369084523403,
-      "maxDay21": 0.032960903081646675
+      "beta": 1.0006247745265773,
+      "maxDay21": 0.03595438687967123
      }
     },
     "SHORT": {
@@ -9332,7 +9332,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.107906891064962,
+      "beta": 1.103380648349198,
       "maxDay21": 0.0478137509412746
      }
     },
@@ -9372,7 +9372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1659478644113295,
+      "beta": 1.1647760779100556,
       "maxDay21": 0.09105764221377233
      }
     },
@@ -9412,7 +9412,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.8422540169438801,
+      "beta": 1.841608337412714,
       "maxDay21": 0.22540635786707508
      }
     },
@@ -9452,7 +9452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1682858729380112,
+      "beta": 1.1678465421001305,
       "maxDay21": 0.1448101574861551
      }
     },
@@ -9492,7 +9492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7712724415064799,
+      "beta": 0.7671401993990599,
       "maxDay21": 0.03644413053748252
      }
     },
@@ -9532,7 +9532,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.6493675474369525,
+      "beta": 1.648231215219123,
       "maxDay21": 0.26368572442423255
      }
     },
@@ -9572,8 +9572,8 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.3862828839936463,
-      "maxDay21": 0.07298242805055377
+      "beta": 2.3961856476084202,
+      "maxDay21": 0.09742363120644915
      }
     },
     "SHORT": {
@@ -9612,7 +9612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.35893371045409816,
+      "beta": 0.35387968328628516,
       "maxDay21": 0.03943217570711788
      }
     },
@@ -9652,7 +9652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.8808648278973408,
+      "beta": 1.8859045610727996,
       "maxDay21": 0.07330737874665605
      }
     },
@@ -9692,7 +9692,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.3344064989565574,
+      "beta": 2.335961956101312,
       "maxDay21": 0.07425970024943562
      }
     },
@@ -9732,7 +9732,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.8878187028874835,
+      "beta": 2.8875537053953164,
       "maxDay21": 0.09054463283168634
      }
     },
@@ -9812,7 +9812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.18637858605190027,
+      "beta": 0.18472494325683725,
       "maxDay21": 0.059166280879534794
      }
     },
@@ -9852,7 +9852,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.8350698498332756,
+      "beta": 1.8344409503096264,
       "maxDay21": 0.0695047936426132
      }
     },
@@ -9892,7 +9892,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.7855958509644286,
+      "beta": -0.7874936734110107,
       "maxDay21": 0.05790423281871249
      }
     },
@@ -9932,7 +9932,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.7203106865654707,
+      "beta": 3.7221660519966098,
       "maxDay21": 0.09497965115135543
      }
     },
@@ -9972,7 +9972,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.036484916625119,
+      "beta": 3.0381559330436136,
       "maxDay21": 0.11026438927737181
      }
     },
@@ -10012,7 +10012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.4486834086599494,
+      "beta": 1.4481713620581693,
       "maxDay21": 0.05485069588332503
      }
     },
@@ -10052,7 +10052,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 4.05708707710929,
+      "beta": 4.050369831842389,
       "maxDay21": 0.10990524596329565
      }
     },
@@ -10092,8 +10092,8 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.277043906665329,
-      "maxDay21": 0.04704426053125288
+      "beta": 1.287176332185698,
+      "maxDay21": 0.07422836693362589
      }
     },
     "SHORT": {
@@ -10132,7 +10132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3797174937379229,
+      "beta": 1.3830736144785687,
       "maxDay21": 0.0580494580798272
      }
     },
@@ -10172,7 +10172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.07279351738143422,
+      "beta": 0.07343595791727275,
       "maxDay21": 0.017355374506315968
      }
     },
@@ -10212,7 +10212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.32613060316514936,
+      "beta": 0.3283463188006805,
       "maxDay21": 0.05812648132875653
      }
     },
@@ -10252,7 +10252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.5022514737721638,
+      "beta": -0.503927863617917,
       "maxDay21": 0.06619722159744623
      }
     },
@@ -10292,8 +10292,8 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.1852184479959673,
-      "maxDay21": 0.057406316671396285
+      "beta": 2.1863726529655096,
+      "maxDay21": 0.05621652140672695
      }
     },
     "SHORT": {
@@ -10332,7 +10332,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.837993923895809,
+      "beta": 0.8362953035984564,
       "maxDay21": 0.03931200016308534
      }
     },
@@ -10340,46 +10340,6 @@
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
      "value": 0.1038
-    }
-   },
-   "known": 4,
-   "level": "clean"
-  },
-  "STNG": {
-   "asOf": "2026-10-08",
-   "companyName": "Scorpio Tankers Inc.",
-   "count": 0,
-   "flags": {
-    "ASSET_BLOAT": {
-     "on": false,
-     "rule": "assets +50% in a year",
-     "value": 0.02196026139044438
-    },
-    "DILUTION": {
-     "on": false,
-     "rule": "shares +10% in a year",
-     "value": 0.036851680632762784
-    },
-    "LOSS": {
-     "on": false,
-     "rule": "operating loss or negative free cash flow",
-     "value": {
-      "freeCashFlow": 416843000.0,
-      "operatingIncome": 309698000.0
-     }
-    },
-    "LOTTO": {
-     "on": false,
-     "rule": "beta > 2 or a +15% day in the last month",
-     "value": {
-      "beta": 0.20128306522029546,
-      "maxDay21": 0.04307181750842637
-     }
-    },
-    "SHORT": {
-     "on": false,
-     "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0513
     }
    },
    "known": 4,
@@ -10412,7 +10372,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.2826404083753697,
+      "beta": 2.283197058057604,
       "maxDay21": 0.06930384998656058
      }
     },
@@ -10452,7 +10412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.2976196205866855,
+      "beta": -0.2971991299570109,
       "maxDay21": 0.045838205324855386
      }
     },
@@ -10492,7 +10452,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.4924142681974013,
+      "beta": 2.4927831119927073,
       "maxDay21": 0.14083840540122305
      }
     },
@@ -10532,8 +10492,8 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.7757116690263954,
-      "maxDay21": 0.06733413204848859
+      "beta": 1.7793091371804017,
+      "maxDay21": 0.07246559205198522
      }
     },
     "SHORT": {
@@ -10572,7 +10532,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.6757442051219592,
+      "beta": -0.6795697858516798,
       "maxDay21": 0.03793884949507098
      }
     },
@@ -10612,8 +10572,8 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5316840961761932,
-      "maxDay21": 0.024937191705831863
+      "beta": 0.5407901566659052,
+      "maxDay21": 0.0474844633927789
      }
     },
     "SHORT": {
@@ -10652,7 +10612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7809409832949595,
+      "beta": 0.7845743610412755,
       "maxDay21": 0.07273237365709706
      }
     },
@@ -10692,7 +10652,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.062957862150577,
+      "beta": 1.0705909607180726,
       "maxDay21": 0.16506147857713693
      }
     },
@@ -10732,7 +10692,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.270538312593999,
+      "beta": 3.2679186050949056,
       "maxDay21": 0.07996825156131115
      }
     },
@@ -10772,8 +10732,8 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7051031232168389,
-      "maxDay21": 0.062420401603553
+      "beta": 0.7026550365519371,
+      "maxDay21": 0.047133719085887815
      }
     },
     "SHORT": {
@@ -10812,7 +10772,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.7743548441986285,
+      "beta": 2.775093459290359,
       "maxDay21": 0.07958472598748201
      }
     },
@@ -10852,7 +10812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.436813623904315,
+      "beta": 0.4341370402641767,
       "maxDay21": 0.033294604338831135
      }
     },
@@ -10892,7 +10852,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5432917831552115,
+      "beta": 0.5458487036550578,
       "maxDay21": 0.052978836917235705
      }
     },
@@ -10932,7 +10892,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5142587803170681,
+      "beta": 0.5156519235829987,
       "maxDay21": 0.04075498293888291
      }
     },
@@ -10972,7 +10932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.4016218911580476,
+      "beta": 1.4046584892024632,
       "maxDay21": 0.14330500554736925
      }
     },
@@ -11012,7 +10972,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.22078661710129377,
+      "beta": 0.21878892668746566,
       "maxDay21": 0.04406580375019242
      }
     },
@@ -11026,7 +10986,7 @@
    "level": "clean"
   },
   "TOST": {
-   "asOf": "2026-10-03",
+   "asOf": "2026-10-10",
    "companyName": "Toast, Inc.",
    "count": 0,
    "flags": {
@@ -11052,7 +11012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0879801640788922,
+      "beta": 1.0903634453009436,
       "maxDay21": 0.03642596583280522
      }
     },
@@ -11092,7 +11052,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.16860015715000387,
+      "beta": -0.17082295402369874,
       "maxDay21": 0.03329510592019114
      }
     },
@@ -11132,7 +11092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.37093768099491925,
+      "beta": 0.3674095388886166,
       "maxDay21": 0.052558717316276704
      }
     },
@@ -11172,7 +11132,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.0176456549930304,
+      "beta": 3.018553475961086,
       "maxDay21": 0.08427304056430662
      }
     },
@@ -11212,7 +11172,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.21723449400034,
+      "beta": 2.2170903258706818,
       "maxDay21": 0.04653924393000852
      }
     },
@@ -11252,7 +11212,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.1665063917340377,
+      "beta": 2.166525086428076,
       "maxDay21": 0.03002012953240496
      }
     },
@@ -11292,7 +11252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3849427580375122,
+      "beta": 1.3825804614094648,
       "maxDay21": 0.035834473710067316
      }
     },
@@ -11332,7 +11292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.314952551969074,
+      "beta": 1.3176596404734497,
       "maxDay21": 0.09112533445871907
      }
     },
@@ -11372,7 +11332,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.5597238329945475,
+      "beta": 2.5545829287067696,
       "maxDay21": 0.16107254750345024
      }
     },
@@ -11412,8 +11372,8 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.066171750893052,
-      "maxDay21": 0.029750314660164312
+      "beta": 1.06713177491419,
+      "maxDay21": 0.030281548565749494
      }
     },
     "SHORT": {
@@ -11452,7 +11412,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.1713068026867877,
+      "beta": 2.167249417479186,
       "maxDay21": 0.1122718534171605
      }
     },
@@ -11492,7 +11452,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.1410404517127435,
+      "beta": 2.142329898902487,
       "maxDay21": 0.06547765172718267
      }
     },
@@ -11532,7 +11492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6968873558126745,
+      "beta": 0.6936814509626072,
       "maxDay21": 0.04295304427570734
      }
     },
@@ -11572,7 +11532,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5468286973861292,
+      "beta": 0.5477152168913084,
       "maxDay21": 0.03433680826895036
      }
     },
@@ -11612,7 +11572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.7574222497386995,
+      "beta": 1.757076186872839,
       "maxDay21": 0.08610734876093029
      }
     },
@@ -11652,7 +11612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.23166556781438744,
+      "beta": 0.2334839529297627,
       "maxDay21": 0.1254907123487392
      }
     },
@@ -11692,7 +11652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6778487865228281,
+      "beta": 0.6771885702635392,
       "maxDay21": 0.003513713898048776
      }
     },
@@ -11732,7 +11692,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3318445128224943,
+      "beta": 1.3348199396785465,
       "maxDay21": 0.03489404654524919
      }
     },
@@ -11772,7 +11732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0410894823896182,
+      "beta": 1.0376894035185709,
       "maxDay21": 0.02497645206399568
      }
     },
@@ -11812,8 +11772,8 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.574685298257306,
-      "maxDay21": 0.03771413974081983
+      "beta": 0.5804738580264588,
+      "maxDay21": 0.03963631754695407
      }
     },
     "SHORT": {
@@ -11852,7 +11812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0720206499939977,
+      "beta": 1.0737042684379277,
       "maxDay21": 0.05318784418684941
      }
     },
@@ -11892,7 +11852,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.1293341390357265,
+      "beta": 2.1299141155586434,
       "maxDay21": 0.09266722549984263
      }
     },
@@ -11932,7 +11892,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.338068878229041,
+      "beta": 3.335134913233427,
       "maxDay21": 0.19848148125431475
      }
     },
@@ -11972,7 +11932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.27973406845046717,
+      "beta": -0.2861126701970008,
       "maxDay21": 0.0537911996374516
      }
     },
@@ -12012,8 +11972,8 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.245489697237347,
-      "maxDay21": 0.06576868143971337
+      "beta": 3.2492748304579,
+      "maxDay21": 0.06823910731674854
      }
     },
     "SHORT": {
@@ -12052,7 +12012,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.9433269009019143,
+      "beta": 2.93827285132575,
       "maxDay21": 0.11409395375500564
      }
     },
@@ -12092,7 +12052,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.364534872941378,
+      "beta": 1.3635733774221706,
       "maxDay21": 0.06488960337456451
      }
     },
@@ -12132,7 +12092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7156773992686465,
+      "beta": 0.716698283048563,
       "maxDay21": 0.024677539873267706
      }
     },
@@ -12145,41 +12105,41 @@
    "known": 4,
    "level": "clean"
   },
-  "WHD": {
-   "asOf": "2026-10-09",
-   "companyName": "Cactus, Inc. Class A Common Sto",
+  "WPP": {
+   "asOf": "2026-10-10",
+   "companyName": "WPP plc",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
      "on": false,
      "rule": "assets +50% in a year",
-     "value": 0.07605753486403954
+     "value": -0.05621545336939904
     },
     "DILUTION": {
      "on": false,
      "rule": "shares +10% in a year",
-     "value": 0.01083150840519509
+     "value": -0.00022067506087752875
     },
     "LOSS": {
      "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": 219612000.0,
-      "operatingIncome": 250501000.0
+      "freeCashFlow": 538000000.0,
+      "operatingIncome": 382000000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.145864090798291,
-      "maxDay21": 0.04191523747343684
+      "beta": 1.0363332320680565,
+      "maxDay21": 0.04285152632032174
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0596
+     "value": 0.0088
     }
    },
    "known": 4,
@@ -12212,7 +12172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5472355189309213,
+      "beta": 1.5427420085204073,
       "maxDay21": 0.03732014083848734
      }
     },
@@ -12252,7 +12212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7453099051103929,
+      "beta": 0.7438898785113782,
       "maxDay21": 0.03092273630052733
      }
     },
@@ -12292,7 +12252,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.1712994552010523,
+      "beta": 2.1748354655031066,
       "maxDay21": 0.06353830564111784
      }
     },
@@ -12332,7 +12292,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.9513326510003577,
+      "beta": 1.9543454979085508,
       "maxDay21": 0.30930230783861745
      }
     },
@@ -12372,7 +12332,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.754480989272219,
+      "beta": 1.7552735189897353,
       "maxDay21": 0.03069772296799189
      }
     },
@@ -12412,7 +12372,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.2336672861623117,
+      "beta": 2.2300402563856725,
       "maxDay21": 0.09012433331708758
      }
     },
@@ -12452,7 +12412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9465303968892259,
+      "beta": 0.9430844026823985,
       "maxDay21": 0.03511765050544735
      }
     },
@@ -12492,7 +12452,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.926886287647493,
+      "beta": 0.9339233896909067,
       "maxDay21": 0.16524859335640785
      }
     },
@@ -12508,19 +12468,19 @@
  },
  "tracked": {
   "caution": {
-   "avgExcess": 6.4,
-   "avgReturn": 7.0,
+   "avgExcess": 7.1,
+   "avgReturn": 7.8,
    "n": 56
   },
   "clean": {
    "avgExcess": 2.9,
-   "avgReturn": 3.5,
-   "n": 229
+   "avgReturn": 3.6,
+   "n": 232
   },
   "veto": {
-   "avgExcess": -1.3,
-   "avgReturn": -0.7,
-   "n": 23
+   "avgExcess": -1.4,
+   "avgReturn": -0.8,
+   "n": 22
   }
  }
 }
