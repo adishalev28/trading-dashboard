@@ -827,6 +827,15 @@
   "sharesYoY": 0.01070660741798446,
   "shortPctFloat": 0.15020001
  },
+ "CHRD": {
+  "assetsYoY": 0.003243322383114089,
+  "companyName": "Chord Energy Corporation",
+  "fetchedAt": "2026-10-12",
+  "freeCashFlow": 692720000.0,
+  "operatingIncome": 188714000.0,
+  "sharesYoY": -0.05507908797027539,
+  "shortPctFloat": 0.0958
+ },
  "CHYM": {
   "assetsYoY": 0.3446647826167304,
   "companyName": "Chime Financial, Inc.",
@@ -970,6 +979,15 @@
   "operatingIncome": 333992000.0,
   "sharesYoY": 0.003960337402995506,
   "shortPctFloat": 0.044899996
+ },
+ "COP": {
+  "assetsYoY": -0.006849649780094502,
+  "companyName": "ConocoPhillips",
+  "fetchedAt": "2026-10-12",
+  "freeCashFlow": 7243000000.0,
+  "operatingIncome": 11342000000.0,
+  "sharesYoY": -0.03973661750582658,
+  "shortPctFloat": 0.0128
  },
  "CORT": {
   "assetsYoY": -0.004642181992093319,
@@ -1231,6 +1249,15 @@
   "operatingIncome": 911800000.0,
   "sharesYoY": -0.015101100588686966,
   "shortPctFloat": 0.052800003
+ },
+ "E": {
+  "assetsYoY": -0.06717073071138369,
+  "companyName": "ENI S.p.A.",
+  "fetchedAt": "2026-10-12",
+  "freeCashFlow": 4101000000.0,
+  "operatingIncome": 4506000000.0,
+  "sharesYoY": -0.04073241740929867,
+  "shortPctFloat": 0.0007
  },
  "EAT": {
   "assetsYoY": 0.05092212349734937,
@@ -1883,11 +1910,11 @@
  "INSP": {
   "assetsYoY": 0.12238505757790552,
   "companyName": "Inspire Medical Systems, Inc.",
-  "fetchedAt": "2026-10-01",
+  "fetchedAt": "2026-10-12",
   "freeCashFlow": 78477000.0,
   "operatingIncome": 50954000.0,
   "sharesYoY": -0.03904351473911927,
-  "shortPctFloat": 0.17790002
+  "shortPctFloat": 0.19
  },
  "INSW": {
   "assetsYoY": 0.01223070728725606,
@@ -2032,6 +2059,15 @@
   "operatingIncome": 1313668000000.0,
   "sharesYoY": 0.001116765444191259,
   "shortPctFloat": 0.0083
+ },
+ "KSS": {
+  "assetsYoY": -0.014529095066007858,
+  "companyName": "Kohl's Corporation",
+  "fetchedAt": "2026-10-12",
+  "freeCashFlow": 1008000000.0,
+  "operatingIncome": 510000000.0,
+  "sharesYoY": 0.0061310753068988255,
+  "shortPctFloat": 0.32389998
  },
  "KYMR": {
   "assetsYoY": 0.7819525886087921,
@@ -3575,11 +3611,11 @@
  "SEI": {
   "assetsYoY": 0.8957856019418677,
   "companyName": "Solaris Energy Infrastructure, ",
-  "fetchedAt": "2026-10-02",
+  "fetchedAt": "2026-10-12",
   "freeCashFlow": -437653000.0,
   "operatingIncome": 135386000.0,
   "sharesYoY": 0.3964054893515332,
-  "shortPctFloat": 0.2493
+  "shortPctFloat": 0.259
  },
  "SEZL": {
   "assetsYoY": 0.34137586636815787,
@@ -3908,11 +3944,11 @@
  "TDW": {
   "assetsYoY": 0.15037177623639453,
   "companyName": "Tidewater Inc.",
-  "fetchedAt": "2026-09-22",
+  "fetchedAt": "2026-10-12",
   "freeCashFlow": 353347000.0,
   "operatingIncome": 277259000.0,
   "sharesYoY": -0.036826346514145625,
-  "shortPctFloat": 0.15359999
+  "shortPctFloat": 0.15020001
  },
  "TEAM": {
   "assetsYoY": 0.010188564325873894,
@@ -4466,11 +4502,11 @@
  "YPF": {
   "assetsYoY": 0.001633153006022292,
   "companyName": "YPF Sociedad Anonima",
-  "fetchedAt": "2026-10-05",
+  "fetchedAt": "2026-10-12",
   "freeCashFlow": -118000000.0,
   "operatingIncome": 1630000000.0,
   "sharesYoY": -0.002293673168164645,
-  "shortPctFloat": 72.3631
+  "shortPctFloat": null
  },
  "ZBIO": {
   "assetsYoY": 0.03695454742031745,

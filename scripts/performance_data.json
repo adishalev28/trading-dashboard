@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-12 00:46:24",
+  "lastUpdate": "2026-10-12 19:24:00",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -13412,10 +13412,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-10-06"
+      "lastSeen": "2026-10-12"
     },
     "SGML": {
       "firstSeen": "2026-05-02",
@@ -14230,7 +14236,8 @@
         {
           "date": "2026-10-12",
           "lists": [
-            "breakout"
+            "breakout",
+            "topPick"
           ]
         }
       ],
@@ -14322,6 +14329,15 @@
           "score": 97,
           "grade": "A+",
           "tags": [
+            "eps_extreme"
+          ]
+        },
+        {
+          "date": "2026-10-12",
+          "score": 87,
+          "grade": "A+",
+          "tags": [
+            "extended",
             "eps_extreme"
           ]
         }
@@ -15325,10 +15341,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-09-13"
+      "lastSeen": "2026-10-12"
     },
     "TTMI": {
       "firstSeen": "2026-05-04",
@@ -17171,10 +17193,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-12"
     },
     "ALGM": {
       "firstSeen": "2026-05-05",
@@ -22862,6 +22890,12 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "lists": [
+            "topPick"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -22931,10 +22965,19 @@
             "extended",
             "eps_extreme"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "score": 90,
+          "grade": "A+",
+          "tags": [
+            "extended",
+            "eps_extreme"
+          ]
         }
       ],
-      "lastSeen": "2026-10-09",
-      "bestTopPickScore": 85
+      "lastSeen": "2026-10-12",
+      "bestTopPickScore": 90
     },
     "CYTK": {
       "firstSeen": "2026-05-08",
@@ -28286,6 +28329,12 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -28314,7 +28363,7 @@
           ]
         }
       ],
-      "lastSeen": "2026-09-14",
+      "lastSeen": "2026-10-12",
       "bestTopPickScore": 85
     },
     "TER": {
@@ -29243,10 +29292,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-10-06"
+      "lastSeen": "2026-10-12"
     },
     "FROG": {
       "firstSeen": "2026-05-29",
@@ -29960,10 +30015,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-12"
     },
     "VSXY": {
       "firstSeen": "2026-06-02",
@@ -35176,10 +35237,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-10-06"
+      "lastSeen": "2026-10-12"
     },
     "DD": {
       "firstSeen": "2026-06-25",
@@ -36350,10 +36417,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-12"
     },
     "NRIX": {
       "firstSeen": "2026-06-29",
@@ -36744,6 +36817,12 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -36780,7 +36859,7 @@
           ]
         }
       ],
-      "lastSeen": "2026-10-08",
+      "lastSeen": "2026-10-12",
       "bestTopPickScore": 89
     },
     "UGP": {
@@ -38423,10 +38502,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-12"
     },
     "DVA": {
       "firstSeen": "2026-07-07",
@@ -43120,7 +43205,8 @@
         {
           "date": "2026-10-12",
           "lists": [
-            "breakout"
+            "breakout",
+            "topPick"
           ]
         }
       ],
@@ -43166,10 +43252,16 @@
           "score": 87,
           "grade": "A+",
           "tags": []
+        },
+        {
+          "date": "2026-10-12",
+          "score": 97,
+          "grade": "A+",
+          "tags": []
         }
       ],
       "lastSeen": "2026-10-12",
-      "bestTopPickScore": 90
+      "bestTopPickScore": 97
     },
     "SLDE": {
       "firstSeen": "2026-08-28",
@@ -45029,10 +45121,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-10-08"
+      "lastSeen": "2026-10-12"
     },
     "CIB": {
       "firstSeen": "2026-09-03",
@@ -45756,10 +45854,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-12"
     },
     "IOVA": {
       "firstSeen": "2026-09-14",
@@ -46191,10 +46295,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-12"
     },
     "RBRK": {
       "firstSeen": "2026-09-16",
@@ -46550,10 +46660,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-12"
     },
     "NTSK": {
       "firstSeen": "2026-09-18",
@@ -46804,10 +46920,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-12"
     },
     "SMCI": {
       "firstSeen": "2026-09-25",
@@ -46928,10 +47050,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-10-05"
+      "lastSeen": "2026-10-12"
     },
     "PLTR": {
       "firstSeen": "2026-10-06",
@@ -47102,10 +47230,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-10-09"
+      "lastSeen": "2026-10-12"
     },
     "LIND": {
       "firstSeen": "2026-10-09",
@@ -47176,6 +47310,34 @@
       ],
       "topPicksHistory": [],
       "lastSeen": "2026-10-09"
+    },
+    "U": {
+      "firstSeen": "2026-10-12",
+      "entryPrice": 46.73,
+      "appearances": [
+        {
+          "date": "2026-10-12",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-10-12"
+    },
+    "NTNX": {
+      "firstSeen": "2026-10-12",
+      "entryPrice": 74.02,
+      "appearances": [
+        {
+          "date": "2026-10-12",
+          "lists": [
+            "breakout"
+          ]
+        }
+      ],
+      "topPicksHistory": [],
+      "lastSeen": "2026-10-12"
     }
   }
 }
