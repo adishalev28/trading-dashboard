@@ -2,20 +2,20 @@
  "A": {
   "assetsYoY": 0.07437109572851597,
   "companyName": "Agilent Technologies, Inc.",
-  "fetchedAt": "2026-09-25",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 1152000000.0,
   "operatingIncome": 1479000000.0,
   "sharesYoY": -0.007498900455172763,
-  "shortPctFloat": 0.020499999
+  "shortPctFloat": 0.0211
  },
  "AAMI": {
   "assetsYoY": -0.03725824800910127,
   "companyName": "Acadian Asset Management Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -14300000.0,
   "operatingIncome": 132100000.0,
   "sharesYoY": -0.04719037373337698,
-  "shortPctFloat": 0.046
+  "shortPctFloat": 0.0728
  },
  "AAOI": {
   "assetsYoY": 1.1359317188025564,
@@ -26,14 +26,41 @@
   "sharesYoY": 0.5183988587490824,
   "shortPctFloat": 0.15020001
  },
+ "AAPL": {
+  "assetsYoY": -0.015724149268453114,
+  "companyName": "Apple Inc.",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 98767000000.0,
+  "operatingIncome": 133050000000.0,
+  "sharesYoY": -0.022724804068801396,
+  "shortPctFloat": 0.0083
+ },
+ "ABBV": {
+  "assetsYoY": -0.008885699277158321,
+  "companyName": "AbbVie Inc.",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 17816000000.0,
+  "operatingIncome": 20091000000.0,
+  "sharesYoY": 0.0014836644300355584,
+  "shortPctFloat": 0.010199999
+ },
  "ABCL": {
   "assetsYoY": -0.002648187905947119,
   "companyName": "AbCellera Biologics Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -174067000.0,
   "operatingIncome": -203213000.0,
   "sharesYoY": 0.016377323164778357,
-  "shortPctFloat": 0.13340001
+  "shortPctFloat": 0.1278
+ },
+ "ABEV": {
+  "assetsYoY": -0.10720129371853626,
+  "companyName": "Ambev S.A.",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 19859900000.0,
+  "operatingIncome": 22322600000.0,
+  "sharesYoY": -0.007078195946377042,
+  "shortPctFloat": null
  },
  "ABNB": {
   "assetsYoY": 0.05959253781191842,
@@ -43,6 +70,15 @@
   "operatingIncome": 2544000000.0,
   "sharesYoY": -0.0337078651685393,
   "shortPctFloat": 0.035
+ },
+ "ACA": {
+  "assetsYoY": 0.014179635845793959,
+  "companyName": "Arcosa, Inc.",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 175500000.0,
+  "operatingIncome": 341900000.0,
+  "sharesYoY": 0.0054986571694775055,
+  "shortPctFloat": 0.0364
  },
  "ACAD": {
   "assetsYoY": 0.3169329390884996,
@@ -56,11 +92,11 @@
  "ACHC": {
   "assetsYoY": -0.0720955393857391,
   "companyName": "Acadia Healthcare Company, Inc.",
-  "fetchedAt": "2026-09-22",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -439909000.0,
   "operatingIncome": 387965000.0,
   "sharesYoY": -0.014409340189966646,
-  "shortPctFloat": 0.3726
+  "shortPctFloat": 0.3756
  },
  "ACLS": {
   "assetsYoY": 0.009319526298190661,
@@ -80,32 +116,41 @@
   "sharesYoY": 0.04210773019408798,
   "shortPctFloat": 0.0764
  },
+ "ACN": {
+  "assetsYoY": 0.16917815540888204,
+  "companyName": "Accenture plc",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 10874360000.0,
+  "operatingIncome": 10840988000.0,
+  "sharesYoY": -0.005476528000634029,
+  "shortPctFloat": 0.036
+ },
  "ADI": {
   "assetsYoY": -0.004884375197563018,
   "companyName": "Analog Devices, Inc.",
-  "fetchedAt": "2026-10-02",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 4278650000.0,
   "operatingIncome": 3002476000.0,
   "sharesYoY": -0.013384644586120986,
-  "shortPctFloat": 0.0199
+  "shortPctFloat": 0.0229
  },
  "ADPT": {
   "assetsYoY": -0.049390406692177646,
   "companyName": "Adaptive Biotechnologies Corpor",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -48945000.0,
   "operatingIncome": -57123000.0,
   "sharesYoY": 0.04064100859486919,
-  "shortPctFloat": 0.106800005
+  "shortPctFloat": 0.0938
  },
  "AEHR": {
   "assetsYoY": 0.6611495677000565,
   "companyName": "Aehr Test Systems",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -5376000.0,
   "operatingIncome": -14143000.0,
   "sharesYoY": 0.08712387455233128,
-  "shortPctFloat": 0.16520001
+  "shortPctFloat": 0.1685
  },
  "AEM": {
   "assetsYoY": 0.14954047781610025,
@@ -119,61 +164,70 @@
  "ALAB": {
   "assetsYoY": 0.45264236971175187,
   "companyName": "Astera Labs, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 281762000.0,
   "operatingIncome": 173423000.0,
   "sharesYoY": 0.05041415151402928,
-  "shortPctFloat": 0.0657
+  "shortPctFloat": 0.0694
  },
  "ALVO": {
   "assetsYoY": 0.2175364336007859,
   "companyName": "Alvotech",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -146326000.0,
   "operatingIncome": 78207000.0,
   "sharesYoY": 0.033848594571002755,
-  "shortPctFloat": 0.0361
+  "shortPctFloat": 0.0395
  },
  "AMAT": {
   "assetsYoY": 0.05492748990089802,
   "companyName": "Applied Materials, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 5698000000.0,
   "operatingIncome": 8470000000.0,
   "sharesYoY": -0.030562347188264005,
-  "shortPctFloat": 0.0178
+  "shortPctFloat": 0.0171
  },
  "AMC": {
   "assetsYoY": -0.027850863898150946,
   "companyName": "AMC Entertainment Holdings, Inc",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -365900000.0,
   "operatingIncome": 40500000.0,
   "sharesYoY": 0.23774501170855844,
-  "shortPctFloat": 0.048800003
+  "shortPctFloat": 0.0553
  },
  "AMD": {
   "assetsYoY": 0.1112298847253923,
   "companyName": "Advanced Micro Devices, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 6735000000.0,
   "operatingIncome": 3694000000.0,
   "sharesYoY": 0.004932182490752224,
-  "shortPctFloat": 0.024600001
+  "shortPctFloat": 0.0242
+ },
+ "AMGN": {
+  "assetsYoY": -0.013643441239560516,
+  "companyName": "Amgen Inc.",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 8100000000.0,
+  "operatingIncome": 9080000000.0,
+  "sharesYoY": 0.003351955307262511,
+  "shortPctFloat": 0.025999999
  },
  "AMLX": {
   "assetsYoY": 0.7179059462697668,
   "companyName": "Amylyx Pharmaceuticals, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -123481000.0,
   "operatingIncome": -153291000.0,
   "sharesYoY": 0.6011208144201279,
-  "shortPctFloat": 0.1348
+  "shortPctFloat": 0.12640001
  },
  "AMRX": {
   "assetsYoY": 0.050503435010402775,
   "companyName": "Amneal Pharmaceuticals, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 225635000.0,
   "operatingIncome": 397914000.0,
   "sharesYoY": 0.015115479813218702,
@@ -182,29 +236,47 @@
  "ANET": {
   "assetsYoY": 0.38484324154971206,
   "companyName": "Arista Networks, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 4252400000.0,
   "operatingIncome": 3856100000.0,
   "sharesYoY": -0.0038324504056815867,
-  "shortPctFloat": 0.0127
+  "shortPctFloat": 0.0114
  },
  "ANF": {
   "assetsYoY": 0.07333190500159548,
   "companyName": "Abercrombie & Fitch Company",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 378368000.0,
   "operatingIncome": 699143000.0,
   "sharesYoY": -0.10664521966422036,
-  "shortPctFloat": 0.1725
+  "shortPctFloat": 0.14479999
  },
  "APA": {
   "assetsYoY": -0.08401237751418256,
   "companyName": "APA Corporation",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 1779000000.0,
   "operatingIncome": 2750000000.0,
   "sharesYoY": -0.03402463055342553,
-  "shortPctFloat": 0.0921
+  "shortPctFloat": 0.096
+ },
+ "APH": {
+  "assetsYoY": 0.6901381516963461,
+  "companyName": "Amphenol Corporation",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 4378100000.0,
+  "operatingIncome": 5972000000.0,
+  "sharesYoY": 0.014305796741916899,
+  "shortPctFloat": 0.0139999995
+ },
+ "APLE": {
+  "assetsYoY": -0.013630400489343941,
+  "companyName": "Apple Hospitality REIT, Inc.",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 282811000.0,
+  "operatingIncome": 250412000.0,
+  "sharesYoY": -0.017225518365507342,
+  "shortPctFloat": 0.129
  },
  "APPF": {
   "assetsYoY": 0.0993955428465656,
@@ -254,43 +326,52 @@
  "ARM": {
   "assetsYoY": 0.19827586206896552,
   "companyName": "Arm Holdings plc",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 949000000.0,
   "operatingIncome": 908000000.0,
   "sharesYoY": 0.007136758121360165,
-  "shortPctFloat": 0.1069
+  "shortPctFloat": 0.111499995
+ },
+ "ARMK": {
+  "assetsYoY": 0.04972696475430616,
+  "companyName": "Aramark",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 431795000.0,
+  "operatingIncome": 791846000.0,
+  "sharesYoY": -0.0039421386186874185,
+  "shortPctFloat": 0.0298
  },
  "ARW": {
   "assetsYoY": 0.3364523200905316,
   "companyName": "Arrow Electronics, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -37205000.0,
   "operatingIncome": 938342000.0,
   "sharesYoY": -0.021122441156175675,
-  "shortPctFloat": 0.0373
+  "shortPctFloat": 0.0377
  },
  "ARX": {
   "assetsYoY": 0.35574004495561873,
   "companyName": "Accelerant Holdings",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 403700000.0,
   "operatingIncome": -1252900000.0,
   "sharesYoY": 1.0377781730186442e-05,
-  "shortPctFloat": 0.076799996
+  "shortPctFloat": 0.072399996
  },
  "ASH": {
   "assetsYoY": -0.183170947741364,
   "companyName": "Ashland Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -4000000.0,
   "operatingIncome": 88000000.0,
   "sharesYoY": -0.021276595744680882,
-  "shortPctFloat": 0.1083
+  "shortPctFloat": 0.1137
  },
  "ASML": {
   "assetsYoY": 0.04068771918270575,
   "companyName": "ASML Holding N.V. - New York Re",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 11027300000.0,
   "operatingIncome": 11301400000.0,
   "sharesYoY": -0.02000096774918625,
@@ -308,56 +389,56 @@
  "ASST": {
   "assetsYoY": 25.43994041919353,
   "companyName": "Strive, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -21619000.0,
   "operatingIncome": -22654000.0,
   "sharesYoY": 0.40753817780922064,
-  "shortPctFloat": 0.2832
+  "shortPctFloat": 0.25030002
  },
  "ASX": {
   "assetsYoY": 0.20030722907565002,
   "companyName": "ASE Technology Holding Co., Ltd",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -23599076000.0,
   "operatingIncome": 51534932000.0,
   "sharesYoY": 0.007392634120021002,
-  "shortPctFloat": 0.0083
+  "shortPctFloat": 0.0068
  },
  "ATEN": {
   "assetsYoY": 0.455155204879683,
   "companyName": "A10 Networks, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 64766000.0,
   "operatingIncome": 47142000.0,
   "sharesYoY": -0.029785732701884893,
-  "shortPctFloat": 0.18969999
+  "shortPctFloat": 0.1907
  },
  "ATI": {
   "assetsYoY": -0.025044927924138705,
   "companyName": "ATI Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 333700000.0,
   "operatingIncome": 641900000.0,
   "sharesYoY": -0.03856220947082645,
-  "shortPctFloat": 0.048499998
+  "shortPctFloat": 0.053000003
  },
  "ATKR": {
   "assetsYoY": -0.056093477103186795,
   "companyName": "Atkore Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 295654000.0,
   "operatingIncome": 237559000.0,
   "sharesYoY": -0.03424578645081755,
-  "shortPctFloat": 0.0395
+  "shortPctFloat": 0.048899997
  },
  "ATRC": {
   "assetsYoY": 0.07360731822597999,
   "companyName": "AtriCure, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 42284000.0,
   "operatingIncome": -9447000.0,
   "sharesYoY": 0.018887229122756866,
-  "shortPctFloat": 0.0876
+  "shortPctFloat": 0.0986
  },
  "ATRO": {
   "assetsYoY": 0.08926820847026029,
@@ -380,11 +461,11 @@
  "AUGO": {
   "assetsYoY": 0.4894497816270498,
   "companyName": "Aura Minerals Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 125750000.0,
   "operatingIncome": 453777000.0,
   "sharesYoY": 0.15407360230896638,
-  "shortPctFloat": 0.16690001
+  "shortPctFloat": 0.1689
  },
  "AUPH": {
   "assetsYoY": 0.364921137938236,
@@ -407,11 +488,11 @@
  "AVAH": {
   "assetsYoY": 0.20980296911014462,
   "companyName": "Aveanna Healthcare Holdings Inc",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 118412000.0,
   "operatingIncome": 260276000.0,
   "sharesYoY": 0.09197135837013626,
-  "shortPctFloat": 0.0614
+  "shortPctFloat": 0.063200004
  },
  "AVGO": {
   "assetsYoY": 0.03288357632285921,
@@ -443,20 +524,20 @@
  "AVT": {
   "assetsYoY": 0.27287416245157314,
   "companyName": "Avnet, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -354497000.0,
   "operatingIncome": 859488000.0,
   "sharesYoY": -0.021128119986259408,
-  "shortPctFloat": 0.119799994
+  "shortPctFloat": 0.12640001
  },
  "AVTR": {
   "assetsYoY": -0.0263981179578191,
   "companyName": "Avantor, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 495000000.0,
   "operatingIncome": 543900000.0,
   "sharesYoY": 0.001762632197414904,
-  "shortPctFloat": 0.0922
+  "shortPctFloat": 0.0706
  },
  "AXGN": {
   "assetsYoY": 0.08815184952485677,
@@ -479,7 +560,7 @@
  "AYA": {
   "assetsYoY": 0.5789101415371387,
   "companyName": "Aya Gold & Silver Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -4245000.0,
   "operatingIncome": 56702000.0,
   "sharesYoY": 0.08598263701858411,
@@ -515,29 +596,29 @@
  "BAX": {
   "assetsYoY": -0.22213171980451474,
   "companyName": "Baxter International Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 323000000.0,
   "operatingIncome": 177000000.0,
   "sharesYoY": 0.006564571804018815,
-  "shortPctFloat": 0.0709
+  "shortPctFloat": 0.0744
  },
  "BB": {
   "assetsYoY": -0.03890089533806729,
   "companyName": "BlackBerry Limited",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 40800000.0,
   "operatingIncome": 50400000.0,
   "sharesYoY": -0.014758608813899343,
-  "shortPctFloat": 0.0642
+  "shortPctFloat": 0.0683
  },
  "BBD": {
   "assetsYoY": 0.1260424378118592,
   "companyName": "Banco Bradesco Sa",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -74164468000.0,
   "operatingIncome": null,
   "sharesYoY": -0.0018845839774013218,
-  "shortPctFloat": 0.003
+  "shortPctFloat": 0.0026
  },
  "BBVA": {
   "assetsYoY": 0.1128609195729684,
@@ -551,29 +632,29 @@
  "BBY": {
   "assetsYoY": -0.007576782573400109,
   "companyName": "Best Buy Co., Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 1258000000.0,
   "operatingIncome": 1750000000.0,
   "sharesYoY": -0.010879848628193023,
-  "shortPctFloat": 0.086
+  "shortPctFloat": 0.08
  },
  "BDX": {
   "assetsYoY": -0.03423174946758367,
   "companyName": "Becton, Dickinson and Company",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 2671000000.0,
   "operatingIncome": 2986000000.0,
   "sharesYoY": -0.012795344596819413,
-  "shortPctFloat": 0.047399998
+  "shortPctFloat": 0.040900003
  },
  "BE": {
   "assetsYoY": 0.6545447087591643,
   "companyName": "Bloom Energy Corporation",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 57190000.0,
   "operatingIncome": 72802000.0,
   "sharesYoY": 0.22214556782694062,
-  "shortPctFloat": 0.0734
+  "shortPctFloat": 0.081099994
  },
  "BEN": {
   "assetsYoY": -0.002963236766313937,
@@ -587,20 +668,20 @@
  "BFH": {
   "assetsYoY": -0.009960246385042115,
   "companyName": "Bread Financial Holdings, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 2092000000.0,
   "operatingIncome": 1044000000.0,
   "sharesYoY": -0.10183299389002032,
-  "shortPctFloat": 0.1021
+  "shortPctFloat": 0.1185
  },
  "BFLY": {
   "assetsYoY": 0.15796112182816446,
   "companyName": "Butterfly Network, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -16048000.0,
   "operatingIncome": -86415000.0,
   "sharesYoY": 0.179919627381687,
-  "shortPctFloat": 0.16700001
+  "shortPctFloat": 0.1479
  },
  "BGC": {
   "assetsYoY": 0.22829330002196557,
@@ -614,29 +695,29 @@
  "BHE": {
   "assetsYoY": -0.029388918144491072,
   "companyName": "Benchmark Electronics, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 85420000.0,
   "operatingIncome": 105589000.0,
   "sharesYoY": -0.008974216492553921,
-  "shortPctFloat": 0.045300003
+  "shortPctFloat": 0.0469
  },
  "BHP": {
   "assetsYoY": 0.11579189263719081,
   "companyName": "BHP Group Limited",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 11929000000.0,
   "operatingIncome": 25501000000.0,
   "sharesYoY": 0.0009600208688578249,
-  "shortPctFloat": 0.0068
+  "shortPctFloat": 0.0083
  },
  "BIIB": {
   "assetsYoY": 0.04956273418587975,
   "companyName": "Biogen Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 1969200000.0,
   "operatingIncome": 2469000000.0,
   "sharesYoY": 0.00741603688295589,
-  "shortPctFloat": 0.043899998
+  "shortPctFloat": 0.045
  },
  "BMNR": {
   "assetsYoY": 1206.7798681680856,
@@ -677,20 +758,20 @@
  "BOX": {
   "assetsYoY": -0.0728387065822299,
   "companyName": "Box, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 315202000.0,
   "operatingIncome": 83189000.0,
   "sharesYoY": -0.02221930305739206,
-  "shortPctFloat": 0.1531
+  "shortPctFloat": 0.1576
  },
  "BP": {
   "assetsYoY": -0.01311705429652621,
   "companyName": "BP p.l.c.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 11272000000.0,
   "operatingIncome": 15808000000.0,
   "sharesYoY": -0.029889068585085332,
-  "shortPctFloat": 0.0028
+  "shortPctFloat": 0.0023
  },
  "BPOP": {
   "assetsYoY": 0.03152675645495617,
@@ -704,11 +785,11 @@
  "BRKR": {
   "assetsYoY": 0.07486179757865918,
   "companyName": "Bruker Corporation",
-  "fetchedAt": "2026-09-29",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 13900000.0,
   "operatingIncome": 236000000.0,
   "sharesYoY": 0.0030662927199860412,
-  "shortPctFloat": 0.158
+  "shortPctFloat": 0.15689999
  },
  "BTE": {
   "assetsYoY": -0.5688757813562173,
@@ -717,6 +798,15 @@
   "freeCashFlow": 207475000.0,
   "operatingIncome": 226287000.0,
   "sharesYoY": -0.010369644126733801,
+  "shortPctFloat": null
+ },
+ "BTG": {
+  "assetsYoY": 0.22129589584374565,
+  "companyName": "B2Gold Corp",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 895836000.0,
+  "operatingIncome": 1404584000.0,
+  "sharesYoY": 0.01713243955788446,
   "shortPctFloat": null
  },
  "BTSG": {
@@ -737,14 +827,23 @@
   "sharesYoY": 0.0,
   "shortPctFloat": 0.0227
  },
+ "BWIN": {
+  "assetsYoY": 0.0926489172726297,
+  "companyName": "The Baldwin Insurance Group, In",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": -68945000.0,
+  "operatingIncome": 79530000.0,
+  "sharesYoY": 0.055902051766579586,
+  "shortPctFloat": 0.0884
+ },
  "BWLP": {
   "assetsYoY": -0.05135705723974682,
   "companyName": "BW LPG Limited",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 385020000.0,
   "operatingIncome": 291906000.0,
   "sharesYoY": -0.001292015386485157,
-  "shortPctFloat": 0.0154
+  "shortPctFloat": 0.0128999995
  },
  "CAI": {
   "assetsYoY": 2.274808427446805,
@@ -758,11 +857,11 @@
  "CAKE": {
   "assetsYoY": 0.07229761716900751,
   "companyName": "The Cheesecake Factory Incorpor",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 154021000.0,
   "operatingIncome": 257804000.0,
   "sharesYoY": -0.033047517179145225,
-  "shortPctFloat": 0.3796
+  "shortPctFloat": 0.39330003
  },
  "CART": {
   "assetsYoY": -0.10400972053462942,
@@ -785,29 +884,38 @@
  "CBZ": {
   "assetsYoY": -0.013723239905853002,
   "companyName": "CBIZ, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 175526000.0,
   "operatingIncome": 234010000.0,
   "sharesYoY": 0.08331009203553918,
-  "shortPctFloat": 0.045700002
+  "shortPctFloat": 0.0469
  },
  "CDNA": {
   "assetsYoY": -0.1584808064351899,
   "companyName": "CareDx, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 35444000.0,
   "operatingIncome": -25071000.0,
   "sharesYoY": -0.07037564977347677,
-  "shortPctFloat": 0.124
+  "shortPctFloat": 0.1297
  },
  "CGAU": {
   "assetsYoY": 0.3061705427451722,
   "companyName": "Centerra Gold Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 51919000.0,
   "operatingIncome": 314427000.0,
   "sharesYoY": -0.048682867618575654,
   "shortPctFloat": null
+ },
+ "CGNX": {
+  "assetsYoY": 0.011895024713350244,
+  "companyName": "Cognex Corporation",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 236771000.0,
+  "operatingIncome": 162566000.0,
+  "sharesYoY": -0.02016616402830418,
+  "shortPctFloat": 0.0484
  },
  "CGON": {
   "assetsYoY": 0.04874820647140887,
@@ -821,11 +929,11 @@
  "CHEF": {
   "assetsYoY": 0.0910942163059918,
   "companyName": "The Chefs' Warehouse, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 87793000.0,
   "operatingIncome": 153106000.0,
   "sharesYoY": 0.01070660741798446,
-  "shortPctFloat": 0.15020001
+  "shortPctFloat": 0.1304
  },
  "CHRD": {
   "assetsYoY": 0.003243322383114089,
@@ -848,11 +956,11 @@
  "CIB": {
   "assetsYoY": 0.020249023453845272,
   "companyName": "Grupo Cibest S.A.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 10014723000000.0,
   "operatingIncome": null,
   "sharesYoY": -0.008954142480924299,
-  "shortPctFloat": 0.0077
+  "shortPctFloat": 0.0094
  },
  "CIEN": {
   "assetsYoY": 0.0395881330968173,
@@ -875,20 +983,20 @@
  "CLMT": {
   "assetsYoY": -0.0251250815749402,
   "companyName": "Calumet, Inc",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 56600000.0,
   "operatingIncome": 54200000.0,
   "sharesYoY": 0.009610869829449475,
-  "shortPctFloat": 0.0645
+  "shortPctFloat": 0.051599998
  },
  "CLOV": {
   "assetsYoY": -0.06841420114267605,
   "companyName": "Clover Health Investments, Corp",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -68977000.0,
   "operatingIncome": -85529000.0,
   "sharesYoY": 0.030817057800759384,
-  "shortPctFloat": 0.0558
+  "shortPctFloat": 0.0545
  },
  "CLS": {
   "assetsYoY": 0.20455228616278687,
@@ -902,11 +1010,11 @@
  "CMBT": {
   "assetsYoY": 1.1524903931989532,
   "companyName": "CMB.TECH NV",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -587772000.0,
   "operatingIncome": 369940000.0,
   "sharesYoY": 0.49405054922247094,
-  "shortPctFloat": 0.0106
+  "shortPctFloat": 0.0138
  },
  "CMPS": {
   "assetsYoY": -0.015524229404771939,
@@ -920,11 +1028,11 @@
  "CNC": {
   "assetsYoY": -0.0691127418278853,
   "companyName": "Centene Corporation",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 4321000000.0,
   "operatingIncome": -312000000.0,
   "sharesYoY": -0.008368504578479485,
-  "shortPctFloat": 0.0328
+  "shortPctFloat": 0.024400001
  },
  "CNH": {
   "assetsYoY": -0.004332331772762266,
@@ -965,20 +1073,29 @@
  "COHU": {
   "assetsYoY": 0.2437095700985077,
   "companyName": "Cohu, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 10734000.0,
   "operatingIncome": -59626000.0,
   "sharesYoY": 0.0028901734104045396,
-  "shortPctFloat": 0.22
+  "shortPctFloat": 0.2288
+ },
+ "COKE": {
+  "assetsYoY": -0.1901213199955808,
+  "companyName": "Coca-Cola Consolidated, Inc.",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 619589000.0,
+  "operatingIncome": 950656000.0,
+  "sharesYoY": -0.23645396582434253,
+  "shortPctFloat": 0.0679
  },
  "CON": {
   "assetsYoY": 0.13375726450163494,
   "companyName": "Concentra Group Holdings Parent",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 197062000.0,
   "operatingIncome": 333992000.0,
   "sharesYoY": 0.003960337402995506,
-  "shortPctFloat": 0.044899996
+  "shortPctFloat": 0.0509
  },
  "COP": {
   "assetsYoY": -0.006849649780094502,
@@ -992,11 +1109,20 @@
  "CORT": {
   "assetsYoY": -0.004642181992093319,
   "companyName": "Corcept Therapeutics Incorporat",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 141785000.0,
   "operatingIncome": 44797000.0,
   "sharesYoY": 0.008115076156136825,
-  "shortPctFloat": 0.1114
+  "shortPctFloat": 0.1018
+ },
+ "CPAY": {
+  "assetsYoY": 0.4706292482315144,
+  "companyName": "Corpay, Inc.",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 1299145000.0,
+  "operatingIncome": 1951847000.0,
+  "sharesYoY": -0.02576210043902516,
+  "shortPctFloat": 0.055
  },
  "CRDO": {
   "assetsYoY": 1.8366995898707086,
@@ -1010,20 +1136,29 @@
  "CRGY": {
   "assetsYoY": 0.35833247185870776,
   "companyName": "Crescent Energy Company",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -89752000.0,
   "operatingIncome": 436618000.0,
   "sharesYoY": 0.7528144609478582,
-  "shortPctFloat": 0.1145
+  "shortPctFloat": 0.13
  },
  "CRL": {
   "assetsYoY": -0.05219248055183445,
   "companyName": "Charles River Laboratories Inte",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 518494000.0,
   "operatingIncome": 401136000.0,
   "sharesYoY": -0.03762147787489489,
-  "shortPctFloat": 0.054
+  "shortPctFloat": 0.069699995
+ },
+ "CRM": {
+  "assetsYoY": 0.091102518265195,
+  "companyName": "Salesforce, Inc.",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 14402000000.0,
+  "operatingIncome": 8917000000.0,
+  "sharesYoY": -0.03430353430353428,
+  "shortPctFloat": 0.0462
  },
  "CROX": {
   "assetsYoY": -0.1324569272838998,
@@ -1037,11 +1172,11 @@
  "CRWD": {
   "assetsYoY": 0.27410039880122894,
   "companyName": "CrowdStrike Holdings, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 1241490000.0,
   "operatingIncome": -293292000.0,
   "sharesYoY": 0.0221525626129615,
-  "shortPctFloat": 0.0277
+  "shortPctFloat": 0.025999999
  },
  "CSCO": {
   "assetsYoY": 0.060069833430097086,
@@ -1061,10 +1196,19 @@
   "sharesYoY": -0.056427113566808296,
   "shortPctFloat": 0.0531
  },
+ "CTOS": {
+  "assetsYoY": -0.017279717370266456,
+  "companyName": "Custom Truck One Source, Inc.",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": -146872000.0,
+  "operatingIncome": 141582000.0,
+  "sharesYoY": -0.03066111713347497,
+  "shortPctFloat": 0.0675
+ },
  "CVE": {
   "assetsYoY": 0.12177435044836304,
   "companyName": "Cenovus Energy Inc",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 3321000000.0,
   "operatingIncome": 4627000000.0,
   "sharesYoY": 0.03311071464226201,
@@ -1073,20 +1217,38 @@
  "CVI": {
   "assetsYoY": -0.13065916021581048,
   "companyName": "CVR Energy Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -238000000.0,
   "operatingIncome": 182000000.0,
   "sharesYoY": 0.0,
-  "shortPctFloat": 0.19790001
+  "shortPctFloat": 0.1912
+ },
+ "CVLT": {
+  "assetsYoY": 0.6868124399740312,
+  "companyName": "Commvault Systems, Inc.",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 237151000.0,
+  "operatingIncome": 105599000.0,
+  "sharesYoY": -0.06459731543624159,
+  "shortPctFloat": 0.09770001
+ },
+ "CVX": {
+  "assetsYoY": 0.2610513042056839,
+  "companyName": "Chevron Corporation",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 16592000000.0,
+  "operatingIncome": 16674000000.0,
+  "sharesYoY": 0.11940892163645889,
+  "shortPctFloat": 0.0121
  },
  "CXW": {
   "assetsYoY": 0.11079948060824907,
   "companyName": "CoreCivic, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 53967000.0,
   "operatingIncome": 220169000.0,
   "sharesYoY": -0.08929465415388538,
-  "shortPctFloat": 0.18
+  "shortPctFloat": 0.1718
  },
  "DAR": {
   "assetsYoY": 0.022671129747331653,
@@ -1106,59 +1268,77 @@
   "sharesYoY": 0.0410709949034449,
   "shortPctFloat": 0.202
  },
+ "DBX": {
+  "assetsYoY": -0.14444243955250813,
+  "companyName": "Dropbox, Inc.",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 930400000.0,
+  "operatingIncome": 687800000.0,
+  "sharesYoY": -0.17911456573166606,
+  "shortPctFloat": 0.2987
+ },
  "DDOG": {
   "assetsYoY": 0.1483932056531172,
   "companyName": "Datadog, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 914717000.0,
   "operatingIncome": -44373000.0,
   "sharesYoY": 0.0304198119119925,
-  "shortPctFloat": 0.0353
+  "shortPctFloat": 0.0326
  },
  "DELL": {
   "assetsYoY": 0.27010759160334064,
   "companyName": "Dell Technologies Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 8552000000.0,
   "operatingIncome": 8446000000.0,
   "sharesYoY": -0.06372177098113607,
-  "shortPctFloat": 0.0468
+  "shortPctFloat": 0.0421
  },
  "DFTX": {
   "assetsYoY": 0.456556489966937,
   "companyName": "Definium Therapeutics, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -131560000.0,
   "operatingIncome": -166309000.0,
   "sharesYoY": 0.3152498197654796,
-  "shortPctFloat": 0.0883
+  "shortPctFloat": 0.085
  },
  "DGII": {
   "assetsYoY": 0.13197681194982058,
   "companyName": "Digi International Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 105329000.0,
   "operatingIncome": 56290000.0,
   "sharesYoY": 0.017061751736329178,
-  "shortPctFloat": 0.0619
+  "shortPctFloat": 0.0723
+ },
+ "DGX": {
+  "assetsYoY": 0.0044573763387605325,
+  "companyName": "Quest Diagnostics Incorporated",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 1359000000.0,
+  "operatingIncome": 1556000000.0,
+  "sharesYoY": -0.0033704144099352407,
+  "shortPctFloat": 0.0311
  },
  "DHT": {
   "assetsYoY": 0.07827459812308324,
   "companyName": "DHT Holdings, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -33292000.0,
   "operatingIncome": 172028000.0,
   "sharesYoY": 0.005102432566879145,
-  "shortPctFloat": 0.1037
+  "shortPctFloat": 0.10569999
  },
  "DINO": {
   "assetsYoY": -0.007991347713753538,
   "companyName": "HF Sinclair Corporation",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 794000000.0,
   "operatingIncome": 927000000.0,
   "sharesYoY": -0.03512440825982732,
-  "shortPctFloat": 0.062
+  "shortPctFloat": 0.0442
  },
  "DIOD": {
   "assetsYoY": 0.025906001849740345,
@@ -1172,11 +1352,11 @@
  "DK": {
   "assetsYoY": 0.027288547511176375,
   "companyName": "Delek US Holdings, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -6200000.0,
   "operatingIncome": 318600000.0,
   "sharesYoY": -0.044291570466757135,
-  "shortPctFloat": 0.103599995
+  "shortPctFloat": 0.1242
  },
  "DLO": {
   "assetsYoY": 0.31556889652693654,
@@ -1199,11 +1379,11 @@
  "DOCN": {
   "assetsYoY": 0.12122524809107915,
   "companyName": "DigitalOcean Holdings, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 41089000.0,
   "operatingIncome": 156989000.0,
   "sharesYoY": -0.003110581692534864,
-  "shortPctFloat": 0.0921
+  "shortPctFloat": 0.115200005
  },
  "DOCS": {
   "assetsYoY": -0.11122439213831425,
@@ -1223,6 +1403,15 @@
   "sharesYoY": -0.023271779016875938,
   "shortPctFloat": 0.097600006
  },
+ "DRH": {
+  "assetsYoY": -0.053132617816181615,
+  "companyName": "Diamondrock Hospitality Company",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 162087000.0,
+  "operatingIncome": 161777000.0,
+  "sharesYoY": -0.018733978505262816,
+  "shortPctFloat": 0.091800004
+ },
  "DT": {
   "assetsYoY": 0.06668320579523335,
   "companyName": "Dynatrace, Inc.",
@@ -1240,6 +1429,24 @@
   "operatingIncome": 135570000.0,
   "sharesYoY": 0.037653551717999,
   "shortPctFloat": 0.1872
+ },
+ "DV": {
+  "assetsYoY": 0.06101817099066764,
+  "companyName": "DoubleVerify Holdings, Inc.",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 172654000.0,
+  "operatingIncome": 79198000.0,
+  "sharesYoY": -0.030939312499625893,
+  "shortPctFloat": 0.051999997
+ },
+ "DVN": {
+  "assetsYoY": 0.03640657286234372,
+  "companyName": "Devon Energy Corporation",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 2797000000.0,
+  "operatingIncome": 3856000000.0,
+  "sharesYoY": -0.044546850998463894,
+  "shortPctFloat": 0.0272
  },
  "DXCM": {
   "assetsYoY": -0.022299329169558124,
@@ -1262,20 +1469,20 @@
  "EAT": {
   "assetsYoY": 0.05092212349734937,
   "companyName": "Brinker International, Inc.",
-  "fetchedAt": "2026-09-22",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 557500000.0,
   "operatingIncome": 628500000.0,
   "sharesYoY": -0.051685393258426915,
-  "shortPctFloat": 0.1883
+  "shortPctFloat": 0.1748
  },
  "EC": {
   "assetsYoY": -0.053718301641960675,
   "companyName": "Ecopetrol S.A.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 12515000000000.0,
   "operatingIncome": 27582000000000.0,
   "sharesYoY": 0.0,
-  "shortPctFloat": 0.0322
+  "shortPctFloat": 0.0297
  },
  "ECG": {
   "assetsYoY": 0.341700149713263,
@@ -1289,11 +1496,11 @@
  "ECO": {
   "assetsYoY": 0.10955103394737487,
   "companyName": "Okeanis Eco Tankers Corp.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 71107867.0,
   "operatingIncome": 162530692.0,
   "sharesYoY": 0.10062201443816976,
-  "shortPctFloat": 0.057600003
+  "shortPctFloat": 0.041300002
  },
  "ECPG": {
   "assetsYoY": 0.11484386694946624,
@@ -1348,6 +1555,15 @@
   "operatingIncome": -119658000.0,
   "sharesYoY": 0.2146372298821213,
   "shortPctFloat": 0.16950001
+ },
+ "EMR": {
+  "assetsYoY": -0.051575283641459135,
+  "companyName": "Emerson Electric Company",
+  "fetchedAt": "2026-10-13",
+  "freeCashFlow": 2667000000.0,
+  "operatingIncome": 3532000000.0,
+  "sharesYoY": -0.012977902490354243,
+  "shortPctFloat": 0.0159
  },
  "ENTG": {
   "assetsYoY": -0.005253377171038576,
@@ -2198,11 +2414,11 @@
  "LRCX": {
   "assetsYoY": 0.1023404259306282,
   "companyName": "Lam Research Corporation",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 4891252000.0,
   "operatingIncome": 8199795000.0,
   "sharesYoY": -0.013763261188265541,
-  "shortPctFloat": 0.0233
+  "shortPctFloat": 0.0231
  },
  "LSCC": {
   "assetsYoY": 0.04647098066957933,
@@ -2450,20 +2666,20 @@
  "MOG-A": {
   "assetsYoY": 0.08544339419277835,
   "companyName": "Moog Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 128355000.0,
   "operatingIncome": 409709000.0,
   "sharesYoY": -0.010110952356194303,
-  "shortPctFloat": 0.0353
+  "shortPctFloat": 0.0448
  },
  "MP": {
   "assetsYoY": 0.6559091310350975,
   "companyName": "MP Materials Corp.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -328130000.0,
   "operatingIncome": -145088000.0,
   "sharesYoY": 0.08677833646049748,
-  "shortPctFloat": 0.205
+  "shortPctFloat": 0.2237
  },
  "MPC": {
   "assetsYoY": 0.06463516700905414,
@@ -2639,11 +2855,11 @@
  "NBIS": {
   "assetsYoY": 2.5029589133742887,
   "companyName": "Nebius Group N.V.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -3681200000.0,
   "operatingIncome": -611700000.0,
   "sharesYoY": 0.07322633037204951,
-  "shortPctFloat": 0.1981
+  "shortPctFloat": 0.1893
  },
  "NBTB": {
   "assetsYoY": 0.16018774952551973,
@@ -2711,11 +2927,11 @@
  "NFLX": {
   "assetsYoY": 0.03666987293431889,
   "companyName": "Netflix, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 9461053000.0,
   "operatingIncome": 13326603000.0,
   "sharesYoY": -0.012953344316201876,
-  "shortPctFloat": 0.0228
+  "shortPctFloat": 0.0199
  },
  "NIQ": {
   "assetsYoY": 0.06734873211147385,
@@ -2954,11 +3170,11 @@
  "ONDS": {
   "assetsYoY": 9.334066154604002,
   "companyName": "Ondas Inc",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -40885000.0,
   "operatingIncome": -58384000.0,
   "sharesYoY": 3.086620592397656,
-  "shortPctFloat": 0.4096
+  "shortPctFloat": 0.3948
  },
  "ONTO": {
   "assetsYoY": 0.11839358818303047,
@@ -2990,11 +3206,11 @@
  "OUST": {
   "assetsYoY": 0.2656836189289802,
   "companyName": "Ouster, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": -64849000.0,
   "operatingIncome": -73999000.0,
   "sharesYoY": 0.15956743023361342,
-  "shortPctFloat": 0.096999995
+  "shortPctFloat": 0.10520001
  },
  "OVV": {
   "assetsYoY": 0.059000727121637064,
@@ -4142,11 +4358,11 @@
  "TSLA": {
   "assetsYoY": 0.1289096420086835,
   "companyName": "Tesla, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-13",
   "freeCashFlow": 6220000000.0,
   "operatingIncome": 4849000000.0,
   "sharesYoY": 0.1663557213930349,
-  "shortPctFloat": 0.0195
+  "shortPctFloat": 0.0201
  },
  "TSM": {
   "assetsYoY": 0.18546345480438076,

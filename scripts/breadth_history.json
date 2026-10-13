@@ -1,42 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-07-13",
-      "stage2Count": 294,
-      "breakoutCount": 21,
-      "breakoutTickers": [
-        "AMRX",
-        "AVAH",
-        "CHEF",
-        "CNC",
-        "CON",
-        "CSCO",
-        "CXW",
-        "DNTH",
-        "DVA",
-        "FSLY",
-        "FTNT",
-        "GEO",
-        "HUM",
-        "KOD",
-        "LTH",
-        "OGN",
-        "OSCR",
-        "OUT",
-        "PBI",
-        "TIGO",
-        "TWLO"
-      ],
-      "spy": {
-        "price": 749.17,
-        "sma50": 740.69
-      },
-      "qqq": {
-        "price": 711.74,
-        "sma50": 715.61
-      }
-    },
-    {
       "date": "2026-07-14",
       "stage2Count": 301,
       "breakoutCount": 20,
@@ -3133,6 +3097,53 @@
       "qqq": {
         "price": 745.38,
         "sma50": 725.16
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "stage2Count": 203,
+      "breakoutCount": 32,
+      "breakoutTickers": [
+        "APA",
+        "ARX",
+        "AUGO",
+        "BTSG",
+        "BWLP",
+        "CAKE",
+        "CBZ",
+        "CLOV",
+        "CNC",
+        "CORT",
+        "CVI",
+        "DELL",
+        "ELPC",
+        "FCX",
+        "FFIV",
+        "FTNT",
+        "GEO",
+        "IOVA",
+        "ITGR",
+        "KNSA",
+        "KNTK",
+        "KOD",
+        "TRGP",
+        "TRMD",
+        "TX",
+        "U",
+        "UGP",
+        "UTZ",
+        "VAC",
+        "VEEV",
+        "VLO",
+        "ZETA"
+      ],
+      "spy": {
+        "price": 778.1,
+        "sma50": 766.94
+      },
+      "qqq": {
+        "price": 746.04,
+        "sma50": 725.18
       }
     }
   ]
