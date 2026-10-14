@@ -1,41 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-07-14",
-      "stage2Count": 301,
-      "breakoutCount": 20,
-      "breakoutTickers": [
-        "ASTH",
-        "ATEN",
-        "CALY",
-        "CLMT",
-        "CMBT",
-        "CXW",
-        "DVA",
-        "ELVN",
-        "GSAT",
-        "HNGE",
-        "HUM",
-        "ILMN",
-        "OGN",
-        "OUT",
-        "PACS",
-        "PANW",
-        "RSI",
-        "SEZL",
-        "SYRE",
-        "TWLO"
-      ],
-      "spy": {
-        "price": 751.83,
-        "sma50": 741.39
-      },
-      "qqq": {
-        "price": 719.69,
-        "sma50": 716.66
-      }
-    },
-    {
       "date": "2026-07-15",
       "stage2Count": 13,
       "breakoutCount": 2,
@@ -3159,6 +3124,60 @@
       "qqq": {
         "price": 742.33,
         "sma50": 726.04
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "stage2Count": 202,
+      "breakoutCount": 39,
+      "breakoutTickers": [
+        "ANF",
+        "AVTR",
+        "BTE",
+        "CAKE",
+        "CLMT",
+        "CLOV",
+        "CNC",
+        "CORT",
+        "CRL",
+        "CVE",
+        "DINO",
+        "DT",
+        "EC",
+        "FIGS",
+        "FTRE",
+        "GCT",
+        "GEO",
+        "HAE",
+        "HNGE",
+        "KNSA",
+        "MPC",
+        "NVAX",
+        "OSCR",
+        "PARR",
+        "PBR",
+        "PR",
+        "PSX",
+        "PTEN",
+        "RVTY",
+        "SLS",
+        "SM",
+        "SN",
+        "SSL",
+        "TBBB",
+        "TEAM",
+        "UTZ",
+        "VEEV",
+        "VLO",
+        "ZBRA"
+      ],
+      "spy": {
+        "price": 772.31,
+        "sma50": 767.44
+      },
+      "qqq": {
+        "price": 735.6,
+        "sma50": 726.31
       }
     }
   ]
