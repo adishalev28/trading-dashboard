@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-16 14:19:41",
+  "lastUpdate": "2026-10-16 23:56:03",
   "tickers": {
     "AAOI": {
       "firstSeen": "2026-04-25",
@@ -15166,10 +15166,24 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-16",
+          "lists": [
+            "topPick"
+          ]
         }
       ],
-      "topPicksHistory": [],
-      "lastSeen": "2026-10-15"
+      "topPicksHistory": [
+        {
+          "date": "2026-10-16",
+          "score": 80,
+          "grade": "A+",
+          "tags": []
+        }
+      ],
+      "lastSeen": "2026-10-16",
+      "bestTopPickScore": 80
     },
     "EZPW": {
       "firstSeen": "2026-05-04",
@@ -29527,10 +29541,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-16",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-09-16"
+      "lastSeen": "2026-10-16"
     },
     "RXO": {
       "firstSeen": "2026-05-29",
@@ -29607,10 +29627,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-16",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-10-15"
+      "lastSeen": "2026-10-16"
     },
     "FROG": {
       "firstSeen": "2026-05-29",
@@ -36900,6 +36926,12 @@
           "lists": [
             "topPick"
           ]
+        },
+        {
+          "date": "2026-10-16",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -36910,7 +36942,7 @@
           "tags": []
         }
       ],
-      "lastSeen": "2026-10-15",
+      "lastSeen": "2026-10-16",
       "bestTopPickScore": 85
     },
     "NRIX": {
@@ -37518,6 +37550,12 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-16",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [
@@ -37540,7 +37578,7 @@
           "tags": []
         }
       ],
-      "lastSeen": "2026-10-15",
+      "lastSeen": "2026-10-16",
       "bestTopPickScore": 82
     },
     "HSBC": {
@@ -38155,10 +38193,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-16",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-10-13"
+      "lastSeen": "2026-10-16"
     },
     "NTRA": {
       "firstSeen": "2026-07-01",
@@ -39059,10 +39103,16 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-16",
+          "lists": [
+            "breakout"
+          ]
         }
       ],
       "topPicksHistory": [],
-      "lastSeen": "2026-10-12"
+      "lastSeen": "2026-10-16"
     },
     "DVA": {
       "firstSeen": "2026-07-07",
@@ -47138,10 +47188,24 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-16",
+          "lists": [
+            "topPick"
+          ]
         }
       ],
-      "topPicksHistory": [],
-      "lastSeen": "2026-09-15"
+      "topPicksHistory": [
+        {
+          "date": "2026-10-16",
+          "score": 80,
+          "grade": "A+",
+          "tags": []
+        }
+      ],
+      "lastSeen": "2026-10-16",
+      "bestTopPickScore": 80
     },
     "QLYS": {
       "firstSeen": "2026-09-15",
@@ -48638,10 +48702,24 @@
           "lists": [
             "breakout"
           ]
+        },
+        {
+          "date": "2026-10-16",
+          "lists": [
+            "topPick"
+          ]
         }
       ],
-      "topPicksHistory": [],
-      "lastSeen": "2026-10-15"
+      "topPicksHistory": [
+        {
+          "date": "2026-10-16",
+          "score": 82,
+          "grade": "A+",
+          "tags": []
+        }
+      ],
+      "lastSeen": "2026-10-16",
+      "bestTopPickScore": 82
     },
     "THC": {
       "firstSeen": "2026-10-16",

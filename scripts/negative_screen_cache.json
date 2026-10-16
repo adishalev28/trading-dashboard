@@ -1253,11 +1253,11 @@
  "DAR": {
   "assetsYoY": 0.022671129747331653,
   "companyName": "Darling Ingredients Inc.",
-  "fetchedAt": "2026-10-09",
+  "fetchedAt": "2026-10-16",
   "freeCashFlow": 679230000.0,
   "operatingIncome": 413796000.0,
   "sharesYoY": -0.0044313166219701605,
-  "shortPctFloat": 0.0432
+  "shortPctFloat": 0.0349
  },
  "DAVE": {
   "assetsYoY": 0.6283796650485924,
@@ -3269,11 +3269,11 @@
  "OXY": {
   "assetsYoY": -0.014734624612323666,
   "companyName": "Occidental Petroleum Corporatio",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-16",
   "freeCashFlow": 4105000000.0,
   "operatingIncome": 3722000000.0,
   "sharesYoY": 0.05068786654458024,
-  "shortPctFloat": 0.0296
+  "shortPctFloat": 0.0304
  },
  "P": {
   "assetsYoY": 0.1791945997191684,
@@ -3287,11 +3287,11 @@
  "PAA": {
   "assetsYoY": 0.13579549732700857,
   "companyName": "Plains All American Pipeline, L",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-16",
   "freeCashFlow": 2293000000.0,
   "operatingIncome": 1380000000.0,
   "sharesYoY": 0.0024871708851594843,
-  "shortPctFloat": 0.026199998
+  "shortPctFloat": 0.0251
  },
  "PACS": {
   "assetsYoY": 0.06506407034720607,
@@ -4643,6 +4643,15 @@
   "sharesYoY": 0.007346870234399505,
   "shortPctFloat": 0.033099998
  },
+ "VET": {
+  "assetsYoY": -0.1261297382290728,
+  "companyName": "Vermilion Energy Inc.",
+  "fetchedAt": "2026-10-16",
+  "freeCashFlow": 308739000.0,
+  "operatingIncome": 167517000.0,
+  "sharesYoY": -0.009036436856228902,
+  "shortPctFloat": null
+ },
  "VG": {
   "assetsYoY": 0.22889793290565863,
   "companyName": "Venture Global, Inc.",
@@ -4826,11 +4835,11 @@
  "WTTR": {
   "assetsYoY": 0.16784968256919153,
   "companyName": "Select Water Solutions, Inc.",
-  "fetchedAt": "2026-10-09",
+  "fetchedAt": "2026-10-16",
   "freeCashFlow": -79889000.0,
   "operatingIncome": 35761000.0,
   "sharesYoY": 0.017611086831971212,
-  "shortPctFloat": 0.0514
+  "shortPctFloat": 0.0679
  },
  "XMTR": {
   "assetsYoY": 0.03468606690789544,

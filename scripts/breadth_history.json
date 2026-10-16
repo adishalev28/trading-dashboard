@@ -3189,58 +3189,36 @@
     },
     {
       "date": "2026-10-16",
-      "stage2Count": 224,
-      "breakoutCount": 41,
+      "stage2Count": 212,
+      "breakoutCount": 19,
       "breakoutTickers": [
-        "APA",
-        "APPN",
         "ARX",
-        "BOX",
-        "BTE",
         "CAKE",
-        "CHEF",
-        "CIB",
         "CLMT",
         "CNC",
-        "CNK",
-        "CRL",
-        "CVE",
-        "DOCU",
-        "EC",
-        "ECPG",
-        "FIGS",
+        "CON",
         "FTRE",
-        "GCT",
-        "HAE",
-        "HALO",
-        "INTA",
-        "MANH",
+        "KNSA",
         "MPC",
         "NIQ",
-        "NRIX",
+        "NUE",
         "PACS",
         "PAYC",
-        "PBR",
-        "PBR-A",
-        "PR",
         "PSX",
         "PTEN",
-        "SM",
-        "SN",
-        "SSL",
+        "RXO",
         "STGW",
-        "THC",
-        "TRGP",
-        "VEEV",
-        "ZETA"
+        "UGP",
+        "VAC",
+        "VEEV"
       ],
       "spy": {
-        "price": 771.17,
-        "sma50": 767.56
+        "price": 763.25,
+        "sma50": 767.4
       },
       "qqq": {
-        "price": 721.89,
-        "sma50": 726.57
+        "price": 709.8,
+        "sma50": 726.33
       }
     }
   ]
