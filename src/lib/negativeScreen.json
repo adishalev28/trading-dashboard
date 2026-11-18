@@ -12,9 +12,9 @@
   ]
  },
  "meta": {
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-18",
   "cautionAt": 2,
-  "generatedAt": "2026-11-17 18:51",
+  "generatedAt": "2026-11-18 03:11",
   "tested": [
    "DILUTION",
    "LOSS",
@@ -52,7 +52,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8917855368907288,
+      "beta": 0.8953308662523439,
       "maxDay21": 0.030956762601052512
      }
     },
@@ -92,7 +92,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.4317010439028057,
+      "beta": 1.4275464398722613,
       "maxDay21": 0.055958707327582236
      }
     },
@@ -132,7 +132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.009659148786392204,
+      "beta": -0.009590967241190821,
       "maxDay21": 0.03087407892400562
      }
     },
@@ -172,7 +172,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.4125576429241202,
+      "beta": 2.4115944562887854,
       "maxDay21": 0.09532377972352868
      }
     },
@@ -212,7 +212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.1434719194979599,
+      "beta": 0.1473767738548073,
       "maxDay21": 0.03060448213805178
      }
     },
@@ -252,7 +252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0306065920934004,
+      "beta": 1.034428775352092,
       "maxDay21": 0.116734262272145
      }
     },
@@ -292,7 +292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6483716344357352,
+      "beta": 0.6496608027023247,
       "maxDay21": 0.08879132634199705
      }
     },
@@ -332,7 +332,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.36071749445891194,
+      "beta": 0.35987564097896607,
       "maxDay21": 0.044427415560925665
      }
     },
@@ -372,7 +372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.018267203377254782,
+      "beta": -0.01544758040445065,
       "maxDay21": 0.07691665757951749
      }
     },
@@ -386,44 +386,44 @@
    "level": "clean"
   },
   "ADMA": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "ADMA Biologics Inc",
    "count": 1,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": 0.27740966444161597
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": 0.005299417258970429
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 27505000.0,
+      "operatingIncome": 191443000.0
      }
     },
     "LOTTO": {
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.08083224804746435,
+      "beta": -0.08275194153309061,
       "maxDay21": 0.26049624190423293
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.1004
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "ADP": {
    "asOf": "2026-11-16",
@@ -452,7 +452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.1469011219051908,
+      "beta": -0.14524138549014956,
       "maxDay21": 0.045636680615980474
      }
     },
@@ -492,7 +492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5671987093899518,
+      "beta": 1.5667843799772754,
       "maxDay21": 0.08148680214250192
      }
     },
@@ -532,7 +532,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5177461425115756,
+      "beta": 0.5191307817999644,
       "maxDay21": 0.3319838176523189
      }
     },
@@ -572,7 +572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.17464927406136663,
+      "beta": 0.1785335658485918,
       "maxDay21": 0.04183967827158375
      }
     },
@@ -580,46 +580,6 @@
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
      "value": 0.0448
-    }
-   },
-   "known": 4,
-   "level": "clean"
-  },
-  "ALLE": {
-   "asOf": "2026-11-16",
-   "companyName": "Allegion plc",
-   "count": 0,
-   "flags": {
-    "ASSET_BLOAT": {
-     "on": false,
-     "rule": "assets +50% in a year",
-     "value": 0.16397789562814746
-    },
-    "DILUTION": {
-     "on": false,
-     "rule": "shares +10% in a year",
-     "value": -0.002176657089145162
-    },
-    "LOSS": {
-     "on": false,
-     "rule": "operating loss or negative free cash flow",
-     "value": {
-      "freeCashFlow": 685700000.0,
-      "operatingIncome": 859500000.0
-     }
-    },
-    "LOTTO": {
-     "on": false,
-     "rule": "beta > 2 or a +15% day in the last month",
-     "value": {
-      "beta": 0.4652765966134334,
-      "maxDay21": 0.11018870611610643
-     }
-    },
-    "SHORT": {
-     "on": false,
-     "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0294
     }
    },
    "known": 4,
@@ -652,7 +612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3852115083731154,
+      "beta": 0.39054199720591554,
       "maxDay21": 0.049546535397686275
      }
     },
@@ -692,7 +652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.8392852650899347,
+      "beta": 1.86556799285612,
       "maxDay21": 0.0828025419671734
      }
     },
@@ -732,7 +692,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.448987210938649,
+      "beta": 3.4369518206467053,
       "maxDay21": 0.13259392680905702
      }
     },
@@ -772,7 +732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9856178453027398,
+      "beta": 0.9853883729465862,
       "maxDay21": 0.05562597232952893
      }
     },
@@ -812,7 +772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1094693849231343,
+      "beta": 1.1005870550841628,
       "maxDay21": 0.06806658593927772
      }
     },
@@ -852,7 +812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.055849537877601,
+      "beta": 1.0586238245276929,
       "maxDay21": 0.05222934130321599
      }
     },
@@ -892,7 +852,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6535007667051072,
+      "beta": 0.6522334447799331,
       "maxDay21": 0.056603839699369995
      }
     },
@@ -906,7 +866,7 @@
    "level": "clean"
   },
   "ANET": {
-   "asOf": "2026-10-13",
+   "asOf": "2026-11-18",
    "companyName": "Arista Networks, Inc.",
    "count": 1,
    "flags": {
@@ -932,14 +892,14 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.4325021682046875,
+      "beta": 2.4306227599423758,
       "maxDay21": 0.08998826020237183
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0114
+     "value": 0.0115
     }
    },
    "known": 4,
@@ -972,7 +932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.21815403057342,
+      "beta": 1.2169604558885623,
       "maxDay21": 0.08621676277479207
      }
     },
@@ -1012,7 +972,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.7310665250063936,
+      "beta": -0.7286950689154552,
       "maxDay21": 0.04975734157567224
      }
     },
@@ -1052,7 +1012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6560194210072053,
+      "beta": 0.6577834915999603,
       "maxDay21": 0.04237294385434165
      }
     },
@@ -1066,7 +1026,7 @@
    "level": "clean"
   },
   "APPF": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "AppFolio, Inc.",
    "count": 0,
    "flags": {
@@ -1092,14 +1052,14 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.37210613710151447,
+      "beta": 0.37351419490090876,
       "maxDay21": 0.05859479882220753
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.1016
+     "value": 0.10520001
     }
    },
    "known": 4,
@@ -1132,7 +1092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3074843276033938,
+      "beta": 0.3105118864253963,
       "maxDay21": 0.09481018602199232
      }
     },
@@ -1172,7 +1132,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.24297647291538937,
+      "beta": 0.24854408196597014,
       "maxDay21": 0.22401846795118296
      }
     },
@@ -1186,7 +1146,7 @@
    "level": "clean"
   },
   "ARGX": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "argenx SE",
    "count": 0,
    "flags": {
@@ -1212,14 +1172,14 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5291199526523641,
+      "beta": 0.5302012341030979,
       "maxDay21": 0.05342714615155675
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0216
+     "value": 0.0225
     }
    },
    "known": 4,
@@ -1252,7 +1212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.16980025758283185,
+      "beta": 0.1702426064298096,
       "maxDay21": 0.002529045822096121
      }
     },
@@ -1266,7 +1226,7 @@
    "level": "clean"
   },
   "ASND": {
-   "asOf": "2026-09-22",
+   "asOf": "2026-11-18",
    "companyName": "Ascendis Pharma A/S",
    "count": 1,
    "flags": {
@@ -1292,14 +1252,14 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.40901144867597394,
+      "beta": 0.40762566528132,
       "maxDay21": 0.03115290783707647
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0759
+     "value": 0.0541
     }
    },
    "known": 4,
@@ -1332,7 +1292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7108332034588714,
+      "beta": 0.7167536149157997,
       "maxDay21": 0.11222480714029093
      }
     },
@@ -1372,7 +1332,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.496053288581475,
+      "beta": 3.5102986390385587,
       "maxDay21": 0.13636365879097068
      }
     },
@@ -1386,44 +1346,44 @@
    "level": "veto"
   },
   "ATAT": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Atour Lifestyle Holdings Limite",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": 0.16356421156788326
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": -0.005251300823262195
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 1906793000.0,
+      "operatingIncome": 2306677000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5286310495640418,
+      "beta": 0.5307834769933837,
       "maxDay21": 0.07824360713933975
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.0254
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "ATEN": {
    "asOf": "2026-11-16",
@@ -1452,7 +1412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.170723896130226,
+      "beta": 1.159625154455709,
       "maxDay21": 0.09557528380799796
      }
     },
@@ -1492,7 +1452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6338120400595513,
+      "beta": 0.63851436066392,
       "maxDay21": 0.08475416230453936
      }
     },
@@ -1532,7 +1492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5760929130944004,
+      "beta": 0.5797910112833031,
       "maxDay21": 0.07153613165416761
      }
     },
@@ -1572,7 +1532,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.740255881172581,
+      "beta": 0.7372703679387573,
       "maxDay21": 0.044957577134063564
      }
     },
@@ -1612,7 +1572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.828663389451413,
+      "beta": 0.8320980363385628,
       "maxDay21": 0.038507783232937465
      }
     },
@@ -1652,7 +1612,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0722208059230107,
+      "beta": 1.0807606793008038,
       "maxDay21": 0.31473575023162126
      }
     },
@@ -1692,7 +1652,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.8147236550154573,
+      "beta": 2.8190104332207135,
       "maxDay21": 0.11333037886170794
      }
     },
@@ -1732,7 +1692,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.607204492060893,
+      "beta": 1.6162862312095148,
       "maxDay21": 0.20800400392438867
      }
     },
@@ -1772,7 +1732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.8527353887629443,
+      "beta": 1.8480100653368805,
       "maxDay21": 0.08700981022348242
      }
     },
@@ -1812,7 +1772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6102980809335412,
+      "beta": 0.614536788979936,
       "maxDay21": 0.07979117550459702
      }
     },
@@ -1852,7 +1812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.25707434866393297,
+      "beta": 0.2593713084837448,
       "maxDay21": 0.05560884278288225
      }
     },
@@ -1892,7 +1852,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0150157339241255,
+      "beta": 1.0179170810131417,
       "maxDay21": 0.2875722180893272
      }
     },
@@ -1932,7 +1892,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.2642907117591677,
+      "beta": 1.271916375057836,
       "maxDay21": 0.25021273024538737
      }
     },
@@ -1972,7 +1932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3914489159325556,
+      "beta": 0.3909886101610753,
       "maxDay21": 0.05336542799549027
      }
     },
@@ -2012,8 +1972,8 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1116342189587327,
-      "maxDay21": 0.11972926571745601
+      "beta": 1.1234600179709875,
+      "maxDay21": 0.12580246487820945
      }
     },
     "SHORT": {
@@ -2052,7 +2012,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8996494502864997,
+      "beta": 0.9052794789872722,
       "maxDay21": 0.15777517859742773
      }
     },
@@ -2092,7 +2052,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.21298831926268297,
+      "beta": 0.21330567412523632,
       "maxDay21": 0.031883364921340585
      }
     },
@@ -2132,7 +2092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.705812946124598,
+      "beta": 1.7122440606114204,
       "maxDay21": 0.12902656487659026
      }
     },
@@ -2172,7 +2132,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.757284239326278,
+      "beta": 0.7572938140739204,
       "maxDay21": 0.5169773071235024
      }
     },
@@ -2212,7 +2172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0476646117387898,
+      "beta": 1.045417331196814,
       "maxDay21": 0.11076051201825976
      }
     },
@@ -2252,7 +2212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.002510529583518458,
+      "beta": -0.002513888013580713,
       "maxDay21": 0.005315884492682832
      }
     },
@@ -2292,7 +2252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.401323812897381,
+      "beta": 0.40409570678423445,
       "maxDay21": 0.033966848691333595
      }
     },
@@ -2332,7 +2292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.014485715863546559,
+      "beta": -0.011095459942294968,
       "maxDay21": 0.03554198682534415
      }
     },
@@ -2372,7 +2332,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5861353716180431,
+      "beta": 0.5864031947520326,
       "maxDay21": 0.06989499503464902
      }
     },
@@ -2412,7 +2372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.4317094388104314,
+      "beta": 0.4334027440742733,
       "maxDay21": 0.09210523013593108
      }
     },
@@ -2426,7 +2386,7 @@
    "level": "clean"
   },
   "CAT": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Caterpillar, Inc.",
    "count": 0,
    "flags": {
@@ -2452,14 +2412,14 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.8436883388377279,
+      "beta": 1.8408587511949916,
       "maxDay21": 0.07205126765155323
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0194
+     "value": 0.02
     }
    },
    "known": 4,
@@ -2492,7 +2452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.4841918078278653,
+      "beta": -0.4795006568576576,
       "maxDay21": 0.06771678211391219
      }
     },
@@ -2532,7 +2492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7170367060752856,
+      "beta": 0.718412802417659,
       "maxDay21": 0.003926729101128901
      }
     },
@@ -2572,7 +2532,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.278541798602547,
+      "beta": 1.2692813497829263,
       "maxDay21": 0.22217572378176897
      }
     },
@@ -2612,7 +2572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9630279716973729,
+      "beta": 0.9664893398036017,
       "maxDay21": 0.1267276169199456
      }
     },
@@ -2652,7 +2612,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.925162322131815,
+      "beta": 0.9240156110621414,
       "maxDay21": 0.17268509699102808
      }
     },
@@ -2692,7 +2652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6088841289307685,
+      "beta": 0.6055645359394469,
       "maxDay21": 0.058345711418577695
      }
     },
@@ -2732,7 +2692,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.704050131318802,
+      "beta": 1.7146994779328437,
       "maxDay21": 0.059219859259318275
      }
     },
@@ -2772,7 +2732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.142466975851668,
+      "beta": 1.1482610855849962,
       "maxDay21": 0.09324011629936124
      }
     },
@@ -2784,46 +2744,6 @@
    },
    "known": 4,
    "level": "clean"
-  },
-  "CMBT": {
-   "asOf": "2026-11-17",
-   "companyName": "CMB.TECH NV",
-   "count": 3,
-   "flags": {
-    "ASSET_BLOAT": {
-     "on": true,
-     "rule": "assets +50% in a year",
-     "value": 1.1524903931989532
-    },
-    "DILUTION": {
-     "on": true,
-     "rule": "shares +10% in a year",
-     "value": 0.49405054922247094
-    },
-    "LOSS": {
-     "on": true,
-     "rule": "operating loss or negative free cash flow",
-     "value": {
-      "freeCashFlow": -587772000.0,
-      "operatingIncome": 369940000.0
-     }
-    },
-    "LOTTO": {
-     "on": false,
-     "rule": "beta > 2 or a +15% day in the last month",
-     "value": {
-      "beta": 0.6177083780915384,
-      "maxDay21": 0.052208825672934056
-     }
-    },
-    "SHORT": {
-     "on": false,
-     "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.028900001
-    }
-   },
-   "known": 4,
-   "level": "veto"
   },
   "CNC": {
    "asOf": "2026-11-16",
@@ -2852,7 +2772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.4254226993416984,
+      "beta": 0.4291250118000305,
       "maxDay21": 0.12640780016233388
      }
     },
@@ -2892,7 +2812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.23342713972761694,
+      "beta": 0.2355227002900241,
       "maxDay21": 0.05115675541672271
      }
     },
@@ -2906,7 +2826,7 @@
    "level": "clean"
   },
   "CNQ": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Canadian Natural Resources Limi",
    "count": 0,
    "flags": {
@@ -2932,7 +2852,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.47464709134147176,
+      "beta": -0.47278744712373444,
       "maxDay21": 0.021142493380170047
      }
     },
@@ -2972,7 +2892,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5220864713998143,
+      "beta": 0.5267767543996117,
       "maxDay21": 0.04968559336357825
      }
     },
@@ -3012,7 +2932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5193523982924044,
+      "beta": 0.5279703302895148,
       "maxDay21": 0.06044908732662191
      }
     },
@@ -3052,7 +2972,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.480674486606425,
+      "beta": 0.4832043501874543,
       "maxDay21": 0.08493149982109394
      }
     },
@@ -3060,46 +2980,6 @@
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
      "value": 0.0325
-    }
-   },
-   "known": 4,
-   "level": "clean"
-  },
-  "COP": {
-   "asOf": "2026-11-17",
-   "companyName": "ConocoPhillips",
-   "count": 0,
-   "flags": {
-    "ASSET_BLOAT": {
-     "on": false,
-     "rule": "assets +50% in a year",
-     "value": -0.006849649780094502
-    },
-    "DILUTION": {
-     "on": false,
-     "rule": "shares +10% in a year",
-     "value": -0.03973661750582658
-    },
-    "LOSS": {
-     "on": false,
-     "rule": "operating loss or negative free cash flow",
-     "value": {
-      "freeCashFlow": 7243000000.0,
-      "operatingIncome": 11342000000.0
-     }
-    },
-    "LOTTO": {
-     "on": false,
-     "rule": "beta > 2 or a +15% day in the last month",
-     "value": {
-      "beta": -0.664614254222156,
-      "maxDay21": 0.03550098590705564
-     }
-    },
-    "SHORT": {
-     "on": false,
-     "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0135
     }
    },
    "known": 4,
@@ -3132,7 +3012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.213161528878833,
+      "beta": 0.21207370059156377,
       "maxDay21": 0.12680116818231935
      }
     },
@@ -3172,7 +3052,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5272255448816251,
+      "beta": 0.5288275856571621,
       "maxDay21": 0.06784518270996243
      }
     },
@@ -3212,7 +3092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.2617913009000097,
+      "beta": 1.269453216584789,
       "maxDay21": 0.09326353390928954
      }
     },
@@ -3252,7 +3132,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.863324709462412,
+      "beta": 0.869414073934456,
       "maxDay21": 0.2554097371699453
      }
     },
@@ -3292,7 +3172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5998989882686026,
+      "beta": 1.5931693481502152,
       "maxDay21": 0.08249980953768565
      }
     },
@@ -3306,7 +3186,7 @@
    "level": "clean"
   },
   "CSTM": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Constellium SE",
    "count": 0,
    "flags": {
@@ -3332,21 +3212,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.8761656494668157,
+      "beta": 1.8786424290664194,
       "maxDay21": 0.04912428987723394
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0467
+     "value": 0.033099998
     }
    },
    "known": 4,
    "level": "clean"
   },
   "CVE": {
-   "asOf": "2026-10-13",
+   "asOf": "2026-11-18",
    "companyName": "Cenovus Energy Inc",
    "count": 0,
    "flags": {
@@ -3372,7 +3252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.27926876408066476,
+      "beta": -0.2787054696783642,
       "maxDay21": 0.02717909378947936
      }
     },
@@ -3380,6 +3260,46 @@
      "on": null,
      "rule": "short > 15% of float (info only, not counted)",
      "value": null
+    }
+   },
+   "known": 4,
+   "level": "clean"
+  },
+  "CVLT": {
+   "asOf": "2026-11-16",
+   "companyName": "Commvault Systems, Inc.",
+   "count": 1,
+   "flags": {
+    "ASSET_BLOAT": {
+     "on": true,
+     "rule": "assets +50% in a year",
+     "value": 0.6868124399740312
+    },
+    "DILUTION": {
+     "on": false,
+     "rule": "shares +10% in a year",
+     "value": -0.06459731543624159
+    },
+    "LOSS": {
+     "on": false,
+     "rule": "operating loss or negative free cash flow",
+     "value": {
+      "freeCashFlow": 237151000.0,
+      "operatingIncome": 105599000.0
+     }
+    },
+    "LOTTO": {
+     "on": false,
+     "rule": "beta > 2 or a +15% day in the last month",
+     "value": {
+      "beta": 0.9931687951586846,
+      "maxDay21": 0.04957063698699238
+     }
+    },
+    "SHORT": {
+     "on": false,
+     "rule": "short > 15% of float (info only, not counted)",
+     "value": 0.1001
     }
    },
    "known": 4,
@@ -3412,7 +3332,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.41052951830941387,
+      "beta": 0.40944504942353005,
       "maxDay21": 0.059001013522737455
      }
     },
@@ -3452,7 +3372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3576899195553242,
+      "beta": 0.3584987780312688,
       "maxDay21": 0.036520915347722616
      }
     },
@@ -3492,7 +3412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.08912859678929082,
+      "beta": -0.09469812251689222,
       "maxDay21": 0.030072912690206177
      }
     },
@@ -3532,7 +3452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.24557113574546008,
+      "beta": -0.24862506292881406,
       "maxDay21": 0.07215843417150314
      }
     },
@@ -3572,7 +3492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.4334644321175632,
+      "beta": 0.4366878737352389,
       "maxDay21": 0.04722143157132086
      }
     },
@@ -3612,7 +3532,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6264436151940639,
+      "beta": 0.6277742262812918,
       "maxDay21": 0.02451708192948021
      }
     },
@@ -3620,46 +3540,6 @@
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
      "value": 0.082600005
-    }
-   },
-   "known": 4,
-   "level": "clean"
-  },
-  "DSGX": {
-   "asOf": "2026-11-16",
-   "companyName": "The Descartes Systems Group Inc",
-   "count": 0,
-   "flags": {
-    "ASSET_BLOAT": {
-     "on": false,
-     "rule": "assets +50% in a year",
-     "value": 0.1507122808039898
-    },
-    "DILUTION": {
-     "on": false,
-     "rule": "shares +10% in a year",
-     "value": 0.0048601634308935715
-    },
-    "LOSS": {
-     "on": false,
-     "rule": "operating loss or negative free cash flow",
-     "value": {
-      "freeCashFlow": 260516000.0,
-      "operatingIncome": 220407000.0
-     }
-    },
-    "LOTTO": {
-     "on": false,
-     "rule": "beta > 2 or a +15% day in the last month",
-     "value": {
-      "beta": 0.29135908484425005,
-      "maxDay21": 0.04119547131273826
-     }
-    },
-    "SHORT": {
-     "on": null,
-     "rule": "short > 15% of float (info only, not counted)",
-     "value": null
     }
    },
    "known": 4,
@@ -3692,7 +3572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.35931608084708866,
+      "beta": 0.3595624518671699,
       "maxDay21": 0.002956390439206924
      }
     },
@@ -3732,7 +3612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.4110543072039285,
+      "beta": 0.41958253452634364,
       "maxDay21": 0.07982586377253487
      }
     },
@@ -3746,7 +3626,7 @@
    "level": "clean"
   },
   "DXCM": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "DexCom, Inc.",
    "count": 0,
    "flags": {
@@ -3772,14 +3652,14 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7073327095166342,
+      "beta": 0.7134433087320993,
       "maxDay21": 0.06640957038886453
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0429
+     "value": 0.0494
     }
    },
    "known": 4,
@@ -3812,7 +3692,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.41709572233661113,
+      "beta": 0.425172841583202,
       "maxDay21": 0.06597779584328989
      }
     },
@@ -3852,7 +3732,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.09302637081020389,
+      "beta": 0.0929193198170158,
       "maxDay21": 0.26258378648689407
      }
     },
@@ -3860,46 +3740,6 @@
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
      "value": 0.0509
-    }
-   },
-   "known": 4,
-   "level": "clean"
-  },
-  "EHC": {
-   "asOf": "2026-11-16",
-   "companyName": "Encompass Health Corporation",
-   "count": 0,
-   "flags": {
-    "ASSET_BLOAT": {
-     "on": false,
-     "rule": "assets +50% in a year",
-     "value": 0.08493121336863196
-    },
-    "DILUTION": {
-     "on": false,
-     "rule": "shares +10% in a year",
-     "value": -0.007725221414233707
-    },
-    "LOSS": {
-     "on": false,
-     "rule": "operating loss or negative free cash flow",
-     "value": {
-      "freeCashFlow": 439200000.0,
-      "operatingIncome": 1053100000.0
-     }
-    },
-    "LOTTO": {
-     "on": false,
-     "rule": "beta > 2 or a +15% day in the last month",
-     "value": {
-      "beta": -0.015731163787020948,
-      "maxDay21": 0.07699245996583048
-     }
-    },
-    "SHORT": {
-     "on": false,
-     "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0416
     }
    },
    "known": 4,
@@ -3932,7 +3772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.257938991768431,
+      "beta": 1.2489437238578796,
       "maxDay21": 0.05725990899316358
      }
     },
@@ -3972,7 +3812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1135147222758575,
+      "beta": 1.1156983119505943,
       "maxDay21": 0.10359453661095785
      }
     },
@@ -3986,7 +3826,7 @@
    "level": "caution"
   },
   "EOG": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "EOG Resources, Inc.",
    "count": 0,
    "flags": {
@@ -4012,14 +3852,14 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.6306266200306504,
+      "beta": -0.6298327566224734,
       "maxDay21": 0.032096681754474776
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0347
+     "value": 0.036199998
     }
    },
    "known": 4,
@@ -4052,7 +3892,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.24228396490437706,
+      "beta": -0.23929453564325875,
       "maxDay21": 0.20631913375046174
      }
     },
@@ -4092,7 +3932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.9459718350452045,
+      "beta": -0.9452802628085007,
       "maxDay21": 0.0517018752672449
      }
     },
@@ -4132,7 +3972,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9438230023167011,
+      "beta": 0.9367657731847704,
       "maxDay21": 0.0709993012473118
      }
     },
@@ -4172,7 +4012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5430533492179838,
+      "beta": 0.5498032957109107,
       "maxDay21": 0.043912177728420154
      }
     },
@@ -4212,7 +4052,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1843991358922301,
+      "beta": 1.1863057018054632,
       "maxDay21": 0.15873429774090808
      }
     },
@@ -4252,7 +4092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.620691001660087,
+      "beta": 0.6198187573756008,
       "maxDay21": 0.048187350278887875
      }
     },
@@ -4292,7 +4132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.08748318086796143,
+      "beta": -0.08604735274633281,
       "maxDay21": 0.04607506993069088
      }
     },
@@ -4332,7 +4172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.30864053579214185,
+      "beta": 0.31532736617660295,
       "maxDay21": 0.07874407583614151
      }
     },
@@ -4372,7 +4212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.6393001037883481,
+      "beta": 1.6405968605164827,
       "maxDay21": 0.1415677699568929
      }
     },
@@ -4412,7 +4252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3976542411533653,
+      "beta": 0.40484446701641513,
       "maxDay21": 0.0793489052924754
      }
     },
@@ -4452,7 +4292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.3428570821688232,
+      "beta": -0.3400987997214516,
       "maxDay21": 0.14282117206822753
      }
     },
@@ -4492,7 +4332,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.002858632158566453,
+      "beta": 0.0067070207235715015,
       "maxDay21": 0.048576188199901615
      }
     },
@@ -4532,7 +4372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9764479101262359,
+      "beta": 0.9820085442968173,
       "maxDay21": 0.0887992056499094
      }
     },
@@ -4572,7 +4412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3259993202757843,
+      "beta": 1.333885306500001,
       "maxDay21": 0.1389033890548066
      }
     },
@@ -4612,7 +4452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5207104344779736,
+      "beta": 0.5253145104014427,
       "maxDay21": 0.04325653522726025
      }
     },
@@ -4652,7 +4492,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.708633444346773,
+      "beta": 1.7036430394543427,
       "maxDay21": 0.3532564947749077
      }
     },
@@ -4692,7 +4532,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.4662247643032799,
+      "beta": 0.4819547906247774,
       "maxDay21": 0.05095543249804835
      }
     },
@@ -4732,7 +4572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.669244138981322,
+      "beta": 0.674070098291225,
       "maxDay21": 0.06406926905303312
      }
     },
@@ -4772,7 +4612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3554425958407992,
+      "beta": 1.364220283807235,
       "maxDay21": 0.08863160260451286
      }
     },
@@ -4812,7 +4652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9176177077582522,
+      "beta": 0.9174871296287007,
       "maxDay21": 0.10448943793383747
      }
     },
@@ -4852,7 +4692,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3745370095949649,
+      "beta": 0.37842424038473466,
       "maxDay21": 0.04185821016145863
      }
     },
@@ -4892,7 +4732,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.045177216727803,
+      "beta": 1.0514284996808063,
       "maxDay21": 0.33649344384230506
      }
     },
@@ -4906,7 +4746,7 @@
    "level": "caution"
   },
   "GLBE": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Global-E Online Ltd.",
    "count": 0,
    "flags": {
@@ -4932,14 +4772,14 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0032321040827927,
+      "beta": 1.0074391862949899,
       "maxDay21": 0.0805675403222108
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0328
+     "value": 0.0416
     }
    },
    "known": 4,
@@ -4972,7 +4812,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9007547945220059,
+      "beta": 0.9015521921819533,
       "maxDay21": 0.2825163031986755
      }
     },
@@ -5012,7 +4852,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5487409417906176,
+      "beta": 0.5520915567805212,
       "maxDay21": 0.03930495490031949
      }
     },
@@ -5052,7 +4892,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.0567618185019128,
+      "beta": 3.0444277363947565,
       "maxDay21": 0.07647771187315011
      }
     },
@@ -5092,7 +4932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6656540391207734,
+      "beta": 0.6685421471540017,
       "maxDay21": 0.10922390032508167
      }
     },
@@ -5132,7 +4972,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8822592441606988,
+      "beta": 0.8853575328273092,
       "maxDay21": 0.03209242690583758
      }
     },
@@ -5172,7 +5012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.25781615379927253,
+      "beta": 0.25629906774149286,
       "maxDay21": 0.05936148538502817
      }
     },
@@ -5212,7 +5052,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.14351456112009872,
+      "beta": 0.14379160108700464,
       "maxDay21": 0.03539819606456018
      }
     },
@@ -5252,7 +5092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6539496725036031,
+      "beta": 0.6553911140597327,
       "maxDay21": 0.11199105511763197
      }
     },
@@ -5292,7 +5132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.16611627521404768,
+      "beta": -0.17262581634067298,
       "maxDay21": 0.039079203978067634
      }
     },
@@ -5332,7 +5172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.013874186279795902,
+      "beta": -0.007788211013542443,
       "maxDay21": 0.09864934410393533
      }
     },
@@ -5372,7 +5212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1414446282811077,
+      "beta": 1.1420730866068514,
       "maxDay21": 0.05554595876396684
      }
     },
@@ -5412,7 +5252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8081698028445291,
+      "beta": 0.8140416294210139,
       "maxDay21": 0.06474032362418014
      }
     },
@@ -5452,7 +5292,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.232483055227823,
+      "beta": 2.227166402344304,
       "maxDay21": 0.061871798736676586
      }
     },
@@ -5492,7 +5332,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6502877868347399,
+      "beta": 0.6478970426672495,
       "maxDay21": 0.07790544861059523
      }
     },
@@ -5532,7 +5372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7589944586812715,
+      "beta": 0.7594569991365979,
       "maxDay21": 0.026807466487180687
      }
     },
@@ -5572,7 +5412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.899101420105382,
+      "beta": 1.9033042809175613,
       "maxDay21": 0.08957270979657173
      }
     },
@@ -5612,7 +5452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.526940368142093,
+      "beta": 0.5234206188726813,
       "maxDay21": 0.05330382290482061
      }
     },
@@ -5652,7 +5492,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1356487267452589,
+      "beta": 1.1398917565188802,
       "maxDay21": 0.17040118407805616
      }
     },
@@ -5692,7 +5532,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0918742842465659,
+      "beta": 1.0883667886484867,
       "maxDay21": 0.055723484058941564
      }
     },
@@ -5706,7 +5546,7 @@
    "level": "clean"
   },
   "IMAX": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "Imax Corporation",
    "count": 0,
    "flags": {
@@ -5725,65 +5565,65 @@
      "rule": "operating loss or negative free cash flow",
      "value": {
       "freeCashFlow": 85152000.0,
-      "operatingIncome": 93707000.0
+      "operatingIncome": 94403000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3218269149675147,
+      "beta": 0.3233590759037826,
       "maxDay21": 0.02515342841844359
      }
     },
     "SHORT": {
      "on": true,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.1838
+     "value": 0.1826
     }
    },
    "known": 4,
    "level": "clean"
   },
   "IMO": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Imperial Oil Limited",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": -0.014649028832269817
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": -0.04999999970533053
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 4703000000.0,
+      "operatingIncome": 4114000000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.16738994501979051,
+      "beta": -0.16648181203857795,
       "maxDay21": 0.05524574964531803
      }
     },
     "SHORT": {
-     "on": null,
+     "on": true,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.1823
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "INSW": {
    "asOf": "2026-11-17",
@@ -5812,7 +5652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.36161416030908894,
+      "beta": 0.36352598371826955,
       "maxDay21": 0.060996556503873034
      }
     },
@@ -5852,7 +5692,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.17475323481371485,
+      "beta": 0.1764458272290944,
       "maxDay21": 0.0795396606577865
      }
     },
@@ -5892,7 +5732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.6017400306396476,
+      "beta": 1.5949601091786414,
       "maxDay21": 0.10099743387898097
      }
     },
@@ -5932,7 +5772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6895080759412645,
+      "beta": 0.6939997757098428,
       "maxDay21": 0.03277953548339174
      }
     },
@@ -5972,7 +5812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3532943037723986,
+      "beta": 1.3565700244157222,
       "maxDay21": 0.04807235687191569
      }
     },
@@ -5986,44 +5826,44 @@
    "level": "clean"
   },
   "ISRG": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Intuitive Surgical, Inc.",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": 0.09152652695377528
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": -0.004206393718451995
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 2490700000.0,
+      "operatingIncome": 2945500000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9088231167018175,
+      "beta": 0.9115930841637023,
       "maxDay21": 0.09381737062624085
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.020499999
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "ITGR": {
    "asOf": "2026-11-17",
@@ -6052,7 +5892,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5597108866768495,
+      "beta": 0.5597106987869314,
       "maxDay21": 0.002214829800287532
      }
     },
@@ -6092,7 +5932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5542479897026206,
+      "beta": 0.5589930320098906,
       "maxDay21": 0.07187372902447753
      }
     },
@@ -6132,7 +5972,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6206130523712055,
+      "beta": 0.6192337872728064,
       "maxDay21": 0.2222525739273975
      }
     },
@@ -6140,46 +5980,6 @@
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
      "value": 0.106000006
-    }
-   },
-   "known": 4,
-   "level": "clean"
-  },
-  "KNTK": {
-   "asOf": "2026-11-17",
-   "companyName": "Kinetik Holdings Inc.",
-   "count": 0,
-   "flags": {
-    "ASSET_BLOAT": {
-     "on": false,
-     "rule": "assets +50% in a year",
-     "value": 0.041185120273305564
-    },
-    "DILUTION": {
-     "on": false,
-     "rule": "shares +10% in a year",
-     "value": 0.06926966370597665
-    },
-    "LOSS": {
-     "on": false,
-     "rule": "operating loss or negative free cash flow",
-     "value": {
-      "freeCashFlow": 74449000.0,
-      "operatingIncome": 164927000.0
-     }
-    },
-    "LOTTO": {
-     "on": false,
-     "rule": "beta > 2 or a +15% day in the last month",
-     "value": {
-      "beta": -0.10070648661095108,
-      "maxDay21": 0.034770513338630904
-     }
-    },
-    "SHORT": {
-     "on": false,
-     "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.1042
     }
    },
    "known": 4,
@@ -6212,7 +6012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.28718736122532273,
+      "beta": 0.27582795525130044,
       "maxDay21": 0.09096909156304767
      }
     },
@@ -6252,7 +6052,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.585362445414378,
+      "beta": 1.5842923167904361,
       "maxDay21": 0.1182310856170592
      }
     },
@@ -6292,7 +6092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9405432624374399,
+      "beta": 0.9399647441155508,
       "maxDay21": 0.07207493843776591
      }
     },
@@ -6332,7 +6132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.864926965924633,
+      "beta": 0.8701455527907813,
       "maxDay21": 0.0628272370813685
      }
     },
@@ -6372,7 +6172,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.35403595274137256,
+      "beta": 0.3568377719585661,
       "maxDay21": 0.08780984205446862
      }
     },
@@ -6412,7 +6212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.7424885656324136,
+      "beta": 1.751010034938738,
       "maxDay21": 0.07633829175510631
      }
     },
@@ -6452,7 +6252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7785041437680195,
+      "beta": 0.7801498058174356,
       "maxDay21": 0.14406777301868545
      }
     },
@@ -6492,7 +6292,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.051890914581547,
+      "beta": 1.0588080242379931,
       "maxDay21": 0.17884856874375576
      }
     },
@@ -6532,7 +6332,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.31677416923677104,
+      "beta": 0.31274787550553995,
       "maxDay21": 0.06628882638984934
      }
     },
@@ -6540,46 +6340,6 @@
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
      "value": 0.0081
-    }
-   },
-   "known": 4,
-   "level": "clean"
-  },
-  "LNG": {
-   "asOf": "2026-11-17",
-   "companyName": "Cheniere Energy, Inc.",
-   "count": 0,
-   "flags": {
-    "ASSET_BLOAT": {
-     "on": false,
-     "rule": "assets +50% in a year",
-     "value": 0.09175064982443337
-    },
-    "DILUTION": {
-     "on": false,
-     "rule": "shares +10% in a year",
-     "value": -0.051785714285714324
-    },
-    "LOSS": {
-     "on": false,
-     "rule": "operating loss or negative free cash flow",
-     "value": {
-      "freeCashFlow": 2461000000.0,
-      "operatingIncome": 9112000000.0
-     }
-    },
-    "LOTTO": {
-     "on": false,
-     "rule": "beta > 2 or a +15% day in the last month",
-     "value": {
-      "beta": -0.44563391790421153,
-      "maxDay21": 0.0710951706388252
-     }
-    },
-    "SHORT": {
-     "on": false,
-     "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0227
     }
    },
    "known": 4,
@@ -6612,7 +6372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.45764744146232106,
+      "beta": 0.4583593701417521,
       "maxDay21": 0.0060390119537752085
      }
     },
@@ -6652,7 +6412,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.3526013500197105,
+      "beta": 3.348451649087358,
       "maxDay21": 0.10412090831663368
      }
     },
@@ -6692,7 +6452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6797888617887134,
+      "beta": 0.6868023762563183,
       "maxDay21": 0.06327125228030228
      }
     },
@@ -6732,7 +6492,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.06731955191530721,
+      "beta": -0.06364356171926515,
       "maxDay21": 0.04390679012704379
      }
     },
@@ -6772,7 +6532,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.2428393233852294,
+      "beta": 0.2432873474045366,
       "maxDay21": 0.03295926973327079
      }
     },
@@ -6812,7 +6572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5758548257576619,
+      "beta": 0.5817559460052176,
       "maxDay21": 0.04257450668597129
      }
     },
@@ -6852,7 +6612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3091465662966044,
+      "beta": 1.3020834436135738,
       "maxDay21": 0.0596368023988354
      }
     },
@@ -6892,7 +6652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.17116026452332364,
+      "beta": -0.17258177674802833,
       "maxDay21": 0.0698464882956622
      }
     },
@@ -6932,7 +6692,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3310295867143962,
+      "beta": 0.3389776311812778,
       "maxDay21": 0.07189538654133676
      }
     },
@@ -6972,7 +6732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.48241918945319984,
+      "beta": -0.479503426564728,
       "maxDay21": 0.14037606132739922
      }
     },
@@ -7012,7 +6772,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.4524173448900581,
+      "beta": 0.44643430862041705,
       "maxDay21": 0.20754714138750519
      }
     },
@@ -7052,7 +6812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0980050287650076,
+      "beta": 1.096307549758798,
       "maxDay21": 0.053282205354365564
      }
     },
@@ -7092,7 +6852,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.051413815859829716,
+      "beta": -0.04271161659227249,
       "maxDay21": 0.11265449532625404
      }
     },
@@ -7132,7 +6892,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.3363243976475734,
+      "beta": 2.3405662784588217,
       "maxDay21": 0.09073919403298691
      }
     },
@@ -7172,7 +6932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.13679549138272798,
+      "beta": -0.14109523500387602,
       "maxDay21": 0.045983836179370075
      }
     },
@@ -7212,7 +6972,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.375210911296173,
+      "beta": 2.3677898682224585,
       "maxDay21": 0.13106287043174802
      }
     },
@@ -7252,7 +7012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9777405709287543,
+      "beta": 0.9856607884962959,
       "maxDay21": 0.0674270450547767
      }
     },
@@ -7292,7 +7052,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6045377413346867,
+      "beta": 0.6105518664415638,
       "maxDay21": 0.05517260575366212
      }
     },
@@ -7332,7 +7092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3010861217590395,
+      "beta": 1.2955860158801276,
       "maxDay21": 0.09112904429063629
      }
     },
@@ -7372,7 +7132,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.975075141445171,
+      "beta": 3.9810335271536093,
       "maxDay21": 0.1544030032940764
      }
     },
@@ -7386,44 +7146,44 @@
    "level": "veto"
   },
   "NBIX": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Neurocrine Biosciences, Inc.",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": 0.24546212386048882
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": 0.007042253521126751
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 748700000.0,
+      "operatingIncome": 636500000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6926554527454424,
+      "beta": 0.6922794031279529,
       "maxDay21": 0.1341589210950047
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.0758
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "NET": {
    "asOf": "2026-11-17",
@@ -7452,7 +7212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.7151227065235253,
+      "beta": 1.7080753637680623,
       "maxDay21": 0.09913707430264718
      }
     },
@@ -7492,7 +7252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.2752872660159068,
+      "beta": 0.2736810966297906,
       "maxDay21": 0.046830673390927835
      }
     },
@@ -7532,7 +7292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5639759111627412,
+      "beta": 0.5576463525568678,
       "maxDay21": 0.0489715962910755
      }
     },
@@ -7572,7 +7332,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5215540517804644,
+      "beta": 1.5227783234804073,
       "maxDay21": 0.049417321255168734
      }
     },
@@ -7612,7 +7372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5736331259298564,
+      "beta": 1.5723056989471258,
       "maxDay21": 0.04066437013732638
      }
     },
@@ -7652,7 +7412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.766934288332669,
+      "beta": 1.7695602206861163,
       "maxDay21": 0.1004036226921754
      }
     },
@@ -7692,7 +7452,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9030681838802972,
+      "beta": 0.9103387664761379,
       "maxDay21": 0.05222460510065119
      }
     },
@@ -7706,7 +7466,7 @@
    "level": "clean"
   },
   "NVT": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "nVent Electric plc",
    "count": 1,
    "flags": {
@@ -7732,14 +7492,14 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.269464893292346,
+      "beta": 2.2637449399165033,
       "maxDay21": 0.07969103665544952
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.033800002
+     "value": 0.0401
     }
    },
    "known": 4,
@@ -7772,7 +7532,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.06707879780887673,
+      "beta": 0.06707855972504737,
       "maxDay21": 0.025641064790595802
      }
     },
@@ -7812,7 +7572,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.2292161906540375,
+      "beta": 1.2324026869766476,
       "maxDay21": 0.15057919607277648
      }
     },
@@ -7852,7 +7612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5793407765074642,
+      "beta": 0.5801900066097192,
       "maxDay21": 0.005801296806090539
      }
     },
@@ -7892,7 +7652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5605507801395877,
+      "beta": 1.5575268798405113,
       "maxDay21": 0.07535302956006928
      }
     },
@@ -7932,7 +7692,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 3.4951679595445952,
+      "beta": 3.4915095910253977,
       "maxDay21": 0.1803097479335387
      }
     },
@@ -7972,7 +7732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.4764636086999325,
+      "beta": 1.4773565695947393,
       "maxDay21": 0.12701185416557803
      }
     },
@@ -8012,7 +7772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.374663176550853,
+      "beta": 1.3880884559320272,
       "maxDay21": 0.08577595780269198
      }
     },
@@ -8052,7 +7812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9015767035403294,
+      "beta": 0.906395997259056,
       "maxDay21": 0.1250500535662984
      }
     },
@@ -8092,7 +7852,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 4.423950298809331,
+      "beta": 4.428442114544725,
       "maxDay21": 0.15734994635335076
      }
     },
@@ -8132,7 +7892,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.45372028615155313,
+      "beta": 0.45031640912298754,
       "maxDay21": 0.05150347700622904
      }
     },
@@ -8172,7 +7932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.2515618728574423,
+      "beta": 0.2510919390031151,
       "maxDay21": 0.07669233061167047
      }
     },
@@ -8212,7 +7972,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3964869416740868,
+      "beta": 1.3909430235135773,
       "maxDay21": 0.07221338159464752
      }
     },
@@ -8252,7 +8012,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.4282535626087673,
+      "beta": -0.4348303211188689,
       "maxDay21": 0.07802976699938347
      }
     },
@@ -8266,7 +8026,7 @@
    "level": "clean"
   },
   "PATH": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "UiPath, Inc.",
    "count": 0,
    "flags": {
@@ -8292,14 +8052,14 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9820900981771541,
+      "beta": 0.9893045451974838,
       "maxDay21": 0.028941364137764047
      }
     },
     "SHORT": {
      "on": true,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.2678
+     "value": 0.24159999
     }
    },
    "known": 4,
@@ -8332,7 +8092,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.06307115932572456,
+      "beta": 0.06959696547449207,
       "maxDay21": 0.044442646457711454
      }
     },
@@ -8372,7 +8132,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.38904697399860333,
+      "beta": -0.39632192798530574,
       "maxDay21": 0.057957891497671055
      }
     },
@@ -8412,7 +8172,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8098272617949561,
+      "beta": 0.8161232010415338,
       "maxDay21": 0.1967706294993441
      }
     },
@@ -8452,7 +8212,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.16253117657979746,
+      "beta": -0.15797612624159377,
       "maxDay21": 0.04925291589030789
      }
     },
@@ -8492,7 +8252,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8932404577230048,
+      "beta": 0.8995176982443712,
       "maxDay21": 0.03187844753977265
      }
     },
@@ -8532,7 +8292,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.13716930285411535,
+      "beta": -0.13907098762726933,
       "maxDay21": 0.1418604151594547
      }
     },
@@ -8546,7 +8306,7 @@
    "level": "clean"
   },
   "PGR": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Progressive Corporation (The)",
    "count": 0,
    "flags": {
@@ -8572,14 +8332,14 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.38406464150751296,
+      "beta": -0.3809163753223353,
       "maxDay21": 0.037361593790986136
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0117999995
+     "value": 0.0128
     }
    },
    "known": 4,
@@ -8612,7 +8372,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9106296763005289,
+      "beta": 0.9141333107807446,
       "maxDay21": 0.045743286138773875
      }
     },
@@ -8652,7 +8412,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.030446432371572362,
+      "beta": -0.02560859858697625,
       "maxDay21": 0.049770260156649426
      }
     },
@@ -8692,7 +8452,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.251109755351156,
+      "beta": 2.2338146749924945,
       "maxDay21": 0.09310345860764868
      }
     },
@@ -8706,7 +8466,7 @@
    "level": "caution"
   },
   "PLTR": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "Palantir Technologies Inc.",
    "count": 0,
    "flags": {
@@ -8732,14 +8492,14 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.8853245819059417,
+      "beta": 1.8853132359184326,
       "maxDay21": 0.05499433717983937
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.025899999
+     "value": 0.025999999
     }
    },
    "known": 4,
@@ -8772,7 +8532,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.7123025907417326,
+      "beta": 1.706674187225486,
       "maxDay21": 0.28159511456612973
      }
     },
@@ -8812,7 +8572,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9953835317975777,
+      "beta": 1.0043950916696196,
       "maxDay21": 0.0694006533120175
      }
     },
@@ -8852,7 +8612,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.1740981696288995,
+      "beta": -0.17942725816947802,
       "maxDay21": 0.033697605037536604
      }
     },
@@ -8892,7 +8652,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.4063539899523384,
+      "beta": 0.4081229719493215,
       "maxDay21": 0.005771385815097396
      }
     },
@@ -8932,7 +8692,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3194149010241487,
+      "beta": 1.3313562041973794,
       "maxDay21": 0.0634920535494119
      }
     },
@@ -8972,7 +8732,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.548738930070291,
+      "beta": 0.5494963549389584,
       "maxDay21": 0.06328450617091019
      }
     },
@@ -9012,7 +8772,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.8373739626995795,
+      "beta": 1.841135901910733,
       "maxDay21": 0.07719239746582196
      }
     },
@@ -9052,7 +8812,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.7888972173192075,
+      "beta": 1.7901302692702736,
       "maxDay21": 0.06616981774877062
      }
     },
@@ -9092,7 +8852,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3516900828019627,
+      "beta": 0.356338084824624,
       "maxDay21": 0.1332730712094945
      }
     },
@@ -9100,46 +8860,6 @@
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
      "value": 0.0227
-    }
-   },
-   "known": 4,
-   "level": "clean"
-  },
-  "RGA": {
-   "asOf": "2026-11-17",
-   "companyName": "Reinsurance Group of America, I",
-   "count": 0,
-   "flags": {
-    "ASSET_BLOAT": {
-     "on": false,
-     "rule": "assets +50% in a year",
-     "value": 0.3194859911523067
-    },
-    "DILUTION": {
-     "on": false,
-     "rule": "shares +10% in a year",
-     "value": -0.006202883999945175
-    },
-    "LOSS": {
-     "on": false,
-     "rule": "operating loss or negative free cash flow",
-     "value": {
-      "freeCashFlow": 4091000000.0,
-      "operatingIncome": 1906000000.0
-     }
-    },
-    "LOTTO": {
-     "on": false,
-     "rule": "beta > 2 or a +15% day in the last month",
-     "value": {
-      "beta": 0.32665966052568207,
-      "maxDay21": 0.02740392711750239
-     }
-    },
-    "SHORT": {
-     "on": false,
-     "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.017
     }
    },
    "known": 4,
@@ -9172,7 +8892,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.10801348897242516,
+      "beta": 0.11950306011153777,
       "maxDay21": 0.217356649691534
      }
     },
@@ -9212,7 +8932,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5566564361216877,
+      "beta": 0.5629423495822818,
       "maxDay21": 0.02552059855588662
      }
     },
@@ -9252,7 +8972,7 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.6911632869642719,
+      "beta": 1.702999690947833,
       "maxDay21": 0.09623650384233318
      }
     },
@@ -9266,7 +8986,7 @@
    "level": "clean"
   },
   "RNG": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "Ringcentral, Inc.",
    "count": 0,
    "flags": {
@@ -9292,21 +9012,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.086620531187047,
+      "beta": 1.0867122606546917,
       "maxDay21": 0.04998743292105101
      }
     },
     "SHORT": {
-     "on": true,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.1649
+     "value": 0.1469
     }
    },
    "known": 4,
    "level": "clean"
   },
   "ROIV": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "Roivant Sciences Ltd.",
    "count": 1,
    "flags": {
@@ -9332,21 +9052,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.14744816881572,
+      "beta": 1.1429610489148971,
       "maxDay21": 0.061714970020458004
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0738
+     "value": 0.085200004
     }
    },
    "known": 4,
    "level": "clean"
   },
   "ROKU": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Roku, Inc.",
    "count": 1,
    "flags": {
@@ -9379,54 +9099,54 @@
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.073699996
+     "value": 0.0743
     }
    },
    "known": 4,
    "level": "clean"
   },
   "ROP": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Roper Technologies, Inc.",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": 0.10347314638404059
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": -0.006523765144454852
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 2435600000.0,
+      "operatingIncome": 2235400000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.07259843030961319,
+      "beta": -0.06754337777826357,
       "maxDay21": 0.09726837122750265
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.0644
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "RPRX": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "Royalty Pharma plc",
    "count": 0,
    "flags": {
@@ -9452,101 +9172,101 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.23862119046492639,
+      "beta": 0.23632135062411527,
       "maxDay21": 0.03285212757403877
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0293
+     "value": 0.0298
     }
    },
    "known": 4,
    "level": "clean"
   },
   "RRC": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Range Resources Corporation",
    "count": 1,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": 0.010108367612884361
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": -0.02165270281981979
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 533021000.0,
+      "operatingIncome": 865337000.0
      }
     },
     "LOTTO": {
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.17788332640075502,
+      "beta": -0.17750958593126348,
       "maxDay21": 0.17662567738740176
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.0935
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "RS": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Reliance, Inc.",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": 0.03507353968349003
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": -0.036861211951968675
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 502500000.0,
+      "operatingIncome": 1003800000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6364179417217851,
+      "beta": 0.6412962720258546,
       "maxDay21": 0.025884783355358154
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.0346
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "RVMD": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "Revolution Medicines, Inc.",
    "count": 1,
    "flags": {
@@ -9572,21 +9292,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3190940293956515,
+      "beta": 1.3236371011385237,
       "maxDay21": 0.0823529714914446
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0588
+     "value": 0.0638
     }
    },
    "known": 4,
    "level": "clean"
   },
   "RVTY": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "Revvity, Inc.",
    "count": 0,
    "flags": {
@@ -9612,21 +9332,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1685466956209634,
+      "beta": 1.1753380945734562,
       "maxDay21": 0.07836404449688161
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0846
+     "value": 0.0876
     }
    },
    "known": 4,
    "level": "clean"
   },
   "RXO": {
-   "asOf": "2026-10-12",
+   "asOf": "2026-11-18",
    "companyName": "RXO, Inc.",
    "count": 1,
    "flags": {
@@ -9652,21 +9372,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3625320762607342,
+      "beta": 1.3669425098995303,
       "maxDay21": 0.015097055388253011
      }
     },
     "SHORT": {
-     "on": true,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.2499
+     "value": 0.1349
     }
    },
    "known": 4,
    "level": "clean"
   },
   "SAIC": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Science Applications Internatio",
    "count": 0,
    "flags": {
@@ -9692,21 +9412,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.20888340371229328,
+      "beta": 0.21396698574329184,
       "maxDay21": 0.049729322215865235
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0651
+     "value": 0.0561
     }
    },
    "known": 4,
    "level": "clean"
   },
   "SEZL": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Sezzle Inc.",
    "count": 0,
    "flags": {
@@ -9732,101 +9452,101 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.6846545112477291,
+      "beta": 1.6821020801971522,
       "maxDay21": 0.13395271952272103
      }
     },
     "SHORT": {
      "on": true,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.2212
+     "value": 0.23120001
     }
    },
    "known": 4,
    "level": "clean"
   },
   "SGRY": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Surgery Partners, Inc.",
    "count": 1,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": 0.029112801013941647
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": 0.01740045422138503
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 195600000.0,
+      "operatingIncome": 470800000.0
      }
     },
     "LOTTO": {
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.0525611805064679,
+      "beta": 1.052812536141362,
       "maxDay21": 0.4761904761904763
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.1398
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "SHO": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Sunstone Hotel Investors, Inc. ",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": -0.024989707526365312
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": -0.05534907201515504
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 181760000.0,
+      "operatingIncome": 75716000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6091691365039466,
+      "beta": 0.613833246900674,
       "maxDay21": 0.034195150562031484
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.00029999999
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "SHOP": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Shopify Inc.",
    "count": 0,
    "flags": {
@@ -9852,141 +9572,101 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.6906477820236214,
+      "beta": 1.6959978295282843,
       "maxDay21": 0.07336740490789939
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0167
+     "value": 0.015700001
     }
    },
    "known": 4,
    "level": "clean"
   },
-  "SIG": {
-   "asOf": null,
-   "companyName": null,
-   "count": 0,
-   "flags": {
-    "ASSET_BLOAT": {
-     "on": null,
-     "rule": "assets +50% in a year",
-     "value": null
-    },
-    "DILUTION": {
-     "on": null,
-     "rule": "shares +10% in a year",
-     "value": null
-    },
-    "LOSS": {
-     "on": null,
-     "rule": "operating loss or negative free cash flow",
-     "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
-     }
-    },
-    "LOTTO": {
-     "on": false,
-     "rule": "beta > 2 or a +15% day in the last month",
-     "value": {
-      "beta": 1.1735049272162585,
-      "maxDay21": 0.0798990096609693
-     }
-    },
-    "SHORT": {
-     "on": null,
-     "rule": "short > 15% of float (info only, not counted)",
-     "value": null
-    }
-   },
-   "known": 1,
-   "level": "unknown"
-  },
   "SIRI": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "SiriusXM Holdings Inc.",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": -0.01031939246393665
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": -0.012445055637991476
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 1245000000.0,
+      "operatingIncome": 1907000000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3162303289129267,
+      "beta": 0.3212839596556099,
       "maxDay21": 0.08441573685269943
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.1491
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "SKWD": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Skyward Specialty Insurance Gro",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": 0.2848586316905475
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": 0.009552304595594752
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 400622000.0,
+      "operatingIncome": 224343000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.1261389090193534,
+      "beta": -0.12577582342656476,
       "maxDay21": 0.05852842884036202
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.049200002
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "SLDE": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Slide Insurance Holdings, Inc.",
    "count": 1,
    "flags": {
@@ -10012,21 +9692,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.09927449196267925,
+      "beta": 0.10315217095072228,
       "maxDay21": 0.02882880133551513
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.111499995
+     "value": 0.105
     }
    },
    "known": 4,
    "level": "clean"
   },
   "SLS": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "SELLAS Life Sciences Group, Inc",
    "count": 4,
    "flags": {
@@ -10052,21 +9732,21 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1931992057609557,
-      "maxDay21": 1.615796715440875
+      "beta": 1.395092026874772,
+      "maxDay21": 1.563587705005673
      }
     },
     "SHORT": {
      "on": true,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.2741
+     "value": 0.2818
     }
    },
    "known": 4,
    "level": "veto"
   },
   "SN": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "SharkNinja, Inc.",
    "count": 0,
    "flags": {
@@ -10092,61 +9772,61 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3344860317217762,
+      "beta": 1.3370127551472333,
       "maxDay21": 0.05525557374687473
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.1432
+     "value": 0.1277
     }
    },
    "known": 4,
    "level": "clean"
   },
   "SPGI": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "S&P Global Inc.",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": 0.016256787499377312
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": -0.0292397660818714
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 5456000000.0,
+      "operatingIncome": 6177000000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3875858832075614,
+      "beta": 0.3895798580186919,
       "maxDay21": 0.033602994878288106
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.0152
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "SPNT": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "SiriusPoint Ltd.",
    "count": 0,
    "flags": {
@@ -10172,21 +9852,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.04227902497819474,
+      "beta": -0.039463762070427975,
       "maxDay21": 0.03672848614005364
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0517
+     "value": 0.051599998
     }
    },
    "known": 4,
    "level": "clean"
   },
   "SPOT": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Spotify Technology S.A.",
    "count": 0,
    "flags": {
@@ -10212,21 +9892,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.22551699550150553,
+      "beta": 0.2248164412605744,
       "maxDay21": 0.111013711706204
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.027
+     "value": 0.0194
     }
    },
    "known": 4,
    "level": "clean"
   },
   "SSL": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "Sasol Ltd.",
    "count": 0,
    "flags": {
@@ -10252,21 +9932,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.7134674880597207,
+      "beta": -0.7260343707784197,
       "maxDay21": 0.07844339150844637
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0091
+     "value": 0.0104
     }
    },
    "known": 4,
    "level": "clean"
   },
   "STGW": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "Stagwell Inc.",
    "count": 1,
    "flags": {
@@ -10292,21 +9972,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7244952496703094,
+      "beta": 0.727682269841051,
       "maxDay21": 0.1268403052362661
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.106400006
+     "value": 0.121800005
     }
    },
    "known": 4,
    "level": "clean"
   },
   "STX": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "Seagate Technology Holdings PLC",
    "count": 1,
    "flags": {
@@ -10332,101 +10012,101 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.6892151738470456,
+      "beta": 2.6853082328620674,
       "maxDay21": 0.09987635276427387
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0307
+     "value": 0.0368
     }
    },
    "known": 4,
    "level": "clean"
   },
   "SWK": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Stanley Black & Decker, Inc.",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": -0.027699334977962287
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": 0.004297890744875632
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 687900000.0,
+      "operatingIncome": 1255400000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.3645588742526447,
+      "beta": 1.3702031202774607,
       "maxDay21": 0.13104567696946057
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.0583
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "SWKS": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "Skyworks Solutions, Inc.",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
      "on": false,
      "rule": "assets +50% in a year",
-     "value": -0.04422150592155305
+     "value": 0.19196665403561952
     },
     "DILUTION": {
      "on": false,
      "rule": "shares +10% in a year",
-     "value": -0.07004377736085055
+     "value": 0.0026899798251514007
     },
     "LOSS": {
      "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": 1075900000.0,
-      "operatingIncome": 524200000.0
+      "freeCashFlow": 198800000.0,
+      "operatingIncome": 340900000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1869457830898411,
+      "beta": 1.1928249077948685,
       "maxDay21": 0.059605856120741985
      }
     },
     "SHORT": {
-     "on": true,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.2932
+     "value": 0.13430001
     }
    },
    "known": 4,
    "level": "clean"
   },
   "SYNA": {
-   "asOf": "2026-10-09",
+   "asOf": "2026-11-18",
    "companyName": "Synaptics Incorporated",
    "count": 1,
    "flags": {
@@ -10452,21 +10132,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.9532545528814285,
+      "beta": 1.9564845777321502,
       "maxDay21": 0.006391137705599403
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.1084
+     "value": 0.089899994
     }
    },
    "known": 4,
    "level": "clean"
   },
   "SYRE": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "Spyre Therapeutics, Inc.",
    "count": 2,
    "flags": {
@@ -10492,61 +10172,61 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.7356178344194297,
+      "beta": 1.7306365728306816,
       "maxDay21": 0.07884797224888818
      }
     },
     "SHORT": {
-     "on": true,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.15359999
+     "value": 0.1302
     }
    },
    "known": 4,
    "level": "caution"
   },
   "TAK": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Takeda Pharmaceutical Company L",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": 0.08865324980924094
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": 0.003931741741706629
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 626772000000.0,
+      "operatingIncome": 464451000000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.03007989755498464,
+      "beta": 0.03160252417172965,
       "maxDay21": 0.04497749166595422
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.001
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "TBBB": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "BBB Foods Inc.",
    "count": 1,
    "flags": {
@@ -10572,21 +10252,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.43494502325291007,
+      "beta": 0.4362549602511338,
       "maxDay21": 0.10531858647423675
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0437
+     "value": 0.032899998
     }
    },
    "known": 4,
    "level": "clean"
   },
   "TENB": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "Tenable Holdings, Inc.",
    "count": 1,
    "flags": {
@@ -10612,21 +10292,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.2371003014360067,
+      "beta": 1.2366172645231277,
       "maxDay21": 0.08118409776849189
      }
     },
     "SHORT": {
      "on": true,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.1665
+     "value": 0.17899999
     }
    },
    "known": 4,
    "level": "clean"
   },
   "TEVA": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "Teva Pharmaceutical Industries ",
    "count": 0,
    "flags": {
@@ -10652,61 +10332,61 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6263653722458956,
+      "beta": 0.6215983789062561,
       "maxDay21": 0.03752814496345458
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0257
+     "value": 0.0239
     }
    },
    "known": 4,
    "level": "clean"
   },
   "TFX": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Teleflex Incorporated",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": -0.021228067852047783
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": -0.04493534064054572
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 245441000.0,
+      "operatingIncome": 255804000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.4750093599458547,
+      "beta": 0.4790632838113535,
       "maxDay21": 0.07088246423571154
      }
     },
     "SHORT": {
-     "on": null,
+     "on": true,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.1505
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "TGT": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "Target Corporation",
    "count": 0,
    "flags": {
@@ -10732,21 +10412,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.38184243849445904,
+      "beta": 0.37237883212947703,
       "maxDay21": 0.056347199633439704
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.038
+     "value": 0.036199998
     }
    },
    "known": 4,
    "level": "clean"
   },
   "TGTX": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "TG Therapeutics, Inc.",
    "count": 2,
    "flags": {
@@ -10772,21 +10452,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7043221707746802,
+      "beta": 0.7069983025543306,
       "maxDay21": 0.059423322354189345
      }
     },
     "SHORT": {
      "on": true,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.2893
+     "value": 0.2766
     }
    },
    "known": 4,
    "level": "caution"
   },
   "THC": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "Tenet Healthcare Corporation",
    "count": 0,
    "flags": {
@@ -10812,21 +10492,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.584306651295482,
+      "beta": 0.5840100365918935,
       "maxDay21": 0.09584160382693563
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.026600001
+     "value": 0.026199998
     }
    },
    "known": 4,
    "level": "clean"
   },
   "TMO": {
-   "asOf": "2026-09-22",
+   "asOf": "2026-11-18",
    "companyName": "Thermo Fisher Scientific Inc",
    "count": 0,
    "flags": {
@@ -10852,21 +10532,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6845528146920655,
+      "beta": 0.6887287703290209,
       "maxDay21": 0.03867521840563626
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0154
+     "value": 0.0128999995
     }
    },
    "known": 4,
    "level": "clean"
   },
   "TNET": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "TriNet Group, Inc.",
    "count": 0,
    "flags": {
@@ -10892,21 +10572,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.006763115112563985,
+      "beta": -0.00327428615398627,
       "maxDay21": 0.050871255982570585
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.067600004
+     "value": 0.063200004
     }
    },
    "known": 4,
    "level": "clean"
   },
   "TOST": {
-   "asOf": "2026-10-10",
+   "asOf": "2026-11-18",
    "companyName": "Toast, Inc.",
    "count": 0,
    "flags": {
@@ -10932,61 +10612,61 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7949046191888549,
+      "beta": 0.7995960056175707,
       "maxDay21": 0.0549241744636364
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0623
+     "value": 0.0677
     }
    },
    "known": 4,
    "level": "clean"
   },
   "TREX": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Trex Company, Inc.",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": 0.05784272839158433
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": -0.013224284362630123
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 124538000.0,
+      "operatingIncome": 257961000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.5352856669034876,
+      "beta": 1.5452107259482153,
       "maxDay21": 0.14300003051757804
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.0954
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "TRMD": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "TORM plc",
    "count": 0,
    "flags": {
@@ -11012,58 +10692,58 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5030749405195485,
+      "beta": 0.5059967276525063,
       "maxDay21": 0.035297134807293684
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.024400001
+     "value": 0.0183
     }
    },
    "known": 4,
    "level": "clean"
   },
   "TRV": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "The Travelers Companies, Inc.",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": 0.0789779936781565
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": -0.04015887025595766
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 10606000000.0,
+      "operatingIncome": 8221000000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.06636765630694164,
+      "beta": -0.06270324072467794,
       "maxDay21": 0.035001634277612714
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.024500001
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "TSLA": {
    "asOf": "2026-11-16",
@@ -11092,7 +10772,7 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.0653831735544617,
+      "beta": 2.067761079349626,
       "maxDay21": 0.05535700548459377
      }
     },
@@ -11106,47 +10786,47 @@
    "level": "caution"
   },
   "TWST": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Twist Bioscience Corporation",
-   "count": 2,
+   "count": 4,
    "flags": {
     "ASSET_BLOAT": {
-     "on": false,
+     "on": true,
      "rule": "assets +50% in a year",
-     "value": 0.04482658145633489
+     "value": 0.7477428913736774
     },
     "DILUTION": {
-     "on": false,
+     "on": true,
      "rule": "shares +10% in a year",
-     "value": 0.029790920053671233
+     "value": 0.1184542560736257
     },
     "LOSS": {
      "on": true,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": -75632000.0,
-      "operatingIncome": -136259000.0
+      "freeCashFlow": -95964000.0,
+      "operatingIncome": -132250000.0
      }
     },
     "LOTTO": {
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.874500786388791,
+      "beta": 2.872838034278483,
       "maxDay21": 0.12045695266232004
      }
     },
     "SHORT": {
      "on": true,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.201
+     "value": 0.1871
     }
    },
    "known": 4,
-   "level": "caution"
+   "level": "veto"
   },
   "TXG": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "10x Genomics, Inc.",
    "count": 2,
    "flags": {
@@ -11172,21 +10852,21 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.474869499389261,
+      "beta": 2.4674629818874996,
       "maxDay21": 0.09733475693788418
      }
     },
     "SHORT": {
-     "on": true,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.173
+     "value": 0.1385
     }
    },
    "known": 4,
    "level": "caution"
   },
   "TXN": {
-   "asOf": "2026-10-02",
+   "asOf": "2026-11-18",
    "companyName": "Texas Instruments Incorporated",
    "count": 0,
    "flags": {
@@ -11212,61 +10892,61 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.66190960555009,
+      "beta": 1.659419714175927,
       "maxDay21": 0.06623170826707758
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0241
+     "value": 0.0223
     }
    },
    "known": 4,
    "level": "clean"
   },
   "TXRH": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Texas Roadhouse, Inc.",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": 0.11241549477416024
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": -0.009476523382947688
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 336071000.0,
+      "operatingIncome": 475089000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.3145749121275576,
+      "beta": 0.3146394360436835,
       "maxDay21": 0.06482731366996064
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.051999997
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "U": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Unity Software Inc.",
    "count": 1,
    "flags": {
@@ -11292,21 +10972,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.335855732027145,
+      "beta": 1.3386576606090508,
       "maxDay21": 0.1493170110525599
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0639
+     "value": 0.0705
     }
    },
    "known": 4,
    "level": "clean"
   },
   "ULTA": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Ulta Beauty, Inc.",
    "count": 0,
    "flags": {
@@ -11332,21 +11012,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5679336027994271,
+      "beta": 0.5686602926656589,
       "maxDay21": 0.046896259157146236
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0572
+     "value": 0.0477
     }
    },
    "known": 4,
    "level": "clean"
   },
   "UTHR": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "United Therapeutics Corporation",
    "count": 0,
    "flags": {
@@ -11372,21 +11052,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.42393951671932256,
+      "beta": 0.41777933616361207,
       "maxDay21": 0.03780011741487965
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0979
+     "value": 0.0504
     }
    },
    "known": 4,
    "level": "clean"
   },
   "UTZ": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Utz Brands Inc",
    "count": 0,
    "flags": {
@@ -11412,21 +11092,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.49058178874229863,
+      "beta": 0.49173625739500415,
       "maxDay21": 0.002105244419031038
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0947
+     "value": 0.0682
     }
    },
    "known": 4,
    "level": "clean"
   },
   "VAC": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Marriott Vacations Worldwide Co",
    "count": 1,
    "flags": {
@@ -11452,61 +11132,61 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.111498288650599,
+      "beta": 1.1154771531067167,
       "maxDay21": 0.04265530848194943
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.09060001
+     "value": 0.0844
     }
    },
    "known": 4,
    "level": "clean"
   },
   "VCEL": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Vericel Corporation",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": 0.127673194337242
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": 0.019988716047392607
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 24748000.0,
+      "operatingIncome": 11044000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.4852690530560959,
+      "beta": 0.4915127695992507,
       "maxDay21": 0.13852241205961024
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.1355
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "VCTR": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Victory Capital Holdings, Inc. ",
    "count": 1,
    "flags": {
@@ -11532,21 +11212,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.2166413247957613,
+      "beta": 1.2142629015062059,
       "maxDay21": 0.06340158775099525
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0727
+     "value": 0.0721
     }
    },
    "known": 4,
    "level": "clean"
   },
   "VEEV": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Veeva Systems Inc.",
    "count": 0,
    "flags": {
@@ -11572,61 +11252,61 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.4978994541413519,
+      "beta": 0.5081213073520614,
       "maxDay21": 0.02447153338228203
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.033099998
+     "value": 0.026099999
     }
    },
    "known": 4,
    "level": "clean"
   },
   "VFC": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "V.F. Corporation",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": -0.009315773354535817
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": 0.004670829932395426
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 505468000.0,
+      "operatingIncome": 607285000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.465788657834234,
+      "beta": 1.4786175992306103,
       "maxDay21": 0.06384215964563822
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.0884
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "VIA": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Via Transportation, Inc.",
    "count": 2,
    "flags": {
@@ -11652,21 +11332,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.9878660718343848,
+      "beta": 0.9909165246282884,
       "maxDay21": 0.12804872375524767
      }
     },
     "SHORT": {
      "on": true,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.21030001
+     "value": 0.156
     }
    },
    "known": 4,
    "level": "caution"
   },
   "VLO": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Valero Energy Corporation",
    "count": 0,
    "flags": {
@@ -11692,141 +11372,181 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": -0.24464998359086895,
+      "beta": -0.24830301353986423,
       "maxDay21": 0.03923861988844268
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0363
+     "value": 0.029000001
     }
    },
    "known": 4,
    "level": "clean"
   },
   "VLTO": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Veralto Corp",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": 0.20090540118638778
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": 0.004042037186742009
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 1014000000.0,
+      "operatingIncome": 1277000000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.1491537780046472,
+      "beta": 0.1508548714791932,
       "maxDay21": 0.06765328734092346
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.0233
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "VNT": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Vontier Corporation",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": 0.013525113095928631
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": -0.04755525787006032
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 441100000.0,
+      "operatingIncome": 561600000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7050982478373222,
+      "beta": 0.7116122018480293,
       "maxDay21": 0.06173495427844977
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.120299995
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "VOYA": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Voya Financial, Inc.",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": 0.0913423109543654
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": -0.017326663753145177
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 1288000000.0,
+      "operatingIncome": 1084000000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8156168650562821,
+      "beta": 0.8157326005478053,
       "maxDay21": 0.056357883862910185
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.0001
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
+  },
+  "VRDN": {
+   "asOf": "2026-11-18",
+   "companyName": "Viridian Therapeutics, Inc.",
+   "count": 3,
+   "flags": {
+    "ASSET_BLOAT": {
+     "on": false,
+     "rule": "assets +50% in a year",
+     "value": 0.21149564320187286
+    },
+    "DILUTION": {
+     "on": true,
+     "rule": "shares +10% in a year",
+     "value": 0.25720969662387283
+    },
+    "LOSS": {
+     "on": true,
+     "rule": "operating loss or negative free cash flow",
+     "value": {
+      "freeCashFlow": -276886000.0,
+      "operatingIncome": -363395000.0
+     }
+    },
+    "LOTTO": {
+     "on": true,
+     "rule": "beta > 2 or a +15% day in the last month",
+     "value": {
+      "beta": 1.1479585531932839,
+      "maxDay21": 0.15526841931911362
+     }
+    },
+    "SHORT": {
+     "on": true,
+     "rule": "short > 15% of float (info only, not counted)",
+     "value": 0.15560001
+    }
+   },
+   "known": 4,
+   "level": "veto"
   },
   "VRNS": {
-   "asOf": "2026-10-09",
+   "asOf": "2026-11-18",
    "companyName": "Varonis Systems, Inc.",
    "count": 1,
    "flags": {
@@ -11852,21 +11572,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7515156187542995,
+      "beta": 0.7530573181630223,
       "maxDay21": 0.00552374083190843
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0685
+     "value": 0.042
     }
    },
    "known": 4,
    "level": "clean"
   },
   "VSXY": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Victorias Secret & Co.",
    "count": 0,
    "flags": {
@@ -11892,21 +11612,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.2708449067857654,
+      "beta": 1.273206171963749,
       "maxDay21": 0.08375607551165443
      }
     },
     "SHORT": {
      "on": true,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.1749
+     "value": 0.1681
     }
    },
    "known": 4,
    "level": "clean"
   },
   "VTRS": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "Viatris Inc.",
    "count": 0,
    "flags": {
@@ -11932,21 +11652,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.6437930839191124,
+      "beta": 0.6498399848655237,
       "maxDay21": 0.04955195403701862
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0367
+     "value": 0.0308
     }
    },
    "known": 4,
    "level": "clean"
   },
   "WLY": {
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-18",
    "companyName": "John Wiley & Sons, Inc.",
    "count": 0,
    "flags": {
@@ -11972,21 +11692,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.1746788163542268,
+      "beta": 0.17725363954148865,
       "maxDay21": 0.03862410234765146
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.1491
+     "value": 0.1261
     }
    },
    "known": 4,
    "level": "clean"
   },
   "WPP": {
-   "asOf": "2026-10-10",
+   "asOf": "2026-11-18",
    "companyName": "WPP plc",
    "count": 0,
    "flags": {
@@ -12012,21 +11732,21 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7859442456611558,
+      "beta": 0.7895166169611934,
       "maxDay21": 0.04612405307160761
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0088
+     "value": 0.01
     }
    },
    "known": 4,
    "level": "clean"
   },
   "WST": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "West Pharmaceutical Services, I",
    "count": 0,
    "flags": {
@@ -12052,141 +11772,141 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.618355248484425,
+      "beta": 0.6206782890714,
       "maxDay21": 0.033215766798179835
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0349
+     "value": 0.0304
     }
    },
    "known": 4,
    "level": "clean"
   },
   "WWW": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Wolverine World Wide, Inc.",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": 0.020843287147634948
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": 0.010676801484693854
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 125500000.0,
+      "operatingIncome": 150200000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.1886409591181664,
+      "beta": 1.2025170190390537,
       "maxDay21": 0.08832525038432615
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.105500005
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "XERS": {
-   "asOf": null,
-   "companyName": null,
-   "count": 1,
+   "asOf": "2026-11-18",
+   "companyName": "Xeris Biopharma Holdings, Inc.",
+   "count": 2,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": 0.1871695660248871
     },
     "DILUTION": {
-     "on": null,
+     "on": true,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": 0.11233397762863406
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 27930000.0,
+      "operatingIncome": 24896000.0
      }
     },
     "LOTTO": {
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.0788710712932308,
+      "beta": 0.07648018904126114,
       "maxDay21": 0.25047799961798334
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.0508
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "caution"
   },
   "XHR": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Xenia Hotels & Resorts, Inc.",
    "count": 0,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": -0.00810173413344184
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": -0.09037798636829375
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 89905000.0,
+      "operatingIncome": 107302000.0
      }
     },
     "LOTTO": {
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.5707313641348662,
+      "beta": 0.5749442550119631,
       "maxDay21": 0.026405818485705224
      }
     },
     "SHORT": {
-     "on": null,
+     "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.064899996
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "XMTR": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Xometry, Inc.",
    "count": 2,
    "flags": {
@@ -12212,101 +11932,101 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.2676052744547266,
+      "beta": 2.2749053802968744,
       "maxDay21": 0.16546238773927757
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.0963
+     "value": 0.0779
     }
    },
    "known": 4,
    "level": "caution"
   },
   "XNCR": {
-   "asOf": null,
-   "companyName": null,
-   "count": 1,
+   "asOf": "2026-11-18",
+   "companyName": "Xencor, Inc.",
+   "count": 2,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": -0.08030926156448115
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": 0.022999665737247987
     },
     "LOSS": {
-     "on": null,
+     "on": true,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": -138267000.0,
+      "operatingIncome": -177502000.0
      }
     },
     "LOTTO": {
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 1.274525741961637,
+      "beta": 1.2777005504042676,
       "maxDay21": 0.1588562331819272
      }
     },
     "SHORT": {
-     "on": null,
+     "on": true,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.24290001
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "caution"
   },
   "YOU": {
-   "asOf": null,
-   "companyName": null,
+   "asOf": "2026-11-18",
+   "companyName": "Clear Secure, Inc.",
    "count": 1,
    "flags": {
     "ASSET_BLOAT": {
-     "on": null,
+     "on": false,
      "rule": "assets +50% in a year",
-     "value": null
+     "value": 0.09076667124154336
     },
     "DILUTION": {
-     "on": null,
+     "on": false,
      "rule": "shares +10% in a year",
-     "value": null
+     "value": 0.008902715301184694
     },
     "LOSS": {
-     "on": null,
+     "on": false,
      "rule": "operating loss or negative free cash flow",
      "value": {
-      "freeCashFlow": null,
-      "operatingIncome": null
+      "freeCashFlow": 343112000.0,
+      "operatingIncome": 186478000.0
      }
     },
     "LOTTO": {
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.8078600608651413,
+      "beta": 0.8094456798872622,
       "maxDay21": 0.23701850727280527
      }
     },
     "SHORT": {
-     "on": null,
+     "on": true,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": null
+     "value": 0.18180001
     }
    },
-   "known": 1,
-   "level": "unknown"
+   "known": 4,
+   "level": "clean"
   },
   "ZETA": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "Zeta Global Holdings Corp.",
    "count": 1,
    "flags": {
@@ -12332,21 +12052,21 @@
      "on": true,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 2.0777924439101434,
+      "beta": 2.089080407814718,
       "maxDay21": 0.08173971855486739
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.062
+     "value": 0.0739
     }
    },
    "known": 4,
    "level": "clean"
   },
   "ZIM": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-11-18",
    "companyName": "ZIM Integrated Shipping Service",
    "count": 0,
    "flags": {
@@ -12372,14 +12092,14 @@
      "on": false,
      "rule": "beta > 2 or a +15% day in the last month",
      "value": {
-      "beta": 0.7969329970988069,
+      "beta": 0.7993017155874369,
       "maxDay21": 0.0335096593583033
      }
     },
     "SHORT": {
      "on": false,
      "rule": "short > 15% of float (info only, not counted)",
-     "value": 0.025999999
+     "value": 0.020399999
     }
    },
    "known": 4,
@@ -12388,19 +12108,19 @@
  },
  "tracked": {
   "caution": {
-   "avgExcess": 10.1,
-   "avgReturn": 5.0,
-   "n": 33
+   "avgExcess": 9.5,
+   "avgReturn": 4.8,
+   "n": 35
   },
   "clean": {
-   "avgExcess": 9.0,
-   "avgReturn": 4.1,
-   "n": 207
+   "avgExcess": 7.7,
+   "avgReturn": 3.4,
+   "n": 223
   },
   "veto": {
-   "avgExcess": -6.9,
-   "avgReturn": -12.1,
-   "n": 14
+   "avgExcess": -7.2,
+   "avgReturn": -12.2,
+   "n": 13
   }
  }
 }
