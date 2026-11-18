@@ -206,6 +206,15 @@
   "sharesYoY": -0.0033542077618098354,
   "shortPctFloat": 0.0128
  },
+ "AEO": {
+  "assetsYoY": 0.04670203809934015,
+  "companyName": "American Eagle Outfitters, Inc.",
+  "fetchedAt": "2026-11-18",
+  "freeCashFlow": 195387000.0,
+  "operatingIncome": 327825000.0,
+  "sharesYoY": -0.10423183365320388,
+  "shortPctFloat": 0.1311
+ },
  "AIZ": {
   "assetsYoY": 0.036235815491453494,
   "companyName": "Assurant, Inc.",
@@ -792,13 +801,13 @@
   "shortPctFloat": 0.081099994
  },
  "BEN": {
-  "assetsYoY": -0.002963236766313937,
+  "assetsYoY": 0.19334348730084683,
   "companyName": "Franklin Templeton, Inc.",
-  "fetchedAt": "2026-10-06",
-  "freeCashFlow": 911600000.0,
-  "operatingIncome": 1099800000.0,
-  "sharesYoY": -0.005051125738132267,
-  "shortPctFloat": 0.0429
+  "fetchedAt": "2026-11-18",
+  "freeCashFlow": 816200000.0,
+  "operatingIncome": 1360700000.0,
+  "sharesYoY": -0.016223758253441134,
+  "shortPctFloat": 0.0433
  },
  "BFH": {
   "assetsYoY": -0.009960246385042115,
@@ -1730,11 +1739,11 @@
  "EAT": {
   "assetsYoY": 0.05092212349734937,
   "companyName": "Brinker International, Inc.",
-  "fetchedAt": "2026-10-13",
+  "fetchedAt": "2026-11-18",
   "freeCashFlow": 557500000.0,
   "operatingIncome": 628500000.0,
   "sharesYoY": -0.051685393258426915,
-  "shortPctFloat": 0.1748
+  "shortPctFloat": 0.1685
  },
  "EBAY": {
   "assetsYoY": -0.09062742060418283,
@@ -2162,11 +2171,11 @@
  "FTNT": {
   "assetsYoY": 0.06412922125144682,
   "companyName": "Fortinet, Inc.",
-  "fetchedAt": "2026-10-13",
+  "fetchedAt": "2026-11-18",
   "freeCashFlow": 2225800000.0,
   "operatingIncome": 2084700000.0,
   "sharesYoY": -0.0312907431551499,
-  "shortPctFloat": 0.020599999
+  "shortPctFloat": 0.0197
  },
  "FTRE": {
   "assetsYoY": -0.24125502905677243,
@@ -2194,6 +2203,15 @@
   "operatingIncome": 295090000.0,
   "sharesYoY": -0.028094578194791997,
   "shortPctFloat": 0.120799996
+ },
+ "GFF": {
+  "assetsYoY": -0.12961744512968199,
+  "companyName": "Griffon Corporation",
+  "fetchedAt": "2026-11-18",
+  "freeCashFlow": 303583000.0,
+  "operatingIncome": 449889000.0,
+  "sharesYoY": -0.04051508187897235,
+  "shortPctFloat": 0.0495
  },
  "GGB": {
   "assetsYoY": -0.05904910370207428,
@@ -2909,11 +2927,11 @@
  "LQDA": {
   "assetsYoY": 0.42386230911846057,
   "companyName": "Liquidia Corporation",
-  "fetchedAt": "2026-09-22",
+  "fetchedAt": "2026-11-18",
   "freeCashFlow": -42022000.0,
   "operatingIncome": -51376000.0,
   "sharesYoY": 0.02977069924832554,
-  "shortPctFloat": 0.16440001
+  "shortPctFloat": 0.24069999
  },
  "LRCX": {
   "assetsYoY": 0.1023404259306282,
@@ -3013,6 +3031,15 @@
   "operatingIncome": 4139000000.0,
   "sharesYoY": -0.03906051327040272,
   "shortPctFloat": 0.0278
+ },
+ "MAS": {
+  "assetsYoY": 0.036881977671451294,
+  "companyName": "Masco Corporation",
+  "fetchedAt": "2026-11-18",
+  "freeCashFlow": 866000000.0,
+  "operatingIncome": 1253000000.0,
+  "sharesYoY": -0.0385882352941177,
+  "shortPctFloat": 0.0477
  },
  "MATX": {
   "assetsYoY": 0.008747878313095647,
@@ -3134,11 +3161,11 @@
  "MHK": {
   "assetsYoY": 0.0746515918816002,
   "companyName": "Mohawk Industries, Inc.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-11-18",
   "freeCashFlow": 616200000.0,
   "operatingIncome": 509700000.0,
   "sharesYoY": -0.01757188498402551,
-  "shortPctFloat": 0.12550001
+  "shortPctFloat": 0.2469
  },
  "MKSI": {
   "assetsYoY": 0.023981373690337593,
@@ -3278,11 +3305,11 @@
  "MSGE": {
   "assetsYoY": 0.15894198373259272,
   "companyName": "Madison Square Garden Entertain",
-  "fetchedAt": "2026-10-15",
+  "fetchedAt": "2026-11-18",
   "freeCashFlow": 323092000.0,
   "operatingIncome": 169304000.0,
   "sharesYoY": -0.003247038792235757,
-  "shortPctFloat": 0.0458
+  "shortPctFloat": 0.076799996
  },
  "MSGK": {
   "assetsYoY": 0.04390980424637503,
@@ -4175,6 +4202,15 @@
   "sharesYoY": 0.002123813691579546,
   "shortPctFloat": 0.1512
  },
+ "PVH": {
+  "assetsYoY": 0.05871370046767943,
+  "companyName": "PVH Corp.",
+  "fetchedAt": "2026-11-18",
+  "freeCashFlow": 538400000.0,
+  "operatingIncome": 656500000.0,
+  "sharesYoY": -0.1397566416715179,
+  "shortPctFloat": 0.1183
+ },
  "PWR": {
   "assetsYoY": 0.33413842960145246,
   "companyName": "Quanta Services, Inc.",
@@ -4430,11 +4466,11 @@
  "S": {
   "assetsYoY": 0.013079312314963953,
   "companyName": "SentinelOne, Inc.",
-  "fetchedAt": "2026-10-15",
+  "fetchedAt": "2026-11-18",
   "freeCashFlow": 51686000.0,
   "operatingIncome": -309044000.0,
   "sharesYoY": 0.037465073196266685,
-  "shortPctFloat": 0.056399997
+  "shortPctFloat": 0.1004
  },
  "SAIC": {
   "assetsYoY": 0.020587113991612727,
@@ -4448,11 +4484,11 @@
  "SAIL": {
   "assetsYoY": 0.025046829996454356,
   "companyName": "SailPoint, Inc.",
-  "fetchedAt": "2026-10-08",
+  "fetchedAt": "2026-11-18",
   "freeCashFlow": 51750000.0,
   "operatingIncome": -307486000.0,
   "sharesYoY": 0.03150826511300675,
-  "shortPctFloat": 0.2541
+  "shortPctFloat": 0.3005
  },
  "SANM": {
   "assetsYoY": 0.21467163054172378,
@@ -4493,11 +4529,11 @@
  "SDGR": {
   "assetsYoY": -0.11790929829718688,
   "companyName": "Schrodinger, Inc.",
-  "fetchedAt": "2026-10-09",
+  "fetchedAt": "2026-11-18",
   "freeCashFlow": 12457000.0,
   "operatingIncome": -166896000.0,
   "sharesYoY": 0.01104597456326406,
-  "shortPctFloat": 0.26610002
+  "shortPctFloat": 0.2308
  },
  "SEI": {
   "assetsYoY": 0.8957856019418677,
@@ -4570,6 +4606,15 @@
   "operatingIncome": 1885000000.0,
   "sharesYoY": 0.007202459484047408,
   "shortPctFloat": 0.015700001
+ },
+ "SIG": {
+  "assetsYoY": 0.039377641183250045,
+  "companyName": "Signet Jewelers Limited",
+  "fetchedAt": "2026-11-18",
+  "freeCashFlow": 525300000.0,
+  "operatingIncome": 515300000.0,
+  "sharesYoY": -0.06481481481481477,
+  "shortPctFloat": 0.1743
  },
  "SIMO": {
   "assetsYoY": 0.18556803990164217,
@@ -4922,6 +4967,15 @@
   "sharesYoY": 0.040413151598128305,
   "shortPctFloat": 0.032899998
  },
+ "TDC": {
+  "assetsYoY": 0.04401408450704225,
+  "companyName": "Teradata Corporation",
+  "fetchedAt": "2026-11-18",
+  "freeCashFlow": 285000000.0,
+  "operatingIncome": 205000000.0,
+  "sharesYoY": -0.02733964248159837,
+  "shortPctFloat": 0.21059999
+ },
  "TDW": {
   "assetsYoY": 0.15037177623639453,
   "companyName": "Tidewater Inc.",
@@ -5092,6 +5146,15 @@
   "operatingIncome": 304000000.0,
   "sharesYoY": 0.029720279720279796,
   "shortPctFloat": 0.0677
+ },
+ "TPC": {
+  "assetsYoY": 0.2163032590019116,
+  "companyName": "Tutor Perini Corporation",
+  "fetchedAt": "2026-11-18",
+  "freeCashFlow": 567211000.0,
+  "operatingIncome": 231961000.0,
+  "sharesYoY": 0.005825051191544084,
+  "shortPctFloat": 0.048
  },
  "TREX": {
   "assetsYoY": 0.05784272839158433,
@@ -5282,6 +5345,15 @@
   "sharesYoY": 0.0021845839932554956,
   "shortPctFloat": 0.0119
  },
+ "URBN": {
+  "assetsYoY": 0.10800645206970705,
+  "companyName": "Urban Outfitters, Inc.",
+  "fetchedAt": "2026-11-18",
+  "freeCashFlow": 315022000.0,
+  "operatingIncome": 605634000.0,
+  "sharesYoY": -0.027996067001244906,
+  "shortPctFloat": 0.1329
+ },
  "URGN": {
   "assetsYoY": -0.29839943159346327,
   "companyName": "UroGen Pharma Ltd.",
@@ -5417,6 +5489,15 @@
   "sharesYoY": 0.0019333094895297442,
   "shortPctFloat": 0.097600006
  },
+ "VIK": {
+  "assetsYoY": 0.20868370075740916,
+  "companyName": "Viking Holdings Ltd",
+  "fetchedAt": "2026-11-18",
+  "freeCashFlow": 1533456000.0,
+  "operatingIncome": 1501534000.0,
+  "sharesYoY": 0.0066785183558881744,
+  "shortPctFloat": 0.047
+ },
  "VIRT": {
   "assetsYoY": 0.31174802234355825,
   "companyName": "Virtu Financial, Inc.",
@@ -5525,6 +5606,24 @@
   "sharesYoY": -0.03554879923930121,
   "shortPctFloat": 0.0308
  },
+ "W": {
+  "assetsYoY": -0.005492917028042776,
+  "companyName": "Wayfair Inc.",
+  "fetchedAt": "2026-11-18",
+  "freeCashFlow": 329000000.0,
+  "operatingIncome": 93000000.0,
+  "sharesYoY": 0.0392506188523194,
+  "shortPctFloat": 0.11310001
+ },
+ "WAT": {
+  "assetsYoY": 0.11479546180713007,
+  "companyName": "Waters Corporation",
+  "fetchedAt": "2026-11-18",
+  "freeCashFlow": 539810000.0,
+  "operatingIncome": 802588000.0,
+  "sharesYoY": 0.002710985384252629,
+  "shortPctFloat": 0.0339
+ },
  "WCC": {
   "assetsYoY": 0.09517707517229468,
   "companyName": "WESCO International, Inc.",
@@ -5578,6 +5677,15 @@
   "operatingIncome": 382000000.0,
   "sharesYoY": -0.00022067506087752875,
   "shortPctFloat": 0.01
+ },
+ "WSM": {
+  "assetsYoY": 0.02080595562817078,
+  "companyName": "Williams-Sonoma, Inc.",
+  "fetchedAt": "2026-11-18",
+  "freeCashFlow": 1055451000.0,
+  "operatingIncome": 1415722000.0,
+  "sharesYoY": -0.03537055837563452,
+  "shortPctFloat": 0.051
  },
  "WST": {
   "assetsYoY": 0.17198221441510686,

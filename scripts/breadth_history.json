@@ -3268,33 +3268,50 @@
     },
     {
       "date": "2026-11-18",
-      "stage2Count": 222,
-      "breakoutCount": 16,
+      "stage2Count": 227,
+      "breakoutCount": 33,
       "breakoutTickers": [
         "ADT",
+        "ALRM",
         "ARX",
+        "ATEN",
+        "AZTA",
+        "BHC",
+        "BOX",
         "BRZE",
         "BWIN",
+        "CROX",
         "CXW",
         "DRH",
-        "EXPO",
-        "GKOS",
-        "PGNY",
+        "EXTR",
+        "GEO",
+        "GRDN",
+        "LIVN",
+        "OGN",
+        "OSW",
+        "PEB",
         "RPRX",
         "RXO",
         "SGRY",
+        "SIRI",
+        "SN",
         "SYNA",
+        "TBBB",
         "UTZ",
-        "VRNS",
-        "WST"
+        "VAC",
+        "VCEL",
+        "VTRS",
+        "WWW",
+        "XERS",
+        "XMTR"
       ],
       "spy": {
-        "price": 732.44,
-        "sma50": 762.89
+        "price": 732.01,
+        "sma50": 762.32
       },
       "qqq": {
-        "price": 656.95,
-        "sma50": 715.38
+        "price": 659.82,
+        "sma50": 714.26
       }
     }
   ]
