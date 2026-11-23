@@ -11,7 +11,7 @@
  "AAMI": {
   "assetsYoY": -0.03725824800910127,
   "companyName": "Acadian Asset Management Inc.",
-  "fetchedAt": "2026-11-16",
+  "fetchedAt": "2026-11-23",
   "freeCashFlow": -14300000.0,
   "operatingIncome": 132100000.0,
   "sharesYoY": -0.04719037373337698,
@@ -236,7 +236,7 @@
  "ALKS": {
   "assetsYoY": 0.20988175038809254,
   "companyName": "Alkermes plc",
-  "fetchedAt": "2026-11-16",
+  "fetchedAt": "2026-11-23",
   "freeCashFlow": 480334000.0,
   "operatingIncome": 253956000.0,
   "sharesYoY": 0.021149941896197788,
@@ -245,11 +245,11 @@
  "ALLE": {
   "assetsYoY": 0.16397789562814746,
   "companyName": "Allegion plc",
-  "fetchedAt": "2026-11-16",
+  "fetchedAt": "2026-11-23",
   "freeCashFlow": 685700000.0,
   "operatingIncome": 859500000.0,
   "sharesYoY": -0.002176657089145162,
-  "shortPctFloat": 0.0294
+  "shortPctFloat": 0.0296
  },
  "ALRM": {
   "assetsYoY": 0.04826936210632082,
@@ -290,7 +290,7 @@
  "AMD": {
   "assetsYoY": 0.1112298847253923,
   "companyName": "Advanced Micro Devices, Inc.",
-  "fetchedAt": "2026-11-16",
+  "fetchedAt": "2026-11-23",
   "freeCashFlow": 6735000000.0,
   "operatingIncome": 3694000000.0,
   "sharesYoY": 0.004932182490752224,
@@ -702,12 +702,12 @@
   "shortPctFloat": null
  },
  "AZTA": {
-  "assetsYoY": -0.019370412781244295,
+  "assetsYoY": -0.1705195520256052,
   "companyName": "Azenta, Inc.",
-  "fetchedAt": "2026-11-16",
-  "freeCashFlow": 38324000.0,
-  "operatingIncome": -21673000.0,
-  "sharesYoY": 0.006339575762028371,
+  "fetchedAt": "2026-11-23",
+  "freeCashFlow": 27427000.0,
+  "operatingIncome": -20480000.0,
+  "sharesYoY": -0.08944725960863631,
   "shortPctFloat": 0.2168
  },
  "BAND": {
@@ -965,7 +965,7 @@
  "BRKR": {
   "assetsYoY": 0.07486179757865918,
   "companyName": "Bruker Corporation",
-  "fetchedAt": "2026-11-16",
+  "fetchedAt": "2026-11-23",
   "freeCashFlow": 13900000.0,
   "operatingIncome": 236000000.0,
   "sharesYoY": 0.0030662927199860412,
@@ -1078,6 +1078,15 @@
   "operatingIncome": 11151000000.0,
   "sharesYoY": -0.026457092986093778,
   "shortPctFloat": 0.02
+ },
+ "CBC": {
+  "assetsYoY": 0.07844259461964054,
+  "companyName": "Central Bancompany, Inc.",
+  "fetchedAt": "2026-11-23",
+  "freeCashFlow": 231393000.0,
+  "operatingIncome": null,
+  "sharesYoY": 53.7012100428909,
+  "shortPctFloat": 0.119899996
  },
  "CBOE": {
   "assetsYoY": 0.19465663555481383,
@@ -1217,7 +1226,7 @@
  "CLOV": {
   "assetsYoY": -0.06841420114267605,
   "companyName": "Clover Health Investments, Corp",
-  "fetchedAt": "2026-11-16",
+  "fetchedAt": "2026-11-23",
   "freeCashFlow": -68977000.0,
   "operatingIncome": -85529000.0,
   "sharesYoY": 0.030817057800759384,
@@ -1370,7 +1379,7 @@
  "CPAY": {
   "assetsYoY": 0.4706292482315144,
   "companyName": "Corpay, Inc.",
-  "fetchedAt": "2026-11-16",
+  "fetchedAt": "2026-11-23",
   "freeCashFlow": 1299145000.0,
   "operatingIncome": 1951847000.0,
   "sharesYoY": -0.02576210043902516,
@@ -1568,7 +1577,7 @@
  "DGX": {
   "assetsYoY": 0.0044573763387605325,
   "companyName": "Quest Diagnostics Incorporated",
-  "fetchedAt": "2026-11-16",
+  "fetchedAt": "2026-11-23",
   "freeCashFlow": 1359000000.0,
   "operatingIncome": 1556000000.0,
   "sharesYoY": -0.0033704144099352407,
@@ -1622,7 +1631,7 @@
  "DNTH": {
   "assetsYoY": 0.41954717546148745,
   "companyName": "Dianthus Therapeutics, Inc.",
-  "fetchedAt": "2026-11-16",
+  "fetchedAt": "2026-11-23",
   "freeCashFlow": -129273000.0,
   "operatingIncome": -177933000.0,
   "sharesYoY": 0.38912474075087267,
@@ -1748,7 +1757,7 @@
  "EBAY": {
   "assetsYoY": -0.09062742060418283,
   "companyName": "eBay Inc.",
-  "fetchedAt": "2026-11-16",
+  "fetchedAt": "2026-11-23",
   "freeCashFlow": 1434000000.0,
   "operatingIncome": 2277000000.0,
   "sharesYoY": -0.04670912951167727,
@@ -1946,7 +1955,7 @@
  "EWTX": {
   "assetsYoY": 0.135134968581623,
   "companyName": "Edgewise Therapeutics, Inc.",
-  "fetchedAt": "2026-11-16",
+  "fetchedAt": "2026-11-23",
   "freeCashFlow": -144072000.0,
   "operatingIncome": -191406000.0,
   "sharesYoY": 0.12032156867657484,
@@ -3260,11 +3269,11 @@
  "MPWR": {
   "assetsYoY": 0.19294975684206994,
   "companyName": "Monolithic Power Systems, Inc.",
-  "fetchedAt": "2026-10-09",
+  "fetchedAt": "2026-11-23",
   "freeCashFlow": 663261000.0,
   "operatingIncome": 728636000.0,
   "sharesYoY": 0.018526650356523122,
-  "shortPctFloat": 0.052199997
+  "shortPctFloat": 0.044
  },
  "MRK": {
   "assetsYoY": 0.16873601694191587,
@@ -4322,11 +4331,11 @@
  "RELY": {
   "assetsYoY": 0.4401764884175774,
   "companyName": "Remitly Global, Inc.",
-  "fetchedAt": "2026-10-16",
+  "fetchedAt": "2026-11-23",
   "freeCashFlow": 283262000.0,
   "operatingIncome": 77468000.0,
   "sharesYoY": 0.05031995322343974,
-  "shortPctFloat": 0.0999
+  "shortPctFloat": 0.0951
  },
  "RGA": {
   "assetsYoY": 0.3194859911523067,
@@ -5168,11 +5177,11 @@
  "TNGX": {
   "assetsYoY": 0.25971588539362767,
   "companyName": "Tango Therapeutics, Inc.",
-  "fetchedAt": "2026-10-15",
+  "fetchedAt": "2026-11-23",
   "freeCashFlow": -139934000.0,
   "operatingIncome": -111289000.0,
   "sharesYoY": 0.26187025943340236,
-  "shortPctFloat": 0.2669
+  "shortPctFloat": 0.2883
  },
  "TNK": {
   "assetsYoY": 0.13561820657680368,
@@ -5479,6 +5488,15 @@
   "operatingIncome": 916369000.0,
   "sharesYoY": 0.007346870234399505,
   "shortPctFloat": 0.026099999
+ },
+ "VERX": {
+  "assetsYoY": 0.0891710683404312,
+  "companyName": "Vertex, Inc.",
+  "fetchedAt": "2026-11-23",
+  "freeCashFlow": 47589000.0,
+  "operatingIncome": -14669000.0,
+  "sharesYoY": 0.01323975666715449,
+  "shortPctFloat": 0.0713
  },
  "VET": {
   "assetsYoY": -0.1261297382290728,
@@ -5897,10 +5915,10 @@
  "ZS": {
   "assetsYoY": 0.225366236918775,
   "companyName": "Zscaler, Inc.",
-  "fetchedAt": "2026-10-09",
+  "fetchedAt": "2026-11-23",
   "freeCashFlow": 779143000.0,
   "operatingIncome": -121139000.0,
   "sharesYoY": 0.030031395885054435,
-  "shortPctFloat": 0.061
+  "shortPctFloat": 0.0552
  }
 }
