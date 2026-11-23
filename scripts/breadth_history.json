@@ -1,20 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-07-23",
-      "stage2Count": 11,
-      "breakoutCount": 0,
-      "breakoutTickers": [],
-      "spy": {
-        "price": 738.18,
-        "sma50": 744.06
-      },
-      "qqq": {
-        "price": 691.96,
-        "sma50": 718.32
-      }
-    },
-    {
       "date": "2026-07-24",
       "stage2Count": 10,
       "breakoutCount": 1,
@@ -3331,6 +3317,36 @@
     },
     {
       "date": "2026-11-22",
+      "stage2Count": 171,
+      "breakoutCount": 15,
+      "breakoutTickers": [
+        "ADT",
+        "ARX",
+        "BOX",
+        "BRZE",
+        "BWIN",
+        "FCN",
+        "GME",
+        "OGN",
+        "RPRX",
+        "SGRY",
+        "TGT",
+        "UTZ",
+        "VIA",
+        "VRNS",
+        "XERS"
+      ],
+      "spy": {
+        "price": 689.81,
+        "sma50": 760.03
+      },
+      "qqq": {
+        "price": 608.45,
+        "sma50": 710.88
+      }
+    },
+    {
+      "date": "2026-11-23",
       "stage2Count": 171,
       "breakoutCount": 15,
       "breakoutTickers": [
