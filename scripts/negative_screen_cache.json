@@ -38,7 +38,7 @@
  "ABBV": {
   "assetsYoY": -0.008885699277158321,
   "companyName": "AbbVie Inc.",
-  "fetchedAt": "2026-11-16",
+  "fetchedAt": "2026-11-24",
   "freeCashFlow": 17816000000.0,
   "operatingIncome": 20091000000.0,
   "sharesYoY": 0.0014836644300355584,
@@ -308,11 +308,11 @@
  "AMGN": {
   "assetsYoY": -0.013643441239560516,
   "companyName": "Amgen Inc.",
-  "fetchedAt": "2026-10-13",
+  "fetchedAt": "2026-11-24",
   "freeCashFlow": 8100000000.0,
   "operatingIncome": 9080000000.0,
   "sharesYoY": 0.003351955307262511,
-  "shortPctFloat": 0.025999999
+  "shortPctFloat": 0.0233
  },
  "AMLX": {
   "assetsYoY": 0.7179059462697668,
@@ -740,11 +740,11 @@
  "BAX": {
   "assetsYoY": -0.22213171980451474,
   "companyName": "Baxter International Inc.",
-  "fetchedAt": "2026-10-13",
+  "fetchedAt": "2026-11-24",
   "freeCashFlow": 323000000.0,
   "operatingIncome": 177000000.0,
   "sharesYoY": 0.006564571804018815,
-  "shortPctFloat": 0.0744
+  "shortPctFloat": 0.0722
  },
  "BB": {
   "assetsYoY": -0.03890089533806729,
@@ -1244,7 +1244,7 @@
  "CMBT": {
   "assetsYoY": 1.1524903931989532,
   "companyName": "CMB.TECH NV",
-  "fetchedAt": "2026-11-17",
+  "fetchedAt": "2026-11-24",
   "freeCashFlow": -587772000.0,
   "operatingIncome": 369940000.0,
   "sharesYoY": 0.49405054922247094,
@@ -1559,7 +1559,7 @@
  "DFTX": {
   "assetsYoY": 0.456556489966937,
   "companyName": "Definium Therapeutics, Inc.",
-  "fetchedAt": "2026-11-16",
+  "fetchedAt": "2026-11-24",
   "freeCashFlow": -131560000.0,
   "operatingIncome": -166309000.0,
   "sharesYoY": 0.3152498197654796,
@@ -1627,6 +1627,15 @@
   "operatingIncome": 222104000.0,
   "sharesYoY": 0.033126597757361154,
   "shortPctFloat": 0.1436
+ },
+ "DLTR": {
+  "assetsYoY": -0.27771937352499465,
+  "companyName": "Dollar Tree, Inc.",
+  "fetchedAt": "2026-11-24",
+  "freeCashFlow": 1400000000.0,
+  "operatingIncome": 1653100000.0,
+  "sharesYoY": -0.07705488991441234,
+  "shortPctFloat": 0.0668
  },
  "DNTH": {
   "assetsYoY": 0.41954717546148745,
@@ -1811,7 +1820,7 @@
  "EG": {
   "assetsYoY": 0.10956497044780877,
   "companyName": "Everest Group, Ltd.",
-  "fetchedAt": "2026-11-16",
+  "fetchedAt": "2026-11-24",
   "freeCashFlow": 3068000000.0,
   "operatingIncome": 2038000000.0,
   "sharesYoY": -0.053016752412858636,
@@ -1901,7 +1910,7 @@
  "EQNR": {
   "assetsYoY": 0.0044684728650841166,
   "companyName": "Equinor ASA",
-  "fetchedAt": "2026-11-17",
+  "fetchedAt": "2026-11-24",
   "freeCashFlow": 5977000000.0,
   "operatingIncome": 24730000000.0,
   "sharesYoY": -0.0833193630460598,
@@ -1910,11 +1919,11 @@
  "ERAS": {
   "assetsYoY": -0.21167461982066604,
   "companyName": "Erasca, Inc.",
-  "fetchedAt": "2026-10-13",
+  "fetchedAt": "2026-11-24",
   "freeCashFlow": -105083000.0,
   "operatingIncome": -131405000.0,
   "sharesYoY": 0.0033215786333387065,
-  "shortPctFloat": 0.1118
+  "shortPctFloat": 0.1174
  },
  "ERO": {
   "assetsYoY": 0.3195068956151734,
@@ -2636,6 +2645,15 @@
   "sharesYoY": 0.033130990415335404,
   "shortPctFloat": 0.146
  },
+ "INSM": {
+  "assetsYoY": 0.11817269239903982,
+  "companyName": "Insmed Incorporated",
+  "fetchedAt": "2026-11-24",
+  "freeCashFlow": -967575000.0,
+  "operatingIncome": -994776000.0,
+  "sharesYoY": 0.19440687778948051,
+  "shortPctFloat": 0.0723
+ },
  "INSP": {
   "assetsYoY": 0.12238505757790552,
   "companyName": "Inspire Medical Systems, Inc.",
@@ -3098,7 +3116,7 @@
  "MCK": {
   "assetsYoY": 0.09559488953952622,
   "companyName": "McKesson Corporation",
-  "fetchedAt": "2026-11-17",
+  "fetchedAt": "2026-11-24",
   "freeCashFlow": 5410000000.0,
   "operatingIncome": 6454000000.0,
   "sharesYoY": -0.040000000000000036,
@@ -3125,7 +3143,7 @@
  "MEOH": {
   "assetsYoY": 0.10391343139421627,
   "companyName": "Methanex Corporation",
-  "fetchedAt": "2026-11-17",
+  "fetchedAt": "2026-11-24",
   "freeCashFlow": 916567000.0,
   "operatingIncome": 463078000.0,
   "sharesYoY": 0.14755214361518743,
@@ -3773,11 +3791,11 @@
  "ONC": {
   "assetsYoY": 0.38299231030365255,
   "companyName": "BeOne Medicines Ltd.",
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-11-24",
   "freeCashFlow": 861050000.0,
   "operatingIncome": 447136000.0,
   "sharesYoY": 0.040607509244852125,
-  "shortPctFloat": 0.0211
+  "shortPctFloat": 0.0197
  },
  "ONDS": {
   "assetsYoY": 9.334066154604002,
@@ -4223,11 +4241,11 @@
  "PTGX": {
   "assetsYoY": -0.10277216422169255,
   "companyName": "Protagonist Therapeutics, Inc.",
-  "fetchedAt": "2026-10-15",
+  "fetchedAt": "2026-11-24",
   "freeCashFlow": 56081000.0,
   "operatingIncome": -158127000.0,
   "sharesYoY": 0.025276554215760916,
-  "shortPctFloat": 0.16780001
+  "shortPctFloat": 0.1823
  },
  "PTRN": {
   "assetsYoY": 0.42626071984371383,
@@ -4336,6 +4354,15 @@
   "operatingIncome": 77468000.0,
   "sharesYoY": 0.05031995322343974,
   "shortPctFloat": 0.0951
+ },
+ "REPL": {
+  "assetsYoY": -0.3971138777642347,
+  "companyName": "Replimune Group, Inc.",
+  "fetchedAt": "2026-11-24",
+  "freeCashFlow": -284567000.0,
+  "operatingIncome": -318315000.0,
+  "sharesYoY": 0.07306087107140291,
+  "shortPctFloat": 0.36130002
  },
  "RGA": {
   "assetsYoY": 0.3194859911523067,
@@ -4588,6 +4615,15 @@
   "operatingIncome": 135386000.0,
   "sharesYoY": 0.3964054893515332,
   "shortPctFloat": 0.259
+ },
+ "SEPN": {
+  "assetsYoY": 0.3058411491302233,
+  "companyName": "Septerna, Inc.",
+  "fetchedAt": "2026-11-24",
+  "freeCashFlow": 109671000.0,
+  "operatingIncome": -80797000.0,
+  "sharesYoY": 0.008639022045244804,
+  "shortPctFloat": 0.1333
  },
  "SEZL": {
   "assetsYoY": 0.34137586636815787,
@@ -5110,6 +5146,15 @@
   "operatingIncome": 108083000.0,
   "sharesYoY": 0.18519074689178017,
   "shortPctFloat": null
+ },
+ "TGLS": {
+  "assetsYoY": 0.239752598736239,
+  "companyName": "Tecnoglass Holdings Inc.",
+  "fetchedAt": "2026-11-24",
+  "freeCashFlow": 34493000.0,
+  "operatingIncome": 235914000.0,
+  "sharesYoY": -0.047962487219512906,
+  "shortPctFloat": 0.12100001
  },
  "TGT": {
   "assetsYoY": 0.029791064411708756,
