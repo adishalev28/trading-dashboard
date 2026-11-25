@@ -224,6 +224,15 @@
   "sharesYoY": -0.02047517683576716,
   "shortPctFloat": 0.0448
  },
+ "AJG": {
+  "assetsYoY": 0.09975877363629282,
+  "companyName": "Arthur J. Gallagher & Co.",
+  "fetchedAt": "2026-11-25",
+  "freeCashFlow": 1785000000.0,
+  "operatingIncome": 2556000000.0,
+  "sharesYoY": 0.028000000000000025,
+  "shortPctFloat": 0.033299997
+ },
  "ALAB": {
   "assetsYoY": 0.45264236971175187,
   "companyName": "Astera Labs, Inc.",
@@ -764,6 +773,15 @@
   "sharesYoY": -0.0018845839774013218,
   "shortPctFloat": 0.0026
  },
+ "BBIO": {
+  "assetsYoY": 0.018151104381631145,
+  "companyName": "BridgeBio Pharma, Inc.",
+  "fetchedAt": "2026-11-25",
+  "freeCashFlow": -455502000.0,
+  "operatingIncome": -502064000.0,
+  "sharesYoY": 0.02487567212754449,
+  "shortPctFloat": 0.1174
+ },
  "BBVA": {
   "assetsYoY": 0.1128609195729684,
   "companyName": "Banco Bilbao Vizcaya Argentaria",
@@ -893,11 +911,11 @@
  "BLCO": {
   "assetsYoY": 0.04105724255698262,
   "companyName": "Bausch + Lomb Corporation",
-  "fetchedAt": "2026-11-16",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": -66000000.0,
   "operatingIncome": 188000000.0,
   "sharesYoY": 0.005127505185308356,
-  "shortPctFloat": 0.056399997
+  "shortPctFloat": 0.0555
  },
  "BMNR": {
   "assetsYoY": 1206.7798681680856,
@@ -1532,11 +1550,11 @@
  "DBX": {
   "assetsYoY": -0.14444243955250813,
   "companyName": "Dropbox, Inc.",
-  "fetchedAt": "2026-10-13",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 930400000.0,
   "operatingIncome": 687800000.0,
   "sharesYoY": -0.17911456573166606,
-  "shortPctFloat": 0.2987
+  "shortPctFloat": 0.383
  },
  "DDOG": {
   "assetsYoY": 0.1483932056531172,
@@ -2223,13 +2241,13 @@
   "shortPctFloat": 0.120799996
  },
  "GFF": {
-  "assetsYoY": -0.12961744512968199,
+  "assetsYoY": -0.17192878343996298,
   "companyName": "Griffon Corporation",
-  "fetchedAt": "2026-11-18",
-  "freeCashFlow": 303583000.0,
-  "operatingIncome": 449889000.0,
-  "sharesYoY": -0.04051508187897235,
-  "shortPctFloat": 0.0495
+  "fetchedAt": "2026-11-25",
+  "freeCashFlow": 267129000.0,
+  "operatingIncome": 419814000.0,
+  "sharesYoY": -0.02660251154360682,
+  "shortPctFloat": 0.0493
  },
  "GGB": {
   "assetsYoY": -0.05904910370207428,
@@ -2243,11 +2261,11 @@
  "GH": {
   "assetsYoY": 0.35544345786812004,
   "companyName": "Guardant Health, Inc.",
-  "fetchedAt": "2026-10-13",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": -233066000.0,
   "operatingIncome": -437248000.0,
   "sharesYoY": 0.053561419735079774,
-  "shortPctFloat": 0.0925
+  "shortPctFloat": 0.0769
  },
  "GILD": {
   "assetsYoY": 0.000474616492923019,
@@ -2477,11 +2495,11 @@
  "HPQ": {
   "assetsYoY": 0.046606028715327374,
   "companyName": "HP Inc.",
-  "fetchedAt": "2026-11-17",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 2800000000.0,
   "operatingIncome": 3624000000.0,
   "sharesYoY": -0.018999157604615124,
-  "shortPctFloat": 0.099
+  "shortPctFloat": 0.1079
  },
  "HRMY": {
   "assetsYoY": 0.27264911929543634,
@@ -3215,11 +3233,11 @@
  "MHK": {
   "assetsYoY": 0.0746515918816002,
   "companyName": "Mohawk Industries, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 616200000.0,
   "operatingIncome": 509700000.0,
   "sharesYoY": -0.01757188498402551,
-  "shortPctFloat": 0.2469
+  "shortPctFloat": 0.2573
  },
  "MKSI": {
   "assetsYoY": 0.023981373690337593,
@@ -3373,6 +3391,15 @@
   "operatingIncome": 30946000.0,
   "sharesYoY": 0.0024394694922043048,
   "shortPctFloat": 0.1031
+ },
+ "MSI": {
+  "assetsYoY": 0.32846865364850975,
+  "companyName": "Motorola Solutions, Inc.",
+  "fetchedAt": "2026-11-25",
+  "freeCashFlow": 2572000000.0,
+  "operatingIncome": 2959000000.0,
+  "sharesYoY": -0.008378216636744429,
+  "shortPctFloat": 0.020299999
  },
  "MSM": {
   "assetsYoY": -0.00010112443056586873,
@@ -3971,11 +3998,11 @@
  "PATH": {
   "assetsYoY": 0.10956384564107391,
   "companyName": "UiPath, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 352160000.0,
   "operatingIncome": 56760000.0,
   "sharesYoY": -0.029764043960273767,
-  "shortPctFloat": 0.24159999
+  "shortPctFloat": 0.2366
  },
  "PAY": {
   "assetsYoY": 0.15902555674910235,
@@ -4268,11 +4295,11 @@
  "PVH": {
   "assetsYoY": 0.05871370046767943,
   "companyName": "PVH Corp.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 538400000.0,
   "operatingIncome": 656500000.0,
   "sharesYoY": -0.1397566416715179,
-  "shortPctFloat": 0.1183
+  "shortPctFloat": 0.0975
  },
  "PWR": {
   "assetsYoY": 0.33413842960145246,
@@ -4493,11 +4520,11 @@
  "RRC": {
   "assetsYoY": 0.010108367612884361,
   "companyName": "Range Resources Corporation",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 533021000.0,
   "operatingIncome": 865337000.0,
   "sharesYoY": -0.02165270281981979,
-  "shortPctFloat": 0.0935
+  "shortPctFloat": 0.0761
  },
  "RS": {
   "assetsYoY": 0.03507353968349003,
@@ -5006,11 +5033,11 @@
  "SWKS": {
   "assetsYoY": 0.19196665403561952,
   "companyName": "Skyworks Solutions, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 198800000.0,
   "operatingIncome": 340900000.0,
   "sharesYoY": 0.0026899798251514007,
-  "shortPctFloat": 0.13430001
+  "shortPctFloat": 0.1221
  },
  "SXT": {
   "assetsYoY": 0.10887619985038,
@@ -5132,11 +5159,11 @@
  "TEVA": {
   "assetsYoY": 0.036159283934292796,
   "companyName": "Teva Pharmaceutical Industries ",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 1148000000.0,
   "operatingIncome": 3952000000.0,
   "sharesYoY": 0.01408860815473556,
-  "shortPctFloat": 0.0239
+  "shortPctFloat": 0.0229
  },
  "TFX": {
   "assetsYoY": -0.021228067852047783,
@@ -5489,6 +5516,15 @@
   "sharesYoY": 0.04755026189303013,
   "shortPctFloat": 0.0682
  },
+ "V": {
+  "assetsYoY": -0.05286719463599221,
+  "companyName": "Visa Inc.",
+  "fetchedAt": "2026-11-25",
+  "freeCashFlow": 22057000000.0,
+  "operatingIncome": 29874000000.0,
+  "sharesYoY": -0.029188653350427973,
+  "shortPctFloat": 0.0126
+ },
  "VAC": {
   "assetsYoY": -0.005199836867862961,
   "companyName": "Marriott Vacations Worldwide Co",
@@ -5663,7 +5699,7 @@
  "VOYA": {
   "assetsYoY": 0.0913423109543654,
   "companyName": "Voya Financial, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 1288000000.0,
   "operatingIncome": 1084000000.0,
   "sharesYoY": -0.017326663753145177,
