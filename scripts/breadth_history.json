@@ -1,22 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-07-25",
-      "stage2Count": 10,
-      "breakoutCount": 1,
-      "breakoutTickers": [
-        "EES"
-      ],
-      "spy": {
-        "price": 738.93,
-        "sma50": 744.11
-      },
-      "qqq": {
-        "price": 684.23,
-        "sma50": 717.87
-      }
-    },
-    {
       "date": "2026-07-27",
       "stage2Count": 10,
       "breakoutCount": 1,
@@ -3413,6 +3397,46 @@
       "qqq": {
         "price": 635.65,
         "sma50": 708.37
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "stage2Count": 211,
+      "breakoutCount": 25,
+      "breakoutTickers": [
+        "ADT",
+        "AMRX",
+        "ANF",
+        "APPN",
+        "ASO",
+        "AVPT",
+        "BRZE",
+        "CON",
+        "ELVN",
+        "FLYW",
+        "GMAB",
+        "HOG",
+        "KSS",
+        "LTH",
+        "MAN",
+        "PGNY",
+        "PLGO",
+        "PRCH",
+        "SGRY",
+        "SN",
+        "UTZ",
+        "VFC",
+        "VIA",
+        "VRNS",
+        "WWW"
+      ],
+      "spy": {
+        "price": 718.78,
+        "sma50": 758.56
+      },
+      "qqq": {
+        "price": 638.1,
+        "sma50": 708.42
       }
     }
   ]

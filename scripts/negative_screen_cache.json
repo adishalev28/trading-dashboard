@@ -155,7 +155,7 @@
  "ADMA": {
   "assetsYoY": 0.27740966444161597,
   "companyName": "ADMA Biologics Inc",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 27505000.0,
   "operatingIncome": 191443000.0,
   "sharesYoY": 0.005299417258970429,
@@ -209,7 +209,7 @@
  "AEO": {
   "assetsYoY": 0.04670203809934015,
   "companyName": "American Eagle Outfitters, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 195387000.0,
   "operatingIncome": 327825000.0,
   "sharesYoY": -0.10423183365320388,
@@ -344,7 +344,7 @@
  "ANET": {
   "assetsYoY": 0.38484324154971206,
   "companyName": "Arista Networks, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 4252400000.0,
   "operatingIncome": 3856100000.0,
   "sharesYoY": -0.0038324504056815867,
@@ -389,7 +389,7 @@
  "APPF": {
   "assetsYoY": 0.0993955428465656,
   "companyName": "AppFolio, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 235510000.0,
   "operatingIncome": 152917000.0,
   "sharesYoY": -0.01137237666190527,
@@ -425,7 +425,7 @@
  "ARGX": {
   "assetsYoY": 0.39986573203609765,
   "companyName": "argenx SE",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 573512000.0,
   "operatingIncome": 1054615000.0,
   "sharesYoY": 0.018471549090314676,
@@ -497,7 +497,7 @@
  "ASND": {
   "assetsYoY": 0.10434550379611607,
   "companyName": "Ascendis Pharma A/S",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 45412000.0,
   "operatingIncome": -136271000.0,
   "sharesYoY": 0.025678802745824125,
@@ -533,7 +533,7 @@
  "ATAT": {
   "assetsYoY": 0.16356421156788326,
   "companyName": "Atour Lifestyle Holdings Limite",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 1906793000.0,
   "operatingIncome": 2306677000.0,
   "sharesYoY": -0.005251300823262195,
@@ -1073,7 +1073,7 @@
  "CAT": {
   "assetsYoY": 0.12329656806891198,
   "companyName": "Caterpillar, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 7453000000.0,
   "operatingIncome": 11151000000.0,
   "sharesYoY": -0.026457092986093778,
@@ -1451,7 +1451,7 @@
  "CSTM": {
   "assetsYoY": 0.13096746937051118,
   "companyName": "Constellium SE",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 159000000.0,
   "operatingIncome": 474000000.0,
   "sharesYoY": -0.056427113566808296,
@@ -1739,7 +1739,7 @@
  "DXCM": {
   "assetsYoY": -0.022299329169558124,
   "companyName": "DexCom, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 1077200000.0,
   "operatingIncome": 911800000.0,
   "sharesYoY": -0.015101100588686966,
@@ -1892,7 +1892,7 @@
  "EOG": {
   "assetsYoY": 0.09776204806510402,
   "companyName": "EOG Resources, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 3450000000.0,
   "operatingIncome": 7250000000.0,
   "sharesYoY": -0.035064543714757646,
@@ -2189,7 +2189,7 @@
  "FTNT": {
   "assetsYoY": 0.06412922125144682,
   "companyName": "Fortinet, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 2225800000.0,
   "operatingIncome": 2084700000.0,
   "sharesYoY": -0.0312907431551499,
@@ -2270,7 +2270,7 @@
  "GLBE": {
   "assetsYoY": 0.1577426508648323,
   "companyName": "Global-E Online Ltd.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 280683000.0,
   "operatingIncome": 71670000.0,
   "sharesYoY": -0.00048277294296639184,
@@ -2546,6 +2546,15 @@
   "sharesYoY": 0.034476723836191825,
   "shortPctFloat": null
  },
+ "IBN": {
+  "assetsYoY": 0.10304000127288293,
+  "companyName": "ICICI Bank Limited",
+  "fetchedAt": "2026-11-25",
+  "freeCashFlow": 635954240000.0,
+  "operatingIncome": null,
+  "sharesYoY": 0.005361573426671429,
+  "shortPctFloat": 0.0089
+ },
  "IBRX": {
   "assetsYoY": 0.31066792363154905,
   "companyName": "ImmunityBio, Inc.",
@@ -2594,7 +2603,7 @@
  "IMAX": {
   "assetsYoY": 0.07662951982061617,
   "companyName": "Imax Corporation",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 85152000.0,
   "operatingIncome": 94403000.0,
   "sharesYoY": 0.018423909553471285,
@@ -2720,7 +2729,7 @@
  "ISRG": {
   "assetsYoY": 0.09152652695377528,
   "companyName": "Intuitive Surgical, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 2490700000.0,
   "operatingIncome": 2945500000.0,
   "sharesYoY": -0.004206393718451995,
@@ -2792,7 +2801,7 @@
  "KNTK": {
   "assetsYoY": 0.041185120273305564,
   "companyName": "Kinetik Holdings Inc.",
-  "fetchedAt": "2026-11-17",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 74449000.0,
   "operatingIncome": 164927000.0,
   "sharesYoY": 0.06926966370597665,
@@ -2972,7 +2981,7 @@
  "LQDA": {
   "assetsYoY": 0.42386230911846057,
   "companyName": "Liquidia Corporation",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": -42022000.0,
   "operatingIncome": -51376000.0,
   "sharesYoY": 0.02977069924832554,
@@ -3080,7 +3089,7 @@
  "MAS": {
   "assetsYoY": 0.036881977671451294,
   "companyName": "Masco Corporation",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 866000000.0,
   "operatingIncome": 1253000000.0,
   "sharesYoY": -0.0385882352941177,
@@ -3350,7 +3359,7 @@
  "MSGE": {
   "assetsYoY": 0.15894198373259272,
   "companyName": "Madison Square Garden Entertain",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 323092000.0,
   "operatingIncome": 169304000.0,
   "sharesYoY": -0.003247038792235757,
@@ -3476,7 +3485,7 @@
  "NBIX": {
   "assetsYoY": 0.24546212386048882,
   "companyName": "Neurocrine Biosciences, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 748700000.0,
   "operatingIncome": 636500000.0,
   "sharesYoY": 0.007042253521126751,
@@ -3710,7 +3719,7 @@
  "NVT": {
   "assetsYoY": 0.017372195578256644,
   "companyName": "nVent Electric plc",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 371900000.0,
   "operatingIncome": 616800000.0,
   "sharesYoY": -0.01995292195509324,
@@ -4124,7 +4133,7 @@
  "PGR": {
   "assetsYoY": 0.16354437562059676,
   "companyName": "Progressive Corporation (The)",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 17200000000.0,
   "operatingIncome": 14501000000.0,
   "sharesYoY": 0.00017064846416392498,
@@ -4178,7 +4187,7 @@
  "PLTR": {
   "assetsYoY": 0.403651604413517,
   "companyName": "Palantir Technologies Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 2100591000.0,
   "operatingIncome": 1414015000.0,
   "sharesYoY": 0.022403334085871807,
@@ -4430,7 +4439,7 @@
  "RNG": {
   "assetsYoY": -0.1676625242362798,
   "companyName": "Ringcentral, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 530213000.0,
   "operatingIncome": 120551000.0,
   "sharesYoY": -0.06083687911991009,
@@ -4448,7 +4457,7 @@
  "ROIV": {
   "assetsYoY": 0.04998160730116563,
   "companyName": "Roivant Sciences Ltd.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": -758558000.0,
   "operatingIncome": -1285303000.0,
   "sharesYoY": 0.03508078545632842,
@@ -4466,7 +4475,7 @@
  "ROP": {
   "assetsYoY": 0.10347314638404059,
   "companyName": "Roper Technologies, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 2435600000.0,
   "operatingIncome": 2235400000.0,
   "sharesYoY": -0.006523765144454852,
@@ -4475,7 +4484,7 @@
  "RPRX": {
   "assetsYoY": 0.07672100452649344,
   "companyName": "Royalty Pharma plc",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 2489823000.0,
   "operatingIncome": 1559518000.0,
   "sharesYoY": -0.03882641792885411,
@@ -4511,7 +4520,7 @@
  "RVMD": {
   "assetsYoY": -0.07965950840030156,
   "companyName": "Revolution Medicines, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": -913731000.0,
   "operatingIncome": -1182369000.0,
   "sharesYoY": 0.05973629698764027,
@@ -4520,7 +4529,7 @@
  "RVTY": {
   "assetsYoY": -0.01808088745447034,
   "companyName": "Revvity, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 509411000.0,
   "operatingIncome": 356635000.0,
   "sharesYoY": -0.06933507948875217,
@@ -4529,7 +4538,7 @@
  "RXO": {
   "assetsYoY": -0.04012888107791446,
   "companyName": "RXO, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": -8000000.0,
   "operatingIncome": -7000000.0,
   "sharesYoY": 0.010109711599401994,
@@ -4538,7 +4547,7 @@
  "S": {
   "assetsYoY": 0.013079312314963953,
   "companyName": "SentinelOne, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 51686000.0,
   "operatingIncome": -309044000.0,
   "sharesYoY": 0.037465073196266685,
@@ -4547,7 +4556,7 @@
  "SAIC": {
   "assetsYoY": 0.020587113991612727,
   "companyName": "Science Applications Internatio",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 577000000.0,
   "operatingIncome": 521000000.0,
   "sharesYoY": -0.08333333333333337,
@@ -4556,7 +4565,7 @@
  "SAIL": {
   "assetsYoY": 0.025046829996454356,
   "companyName": "SailPoint, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 51750000.0,
   "operatingIncome": -307486000.0,
   "sharesYoY": 0.03150826511300675,
@@ -4628,7 +4637,7 @@
  "SEZL": {
   "assetsYoY": 0.34137586636815787,
   "companyName": "Sezzle Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 207212000.0,
   "operatingIncome": 162768000.0,
   "sharesYoY": 0.0018534199341619928,
@@ -4655,7 +4664,7 @@
  "SGRY": {
   "assetsYoY": 0.029112801013941647,
   "companyName": "Surgery Partners, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 195600000.0,
   "operatingIncome": 470800000.0,
   "sharesYoY": 0.01740045422138503,
@@ -4673,7 +4682,7 @@
  "SHO": {
   "assetsYoY": -0.024989707526365312,
   "companyName": "Sunstone Hotel Investors, Inc. ",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 181760000.0,
   "operatingIncome": 75716000.0,
   "sharesYoY": -0.05534907201515504,
@@ -4682,7 +4691,7 @@
  "SHOP": {
   "assetsYoY": 0.09085033036483758,
   "companyName": "Shopify Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 2007000000.0,
   "operatingIncome": 1885000000.0,
   "sharesYoY": 0.007202459484047408,
@@ -4709,7 +4718,7 @@
  "SIRI": {
   "assetsYoY": -0.01031939246393665,
   "companyName": "SiriusXM Holdings Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 1245000000.0,
   "operatingIncome": 1907000000.0,
   "sharesYoY": -0.012445055637991476,
@@ -4754,7 +4763,7 @@
  "SKWD": {
   "assetsYoY": 0.2848586316905475,
   "companyName": "Skyward Specialty Insurance Gro",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 400622000.0,
   "operatingIncome": 224343000.0,
   "sharesYoY": 0.009552304595594752,
@@ -4763,7 +4772,7 @@
  "SLDE": {
   "assetsYoY": 0.5106497295187655,
   "companyName": "Slide Insurance Holdings, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 794575000.0,
   "operatingIncome": 592870000.0,
   "sharesYoY": -0.00836152119735778,
@@ -4772,7 +4781,7 @@
  "SLS": {
   "assetsYoY": 3.0317517496912307,
   "companyName": "SELLAS Life Sciences Group, Inc",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": -28389000.0,
   "operatingIncome": -28274000.0,
   "sharesYoY": 1.0695960779080016,
@@ -4817,7 +4826,7 @@
  "SN": {
   "assetsYoY": 0.21739654846353984,
   "companyName": "SharkNinja, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 474353000.0,
   "operatingIncome": 920281000.0,
   "sharesYoY": 0.005775595358934904,
@@ -4853,7 +4862,7 @@
  "SPGI": {
   "assetsYoY": 0.016256787499377312,
   "companyName": "S&P Global Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 5456000000.0,
   "operatingIncome": 6177000000.0,
   "sharesYoY": -0.0292397660818714,
@@ -4871,7 +4880,7 @@
  "SPNT": {
   "assetsYoY": 0.0035688907695869965,
   "companyName": "SiriusPoint Ltd.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 102400000.0,
   "operatingIncome": 621000000.0,
   "sharesYoY": 0.004816168870971804,
@@ -4880,7 +4889,7 @@
  "SPOT": {
   "assetsYoY": 0.25072886297376096,
   "companyName": "Spotify Technology S.A.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 2872000000.0,
   "operatingIncome": 2198000000.0,
   "sharesYoY": 0.009753115181098782,
@@ -4907,7 +4916,7 @@
  "STGW": {
   "assetsYoY": 0.0783799073798539,
   "companyName": "Stagwell Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 179798000.0,
   "operatingIncome": 159467000.0,
   "sharesYoY": 1.196591987600895,
@@ -4952,7 +4961,7 @@
  "STX": {
   "assetsYoY": 0.2429265860650629,
   "companyName": "Seagate Technology Holdings PLC",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 3105000000.0,
   "operatingIncome": 4226000000.0,
   "sharesYoY": 0.06738868159944689,
@@ -4988,7 +4997,7 @@
  "SWK": {
   "assetsYoY": -0.027699334977962287,
   "companyName": "Stanley Black & Decker, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 687900000.0,
   "operatingIncome": 1255400000.0,
   "sharesYoY": 0.004297890744875632,
@@ -5015,7 +5024,7 @@
  "SYNA": {
   "assetsYoY": -0.1866584120105247,
   "companyName": "Synaptics Incorporated",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 101400000.0,
   "operatingIncome": -57000000.0,
   "sharesYoY": 0.010866588958278633,
@@ -5024,7 +5033,7 @@
  "SYRE": {
   "assetsYoY": 0.2782275294009373,
   "companyName": "Spyre Therapeutics, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": -169252000.0,
   "operatingIncome": -219562000.0,
   "sharesYoY": 0.2976049447381428,
@@ -5033,7 +5042,7 @@
  "TAK": {
   "assetsYoY": 0.08865324980924094,
   "companyName": "Takeda Pharmaceutical Company L",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 626772000000.0,
   "operatingIncome": 464451000000.0,
   "sharesYoY": 0.003931741741706629,
@@ -5051,7 +5060,7 @@
  "TBBB": {
   "assetsYoY": 0.34023047912805016,
   "companyName": "BBB Foods Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 1108297000.0,
   "operatingIncome": -675230000.0,
   "sharesYoY": 0.040413151598128305,
@@ -5105,7 +5114,7 @@
  "TENB": {
   "assetsYoY": 0.003184627456563005,
   "companyName": "Tenable Holdings, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 250174000.0,
   "operatingIncome": -6055000.0,
   "sharesYoY": -0.010426239369078827,
@@ -5132,7 +5141,7 @@
  "TFX": {
   "assetsYoY": -0.021228067852047783,
   "companyName": "Teleflex Incorporated",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 245441000.0,
   "operatingIncome": 255804000.0,
   "sharesYoY": -0.04493534064054572,
@@ -5159,7 +5168,7 @@
  "TGT": {
   "assetsYoY": 0.029791064411708756,
   "companyName": "Target Corporation",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 2835000000.0,
   "operatingIncome": 5117000000.0,
   "sharesYoY": -0.005985525795168756,
@@ -5168,7 +5177,7 @@
  "TGTX": {
   "assetsYoY": 0.8405251951738821,
   "companyName": "TG Therapeutics, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": -24986000.0,
   "operatingIncome": 123324000.0,
   "sharesYoY": -0.0034029500811415536,
@@ -5204,7 +5213,7 @@
  "TMO": {
   "assetsYoY": 0.13380462592862785,
   "companyName": "Thermo Fisher Scientific Inc",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 6293000000.0,
   "operatingIncome": 8110000000.0,
   "sharesYoY": -0.011956856314795594,
@@ -5213,7 +5222,7 @@
  "TNET": {
   "assetsYoY": -0.07817431415392084,
   "companyName": "TriNet Group, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 234000000.0,
   "operatingIncome": 273000000.0,
   "sharesYoY": -0.043401256667355725,
@@ -5240,7 +5249,7 @@
  "TOST": {
   "assetsYoY": 0.30606312292358795,
   "companyName": "Toast, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 608000000.0,
   "operatingIncome": 304000000.0,
   "sharesYoY": 0.029720279720279796,
@@ -5258,7 +5267,7 @@
  "TREX": {
   "assetsYoY": 0.05784272839158433,
   "companyName": "Trex Company, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 124538000.0,
   "operatingIncome": 257961000.0,
   "sharesYoY": -0.013224284362630123,
@@ -5285,7 +5294,7 @@
  "TRMD": {
   "assetsYoY": -0.029571132118976218,
   "companyName": "TORM plc",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 188600000.0,
   "operatingIncome": 337300000.0,
   "sharesYoY": 0.041224814705363766,
@@ -5294,7 +5303,7 @@
  "TRV": {
   "assetsYoY": 0.0789779936781565,
   "companyName": "The Travelers Companies, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 10606000000.0,
   "operatingIncome": 8221000000.0,
   "sharesYoY": -0.04015887025595766,
@@ -5357,11 +5366,11 @@
  "TWST": {
   "assetsYoY": 0.7477428913736774,
   "companyName": "Twist Bioscience Corporation",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": -95964000.0,
   "operatingIncome": -132250000.0,
   "sharesYoY": 0.1184542560736257,
-  "shortPctFloat": 0.1871
+  "shortPctFloat": 0.18190001
  },
  "TX": {
   "assetsYoY": 0.02103651388044403,
@@ -5375,7 +5384,7 @@
  "TXG": {
   "assetsYoY": 0.13359916223618495,
   "companyName": "10x Genomics, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 130115000.0,
   "operatingIncome": -110885000.0,
   "sharesYoY": 0.044152513630161705,
@@ -5393,7 +5402,7 @@
  "TXRH": {
   "assetsYoY": 0.11241549477416024,
   "companyName": "Texas Roadhouse, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 336071000.0,
   "operatingIncome": 475089000.0,
   "sharesYoY": -0.009476523382947688,
@@ -5402,7 +5411,7 @@
  "U": {
   "assetsYoY": 0.014872042018539089,
   "companyName": "Unity Software Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 400931000.0,
   "operatingIncome": -479053000.0,
   "sharesYoY": 0.057322534302067574,
@@ -5429,7 +5438,7 @@
  "ULTA": {
   "assetsYoY": 0.1662199316092976,
   "companyName": "Ulta Beauty, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 1067951000.0,
   "operatingIncome": 1548813000.0,
   "sharesYoY": -0.03913847492657452,
@@ -5465,7 +5474,7 @@
  "UTHR": {
   "assetsYoY": 0.07007061379684965,
   "companyName": "United Therapeutics Corporation",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 1035200000.0,
   "operatingIncome": 1517200000.0,
   "sharesYoY": -0.026502484669975956,
@@ -5474,7 +5483,7 @@
  "UTZ": {
   "assetsYoY": 0.025964963825333198,
   "companyName": "Utz Brands Inc",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 9400000.0,
   "operatingIncome": 10300000.0,
   "sharesYoY": 0.04755026189303013,
@@ -5483,7 +5492,7 @@
  "VAC": {
   "assetsYoY": -0.005199836867862961,
   "companyName": "Marriott Vacations Worldwide Co",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": -29000000.0,
   "operatingIncome": 554000000.0,
   "sharesYoY": -0.021615162025837242,
@@ -5501,7 +5510,7 @@
  "VCEL": {
   "assetsYoY": 0.127673194337242,
   "companyName": "Vericel Corporation",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 24748000.0,
   "operatingIncome": 11044000.0,
   "sharesYoY": 0.019988716047392607,
@@ -5510,7 +5519,7 @@
  "VCTR": {
   "assetsYoY": 0.6673987308009801,
   "companyName": "Victory Capital Holdings, Inc. ",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 381328000.0,
   "operatingIncome": 554979000.0,
   "sharesYoY": 0.007797139914950346,
@@ -5528,7 +5537,7 @@
  "VEEV": {
   "assetsYoY": 0.22338440133432225,
   "companyName": "Veeva Systems Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 1415225000.0,
   "operatingIncome": 916369000.0,
   "sharesYoY": 0.007346870234399505,
@@ -5555,7 +5564,7 @@
  "VFC": {
   "assetsYoY": -0.009315773354535817,
   "companyName": "V.F. Corporation",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 505468000.0,
   "operatingIncome": 607285000.0,
   "sharesYoY": 0.004670829932395426,
@@ -5573,7 +5582,7 @@
  "VIA": {
   "assetsYoY": 0.9354672636884223,
   "companyName": "Via Transportation, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": -36783000.0,
   "operatingIncome": -76616000.0,
   "sharesYoY": 0.022251573675776903,
@@ -5600,7 +5609,7 @@
  "VIK": {
   "assetsYoY": 0.20868370075740916,
   "companyName": "Viking Holdings Ltd",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 1533456000.0,
   "operatingIncome": 1501534000.0,
   "sharesYoY": 0.0066785183558881744,
@@ -5627,7 +5636,7 @@
  "VLO": {
   "assetsYoY": -0.035831268809337735,
   "companyName": "Valero Energy Corporation",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 5030000000.0,
   "operatingIncome": 4312000000.0,
   "sharesYoY": -0.050572888676215566,
@@ -5636,7 +5645,7 @@
  "VLTO": {
   "assetsYoY": 0.20090540118638778,
   "companyName": "Veralto Corp",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 1014000000.0,
   "operatingIncome": 1277000000.0,
   "sharesYoY": 0.004042037186742009,
@@ -5645,7 +5654,7 @@
  "VNT": {
   "assetsYoY": 0.013525113095928631,
   "companyName": "Vontier Corporation",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 441100000.0,
   "operatingIncome": 561600000.0,
   "sharesYoY": -0.04755525787006032,
@@ -5663,7 +5672,7 @@
  "VRDN": {
   "assetsYoY": 0.21149564320187286,
   "companyName": "Viridian Therapeutics, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": -276886000.0,
   "operatingIncome": -363395000.0,
   "sharesYoY": 0.25720969662387283,
@@ -5672,7 +5681,7 @@
  "VRNS": {
   "assetsYoY": 0.07651199471241221,
   "companyName": "Varonis Systems, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 131910000.0,
   "operatingIncome": -146514000.0,
   "sharesYoY": 0.044395282757315746,
@@ -5699,7 +5708,7 @@
  "VSXY": {
   "assetsYoY": 0.10613415710503094,
   "companyName": "Victorias Secret & Co.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 312000000.0,
   "operatingIncome": 271000000.0,
   "sharesYoY": 0.016062329113924134,
@@ -5708,7 +5717,7 @@
  "VTRS": {
   "assetsYoY": -0.1038001585507784,
   "companyName": "Viatris Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 1850800000.0,
   "operatingIncome": 253500000.0,
   "sharesYoY": -0.03554879923930121,
@@ -5780,7 +5789,7 @@
  "WPP": {
   "assetsYoY": -0.05621545336939904,
   "companyName": "WPP plc",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 538000000.0,
   "operatingIncome": 382000000.0,
   "sharesYoY": -0.00022067506087752875,
@@ -5798,7 +5807,7 @@
  "WST": {
   "assetsYoY": 0.17198221441510686,
   "companyName": "West Pharmaceutical Services, I",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 468900000.0,
   "operatingIncome": 636100000.0,
   "sharesYoY": -0.003548934993084396,
@@ -5825,7 +5834,7 @@
  "WWW": {
   "assetsYoY": 0.020843287147634948,
   "companyName": "Wolverine World Wide, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 125500000.0,
   "operatingIncome": 150200000.0,
   "sharesYoY": 0.010676801484693854,
@@ -5834,7 +5843,7 @@
  "XERS": {
   "assetsYoY": 0.1871695660248871,
   "companyName": "Xeris Biopharma Holdings, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 27930000.0,
   "operatingIncome": 24896000.0,
   "sharesYoY": 0.11233397762863406,
@@ -5843,7 +5852,7 @@
  "XHR": {
   "assetsYoY": -0.00810173413344184,
   "companyName": "Xenia Hotels & Resorts, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 89905000.0,
   "operatingIncome": 107302000.0,
   "sharesYoY": -0.09037798636829375,
@@ -5852,7 +5861,7 @@
  "XMTR": {
   "assetsYoY": 0.03468606690789544,
   "companyName": "Xometry, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": -24094000.0,
   "operatingIncome": -45467000.0,
   "sharesYoY": 0.031205846487014854,
@@ -5861,7 +5870,7 @@
  "XNCR": {
   "assetsYoY": -0.08030926156448115,
   "companyName": "Xencor, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": -138267000.0,
   "operatingIncome": -177502000.0,
   "sharesYoY": 0.022999665737247987,
@@ -5888,7 +5897,7 @@
  "YOU": {
   "assetsYoY": 0.09076667124154336,
   "companyName": "Clear Secure, Inc.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 343112000.0,
   "operatingIncome": 186478000.0,
   "sharesYoY": 0.008902715301184694,
@@ -5933,7 +5942,7 @@
  "ZETA": {
   "assetsYoY": 0.35285273261092365,
   "companyName": "Zeta Global Holdings Corp.",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 164994000.0,
   "operatingIncome": 28805000.0,
   "sharesYoY": 0.031822287033456576,
@@ -5942,7 +5951,7 @@
  "ZIM": {
   "assetsYoY": -0.03348698362526892,
   "companyName": "ZIM Integrated Shipping Service",
-  "fetchedAt": "2026-11-18",
+  "fetchedAt": "2026-11-25",
   "freeCashFlow": 2081800000.0,
   "operatingIncome": 988900000.0,
   "sharesYoY": 0.00035354444142488006,
