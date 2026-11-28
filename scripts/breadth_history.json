@@ -1,22 +1,6 @@
 {
   "snapshots": [
     {
-      "date": "2026-07-29",
-      "stage2Count": 9,
-      "breakoutCount": 1,
-      "breakoutTickers": [
-        "CCBC"
-      ],
-      "spy": {
-        "price": 729.46,
-        "sma50": 743.82
-      },
-      "qqq": {
-        "price": 661.73,
-        "sma50": 715.44
-      }
-    },
-    {
       "date": "2026-07-30",
       "stage2Count": 10,
       "breakoutCount": 3,
@@ -3499,6 +3483,61 @@
         "OKTA",
         "PCTY",
         "PGNY",
+        "RPRX",
+        "SAIC",
+        "SGRY",
+        "SIRI",
+        "STGW",
+        "SYNA",
+        "TGTX",
+        "XHR"
+      ],
+      "spy": {
+        "price": 728.32,
+        "sma50": 757.2
+      },
+      "qqq": {
+        "price": 650.99,
+        "sma50": 705.72
+      }
+    },
+    {
+      "date": "2026-11-28",
+      "stage2Count": 239,
+      "breakoutCount": 40,
+      "breakoutTickers": [
+        "ALKS",
+        "ALRM",
+        "AMLX",
+        "AMPL",
+        "AMRX",
+        "APLE",
+        "ATEN",
+        "AZTA",
+        "BBY",
+        "BDX",
+        "BHC",
+        "BIIB",
+        "BRZE",
+        "CBC",
+        "CHYM",
+        "CPAY",
+        "CROX",
+        "DOCU",
+        "DRH",
+        "DXC",
+        "ELVN",
+        "EWTX",
+        "FCN",
+        "GCT",
+        "INTA",
+        "MAN",
+        "MHK",
+        "OGN",
+        "OKTA",
+        "PCTY",
+        "PGNY",
+        "PRGO",
         "RPRX",
         "SAIC",
         "SGRY",
